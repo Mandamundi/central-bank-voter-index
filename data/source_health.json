@@ -1,0 +1,6 @@
+{
+  "kansascity": {
+    "reason": "2 consecutive connection/server failures: Failed to perform, curl: (28) Operation timed out after 19992 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "retry_after": "2026-10-02T05:38:38.069303+00:00"
+  }
+}

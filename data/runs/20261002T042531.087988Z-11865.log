@@ -1,0 +1,69 @@
+Saved log: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042531.087988Z-11865.log
+kansascity: gathering full archive listing...
+2026-10-02 12:25:33,250 INFO   GET https://www.kansascityfed.org/sitemap.xml (attempt 1/2, elapsed 0s)
+  kansascity: 250 archive URLs found
+  kansascity: 500 archive URLs found
+  kansascity: 750 archive URLs found
+kansascity: 776 URLs; 25 selected; 80 already stored.
+2026-10-02 12:25:34,078 INFO   kansascity 1/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Denver-Forums-10-06/
+2026-10-02 12:25:34,255 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Denver-Forums-10-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:35,233 INFO kansascity https://www.kansascityfed.org/speeches/2009-Hoenig-Denver-Forums-10-06/ metadata_failure: metadata missing: date, speaker (date=None, speaker=None)
+  metadata_failure: https://www.kansascityfed.org/speeches/2009-Hoenig-Denver-Forums-10-06/: metadata missing: date, speaker (date=None, speaker=None)
+2026-10-02 12:25:35,233 INFO   kansascity 2/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Resoltuion-Process-09-03/
+2026-10-02 12:25:35,260 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Resoltuion-Process-09-03/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:36,114 INFO kansascity https://www.kansascityfed.org/speeches/2009-Hoenig-Resoltuion-Process-09-03/ metadata_failure: metadata missing: date, speaker (date=None, speaker=None)
+  metadata_failure: https://www.kansascityfed.org/speeches/2009-Hoenig-Resoltuion-Process-09-03/: metadata missing: date, speaker (date=None, speaker=None)
+2026-10-02 12:25:36,114 INFO   kansascity 3/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Leverage-Debt-08-06/
+2026-10-02 12:25:36,265 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Leverage-Debt-08-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:37,670 INFO   kansascity 4/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Capitalism-Process-06-30/
+2026-10-02 12:25:37,670 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Capitalism-Process-06-30/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:38,652 INFO   kansascity 5/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Economy-Risk-06-03/
+2026-10-02 12:25:38,674 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Economy-Risk-06-03/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:39,497 INFO   kansascity 6/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Future-Retail-05-25/
+2026-10-02 12:25:39,679 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Future-Retail-05-25/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:40,459 INFO   kansascity 7/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Crisis-Management-05-04/
+2026-10-02 12:25:40,684 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Crisis-Management-05-04/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:41,440 INFO   kansascity 8/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Innocative-Response-04-17/
+2026-10-02 12:25:41,689 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Innocative-Response-04-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:42,527 INFO   kansascity 9/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Success-Depends-04-09/
+2026-10-02 12:25:42,694 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Success-Depends-04-09/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:43,712 INFO kansascity https://www.kansascityfed.org/speeches/2009-Hoenig-Success-Depends-04-09/ excluded: not a speech (slide deck)
+2026-10-02 12:25:43,712 INFO   kansascity 10/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Success-Depends-materials-04-09/
+2026-10-02 12:25:43,712 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Success-Depends-materials-04-09/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:44,657 INFO kansascity https://www.kansascityfed.org/speeches/2009-Hoenig-Success-Depends-materials-04-09/ excluded: not a speech (slide deck)
+2026-10-02 12:25:44,657 INFO   kansascity 11/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Crisis-reaction-04-02/
+2026-10-02 12:25:44,717 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Crisis-reaction-04-02/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:45,728 INFO   kansascity 12/25: https://www.kansascityfed.org/speeches/2009-Hoenig-Too-Big-03-06/
+2026-10-02 12:25:45,728 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Too-Big-03-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:46,659 INFO   kansascity 13/25: https://www.kansascityfed.org/speeches/2009-Hoenig-US-Econ-Outlook-01-07/
+2026-10-02 12:25:46,733 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-US-Econ-Outlook-01-07/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:47,569 INFO   kansascity 14/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Global-Financial-11-17/
+2026-10-02 12:25:47,735 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Global-Financial-11-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:48,683 INFO   kansascity 15/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Financial-Crisis-10-13/
+2026-10-02 12:25:48,740 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Financial-Crisis-10-13/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:49,505 INFO   kansascity 16/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Central-Banks-09-01/
+2026-10-02 12:25:49,745 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Central-Banks-09-01/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:50,629 INFO kansascity https://www.kansascityfed.org/speeches/2008-Hoenig-Central-Banks-09-01/ excluded: not a speech (multi-speaker transcript)
+2026-10-02 12:25:50,630 INFO   kansascity 17/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Challenging-times-07-16/
+2026-10-02 12:25:50,750 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Challenging-times-07-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:51,535 INFO   kansascity 18/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Monetary-Policy-05-06/
+2026-10-02 12:25:51,755 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Monetary-Policy-05-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:52,625 INFO   kansascity 19/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Perspectives-recent-03-05/
+2026-10-02 12:25:52,760 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Perspectives-recent-03-05/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:53,612 INFO   kansascity 20/25: https://www.kansascityfed.org/speeches/2008-Hoenig-Econ-Outlook-01-10/
+2026-10-02 12:25:53,765 INFO   GET https://www.kansascityfed.org/speeches/2008-Hoenig-Econ-Outlook-01-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:54,592 INFO   kansascity 21/25: https://www.kansascityfed.org/speeches/2007-Hoenig-Perspectives-Housing-11-15/
+2026-10-02 12:25:54,770 INFO   GET https://www.kansascityfed.org/speeches/2007-Hoenig-Perspectives-Housing-11-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:55,559 INFO   kansascity 22/25: https://www.kansascityfed.org/speeches/2007-Hoenig-Maintaining-Stability-11-06/
+2026-10-02 12:25:55,775 INFO   GET https://www.kansascityfed.org/speeches/2007-Hoenig-Maintaining-Stability-11-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:56,618 INFO   kansascity 23/25: https://www.kansascityfed.org/speeches/2007-Hoenig-Community-Banks-08-07/
+2026-10-02 12:25:56,780 INFO   GET https://www.kansascityfed.org/speeches/2007-Hoenig-Community-Banks-08-07/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:57,545 INFO   kansascity 24/25: https://www.kansascityfed.org/speeches/2007-Hoenig-Oklahoma-Banks-06-12/
+2026-10-02 12:25:57,785 INFO   GET https://www.kansascityfed.org/speeches/2007-Hoenig-Oklahoma-Banks-06-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 12:25:58,682 INFO   kansascity 25/25: https://www.kansascityfed.org/speeches/2007-Hoenig-Recent-Economic-06-06/
+2026-10-02 12:25:58,790 INFO   GET https://www.kansascityfed.org/speeches/2007-Hoenig-Recent-Economic-06-06/ (attempt 1/2, elapsed 0s)
+  kansascity: 25/25 checked; saved=20, excluded=3, failures=2
+kansascity: stored=20, duplicate=0, excluded=3, metadata_failure=2, extraction_failure=0, request_failure=0, http_failure=0, remaining=669, deferred_failure=1; limited
+Run partial: 20 added; 4518 speeches stored.
+Run report: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042531.087988Z-11865.json
+Speech store now holds 4518 speeches. Next: python score.py

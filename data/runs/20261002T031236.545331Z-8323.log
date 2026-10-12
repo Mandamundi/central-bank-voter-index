@@ -1,0 +1,18 @@
+Saved log: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031236.545331Z-8323.log
+chicago: gathering full archive listing...
+2026-10-02 11:12:38,410 INFO   GET https://www.chicagofed.org/sitemap.xml (attempt 1/2, elapsed 0s)
+2026-10-02 11:12:58,416 INFO   request failed after 20.0s: Failed to perform, curl: (28) Operation timed out after 20002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-10-02 11:12:58,417 INFO   retrying in 5s
+2026-10-02 11:13:03,422 INFO   GET https://www.chicagofed.org/sitemap.xml (attempt 2/2, elapsed 25s)
+  chicago: 250 archive URLs found
+chicago: 330 URLs; 2 selected; 60 already stored.
+2026-10-02 11:13:03,577 INFO   chicago 1/2: https://www.chicagofed.org/publications/speeches/2026/sept-30-norc
+2026-10-02 11:13:04,425 INFO   GET https://www.chicagofed.org/publications/speeches/2026/sept-30-norc (attempt 1/2, elapsed 1s)
+2026-10-02 11:13:04,824 INFO chicago https://www.chicagofed.org/publications/speeches/2026/sept-30-norc excluded: not a speech (video event without prepared text)
+2026-10-02 11:13:04,824 INFO   chicago 2/2: https://www.chicagofed.org/publications/speeches/2026/sept-29-illinois-manufacturers-association
+2026-10-02 11:13:05,430 INFO   GET https://www.chicagofed.org/publications/speeches/2026/sept-29-illinois-manufacturers-association (attempt 1/2, elapsed 1s)
+2026-10-02 11:13:05,795 INFO chicago https://www.chicagofed.org/publications/speeches/2026/sept-29-illinois-manufacturers-association excluded: not a speech (video event without prepared text)
+chicago: stored=0, duplicate=0, excluded=2, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=268, deferred_failure=0; limited
+Run partial: 0 added; 3633 speeches stored.
+Run report: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031236.545331Z-8323.json
+Speech store now holds 3633 speeches. Next: python score.py

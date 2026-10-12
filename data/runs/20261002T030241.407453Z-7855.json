@@ -1,0 +1,255 @@
+{
+  "started_at": "2026-10-02T03:02:44.533168+00:00",
+  "status": "partial",
+  "collector_version": "v3.2",
+  "full_archive": true,
+  "repair": {
+    "quarantined": 0,
+    "restored": 0,
+    "joint_author_exclusions": 0,
+    "reclassified_timeouts": 0
+  },
+  "sources": {
+    "board": {
+      "status": "limited",
+      "listed": 1985,
+      "eligible": 30,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 1954,
+        "deferred_failure": 1,
+        "extraction_failure": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 28
+      },
+      "current_url": "https://www.federalreserve.gov/boarddocs/speeches/1996/19961125.htm",
+      "stored": 0,
+      "remaining": 28
+    },
+    "ny": {
+      "status": "limited",
+      "listed": 705,
+      "eligible": 22,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 682,
+        "deferred_failure": 1,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 20
+      },
+      "current_url": "https://www.newyorkfed.org/newsevents/speeches/2026/cet260715",
+      "stored": 0,
+      "remaining": 20
+    },
+    "boston": {
+      "status": "limited",
+      "listed": 290,
+      "eligible": 13,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 277,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 11
+      },
+      "current_url": "https://www.bostonfed.org/news-and-events/speeches/2024/a-conversation-with-susan-m-collins-and-the-boston-foundations-lee-pelton.aspx",
+      "stored": 0,
+      "remaining": 11
+    },
+    "philadelphia": {
+      "status": "limited",
+      "listed": 58,
+      "eligible": 10,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 48,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 8
+      },
+      "current_url": "https://www.philadelphiafed.org/the-economy/monetary-policy/250605-in-final-speech-as-philadelphia-fed-president-harker-calls-for-continued-deliberate-actions",
+      "stored": 0,
+      "remaining": 8
+    },
+    "cleveland": {
+      "status": "limited",
+      "listed": 161,
+      "eligible": 11,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 149,
+        "deferred_failure": 1,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 9
+      },
+      "current_url": "https://www.clevelandfed.org/collections/speeches/sp-20260501-statement-regarding-april-fomc-meeting-vote",
+      "stored": 0,
+      "remaining": 9
+    },
+    "richmond": {
+      "status": "limited",
+      "listed": 297,
+      "eligible": 5,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 292,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 3
+      },
+      "current_url": "https://www.richmondfed.org/publications/research/econ_focus/2021/q1/presidents_message",
+      "stored": 0,
+      "remaining": 3
+    },
+    "atlanta": {
+      "status": "limited",
+      "listed": 157,
+      "eligible": 136,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 21,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 134
+      },
+      "current_url": "https://www.atlantafed.org/news-and-events/speeches/2026/02/09/bostic-remarks-at-farm-journals-top-producer-summit",
+      "stored": 0,
+      "remaining": 134
+    },
+    "chicago": {
+      "status": "listing_incomplete",
+      "listed": 160,
+      "eligible": 107,
+      "selected": 2,
+      "listing_error": "https://www.chicagofed.org/publications/speeches/2020/index: HTTP Error 404: ; https://www.chicagofed.org/publications/speeches/2022/index: HTTP Error 404: ; https://www.chicagofed.org/publications/speeches/2023/index: HTTP Error 404: ; https://www.chicagofed.org/publications/speeches/2024/index: HTTP Error 404: ; https://www.chicagofed.org/publications/speeches/2025/index: HTTP Error 404: ; https://www.chicagofed.org/publications/speeches/2026/index: HTTP Error 404: ",
+      "counts": {
+        "already_stored": 53,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 105
+      },
+      "current_url": "https://www.chicagofed.org/publications/speeches/2026/june-25-chicago-council",
+      "stored": 0,
+      "remaining": 105
+    },
+    "stlouis": {
+      "status": "limited",
+      "listed": 49,
+      "eligible": 25,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 24,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 23
+      },
+      "current_url": "https://www.stlouisfed.org/from-the-president/remarks/2026/kentucky-indiana-visit-june-2026",
+      "stored": 0,
+      "remaining": 23
+    },
+    "minneapolis": {
+      "status": "limited",
+      "listed": 332,
+      "eligible": 309,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 23,
+        "attempted": 2,
+        "excluded": 1,
+        "stored": 1,
+        "duplicate": 0,
+        "not_attempted": 307
+      },
+      "current_url": "https://www.minneapolisfed.org/speeches/2020/neel-kashkari-at-best-buy",
+      "stored": 1,
+      "remaining": 307
+    },
+    "kansascity": {
+      "status": "limited",
+      "listed": 776,
+      "eligible": 697,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 78,
+        "deferred_failure": 1,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 695
+      },
+      "current_url": "https://www.kansascityfed.org/speeches/2016-Felix-RockSpringsEconForum-10-06/",
+      "stored": 0,
+      "remaining": 695
+    },
+    "dallas": {
+      "status": "limited",
+      "listed": 277,
+      "eligible": 274,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 3,
+        "attempted": 2,
+        "stored": 2,
+        "duplicate": 0,
+        "not_attempted": 272
+      },
+      "current_url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260527",
+      "stored": 2,
+      "remaining": 272
+    },
+    "sanfrancisco": {
+      "status": "limited",
+      "listed": 307,
+      "eligible": 304,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 3,
+        "attempted": 2,
+        "stored": 2,
+        "duplicate": 0,
+        "not_attempted": 302
+      },
+      "current_url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/08/investing-in-a-durable-economic-future/",
+      "stored": 2,
+      "remaining": 302
+    }
+  },
+  "log": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T030241.407453Z-7855.log",
+  "report": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T030241.407453Z-7855.json",
+  "finished_at": "2026-10-02T03:05:34.048505+00:00",
+  "added": 5,
+  "speech_count": 3622
+}

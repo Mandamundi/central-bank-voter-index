@@ -25,4 +25,14 @@ START_DATE = None                       # first output date (ISO); None = first 
 
 # Speech collection
 REQUEST_PAUSE = 1.0                     # seconds between requests to the Fed and Reserve Bank sites
-MIN_TEXT_CHARS = 1000                   # pages with less text than this are video/Q&A pages, not speeches
+MIN_TEXT_CHARS = 1000                   # shorter text needs explicit prepared-remarks cues
+
+# Collector outcomes are separate from the legacy seen list. Bump after extraction changes.
+PROCESSING = DATA / "processing.json"
+COLLECTOR_VERSION = "v3.4"
+HTTP_CONNECT_TIMEOUT = 5
+HTTP_READ_TIMEOUT = 15
+HTTP_RETRY_BUDGET = 45
+
+SOURCE_FAILURE_LIMIT = 2
+SOURCE_PAUSE_MINUTES = 60

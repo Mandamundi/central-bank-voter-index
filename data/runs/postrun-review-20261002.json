@@ -1,0 +1,479 @@
+{
+  "collector_version": "v3.4",
+  "original_run_report": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031556.387915Z-8729.json",
+  "original_added": 624,
+  "original_speech_count": 4257,
+  "original_kansascity_unattempted": 478,
+  "recovery_reports": [
+    "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T041508.122279Z-11080.json",
+    "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042452.485951Z-11814.json",
+    "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042531.087988Z-11865.json",
+    "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042737.323388Z-11908.json"
+  ],
+  "recovery_added": 275,
+  "essays_quarantined": 13,
+  "speech_count": 4519,
+  "archive_complete": false,
+  "remaining_failed_outcomes": [
+    {
+      "url": "https://www.atlantafed.org/news-and-events/speeches/2020/05/04/tkac-monetary-policy",
+      "attempts": 2,
+      "collector_version": "v3.3",
+      "entry": {
+        "date": "2020-05-04",
+        "pdf": null,
+        "source": "atlanta",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.atlantafed.org/news-and-events/speeches/2020/05/04/tkac-monetary-policy"
+      },
+      "http_status": 404,
+      "last_attempt": "2026-10-02T03:20:02.076744+00:00",
+      "reason": "HTTP Error 404: ",
+      "retry_after": "2026-10-09T03:20:02.076744+00:00",
+      "source": "atlanta",
+      "status": "http_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-01-13",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.491933+00:00",
+      "reason": "metadata missing: speaker (date=2010-01-10, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.491933+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-03-04",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.520701+00:00",
+      "reason": "metadata missing: speaker (date=2010-03-03, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.520701+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-03-09",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.551424+00:00",
+      "reason": "metadata missing: speaker (date=2010-03-09, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.551424+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/03-30-irrna-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-03-30",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/03-30-irrna-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.585136+00:00",
+      "reason": "metadata missing: speaker (date=2010-03-30, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.585136+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/05-14-wesleyan-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-05-14",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/05-14-wesleyan-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.612531+00:00",
+      "reason": "metadata missing: speaker (date=2010-05-14, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.612531+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/06-03-korea-speech",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-06-03",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/06-03-korea-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.641110+00:00",
+      "reason": "metadata missing: speaker (date=2010-06-01, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.641110+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/06-08-ucc-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-06-08",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/06-08-ucc-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.669528+00:00",
+      "reason": "metadata missing: speaker (date=2010-06-08, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.669528+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/08-24-indianapolis-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-08-24",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/08-24-indianapolis-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.699969+00:00",
+      "reason": "metadata missing: speaker (date=2010-08-24, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.699969+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/09-01-reo-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-09-01",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/09-01-reo-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.726929+00:00",
+      "reason": "metadata missing: speaker (date=2010-09-01, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.726929+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/09-03-otc-speech",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": "2010-09-03",
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2010/09-03-otc-speech"
+      },
+      "last_attempt": "2026-10-02T04:27:39.752899+00:00",
+      "reason": "metadata missing: speaker (date=2010-09-03, speaker=None)",
+      "retry_after": "2026-10-03T04:27:39.752899+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2013/test",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2013/test"
+      },
+      "last_attempt": "2026-10-02T04:27:39.782868+00:00",
+      "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
+      "retry_after": "2026-10-03T04:27:39.782868+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2015/cautious-approach-to-monetary-policy-normalization",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2015/cautious-approach-to-monetary-policy-normalization"
+      },
+      "last_attempt": "2026-10-02T04:27:39.816606+00:00",
+      "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
+      "retry_after": "2026-10-03T04:27:39.816606+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2015/marquette-thoughts-on-leadership-and-monetary-policy",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2015/marquette-thoughts-on-leadership-and-monetary-policy"
+      },
+      "last_attempt": "2026-10-02T04:27:39.849162+00:00",
+      "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
+      "retry_after": "2026-10-03T04:27:39.849162+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2015/monetary-policy-avoiding-hazards-cfa-milwaukee-evans",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2015/monetary-policy-avoiding-hazards-cfa-milwaukee-evans"
+      },
+      "last_attempt": "2026-10-02T04:27:39.882975+00:00",
+      "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
+      "retry_after": "2026-10-03T04:27:39.882975+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2015/risks-call-for-gradual-approach-normalizing-monetary-policy-chicago",
+      "attempts": 5,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "chicago",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.chicagofed.org/publications/speeches/2015/risks-call-for-gradual-approach-normalizing-monetary-policy-chicago"
+      },
+      "last_attempt": "2026-10-02T04:27:39.914760+00:00",
+      "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
+      "retry_after": "2026-10-03T04:27:39.914760+00:00",
+      "source": "chicago",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2016-george-kc-07-01/",
+      "attempts": 7,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/2016-george-kc-07-01/"
+      },
+      "last_attempt": "2026-10-02T04:27:40.733665+00:00",
+      "reason": "metadata missing: date (date=None, speaker=Esther L. George)",
+      "retry_after": "2026-10-03T04:27:40.733665+00:00",
+      "source": "kansascity",
+      "status": "metadata_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/",
+      "attempts": 4,
+      "collector_version": "v3.4",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-02T04:25:02.237382+00:00",
+      "reason": "Publisher returned an error page instead of the speech",
+      "retry_after": "2026-10-03T04:25:02.237382+00:00",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/colorado-economic-forums/",
+      "attempts": 1,
+      "collector_version": "v2",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/colorado-economic-forums/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-01T11:25:07.114623+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 34896 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/colorado-mountain-region-economic-forums/",
+      "attempts": 2,
+      "collector_version": "v3.3",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/colorado-mountain-region-economic-forums/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-02T03:38:08.103443+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 19986 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "retry_after": "2026-10-03T03:38:08.103443+00:00",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/new-mexico-economic-forum/",
+      "attempts": 2,
+      "collector_version": "v3.3",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/new-mexico-economic-forum/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-02T03:37:23.094443+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 19583 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "retry_after": "2026-10-03T03:37:23.094443+00:00",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/us-and-regional-economic-conditions-community-roundtable/",
+      "attempts": 1,
+      "collector_version": "v2",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/us-and-regional-economic-conditions-community-roundtable/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-01T11:27:07.137405+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 34905 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/us-and-regional-economic-update-colorado-housing-and-finance-authority/",
+      "attempts": 1,
+      "collector_version": "v2",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/us-and-regional-economic-update-colorado-housing-and-finance-authority/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-01T11:29:07.159148+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 34893 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/us-and-regional-economic-update-the-economic-forum/",
+      "attempts": 1,
+      "collector_version": "v2",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/us-and-regional-economic-update-the-economic-forum/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-01T11:31:07.209976+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 34935 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "source": "kansascity",
+      "status": "request_failure"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/wyoming-economic-forums/",
+      "attempts": 1,
+      "collector_version": "v2",
+      "entry": {
+        "date": null,
+        "pdf": null,
+        "source": "kansascity",
+        "speaker": null,
+        "title": null,
+        "url": "https://www.kansascityfed.org/speeches/wyoming-economic-forums/"
+      },
+      "http_status": null,
+      "last_attempt": "2026-10-01T11:23:07.056915+00:00",
+      "reason": "Failed to perform, curl: (28) Operation timed out after 34944 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "source": "kansascity",
+      "status": "request_failure"
+    }
+  ],
+  "verification": {
+    "regression_tests_passed": 42,
+    "dependency_lock_check": "passed",
+    "duplicate_ids": 0,
+    "invalid_date_or_speaker_format": 0
+  }
+}

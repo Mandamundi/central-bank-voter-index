@@ -1,0 +1,647 @@
+Saved log: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T025344.513888Z-7176.log
+minneapolis: gathering recent listing...
+minneapolis: 332 URLs; 10 selected; 13 already stored.
+2026-10-02 10:53:46,248 INFO   minneapolis 1/10: https://www.minneapolisfed.org/speeches/2002/economic-literacy-leads-to-better-grasp-of-public-policy-issues
+2026-10-02 10:53:46,248 INFO   GET https://www.minneapolisfed.org/speeches/2002/economic-literacy-leads-to-better-grasp-of-public-policy-issues (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:46,863 INFO   minneapolis 2/10: https://www.minneapolisfed.org/speeches/2008/repercussions-from-the-financial-shock-10092008
+2026-10-02 10:53:47,253 INFO   GET https://www.minneapolisfed.org/speeches/2008/repercussions-from-the-financial-shock-10092008 (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:47,794 INFO   minneapolis 3/10: https://www.minneapolisfed.org/speeches/2010/entrepreneurs-and-the-economy
+2026-10-02 10:53:48,258 INFO   GET https://www.minneapolisfed.org/speeches/2010/entrepreneurs-and-the-economy (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:48,800 INFO   minneapolis 4/10: https://www.minneapolisfed.org/speeches/2011/its-a-wonderful-fed
+2026-10-02 10:53:49,263 INFO   GET https://www.minneapolisfed.org/speeches/2011/its-a-wonderful-fed (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:49,803 INFO   minneapolis 5/10: https://www.minneapolisfed.org/speeches/2012/monetary-policy-transparency-changes-and-challenges-20120607
+2026-10-02 10:53:50,269 INFO   GET https://www.minneapolisfed.org/speeches/2012/monetary-policy-transparency-changes-and-challenges-20120607 (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:50,788 INFO   minneapolis 6/10: https://www.minneapolisfed.org/speeches/2013/a-time-of-testing-20131017
+2026-10-02 10:53:51,274 INFO   GET https://www.minneapolisfed.org/speeches/2013/a-time-of-testing-20131017 (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:51,813 INFO   minneapolis 7/10: https://www.minneapolisfed.org/speeches/2014/clarifying-the-objectives-of-monetary-policy-20141007
+2026-10-02 10:53:52,279 INFO   GET https://www.minneapolisfed.org/speeches/2014/clarifying-the-objectives-of-monetary-policy-20141007 (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:52,885 INFO   minneapolis 8/10: https://www.minneapolisfed.org/speeches/2015/discussion-of-should-the-fomc-have-a-ternary-mandate
+2026-10-02 10:53:53,284 INFO   GET https://www.minneapolisfed.org/speeches/2015/discussion-of-should-the-fomc-have-a-ternary-mandate (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:53,815 INFO   minneapolis 9/10: https://www.minneapolisfed.org/speeches/2015/we-can-do-better-bismarck
+2026-10-02 10:53:54,289 INFO   GET https://www.minneapolisfed.org/speeches/2015/we-can-do-better-bismarck (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:55,049 INFO   minneapolis 10/10: https://www.minneapolisfed.org/speeches/2025/neel-kashkari-remarks-at-the-bank-of-japans-institute-for-monetary-and-economic-studies-conference
+2026-10-02 10:53:55,294 INFO   GET https://www.minneapolisfed.org/speeches/2025/neel-kashkari-remarks-at-the-bank-of-japans-institute-for-monetary-and-economic-studies-conference (attempt 1/2, elapsed 0s)
+minneapolis: stored=10, duplicate=0, excluded=0, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=229; needs_recovery
+chicago: gathering recent listing...
+chicago: 160 URLs; 10 selected; 50 already stored.
+2026-10-02 10:53:56,435 INFO   chicago 1/10: https://www.chicagofed.org/publications/speeches/2005/11-15-outlook
+2026-10-02 10:53:56,435 INFO   GET https://www.chicagofed.org/publications/speeches/2005/11-15-outlook (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:56,986 INFO   chicago 2/10: https://www.chicagofed.org/publications/speeches/2006/11-08-ball-state
+2026-10-02 10:53:57,440 INFO   GET https://www.chicagofed.org/publications/speeches/2006/11-08-ball-state (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:57,959 INFO   chicago 3/10: https://www.chicagofed.org/publications/speeches/2007/11-27-fia-remarks
+2026-10-02 10:53:58,445 INFO   GET https://www.chicagofed.org/publications/speeches/2007/11-27-fia-remarks (attempt 1/2, elapsed 0s)
+2026-10-02 10:53:58,976 INFO   chicago 4/10: https://www.chicagofed.org/publications/speeches/2009/09-11-fined-speech
+2026-10-02 10:53:59,450 INFO   GET https://www.chicagofed.org/publications/speeches/2009/09-11-fined-speech (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:00,073 INFO chicago https://www.chicagofed.org/publications/speeches/2009/09-11-fined-speech metadata_failure: metadata missing: speaker (date=2009-09-11, speaker=None)
+  metadata_failure: https://www.chicagofed.org/publications/speeches/2009/09-11-fined-speech: metadata missing: speaker (date=2009-09-11, speaker=None)
+2026-10-02 10:54:00,073 INFO   chicago 5/10: https://www.chicagofed.org/publications/speeches/2010/09-23-international-conference-speech
+2026-10-02 10:54:00,455 INFO   GET https://www.chicagofed.org/publications/speeches/2010/09-23-international-conference-speech (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:00,996 INFO chicago https://www.chicagofed.org/publications/speeches/2010/09-23-international-conference-speech metadata_failure: metadata missing: speaker (date=2010-09-23, speaker=None)
+  metadata_failure: https://www.chicagofed.org/publications/speeches/2010/09-23-international-conference-speech: metadata missing: speaker (date=2010-09-23, speaker=None)
+2026-10-02 10:54:00,996 INFO   chicago 6/10: https://www.chicagofed.org/publications/speeches/2011/09-07-dual-mandate
+2026-10-02 10:54:01,460 INFO   GET https://www.chicagofed.org/publications/speeches/2011/09-07-dual-mandate (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:02,031 INFO chicago https://www.chicagofed.org/publications/speeches/2011/09-07-dual-mandate metadata_failure: metadata missing: speaker (date=2011-09-07, speaker=None)
+  metadata_failure: https://www.chicagofed.org/publications/speeches/2011/09-07-dual-mandate: metadata missing: speaker (date=2011-09-07, speaker=None)
+2026-10-02 10:54:02,031 INFO   chicago 7/10: https://www.chicagofed.org/publications/speeches/2012/08-27-12-hongkong
+2026-10-02 10:54:02,465 INFO   GET https://www.chicagofed.org/publications/speeches/2012/08-27-12-hongkong (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:03,066 INFO chicago https://www.chicagofed.org/publications/speeches/2012/08-27-12-hongkong metadata_failure: metadata missing: speaker (date=2012-08-27, speaker=None)
+2026-10-02 10:54:03,066 INFO   chicago 8/10: https://www.chicagofed.org/publications/speeches/2014/02-04-14-detroit-economic-club-monetary-policy-macroprudential-safeguards
+2026-10-02 10:54:03,470 INFO   GET https://www.chicagofed.org/publications/speeches/2014/02-04-14-detroit-economic-club-monetary-policy-macroprudential-safeguards (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:03,935 INFO chicago https://www.chicagofed.org/publications/speeches/2014/02-04-14-detroit-economic-club-monetary-policy-macroprudential-safeguards metadata_failure: metadata missing: speaker (date=2014-02-04, speaker=None)
+2026-10-02 10:54:03,935 INFO   chicago 9/10: https://www.chicagofed.org/publications/speeches/2015/05-04-2015-mananging-risk-manufacturing-cities-broader-us-economy-charles-evans
+2026-10-02 10:54:04,475 INFO   GET https://www.chicagofed.org/publications/speeches/2015/05-04-2015-mananging-risk-manufacturing-cities-broader-us-economy-charles-evans (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:05,115 INFO chicago https://www.chicagofed.org/publications/speeches/2015/05-04-2015-mananging-risk-manufacturing-cities-broader-us-economy-charles-evans metadata_failure: metadata missing: speaker (date=2015-05-04, speaker=None)
+2026-10-02 10:54:05,115 INFO   chicago 10/10: https://www.chicagofed.org/publications/speeches/2023/august-1-chicago-business-week
+2026-10-02 10:54:05,478 INFO   GET https://www.chicagofed.org/publications/speeches/2023/august-1-chicago-business-week (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:05,829 INFO chicago https://www.chicagofed.org/publications/speeches/2023/august-1-chicago-business-week metadata_failure: metadata missing: speaker (date=2023-08-01, speaker=None)
+chicago: stored=3, duplicate=0, excluded=0, metadata_failure=7, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=98; needs_recovery
+atlanta: gathering recent listing...
+atlanta: 157 URLs; 10 selected; 21 already stored.
+2026-10-02 10:54:06,377 INFO   atlanta 1/10: https://www.atlantafed.org/news-and-events/speeches/2020/04/16/bostic-launches-webinar-series
+2026-10-02 10:54:06,483 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/04/16/bostic-launches-webinar-series (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:06,999 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/04/16/bostic-launches-webinar-series excluded: not a speech (discussion, interview, or statement)
+2026-10-02 10:54:06,999 INFO   atlanta 2/10: https://www.atlantafed.org/news-and-events/speeches/2020/04/20/johnson-pandemic-response
+2026-10-02 10:54:07,488 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/04/20/johnson-pandemic-response (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:07,845 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/04/20/johnson-pandemic-response excluded: not a speech (discussion, interview, or statement)
+2026-10-02 10:54:07,845 INFO   atlanta 3/10: https://www.atlantafed.org/news-and-events/speeches/2020/04/27/venable-devine-pandemic-webinar-financial-services
+2026-10-02 10:54:08,493 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/04/27/venable-devine-pandemic-webinar-financial-services (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:08,834 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/04/27/venable-devine-pandemic-webinar-financial-services excluded: not a speech (multi-speaker transcript)
+2026-10-02 10:54:08,834 INFO   atlanta 4/10: https://www.atlantafed.org/news-and-events/speeches/2020/05/07/stein-purviance-pandemic-webinar-housing-policies
+2026-10-02 10:54:09,498 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/05/07/stein-purviance-pandemic-webinar-housing-policies (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:09,867 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/05/07/stein-purviance-pandemic-webinar-housing-policies excluded: not a speech (multi-speaker transcript)
+2026-10-02 10:54:09,867 INFO   atlanta 5/10: https://www.atlantafed.org/news-and-events/speeches/2020/05/11/andreason-discusses-workforce
+2026-10-02 10:54:10,503 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/05/11/andreason-discusses-workforce (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:10,842 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/05/11/andreason-discusses-workforce excluded: not a speech (multi-speaker transcript)
+2026-10-02 10:54:10,842 INFO   atlanta 6/10: https://www.atlantafed.org/news-and-events/speeches/2020/05/27/covid-19-community-impact-survey-webinar
+2026-10-02 10:54:11,508 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/05/27/covid-19-community-impact-survey-webinar (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:11,896 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/05/27/covid-19-community-impact-survey-webinar excluded: not a speech (discussion, interview, or statement)
+2026-10-02 10:54:11,896 INFO   atlanta 7/10: https://www.atlantafed.org/news-and-events/speeches/2020/06/25/bostic-speaks-at-florida-chamber
+2026-10-02 10:54:12,513 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/06/25/bostic-speaks-at-florida-chamber (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:12,856 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/06/25/bostic-speaks-at-florida-chamber excluded: not a speech (multi-speaker transcript)
+2026-10-02 10:54:12,857 INFO   atlanta 8/10: https://www.atlantafed.org/news-and-events/speeches/2020/07/16/bostic-center-on-budget-and-policy-priorities
+2026-10-02 10:54:13,518 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/07/16/bostic-center-on-budget-and-policy-priorities (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:13,903 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/07/16/bostic-center-on-budget-and-policy-priorities excluded: not a speech (multi-speaker transcript)
+2026-10-02 10:54:13,904 INFO   atlanta 9/10: https://www.atlantafed.org/news-and-events/speeches/2020/09/24/bostic-minorities-in-banking
+2026-10-02 10:54:14,523 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/09/24/bostic-minorities-in-banking (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:14,899 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/09/24/bostic-minorities-in-banking excluded: not a speech (multi-speaker transcript)
+2026-10-02 10:54:14,899 INFO   atlanta 10/10: https://www.atlantafed.org/news-and-events/speeches/2020/10/06/leadership-florida-special-council
+2026-10-02 10:54:15,528 INFO   GET https://www.atlantafed.org/news-and-events/speeches/2020/10/06/leadership-florida-special-council (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:15,946 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/10/06/leadership-florida-special-council excluded: not a speech (multi-speaker transcript)
+atlanta: stored=0, duplicate=0, excluded=10, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=112; needs_recovery
+kansascity: gathering recent listing...
+kansascity: 400 URLs; 173 selected; 24 already stored.
+2026-10-02 10:54:16,399 INFO   kansascity 1/173: https://www.kansascityfed.org/speeches/2016-Kauffman-CFA-01-13/
+2026-10-02 10:54:16,533 INFO   GET https://www.kansascityfed.org/speeches/2016-Kauffman-CFA-01-13/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:18,133 INFO kansascity https://www.kansascityfed.org/speeches/2016-Kauffman-CFA-01-13/ excluded: not a speech (slide deck)
+2026-10-02 10:54:18,133 INFO   kansascity 2/173: https://www.kansascityfed.org/speeches/2016-Kauffman-AgAppropriations-03-01/
+2026-10-02 10:54:18,133 INFO   GET https://www.kansascityfed.org/speeches/2016-Kauffman-AgAppropriations-03-01/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:19,502 INFO kansascity https://www.kansascityfed.org/speeches/2016-Kauffman-AgAppropriations-03-01/ excluded: not a speech (statement or testimony)
+2026-10-02 10:54:19,502 INFO   kansascity 3/173: https://www.kansascityfed.org/speeches/2016-Hakkio-WYEconForum-10-05and06/
+2026-10-02 10:54:19,502 INFO   GET https://www.kansascityfed.org/speeches/2016-Hakkio-WYEconForum-10-05and06/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:21,052 INFO kansascity https://www.kansascityfed.org/speeches/2016-Hakkio-WYEconForum-10-05and06/ excluded: not a speech (slide deck)
+2026-10-02 10:54:21,053 INFO   kansascity 4/173: https://www.kansascityfed.org/speeches/2016-Kauffman-NBA-11-04/
+2026-10-02 10:54:21,053 INFO   GET https://www.kansascityfed.org/speeches/2016-Kauffman-NBA-11-04/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:22,313 INFO kansascity https://www.kansascityfed.org/speeches/2016-Kauffman-NBA-11-04/ excluded: not a speech (slide deck)
+2026-10-02 10:54:22,313 INFO   kansascity 5/173: https://www.kansascityfed.org/speeches/2016-Kauffman-NICB-11-10/
+2026-10-02 10:54:22,313 INFO   GET https://www.kansascityfed.org/speeches/2016-Kauffman-NICB-11-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:23,497 INFO kansascity https://www.kansascityfed.org/speeches/2016-Kauffman-NICB-11-10/ excluded: not a speech (slide deck)
+2026-10-02 10:54:23,497 INFO   kansascity 6/173: https://www.kansascityfed.org/speeches/2016-Kauffman-ABA-11-15/
+2026-10-02 10:54:23,497 INFO   GET https://www.kansascityfed.org/speeches/2016-Kauffman-ABA-11-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:24,616 INFO kansascity https://www.kansascityfed.org/speeches/2016-Kauffman-ABA-11-15/ excluded: not a speech (slide deck)
+2026-10-02 10:54:24,617 INFO   kansascity 7/173: https://www.kansascityfed.org/speeches/2017-Kauffman-HouseAg-02-15/
+2026-10-02 10:54:24,617 INFO   GET https://www.kansascityfed.org/speeches/2017-Kauffman-HouseAg-02-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:25,731 INFO kansascity https://www.kansascityfed.org/speeches/2017-Kauffman-HouseAg-02-15/ excluded: not a speech (statement or testimony)
+2026-10-02 10:54:25,731 INFO   kansascity 8/173: https://www.kansascityfed.org/speeches/2017-Kauffman-SenateAgCommittee-05-25/
+2026-10-02 10:54:25,731 INFO   GET https://www.kansascityfed.org/speeches/2017-Kauffman-SenateAgCommittee-05-25/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:27,367 INFO kansascity https://www.kansascityfed.org/speeches/2017-Kauffman-SenateAgCommittee-05-25/ excluded: not a speech (statement or testimony)
+2026-10-02 10:54:27,367 INFO   kansascity 9/173: https://www.kansascityfed.org/speeches/2017-vanzandweghe-EFGreeley-09-28/
+2026-10-02 10:54:27,367 INFO   GET https://www.kansascityfed.org/speeches/2017-vanzandweghe-EFGreeley-09-28/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:28,675 INFO kansascity https://www.kansascityfed.org/speeches/2017-vanzandweghe-EFGreeley-09-28/ excluded: not a speech (slide deck)
+2026-10-02 10:54:28,675 INFO   kansascity 10/173: https://www.kansascityfed.org/speeches/2017-Sly-EFPueblo-10-04/
+2026-10-02 10:54:28,675 INFO   GET https://www.kansascityfed.org/speeches/2017-Sly-EFPueblo-10-04/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:29,810 INFO kansascity https://www.kansascityfed.org/speeches/2017-Sly-EFPueblo-10-04/ excluded: not a speech (slide deck)
+2026-10-02 10:54:29,810 INFO   kansascity 11/173: https://www.kansascityfed.org/speeches/2017-Foerster-EFDurango-11-15/
+2026-10-02 10:54:29,810 INFO   GET https://www.kansascityfed.org/speeches/2017-Foerster-EFDurango-11-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:30,994 INFO kansascity https://www.kansascityfed.org/speeches/2017-Foerster-EFDurango-11-15/ excluded: not a speech (slide deck)
+2026-10-02 10:54:30,994 INFO   kansascity 12/173: https://www.kansascityfed.org/speeches/2018-Brown-WichitaForum04-12/
+2026-10-02 10:54:30,994 INFO   GET https://www.kansascityfed.org/speeches/2018-Brown-WichitaForum04-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:32,141 INFO kansascity https://www.kansascityfed.org/speeches/2018-Brown-WichitaForum04-12/ excluded: not a speech (slide deck)
+2026-10-02 10:54:32,141 INFO   kansascity 13/173: https://www.kansascityfed.org/speeches/2016-Felix-CCV-12-01/
+2026-10-02 10:54:32,141 INFO   GET https://www.kansascityfed.org/speeches/2016-Felix-CCV-12-01/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:32,716 INFO kansascity https://www.kansascityfed.org/speeches/2016-Felix-CCV-12-01/ excluded: not a speech (slide deck)
+2026-10-02 10:54:32,716 INFO   kansascity 14/173: https://www.kansascityfed.org/speeches/2016-george-kc-outlook-monetary-policy-02-02/
+2026-10-02 10:54:33,147 INFO   GET https://www.kansascityfed.org/speeches/2016-george-kc-outlook-monetary-policy-02-02/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:34,165 INFO   kansascity 15/173: https://www.kansascityfed.org/speeches/2016-george-kc-07-01/
+2026-10-02 10:54:34,165 INFO   GET https://www.kansascityfed.org/speeches/2016-george-kc-07-01/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:35,198 INFO kansascity https://www.kansascityfed.org/speeches/2016-george-kc-07-01/ metadata_failure: metadata missing: date (date=None, speaker=Esther L. George)
+  metadata_failure: https://www.kansascityfed.org/speeches/2016-george-kc-07-01/: metadata missing: date (date=None, speaker=Esther L. George)
+2026-10-02 10:54:35,199 INFO   kansascity 16/173: https://www.kansascityfed.org/speeches/040921-agricultural-credit-conditions-update/
+2026-10-02 10:54:35,199 INFO   GET https://www.kansascityfed.org/speeches/040921-agricultural-credit-conditions-update/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:36,439 INFO kansascity https://www.kansascityfed.org/speeches/040921-agricultural-credit-conditions-update/ excluded: not a speech (slide deck)
+2026-10-02 10:54:36,439 INFO   kansascity 17/173: https://www.kansascityfed.org/speeches/2009-Henderson-Economic-Update-11-16/
+2026-10-02 10:54:36,439 INFO   GET https://www.kansascityfed.org/speeches/2009-Henderson-Economic-Update-11-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:37,414 INFO kansascity https://www.kansascityfed.org/speeches/2009-Henderson-Economic-Update-11-16/ extraction_failure: cryptography>=3.1 is required for AES algorithm
+  extraction_failure: https://www.kansascityfed.org/speeches/2009-Henderson-Economic-Update-11-16/: cryptography>=3.1 is required for AES algorithm
+2026-10-02 10:54:37,415 INFO   kansascity 18/173: https://www.kansascityfed.org/speeches/2009-Hoenig-Written-Statements-04-21/
+2026-10-02 10:54:37,444 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenig-Written-Statements-04-21/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:38,586 INFO kansascity https://www.kansascityfed.org/speeches/2009-Hoenig-Written-Statements-04-21/ excluded: not a speech (statement or testimony)
+2026-10-02 10:54:38,586 INFO   kansascity 19/173: https://www.kansascityfed.org/speeches/2009-Hoenigh-Mid-Am-Payments-Conf-10-29/
+2026-10-02 10:54:38,586 INFO   GET https://www.kansascityfed.org/speeches/2009-Hoenigh-Mid-Am-Payments-Conf-10-29/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:39,461 INFO   kansascity 20/173: https://www.kansascityfed.org/speeches/2010-Hoenig-3-18/
+2026-10-02 10:54:39,591 INFO   GET https://www.kansascityfed.org/speeches/2010-Hoenig-3-18/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:40,671 INFO   kansascity 21/173: https://www.kansascityfed.org/speeches/2010-Hoenig-Lincoln-08-13/
+2026-10-02 10:54:40,672 INFO   GET https://www.kansascityfed.org/speeches/2010-Hoenig-Lincoln-08-13/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:41,498 INFO   kansascity 22/173: https://www.kansascityfed.org/speeches/2010-Hoenig-LincolnLetter-06-10/
+2026-10-02 10:54:41,677 INFO   GET https://www.kansascityfed.org/speeches/2010-Hoenig-LincolnLetter-06-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:42,484 INFO kansascity https://www.kansascityfed.org/speeches/2010-Hoenig-LincolnLetter-06-10/ extraction_failure: cryptography>=3.1 is required for AES algorithm
+  extraction_failure: https://www.kansascityfed.org/speeches/2010-Hoenig-LincolnLetter-06-10/: cryptography>=3.1 is required for AES algorithm
+2026-10-02 10:54:42,485 INFO   kansascity 23/173: https://www.kansascityfed.org/speeches/2010-Hoenig-Payments-08-24/
+2026-10-02 10:54:42,682 INFO   GET https://www.kansascityfed.org/speeches/2010-Hoenig-Payments-08-24/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:43,890 INFO   kansascity 24/173: https://www.kansascityfed.org/speeches/2010-Hoenig-SantaFe-04-07/
+2026-10-02 10:54:43,890 INFO   GET https://www.kansascityfed.org/speeches/2010-Hoenig-SantaFe-04-07/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:44,683 INFO   kansascity 25/173: https://www.kansascityfed.org/speeches/2010-Hoenig-The-2010-Outlook-01-07/
+2026-10-02 10:54:44,896 INFO   GET https://www.kansascityfed.org/speeches/2010-Hoenig-The-2010-Outlook-01-07/ (attempt 1/2, elapsed 0s)
+  kansascity: 25/173 checked; saved=7, excluded=15, failures=3
+2026-10-02 10:54:46,850 INFO   kansascity 26/173: https://www.kansascityfed.org/speeches/2010-HoenigOralStatement-USHouse05-06/
+2026-10-02 10:54:46,850 INFO   GET https://www.kansascityfed.org/speeches/2010-HoenigOralStatement-USHouse05-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:47,947 INFO   kansascity 27/173: https://www.kansascityfed.org/speeches/2010-hoenig-Reforming-US-11-05/
+2026-10-02 10:54:47,947 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-Reforming-US-11-05/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:48,364 INFO   kansascity 28/173: https://www.kansascityfed.org/speeches/2010-hoenig-TARP-recipients-dividend-payments-09-30/
+2026-10-02 10:54:48,953 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-TARP-recipients-dividend-payments-09-30/ (attempt 1/2, elapsed 1s)
+2026-10-02 10:54:49,847 INFO kansascity https://www.kansascityfed.org/speeches/2010-hoenig-TARP-recipients-dividend-payments-09-30/ metadata_failure: metadata missing: speaker (date=2010-09-30, speaker=None)
+  metadata_failure: https://www.kansascityfed.org/speeches/2010-hoenig-TARP-recipients-dividend-payments-09-30/: metadata missing: speaker (date=2010-09-30, speaker=None)
+2026-10-02 10:54:49,847 INFO   kansascity 29/173: https://www.kansascityfed.org/speeches/2010-hoenig-Washington-DC-Fiscal-02-16/
+2026-10-02 10:54:49,958 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-Washington-DC-Fiscal-02-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:50,791 INFO   kansascity 30/173: https://www.kansascityfed.org/speeches/2010-hoenig-hearing-testimony-8-23/
+2026-10-02 10:54:50,963 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-hearing-testimony-8-23/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:51,784 INFO   kansascity 31/173: https://www.kansascityfed.org/speeches/2010-hoenig-hearing-testimony-materials-8-23/
+2026-10-02 10:54:51,965 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-hearing-testimony-materials-8-23/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:53,436 INFO kansascity https://www.kansascityfed.org/speeches/2010-hoenig-hearing-testimony-materials-8-23/ excluded: not a speech (slide deck)
+2026-10-02 10:54:53,436 INFO   kansascity 32/173: https://www.kansascityfed.org/speeches/2010-hoenig-highcost-06-03/
+2026-10-02 10:54:53,436 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-highcost-06-03/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:54,193 INFO kansascity https://www.kansascityfed.org/speeches/2010-hoenig-highcost-06-03/ extraction_failure: cryptography>=3.1 is required for AES algorithm
+  extraction_failure: https://www.kansascityfed.org/speeches/2010-hoenig-highcost-06-03/: cryptography>=3.1 is required for AES algorithm
+2026-10-02 10:54:54,193 INFO   kansascity 33/173: https://www.kansascityfed.org/speeches/2010-hoenig-lettertoSenatorsCantwellandMcCain-5-10/
+2026-10-02 10:54:54,442 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-lettertoSenatorsCantwellandMcCain-5-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:55,273 INFO kansascity https://www.kansascityfed.org/speeches/2010-hoenig-lettertoSenatorsCantwellandMcCain-5-10/ metadata_failure: metadata missing: speaker (date=2010-05-10, speaker=None)
+  metadata_failure: https://www.kansascityfed.org/speeches/2010-hoenig-lettertoSenatorsCantwellandMcCain-5-10/: metadata missing: speaker (date=2010-05-10, speaker=None)
+2026-10-02 10:54:55,273 INFO   kansascity 34/173: https://www.kansascityfed.org/speeches/2010-hoenig-volcker-rule-comments-03-02/
+2026-10-02 10:54:55,445 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-volcker-rule-comments-03-02/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:56,332 INFO   kansascity 35/173: https://www.kansascityfed.org/speeches/2010-hoenig-william-taylor-10-10/
+2026-10-02 10:54:56,447 INFO   GET https://www.kansascityfed.org/speeches/2010-hoenig-william-taylor-10-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:57,331 INFO   kansascity 36/173: https://www.kansascityfed.org/speeches/2010-nabe-hoenig-10-12/
+2026-10-02 10:54:57,452 INFO   GET https://www.kansascityfed.org/speeches/2010-nabe-hoenig-10-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:58,285 INFO   kansascity 37/173: https://www.kansascityfed.org/speeches/2010Letter-to-Sen-Bennet-Johanns-02-19/
+2026-10-02 10:54:58,457 INFO   GET https://www.kansascityfed.org/speeches/2010Letter-to-Sen-Bennet-Johanns-02-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:54:59,943 INFO kansascity https://www.kansascityfed.org/speeches/2010Letter-to-Sen-Bennet-Johanns-02-19/ metadata_failure: metadata missing: speaker (date=2010-02-19, speaker=None)
+2026-10-02 10:54:59,943 INFO   kansascity 38/173: https://www.kansascityfed.org/speeches/2011-Hoenig-DesMoinesRotary-06-30/
+2026-10-02 10:54:59,943 INFO   GET https://www.kansascityfed.org/speeches/2011-Hoenig-DesMoinesRotary-06-30/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:00,789 INFO   kansascity 39/173: https://www.kansascityfed.org/speeches/2011-Hoenig-NYUPewConference-06-27/
+2026-10-02 10:55:00,945 INFO   GET https://www.kansascityfed.org/speeches/2011-Hoenig-NYUPewConference-06-27/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:01,916 INFO   kansascity 40/173: https://www.kansascityfed.org/speeches/2011-HoenigCentralExchange0105/
+2026-10-02 10:55:01,950 INFO   GET https://www.kansascityfed.org/speeches/2011-HoenigCentralExchange0105/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:02,997 INFO   kansascity 41/173: https://www.kansascityfed.org/speeches/20110726hoenig/
+2026-10-02 10:55:02,997 INFO   GET https://www.kansascityfed.org/speeches/20110726hoenig/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:04,290 INFO kansascity https://www.kansascityfed.org/speeches/20110726hoenig/ excluded: not a speech (statement or testimony)
+2026-10-02 10:55:04,290 INFO   kansascity 42/173: https://www.kansascityfed.org/speeches/2011Hoenig-LondonSchoolofEconomics-0330/
+2026-10-02 10:55:04,290 INFO   GET https://www.kansascityfed.org/speeches/2011Hoenig-LondonSchoolofEconomics-0330/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:05,432 INFO   kansascity 43/173: https://www.kansascityfed.org/speeches/2011Hoenig-Senate-Ag-Testimony-2-17/
+2026-10-02 10:55:05,433 INFO   GET https://www.kansascityfed.org/speeches/2011Hoenig-Senate-Ag-Testimony-2-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:06,819 INFO kansascity https://www.kansascityfed.org/speeches/2011Hoenig-Senate-Ag-Testimony-2-17/ excluded: not a speech (statement or testimony)
+2026-10-02 10:55:06,819 INFO   kansascity 44/173: https://www.kansascityfed.org/speeches/2011hoenig-DC-Women-Housing-Finance-2-23/
+2026-10-02 10:55:06,819 INFO   GET https://www.kansascityfed.org/speeches/2011hoenig-DC-Women-Housing-Finance-2-23/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:07,779 INFO   kansascity 45/173: https://www.kansascityfed.org/speeches/2012-George-PanamaCity-FSI-11-16/
+2026-10-02 10:55:07,824 INFO   GET https://www.kansascityfed.org/speeches/2012-George-PanamaCity-FSI-11-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:09,166 INFO   kansascity 46/173: https://www.kansascityfed.org/speeches/2012-george-ga-csbs-05-22/
+2026-10-02 10:55:09,166 INFO   GET https://www.kansascityfed.org/speeches/2012-george-ga-csbs-05-22/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:09,902 INFO   kansascity 47/173: https://www.kansascityfed.org/speeches/2012-george-ny-levyeconinstitute-04-11/
+2026-10-02 10:55:10,168 INFO   GET https://www.kansascityfed.org/speeches/2012-george-ny-levyeconinstitute-04-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:10,988 INFO   kansascity 48/173: https://www.kansascityfed.org/speeches/2013-George-OklahomaCity-OHS-10-16/
+2026-10-02 10:55:11,169 INFO   GET https://www.kansascityfed.org/speeches/2013-George-OklahomaCity-OHS-10-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:11,960 INFO   kansascity 49/173: https://www.kansascityfed.org/speeches/2013-George-Paris-11-22/
+2026-10-02 10:55:12,174 INFO   GET https://www.kansascityfed.org/speeches/2013-George-Paris-11-22/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:13,160 INFO   kansascity 50/173: https://www.kansascityfed.org/speeches/2013-George-SantaFe-06-04/
+2026-10-02 10:55:13,178 INFO   GET https://www.kansascityfed.org/speeches/2013-George-SantaFe-06-04/ (attempt 1/2, elapsed 0s)
+  kansascity: 50/173 checked; saved=24, excluded=18, failures=7
+2026-10-02 10:55:14,925 INFO   kansascity 51/173: https://www.kansascityfed.org/speeches/2014-George-Madison-WBA-01-09/
+2026-10-02 10:55:14,925 INFO   GET https://www.kansascityfed.org/speeches/2014-George-Madison-WBA-01-09/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:16,066 INFO   kansascity 52/173: https://www.kansascityfed.org/speeches/2014-George-Washington-Exchequer-05-21/
+2026-10-02 10:55:16,066 INFO   GET https://www.kansascityfed.org/speeches/2014-George-Washington-Exchequer-05-21/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:17,296 INFO   kansascity 53/173: https://www.kansascityfed.org/speeches/2018-wilkerson-poteau-forum-07-18/
+2026-10-02 10:55:17,296 INFO   GET https://www.kansascityfed.org/speeches/2018-wilkerson-poteau-forum-07-18/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:18,675 INFO kansascity https://www.kansascityfed.org/speeches/2018-wilkerson-poteau-forum-07-18/ excluded: not a speech (slide deck)
+2026-10-02 10:55:18,675 INFO   kansascity 54/173: https://www.kansascityfed.org/speeches/2019-Chapman-1st-Bank-01-09/
+2026-10-02 10:55:18,675 INFO   GET https://www.kansascityfed.org/speeches/2019-Chapman-1st-Bank-01-09/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:20,082 INFO kansascity https://www.kansascityfed.org/speeches/2019-Chapman-1st-Bank-01-09/ excluded: not a speech (slide deck)
+2026-10-02 10:55:20,083 INFO   kansascity 55/173: https://www.kansascityfed.org/speeches/2019-Chapman-NMICBA-09-20/
+2026-10-02 10:55:20,083 INFO   GET https://www.kansascityfed.org/speeches/2019-Chapman-NMICBA-09-20/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:21,356 INFO kansascity https://www.kansascityfed.org/speeches/2019-Chapman-NMICBA-09-20/ excluded: not a speech (slide deck)
+2026-10-02 10:55:21,356 INFO   kansascity 56/173: https://www.kansascityfed.org/speeches/2019-Chapman-WYWyoming-09-06/
+2026-10-02 10:55:21,356 INFO   GET https://www.kansascityfed.org/speeches/2019-Chapman-WYWyoming-09-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:22,753 INFO kansascity https://www.kansascityfed.org/speeches/2019-Chapman-WYWyoming-09-06/ excluded: not a speech (slide deck)
+2026-10-02 10:55:22,753 INFO   kansascity 57/173: https://www.kansascityfed.org/speeches/2019-Cowley-Norfolk-10-17/
+2026-10-02 10:55:22,753 INFO   GET https://www.kansascityfed.org/speeches/2019-Cowley-Norfolk-10-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:24,024 INFO kansascity https://www.kansascityfed.org/speeches/2019-Cowley-Norfolk-10-17/ excluded: not a speech (slide deck)
+2026-10-02 10:55:24,024 INFO   kansascity 58/173: https://www.kansascityfed.org/speeches/2019-Edmiston-NACM-01-09/
+2026-10-02 10:55:24,024 INFO   GET https://www.kansascityfed.org/speeches/2019-Edmiston-NACM-01-09/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:25,404 INFO kansascity https://www.kansascityfed.org/speeches/2019-Edmiston-NACM-01-09/ excluded: not a speech (slide deck)
+2026-10-02 10:55:25,404 INFO   kansascity 59/173: https://www.kansascityfed.org/speeches/2019-Felix-AirForce-02-11/
+2026-10-02 10:55:25,405 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-AirForce-02-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:26,802 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-AirForce-02-11/ excluded: not a speech (slide deck)
+2026-10-02 10:55:26,802 INFO   kansascity 60/173: https://www.kansascityfed.org/speeches/2019-Felix-Black-Chamber-11-19/
+2026-10-02 10:55:26,802 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-Black-Chamber-11-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:28,243 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-Black-Chamber-11-19/ excluded: not a speech (slide deck)
+2026-10-02 10:55:28,244 INFO   kansascity 61/173: https://www.kansascityfed.org/speeches/2019-Felix-CADA-09-06/
+2026-10-02 10:55:28,244 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-CADA-09-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:29,502 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-CADA-09-06/ excluded: not a speech (slide deck)
+2026-10-02 10:55:29,502 INFO   kansascity 62/173: https://www.kansascityfed.org/speeches/2019-Felix-CFA-01-15/
+2026-10-02 10:55:29,502 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-CFA-01-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:30,640 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-CFA-01-15/ excluded: not a speech (slide deck)
+2026-10-02 10:55:30,640 INFO   kansascity 63/173: https://www.kansascityfed.org/speeches/2019-Felix-COWomenInFinancialServices-07-18/
+2026-10-02 10:55:30,640 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-COWomenInFinancialServices-07-18/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:31,836 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-COWomenInFinancialServices-07-18/ excluded: not a speech (slide deck)
+2026-10-02 10:55:31,836 INFO   kansascity 64/173: https://www.kansascityfed.org/speeches/2019-Felix-CSU-04-17/
+2026-10-02 10:55:31,836 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-CSU-04-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:32,942 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-CSU-04-17/ excluded: not a speech (slide deck)
+2026-10-02 10:55:32,942 INFO   kansascity 65/173: https://www.kansascityfed.org/speeches/2019-Felix-CUCOSpg-10-10/
+2026-10-02 10:55:32,942 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-CUCOSpg-10-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:34,453 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-CUCOSpg-10-10/ excluded: not a speech (slide deck)
+2026-10-02 10:55:34,453 INFO   kansascity 66/173: https://www.kansascityfed.org/speeches/2019-Felix-CashAdvisoryCouncil-05-21/
+2026-10-02 10:55:34,453 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-CashAdvisoryCouncil-05-21/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:35,882 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-CashAdvisoryCouncil-05-21/ excluded: not a speech (slide deck)
+2026-10-02 10:55:35,882 INFO   kansascity 67/173: https://www.kansascityfed.org/speeches/2019-Felix-EconForumGJ-05-16/
+2026-10-02 10:55:35,882 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-EconForumGJ-05-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:37,116 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-EconForumGJ-05-16/ excluded: not a speech (slide deck)
+2026-10-02 10:55:37,117 INFO   kansascity 68/173: https://www.kansascityfed.org/speeches/2019-Felix-EconForumSS-05-15/
+2026-10-02 10:55:37,117 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-EconForumSS-05-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:38,285 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-EconForumSS-05-15/ excluded: not a speech (slide deck)
+2026-10-02 10:55:38,285 INFO   kansascity 69/173: https://www.kansascityfed.org/speeches/2019-Felix-EnergyFinanceDiscussionGroup-02-12/
+2026-10-02 10:55:38,285 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-EnergyFinanceDiscussionGroup-02-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:39,577 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-EnergyFinanceDiscussionGroup-02-12/ excluded: not a speech (slide deck)
+2026-10-02 10:55:39,577 INFO   kansascity 70/173: https://www.kansascityfed.org/speeches/2019-Felix-FarmingtonForum-06-05/
+2026-10-02 10:55:39,577 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-FarmingtonForum-06-05/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:40,848 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-FarmingtonForum-06-05/ excluded: not a speech (slide deck)
+2026-10-02 10:55:40,849 INFO   kansascity 71/173: https://www.kansascityfed.org/speeches/2019-Felix-FtColEconForum-04-17/
+2026-10-02 10:55:40,849 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-FtColEconForum-04-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:41,956 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-FtColEconForum-04-17/ excluded: not a speech (slide deck)
+2026-10-02 10:55:41,957 INFO   kansascity 72/173: https://www.kansascityfed.org/speeches/2019-Felix-IBC-09-26/
+2026-10-02 10:55:41,957 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-IBC-09-26/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:43,223 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-IBC-09-26/ excluded: not a speech (slide deck)
+2026-10-02 10:55:43,223 INFO   kansascity 73/173: https://www.kansascityfed.org/speeches/2019-Felix-Montrose-02-08/
+2026-10-02 10:55:43,223 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-Montrose-02-08/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:44,322 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-Montrose-02-08/ excluded: not a speech (slide deck)
+2026-10-02 10:55:44,322 INFO   kansascity 74/173: https://www.kansascityfed.org/speeches/2019-Felix-NAEE-02-28/
+2026-10-02 10:55:44,322 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-NAEE-02-28/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:45,377 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-NAEE-02-28/ excluded: not a speech (slide deck)
+2026-10-02 10:55:45,377 INFO   kansascity 75/173: https://www.kansascityfed.org/speeches/2019-Felix-NMCongressStaff-11-12/
+2026-10-02 10:55:45,377 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-NMCongressStaff-11-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:46,361 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-NMCongressStaff-11-12/ excluded: not a speech (slide deck)
+  kansascity: 75/173 checked; saved=26, excluded=41, failures=7
+2026-10-02 10:55:46,877 INFO   kansascity 76/173: https://www.kansascityfed.org/speeches/2019-Felix-Pueblo-10-10/
+2026-10-02 10:55:46,877 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-Pueblo-10-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:48,226 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-Pueblo-10-10/ excluded: not a speech (slide deck)
+2026-10-02 10:55:48,226 INFO   kansascity 77/173: https://www.kansascityfed.org/speeches/2019-Felix-RMTExport-03-06/
+2026-10-02 10:55:48,226 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-RMTExport-03-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:49,378 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-RMTExport-03-06/ excluded: not a speech (slide deck)
+2026-10-02 10:55:49,378 INFO   kansascity 78/173: https://www.kansascityfed.org/speeches/2019-Felix-UnivWY-03-01/
+2026-10-02 10:55:49,378 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-UnivWY-03-01/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:50,585 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-UnivWY-03-01/ excluded: not a speech (slide deck)
+2026-10-02 10:55:50,585 INFO   kansascity 79/173: https://www.kansascityfed.org/speeches/2019-Felix-WomenInBanking-08-28/
+2026-10-02 10:55:50,585 INFO   GET https://www.kansascityfed.org/speeches/2019-Felix-WomenInBanking-08-28/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:51,948 INFO kansascity https://www.kansascityfed.org/speeches/2019-Felix-WomenInBanking-08-28/ excluded: not a speech (slide deck)
+2026-10-02 10:55:51,949 INFO   kansascity 80/173: https://www.kansascityfed.org/speeches/2019-George-Denver-10-18/
+2026-10-02 10:55:51,949 INFO   GET https://www.kansascityfed.org/speeches/2019-George-Denver-10-18/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:53,258 INFO   kansascity 81/173: https://www.kansascityfed.org/speeches/2019-George-Denver-10-6/
+2026-10-02 10:55:53,258 INFO   GET https://www.kansascityfed.org/speeches/2019-George-Denver-10-6/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:54,406 INFO   kansascity 82/173: https://www.kansascityfed.org/speeches/2019-George-Helsinki-07-10/
+2026-10-02 10:55:54,407 INFO   GET https://www.kansascityfed.org/speeches/2019-George-Helsinki-07-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:55,509 INFO   kansascity 83/173: https://www.kansascityfed.org/speeches/2019-George-Jackson-Hole-0822/
+2026-10-02 10:55:55,509 INFO   GET https://www.kansascityfed.org/speeches/2019-George-Jackson-Hole-0822/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:56,596 INFO kansascity https://www.kansascityfed.org/speeches/2019-George-Jackson-Hole-0822/ metadata_failure: metadata missing: speaker (date=2019-08-22, speaker=None)
+2026-10-02 10:55:56,596 INFO   kansascity 84/173: https://www.kansascityfed.org/speeches/2019-George-KansasCity-01-15/
+2026-10-02 10:55:56,596 INFO   GET https://www.kansascityfed.org/speeches/2019-George-KansasCity-01-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:58,098 INFO   kansascity 85/173: https://www.kansascityfed.org/speeches/2019-George-NewYork-3-27/
+2026-10-02 10:55:58,098 INFO   GET https://www.kansascityfed.org/speeches/2019-George-NewYork-3-27/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:55:59,180 INFO   kansascity 86/173: https://www.kansascityfed.org/speeches/2019-George-Reykjavik-07-12/
+2026-10-02 10:55:59,180 INFO   GET https://www.kansascityfed.org/speeches/2019-George-Reykjavik-07-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:00,392 INFO   kansascity 87/173: https://www.kansascityfed.org/speeches/2019-George-StatementBeforeHouseFinancialServicesCommittee/
+2026-10-02 10:56:00,392 INFO   GET https://www.kansascityfed.org/speeches/2019-George-StatementBeforeHouseFinancialServicesCommittee/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:01,794 INFO   kansascity 88/173: https://www.kansascityfed.org/speeches/2019-George-StatementToSenateCommittee/
+2026-10-02 10:56:01,794 INFO   GET https://www.kansascityfed.org/speeches/2019-George-StatementToSenateCommittee/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:02,976 INFO kansascity https://www.kansascityfed.org/speeches/2019-George-StatementToSenateCommittee/ excluded: not a speech (title)
+2026-10-02 10:56:02,976 INFO   kansascity 89/173: https://www.kansascityfed.org/speeches/2019-George-Tahlequah-10-04/
+2026-10-02 10:56:02,976 INFO   GET https://www.kansascityfed.org/speeches/2019-George-Tahlequah-10-04/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:04,140 INFO   kansascity 90/173: https://www.kansascityfed.org/speeches/2019-Kahn-FtColEconForm-04-17/
+2026-10-02 10:56:04,140 INFO   GET https://www.kansascityfed.org/speeches/2019-Kahn-FtColEconForm-04-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:05,345 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kahn-FtColEconForm-04-17/ excluded: not a speech (slide deck)
+2026-10-02 10:56:05,345 INFO   kansascity 91/173: https://www.kansascityfed.org/speeches/2019-Kauffman-AgOutlook-10-11/
+2026-10-02 10:56:05,345 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-AgOutlook-10-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:06,922 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-AgOutlook-10-11/ excluded: not a speech (slide deck)
+2026-10-02 10:56:06,922 INFO   kansascity 92/173: https://www.kansascityfed.org/speeches/2019-Kauffman-BuildOmaha-04-18/
+2026-10-02 10:56:06,922 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-BuildOmaha-04-18/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:07,995 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-BuildOmaha-04-18/ excluded: not a speech (slide deck)
+2026-10-02 10:56:07,995 INFO   kansascity 93/173: https://www.kansascityfed.org/speeches/2019-Kauffman-CPDA-08-20/
+2026-10-02 10:56:07,995 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-CPDA-08-20/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:09,297 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-CPDA-08-20/ excluded: not a speech (slide deck)
+2026-10-02 10:56:09,297 INFO   kansascity 94/173: https://www.kansascityfed.org/speeches/2019-Kauffman-CSBS-8-26/
+2026-10-02 10:56:09,297 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-CSBS-8-26/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:10,818 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-CSBS-8-26/ excluded: not a speech (slide deck)
+2026-10-02 10:56:10,818 INFO   kansascity 95/173: https://www.kansascityfed.org/speeches/2019-Kauffman-GlobalProtein-10-7/
+2026-10-02 10:56:10,819 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-GlobalProtein-10-7/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:13,034 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-GlobalProtein-10-7/ excluded: not a speech (slide deck)
+2026-10-02 10:56:13,035 INFO   kansascity 96/173: https://www.kansascityfed.org/speeches/2019-Kauffman-NMICBA-03-28/
+2026-10-02 10:56:13,035 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-NMICBA-03-28/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:14,455 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-NMICBA-03-28/ excluded: not a speech (slide deck)
+2026-10-02 10:56:14,455 INFO   kansascity 97/173: https://www.kansascityfed.org/speeches/2019-Kauffman-Norfolk-10-17/
+2026-10-02 10:56:14,455 INFO   GET https://www.kansascityfed.org/speeches/2019-Kauffman-Norfolk-10-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:15,723 INFO kansascity https://www.kansascityfed.org/speeches/2019-Kauffman-Norfolk-10-17/ excluded: not a speech (slide deck)
+2026-10-02 10:56:15,723 INFO   kansascity 98/173: https://www.kansascityfed.org/speeches/2019-Rappaport-C2ER-06-05/
+2026-10-02 10:56:15,723 INFO   GET https://www.kansascityfed.org/speeches/2019-Rappaport-C2ER-06-05/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:18,368 INFO kansascity https://www.kansascityfed.org/speeches/2019-Rappaport-C2ER-06-05/ excluded: not a speech (slide deck)
+2026-10-02 10:56:18,368 INFO   kansascity 99/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-DodgeCity-Economic-Forum-08-19/
+2026-10-02 10:56:18,368 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-DodgeCity-Economic-Forum-08-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:19,677 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-DodgeCity-Economic-Forum-08-19/ excluded: not a speech (slide deck)
+2026-10-02 10:56:19,677 INFO   kansascity 100/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-Guymon-Econ-Forum-08-19/
+2026-10-02 10:56:19,677 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-Guymon-Econ-Forum-08-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:21,228 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-Guymon-Econ-Forum-08-19/ excluded: not a speech (slide deck)
+  kansascity: 100/173 checked; saved=34, excluded=57, failures=8
+2026-10-02 10:56:21,788 INFO   kansascity 101/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-OKC-Economic-Forum-08-19/
+2026-10-02 10:56:21,788 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-OKC-Economic-Forum-08-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:23,223 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-OKC-Economic-Forum-08-19/ excluded: not a speech (slide deck)
+2026-10-02 10:56:23,224 INFO   kansascity 102/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-OKC-RMA-11-7-2019/
+2026-10-02 10:56:23,224 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-OKC-RMA-11-7-2019/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:24,543 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-OKC-RMA-11-7-2019/ excluded: not a speech (slide deck)
+2026-10-02 10:56:24,543 INFO   kansascity 103/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-OKCReadyMixConcrete-2-7-19/
+2026-10-02 10:56:24,543 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-OKCReadyMixConcrete-2-7-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:25,819 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-OKCReadyMixConcrete-2-7-19/ excluded: not a speech (slide deck)
+2026-10-02 10:56:25,819 INFO   kansascity 104/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-Petroleum-accts-9-19/
+2026-10-02 10:56:25,819 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-Petroleum-accts-9-19/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:27,297 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-Petroleum-accts-9-19/ excluded: not a speech (slide deck)
+2026-10-02 10:56:27,297 INFO   kansascity 105/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-State-Senate-Stillwater-11-21-2019/
+2026-10-02 10:56:27,297 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-State-Senate-Stillwater-11-21-2019/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:28,610 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-State-Senate-Stillwater-11-21-2019/ excluded: not a speech (slide deck)
+2026-10-02 10:56:28,610 INFO   kansascity 106/173: https://www.kansascityfed.org/speeches/2019-Wilkerson-TULSA-RMA-11-8-2019/
+2026-10-02 10:56:28,610 INFO   GET https://www.kansascityfed.org/speeches/2019-Wilkerson-TULSA-RMA-11-8-2019/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:30,504 INFO kansascity https://www.kansascityfed.org/speeches/2019-Wilkerson-TULSA-RMA-11-8-2019/ excluded: not a speech (slide deck)
+2026-10-02 10:56:30,504 INFO   kansascity 107/173: https://www.kansascityfed.org/speeches/2020-Felix-NABE-02-05/
+2026-10-02 10:56:30,504 INFO   GET https://www.kansascityfed.org/speeches/2020-Felix-NABE-02-05/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:31,839 INFO kansascity https://www.kansascityfed.org/speeches/2020-Felix-NABE-02-05/ excluded: not a speech (slide deck)
+2026-10-02 10:56:31,839 INFO   kansascity 108/173: https://www.kansascityfed.org/speeches/2020-Felix-RMACFA-01-15/
+2026-10-02 10:56:31,839 INFO   GET https://www.kansascityfed.org/speeches/2020-Felix-RMACFA-01-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:33,170 INFO kansascity https://www.kansascityfed.org/speeches/2020-Felix-RMACFA-01-15/ excluded: not a speech (slide deck)
+2026-10-02 10:56:33,171 INFO   kansascity 109/173: https://www.kansascityfed.org/speeches/2020-Felix-Wichita-02-07/
+2026-10-02 10:56:33,171 INFO   GET https://www.kansascityfed.org/speeches/2020-Felix-Wichita-02-07/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:35,515 INFO kansascity https://www.kansascityfed.org/speeches/2020-Felix-Wichita-02-07/ excluded: not a speech (slide deck)
+2026-10-02 10:56:35,515 INFO   kansascity 110/173: https://www.kansascityfed.org/speeches/2020-Felix-stateofthecities-01-15/
+2026-10-02 10:56:35,515 INFO   GET https://www.kansascityfed.org/speeches/2020-Felix-stateofthecities-01-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:36,946 INFO kansascity https://www.kansascityfed.org/speeches/2020-Felix-stateofthecities-01-15/ excluded: not a speech (slide deck)
+2026-10-02 10:56:36,947 INFO   kansascity 111/173: https://www.kansascityfed.org/speeches/2020-George-KansasCity-01-14/
+2026-10-02 10:56:36,947 INFO   GET https://www.kansascityfed.org/speeches/2020-George-KansasCity-01-14/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:38,096 INFO   kansascity 112/173: https://www.kansascityfed.org/speeches/2020-George-KansasCity-06-25/
+2026-10-02 10:56:38,096 INFO   GET https://www.kansascityfed.org/speeches/2020-George-KansasCity-06-25/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:39,248 INFO   kansascity 113/173: https://www.kansascityfed.org/speeches/2020-George-KansasCity-09-25/
+2026-10-02 10:56:39,248 INFO   GET https://www.kansascityfed.org/speeches/2020-George-KansasCity-09-25/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:40,408 INFO   kansascity 114/173: https://www.kansascityfed.org/speeches/2020-George-KansasCity-11-20/
+2026-10-02 10:56:40,408 INFO   GET https://www.kansascityfed.org/speeches/2020-George-KansasCity-11-20/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:41,522 INFO   kansascity 115/173: https://www.kansascityfed.org/speeches/2020-George-KansasCity-12-11/
+2026-10-02 10:56:41,522 INFO   GET https://www.kansascityfed.org/speeches/2020-George-KansasCity-12-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:42,618 INFO   kansascity 116/173: https://www.kansascityfed.org/speeches/2020-George-NewYork-03-06/
+2026-10-02 10:56:42,618 INFO   GET https://www.kansascityfed.org/speeches/2020-George-NewYork-03-06/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:43,799 INFO   kansascity 117/173: https://www.kansascityfed.org/speeches/2020-George-WashingtonDC-02-10/
+2026-10-02 10:56:43,799 INFO   GET https://www.kansascityfed.org/speeches/2020-George-WashingtonDC-02-10/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:44,895 INFO   kansascity 118/173: https://www.kansascityfed.org/speeches/2020-George-Wichita-10820/
+2026-10-02 10:56:44,895 INFO   GET https://www.kansascityfed.org/speeches/2020-George-Wichita-10820/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:45,976 INFO   kansascity 119/173: https://www.kansascityfed.org/speeches/2020-Kauffman-NebraskaForum-07-16/
+2026-10-02 10:56:45,976 INFO   GET https://www.kansascityfed.org/speeches/2020-Kauffman-NebraskaForum-07-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:47,359 INFO kansascity https://www.kansascityfed.org/speeches/2020-Kauffman-NebraskaForum-07-16/ excluded: not a speech (slide deck)
+2026-10-02 10:56:47,359 INFO   kansascity 120/173: https://www.kansascityfed.org/speeches/2020-Kauffman-OmahaChamber-04-08/
+2026-10-02 10:56:47,359 INFO   GET https://www.kansascityfed.org/speeches/2020-Kauffman-OmahaChamber-04-08/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:48,503 INFO kansascity https://www.kansascityfed.org/speeches/2020-Kauffman-OmahaChamber-04-08/ excluded: not a speech (slide deck)
+2026-10-02 10:56:48,503 INFO   kansascity 121/173: https://www.kansascityfed.org/speeches/2020-Kauffman-UNLWebinar-04-16/
+2026-10-02 10:56:48,503 INFO   GET https://www.kansascityfed.org/speeches/2020-Kauffman-UNLWebinar-04-16/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:49,698 INFO kansascity https://www.kansascityfed.org/speeches/2020-Kauffman-UNLWebinar-04-16/ excluded: not a speech (slide deck)
+2026-10-02 10:56:49,698 INFO   kansascity 122/173: https://www.kansascityfed.org/speeches/2020-Kauffman-farmdocwebinar-03-27/
+2026-10-02 10:56:49,698 INFO   GET https://www.kansascityfed.org/speeches/2020-Kauffman-farmdocwebinar-03-27/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:51,242 INFO kansascity https://www.kansascityfed.org/speeches/2020-Kauffman-farmdocwebinar-03-27/ excluded: not a speech (slide deck)
+2026-10-02 10:56:51,242 INFO   kansascity 123/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-AGCOK-09-17/
+2026-10-02 10:56:51,242 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-AGCOK-09-17/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:52,513 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-AGCOK-09-17/ excluded: not a speech (slide deck)
+2026-10-02 10:56:52,513 INFO   kansascity 124/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-Bartlesville-Rotary-03-02/
+2026-10-02 10:56:52,513 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-Bartlesville-Rotary-03-02/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:53,771 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-Bartlesville-Rotary-03-02/ excluded: not a speech (slide deck)
+2026-10-02 10:56:53,771 INFO   kansascity 125/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-Bixby-02-25/
+2026-10-02 10:56:53,771 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-Bixby-02-25/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:55,441 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-Bixby-02-25/ excluded: not a speech (slide deck)
+  kansascity: 125/173 checked; saved=42, excluded=74, failures=8
+2026-10-02 10:56:55,951 INFO   kansascity 126/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-COPAS-02-18/
+2026-10-02 10:56:55,951 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-COPAS-02-18/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:57,343 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-COPAS-02-18/ excluded: not a speech (slide deck)
+2026-10-02 10:56:57,343 INFO   kansascity 127/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-CentralOKManufacturing-5-12/
+2026-10-02 10:56:57,343 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-CentralOKManufacturing-5-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:56:58,540 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-CentralOKManufacturing-5-12/ excluded: not a speech (slide deck)
+2026-10-02 10:56:58,541 INFO   kansascity 128/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-ChickashaRotary-08-20/
+2026-10-02 10:56:58,541 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-ChickashaRotary-08-20/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:00,751 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-ChickashaRotary-08-20/ excluded: not a speech (slide deck)
+2026-10-02 10:57:00,751 INFO   kansascity 129/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-DitchWitch-5-12/
+2026-10-02 10:57:00,751 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-DitchWitch-5-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:02,249 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-DitchWitch-5-12/ excluded: not a speech (slide deck)
+2026-10-02 10:57:02,249 INFO   kansascity 130/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-Evening-at-Fed-02-11/
+2026-10-02 10:57:02,249 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-Evening-at-Fed-02-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:03,423 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-Evening-at-Fed-02-11/ excluded: not a speech (slide deck)
+2026-10-02 10:57:03,423 INFO   kansascity 131/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-Fin-Exec-International-02-20/
+2026-10-02 10:57:03,423 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-Fin-Exec-International-02-20/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:04,694 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-Fin-Exec-International-02-20/ excluded: not a speech (slide deck)
+2026-10-02 10:57:04,695 INFO   kansascity 132/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-LatinoLeadership-5-12/
+2026-10-02 10:57:04,695 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-LatinoLeadership-5-12/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:06,161 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-LatinoLeadership-5-12/ excluded: not a speech (slide deck)
+2026-10-02 10:57:06,161 INFO   kansascity 133/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-Oklahoma-Outlook-March/
+2026-10-02 10:57:06,161 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-Oklahoma-Outlook-March/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:07,393 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-Oklahoma-Outlook-March/ excluded: not a speech (slide deck)
+2026-10-02 10:57:07,393 INFO   kansascity 134/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-OklahomaBankersAssoc-6-01/
+2026-10-02 10:57:07,393 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-OklahomaBankersAssoc-6-01/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:08,756 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-OklahomaBankersAssoc-6-01/ excluded: not a speech (slide deck)
+2026-10-02 10:57:08,756 INFO   kansascity 135/173: https://www.kansascityfed.org/speeches/2020-Wilkerson-VirtualEconomicForum-07-15/
+2026-10-02 10:57:08,756 INFO   GET https://www.kansascityfed.org/speeches/2020-Wilkerson-VirtualEconomicForum-07-15/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:10,783 INFO kansascity https://www.kansascityfed.org/speeches/2020-Wilkerson-VirtualEconomicForum-07-15/ excluded: not a speech (slide deck)
+2026-10-02 10:57:10,783 INFO   kansascity 136/173: https://www.kansascityfed.org/speeches/2020-george-kansascity-12-11/
+2026-10-02 10:57:10,783 INFO   GET https://www.kansascityfed.org/speeches/2020-george-kansascity-12-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:11,837 INFO   kansascity 137/173: https://www.kansascityfed.org/speeches/Can-Community-Banks-Still-Compete/
+2026-10-02 10:57:11,838 INFO   GET https://www.kansascityfed.org/speeches/Can-Community-Banks-Still-Compete/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:13,176 INFO   kansascity 138/173: https://www.kansascityfed.org/speeches/Central-Bank-Patience/
+2026-10-02 10:57:13,176 INFO   GET https://www.kansascityfed.org/speeches/Central-Bank-Patience/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:14,275 INFO   kansascity 139/173: https://www.kansascityfed.org/speeches/Community-Bank-Regulation-Intent-vs-Reality/
+2026-10-02 10:57:14,275 INFO   GET https://www.kansascityfed.org/speeches/Community-Bank-Regulation-Intent-vs-Reality/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:15,548 INFO   kansascity 140/173: https://www.kansascityfed.org/speeches/Current-Monetary-Policy-and-the-Implications-for-Supervision-and-Regulation/
+2026-10-02 10:57:15,549 INFO   GET https://www.kansascityfed.org/speeches/Current-Monetary-Policy-and-the-Implications-for-Supervision-and-Regulation/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:17,051 INFO   kansascity 141/173: https://www.kansascityfed.org/speeches/Hoenig-KBA-08-04-11/
+2026-10-02 10:57:17,051 INFO   GET https://www.kansascityfed.org/speeches/Hoenig-KBA-08-04-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:18,137 INFO kansascity https://www.kansascityfed.org/speeches/Hoenig-KBA-08-04-11/ excluded: not a speech (slide deck)
+2026-10-02 10:57:18,137 INFO   kansascity 142/173: https://www.kansascityfed.org/speeches/Hoenig-MonetaryandTradeConference-05-24-11/
+2026-10-02 10:57:18,137 INFO   GET https://www.kansascityfed.org/speeches/Hoenig-MonetaryandTradeConference-05-24-11/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:19,483 INFO   kansascity 143/173: https://www.kansascityfed.org/speeches/ag-credit-survey-webinar-aug-2020/
+2026-10-02 10:57:19,483 INFO   GET https://www.kansascityfed.org/speeches/ag-credit-survey-webinar-aug-2020/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:20,915 INFO kansascity https://www.kansascityfed.org/speeches/ag-credit-survey-webinar-aug-2020/ excluded: not a speech (slide deck)
+2026-10-02 10:57:20,915 INFO   kansascity 144/173: https://www.kansascityfed.org/speeches/ag-credit-survey-webinar/
+2026-10-02 10:57:20,915 INFO   GET https://www.kansascityfed.org/speeches/ag-credit-survey-webinar/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:22,426 INFO kansascity https://www.kansascityfed.org/speeches/ag-credit-survey-webinar/ excluded: not a speech (slide deck)
+2026-10-02 10:57:22,427 INFO   kansascity 145/173: https://www.kansascityfed.org/speeches/agricultural-credit-conditions-update/
+2026-10-02 10:57:22,427 INFO   GET https://www.kansascityfed.org/speeches/agricultural-credit-conditions-update/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:23,652 INFO kansascity https://www.kansascityfed.org/speeches/agricultural-credit-conditions-update/ excluded: not a speech (slide deck)
+2026-10-02 10:57:23,652 INFO   kansascity 146/173: https://www.kansascityfed.org/speeches/agricultural-economic-outlook-cdiac/
+2026-10-02 10:57:23,652 INFO   GET https://www.kansascityfed.org/speeches/agricultural-economic-outlook-cdiac/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:25,216 INFO kansascity https://www.kansascityfed.org/speeches/agricultural-economic-outlook-cdiac/ excluded: not a speech (slide deck)
+2026-10-02 10:57:25,216 INFO   kansascity 147/173: https://www.kansascityfed.org/speeches/agricultural-economic-outlook-kauffman-09022020/
+2026-10-02 10:57:25,216 INFO   GET https://www.kansascityfed.org/speeches/agricultural-economic-outlook-kauffman-09022020/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:26,750 INFO kansascity https://www.kansascityfed.org/speeches/agricultural-economic-outlook-kauffman-09022020/ excluded: not a speech (slide deck)
+2026-10-02 10:57:26,750 INFO   kansascity 148/173: https://www.kansascityfed.org/speeches/agricultural-economic-outlook/
+2026-10-02 10:57:26,750 INFO   GET https://www.kansascityfed.org/speeches/agricultural-economic-outlook/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:27,651 INFO kansascity https://www.kansascityfed.org/speeches/agricultural-economic-outlook/ excluded: not a speech (slide deck)
+2026-10-02 10:57:27,651 INFO   kansascity 149/173: https://www.kansascityfed.org/speeches/agricultural-finance-update/
+2026-10-02 10:57:27,755 INFO   GET https://www.kansascityfed.org/speeches/agricultural-finance-update/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:28,947 INFO kansascity https://www.kansascityfed.org/speeches/agricultural-finance-update/ excluded: not a speech (slide deck)
+2026-10-02 10:57:28,947 INFO   kansascity 150/173: https://www.kansascityfed.org/speeches/an-uncertain-though-optimistic-outlook-for-an-uneven-economy/
+2026-10-02 10:57:28,947 INFO   GET https://www.kansascityfed.org/speeches/an-uncertain-though-optimistic-outlook-for-an-uneven-economy/ (attempt 1/2, elapsed 0s)
+  kansascity: 150/173 checked; saved=49, excluded=92, failures=8
+2026-10-02 10:57:30,567 INFO   kansascity 151/173: https://www.kansascityfed.org/speeches/an-unsteady-path-to-reclaiming-the-summit/
+2026-10-02 10:57:30,567 INFO   GET https://www.kansascityfed.org/speeches/an-unsteady-path-to-reclaiming-the-summit/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:31,921 INFO kansascity https://www.kansascityfed.org/speeches/an-unsteady-path-to-reclaiming-the-summit/ excluded: not a speech (slide deck)
+2026-10-02 10:57:31,921 INFO   kansascity 152/173: https://www.kansascityfed.org/speeches/economic-outlook-financial-executives-international/
+2026-10-02 10:57:31,921 INFO   GET https://www.kansascityfed.org/speeches/economic-outlook-financial-executives-international/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:33,087 INFO kansascity https://www.kansascityfed.org/speeches/economic-outlook-financial-executives-international/ excluded: not a speech (slide deck)
+2026-10-02 10:57:33,087 INFO   kansascity 153/173: https://www.kansascityfed.org/speeches/economic-recovery-in-us-agriculture/
+2026-10-02 10:57:33,087 INFO   GET https://www.kansascityfed.org/speeches/economic-recovery-in-us-agriculture/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:34,156 INFO kansascity https://www.kansascityfed.org/speeches/economic-recovery-in-us-agriculture/ excluded: not a speech (slide deck)
+2026-10-02 10:57:34,156 INFO   kansascity 154/173: https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado-chfa/
+2026-10-02 10:57:34,156 INFO   GET https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado-chfa/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:35,368 INFO kansascity https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado-chfa/ excluded: not a speech (slide deck)
+2026-10-02 10:57:35,368 INFO   kansascity 155/173: https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado-colorado-concern/
+2026-10-02 10:57:35,368 INFO   GET https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado-colorado-concern/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:36,420 INFO kansascity https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado-colorado-concern/ excluded: not a speech (slide deck)
+2026-10-02 10:57:36,420 INFO   kansascity 156/173: https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado/
+2026-10-02 10:57:36,420 INFO   GET https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:37,767 INFO kansascity https://www.kansascityfed.org/speeches/economic-update-on-us-and-colorado/ excluded: not a speech (slide deck)
+2026-10-02 10:57:37,767 INFO   kansascity 157/173: https://www.kansascityfed.org/speeches/economic-update-on-us-and-newmexico-icbanm/
+2026-10-02 10:57:37,767 INFO   GET https://www.kansascityfed.org/speeches/economic-update-on-us-and-newmexico-icbanm/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:38,754 INFO kansascity https://www.kansascityfed.org/speeches/economic-update-on-us-and-newmexico-icbanm/ excluded: not a speech (slide deck)
+2026-10-02 10:57:38,754 INFO   kansascity 158/173: https://www.kansascityfed.org/speeches/global-developments-and-the-us-economic-outlook/
+2026-10-02 10:57:38,770 INFO   GET https://www.kansascityfed.org/speeches/global-developments-and-the-us-economic-outlook/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:40,057 INFO kansascity https://www.kansascityfed.org/speeches/global-developments-and-the-us-economic-outlook/ excluded: not a speech (slide deck)
+2026-10-02 10:57:40,057 INFO   kansascity 159/173: https://www.kansascityfed.org/speeches/nebraskas-economy-in-the-next-decade/
+2026-10-02 10:57:40,057 INFO   GET https://www.kansascityfed.org/speeches/nebraskas-economy-in-the-next-decade/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:41,409 INFO kansascity https://www.kansascityfed.org/speeches/nebraskas-economy-in-the-next-decade/ excluded: not a speech (slide deck)
+2026-10-02 10:57:41,409 INFO   kansascity 160/173: https://www.kansascityfed.org/speeches/omaha-chamber-economic-update/
+2026-10-02 10:57:41,409 INFO   GET https://www.kansascityfed.org/speeches/omaha-chamber-economic-update/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:41,941 INFO kansascity https://www.kansascityfed.org/speeches/omaha-chamber-economic-update/ excluded: not a speech (slide deck)
+2026-10-02 10:57:41,941 INFO   kansascity 161/173: https://www.kansascityfed.org/speeches/real-estate-a-vital-sector-poised-for-change/
+2026-10-02 10:57:42,414 INFO   GET https://www.kansascityfed.org/speeches/real-estate-a-vital-sector-poised-for-change/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:43,525 INFO   kansascity 162/173: https://www.kansascityfed.org/speeches/the-outlook-for-the-economy-and-banks/
+2026-10-02 10:57:43,525 INFO   GET https://www.kansascityfed.org/speeches/the-outlook-for-the-economy-and-banks/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:44,563 INFO   kansascity 163/173: https://www.kansascityfed.org/speeches/us-agriculture-outlook/
+2026-10-02 10:57:44,563 INFO   GET https://www.kansascityfed.org/speeches/us-agriculture-outlook/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:45,936 INFO kansascity https://www.kansascityfed.org/speeches/us-agriculture-outlook/ excluded: not a speech (slide deck)
+2026-10-02 10:57:45,936 INFO   kansascity 164/173: https://www.kansascityfed.org/speeches/us-and-colorado-economic-conditions-municipal-analysts-of-the-rocky-mountains-marmot/
+2026-10-02 10:57:45,936 INFO   GET https://www.kansascityfed.org/speeches/us-and-colorado-economic-conditions-municipal-analysts-of-the-rocky-mountains-marmot/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:46,884 INFO kansascity https://www.kansascityfed.org/speeches/us-and-colorado-economic-conditions-municipal-analysts-of-the-rocky-mountains-marmot/ excluded: not a speech (slide deck)
+2026-10-02 10:57:46,884 INFO   kansascity 165/173: https://www.kansascityfed.org/speeches/us-and-nebraska-economic-update/
+2026-10-02 10:57:46,941 INFO   GET https://www.kansascityfed.org/speeches/us-and-nebraska-economic-update/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:47,438 INFO kansascity https://www.kansascityfed.org/speeches/us-and-nebraska-economic-update/ excluded: not a speech (slide deck)
+2026-10-02 10:57:47,438 INFO   kansascity 166/173: https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-bartlesville-downtown-financial-forum/
+2026-10-02 10:57:47,946 INFO   GET https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-bartlesville-downtown-financial-forum/ (attempt 1/2, elapsed 1s)
+2026-10-02 10:57:49,657 INFO kansascity https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-bartlesville-downtown-financial-forum/ excluded: not a speech (slide deck)
+2026-10-02 10:57:49,657 INFO   kansascity 167/173: https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-norman-business-association/
+2026-10-02 10:57:49,657 INFO   GET https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-norman-business-association/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:51,283 INFO kansascity https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-norman-business-association/ excluded: not a speech (slide deck)
+2026-10-02 10:57:51,283 INFO   kansascity 168/173: https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-oklahoma-society-of-cpas/
+2026-10-02 10:57:51,283 INFO   GET https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-oklahoma-society-of-cpas/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:52,608 INFO kansascity https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-oklahoma-society-of-cpas/ excluded: not a speech (slide deck)
+2026-10-02 10:57:52,608 INFO   kansascity 169/173: https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-to-the-norman-chamber-of-commerce/
+2026-10-02 10:57:52,608 INFO   GET https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-to-the-norman-chamber-of-commerce/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:54,737 INFO kansascity https://www.kansascityfed.org/speeches/us-and-oklahoma-economic-outlook-to-the-norman-chamber-of-commerce/ excluded: not a speech (slide deck)
+2026-10-02 10:57:54,738 INFO   kansascity 170/173: https://www.kansascityfed.org/speeches/us-and-regional-economic-conditions-economic-forum-of-nm/
+2026-10-02 10:57:54,738 INFO   GET https://www.kansascityfed.org/speeches/us-and-regional-economic-conditions-economic-forum-of-nm/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:56,240 INFO kansascity https://www.kansascityfed.org/speeches/us-and-regional-economic-conditions-economic-forum-of-nm/ excluded: not a speech (slide deck)
+2026-10-02 10:57:56,240 INFO   kansascity 171/173: https://www.kansascityfed.org/speeches/us-and-regional-economic-update-icba-of-new-mexico-annual-meeting/
+2026-10-02 10:57:56,240 INFO   GET https://www.kansascityfed.org/speeches/us-and-regional-economic-update-icba-of-new-mexico-annual-meeting/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:57,551 INFO kansascity https://www.kansascityfed.org/speeches/us-and-regional-economic-update-icba-of-new-mexico-annual-meeting/ excluded: not a speech (slide deck)
+2026-10-02 10:57:57,551 INFO   kansascity 172/173: https://www.kansascityfed.org/speeches/us-economic-conditions/
+2026-10-02 10:57:57,551 INFO   GET https://www.kansascityfed.org/speeches/us-economic-conditions/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:57:58,947 INFO kansascity https://www.kansascityfed.org/speeches/us-economic-conditions/ excluded: not a speech (slide deck)
+2026-10-02 10:57:58,947 INFO   kansascity 173/173: https://www.kansascityfed.org/speeches/us-farm-economy-stable-but-vulnerable/
+2026-10-02 10:57:58,948 INFO   GET https://www.kansascityfed.org/speeches/us-farm-economy-stable-but-vulnerable/ (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:00,827 INFO kansascity https://www.kansascityfed.org/speeches/us-farm-economy-stable-but-vulnerable/ excluded: not a speech (slide deck)
+kansascity: stored=51, duplicate=1, excluded=113, metadata_failure=5, extraction_failure=3, request_failure=0, http_failure=0, remaining=0, deferred_failure=192; needs_recovery
+ny: gathering recent listing...
+ny: 705 URLs; 13 selected; 682 already stored.
+2026-10-02 10:58:01,793 INFO   ny 1/13: https://www.newyorkfed.org/newsevents/speeches/2017/fro171108
+2026-10-02 10:58:01,793 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2017/fro171108 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:02,726 INFO ny https://www.newyorkfed.org/newsevents/speeches/2017/fro171108 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:02,733 INFO   ny 2/13: https://www.newyorkfed.org/newsevents/speeches/2020/wue200702
+2026-10-02 10:58:02,797 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2020/wue200702 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:03,332 INFO ny https://www.newyorkfed.org/newsevents/speeches/2020/wue200702 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:03,332 INFO   ny 3/13: https://www.newyorkfed.org/newsevents/speeches/2021/wue210602
+2026-10-02 10:58:03,802 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2021/wue210602 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:04,255 INFO ny https://www.newyorkfed.org/newsevents/speeches/2021/wue210602 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:04,255 INFO   ny 4/13: https://www.newyorkfed.org/newsevents/speeches/2023/wil231128
+2026-10-02 10:58:04,805 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2023/wil231128 (attempt 1/2, elapsed 1s)
+2026-10-02 10:58:05,268 INFO ny https://www.newyorkfed.org/newsevents/speeches/2023/wil231128 excluded: not a speech (publication announcement without prepared speech text)
+2026-10-02 10:58:05,270 INFO   ny 5/13: https://www.newyorkfed.org/newsevents/speeches/2024/hau240418
+2026-10-02 10:58:05,810 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2024/hau240418 (attempt 1/2, elapsed 1s)
+2026-10-02 10:58:06,389 INFO ny https://www.newyorkfed.org/newsevents/speeches/2024/hau240418 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:06,390 INFO   ny 6/13: https://www.newyorkfed.org/newsevents/speeches/2025/ath250114
+2026-10-02 10:58:06,810 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2025/ath250114 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:07,302 INFO ny https://www.newyorkfed.org/newsevents/speeches/2025/ath250114 extraction_failure: no prepared speech text (266 chars)
+  extraction_failure: https://www.newyorkfed.org/newsevents/speeches/2025/ath250114: no prepared speech text (266 chars)
+2026-10-02 10:58:07,303 INFO   ny 7/13: https://www.newyorkfed.org/newsevents/speeches/2025/ath250213
+2026-10-02 10:58:07,811 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2025/ath250213 (attempt 1/2, elapsed 1s)
+2026-10-02 10:58:08,333 INFO ny https://www.newyorkfed.org/newsevents/speeches/2025/ath250213 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:08,334 INFO   ny 8/13: https://www.newyorkfed.org/newsevents/speeches/2025/ath250509
+2026-10-02 10:58:08,812 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2025/ath250509 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:09,387 INFO ny https://www.newyorkfed.org/newsevents/speeches/2025/ath250509 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:09,389 INFO   ny 9/13: https://www.newyorkfed.org/newsevents/speeches/2025/ath251007
+2026-10-02 10:58:09,820 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2025/ath251007 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:10,421 INFO ny https://www.newyorkfed.org/newsevents/speeches/2025/ath251007 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:10,422 INFO   ny 10/13: https://www.newyorkfed.org/newsevents/speeches/2025/ath251219
+2026-10-02 10:58:10,824 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2025/ath251219 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:11,491 INFO ny https://www.newyorkfed.org/newsevents/speeches/2025/ath251219 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:11,491 INFO   ny 11/13: https://www.newyorkfed.org/newsevents/speeches/2026/ath260219
+2026-10-02 10:58:11,829 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2026/ath260219 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:12,425 INFO ny https://www.newyorkfed.org/newsevents/speeches/2026/ath260219 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:12,425 INFO   ny 12/13: https://www.newyorkfed.org/newsevents/speeches/2026/ath260522
+2026-10-02 10:58:12,830 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2026/ath260522 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:13,366 INFO ny https://www.newyorkfed.org/newsevents/speeches/2026/ath260522 excluded: not a speech (presentation without prepared speech text)
+2026-10-02 10:58:13,367 INFO   ny 13/13: https://www.newyorkfed.org/newsevents/speeches/2026/cet260715
+2026-10-02 10:58:13,831 INFO   GET https://www.newyorkfed.org/newsevents/speeches/2026/cet260715 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:14,365 INFO ny https://www.newyorkfed.org/newsevents/speeches/2026/cet260715 excluded: not a speech (presentation without prepared speech text)
+ny: stored=0, duplicate=0, excluded=12, metadata_failure=0, extraction_failure=1, request_failure=0, http_failure=0, remaining=0, deferred_failure=1; needs_recovery
+richmond: gathering recent listing...
+richmond: 297 URLs; 3 selected; 292 already stored.
+2026-10-02 10:58:15,028 INFO   richmond 1/3: https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2010/lacker_speech_20100414
+2026-10-02 10:58:15,028 INFO   GET https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2010/lacker_speech_20100414 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:16,397 INFO richmond https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2010/lacker_speech_20100414 excluded: not a speech (event summary without prepared text)
+2026-10-02 10:58:16,397 INFO   richmond 2/3: https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2013/lacker_speech_20131503
+2026-10-02 10:58:16,397 INFO   GET https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2013/lacker_speech_20131503 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:16,937 INFO richmond https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2013/lacker_speech_20131503 excluded: not a speech (event summary without prepared text)
+2026-10-02 10:58:16,938 INFO   richmond 3/3: https://www.richmondfed.org/press_room/speeches/kartik_b_athreya/2021/athreya_speech_202110
+2026-10-02 10:58:17,399 INFO   GET https://www.richmondfed.org/press_room/speeches/kartik_b_athreya/2021/athreya_speech_202110 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:17,982 INFO richmond https://www.richmondfed.org/press_room/speeches/kartik_b_athreya/2021/athreya_speech_202110 excluded: not a speech (event summary without prepared text)
+richmond: stored=0, duplicate=0, excluded=3, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=0; completed
+cleveland: gathering recent listing...
+cleveland: 161 URLs; 5 selected; 149 already stored.
+2026-10-02 10:58:18,713 INFO   cleveland 1/5: https://www.clevelandfed.org/collections/speeches/sp-20160923-presidents-perspectives
+2026-10-02 10:58:18,713 INFO   GET https://www.clevelandfed.org/collections/speeches/sp-20160923-presidents-perspectives (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:19,792 INFO cleveland https://www.clevelandfed.org/collections/speeches/sp-20160923-presidents-perspectives excluded: not a speech (video event without prepared text)
+2026-10-02 10:58:19,792 INFO   cleveland 2/5: https://www.clevelandfed.org/collections/speeches/sp-20170302-athena-power-talk-with-loretta-j-mester
+2026-10-02 10:58:19,792 INFO   GET https://www.clevelandfed.org/collections/speeches/sp-20170302-athena-power-talk-with-loretta-j-mester (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:20,705 INFO cleveland https://www.clevelandfed.org/collections/speeches/sp-20170302-athena-power-talk-with-loretta-j-mester excluded: not a speech (video event without prepared text)
+2026-10-02 10:58:20,705 INFO   cleveland 3/5: https://www.clevelandfed.org/collections/speeches/sp-20220929-inflation-drivers-and-dynamics-conference-2022
+2026-10-02 10:58:20,797 INFO   GET https://www.clevelandfed.org/collections/speeches/sp-20220929-inflation-drivers-and-dynamics-conference-2022 (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:21,760 INFO cleveland https://www.clevelandfed.org/collections/speeches/sp-20220929-inflation-drivers-and-dynamics-conference-2022 excluded: not a speech (video event without prepared text)
+2026-10-02 10:58:21,760 INFO   cleveland 4/5: https://www.clevelandfed.org/collections/speeches/sp-20221006-economists-on-the-economy
+2026-10-02 10:58:21,802 INFO   GET https://www.clevelandfed.org/collections/speeches/sp-20221006-economists-on-the-economy (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:22,777 INFO cleveland https://www.clevelandfed.org/collections/speeches/sp-20221006-economists-on-the-economy excluded: not a speech (video event without prepared text)
+2026-10-02 10:58:22,777 INFO   cleveland 5/5: https://www.clevelandfed.org/collections/speeches/sp-20221115-get-to-know-the-cleveland-feds-center-for-inflation-research
+2026-10-02 10:58:22,803 INFO   GET https://www.clevelandfed.org/collections/speeches/sp-20221115-get-to-know-the-cleveland-feds-center-for-inflation-research (attempt 1/2, elapsed 0s)
+2026-10-02 10:58:23,742 INFO cleveland https://www.clevelandfed.org/collections/speeches/sp-20221115-get-to-know-the-cleveland-feds-center-for-inflation-research excluded: not a speech (video event without prepared text)
+cleveland: stored=0, duplicate=0, excluded=5, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=1; needs_recovery
+Run partial: 64 added; 3617 speeches stored.
+Run report: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T025344.513888Z-7176.json

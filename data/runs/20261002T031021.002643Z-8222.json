@@ -1,0 +1,93 @@
+{
+  "started_at": "2026-10-02T03:10:22.721589+00:00",
+  "status": "partial",
+  "collector_version": "v3.3",
+  "full_archive": false,
+  "repair": {
+    "quarantined": 0,
+    "restored": 0,
+    "joint_author_exclusions": 0,
+    "reclassified_timeouts": 0
+  },
+  "sources": {
+    "chicago": {
+      "status": "needs_recovery",
+      "listed": 107,
+      "eligible": 7,
+      "selected": 7,
+      "listing_error": null,
+      "counts": {
+        "deferred_failure": 96,
+        "remembered_exclusion": 4,
+        "attempted": 7,
+        "stored": 7,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.chicagofed.org/publications/speeches/2023/august-1-chicago-business-week",
+      "stored": 7,
+      "remaining": 0
+    },
+    "board": {
+      "status": "needs_recovery",
+      "listed": 30,
+      "eligible": 2,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "deferred_failure": 4,
+        "remembered_exclusion": 24,
+        "attempted": 2,
+        "stored": 2,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.federalreserve.gov/boarddocs/speeches/1996/19961203.htm",
+      "stored": 2,
+      "remaining": 0
+    },
+    "kansascity": {
+      "status": "needs_recovery",
+      "listed": 324,
+      "eligible": 8,
+      "selected": 8,
+      "listing_error": null,
+      "counts": {
+        "remembered_exclusion": 126,
+        "deferred_failure": 190,
+        "excluded": 5,
+        "attempted": 8,
+        "metadata_failure": 1,
+        "stored": 2,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.kansascityfed.org/speeches/2019-George-Jackson-Hole-0822/",
+      "stored": 2,
+      "remaining": 0
+    },
+    "ny": {
+      "status": "completed",
+      "listed": 22,
+      "eligible": 1,
+      "selected": 1,
+      "listing_error": null,
+      "counts": {
+        "remembered_exclusion": 21,
+        "excluded": 1,
+        "attempted": 1,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.newyorkfed.org/newsevents/speeches/2025/ath250114",
+      "stored": 0,
+      "remaining": 0
+    }
+  },
+  "log": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031021.002643Z-8222.log",
+  "report": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031021.002643Z-8222.json",
+  "finished_at": "2026-10-02T03:10:41.052723+00:00",
+  "added": 11,
+  "speech_count": 3633
+}

@@ -1,0 +1,246 @@
+{
+  "started_at": "2026-10-02T02:35:22.851190+00:00",
+  "status": "partial",
+  "collector_version": "v3",
+  "full_archive": false,
+  "repair": {
+    "quarantined": 23,
+    "reclassified_timeouts": 23
+  },
+  "sources": {
+    "board": {
+      "status": "limited",
+      "listed": 54,
+      "eligible": 41,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 13,
+        "excluded": 1,
+        "attempted": 3,
+        "stored": 2,
+        "duplicate": 0,
+        "not_attempted": 38
+      },
+      "current_url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+      "stored": 2,
+      "remaining": 38
+    },
+    "ny": {
+      "status": "limited",
+      "listed": 53,
+      "eligible": 28,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 25,
+        "excluded": 1,
+        "attempted": 3,
+        "extraction_failure": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 25
+      },
+      "current_url": "https://www.newyorkfed.org/newsevents/speeches/2026/ath260522",
+      "stored": 0,
+      "remaining": 25
+    },
+    "boston": {
+      "status": "limited",
+      "listed": 39,
+      "eligible": 13,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 26,
+        "excluded": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 10
+      },
+      "current_url": "https://www.bostonfed.org/news-and-events/speeches/2024/remarks-for-the-national-association-of-corporate-directors-new-england-chapter.aspx",
+      "stored": 0,
+      "remaining": 10
+    },
+    "philadelphia": {
+      "status": "limited",
+      "listed": 35,
+      "eligible": 10,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 25,
+        "excluded": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 7
+      },
+      "current_url": "https://www.philadelphiafed.org/the-economy/monetary-policy/250227-philadelphia-feds-harker-on-inflation-lets-stick-to-the-game-plan",
+      "stored": 0,
+      "remaining": 7
+    },
+    "cleveland": {
+      "status": "listing_incomplete",
+      "listed": 11,
+      "eligible": 11,
+      "selected": 3,
+      "listing_error": "Listing returned no speech URLs; layout may have changed",
+      "counts": {
+        "extraction_failure": 2,
+        "attempted": 3,
+        "excluded": 1,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 8
+      },
+      "current_url": "https://www.clevelandfed.org/collections/speeches/sp-20200317-public-statement-on-dissent",
+      "stored": 0,
+      "remaining": 8
+    },
+    "richmond": {
+      "status": "limited",
+      "listed": 35,
+      "eligible": 5,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 30,
+        "extraction_failure": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 2
+      },
+      "current_url": "https://www.richmondfed.org/press_room/speeches/kartik_b_athreya/2021/athreya_speech_202110",
+      "stored": 0,
+      "remaining": 2
+    },
+    "atlanta": {
+      "status": "limited",
+      "listed": 138,
+      "eligible": 135,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 2,
+        "deferred_failure": 1,
+        "extraction_failure": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 132
+      },
+      "current_url": "https://www.atlantafed.org/news-and-events/speeches/2026/02/05/president-bostic-speaks-at-clark-atlanta-university",
+      "stored": 0,
+      "remaining": 132
+    },
+    "chicago": {
+      "status": "limited",
+      "listed": 131,
+      "eligible": 122,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 9,
+        "extraction_failure": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 119
+      },
+      "current_url": "https://www.chicagofed.org/publications/speeches/2026/may-12-greater-rockford-chamber-commerce-luncheon",
+      "stored": 0,
+      "remaining": 119
+    },
+    "stlouis": {
+      "status": "limited",
+      "listed": 31,
+      "eligible": 25,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 6,
+        "excluded": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 22
+      },
+      "current_url": "https://www.stlouisfed.org/from-the-president/remarks/2026/wentzville-mo-visit-june-2026",
+      "stored": 0,
+      "remaining": 22
+    },
+    "minneapolis": {
+      "status": "limited",
+      "listed": 331,
+      "eligible": 331,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "excluded": 3,
+        "attempted": 3,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 328
+      },
+      "current_url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-at-2026-bank-of-korea-international-conference",
+      "stored": 0,
+      "remaining": 328
+    },
+    "kansascity": {
+      "status": "limited",
+      "listed": 221,
+      "eligible": 221,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "attempted": 3,
+        "stored": 3,
+        "duplicate": 0,
+        "not_attempted": 218
+      },
+      "current_url": "https://www.kansascityfed.org/speeches/the-federal-reserve-economic-outlook-and-monetary-policy-july-2026/",
+      "stored": 3,
+      "remaining": 218
+    },
+    "dallas": {
+      "status": "limited",
+      "listed": 89,
+      "eligible": 89,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "attempted": 3,
+        "stored": 3,
+        "duplicate": 0,
+        "not_attempted": 86
+      },
+      "current_url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl260709",
+      "stored": 3,
+      "remaining": 86
+    },
+    "sanfrancisco": {
+      "status": "limited",
+      "listed": 10,
+      "eligible": 10,
+      "selected": 3,
+      "listing_error": null,
+      "counts": {
+        "attempted": 3,
+        "stored": 3,
+        "duplicate": 0,
+        "not_attempted": 7
+      },
+      "current_url": "https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2025/11/modern-central-banking-monetary-policy-implementation-and-communication/",
+      "stored": 3,
+      "remaining": 7
+    }
+  },
+  "log": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T023521.332491Z-5530.log",
+  "report": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T023521.332491Z-5530.json",
+  "finished_at": "2026-10-02T02:36:19.144969+00:00",
+  "added": 11,
+  "speech_count": 3514
+}

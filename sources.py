@@ -19,13 +19,18 @@ import html
 import io
 import json
 import re
+import xml.etree.ElementTree as ET
 from typing import Callable, Iterator
+from urllib.parse import urljoin, urlsplit
+from html.parser import HTMLParser
 
 import trafilatura
 from pypdf import PdfReader
 
 import config
 import http_get
+import runlog
+import speech_metadata as metadata
 
 MONTHS = "January February March April May June July August September October November December".split()
 MONTH_NUM = {m: i + 1 for i, m in enumerate(MONTHS)}
@@ -34,7 +39,7 @@ MONTH_NUM.update({"Sept": 9})
 
 EXCLUDE_TITLE = re.compile(
     r"\b(?:Q\s*&\s*A|interview|podcast|fireside chat|conversation|statement (?:from|regarding|on|by)|"
-    r"town hall|moderated discussion|video)\b",
+    r"town hall|moderated discussion|testimony|written statement|video)\b",
     re.I,
 )
 BYLINE = re.compile(
@@ -49,11 +54,18 @@ def text_of(fragment: str) -> str:
 
 
 def parse_date(s: str) -> str | None:
+    try:
+        return _parse_date(s)
+    except (ValueError, OverflowError):
+        return None
+
+
+def _parse_date(s: str) -> str | None:
     """ISO date from 'September 29, 2026', 'Sep 29, 2026', 'Sept. 29, 2026', '12/1/2023', '2026-09-29'."""
     s = s.strip()
-    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", s)
+    m = re.search(r"(\d{4})[-/](\d{2})[-/](\d{2})", s)
     if m:
-        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+        return dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3))).isoformat()
     m = re.search(r"\b([A-Z][a-z]{2,8})\.? (\d{1,2}),? (\d{4})", s)
     if m and m.group(1) in MONTH_NUM:
         return dt.date(int(m.group(3)), MONTH_NUM[m.group(1)], int(m.group(2))).isoformat()
@@ -67,7 +79,27 @@ def parse_date(s: str) -> str | None:
 
 
 def html_text(page: str) -> str:
-    return trafilatura.extract(page, include_comments=False, include_tables=False, favor_recall=True) or ""
+    text = trafilatura.extract(page, include_comments=False, include_tables=False, favor_recall=True) or ""
+    if len(text) < config.MIN_TEXT_CHARS:
+        # Old Board pages use tables for their article layout, not just data.
+        candidate = trafilatura.extract(page, include_comments=False, include_tables=True, favor_recall=True) or ''
+        if len(candidate) > len(text):
+            text = candidate
+    if len(text) < config.MIN_TEXT_CHARS:
+        tree = metadata.document(page)
+        for selector in ('ts-article-text', 'cfedDetail__content', 'article-frame'):
+            for node in metadata.class_nodes(tree, selector):
+                candidate = "\n".join(part.strip() for part in node.itertext() if part.strip())
+                if len(candidate) > len(text):
+                    text = candidate
+    if len(text) < config.MIN_TEXT_CHARS:
+        tree = metadata.document(page)
+        for heading in tree.xpath('//h3'):
+            node = heading.getparent()
+            candidate = "\n".join(part.strip() for part in node.itertext() if part.strip())
+            if 'Remarks by' in candidate and len(candidate) > len(text):
+                text = candidate
+    return text
 
 
 def pdf_text(url: str) -> str:
@@ -76,19 +108,28 @@ def pdf_text(url: str) -> str:
 
 
 def absolute(base: str, href: str) -> str:
-    href = html.unescape(href)
-    if href.startswith("http"):
-        return href
-    return base + ("" if href.startswith("/") else "/") + href
+    return urljoin(base, html.unescape(href).strip())
+
+
+class _MetadataHTML(HTMLParser):
+    def __init__(self, page: str):
+        super().__init__()
+        self.values = {}
+        self.feed(page)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "meta":
+            key = attrs.get("name") or attrs.get("property") or attrs.get("itemprop")
+            if key and attrs.get("content"):
+                self.values.setdefault(key.lower(), attrs["content"].strip())
+        if tag == "time" and attrs.get("datetime"):
+            self.values.setdefault("time", attrs["datetime"])
 
 
 def meta(page: str, *names: str) -> str:
-    for name in names:
-        m = re.search(rf'<meta\s+(?:name|property|itemprop)="{re.escape(name)}"\s+content="([^"]*)"', page) or \
-            re.search(rf'<meta\s+content="([^"]*)"\s+(?:name|property|itemprop)="{re.escape(name)}"', page)
-        if m and m.group(1).strip():
-            return html.unescape(m.group(1)).strip()
-    return ""
+    values = _MetadataHTML(page).values
+    return next((values[n.lower()] for n in names if values.get(n.lower())), "")
 
 
 def name_from_slug(slug: str) -> str:
@@ -97,6 +138,7 @@ def name_from_slug(slug: str) -> str:
 
 
 def entry(source, url, date=None, speaker=None, title=None, pdf=None) -> dict:
+    url = absolute(SOURCE_ORIGINS[source], url)
     return {"source": source, "url": url, "date": date, "speaker": speaker, "title": title, "pdf": pdf}
 
 
@@ -110,6 +152,8 @@ def _board_year_page(year: int) -> str | None:
                 f"{FED}/newsevents/speech/{year}speech.htm"):
         try:
             return http_get.get(url).text
+        except http_get.SourcePaused:
+            raise
         except Exception:
             continue
     return None
@@ -130,7 +174,7 @@ def list_board(full: bool) -> Iterator[dict]:
     for year in range(1996, dt.date.today().year + 1):
         page = _board_year_page(year)
         if not page:
-            print(f"  board: no speech index for {year}")
+            http_get.listing_problem(f"board: no speech index available for {year}")
             continue
         # current layout: <time>12/1/2023</time> ... <a href=...><em>Title</em></a> ... <p class="news__speaker">
         for m in re.finditer(r"<time>([\d/]+)</time>.*?<a href=\"([^\"]+)\"[^>]*>(.*?)</a>.*?news__speaker\">(.*?)</p>", page, re.S):
@@ -224,14 +268,42 @@ _CLEVELAND_API = (f"{CLEVELAND}/frbc/sitesearch/results?o=field.sortDate.desc&e=
 
 def list_cleveland(full: bool) -> Iterator[dict]:
     offset = 0
+    yielded = set()
     while True:
-        data = http_get.get(_CLEVELAND_API.format(offset=offset)).json()
-        for r in data.get("results") or []:
+        try:
+            data = http_get.get(_CLEVELAND_API.format(offset=offset)).json()
+            results = data.get("results") or []
+        except http_get.SourcePaused:
+            raise
+        except Exception as error:
+            run_message = f"Cleveland search unavailable ({error}); using official sitemap"
+            runlog.detail(run_message)
+            results = []
+        if not results:
+            # The retired search endpoint can return 200 with an empty/null search.
+            # lastmod is an edit date, so delivery metadata must come from the article.
+            tree = ET.fromstring(http_get.get(f"{CLEVELAND}/sitemap.xml").content)
+            urls = set()
+            for loc in tree.findall('.//{*}loc'):
+                url = absolute(CLEVELAND, loc.text or '')
+                parsed = urlsplit(url)
+                if (parsed.netloc.removeprefix('www.') == 'clevelandfed.org'
+                        and re.fullmatch(r'/collections/speeches/[^/]+/?', parsed.path)):
+                    urls.add(url)
+            if not urls:
+                raise ValueError('Cleveland sitemap contains no speech pages')
+            for url in sorted(urls, reverse=True):
+                if url not in yielded:
+                    yield entry('cleveland', url)
+            return
+        for r in results:
             authors = [a["label"] for a in r.get("authors") or []]
-            yield entry("cleveland", CLEVELAND + r["url"], r["releaseDate"][:10],
+            url = absolute(CLEVELAND, r['url'])
+            yielded.add(url)
+            yield entry("cleveland", url, r.get("releaseDate", "")[:10],
                         authors[0] if len(authors) == 1 else None, r.get("title"), r.get("pdf_Url"))
         offset += 10
-        if not full or not data["pagingInfo"].get("hasNextPage"):
+        if not full or not data.get("pagingInfo", {}).get("hasNextPage"):
             return
 
 
@@ -248,7 +320,7 @@ def list_richmond(full: bool) -> Iterator[dict]:
         def tag(name):
             m = re.search(rf"<{name}>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</{name}>", item, re.S)
             return html.unescape(m.group(1)).strip() if m else ""
-        link = tag("link")
+        link = absolute(RICHMOND, tag("link"))
         who = re.search(r"/speeches/([a-z_]+)/\d{4}/", link)
         yield entry("richmond", link, parse_date(tag("pubDate")), name_from_slug(who.group(1)) if who else None, tag("title"))
 
@@ -279,6 +351,24 @@ CHICAGO = "https://www.chicagofed.org"
 
 
 def list_chicago(full: bool) -> Iterator[dict]:
+    if full:
+        try:
+            urls = [url for url in _sitemap(f'{CHICAGO}/sitemap.xml')
+                    if urlsplit(url).netloc.removeprefix('www.') == 'chicagofed.org'
+                    and re.fullmatch(r'/publications/speeches/\d{4}/(?!index/?$)[^/]+/?', urlsplit(url).path)]
+            if not urls:
+                raise ValueError('Chicago sitemap contains no dated speech pages')
+        except http_get.SourcePaused:
+            raise
+        except Exception as error:
+            http_get.listing_problem(f'Chicago sitemap unavailable: {error}')
+        else:
+            # Yearly index pages have been retired. The sitemap covers their
+            # speech URLs without depending on those optional indexes.
+            for url in sorted(set(urls), reverse=True):
+                date = metadata.bank_metadata('chicago', '', '', url, parse_date, meta)[0]
+                yield entry('chicago', url, date)
+            return
     pages = [f"{CHICAGO}/utilities/about-us/office-of-the-president/office-of-the-president-speaking"]
     if full:
         pages.append(f"{CHICAGO}/publications/speeches/speech-archive")
@@ -287,34 +377,25 @@ def list_chicago(full: bool) -> Iterator[dict]:
     for url in pages:
         try:
             page = http_get.get(url).text
-        except Exception:
+        except http_get.SourcePaused:
+            raise
+        except Exception as error:
+            http_get.listing_problem(f"{url}: {error}")
             continue
         for m in re.finditer(r'href="(/publications/speeches/\d{4}/[^"#?]+)"[^>]*>(.*?)</a>(.{0,600})', page, re.S):
             if m.group(1).endswith("/index") or m.group(1) in seen:
                 continue
             seen.add(m.group(1))
             # the listing gives the date right after the title ("... November 14, 2019 | Print Version")
-            date = parse_date(text_of(m.group(3)).split("|")[0])
+            date = metadata.bank_metadata("chicago", "", "", CHICAGO + m.group(1), parse_date, meta)[0]
+            date = date or parse_date(text_of(m.group(3)).split("|")[0])
             yield entry("chicago", CHICAGO + m.group(1), date, title=text_of(m.group(2)) or None)
 
 
 def chicago_meta(page: str, text: str) -> tuple[str | None, str | None, str | None]:
-    # Pages carry the byline in the text ("A speech presented by Austan D. Goolsbee, president ... on April 11, 2023")
-    # or only in the print-version PDF.
-    head = text[:600]
-    m = re.search(r"presented by ([A-Z][\w.\- ]+?), president", head, re.I)
+    head = metadata.frontmatter(text)
     date = re.search(r"\bon ([A-Z][a-z]+ \d{1,2}, \d{4})", head)
-    speaker = m.group(1) if m else None
-    if not speaker:
-        pdf = re.search(r'href="(/-/media/publications/speeches/[^"]+\.pdf[^"]*)"', page)
-        if pdf:
-            try:
-                first = pdf_text(absolute(CHICAGO, pdf.group(1)))[:800]
-                b = BYLINE.search(first)
-                speaker = b.group(1) if b else None
-            except Exception:
-                pass
-    return (parse_date(date.group(1)) if date else None), speaker, None
+    return (parse_date(date.group(1)) if date else None), metadata.byline(head), None
 
 
 # ---------------------------------------------------------------- St. Louis
@@ -404,7 +485,7 @@ def list_dallas(full: bool) -> Iterator[dict]:
         links = [re.sub(r"^https://www\.dallasfed\.org", "", l) for l in re.findall(r"<link>\s*([^<\s]+/news/speeches/[a-z]+/\d{4}/[^<\s]+)", rss)]
     for link in dict.fromkeys(links):
         who = re.search(r"/news/speeches/([a-z]+)/", link).group(1)
-        ymd = re.search(r"(\d{2})(\d{2})(\d{2})(?:[a-z])?$", link)          # .../logan/2026/lkl260716
+        ymd = re.search(r"(\d{2})(\d{2})(\d{2})(?:[a-z]+)?(?:\.aspx)?$", link)
         date = f"{link.split('/')[4]}-{ymd.group(2)}-{ymd.group(3)}" if ymd and link.split('/')[4][2:] == ymd.group(1) else None
         yield entry("dallas", DALLAS + link, date, speaker=None if who == "speeches-leaders" else who.capitalize())
 
@@ -422,14 +503,28 @@ def list_sanfrancisco(full: bool) -> Iterator[dict]:
             url = f"{SF}/news-and-media/speeches/{slug}/" + (f"page/{page_no}/" if page_no > 1 else "")
             try:
                 page = http_get.get(url).text
-            except Exception:
-                break
+            except http_get.SourcePaused:
+                raise
+            except http_get.requests.RequestsError as error:
+                if getattr(getattr(error, 'response', None), 'status_code', None) == 404 and page_no > 1:
+                    break
+                raise
+            tree = metadata.document(page)
             found = 0
-            for m in re.finditer(r'<h2 class="wp-block-post-title[^"]*"><a href="([^"]+)"[^>]*>(.*?)</a></h2>\s*'
-                                 r'<div[^>]*wp-block-post-date[^>]*><time datetime="([^"]+)"', page, re.S):
-                yield entry("sanfrancisco", m.group(1), m.group(3)[:10], None, text_of(m.group(2)))
+            for heading in metadata.class_nodes(tree, 'wp-block-post-title'):
+                links = heading.xpath('./a[@href]')
+                if not links:
+                    continue
+                link = links[0]
+                containers = heading.xpath('ancestor::li[1]')
+                container = containers[0] if containers else heading.getparent()
+                times = container.xpath('.//time[@datetime]')
+                yield entry('sanfrancisco', link.get('href'), parse_date(times[0].get('datetime')) if times else None,
+                            title=metadata.node_text(link))
                 found += 1
-            if not found or not full or f"page/{page_no + 1}/" not in page:
+            if not found:
+                raise ValueError(f"No speech links found on {url}; listing requires inspection")
+            if not full or f"page/{page_no + 1}/" not in page:
                 break
             page_no += 1
 
@@ -442,6 +537,14 @@ def sanfrancisco_meta(page: str, text: str) -> tuple[str | None, str | None, str
 
 
 # ---------------------------------------------------------------- registry
+
+SOURCE_ORIGINS = {
+    "board": FED, "ny": NY, "boston": BOSTON, "philadelphia": PHIL,
+    "cleveland": CLEVELAND, "richmond": RICHMOND, "atlanta": ATLANTA,
+    "chicago": CHICAGO, "stlouis": STL, "minneapolis": MPLS,
+    "kansascity": KC, "dallas": DALLAS, "sanfrancisco": SF,
+}
+
 
 SOURCES: dict[str, tuple[str, Callable[[bool], Iterator[dict]], Callable | None]] = {
     # name: (role passed to the scorer, lister, page metadata reader)
@@ -470,60 +573,177 @@ def make_id(date: str, speaker: str, title: str) -> str:
     return hashlib.sha1(f"{date}|{surname}|{t}".encode()).hexdigest()[:12]
 
 
+def _frontmatter(text: str) -> str:
+    return metadata.frontmatter(text)
+
+
+def _article_schema(page: str) -> dict:
+    def walk(value):
+        if isinstance(value, list):
+            for item in value:
+                yield from walk(item)
+        elif isinstance(value, dict):
+            kinds = value.get("@type", [])
+            if isinstance(kinds, str):
+                kinds = [kinds]
+            if any(k in {"Article", "NewsArticle", "BlogPosting", "Speech"} for k in kinds):
+                yield value
+            yield from walk(value.get("@graph", []))
+    for raw in re.findall(r'<script[^>]*type=[\'"]application/ld\+json[\'"][^>]*>(.*?)</script>', page, re.S | re.I):
+        try:
+            for item in walk(json.loads(raw)):
+                return item
+        except (ValueError, TypeError):
+            continue
+    return {}
+
+
 def _generic_meta(page: str, text: str) -> tuple[str | None, str | None, str | None]:
-    """(date, speaker, title) from common page metadata and the opening lines of the text."""
+    """Prefer article metadata, then the title/byline block, never arbitrary body mentions."""
+    schema = _article_schema(page)
     date = parse_date(meta(page, "article:published_time", "publication_date", "citation_publication_date",
-                           "citation_date", "DC.date", "date", "afo_contentDate"))
+                           "citation_date", "DC.date", "date", "afo_contentDate", "ess:publishdatetime", "sortDate", "releaseDate", "parsely-pub-date", "time")
+                      or str(schema.get("datePublished", "")))
+    head = _frontmatter(text)
     if not date:
-        date = parse_date(text[:400])
-    b = BYLINE.search(text[:800])
-    title = meta(page, "og:title", "citation_title", "twitter:title")
+        # A standalone date or an explicit delivery line is safer than a date in prose.
+        for line in head.splitlines():
+            candidate = parse_date(line)
+            date_line = re.fullmatch(
+                r"(?:[A-Z][a-z]+,?\s+)?(?:[A-Z][a-z]{2,8}\.?\s+\d{1,2},?\s+\d{4}|"
+                r"\d{1,2}\s+[A-Z][a-z]{2,8}\.?\s+\d{4}|\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2}/\d{4})", line)
+            if candidate and (date_line or re.search(r"(?:delivered|presented|remarks|speech).*?\bon\b", line, re.I)):
+                date = candidate
+                break
+    author = schema.get("author", {})
+    if isinstance(author, list):
+        author = author[0] if len(author) == 1 else {}
+    speaker = meta(page, "citation_author")
+    if not speaker and isinstance(author, dict) and author.get("@type") == "Person":
+        speaker = author.get("name")
+    speaker = metadata.normalize_speaker(speaker) or metadata.byline(head)
+    title = meta(page, "og:title", "citation_title", "twitter:title") or schema.get("headline")
     if not title:
-        t = re.search(r"<title>(.*?)</title>", page, re.S)
+        t = re.search(r"<title[^>]*>(.*?)</title>", page, re.S | re.I)
         title = text_of(t.group(1)) if t else ""
-    title = re.split(r"\s+[|\-–]\s+(?:Federal Reserve|FRB|Dallas Fed|St\. Louis Fed|San Francisco Fed)", title)[0]
-    return date, (b.group(1) if b else None), title or None
+    if not title and not page:
+        # PDF cover titles precede the byline. Do not invent a title from prose.
+        title_lines = []
+        for line in head.splitlines():
+            if not line:
+                continue
+            if (re.search(r"^(?:Remarks|Speech|Address|Presented)\s+by\b", line, re.I)
+                    or (speaker and line == speaker) or parse_date(line)):
+                break
+            title_lines.append(line)
+        title = " ".join(title_lines)
+    title = re.split(r"\s+[|\-–]\s+(?:Federal Reserve|FRB|Dallas Fed|St\. Louis Fed|San Francisco Fed)", title or "")[0]
+    return date, metadata.normalize_speaker(speaker), title or None
 
 
 def _speech_pdf(page: str, url: str) -> str | None:
-    """The speech text PDF linked from a page whose HTML holds only a summary (not slides or charts)."""
-    for href in re.findall(r'href="([^"]+\.pdf)[^"]*"', page):
-        if re.search(r"speech", href, re.I) and not re.search(r"slide|chart|exhibit|presentation", href, re.I):
-            return absolute(re.match(r"https?://[^/]+", url).group(0), href)
-    return None
+    """Only follow links describing prepared remarks, never research references or slide decks."""
+    tree = metadata.document(page)
+    candidates = []
+    host = urlsplit(url).netloc.removeprefix("www.")
+    for node in tree.xpath('//a[@href]'):
+        href = absolute(url, node.get('href'))
+        label = metadata.node_text(node)
+        path = urlsplit(href).path
+        if urlsplit(href).netloc.removeprefix("www.") != host:
+            continue
+        if not re.search(r'\.(?:pdf|ashx)$', path, re.I):
+            continue
+        if re.search(r'slide|chart|exhibit|presentation|paper|research', path + ' ' + label, re.I):
+            continue
+        download_in_article = (
+            re.search(r'/speeches/', urlsplit(url).path)
+            and re.match(r'^Download\s+(?:PDF|speech)\b', label, re.I)
+            and node.xpath('ancestor::main | ancestor::article | ancestor::*[contains(concat(" ",normalize-space(@class)," ")," wp-block-post-content ")]')
+        )
+        if download_in_article or re.search(r'speech|remarks|prepared|full text|print version|transcript', path + ' ' + label, re.I):
+            candidates.append(href)
+    return candidates[0] if candidates else None
 
 
 def fetch(e: dict) -> tuple[dict | None, str]:
-    """Read one listed speech. Returns (record, '') or (None, reason it was skipped)."""
+    """Read prepared speech text and validate its delivery date and speaker."""
     role, _, page_meta = SOURCES[e["source"]]
-    if e.get("title") and EXCLUDE_TITLE.search(e["title"]):
+    path = urlsplit(e['url']).path
+    if e['source'] == 'board' and path.startswith('/pubs/feds/'):
+        return None, 'not a speech (FEDS research publication)'
+    if e['source'] == 'stlouis' and re.search(r'/remarks/\d{4}/photos-', path):
+        return None, 'not a speech (photo gallery)'
+    if e["source"] == "richmond" and "/publications/research/econ_focus/" in urlsplit(e["url"]).path:
+        return None, "not a speech (research magazine article)"
+    if e.get("title") and EXCLUDE_TITLE.search(e["title"]) and not re.match(r"opening remarks", e["title"], re.I):
         return None, "not a speech (title)"
-    if e["url"].lower().split("?")[0].endswith(".pdf"):
-        page, text = "", pdf_text(e["url"])
+    response = http_get.get(e["url"])
+    content_type = response.headers.get("content-type", "").lower()
+    is_pdf = (response.content.lstrip().startswith(b"%PDF") or "application/pdf" in content_type
+              or urlsplit(response.url).path.lower().endswith(".pdf"))
+    pages = []
+    page = "" if is_pdf else response.text
+    if page and re.search(r'An error occurred\.\s*(?:</[^>]+>\s*)*Unable to execute JavaScript\.', text_of(page), re.I):
+        error = TimeoutError('Publisher returned an error page instead of the speech')
+        http_get._failed(error)
+        raise error
+    if is_pdf:
+        reader = PdfReader(io.BytesIO(response.content))
+        pages = [p.extract_text() or "" for p in reader.pages]
+        text = "\n".join(pages)
     else:
-        page = http_get.get(e["url"]).text
         text = html_text(page)
-        if len(text) < config.MIN_TEXT_CHARS:
-            pdf = e.get("pdf") or _speech_pdf(page, e["url"])
+        # Resolve headers before body extraction can omit the date or byline.
+        if len(text) < config.MIN_TEXT_CHARS or re.match(r"\s*For immediate release", text, re.I):
+            pdf = e.get("pdf") or _speech_pdf(page, response.url)
             if pdf:
-                text = pdf_text(pdf)
-    date, speaker, title = e.get("date"), e.get("speaker"), e.get("title")
+                pdf_response = http_get.get(absolute(response.url, pdf))
+                reader = PdfReader(io.BytesIO(pdf_response.content))
+                pages = [p.extract_text() or "" for p in reader.pages]
+                text = "\n".join(pages)
+    if pages and metadata.looks_like_slides(pages):
+        return None, "not a speech (slide deck)"
+    meta_text = pages[0] if pages else text
+    date = parse_date(str(e.get("date") or ""))
+    speaker = metadata.normalize_speaker(e.get("speaker"))
+    title = e.get("title")
+    if page or e["source"] in {"ny", "chicago", "board"}:
+        d, person, heading = metadata.bank_metadata(e["source"], page, meta_text, e["url"], parse_date, meta)
+        date, speaker, title = date or d, speaker or person, title or heading
+        if e['source'] == 'dallas':
+            # Dallas headings can carry a delivery year different from the URL directory.
+            date, speaker, title = d or date, person or speaker, heading or title
+        elif e['source'] == 'chicago':
+            date = d or date
     if page_meta and page:
-        d, s, t = page_meta(page, text)
-        date, speaker, title = date or d, speaker or s, title or t
-    if page and not (date and speaker and title):
-        d, s, t = _generic_meta(page, text)
-        date, speaker, title = date or d, speaker or s, title or t
-    if title and EXCLUDE_TITLE.search(title):
+        d, person, heading = page_meta(page, meta_text)
+        date, speaker, title = date or d, speaker or metadata.normalize_speaker(person), title or heading
+    if not (date and speaker and title):
+        d, person, heading = _generic_meta(page, meta_text)
+        date, speaker, title = date or d, speaker or person, title or heading
+    if page and not pages and (not date or not speaker):
+        pdf = e.get('pdf') or _speech_pdf(page, response.url)
+        if pdf:
+            reader = PdfReader(io.BytesIO(http_get.get(absolute(response.url, pdf)).content))
+            cover = reader.pages[0].extract_text() or '' if reader.pages else ''
+            d, person, _ = _generic_meta('', cover)
+            date, speaker = date or d, speaker or person
+    if title and EXCLUDE_TITLE.search(title) and not re.match(r"opening remarks", title, re.I):
         return None, "not a speech (title)"
-    if len(text) < config.MIN_TEXT_CHARS:
-        return None, f"no speech text ({len(text)} chars)"
+    if reason := metadata.non_speech_reason(page, text, title or ""):
+        return None, f"not a speech ({reason})"
+    if len(text) < config.MIN_TEXT_CHARS and not metadata.short_prepared_text(text):
+        return None, f"no prepared speech text ({len(text)} chars)"
+    date = parse_date(str(date or ""))
+    speaker = metadata.normalize_speaker(speaker)
     if not date or not speaker:
-        return None, f"date or speaker not found (date={date}, speaker={speaker})"
-    speaker = re.sub(r"\s+", " ", speaker).strip()
+        missing = ", ".join(k for k, value in (("date", date), ("speaker", speaker)) if not value)
+        return None, f"metadata missing: {missing} (date={date}, speaker={speaker})"
     return {
         "id": make_id(date, speaker, title or ""), "date": date, "speaker": speaker, "role": role,
-        "title": title or "", "url": e["url"], "source": e["source"], "text": text.strip(),
+        "title": title or "", "url": e["url"], "source": e["source"],
+        "text": "\n".join(line.rstrip() for line in text.splitlines()).strip(),
     }, ""
 
 

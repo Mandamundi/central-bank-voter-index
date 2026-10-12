@@ -1,0 +1,397 @@
+{
+  "checked_at": "2026-10-02T03:12:39.652414+00:00",
+  "collector_version": "v3.3",
+  "verification": "Replayed cached official HTTP responses; full archives are not complete.",
+  "cases": [
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2004/02-19-regional-and-national-economic-conditions",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2004-02-19",
+      "speaker": "Michael H. Moskow",
+      "reason": ""
+    },
+    {
+      "url": "https://www.federalreserve.gov/boarddocs/speeches/1996/19961125.htm",
+      "source": "board",
+      "result": "speech",
+      "date": "1996-11-25",
+      "speaker": "Susan M. Phillips",
+      "reason": ""
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2020/wue200702",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2026/may-12-greater-rockford-chamber-commerce-luncheon",
+      "source": "chicago",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (discussion without prepared text)"
+    },
+    {
+      "url": "https://www.federalreserve.gov/boarddocs/speeches/1996/19961203.htm",
+      "source": "board",
+      "result": "speech",
+      "date": "1996-12-03",
+      "speaker": "Edward W. Kelley, Jr.",
+      "reason": ""
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2009/09-11-fined-speech",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2009-09-11",
+      "speaker": "Charlie Evans",
+      "reason": ""
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2006/kos060511",
+      "source": "ny",
+      "result": "speech",
+      "date": "2006-05-11",
+      "speaker": "Dino Kos",
+      "reason": ""
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2010-hoenig-highcost-06-03/",
+      "source": "kansascity",
+      "result": "speech",
+      "date": "2010-06-03",
+      "speaker": "Thomas M. Hoenig",
+      "reason": ""
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2017/fro171108",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/ath260522",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2010-hoenig-TARP-recipients-dividend-payments-09-30/",
+      "source": "kansascity",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (letter or memorandum)"
+    },
+    {
+      "url": "https://www.atlantafed.org/news-and-events/speeches/2019/02/15/bostic-workforce-development",
+      "source": "atlanta",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (event summary without prepared text)"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2012/08-27-12-hongkong",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2012-08-27",
+      "speaker": "Charles Evans",
+      "reason": ""
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2015/05-04-2015-mananging-risk-manufacturing-cities-broader-us-economy-charles-evans",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2015-05-04",
+      "speaker": "Charles Evans",
+      "reason": ""
+    },
+    {
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20260602-it-takes-two-to-make-an-economy-go-right",
+      "source": "cleveland",
+      "result": "speech",
+      "date": "2026-06-02",
+      "speaker": "Beth M. Hammack",
+      "reason": ""
+    },
+    {
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20170302-athena-power-talk-with-loretta-j-mester",
+      "source": "cleveland",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (video event without prepared text)"
+    },
+    {
+      "url": "https://www.atlantafed.org/news-and-events/speeches/2026/02/05/president-bostic-speaks-at-clark-atlanta-university",
+      "source": "atlanta",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (discussion without prepared text)"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/speech/quarles20190210a.htm",
+      "source": "board",
+      "result": "speech",
+      "date": "2019-02-10",
+      "speaker": "Randal K. Quarles",
+      "reason": ""
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2010/09-23-international-conference-speech",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2010-09-23",
+      "speaker": "Charlie Evans",
+      "reason": ""
+    },
+    {
+      "url": "https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2010/lacker_speech_20100414",
+      "source": "richmond",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (event summary without prepared text)"
+    },
+    {
+      "url": "https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2013/lacker_speech_20131503",
+      "source": "richmond",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (event summary without prepared text)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2016-Felix-CCV-12-01/",
+      "source": "kansascity",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (slide deck)"
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2025/ath250114",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2014/02-04-14-detroit-economic-club-monetary-policy-macroprudential-safeguards",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2014-02-04",
+      "speaker": "Charles Evans",
+      "reason": ""
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/1996/ep960125",
+      "source": "ny",
+      "result": "speech",
+      "date": "1996-01-25",
+      "speaker": "Ernest T. Patrikis",
+      "reason": ""
+    },
+    {
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20160923-presidents-perspectives",
+      "source": "cleveland",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (video event without prepared text)"
+    },
+    {
+      "url": "https://www.atlantafed.org/news-and-events/speeches/2020/04/16/bostic-launches-webinar-series",
+      "source": "atlanta",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (discussion, interview, or statement)"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2013/05-20-13-cfa-society",
+      "source": "chicago",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (event summary without prepared text)"
+    },
+    {
+      "url": "https://www.minneapolisfed.org/speeches/2011/making-monetary-policy",
+      "source": "minneapolis",
+      "result": "speech",
+      "date": "2011-10-13",
+      "speaker": "Narayana Kocherlakota",
+      "reason": ""
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2023/wil231128",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (publication announcement without prepared speech text)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2010-hoenig-lettertoSenatorsCantwellandMcCain-5-10/",
+      "source": "kansascity",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (letter or memorandum)"
+    },
+    {
+      "url": "https://www.minneapolisfed.org/speeches/2011/bubbles-and-unemployment",
+      "source": "minneapolis",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (research paper or slides without prepared speech text)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2016-george-kc-07-01/",
+      "source": "kansascity",
+      "result": "unresolved",
+      "date": null,
+      "speaker": null,
+      "reason": "metadata missing: date (date=None, speaker=Esther L. George)"
+    },
+    {
+      "url": "https://www.atlantafed.org/news-and-events/speeches/2026/02/09/bostic-remarks-at-farm-journals-top-producer-summit",
+      "source": "atlanta",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (event summary without prepared text)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2019-George-Jackson-Hole-0822/",
+      "source": "kansascity",
+      "result": "speech",
+      "date": "2019-08-22",
+      "speaker": "Esther L. George",
+      "reason": ""
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2011/09-07-dual-mandate",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2011-09-07",
+      "speaker": "Charles Evans",
+      "reason": ""
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2024/hau240418",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/cet260715",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2009-Henderson-Economic-Update-11-16/",
+      "source": "kansascity",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (slide deck)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2016-george-kc-outlook-monetary-policy-02-02/",
+      "source": "kansascity",
+      "result": "speech",
+      "date": "2016-02-02",
+      "speaker": "Esther L. George",
+      "reason": ""
+    },
+    {
+      "url": "https://www.minneapolisfed.org/speeches/1997/government-safety-nets-banking-system-stability-and-economic-development",
+      "source": "minneapolis",
+      "result": "speech",
+      "date": "1997-09-15",
+      "speaker": "Gary H. Stern",
+      "reason": ""
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2026/june-25-chicago-council",
+      "source": "chicago",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (discussion without prepared text)"
+    },
+    {
+      "url": "https://www.chicagofed.org/publications/speeches/2023/august-1-chicago-business-week",
+      "source": "chicago",
+      "result": "speech",
+      "date": "2023-08-01",
+      "speaker": "Austan Goolsbee",
+      "reason": ""
+    },
+    {
+      "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/191113-feds-harker-on-rates-we-should-hold-steady",
+      "source": "philadelphia",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (press release)"
+    },
+    {
+      "url": "https://www.kansascityfed.org/speeches/2010-Hoenig-LincolnLetter-06-10/",
+      "source": "kansascity",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (letter or memorandum)"
+    },
+    {
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2021/wue210602",
+      "source": "ny",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (presentation without prepared speech text)"
+    },
+    {
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20260731-statement-regarding-july-fomc-meeting-vote",
+      "source": "cleveland",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (title)"
+    },
+    {
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20260501-statement-regarding-april-fomc-meeting-vote",
+      "source": "cleveland",
+      "result": "excluded",
+      "date": null,
+      "speaker": null,
+      "reason": "not a speech (title)"
+    }
+  ],
+  "store": {
+    "count": 3633,
+    "invalid_date_or_speaker": 0,
+    "duplicate_ids": 0,
+    "role_only_names": 0
+  }
+}

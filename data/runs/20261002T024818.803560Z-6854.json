@@ -1,0 +1,118 @@
+{
+  "started_at": "2026-10-02T02:48:42.278603+00:00",
+  "status": "partial",
+  "collector_version": "v3",
+  "full_archive": false,
+  "repair": {
+    "quarantined": 0,
+    "restored": 0,
+    "joint_author_exclusions": 0,
+    "reclassified_timeouts": 0
+  },
+  "sources": {
+    "minneapolis": {
+      "status": "needs_recovery",
+      "listed": 332,
+      "eligible": 12,
+      "selected": 12,
+      "listing_error": null,
+      "counts": {
+        "deferred_failure": 239,
+        "remembered_exclusion": 80,
+        "already_stored": 1,
+        "attempted": 12,
+        "stored": 12,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.minneapolisfed.org/speeches/2001/moral-hazard-and-bank-protection",
+      "stored": 12,
+      "remaining": 0
+    },
+    "chicago": {
+      "status": "needs_recovery",
+      "listed": 160,
+      "eligible": 12,
+      "selected": 12,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 38,
+        "deferred_failure": 108,
+        "remembered_exclusion": 2,
+        "attempted": 12,
+        "stored": 12,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.chicagofed.org/publications/speeches/2005/08-24-illinois-cpa-society",
+      "stored": 12,
+      "remaining": 0
+    },
+    "ny": {
+      "status": "needs_recovery",
+      "listed": 705,
+      "eligible": 12,
+      "selected": 12,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 676,
+        "remembered_exclusion": 8,
+        "deferred_failure": 9,
+        "attempted": 12,
+        "extraction_failure": 5,
+        "excluded": 1,
+        "stored": 6,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.newyorkfed.org/newsevents/speeches/2024/hau240418",
+      "stored": 6,
+      "remaining": 0
+    },
+    "kansascity": {
+      "status": "limited",
+      "listed": 400,
+      "eligible": 170,
+      "selected": 12,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 24,
+        "deferred_failure": 206,
+        "excluded": 11,
+        "attempted": 12,
+        "metadata_failure": 1,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 158
+      },
+      "current_url": "https://www.kansascityfed.org/speeches/2016-Felix-CFA-01-19/",
+      "stored": 0,
+      "remaining": 158
+    },
+    "cleveland": {
+      "status": "needs_recovery",
+      "listed": 161,
+      "eligible": 2,
+      "selected": 2,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 149,
+        "deferred_failure": 6,
+        "remembered_exclusion": 4,
+        "excluded": 2,
+        "attempted": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.clevelandfed.org/collections/speeches/sp-20260501-statement-regarding-april-fomc-meeting-vote",
+      "stored": 0,
+      "remaining": 0
+    }
+  },
+  "log": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T024818.803560Z-6854.log",
+  "report": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T024818.803560Z-6854.json",
+  "finished_at": "2026-10-02T02:49:42.617279+00:00",
+  "added": 30,
+  "speech_count": 3553
+}

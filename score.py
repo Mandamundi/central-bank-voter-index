@@ -182,8 +182,12 @@ def main() -> int:
     scored = store.load_scores()
     # only speeches by people who were FOMC voters at some point (skips Reserve Bank staff speeches)
     voter_keys = set(voters.Roster().ever())
-    todo = [s for s in store.load_speeches() if s["id"] not in scored
-            and any(voters.same_person(voters.name_key(s["speaker"]), k) for k in voter_keys)]
+    if not voter_keys:
+        sys.exit("No voter history available; run backfill.py without --skip-voters first.")
+    outstanding = [s for s in store.load_speeches() if s["id"] not in scored]
+    todo = [s for s in outstanding
+            if any(voters.same_person(voters.name_key(s["speaker"]), k) for k in voter_keys)]
+    print(f"Voter filter: {len(outstanding) - len(todo)} unscored speeches excluded because their speaker does not match voter history.")
     todo.sort(key=lambda s: (s["date"], s["id"]), reverse=True)
     if args.limit:
         todo = todo[: args.limit]

@@ -1,0 +1,11 @@
+.env
+.env.tmp
+.venv/
+__pycache__/
+logs/
+cache/
+downloads/
+state.sqlite*
+manifest.csv
+*.tmp
+*.part

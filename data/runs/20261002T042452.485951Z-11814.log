@@ -1,0 +1,192 @@
+Saved log: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042452.485951Z-11814.log
+Targeted recovery of captured failure pages; not a full archive run.
+atlanta: gathering recent listing...
+atlanta: 157 URLs; 36 selected; 21 already stored.
+2026-10-02 12:24:54,598 INFO   atlanta 1/36: https://www.atlantafed.org/news-and-events/speeches/2019/02/21/bostic-speaks-on-monetary-policy
+2026-10-02 12:24:54,622 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2019/02/21/bostic-speaks-on-monetary-policy excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,622 INFO   atlanta 2/36: https://www.atlantafed.org/news-and-events/speeches/2019/03/04/bostic-tour-of-eastern-alabama
+2026-10-02 12:24:54,639 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2019/03/04/bostic-tour-of-eastern-alabama excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,639 INFO   atlanta 3/36: https://www.atlantafed.org/news-and-events/speeches/2019/05/22/bostic-speaks-at-dallas-fed
+2026-10-02 12:24:54,655 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2019/05/22/bostic-speaks-at-dallas-fed excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,655 INFO   atlanta 4/36: https://www.atlantafed.org/news-and-events/speeches/2019/05/29/assessing-the-global-economy-a-insiders-look
+2026-10-02 12:24:54,671 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2019/05/29/assessing-the-global-economy-a-insiders-look excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,671 INFO   atlanta 5/36: https://www.atlantafed.org/news-and-events/speeches/2019/07/18/bostic-speaks-in-clarksville
+2026-10-02 12:24:54,687 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2019/07/18/bostic-speaks-in-clarksville excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,687 INFO   atlanta 6/36: https://www.atlantafed.org/news-and-events/speeches/2019/10/15/bostic-ecosystem-comm-dev
+2026-10-02 12:24:54,704 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2019/10/15/bostic-ecosystem-comm-dev excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,704 INFO   atlanta 7/36: https://www.atlantafed.org/news-and-events/speeches/2020/02/13/bostic-panama-city-pensacola
+2026-10-02 12:24:54,720 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/02/13/bostic-panama-city-pensacola excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,720 INFO   atlanta 8/36: https://www.atlantafed.org/news-and-events/speeches/2020/03/04/public-private-partnership-success
+2026-10-02 12:24:54,736 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/03/04/public-private-partnership-success excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,737 INFO   atlanta 9/36: https://www.atlantafed.org/news-and-events/speeches/2020/04/15/bostic-birmingham-rotary-kiwanis-clubs
+2026-10-02 12:24:54,752 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/04/15/bostic-birmingham-rotary-kiwanis-clubs excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,752 INFO   atlanta 10/36: https://www.atlantafed.org/news-and-events/speeches/2020/05/21/leone-de-nie-survey-results
+2026-10-02 12:24:54,767 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2020/05/21/leone-de-nie-survey-results excluded: not a speech (multi-speaker transcript)
+2026-10-02 12:24:54,767 INFO   atlanta 11/36: https://www.atlantafed.org/news-and-events/speeches/2021/03/05/bostic-uneven-economic-recovery
+2026-10-02 12:24:54,873 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2021/03/05/bostic-uneven-economic-recovery excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,873 INFO   atlanta 12/36: https://www.atlantafed.org/news-and-events/speeches/2021/04/13/bostic-redesigning-cities-to-tackle-structural-racism
+2026-10-02 12:24:54,888 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2021/04/13/bostic-redesigning-cities-to-tackle-structural-racism excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,888 INFO   atlanta 13/36: https://www.atlantafed.org/news-and-events/speeches/2021/10/19/bostic-the-hill-aarp-back-to-work
+2026-10-02 12:24:54,907 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2021/10/19/bostic-the-hill-aarp-back-to-work excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,907 INFO   atlanta 14/36: https://www.atlantafed.org/news-and-events/speeches/2022/03/29/usc-economic-leadership
+2026-10-02 12:24:54,923 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2022/03/29/usc-economic-leadership excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,923 INFO   atlanta 15/36: https://www.atlantafed.org/news-and-events/speeches/2022/10/03/bostic-ted-opening-remarks
+2026-10-02 12:24:54,939 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2022/10/03/bostic-ted-opening-remarks excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,940 INFO   atlanta 16/36: https://www.atlantafed.org/news-and-events/speeches/2022/10/18/bostic-workrise-panel-discussion
+2026-10-02 12:24:54,961 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2022/10/18/bostic-workrise-panel-discussion excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,961 INFO   atlanta 17/36: https://www.atlantafed.org/news-and-events/speeches/2023/01/09/bostic-atlanta-rotary
+2026-10-02 12:24:54,976 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2023/01/09/bostic-atlanta-rotary excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,976 INFO   atlanta 18/36: https://www.atlantafed.org/news-and-events/speeches/2023/02/23/fireside-chat-raphael-bostic-esther-george
+2026-10-02 12:24:54,992 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2023/02/23/fireside-chat-raphael-bostic-esther-george excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:54,992 INFO   atlanta 19/36: https://www.atlantafed.org/news-and-events/speeches/2023/03/03/bostic-racial-inequality-in-macroeconomics
+2026-10-02 12:24:55,007 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2023/03/03/bostic-racial-inequality-in-macroeconomics excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,007 INFO   atlanta 20/36: https://www.atlantafed.org/news-and-events/speeches/2023/05/16/bostic-goolsbee-fmc
+2026-10-02 12:24:55,024 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2023/05/16/bostic-goolsbee-fmc excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,024 INFO   atlanta 21/36: https://www.atlantafed.org/news-and-events/speeches/2023/08/16/bostic-talks-with-delta-ceo-bastian
+2026-10-02 12:24:55,040 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2023/08/16/bostic-talks-with-delta-ceo-bastian excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,040 INFO   atlanta 22/36: https://www.atlantafed.org/news-and-events/speeches/2024/05/06/bostic-article-fedcommunities
+2026-10-02 12:24:55,059 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/05/06/bostic-article-fedcommunities excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,059 INFO   atlanta 23/36: https://www.atlantafed.org/news-and-events/speeches/2024/05/21/bostic-fmc-keynote
+2026-10-02 12:24:55,075 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/05/21/bostic-fmc-keynote excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,075 INFO   atlanta 24/36: https://www.atlantafed.org/news-and-events/speeches/2024/06/10/bostic-nasp-welcome-remarks
+2026-10-02 12:24:55,096 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/06/10/bostic-nasp-welcome-remarks excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,096 INFO   atlanta 25/36: https://www.atlantafed.org/news-and-events/speeches/2024/07/19/bostic-conference-closing-remarks
+2026-10-02 12:24:55,111 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/07/19/bostic-conference-closing-remarks excluded: not a speech (event summary without prepared text)
+  atlanta: 25/36 checked; saved=0, excluded=25, failures=0
+2026-10-02 12:24:55,637 INFO   atlanta 26/36: https://www.atlantafed.org/news-and-events/speeches/2024/08/29/bostic-speaks-to-georgia-tech-students
+2026-10-02 12:24:55,660 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/08/29/bostic-speaks-to-georgia-tech-students excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,660 INFO   atlanta 27/36: https://www.atlantafed.org/news-and-events/speeches/2024/10/03/bostic-speaks-at-minneapolis-feds-opportunity-and-inclusive-growth-institute
+2026-10-02 12:24:55,681 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/10/03/bostic-speaks-at-minneapolis-feds-opportunity-and-inclusive-growth-institute excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,681 INFO   atlanta 28/36: https://www.atlantafed.org/news-and-events/speeches/2024/10/08/bostic-discussion-leading-voices-series-with-steve-koonin
+2026-10-02 12:24:55,703 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2024/10/08/bostic-discussion-leading-voices-series-with-steve-koonin excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,703 INFO   atlanta 29/36: https://www.atlantafed.org/news-and-events/speeches/2025/03/28/bostic-household-finance-conference
+2026-10-02 12:24:55,719 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/03/28/bostic-household-finance-conference excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,719 INFO   atlanta 30/36: https://www.atlantafed.org/news-and-events/speeches/2025/04/14/bostic-emory-economics-banquet
+2026-10-02 12:24:55,741 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/04/14/bostic-emory-economics-banquet excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,741 INFO   atlanta 31/36: https://www.atlantafed.org/news-and-events/speeches/2025/05/19/bostic-jefferson-fmc-keynote
+2026-10-02 12:24:55,758 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/05/19/bostic-jefferson-fmc-keynote excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,758 INFO   atlanta 32/36: https://www.atlantafed.org/news-and-events/speeches/2025/05/20/bostic-fmc-fed-presidents
+2026-10-02 12:24:55,774 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/05/20/bostic-fmc-fed-presidents excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,774 INFO   atlanta 33/36: https://www.atlantafed.org/news-and-events/speeches/2025/05/30/bostic-fmc-fed-presidents
+2026-10-02 12:24:55,795 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/05/30/bostic-fmc-fed-presidents excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,795 INFO   atlanta 34/36: https://www.atlantafed.org/news-and-events/speeches/2025/06/30/bostic-speaks-at-mni-connect
+2026-10-02 12:24:55,816 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/06/30/bostic-speaks-at-mni-connect excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,816 INFO   atlanta 35/36: https://www.atlantafed.org/news-and-events/speeches/2025/08/20/bostic-speaks-at-fintech-south-2025
+2026-10-02 12:24:55,838 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/08/20/bostic-speaks-at-fintech-south-2025 excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:55,838 INFO   atlanta 36/36: https://www.atlantafed.org/news-and-events/speeches/2025/10/31/bostic-speaks-at-fed-research-conference
+2026-10-02 12:24:55,853 INFO atlanta https://www.atlantafed.org/news-and-events/speeches/2025/10/31/bostic-speaks-at-fed-research-conference excluded: not a speech (event summary without prepared text)
+atlanta: stored=0, duplicate=0, excluded=36, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=1; needs_recovery
+chicago: gathering recent listing...
+chicago: 230 URLs; 48 selected; 112 already stored.
+2026-10-02 12:24:56,391 INFO   chicago 1/48: https://www.chicagofed.org/publications/speeches/2008/02-14-cfa-remarks
+2026-10-02 12:24:56,419 INFO   chicago 2/48: https://www.chicagofed.org/publications/speeches/2008/02-29-mpa-remarks
+2026-10-02 12:24:56,443 INFO   chicago 3/48: https://www.chicagofed.org/publications/speeches/2008/03-26-nyabe-remarks
+2026-10-02 12:24:56,469 INFO   chicago 4/48: https://www.chicagofed.org/publications/speeches/2008/05-12-harper
+2026-10-02 12:24:56,498 INFO   chicago 5/48: https://www.chicagofed.org/publications/speeches/2008/08-15-mclean-speech
+2026-10-02 12:24:56,524 INFO   chicago 6/48: https://www.chicagofed.org/publications/speeches/2008/10-17-fond-du-lac-speech
+2026-10-02 12:24:56,551 INFO   chicago 7/48: https://www.chicagofed.org/publications/speeches/2008/11-21-indy-speech
+2026-10-02 12:24:56,577 INFO   chicago 8/48: https://www.chicagofed.org/publications/speeches/2008/12-04-mba-speech
+2026-10-02 12:24:56,604 INFO   chicago 9/48: https://www.chicagofed.org/publications/speeches/2008/9-19-snb-speech
+2026-10-02 12:24:56,633 INFO   chicago 10/48: https://www.chicagofed.org/publications/speeches/2009/01-03-nabe-speech
+2026-10-02 12:24:56,661 INFO   chicago 11/48: https://www.chicagofed.org/publications/speeches/2009/01-15-wba-speech
+2026-10-02 12:24:56,689 INFO   chicago 12/48: https://www.chicagofed.org/publications/speeches/2009/02-11-iowa-speech
+2026-10-02 12:24:56,716 INFO   chicago 13/48: https://www.chicagofed.org/publications/speeches/2009/02-18-rockford-speech
+2026-10-02 12:24:56,744 INFO   chicago 14/48: https://www.chicagofed.org/publications/speeches/2009/03-24-cr-speech
+2026-10-02 12:24:56,770 INFO   chicago 15/48: https://www.chicagofed.org/publications/speeches/2009/06-15-executivesclub
+2026-10-02 12:24:56,798 INFO   chicago 16/48: https://www.chicagofed.org/publications/speeches/2009/07-01-eefc-speech
+2026-10-02 12:24:56,835 INFO   chicago 17/48: https://www.chicagofed.org/publications/speeches/2009/07-08-ccstjoe-speech
+2026-10-02 12:24:56,862 INFO   chicago 18/48: https://www.chicagofed.org/publications/speeches/2009/09-09-cfrny-speech
+2026-10-02 12:24:56,896 INFO   chicago 19/48: https://www.chicagofed.org/publications/speeches/2009/11-13-bof-speech
+2026-10-02 12:24:56,923 INFO   chicago 20/48: https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech
+2026-10-02 12:24:56,951 INFO chicago https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech metadata_failure: metadata missing: speaker (date=2010-01-10, speaker=None)
+  metadata_failure: https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech: metadata missing: speaker (date=2010-01-10, speaker=None)
+2026-10-02 12:24:56,951 INFO   chicago 21/48: https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech
+2026-10-02 12:24:56,979 INFO chicago https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech metadata_failure: metadata missing: speaker (date=2010-03-03, speaker=None)
+  metadata_failure: https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech: metadata missing: speaker (date=2010-03-03, speaker=None)
+2026-10-02 12:24:56,979 INFO   chicago 22/48: https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech
+2026-10-02 12:24:57,010 INFO chicago https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech metadata_failure: metadata missing: speaker (date=2010-03-09, speaker=None)
+  metadata_failure: https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech: metadata missing: speaker (date=2010-03-09, speaker=None)
+2026-10-02 12:24:57,010 INFO   chicago 23/48: https://www.chicagofed.org/publications/speeches/2010/03-30-irrna-speech
+2026-10-02 12:24:57,043 INFO chicago https://www.chicagofed.org/publications/speeches/2010/03-30-irrna-speech metadata_failure: metadata missing: speaker (date=2010-03-30, speaker=None)
+2026-10-02 12:24:57,043 INFO   chicago 24/48: https://www.chicagofed.org/publications/speeches/2010/05-14-wesleyan-speech
+2026-10-02 12:24:57,071 INFO chicago https://www.chicagofed.org/publications/speeches/2010/05-14-wesleyan-speech metadata_failure: metadata missing: speaker (date=2010-05-14, speaker=None)
+2026-10-02 12:24:57,071 INFO   chicago 25/48: https://www.chicagofed.org/publications/speeches/2010/06-03-korea-speech
+2026-10-02 12:24:57,099 INFO chicago https://www.chicagofed.org/publications/speeches/2010/06-03-korea-speech metadata_failure: metadata missing: speaker (date=2010-06-01, speaker=None)
+  chicago: 25/48 checked; saved=19, excluded=0, failures=6
+2026-10-02 12:24:57,690 INFO   chicago 26/48: https://www.chicagofed.org/publications/speeches/2010/06-08-ucc-speech
+2026-10-02 12:24:57,721 INFO chicago https://www.chicagofed.org/publications/speeches/2010/06-08-ucc-speech metadata_failure: metadata missing: speaker (date=2010-06-08, speaker=None)
+2026-10-02 12:24:57,721 INFO   chicago 27/48: https://www.chicagofed.org/publications/speeches/2010/08-24-indianapolis-speech
+2026-10-02 12:24:57,752 INFO chicago https://www.chicagofed.org/publications/speeches/2010/08-24-indianapolis-speech metadata_failure: metadata missing: speaker (date=2010-08-24, speaker=None)
+2026-10-02 12:24:57,752 INFO   chicago 28/48: https://www.chicagofed.org/publications/speeches/2010/09-01-reo-speech
+2026-10-02 12:24:57,780 INFO chicago https://www.chicagofed.org/publications/speeches/2010/09-01-reo-speech metadata_failure: metadata missing: speaker (date=2010-09-01, speaker=None)
+2026-10-02 12:24:57,780 INFO   chicago 29/48: https://www.chicagofed.org/publications/speeches/2010/09-03-otc-speech
+2026-10-02 12:24:57,806 INFO chicago https://www.chicagofed.org/publications/speeches/2010/09-03-otc-speech metadata_failure: metadata missing: speaker (date=2010-09-03, speaker=None)
+2026-10-02 12:24:57,806 INFO   chicago 30/48: https://www.chicagofed.org/publications/speeches/2013/test
+2026-10-02 12:24:57,837 INFO chicago https://www.chicagofed.org/publications/speeches/2013/test metadata_failure: metadata missing: date (date=None, speaker=Charles Evans)
+2026-10-02 12:24:57,837 INFO   chicago 31/48: https://www.chicagofed.org/publications/speeches/2015/cautious-approach-to-monetary-policy-normalization
+2026-10-02 12:24:57,871 INFO chicago https://www.chicagofed.org/publications/speeches/2015/cautious-approach-to-monetary-policy-normalization metadata_failure: metadata missing: date (date=None, speaker=Charles Evans)
+2026-10-02 12:24:57,871 INFO   chicago 32/48: https://www.chicagofed.org/publications/speeches/2015/marquette-thoughts-on-leadership-and-monetary-policy
+2026-10-02 12:24:57,904 INFO chicago https://www.chicagofed.org/publications/speeches/2015/marquette-thoughts-on-leadership-and-monetary-policy metadata_failure: metadata missing: date (date=None, speaker=Charles Evans)
+2026-10-02 12:24:57,904 INFO   chicago 33/48: https://www.chicagofed.org/publications/speeches/2015/monetary-policy-avoiding-hazards-cfa-milwaukee-evans
+2026-10-02 12:24:57,938 INFO chicago https://www.chicagofed.org/publications/speeches/2015/monetary-policy-avoiding-hazards-cfa-milwaukee-evans metadata_failure: metadata missing: date (date=None, speaker=Charles Evans)
+2026-10-02 12:24:57,938 INFO   chicago 34/48: https://www.chicagofed.org/publications/speeches/2015/nabe-exercising-caution-in-normalizing-monetary-policy
+2026-10-02 12:24:57,965 INFO   chicago 35/48: https://www.chicagofed.org/publications/speeches/2015/risks-call-for-gradual-approach-normalizing-monetary-policy-chicago
+2026-10-02 12:24:57,997 INFO chicago https://www.chicagofed.org/publications/speeches/2015/risks-call-for-gradual-approach-normalizing-monetary-policy-chicago metadata_failure: metadata missing: date (date=None, speaker=Charles Evans)
+2026-10-02 12:24:57,997 INFO   chicago 36/48: https://www.chicagofed.org/publications/speeches/2017/copy-of-test-03-24-opening-remarks-strong-foundation-conference-dc
+2026-10-02 12:24:58,019 INFO   chicago 37/48: https://www.chicagofed.org/publications/speeches/2017/test-03-24-opening-remarks-strong-foundation-conference-dc
+2026-10-02 12:24:58,040 INFO   chicago 38/48: https://www.chicagofed.org/publications/speeches/2019/risk-management-and-the-credibility-of-monetary-policy
+2026-10-02 12:24:58,070 INFO   chicago 39/48: https://www.chicagofed.org/publications/speeches/2021/levy-economics-institute-conference
+2026-10-02 12:24:58,097 INFO   chicago 40/48: https://www.chicagofed.org/publications/speeches/2021/new-policy-framework-and-financial-stability
+2026-10-02 12:24:58,122 INFO   chicago 41/48: https://www.chicagofed.org/publications/speeches/2021/october-25-cftc-gmac-meeting
+2026-10-02 12:24:58,155 INFO   GET https://www.chicagofed.org/-/media/publications/speeches/2021/10-25-21-cftc-gmac-meeting-pdf.pdf?sc_lang=en&hash=36386877BD328C9EF858D874FFC30828 (attempt 1/2, elapsed 0s)
+2026-10-02 12:24:59,652 INFO   chicago 42/48: https://www.chicagofed.org/publications/speeches/2022/december-22-qa
+2026-10-02 12:24:59,695 INFO chicago https://www.chicagofed.org/publications/speeches/2022/december-22-qa excluded: not a speech (retrospective interview rather than prepared remarks)
+2026-10-02 12:24:59,695 INFO   chicago 43/48: https://www.chicagofed.org/publications/speeches/2023/dec-1-economic-outlook-symposium
+2026-10-02 12:24:59,738 INFO chicago https://www.chicagofed.org/publications/speeches/2023/dec-1-economic-outlook-symposium excluded: not a speech (event without prepared text)
+2026-10-02 12:24:59,738 INFO   chicago 44/48: https://www.chicagofed.org/publications/speeches/2023/june-21-wsj-food-forum
+2026-10-02 12:24:59,782 INFO chicago https://www.chicagofed.org/publications/speeches/2023/june-21-wsj-food-forum extraction_failure: no prepared speech text (272 chars)
+  extraction_failure: https://www.chicagofed.org/publications/speeches/2023/june-21-wsj-food-forum: no prepared speech text (272 chars)
+2026-10-02 12:24:59,782 INFO   chicago 45/48: https://www.chicagofed.org/publications/speeches/2023/nov-17-community-bankers-symposium-transcript
+2026-10-02 12:24:59,808 INFO   chicago 46/48: https://www.chicagofed.org/publications/speeches/2023/nov-28-midwest-ag-conference
+2026-10-02 12:24:59,849 INFO chicago https://www.chicagofed.org/publications/speeches/2023/nov-28-midwest-ag-conference excluded: not a speech (event summary without prepared text)
+2026-10-02 12:24:59,849 INFO   chicago 47/48: https://www.chicagofed.org/publications/speeches/2023/september-28-peterson-institute
+2026-10-02 12:24:59,882 INFO   chicago 48/48: https://www.chicagofed.org/publications/speeches/2025/may-9-fed-listens-perspectives-midwest
+2026-10-02 12:24:59,922 INFO chicago https://www.chicagofed.org/publications/speeches/2025/may-9-fed-listens-perspectives-midwest excluded: not a speech (event without prepared text)
+chicago: stored=26, duplicate=2, excluded=4, metadata_failure=15, extraction_failure=1, request_failure=0, http_failure=0, remaining=0, deferred_failure=2; needs_recovery
+dallas: gathering recent listing...
+dallas: 25 URLs; 6 selected; 0 already stored.
+2026-10-02 12:25:00,596 INFO   dallas 1/6: https://www.dallasfed.org/news/speeches/fisher/2011/fs110912.aspx
+2026-10-02 12:25:00,606 INFO   dallas 2/6: https://www.dallasfed.org/news/speeches/fisher/2011/fs111006.aspx
+2026-10-02 12:25:00,618 INFO   dallas 3/6: https://www.dallasfed.org/news/speeches/fisher/2013/fs131008_sp.aspx
+2026-10-02 12:25:00,625 INFO   dallas 4/6: https://www.dallasfed.org/news/speeches/fisher/2014/fs140305_sp.aspx
+2026-10-02 12:25:00,638 INFO   dallas 5/6: https://www.dallasfed.org/news/speeches/fisher/2015/fs150217sp.aspx
+2026-10-02 12:25:00,645 INFO   dallas 6/6: https://www.dallasfed.org/news/speeches/kaplan/2017/rsk170413
+2026-10-02 12:25:00,660 INFO dallas https://www.dallasfed.org/news/speeches/kaplan/2017/rsk170413 excluded: not a speech (event summary without prepared text)
+dallas: stored=5, duplicate=0, excluded=1, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=0; completed
+sanfrancisco: gathering recent listing...
+sanfrancisco: 15 URLs; 3 selected; 0 already stored.
+2026-10-02 12:25:01,341 INFO   sanfrancisco 1/3: https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2019/02/achieving-full-employment-in-the-modern-economy/
+2026-10-02 12:25:01,376 INFO sanfrancisco https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2019/02/achieving-full-employment-in-the-modern-economy/ excluded: not a speech (slides without prepared speech text)
+2026-10-02 12:25:01,376 INFO   sanfrancisco 2/3: https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2019/02/prospects-for-inflation-in-a-high-pressure-economy-is-the-phillips-curve-dead-or-is-it-just-hibernating/
+2026-10-02 12:25:01,414 INFO sanfrancisco https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2019/02/prospects-for-inflation-in-a-high-pressure-economy-is-the-phillips-curve-dead-or-is-it-just-hibernating/ excluded: not a speech (slides without prepared speech text)
+2026-10-02 12:25:01,415 INFO   sanfrancisco 3/3: https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2019/11/net-net-opportunity/
+2026-10-02 12:25:01,453 INFO sanfrancisco https://www.frbsf.org/news-and-media/speeches/mary-c-daly/2019/11/net-net-opportunity/ excluded: not a speech (slides without prepared speech text)
+sanfrancisco: stored=0, duplicate=0, excluded=3, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=0; completed
+kansascity: gathering recent listing...
+kansascity: 400 URLs; 3 selected; 77 already stored.
+2026-10-02 12:25:02,057 INFO   kansascity 1/3: https://www.kansascityfed.org/speeches/2016-george-kc-07-01/
+2026-10-02 12:25:02,190 INFO kansascity https://www.kansascityfed.org/speeches/2016-george-kc-07-01/ metadata_failure: metadata missing: date (date=None, speaker=Esther L. George)
+  metadata_failure: https://www.kansascityfed.org/speeches/2016-george-kc-07-01/: metadata missing: date (date=None, speaker=Esther L. George)
+2026-10-02 12:25:02,190 INFO   kansascity 2/3: https://www.kansascityfed.org/speeches/2018-Rappaport-KCUR-12-20/
+2026-10-02 12:25:02,235 INFO kansascity https://www.kansascityfed.org/speeches/2018-Rappaport-KCUR-12-20/ excluded: not a speech (radio interview rather than prepared remarks)
+2026-10-02 12:25:02,235 INFO   kansascity 3/3: https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/
+2026-10-02 12:25:02,237 INFO kansascity https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/ request_failure: Publisher returned an error page instead of the speech
+  request_failure: https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/: Publisher returned an error page instead of the speech
+kansascity: stored=0, duplicate=0, excluded=1, metadata_failure=1, extraction_failure=0, request_failure=1, http_failure=0, remaining=0, deferred_failure=8; needs_recovery
+minneapolis: gathering recent listing...
+minneapolis: 332 URLs; 1 selected; 171 already stored.
+2026-10-02 12:25:02,780 INFO   minneapolis 1/1: https://www.minneapolisfed.org/speeches/2017/ending-too-big-to-fail-the-minneapolis-plan-at-the-nabe-economic-policy-conference
+2026-10-02 12:25:02,808 INFO minneapolis https://www.minneapolisfed.org/speeches/2017/ending-too-big-to-fail-the-minneapolis-plan-at-the-nabe-economic-policy-conference excluded: not a speech (slides without prepared speech text)
+minneapolis: stored=0, duplicate=0, excluded=1, metadata_failure=0, extraction_failure=0, request_failure=0, http_failure=0, remaining=0, deferred_failure=0; completed
+Run partial: 31 added; 4498 speeches stored.
+Run report: /Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T042452.485951Z-11814.json

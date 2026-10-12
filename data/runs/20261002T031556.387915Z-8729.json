@@ -1,0 +1,279 @@
+{
+  "started_at": "2026-10-02T03:15:59.462018+00:00",
+  "status": "partial",
+  "collector_version": "v3.3",
+  "full_archive": true,
+  "repair": {
+    "quarantined": 0,
+    "restored": 0,
+    "joint_author_exclusions": 0,
+    "reclassified_timeouts": 0
+  },
+  "sources": {
+    "board": {
+      "status": "needs_recovery",
+      "listed": 1985,
+      "eligible": 28,
+      "selected": 28,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 1956,
+        "deferred_failure": 1,
+        "attempted": 28,
+        "excluded": 24,
+        "metadata_failure": 2,
+        "extraction_failure": 1,
+        "stored": 1,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm",
+      "stored": 1,
+      "remaining": 0
+    },
+    "ny": {
+      "status": "needs_recovery",
+      "listed": 705,
+      "eligible": 21,
+      "selected": 21,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 682,
+        "remembered_exclusion": 1,
+        "deferred_failure": 1,
+        "excluded": 20,
+        "attempted": 21,
+        "metadata_failure": 1,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.newyorkfed.org/newsevents/speeches/1996/ep960925",
+      "stored": 0,
+      "remaining": 0
+    },
+    "boston": {
+      "status": "needs_recovery",
+      "listed": 290,
+      "eligible": 13,
+      "selected": 13,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 277,
+        "excluded": 12,
+        "attempted": 13,
+        "extraction_failure": 1,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.bostonfed.org/news-and-events/speeches/2020/main-street-lending-program-and-other-federal-reserve-actions.aspx",
+      "stored": 0,
+      "remaining": 0
+    },
+    "philadelphia": {
+      "status": "completed",
+      "listed": 58,
+      "eligible": 10,
+      "selected": 10,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 48,
+        "excluded": 7,
+        "attempted": 10,
+        "stored": 3,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.philadelphiafed.org/the-economy/monetary-policy/191113-feds-harker-on-rates-we-should-hold-steady",
+      "stored": 3,
+      "remaining": 0
+    },
+    "cleveland": {
+      "status": "needs_recovery",
+      "listed": 161,
+      "eligible": 11,
+      "selected": 11,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 149,
+        "deferred_failure": 1,
+        "excluded": 11,
+        "attempted": 11,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.clevelandfed.org/collections/speeches/sp-20160923-presidents-perspectives",
+      "stored": 0,
+      "remaining": 0
+    },
+    "richmond": {
+      "status": "completed",
+      "listed": 297,
+      "eligible": 5,
+      "selected": 5,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 292,
+        "excluded": 5,
+        "attempted": 5,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.richmondfed.org/press_room/speeches/jeffrey_m_lacker/2010/lacker_speech_20100414",
+      "stored": 0,
+      "remaining": 0
+    },
+    "atlanta": {
+      "status": "needs_recovery",
+      "listed": 157,
+      "eligible": 136,
+      "selected": 136,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 21,
+        "excluded": 96,
+        "attempted": 136,
+        "extraction_failure": 38,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0,
+        "metadata_failure": 1,
+        "http_failure": 1
+      },
+      "current_url": "https://www.atlantafed.org/news-and-events/speeches/2019/02/15/bostic-workforce-development",
+      "stored": 0,
+      "remaining": 0
+    },
+    "chicago": {
+      "status": "needs_recovery",
+      "listed": 330,
+      "eligible": 268,
+      "selected": 268,
+      "listing_error": null,
+      "counts": {
+        "remembered_exclusion": 2,
+        "already_stored": 60,
+        "metadata_failure": 63,
+        "attempted": 268,
+        "excluded": 66,
+        "extraction_failure": 4,
+        "stored": 133,
+        "duplicate": 2,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.chicagofed.org/publications/speeches/2004/02-03-economic-outlook",
+      "stored": 133,
+      "remaining": 0
+    },
+    "stlouis": {
+      "status": "needs_recovery",
+      "listed": 49,
+      "eligible": 25,
+      "selected": 25,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 24,
+        "excluded": 23,
+        "attempted": 25,
+        "extraction_failure": 2,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 0
+      },
+      "current_url": "https://www.stlouisfed.org/from-the-president/remarks/2024/photos-musalem-first-week",
+      "stored": 0,
+      "remaining": 0
+    },
+    "minneapolis": {
+      "status": "needs_recovery",
+      "listed": 332,
+      "eligible": 308,
+      "selected": 308,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 24,
+        "excluded": 159,
+        "attempted": 308,
+        "stored": 147,
+        "duplicate": 0,
+        "not_attempted": 0,
+        "extraction_failure": 2
+      },
+      "current_url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-qa-at-the-council-on-foreign-relations",
+      "stored": 147,
+      "remaining": 0
+    },
+    "kansascity": {
+      "status": "paused",
+      "listed": 776,
+      "eligible": 690,
+      "selected": 690,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 80,
+        "remembered_exclusion": 5,
+        "deferred_failure": 1,
+        "excluded": 207,
+        "attempted": 212,
+        "stored": 0,
+        "duplicate": 0,
+        "not_attempted": 478,
+        "metadata_failure": 2,
+        "extraction_failure": 1,
+        "request_failure": 2
+      },
+      "current_url": "https://www.kansascityfed.org/speeches/colorado-mountain-region-economic-forums/",
+      "stored": 0,
+      "remaining": 478,
+      "reason": "2 consecutive connection/server failures: Failed to perform, curl: (28) Operation timed out after 19986 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+      "retry_after": "2026-10-02T04:38:08.106586+00:00"
+    },
+    "dallas": {
+      "status": "needs_recovery",
+      "listed": 277,
+      "eligible": 272,
+      "selected": 272,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 5,
+        "attempted": 272,
+        "stored": 102,
+        "duplicate": 0,
+        "not_attempted": 0,
+        "excluded": 4,
+        "metadata_failure": 165,
+        "extraction_failure": 1
+      },
+      "current_url": "https://www.dallasfed.org/news/speeches/mcteer/1998/mcteer980919",
+      "stored": 102,
+      "remaining": 0
+    },
+    "sanfrancisco": {
+      "status": "needs_recovery",
+      "listed": 307,
+      "eligible": 302,
+      "selected": 302,
+      "listing_error": null,
+      "counts": {
+        "already_stored": 5,
+        "attempted": 302,
+        "excluded": 9,
+        "stored": 238,
+        "duplicate": 0,
+        "not_attempted": 0,
+        "extraction_failure": 55
+      },
+      "current_url": "https://www.frbsf.org/news-and-media/speeches/parry-speeches/1997/05/the-value-of-an-educated-work-force/",
+      "stored": 238,
+      "remaining": 0
+    }
+  },
+  "log": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031556.387915Z-8729.log",
+  "report": "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/data/runs/20261002T031556.387915Z-8729.json",
+  "finished_at": "2026-10-02T03:48:27.519768+00:00",
+  "added": 624,
+  "speech_count": 4257
+}
