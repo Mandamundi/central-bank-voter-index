@@ -20,9 +20,9 @@ import sources
 import store
 import voters
 import runlog
-import speech_metadata
 
 SAVE_EVERY = 25
+FRASER_COPY = 'FRASER holds this speech'      # same reason fraser.py records for the copies it removes
 
 
 def refresh_fed_funds() -> None:
@@ -49,7 +49,7 @@ def refresh_fed_funds() -> None:
 def _eligible(outcome: dict | None, now: dt.datetime, recover: bool) -> bool:
     if not outcome:
         return True
-    if outcome["status"] == "stored":
+    if outcome["status"] == "stored" or outcome.get("reason") == FRASER_COPY:
         return False
     if recover and outcome["status"] != "excluded":
         return True
@@ -68,62 +68,6 @@ def _outcome(source: str, status: str, reason: str, old: dict | None, **extra) -
     if status not in {"stored", "excluded"}:
         row["retry_after"] = (now + dt.timedelta(days=7 if status == "http_failure" else 1)).isoformat()
     return row
-
-
-def repair_collection(outcomes: dict) -> dict:
-    """Repair the known v2 state/record defects without discarding the source material."""
-    bad = [r for r in store.load_speeches()
-           if not speech_metadata.normalize_speaker(r["speaker"]) or not sources.parse_date(r["date"])]
-    quarantined = store.quarantine_speeches(bad, "Invalid speaker or date detected by collector v3")
-    for record in bad:
-        old = outcomes.get(record["url"])
-        result = _outcome(record['source'], 'metadata_failure', 'Quarantined invalid stored metadata; re-extraction required', old,
-                          entry=sources.entry(record['source'], record['url']))
-        result.pop('retry_after', None)
-        outcomes[record['url']] = result
-    restored = []
-    excluded_joint = 0
-    quarantine = config.DATA / 'quarantine' / 'collector-repair.jsonl'
-    existing_urls = {r['url'] for r in store.load_speeches()}
-    if quarantine.exists():
-        import json
-        for line in quarantine.read_text(encoding='utf-8').splitlines():
-            saved = json.loads(line)
-            original = saved['speech']
-            # A valid name/date does not make an excluded essay or paper a speech.
-            # These records need publisher re-extraction, not automatic restoration.
-            if saved.get('reason', '').startswith('not a speech'):
-                continue
-            speaker = speech_metadata.normalize_speaker(original['speaker'])
-            if original['url'] in existing_urls:
-                continue
-            if speaker and sources.parse_date(original['date']):
-                corrected = {**original, 'speaker':speaker}
-                corrected['id'] = sources.make_id(corrected['date'], speaker, corrected['title'])
-                restored.append(corrected)
-                existing_urls.add(original['url'])
-            elif ' and ' in original['speaker'] and ' and Chair ' not in original['speaker']:
-                if outcomes.get(original['url'], {}).get('status') == 'excluded':
-                    continue
-                result = _outcome(original['source'], 'excluded', 'not a speech (joint-author publication cannot be assigned to one speaker)', outcomes.get(original['url']),
-                                  entry=sources.entry(original['source'],original['url']))
-                if outcomes.get(original['url'], {}).get('status') != 'excluded':
-                    excluded_joint += 1
-                outcomes[original['url']] = result
-    restored_count = store.add_speeches(restored)
-    for record in restored:
-        outcomes[record['url']] = _outcome(record['source'],'stored','Corrected publisher role prefix in quarantined byline',outcomes.get(record['url']),speech_id=record['id'])
-    repaired_timeouts = 0
-    for result in outcomes.values():
-        if result['status'] == 'http_failure' and result.get('http_status') == 0:
-            result['status'] = 'request_failure'
-            result['http_status'] = None
-            result.pop('retry_after', None)
-            repaired_timeouts += 1
-    if quarantined or repaired_timeouts or restored_count or excluded_joint:
-        store.save_processing(outcomes)
-        print(f"Repaired state: {quarantined} quarantined, {restored_count} restored with corrected bylines, {excluded_joint} joint-author exclusions, {repaired_timeouts} timeouts reclassified.", flush=True)
-    return {'quarantined': quarantined, 'restored':restored_count, 'joint_author_exclusions':excluded_joint, 'reclassified_timeouts': repaired_timeouts}
 
 
 def _health_path():
@@ -148,13 +92,13 @@ def _pull(names: list[str], full: bool, recover: bool, limit: int | None) -> int
     if unknown:
         raise ValueError(f"Unknown sources: {', '.join(sorted(unknown))}")
     outcomes = store.load_processing()
-    repair = repair_collection(outcomes)
-    stored_urls = {r['url']: r['id'] for r in store.load_speeches()}
-    legacy = store.load_seen_urls()
+    speeches = store.load_speeches()
+    stored_urls = {r['url']: r['id'] for r in speeches}
+    fraser_days = {(r['date'], voters.name_key(r['speaker'])) for r in speeches if r['source'] == 'fraser'}
     health = json.loads(_health_path().read_text()) if _health_path().exists() else {}
     report = {'started_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'status': 'running',
               'collector_version': config.COLLECTOR_VERSION, 'full_archive': full,
-              'repair': repair, 'sources': {name: {'status':'not_started', 'stored':0} for name in names}}
+              'sources': {name: {'status':'not_started', 'stored':0} for name in names}}
     total = 0
     runlog.write_report(report)
     try:
@@ -184,7 +128,7 @@ def _pull(names: list[str], full: bool, recover: bool, limit: int | None) -> int
                 listing_error = '; '.join(http_get.listing_problems())
             if listing_error:
                 print(f"{name}: listing incomplete: {listing_error}", flush=True)
-            previous = (legacy if full or recover else set()) | {u for u,r in outcomes.items() if r['status'] != 'stored'}
+            previous = {u for u, r in outcomes.items() if r['status'] != 'stored'}
             host = urlsplit(sources.SOURCE_ORIGINS[name]).netloc.removeprefix('www.')
             for url in sorted(previous):
                 if urlsplit(url).netloc.removeprefix('www.') == host or outcomes.get(url, {}).get('source') == name:
@@ -252,11 +196,14 @@ def _pull(names: list[str], full: bool, recover: bool, limit: int | None) -> int
                         if counts[status] <= 3 or runlog.verbose:
                             print(f"  {status}: {url}: {error}", flush=True)
                     else:
+                        if record and any(d == record['date'] and voters.same_person(voters.name_key(record['speaker']), k)
+                                          for d, k in fraser_days):
+                            record, reason = None, FRASER_COPY
                         if record:
                             new.append(record)
                             pending[url] = _outcome(name, 'stored', 'speech extracted', old, speech_id=record['id'], entry=e)
                         else:
-                            status = ('excluded' if reason.startswith('not a speech') else
+                            status = ('excluded' if reason.startswith('not a speech') or reason == FRASER_COPY else
                                       'metadata_failure' if reason.startswith('metadata missing') else 'extraction_failure')
                             pending[url] = _outcome(name, status, reason, old, entry=e)
                             counts[status] += 1

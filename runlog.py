@@ -6,7 +6,6 @@ import datetime as dt
 import json
 import logging
 import os
-from pathlib import Path
 import sys
 
 import config

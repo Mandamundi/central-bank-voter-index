@@ -55,15 +55,27 @@ def same_person(a: tuple[str, str], b: tuple[str, str]) -> bool:
 
 # ---------------------------------------------------------------- minutes
 
+# A person's name as the minutes print it: "Hoenig", "Beth M. Hammack", "Sarah Bloom Raskin".
+_NAME = r"(?:[A-Z][a-z]+\s+(?:[A-Z]\.\s+)?(?:[A-Z][a-z]+\s+)?)?(?:Mc|Mac)?[A-Z][A-Za-z'\-]+(?:,?\s+Jr\.)?"
+# A dissent reason ("who preferred ...") runs until the next dissenter's name, which follows
+# "and" and is itself followed by a comma, "who", or the end of the line.
+_REASON = re.compile(rf",?\s*\bwho\b.*?(?=(?:,\s*|\s+)and\s+{_NAME}(?:,|\s+who\b|\s*$)|$)")
+
+
 def parse_vote_names(segment: str) -> list[str]:
     """'Greenspan, Geithner, Bies, and Stern' -> ['Greenspan', 'Geithner', 'Bies', 'Stern'] (titles already removed)."""
-    segment = re.sub(r",\s*who\b.*?(?=,\s*and\s+[A-Z]|$)", "", segment)     # dissent reasons
+    segment = re.sub(r"\([^)]*\)?", " ", segment)       # notes such as "(Stewart voted as an alternate member)"
+    segment = _REASON.sub("", segment)
     segment = re.sub(r"[,;]?\s+and\s+", ", ", segment)
     names = []
     for part in re.split(r"[,;]", segment):
+        # A name ends at the first lowercase word or role title: an explanation can follow a
+        # dissenter's name without a period ("Loretta J. Mester President Mester was fully supportive ...").
+        part = re.split(r"\s+(?=[a-z])|\s+(?:President|Governor|Chair(?:man|woman)?|Vice)\b", part.strip())[0]
         part = part.strip(" .;:")
-        # drop role labels that follow a name ("Jerome H. Powell, Chair")
-        if not part or re.fullmatch(r"(?:Vice )?Chair(?:man|woman)?|Vice Chair for Supervision|None|none", part):
+        # drop role labels that follow a name ("Jerome H. Powell, Chair") and anything not shaped like a name
+        if (not re.fullmatch(r"[A-Z][\w.'\-]*(?:\s+[A-Z][\w.'\-]*){0,4}", part)
+                or re.fullmatch(r"Vice(?: Chair(?:man|woman)?)?|Chair(?:man|woman)?|None", part)):
             continue
         names.append(part)
     return names
@@ -75,6 +87,8 @@ _ACTION = r"th(?:is|e)(?: FOMC)?(?: monetary policy)? action\s*:?\s*"
 # reason), so middle initials ("John C. Williams") do not end it; or after "None" without a period;
 # or at "Absent and not voting".
 _FOR_LINE = re.compile(rf"(?:Votes?|Voting) for {_ACTION}(.{{0,900}}?)(?=(?:Votes?|Voting) against)")
+# Unanimous votes are sometimes printed without an 'against' line; the 'for' list then ends at its sentence.
+_FOR_ONLY_LINE = re.compile(rf"(?:Votes?|Voting) for {_ACTION}(.{{0,900}}?(?<=[a-z]{{2}}))\s?\.(?:\s|$)")
 _AGAINST_LINE = re.compile(
     rf"(?:Votes?|Voting) against {_ACTION}(.*?)(?:(?<=[a-z]{{2}})\s?\.(?:\s|$)|(?<=None)\b|\s+Absent and not voting)"
 )
@@ -85,7 +99,7 @@ def voters_in_minutes(page: str) -> list[str]:
     (Minutes that also cover an earlier conference call carry later vote lines, sometimes with the
     previous year's roster.)"""
     text = re.sub(rf"\b{_TITLES}\s*", "", _text(page))
-    m_for = _FOR_LINE.search(text)
+    m_for = _FOR_LINE.search(text) or _FOR_ONLY_LINE.search(text)
     if not m_for:
         return []
     m_against = _AGAINST_LINE.search(text, m_for.end())
@@ -143,6 +157,44 @@ def save(rows: list[dict]) -> None:
             w.writerow([r["date"], r["source"], ";".join(r["names"])])
 
 
+def _one_edit(a: str, b: str) -> bool:
+    """True if a and b differ by exactly one inserted, deleted or substituted letter."""
+    if len(a) == len(b):
+        return sum(x != y for x, y in zip(a, b)) == 1
+    short, long = sorted((a, b), key=len)
+    return len(long) - len(short) == 1 and any(long[:i] + long[i + 1:] == short for i in range(len(long)))
+
+
+def clean(rows: list[dict]) -> list[dict]:
+    """Repair the minutes' own typesetting slips, using only the neighbouring rosters:
+    - a missing comma in a surname-only roster ("McDonough Ferguson") is split into its two surnames;
+    - a surname one letter away from a more frequent surname that never sits on the same roster
+      and appears within a year of it ("Meyers" for four meetings in 1999, "Meyer" for years
+      around them) is that person."""
+    rows = sorted(rows, key=lambda r: r["date"])
+    for r in rows:
+        if sum(" " not in n for n in r["names"]) > len(r["names"]) / 2:       # surname-only roster
+            names = []
+            for n in r["names"]:
+                parts = n.split()
+                names += parts if len(parts) == 2 and all(re.fullmatch(r"(?:Mc|Mac)?[A-Z][a-z]+", p) for p in parts) else [n]
+            r["names"] = names
+    dates: dict[str, list[dt.date]] = {}
+    for r in rows:
+        for n in r["names"]:
+            dates.setdefault(n, []).append(dt.date.fromisoformat(r["date"]))
+    fix = {}
+    for n, seen in dates.items():
+        for m, other in dates.items():
+            if (" " not in n and " " not in m and len(other) > len(seen) and _one_edit(n, m)
+                    and not set(seen) & set(other)
+                    and min(abs((a - b).days) for a in seen for b in other) <= 366):
+                fix[n] = m
+    for r in rows:
+        r["names"] = list(dict.fromkeys(fix.get(n, n) for n in r["names"]))
+    return rows
+
+
 def refresh(full: bool = False) -> None:
     """Add minutes not yet stored (all of them if full) and today's roster if it changed."""
     rows = load()
@@ -171,7 +223,7 @@ def refresh(full: bool = False) -> None:
             print(f"  fomc.htm: found {len(members)} members, expected 12; roster not updated")
     except Exception as e:
         print(f"  fomc.htm not read ({e})")
-    save(rows)
+    save(clean(rows))
 
 
 class Roster:

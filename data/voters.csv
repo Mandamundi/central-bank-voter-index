@@ -26,10 +26,10 @@ date,source,names
 1999-02-02,https://www.federalreserve.gov/fomc/minutes/19990202.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;Kelley;McTeer;Meyer;Moskow;Rivlin;Stern
 1999-03-30,https://www.federalreserve.gov/fomc/minutes/19990330.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;Kelley;McTeer;Meyer;Moskow;Rivlin;Stern
 1999-05-18,https://www.federalreserve.gov/fomc/minutes/19990518.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;Kelley;McTeer;Meyer;Moskow;Rivlin;Stern
-1999-06-29,https://www.federalreserve.gov/fomc/minutes/19990629.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;McTeer;Meyers;Moskow;Kelley;Stern
-1999-08-24,https://www.federalreserve.gov/fomc/minutes/19990824.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;Meyers;Moskow;Kelley;Stern;McTeer
-1999-10-05,https://www.federalreserve.gov/fomc/minutes/19991005.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;McTeer;Meyers;Moskow;Kelley;Stern
-1999-11-16,https://www.federalreserve.gov/fomc/minutes/19991116.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;McTeer;Meyers;Moskow;Kelley;Stern
+1999-06-29,https://www.federalreserve.gov/fomc/minutes/19990629.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;McTeer;Meyer;Moskow;Kelley;Stern
+1999-08-24,https://www.federalreserve.gov/fomc/minutes/19990824.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;Meyer;Moskow;Kelley;Stern;McTeer
+1999-10-05,https://www.federalreserve.gov/fomc/minutes/19991005.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;McTeer;Meyer;Moskow;Kelley;Stern
+1999-11-16,https://www.federalreserve.gov/fomc/minutes/19991116.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;McTeer;Meyer;Moskow;Kelley;Stern
 1999-12-21,https://www.federalreserve.gov/fomc/minutes/19991221.htm,Greenspan;McDonough;Boehne;Ferguson;Gramlich;Kelley;McTeer;Meyer;Moskow;Stern
 2000-02-02,https://www.federalreserve.gov/fomc/minutes/20000202.htm,Greenspan;McDonough;Broaddus;Ferguson;Gramlich;Guynn;Jordan;Kelley;Parry;Meyer
 2000-03-21,https://www.federalreserve.gov/fomc/minutes/20000321.htm,Greenspan;McDonough;Broaddus;Ferguson;Gramlich;Guynn;Jordan;Kelley;Meyer;Parry
@@ -43,7 +43,7 @@ date,source,names
 2001-03-20,https://www.federalreserve.gov/fomc/minutes/20010320.htm,Greenspan;McDonough;Ferguson;Gramlich;Hoenig;Kelley;Meyer;Minehan;Moskow;Poole
 2001-05-15,https://www.federalreserve.gov/fomc/minutes/20010515.htm,Greenspan;McDonough;Ferguson;Gramlich;Kelley;Meyer;Minehan;Moskow;Poole;Hoenig
 2001-06-27,https://www.federalreserve.gov/fomc/minutes/20010627.htm,Greenspan;McDonough;Ferguson;Gramlich;Hoenig;Kelley;Meyer;Minehan;Moskow;Poole
-2001-08-21,https://www.federalreserve.gov/fomc/minutes/20010821.htm,Greenspan;McDonough Ferguson;Gramlich;Hoenig;Kelley;Meyer;Minehan;Moskow;Poole
+2001-08-21,https://www.federalreserve.gov/fomc/minutes/20010821.htm,Greenspan;McDonough;Ferguson;Gramlich;Hoenig;Kelley;Meyer;Minehan;Moskow;Poole
 2001-10-02,https://www.federalreserve.gov/fomc/minutes/20011002.htm,Greenspan;McDonough;Ferguson;Gramlich;Hoenig;Kelley;Meyer;Minehan;Moskow;Poole
 2001-11-06,https://www.federalreserve.gov/fomc/minutes/20011106.htm,Greenspan;McDonough;Ferguson;Gramlich;Hoenig;Kelley;Meyer;Minehan;Moskow;Poole
 2001-12-11,https://www.federalreserve.gov/fomc/minutes/20011211.htm,Greenspan;McDonough;Bies;Ferguson;Gramlich;Meyer;Minehan;Moskow;Olson;Poole;Hoenig
@@ -58,14 +58,14 @@ date,source,names
 2003-01-29,https://www.federalreserve.gov/fomc/minutes/20030129.htm,Greenspan;McDonough;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry
 2003-03-18,https://www.federalreserve.gov/fomc/minutes/20030318.htm,Greenspan;McDonough;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry
 2003-05-06,https://www.federalreserve.gov/fomc/minutes/20030506.htm,Greenspan;McDonough;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry
-2003-06-25,https://www.federalreserve.gov/fomc/minutes/20030625.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Stewart;(Stewart voted as an alternate member;);Parry
-2003-08-12,https://www.federalreserve.gov/fomc/minutes/20030812.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry;Stewart;(Stewart voted as an alternate member;)
-2003-09-16,https://www.federalreserve.gov/fomc/minutes/20030916.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry;Stewart;(Stewart voted as an alternate member;)
-2003-10-28,https://www.federalreserve.gov/fomc/minutes/20031028.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry;Stewart;(Stewart voted as an alternate member;)
+2003-06-25,https://www.federalreserve.gov/fomc/minutes/20030625.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Stewart;Parry
+2003-08-12,https://www.federalreserve.gov/fomc/minutes/20030812.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry;Stewart
+2003-09-16,https://www.federalreserve.gov/fomc/minutes/20030916.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry;Stewart
+2003-10-28,https://www.federalreserve.gov/fomc/minutes/20031028.htm,Greenspan;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry;Stewart
 2003-12-09,https://www.federalreserve.gov/fomc/minutes/20031209.htm,Greenspan;Geithner;Bernanke;Bies;Broaddus;Ferguson;Gramlich;Guynn;Kohn;Moskow;Olson;Parry
 2004-01-28,https://www.federalreserve.gov/fomc/minutes/20040128.htm,Greenspan;Geithner;Bernanke;Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
 2004-03-16,https://www.federalreserve.gov/fomc/minutes/20040316.htm,Greenspan;Geithner;Bernanke;Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
-2004-05-04,https://www.federalreserve.gov/fomc/minutes/20040504.htm,Greenspan;Geithner;Bernanke Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
+2004-05-04,https://www.federalreserve.gov/fomc/minutes/20040504.htm,Greenspan;Geithner;Bernanke;Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
 2004-06-30,https://www.federalreserve.gov/fomc/minutes/20040630.htm,Greenspan;Geithner;Bernanke;Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
 2004-08-10,https://www.federalreserve.gov/fomc/minutes/20040810.htm,Greenspan;Geithner;Bernanke;Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
 2004-09-21,https://www.federalreserve.gov/fomc/minutes/20040921.htm,Greenspan;Geithner;Bernanke;Bies;Ferguson;Gramlich;Hoenig;Kohn;Minehan;Olson;Pianalto;Poole
@@ -85,8 +85,8 @@ date,source,names
 2006-06-29,https://www.federalreserve.gov/fomc/minutes/20060629.htm,Bernanke;Geithner;Bies;Guynn;Kohn;Kroszner;Lacker;Pianalto;Warsh;Yellen
 2006-08-08,https://www.federalreserve.gov/fomc/minutes/20060808.htm,Bernanke;Geithner;Bies;Guynn;Kohn;Kroszner;Pianalto;Warsh;Yellen;Lacker
 2006-09-20,https://www.federalreserve.gov/fomc/minutes/20060920.htm,Bernanke;Geithner;Bies;Guynn;Kohn;Kroszner;Mishkin;Pianalto;Warsh;Yellen;Lacker
-2006-10-25,https://www.federalreserve.gov/fomc/minutes/20061025.htm,Bernanke;Geithner;Bies;Kohn;Kroszner;Mishkin;Pianalto;Poole;Warsh;Yellen
-2006-12-12,https://www.federalreserve.gov/fomc/minutes/20061212.htm,Bernanke;Geithner;Bies;Kohn;Kroszner;Mishkin;Pianalto;Poole;Warsh;Yellen
+2006-10-25,https://www.federalreserve.gov/fomc/minutes/20061025.htm,Bernanke;Geithner;Bies;Kohn;Kroszner;Mishkin;Pianalto;Poole;Warsh;Yellen;Lacker
+2006-12-12,https://www.federalreserve.gov/fomc/minutes/20061212.htm,Bernanke;Geithner;Bies;Kohn;Kroszner;Mishkin;Pianalto;Poole;Warsh;Yellen;Lacker
 2007-01-31,https://www.federalreserve.gov/fomc/minutes/20070131.htm,Bernanke;Geithner;Bies;Hoenig;Kohn;Kroszner;Minehan;Mishkin;Moskow;Poole;Warsh
 2007-03-21,https://www.federalreserve.gov/fomc/minutes/20070321.htm,Bernanke;Geithner;Hoenig;Kohn;Kroszner;Minehan;Mishkin;Moskow;Poole;Warsh
 2007-05-09,https://www.federalreserve.gov/fomc/minutes/20070509.htm,Bernanke;Geithner;Hoenig;Kohn;Kroszner;Minehan;Mishkin;Moskow;Poole;Warsh
@@ -191,7 +191,7 @@ date,source,names
 2019-10-30,https://www.federalreserve.gov/monetarypolicy/fomcminutes20191030.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;James Bullard;Richard H. Clarida;Charles L. Evans;Randal K. Quarles;Esther L. George;Eric Rosengren
 2019-12-11,https://www.federalreserve.gov/monetarypolicy/fomcminutes20191211.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;James Bullard;Richard H. Clarida;Charles L. Evans;Esther L. George;Randal K. Quarles;Eric S. Rosengren
 2020-01-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200129.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Patrick Harker;Robert S. Kaplan;Neel Kashkari;Loretta J. Mester;Randal K. Quarles
-2020-03-15,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Patrick Harker;Robert S. Kaplan;Neel Kashkari;Randal K. Quarles;the flow of credit to households
+2020-03-15,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Patrick Harker;Robert S. Kaplan;Neel Kashkari;Randal K. Quarles;Loretta J. Mester
 2020-04-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Patrick Harker;Robert S. Kaplan;Neel Kashkari;Loretta J. Mester;Randal K. Quarles
 2020-06-10,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200610.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Patrick Harker;Robert S. Kaplan;Neel Kashkari;Loretta J. Mester;Randal K. Quarles
 2020-07-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200729.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Patrick Harker;Robert S. Kaplan;Neel Kashkari;Loretta J. Mester;Randal K. Quarles
@@ -208,6 +208,7 @@ date,source,names
 2021-12-15,https://www.federalreserve.gov/monetarypolicy/fomcminutes20211215.htm,Jerome H. Powell;John C. Williams;Thomas I. Barkin;Raphael W. Bostic;Michelle W. Bowman;Lael Brainard;Richard H. Clarida;Mary C. Daly;Charles L. Evans;Randal K. Quarles;Christopher J. Waller
 2022-01-26,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220126.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;James Bullard;Esther L. George;Patrick Harker;Loretta J. Mester;Christopher J. Waller
 2022-03-16,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220316.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;Esther L. George;Patrick Harker;Loretta J. Mester;Christopher J. Waller;James Bullard
+2022-05-04,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;James Bullard;Esther L. George;Patrick Harker;Loretta J. Mester;Christopher J. Waller
 2022-06-15,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm,Jerome H. Powell;John C. Williams;Michelle W. Bowman;Lael Brainard;James Bullard;Lisa D. Cook;Patrick Harker;Philip N. Jefferson;Loretta J. Mester;Christopher J. Waller;Esther L. George
 2022-07-27,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lael Brainard;James Bullard;Susan M. Collins;Lisa D. Cook;Esther L. George;Philip N. Jefferson;Loretta J. Mester;Christopher J. Waller
 2022-09-21,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lael Brainard;James Bullard;Susan M. Collins;Lisa D. Cook;Esther L. George;Philip N. Jefferson;Loretta J. Mester;Christopher J. Waller
@@ -236,9 +237,10 @@ date,source,names
 2025-07-30,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Susan M. Collins;Lisa D. Cook;Austan D. Goolsbee;Philip N. Jefferson;Alberto G. Musalem;Jeffrey R. Schmid;Michelle W. Bowman;Christopher J. Waller
 2025-09-17,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250917.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Susan M. Collins;Lisa D. Cook;Austan D. Goolsbee;Philip N. Jefferson;Alberto G. Musalem;Jeffrey R. Schmid;Christopher J. Waller;Stephen I. Miran
 2025-10-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20251029.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Susan M. Collins;Lisa D. Cook;Austan D. Goolsbee;Philip N. Jefferson;Alberto G. Musalem;Christopher J. Waller;Stephen I. Miran;Jeffrey R. Schmid
-2025-12-10,https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Susan M. Collins;Lisa D. Cook;Philip N. Jefferson;Alberto G. Musalem;Christopher J. Waller;Stephen I. Miran
+2025-12-10,https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Susan M. Collins;Lisa D. Cook;Philip N. Jefferson;Alberto G. Musalem;Christopher J. Waller;Stephen I. Miran;Jeffrey R. Schmid
 2026-01-28,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260128.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Beth M. Hammack;Philip N. Jefferson;Neel Kashkari;Lorie K. Logan;Anna Paulson;Stephen I. Miran;Christopher J. Waller
 2026-03-18,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Beth M. Hammack;Philip N. Jefferson;Neel Kashkari;Lorie K. Logan;Anna Paulson;Christopher J. Waller;Stephen I. Miran
-2026-04-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Philip N. Jefferson;Anna Paulson;Christopher J. Waller;Stephen I. Miran;Lorie K. Logan
+2026-04-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm,Jerome H. Powell;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Philip N. Jefferson;Anna Paulson;Christopher J. Waller;Stephen I. Miran;Beth M. Hammack;Neel Kashkari;Lorie K. Logan
 2026-06-17,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm,Kevin Warsh;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Beth M. Hammack;Philip N. Jefferson;Neel Kashkari;Lorie K. Logan;Anna Paulson;Jerome H. Powell;Christopher J. Waller
 2026-07-29,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm,Kevin Warsh;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Philip N. Jefferson;Anna Paulson;Jerome H. Powell;Christopher J. Waller;Beth M. Hammack;Neel Kashkari;Lorie K. Logan
+2026-09-16,https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm,Kevin Warsh;John C. Williams;Michael S. Barr;Michelle W. Bowman;Lisa D. Cook;Beth M. Hammack;Philip N. Jefferson;Neel Kashkari;Lorie K. Logan;Anna Paulson;Jerome H. Powell;Christopher J. Waller

@@ -5,7 +5,6 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 SPEECH_DIR = DATA / "speeches"          # one CSV per year: data/speeches/2025.csv
 SCORES = DATA / "scores.jsonl"          # one JSON line per scored speech
-SEEN_URLS = DATA / "seen_urls.txt"      # speech pages already checked, one "source<TAB>url" per line
 VOTERS = DATA / "voters.csv"            # FOMC voters by date (see voters.py)
 FED_FUNDS = DATA / "fed_funds.csv"      # FOMC target rate/range history
 OUTPUT = ROOT / "output"
@@ -27,9 +26,9 @@ START_DATE = None                       # first output date (ISO); None = first 
 REQUEST_PAUSE = 1.0                     # seconds between requests to the Fed and Reserve Bank sites
 MIN_TEXT_CHARS = 1000                   # shorter text needs explicit prepared-remarks cues
 
-# Collector outcomes are separate from the legacy seen list. Bump after extraction changes.
+# Outcome of every page checked. Bump COLLECTOR_VERSION after extraction changes to recheck exclusions and failures.
 PROCESSING = DATA / "processing.json"
-COLLECTOR_VERSION = "v3.4"
+COLLECTOR_VERSION = "v4"
 HTTP_CONNECT_TIMEOUT = 5
 HTTP_READ_TIMEOUT = 15
 HTTP_RETRY_BUDGET = 45

@@ -110,7 +110,7 @@ class CollectorTests(unittest.TestCase):
     def test_failures_revisited_without_current_listing_and_keep_entry_metadata(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
             root = Path(directory)
-            for key, value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json'),('SEEN_URLS',root/'seen.txt')]:
+            for key, value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json')]:
                 stack.enter_context(patch.object(config,key,value))
             e = sources.entry('atlanta','https://www.atlantafed.org/speeches/old',date='2020-05-04',speaker='Jane Doe',title='Old speech')
             row = update._outcome('atlanta','metadata_failure','missing',None,entry=e)
@@ -123,13 +123,12 @@ class CollectorTests(unittest.TestCase):
             fetch.assert_called_once_with(e)
             self.assertEqual(store.load_processing()[e['url']]['attempts'],2)
 
-    def test_checkpoint_summary_legacy_recovery_and_interrupt(self):
+    def test_checkpoint_summary_and_interrupt(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
             root = Path(directory)
-            for key, value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json'),('SEEN_URLS',root/'seen.txt')]:
+            for key, value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json')]:
                 stack.enter_context(patch.object(config, key, value))
             urls = [f'https://www.kansascityfed.org/speeches/example-{i}/' for i in range(4)]
-            config.SEEN_URLS.write_text('\n'.join(urls))
             entries = [sources.entry('kansascity',u,date='2021-05-24',speaker='Esther L. George',title=f'Example {i}') for i,u in enumerate(urls)]
             role, _, metadata = sources.SOURCES['kansascity']
             stack.enter_context(patch.dict(sources.SOURCES, kansascity=(role,lambda full: iter(entries),metadata)))

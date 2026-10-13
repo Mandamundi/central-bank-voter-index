@@ -5,9 +5,9 @@ gives). lister(full=False) returns only the newest entries, for the daily update
 the whole archive the site publishes, for the backfill. fetch() then reads the page (or its PDF)
 and fills in what the listing did not give.
 
-Only prepared speech text is kept: pages whose title marks an interview, Q&A, podcast,
-conversation or statement are skipped, and so are pages with less than MIN_TEXT_CHARS of text
-(video-only event pages).
+Only the member's own prepared text is kept (speeches, essays, statements, testimony): pages whose
+title marks an interview, Q&A, podcast or conversation are skipped, and so are pages with less
+than MIN_TEXT_CHARS of text (video-only event pages).
 
 Also here: the Fed's target-rate history, used as prompt context.
 """
@@ -37,9 +37,11 @@ MONTH_NUM = {m: i + 1 for i, m in enumerate(MONTHS)}
 MONTH_NUM.update({m[:3]: i + 1 for i, m in enumerate(MONTHS)})
 MONTH_NUM.update({"Sept": 9})
 
+# Kept: the member's own prepared words (speeches, essays, statements, testimony); the scorer
+# decides whether they are about monetary policy. Skipped: interviews, Q&As, conversations,
+# podcasts, town halls and videos, which have no prepared text or carry several voices.
 EXCLUDE_TITLE = re.compile(
-    r"\b(?:Q\s*&\s*A|interview|podcast|fireside chat|conversation|statement (?:from|regarding|on|by)|"
-    r"town hall|moderated discussion|testimony|written statement|video)\b",
+    r"\b(?:Q\s*&\s*A|interview|podcast|fireside chat|conversation|town hall|moderated discussion|video)\b",
     re.I,
 )
 BYLINE = re.compile(
@@ -438,6 +440,11 @@ def stlouis_meta(page: str, text: str) -> tuple[str | None, str | None, str | No
 MPLS = "https://www.minneapolisfed.org"
 
 
+# Kashkari's events are mostly moderated Q&As posted as video; his written policy views are the
+# signed essays on his page (/people/neel-kashkari, "Essays"), listed by this endpoint.
+MPLS_PRESIDENT_ESSAYS = f"{MPLS}/api/ArticleList?itemId=%7B4714F800-1E0F-41C7-A4E0-84DC758E793A%7D&skip=0&take="
+
+
 def list_minneapolis(full: bool) -> Iterator[dict]:
     if full:
         urls = [u for u in _sitemap(f"{MPLS}/sitemap.xml") if re.search(r"minneapolisfed\.org/speeches/\d{4}/", u)]
@@ -446,6 +453,8 @@ def list_minneapolis(full: bool) -> Iterator[dict]:
         urls = [MPLS + u for u in dict.fromkeys(re.findall(r'href="(/speeches/\d{4}/[^"#?]+)"', page))]
     for u in urls:
         yield entry("minneapolis", u.replace("://minneapolisfed.org", "://www.minneapolisfed.org"))
+    for a in http_get.get(MPLS_PRESIDENT_ESSAYS + ("500" if full else "20")).json()["Articles"]:
+        yield entry("minneapolis", a["url"], parse_date(a["dateTimeText"]), "Neel Kashkari", a["title"].strip())
 
 
 # ---------------------------------------------------------------- Kansas City

@@ -1,5 +1,4 @@
 import contextlib
-import datetime as dt
 import io
 import json
 from pathlib import Path
@@ -9,7 +8,6 @@ from unittest.mock import patch
 
 import config
 import http_get
-import runlog
 import sources
 import speech_metadata as metadata
 import store
@@ -108,8 +106,11 @@ class V3Tests(unittest.TestCase):
         self.assertEqual((date, speaker, title), ('2009-10-06', 'Thomas M. Hoenig', 'Regulatory Reform and the Economy: We Can Do Better'))
         self.assertEqual(metadata.frontmatter('Policy Outlook\nWe expect inflation to fall.\nOctober 6, 2009'), 'Policy Outlook')
 
-    def test_publisher_essay_paper_cancellation_and_joint_authors_are_excluded(self):
-        self.assertEqual(metadata.non_speech_reason('<div class="dal-crouton">Essay by President Robert S. Kaplan</div>', BODY, 'Policy'), 'essay rather than prepared remarks')
+    def test_essays_and_statements_kept_but_papers_cancellations_and_joint_authors_excluded(self):
+        self.assertIsNone(metadata.non_speech_reason('<div class="dal-crouton">Essay by President Robert S. Kaplan</div>', BODY, 'Policy'))
+        self.assertIsNone(metadata.non_speech_reason('', 'Statement of Jerome H. Powell\n' + BODY, 'Semiannual Monetary Policy Report to the Congress'))
+        self.assertIsNone(sources.EXCLUDE_TITLE.search('Statement by Governor Christopher J. Waller'))
+        self.assertIsNotNone(sources.EXCLUDE_TITLE.search('Q&A with Neel Kashkari at the St. Paul Area Chamber'))
         self.assertEqual(metadata.non_speech_reason('', '| Paper by Governor Donald Kohn and Brian Sack |\n' + BODY, 'Policy'), 'research paper rather than prepared remarks')
         self.assertEqual(metadata.non_speech_reason('', 'Speech cancelled due to inclement weather.', 'Policy'), 'cancelled speech without prepared remarks')
         page = '<h4>by Ernest T. Patrikis, First Vice President</h4><h4>Joyce M. Hansen, Deputy General Counsel and Senior Vice President</h4>'
@@ -118,7 +119,7 @@ class V3Tests(unittest.TestCase):
     def test_recovery_attempts_unseen_pages_before_repeated_network_failures(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
             root = Path(directory)
-            for key, value in [('DATA', root), ('SPEECH_DIR', root/'speeches'), ('PROCESSING', root/'processing.json'), ('SEEN_URLS', root/'seen.txt')]:
+            for key, value in [('DATA', root), ('SPEECH_DIR', root/'speeches'), ('PROCESSING', root/'processing.json')]:
                 stack.enter_context(patch.object(config, key, value))
             entries = [sources.entry('kansascity', f'https://www.kansascityfed.org/speeches/{slug}/') for slug in ['timeout-a', 'timeout-b', 'fresh']]
             store.save_processing({e['url']: update._outcome('kansascity', 'request_failure', 'timeout', None, entry=e) for e in entries[:2]})
@@ -170,7 +171,7 @@ class V3Tests(unittest.TestCase):
     def test_interrupt_during_listing_reports_stage_and_preserves_store(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
             root = Path(directory)
-            for key, value in [('DATA', root), ('SPEECH_DIR', root/'speeches'), ('PROCESSING', root/'processing.json'), ('SEEN_URLS', root/'seen.txt')]:
+            for key, value in [('DATA', root), ('SPEECH_DIR', root/'speeches'), ('PROCESSING', root/'processing.json')]:
                 stack.enter_context(patch.object(config, key, value))
             role, _, reader = sources.SOURCES['ny']
             with patch.dict(sources.SOURCES, ny=(role, lambda full: (_ for _ in ()).throw(KeyboardInterrupt()), reader)), contextlib.redirect_stdout(io.StringIO()):
@@ -267,7 +268,7 @@ class V3Tests(unittest.TestCase):
     def test_pause_moves_to_next_bank_and_report_records_remaining(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
             root=Path(directory)
-            for key,value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json'),('SEEN_URLS',root/'seen.txt'),('SCORES',root/'scores.jsonl')]:
+            for key,value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json'),('SCORES',root/'scores.jsonl')]:
                 stack.enter_context(patch.object(config,key,value))
             for name in ['kansascity','dallas']:
                 role,_,reader=sources.SOURCES[name]
@@ -289,41 +290,6 @@ class V3Tests(unittest.TestCase):
             self.assertEqual(report['sources']['dallas']['status'],'completed')
             self.assertTrue(Path(report['log']).exists())
             self.assertTrue(all(r['status']=='request_failure' for r in store.load_processing().values() if r['source']=='kansascity'))
-
-    def test_quarantine_preserves_original_and_reopens_timeout(self):
-        with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
-            root=Path(directory)
-            for key,value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json'),('SEEN_URLS',root/'seen.txt'),('SCORES',root/'scores.jsonl')]:
-                stack.enter_context(patch.object(config,key,value))
-            e=sources.entry('kansascity','https://www.kansascityfed.org/speeches/bad/',date='2016-01-13',speaker='Assistant Vice',title='Outlook')
-            speech={key:e.get(key,'') or '' for key in store.FIELDS};speech.update(id='bad',text=BODY,role='Kansas City')
-            store.add_speeches([speech])
-            outcomes={e['url']:{'source':'kansascity','status':'stored'},'https://www.kansascityfed.org/timeout':{'source':'kansascity','status':'http_failure','http_status':0,'retry_after':'2099-01-01T00:00:00+00:00'}}
-            with contextlib.redirect_stdout(io.StringIO()):
-                summary=update.repair_collection(outcomes)
-            self.assertEqual(summary,{'quarantined':1,'restored':0,'joint_author_exclusions':0,'reclassified_timeouts':1})
-            self.assertFalse(store.load_speeches())
-            original=json.loads((root/'quarantine/collector-repair.jsonl').read_text())['speech']
-            self.assertEqual(original,speech)
-            self.assertEqual(outcomes[e['url']]['status'],'metadata_failure')
-            self.assertEqual(outcomes['https://www.kansascityfed.org/timeout']['status'],'request_failure')
-
-    def test_confirmed_non_speech_quarantine_is_not_automatically_restored(self):
-        with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
-            root = Path(directory)
-            for key, value in [('DATA',root),('SPEECH_DIR',root/'speeches'),('PROCESSING',root/'processing.json'),('SEEN_URLS',root/'seen.txt'),('SCORES',root/'scores.jsonl')]:
-                stack.enter_context(patch.object(config,key,value))
-            e = sources.entry('dallas', 'https://www.dallasfed.org/news/speeches/kaplan/2017/rsk170713', date='2017-07-13', speaker='Robert S. Kaplan', title='Essay')
-            speech = {key:e.get(key,'') or '' for key in store.FIELDS}
-            speech.update(id='essay', text=BODY, role='Dallas')
-            store.add_speeches([speech])
-            store.quarantine_speeches([speech], 'not a speech (publisher labels this as an essay)')
-            outcomes = {e['url']:update._outcome('dallas', 'excluded', 'not a speech (essay)', None, entry=e)}
-            with contextlib.redirect_stdout(io.StringIO()):
-                self.assertEqual(update.repair_collection(outcomes)['restored'], 0)
-            self.assertFalse(store.load_speeches())
-            self.assertEqual(outcomes[e['url']]['status'], 'excluded')
-
 
 if __name__=='__main__':
     unittest.main()

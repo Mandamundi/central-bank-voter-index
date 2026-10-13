@@ -240,22 +240,18 @@ def non_speech_reason(page: str, text: str, title: str) -> str | None:
                 return 'radio interview rather than prepared remarks'
         except (ValueError, TypeError):
             pass
-    if any(re.match(r'Essay by\b', node_text(node), re.I) for node in class_nodes(tree, 'dal-crouton')):
-        return 'essay rather than prepared remarks'
     if re.match(r'\s*For immediate release\b', header, re.I) or re.search(r'\bpress release\b', title, re.I):
         return 'press release'
-    if re.search(r'\b(?:webinar|interview|Q\s*&\s*A|question.and.answer|fireside chat|conversation|town hall|podcast|testimony|written statement)\b', title, re.I):
+    if re.search(r'\b(?:webinar|interview|Q\s*&\s*A|question.and.answer|fireside chat|conversation|town hall|podcast)\b', title, re.I):
         # Published opening remarks can be prepared text even at a conversation/panel.
         if not re.match(r'opening remarks\b', title, re.I):
-            return 'discussion, interview, or statement'
+            return 'discussion or interview'
     if re.search(r'^(?:View photos|Photos? from|Photo gallery)\b', title, re.I):
         return 'photo gallery'
     # Transcripts with multiple named turns are discussions, not prepared speech text.
     turns = re.findall(r'^([A-Z][\w.\-]+(?: (?:[A-Z][\w.\-]+|de|van|von)){1,5}):', text, re.M)
     if len(set(turns)) > 1:
         return 'multi-speaker transcript'
-    if re.search(r'^(?:Statement of|Written statement|Testimony of)\b', header, re.M | re.I):
-        return 'statement or testimony'
     if (re.search(r'^\s*(?:Dear\b|To:\s)', header, re.M | re.I)
             and re.search(r'^\s*(?:Sincerely|Yours truly|Respectfully)[,\s]', text, re.M | re.I)):
         return 'letter or memorandum'

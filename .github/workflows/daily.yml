@@ -3,6 +3,7 @@ name: daily-update
 on:
   schedule:
     - cron: "0 7 * * *"      # 07:00 UTC daily
+    - cron: "0 5 1 * *"      # 05:00 UTC on the 1st: also harvest FRASER (it adds the previous year each January)
   workflow_dispatch:
 
 permissions:
@@ -15,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -27,6 +28,10 @@ jobs:
 
       - name: Pull new speeches and FOMC voters
         run: uv run update.py
+
+      - name: Harvest FRASER archive (monthly)
+        if: github.event.schedule == '0 5 1 * *' || github.event_name == 'workflow_dispatch'
+        run: uv run fraser.py
 
       - name: Score new speeches
         env:
