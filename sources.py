@@ -166,12 +166,15 @@ def _strip_title(speaker: str) -> str:
 
 
 def list_board(full: bool) -> Iterator[dict]:
-    if not full:
-        rss = http_get.get(f"{FED}/feeds/speeches.xml").text
+    # Testimony has its own feed; FRASER's Board collections include testimony, so it is read
+    # here too (the feed reaches back past FRASER's last yearly load).
+    for feed in ("speeches", "testimony") if not full else ("testimony",):
+        rss = http_get.get(f"{FED}/feeds/{feed}.xml").text
         for item in re.findall(r"<item>(.*?)</item>", rss, re.S):
             link = re.search(r"<link>(?:<!\[CDATA\[)?\s*([^<\]\s]+)", item)
             if link:
                 yield entry("board", link.group(1))       # speaker/date read from the page
+    if not full:
         return
     for year in range(1996, dt.date.today().year + 1):
         page = _board_year_page(year)

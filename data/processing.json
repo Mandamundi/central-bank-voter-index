@@ -76362,6 +76362,252 @@
     "speech_id": "761380e1d172",
     "status": "excluded"
   },
+  "https://www.federalreserve.gov/newsevents/testimony/barr20231113a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/barr20231113a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:32.171989+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/barr20240515a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/barr20240515a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:28.137907+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/barr20241120a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/barr20241120a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:26.147637+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/bowman20250410a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/bowman20250410a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:24.118422+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/bowman20251202a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/bowman20251202a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:22.116004+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/bowman20260226a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/bowman20260226a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:21.088001+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "2544d492bce8",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/bowman20260604a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/bowman20260604a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:19.135521+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "e2e8a3191107",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/gibson20231205a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/gibson20231205a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:31.139884+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "ff9ebbd0299d",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/gibson20240321a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/gibson20240321a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:29.159335+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "0607488f7172",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/guynn20260326a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/guynn20260326a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:20.116118+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "79a6fd6c4925",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/powell20240306a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/powell20240306a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:30.173101+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/powell20240709a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/powell20240709a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:27.119330+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/powell20250211a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/powell20250211a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:25.312198+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/powell20250624a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/powell20250624a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:23.123807+00:00",
+    "reason": "FRASER holds this speech",
+    "source": "board",
+    "status": "excluded"
+  },
+  "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/testimony/warsh20260714a.htm"
+    },
+    "last_attempt": "2026-10-14T10:08:18.183564+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "85409fa6d45e",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/pubs/feds/2007/200740/200740abs.html": {
     "attempts": 4,
     "collector_version": "v4",
