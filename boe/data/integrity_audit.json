@@ -1,0 +1,18 @@
+{
+  "bank": "boe",
+  "checked_at": "2026-10-19T05:21:26.418167+00:00",
+  "corpus_hash": "43b7ad23d5f3042ef15bdf91ee42b7f7badb1c57a21d5432f2197bf1f1699301",
+  "earliest_delivery": "2017-09-15",
+  "formats": {
+    "prepared_text": 348,
+    "prepared_text_ocr": 1
+  },
+  "issues": [],
+  "languages": {
+    "en": 349
+  },
+  "latest_delivery": "2026-10-08",
+  "maximum_text_chars": 96779,
+  "stored_speeches": 349,
+  "success": true
+}

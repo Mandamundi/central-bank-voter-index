@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+.env
+.DS_Store
+data/runs/
+data/last_run.json
+data/pending_roster.json
+charts/
+
+data/raw/
+data/runs/*.log

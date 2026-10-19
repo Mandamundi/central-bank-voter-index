@@ -1,0 +1,9 @@
+{
+  "completed_at": "2026-10-16T10:47:53.443502+00:00",
+  "done": 8,
+  "failed": 0,
+  "remaining": 284,
+  "scorer_version": "gemini-3.5-flash-lite:v3",
+  "stop_reason": [],
+  "success": true
+}

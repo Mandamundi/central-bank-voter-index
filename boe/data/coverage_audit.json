@@ -1,0 +1,879 @@
+{
+  "bank": "boe",
+  "current_members": [
+    {
+      "latest_delivery": "2026-09-28",
+      "member": "Dave Ramsden",
+      "policy_scores": 1,
+      "stored_speeches": 38
+    },
+    {
+      "latest_delivery": "2026-10-08",
+      "member": "Andrew Bailey",
+      "policy_scores": 0,
+      "stored_speeches": 63
+    },
+    {
+      "latest_delivery": "2026-10-01",
+      "member": "Catherine L Mann",
+      "policy_scores": 1,
+      "stored_speeches": 20
+    },
+    {
+      "latest_delivery": "2026-09-03",
+      "member": "Huw Pill",
+      "policy_scores": 1,
+      "stored_speeches": 22
+    },
+    {
+      "latest_delivery": "2026-06-24",
+      "member": "Swati Dhingra",
+      "policy_scores": 0,
+      "stored_speeches": 7
+    },
+    {
+      "latest_delivery": "2026-06-02",
+      "member": "Megan Greene",
+      "policy_scores": 0,
+      "stored_speeches": 10
+    },
+    {
+      "latest_delivery": "2026-06-30",
+      "member": "Sarah Breeden",
+      "policy_scores": 0,
+      "stored_speeches": 16
+    },
+    {
+      "latest_delivery": "2026-09-24",
+      "member": "Clare Lombardelli",
+      "policy_scores": 1,
+      "stored_speeches": 5
+    },
+    {
+      "latest_delivery": "2026-09-29",
+      "member": "Alan Taylor",
+      "policy_scores": 1,
+      "stored_speeches": 10
+    }
+  ],
+  "discovery_outcomes": {
+    "duplicate": 166,
+    "excluded": 578,
+    "scheduled": 3,
+    "stored": 347
+  },
+  "exclusion_reasons": {
+    "Author was not an MPC voter on delivery date": 18,
+    "Before supported/requested collection interval": 43,
+    "Interview/Q&A/conversation rather than authored prepared text": 4,
+    "Joint research paper rather than individually attributable prepared remarks": 4,
+    "Named author is outside verified MPC voting-member history": 2,
+    "Named speaker is outside the verified voting-member ledger": 381,
+    "Official page offers video without a published prepared text": 1,
+    "PDF byline identifies a non-MPC speaker": 3,
+    "PowerPoint slide deck without prepared speech prose": 1,
+    "Slide deck without prepared speech prose": 1,
+    "Supplementary slides/charts rather than prepared speech text": 117,
+    "Supporting research paper rather than individually authored prepared speech": 2,
+    "Translation of a separately collected English original": 1
+  },
+  "member_years": [
+    {
+      "member": "Ian McCafferty",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "Mark Carney",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2017
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 3,
+      "year": 2017
+    },
+    {
+      "member": "Andy Haldane",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "Gertjan Vlieghe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "Michael Saunders",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2017
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2017
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "Ian McCafferty",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2018
+    },
+    {
+      "member": "Mark Carney",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 12,
+      "year": 2018
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 3,
+      "year": 2018
+    },
+    {
+      "member": "Andy Haldane",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 9,
+      "year": 2018
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "Gertjan Vlieghe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "Michael Saunders",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2018
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2018
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2018
+    },
+    {
+      "member": "Mark Carney",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 16,
+      "year": 2019
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2019
+    },
+    {
+      "member": "Andy Haldane",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "Gertjan Vlieghe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "Michael Saunders",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2019
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "Mark Carney",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2020
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2020
+    },
+    {
+      "member": "Andy Haldane",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2020
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "Gertjan Vlieghe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "Michael Saunders",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2020
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 4,
+      "year": 2020
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2020
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 2,
+      "scored": 0,
+      "stored": 6,
+      "year": 2020
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2021
+    },
+    {
+      "member": "Andy Haldane",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2021
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2021
+    },
+    {
+      "member": "Gertjan Vlieghe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2021
+    },
+    {
+      "member": "Michael Saunders",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 4,
+      "year": 2021
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2021
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2021
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 3,
+      "year": 2021
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 14,
+      "year": 2021
+    },
+    {
+      "member": "Catherine L Mann",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2021
+    },
+    {
+      "member": "Huw Pill",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2021
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 6,
+      "year": 2022
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2022
+    },
+    {
+      "member": "Michael Saunders",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2022
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2022
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2022
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2022
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2022
+    },
+    {
+      "member": "Catherine L Mann",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2022
+    },
+    {
+      "member": "Huw Pill",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 8,
+      "year": 2022
+    },
+    {
+      "member": "Swati Dhingra",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2022
+    },
+    {
+      "member": "Jon Cunliffe",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 4,
+      "year": 2023
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2023
+    },
+    {
+      "member": "Silvana Tenreyro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 5,
+      "year": 2023
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2023
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 8,
+      "year": 2023
+    },
+    {
+      "member": "Catherine L Mann",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2023
+    },
+    {
+      "member": "Huw Pill",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2023
+    },
+    {
+      "member": "Swati Dhingra",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "Megan Greene",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2023
+    },
+    {
+      "member": "Sarah Breeden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2023
+    },
+    {
+      "member": "Ben Broadbent",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2024
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2024
+    },
+    {
+      "member": "Jonathan Haskel",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2024
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 7,
+      "year": 2024
+    },
+    {
+      "member": "Catherine L Mann",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2024
+    },
+    {
+      "member": "Huw Pill",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2024
+    },
+    {
+      "member": "Swati Dhingra",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "Megan Greene",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 4,
+      "year": 2024
+    },
+    {
+      "member": "Sarah Breeden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2024
+    },
+    {
+      "member": "Clare Lombardelli",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2024
+    },
+    {
+      "member": "Alan Taylor",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2024
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 13,
+      "year": 2025
+    },
+    {
+      "member": "Catherine L Mann",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 6,
+      "year": 2025
+    },
+    {
+      "member": "Huw Pill",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2025
+    },
+    {
+      "member": "Swati Dhingra",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2025
+    },
+    {
+      "member": "Megan Greene",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "Sarah Breeden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 7,
+      "year": 2025
+    },
+    {
+      "member": "Clare Lombardelli",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "Alan Taylor",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2025
+    },
+    {
+      "member": "Dave Ramsden",
+      "policy_relevant": 1,
+      "publication_date_unknown": 0,
+      "scored": 1,
+      "stored": 2,
+      "year": 2026
+    },
+    {
+      "member": "Andrew Bailey",
+      "policy_relevant": 0,
+      "publication_date_unknown": 1,
+      "scored": 3,
+      "stored": 10,
+      "year": 2026
+    },
+    {
+      "member": "Catherine L Mann",
+      "policy_relevant": 1,
+      "publication_date_unknown": 0,
+      "scored": 1,
+      "stored": 3,
+      "year": 2026
+    },
+    {
+      "member": "Huw Pill",
+      "policy_relevant": 1,
+      "publication_date_unknown": 0,
+      "scored": 1,
+      "stored": 2,
+      "year": 2026
+    },
+    {
+      "member": "Swati Dhingra",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2026
+    },
+    {
+      "member": "Megan Greene",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2026
+    },
+    {
+      "member": "Sarah Breeden",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2026
+    },
+    {
+      "member": "Clare Lombardelli",
+      "policy_relevant": 1,
+      "publication_date_unknown": 0,
+      "scored": 1,
+      "stored": 1,
+      "year": 2026
+    },
+    {
+      "member": "Alan Taylor",
+      "policy_relevant": 1,
+      "publication_date_unknown": 0,
+      "scored": 1,
+      "stored": 6,
+      "year": 2026
+    }
+  ],
+  "membership_coverage_start": "2017-09-04",
+  "membership_terms": 18,
+  "stored_speeches": 349,
+  "unresolved": [],
+  "valid_scores": 8
+}

@@ -1,0 +1,52 @@
+{
+  "catalogue.html": {
+    "url": "https://www.bankofengland.co.uk/sitemap/speeches",
+    "retrieved_on": "2026-10-16",
+    "sha256": "8d6caec58c84e84b03451f9debca2c4efc895c1ff12e56b180fc73faeda4d6d3"
+  },
+  "members.html": {
+    "url": "https://www.bankofengland.co.uk/about/people/monetary-policy-committee",
+    "retrieved_on": "2026-10-16",
+    "sha256": "d0ed153b7f10b681b7089d7c17b37f19ba66ab18cd124ac6b29929969f5e47af"
+  },
+  "votes.xlsx": {
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-summary-and-minutes/mpcvoting.xlsx",
+    "retrieved_on": "2026-10-16",
+    "sha256": "acf5abc4a5ca2b8bec60db0683f6cf2181409d379614178e27ca6d82060ce955"
+  },
+  "rates.html": {
+    "url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp",
+    "retrieved_on": "2026-10-16",
+    "sha256": "3a38ebf2602ba8f964ea2e220423bea3012b2884b390f95f3b2a4d85804e3a6d"
+  },
+  "breeden.html": {
+    "url": "https://www.bankofengland.co.uk/speech/2023/december/sarah-breeden-speech-at-the-iff-talking-policy-series",
+    "retrieved_on": "2026-10-16",
+    "sha256": "c373ff3fb34786d95f7d16590373d9741c6e10588a3497e62e85de3b45cf7e33"
+  },
+  "breeden.pdf": {
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/december/monetary-policy-as-engineering-speech-by-sarah-breeden.pdf",
+    "retrieved_on": "2026-10-16",
+    "sha256": "1e81986227971f12dff667241313dc7b568646d2876ab573ce2311d7cda17f77"
+  },
+  "upcoming.html": {
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london",
+    "retrieved_on": "2026-10-16",
+    "sha256": "9f40606a56e347663e5aeef7f52ac17cb34bf17f4d3f8bc98be80c91d896a7b9"
+  },
+  "bailey.html": {
+    "url": "https://www.bankofengland.co.uk/speech/2026/january/andrew-bailey-meeting-of-the-bellagio-group-2026-at-the-boe",
+    "retrieved_on": "2026-10-16",
+    "sha256": "5efe3bb644f655b28c0dcb7bd3ad7280480e23f3065b127c43017574814d766d"
+  },
+  "haskel_summary.html": {
+    "url": "https://www.bankofengland.co.uk/speech/2021/november/jonathan-haskel-talk-at-the-adam-smith-business-school-high-inflation-now-and-then",
+    "retrieved_on": "2026-10-16",
+    "sha256": "00aaa9e00fb1b9fcbefd003fe6526e8f826a46f281af4513ec1ea172906b67a8"
+  },
+  "haskel_summary.pdf": {
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2021/november/inflation-now-and-then-speech-by-jonathan-haskel.pdf",
+    "retrieved_on": "2026-10-16",
+    "sha256": "8d0b444fb30e0a7c4b4097e7fcd08bbceb8d3b70063b3ad0e941afa1d7486a78"
+  }
+}

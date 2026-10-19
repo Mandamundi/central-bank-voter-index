@@ -1,0 +1,13 @@
+{
+  "https://www.bankofengland.co.uk/speech/2022/february/dave-ramsden-speech-at-the-national-farmers-union-conference-2022": {
+    "text_url": "https://www.bis.org/speeches/20220225-shocks-uncertainty-and-monetary-policy-response.pdf",
+    "reason": "BOE landing page has no download anchor. BIS hosts the original 16-page BOE speech as a scanned PDF. Preserved OCR transcript; machine transcription may contain recognition errors.",
+    "recovered_text": "recovered/ramsden-2022-02-22.txt",
+    "pdf_sha256": "c602c29f201889bf802a61211be1f2b30d8688758fb1b2e63fed7ba334e719a5",
+    "text_sha256": "ad99aa7ec4ab5cee009d3f4e80fb46828a51e34cd2f0342526ccee4a021045e3",
+    "mirror_published_date": "2022-02-25",
+    "recovered_on": "2026-10-16",
+    "method": "pdftoppm 180 dpi; Tesseract English; page order 1-16",
+    "mirror_landing": "https://www.bis.org/review/r220225e.htm"
+  }
+}

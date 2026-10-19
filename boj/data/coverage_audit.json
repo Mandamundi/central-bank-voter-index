@@ -1,0 +1,914 @@
+{
+  "bank": "boj",
+  "current_members": [
+    {
+      "latest_delivery": "2026-09-02",
+      "member": "TAKATA Hajime",
+      "policy_scores": 0,
+      "stored_speeches": 9
+    },
+    {
+      "latest_delivery": "2026-06-25",
+      "member": "TAMURA Naoki",
+      "policy_scores": 0,
+      "stored_speeches": 9
+    },
+    {
+      "latest_delivery": "2026-08-27",
+      "member": "HIMINO Ryozo",
+      "policy_scores": 0,
+      "stored_speeches": 8
+    },
+    {
+      "latest_delivery": "2026-10-05",
+      "member": "UCHIDA Shinichi",
+      "policy_scores": 0,
+      "stored_speeches": 12
+    },
+    {
+      "latest_delivery": "2026-10-16",
+      "member": "UEDA Kazuo",
+      "policy_scores": 0,
+      "stored_speeches": 39
+    },
+    {
+      "latest_delivery": "2026-10-15",
+      "member": "KOEDA Junko",
+      "policy_scores": 0,
+      "stored_speeches": 3
+    },
+    {
+      "latest_delivery": "2026-09-10",
+      "member": "MASU Kazuyuki",
+      "policy_scores": 0,
+      "stored_speeches": 3
+    },
+    {
+      "latest_delivery": null,
+      "member": "ASADA Toichiro",
+      "policy_scores": 0,
+      "stored_speeches": 0
+    },
+    {
+      "latest_delivery": null,
+      "member": "SATO Ayano",
+      "policy_scores": 0,
+      "stored_speeches": 0
+    }
+  ],
+  "discovery_outcomes": {
+    "excluded": 20,
+    "stored": 292
+  },
+  "exclusion_reasons": {
+    "Interview/Q&A/conversation rather than authored prepared text": 1,
+    "Official catalogue labels a nonvoting official": 19
+  },
+  "member_years": [
+    {
+      "member": "IWATA Kikuo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2017
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 10,
+      "year": 2017
+    },
+    {
+      "member": "NAKASO Hiroshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2017
+    },
+    {
+      "member": "HARADA Yutaka",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "FUNO Yukitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2017
+    },
+    {
+      "member": "SAKURAI Makoto",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2017
+    },
+    {
+      "member": "MASAI Takako",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2017
+    },
+    {
+      "member": "KATAOKA Goushi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2017
+    },
+    {
+      "member": "SUZUKI Hitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2017
+    },
+    {
+      "member": "IWATA Kikuo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2018
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 11,
+      "year": 2018
+    },
+    {
+      "member": "NAKASO Hiroshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2018
+    },
+    {
+      "member": "HARADA Yutaka",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2018
+    },
+    {
+      "member": "FUNO Yukitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2018
+    },
+    {
+      "member": "SAKURAI Makoto",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2018
+    },
+    {
+      "member": "MASAI Takako",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "KATAOKA Goushi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "SUZUKI Hitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "AMAMIYA Masayoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2018
+    },
+    {
+      "member": "WAKATABE Masazumi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2018
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 21,
+      "year": 2019
+    },
+    {
+      "member": "HARADA Yutaka",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2019
+    },
+    {
+      "member": "FUNO Yukitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2019
+    },
+    {
+      "member": "SAKURAI Makoto",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2019
+    },
+    {
+      "member": "MASAI Takako",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2019
+    },
+    {
+      "member": "KATAOKA Goushi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2019
+    },
+    {
+      "member": "SUZUKI Hitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2019
+    },
+    {
+      "member": "AMAMIYA Masayoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 8,
+      "year": 2019
+    },
+    {
+      "member": "WAKATABE Masazumi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2019
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 9,
+      "year": 2020
+    },
+    {
+      "member": "HARADA Yutaka",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2020
+    },
+    {
+      "member": "FUNO Yukitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2020
+    },
+    {
+      "member": "SAKURAI Makoto",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "MASAI Takako",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "KATAOKA Goushi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "SUZUKI Hitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "AMAMIYA Masayoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2020
+    },
+    {
+      "member": "WAKATABE Masazumi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2020
+    },
+    {
+      "member": "ADACHI Seiji",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2020
+    },
+    {
+      "member": "NAKAMURA Toyoaki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2020
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 15,
+      "year": 2021
+    },
+    {
+      "member": "SAKURAI Makoto",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2021
+    },
+    {
+      "member": "MASAI Takako",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2021
+    },
+    {
+      "member": "KATAOKA Goushi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2021
+    },
+    {
+      "member": "SUZUKI Hitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2021
+    },
+    {
+      "member": "AMAMIYA Masayoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2021
+    },
+    {
+      "member": "WAKATABE Masazumi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2021
+    },
+    {
+      "member": "ADACHI Seiji",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2021
+    },
+    {
+      "member": "NAKAMURA Toyoaki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2021
+    },
+    {
+      "member": "NOGUCHI Asahi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2021
+    },
+    {
+      "member": "NAKAGAWA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2021
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 12,
+      "year": 2022
+    },
+    {
+      "member": "KATAOKA Goushi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2022
+    },
+    {
+      "member": "SUZUKI Hitoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2022
+    },
+    {
+      "member": "AMAMIYA Masayoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2022
+    },
+    {
+      "member": "WAKATABE Masazumi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2022
+    },
+    {
+      "member": "ADACHI Seiji",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2022
+    },
+    {
+      "member": "NAKAMURA Toyoaki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2022
+    },
+    {
+      "member": "NOGUCHI Asahi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2022
+    },
+    {
+      "member": "NAKAGAWA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2022
+    },
+    {
+      "member": "TAKATA Hajime",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2022
+    },
+    {
+      "member": "TAMURA Naoki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2022
+    },
+    {
+      "member": "KURODA Haruhiko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2023
+    },
+    {
+      "member": "AMAMIYA Masayoshi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2023
+    },
+    {
+      "member": "WAKATABE Masazumi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2023
+    },
+    {
+      "member": "ADACHI Seiji",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "NAKAMURA Toyoaki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "NOGUCHI Asahi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2023
+    },
+    {
+      "member": "NAKAGAWA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "TAKATA Hajime",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "TAMURA Naoki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "HIMINO Ryozo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2023
+    },
+    {
+      "member": "UCHIDA Shinichi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2023
+    },
+    {
+      "member": "UEDA Kazuo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 10,
+      "year": 2023
+    },
+    {
+      "member": "ADACHI Seiji",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "NAKAMURA Toyoaki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "NOGUCHI Asahi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "NAKAGAWA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "TAKATA Hajime",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "TAMURA Naoki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2024
+    },
+    {
+      "member": "HIMINO Ryozo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2024
+    },
+    {
+      "member": "UCHIDA Shinichi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 4,
+      "year": 2024
+    },
+    {
+      "member": "UEDA Kazuo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 14,
+      "year": 2024
+    },
+    {
+      "member": "ADACHI Seiji",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2025
+    },
+    {
+      "member": "NAKAMURA Toyoaki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2025
+    },
+    {
+      "member": "NOGUCHI Asahi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "NAKAGAWA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "TAKATA Hajime",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "TAMURA Naoki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "HIMINO Ryozo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2025
+    },
+    {
+      "member": "UCHIDA Shinichi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 5,
+      "year": 2025
+    },
+    {
+      "member": "UEDA Kazuo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 8,
+      "year": 2025
+    },
+    {
+      "member": "KOEDA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2025
+    },
+    {
+      "member": "MASU Kazuyuki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2025
+    },
+    {
+      "member": "NOGUCHI Asahi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2026
+    },
+    {
+      "member": "NAKAGAWA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2026
+    },
+    {
+      "member": "TAKATA Hajime",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2026
+    },
+    {
+      "member": "TAMURA Naoki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2026
+    },
+    {
+      "member": "HIMINO Ryozo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2026
+    },
+    {
+      "member": "UCHIDA Shinichi",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 1,
+      "year": 2026
+    },
+    {
+      "member": "UEDA Kazuo",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 7,
+      "year": 2026
+    },
+    {
+      "member": "KOEDA Junko",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 2,
+      "year": 2026
+    },
+    {
+      "member": "MASU Kazuyuki",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 3,
+      "year": 2026
+    },
+    {
+      "member": "ASADA Toichiro",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2026
+    },
+    {
+      "member": "SATO Ayano",
+      "policy_relevant": 0,
+      "publication_date_unknown": 0,
+      "scored": 0,
+      "stored": 0,
+      "year": 2026
+    }
+  ],
+  "membership_coverage_start": "2017-07-24",
+  "membership_terms": 24,
+  "stored_speeches": 292,
+  "unresolved": [],
+  "valid_scores": 0
+}

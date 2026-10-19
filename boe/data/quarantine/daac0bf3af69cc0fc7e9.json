@@ -1,0 +1,23 @@
+{
+  "reason": "Duplicate of canonical official document 70cee557188839360bf9",
+  "record": {
+    "availability_basis": "official_publication_date",
+    "available_date": "2021-11-23",
+    "collector_version": "v2",
+    "content_hash": "cb21c78907c51b69aa181b67ba22199faf4c1aebb7ba818fbf64c4be8f085dcf",
+    "date": "2021-11-23",
+    "document_urls": "[\"https://www.bankofengland.co.uk/-/media/boe/files/speech/2021/november/inflation-now-and-then-speech-by-jonathan-haskel.pdf\"]",
+    "format": "prepared_text",
+    "id": "daac0bf3af69cc0fc7e9",
+    "language": "en",
+    "published_date": "2021-11-23",
+    "retrieved_at": "2026-10-16T09:23:37.093081+00:00",
+    "role": "External member",
+    "source": "Bank of England",
+    "speaker": "Jonathan Haskel",
+    "text": "Professor Jonathan Haskel looks at what’s causing inflation in the UK today and in recent decades. He then compares what’s happening now with what happened in the 1970s, when we saw much higher inflation.\nHe argues that because the Bank of England is independent from government, it is better trusted to keep inflation under control. This trust helps to stop inflation becoming a long-term problem.\nHe says the Bank of England is now closely watching things like what’s happening in the UK jobs market and the cost of imported goods.\nHe ends by saying the current very low interest rates are unusual and a response to the Covid pandemic. And he argues a gradual increase in interest rates would be a return to normal, and would show the UK economy is returning to strength.\nInflation now and then\nAccompanying slides",
+    "text_url": "https://www.bankofengland.co.uk/speech/2021/november/jonathan-haskel-talk-at-the-adam-smith-business-school-high-inflation-now-and-then",
+    "title": "Inflation now and then - speech by Jonathan Haskel",
+    "url": "https://www.bankofengland.co.uk/speech/2021/november/jonathan-haskel-talk-at-the-adam-smith-business-school-high-inflation-now-and-then"
+  }
+}

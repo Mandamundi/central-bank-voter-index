@@ -1,0 +1,10 @@
+cache/
+__pycache__/
+.venv/
+venv/
+.env
+.DS_Store
+charts/
+data/runs/
+data/last_run.json
+data/source_health.json

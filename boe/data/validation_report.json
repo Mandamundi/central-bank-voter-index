@@ -1,0 +1,55 @@
+{
+  "checked_on": "2026-10-16",
+  "tests_passed": 42,
+  "dependency_environment": "Independent .venv created using uv sync --locked; no Fed or sibling environment required.",
+  "real_collection_success": true,
+  "integrity_success": true,
+  "membership_audit_success": true,
+  "live_model_calls": 0,
+  "reason_model_not_run": "No independent GEMINI_API_KEY configured.",
+  "current_members_without_prepared_text": [],
+  "installed_project_path": "/Users/jordan/Documents/backend/fed member sentiment/boe",
+  "installed_pipeline_checked_at": "2026-10-16T09:29:30.626146+00:00",
+  "installed_pipeline_stages": [
+    {
+      "command": [
+        "voters.py",
+        "--audit-history"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "update.py",
+        "--full"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "score.py"
+      ],
+      "exit_code": 2
+    },
+    {
+      "command": [
+        "audit.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "coverage.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "build_index.py"
+      ],
+      "exit_code": 2
+    }
+  ],
+  "publication_ready": false,
+  "installed_test_result": "42 passed"
+}

@@ -1,0 +1,23 @@
+{
+  "reason": "Duplicate of canonical official document 84ef338285d66819eda4",
+  "record": {
+    "availability_basis": "official_publication_date",
+    "available_date": "2020-08-28",
+    "collector_version": "v2",
+    "content_hash": "b64c182f28b3f4e91e573e00993228596aad8a26b08ea87ed0b37fae76472112",
+    "date": "2020-08-28",
+    "document_urls": "[\"https://www.bankofengland.co.uk/-/media/boe/files/paper/2020/the-central-bank-balance-sheet-as-a-policy-tool-past-present-and-future.pdf\", \"https://www.bankofengland.co.uk/-/media/boe/files/speech/2020/the-central-bank-balance-sheet-as-a-policy-tool-past-present-and-future-speech-by-andrew-bailey.pdf\"]",
+    "format": "prepared_text",
+    "id": "75d2c1cf8a94e07851f0",
+    "language": "en",
+    "published_date": "2020-08-28",
+    "retrieved_at": "2026-10-16T09:23:39.349989+00:00",
+    "role": "Governor",
+    "source": "Bank of England",
+    "speaker": "Andrew Bailey",
+    "text": "In this speech and associated paper, Andrew Bailey considers the lessons from the past decade – including the response to the disruption caused by Covid-19 – for the use of central banks’ balance sheets as a policy tool. Central banks have used a range of tools, including asset purchases conducted at pace, to respond decisively to the disruption over the past few months – what we call in the paper “go Big” and “go Fast”. By and large these tools worked, helping to avoid a sharp tightening in the costs of borrowing for households and businesses. This experience has reiterated that the effectiveness of our tools depends on the situation in which they are used. To ensure there is scope to respond appropriately when needed in the decade ahead, this may suggest that central bank balance sheets might have a more counter-cyclical role and function than the evidence of the last decade alone would suggest.\nSpeech - The central bank balance sheet as a policy tool: past, present and future\nPaper - The central bank balance sheet as a policy tool: past, present and future\nWatch the session live",
+    "text_url": "https://www.bankofengland.co.uk/speech/2020/andrew-bailey-federal-reserve-bank-of-kansas-citys-economic-policy-symposium-2020",
+    "title": "The central bank balance sheet as a policy tool: past, present and future - speech by Andrew Bailey",
+    "url": "https://www.bankofengland.co.uk/speech/2020/andrew-bailey-federal-reserve-bank-of-kansas-citys-economic-policy-symposium-2020"
+  }
+}

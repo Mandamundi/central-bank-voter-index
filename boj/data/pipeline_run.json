@@ -1,0 +1,44 @@
+{
+  "stages": [
+    {
+      "command": [
+        "voters.py",
+        "--audit-history"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "update.py",
+        "--full"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "score.py"
+      ],
+      "exit_code": 2
+    },
+    {
+      "command": [
+        "audit.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "coverage.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "build_index.py"
+      ],
+      "exit_code": 2
+    }
+  ],
+  "success": false,
+  "updated_at": "2026-10-16T09:28:46.947646+00:00"
+}

@@ -1,9 +1,10 @@
 name: daily-update
 
+# One run a day updates all three indexes. The banks run one after another, each in its own folder
+# with its own uv environment; each commits only its own data/ and output/, so their pushes never conflict.
 on:
   schedule:
     - cron: "0 7 * * *"      # 07:00 UTC daily
-    - cron: "0 5 1 * *"      # 05:00 UTC on the 1st: also harvest FRASER (it adds the previous year each January)
   workflow_dispatch:
 
 permissions:
@@ -14,37 +15,89 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  fed:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    defaults:
+      run:
+        working-directory: fed_speech_index
     steps:
       - uses: actions/checkout@v4
-
       - uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
-
+          cache-dependency-glob: fed_speech_index/uv.lock
       - run: uv sync --locked
-
       - name: Pull new speeches and FOMC voters
         run: uv run update.py
-
-      - name: Harvest FRASER archive (monthly)
-        if: github.event.schedule == '0 5 1 * *' || github.event_name == 'workflow_dispatch'
-        run: uv run fraser.py
-
+      - name: Harvest FRASER archive (1st of the month; FRASER adds the previous year each January)
+        run: |
+          if [ "$(date -u +%d)" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            uv run fraser.py
+          fi
       - name: Score new speeches
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run score.py
-
       - name: Rebuild indexes
         run: uv run build_index.py
-
       - name: Commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data output
-          git diff --cached --quiet || git commit -m "Daily update $(date -u +%Y-%m-%d)"
-          git push
+        run: ../.github/commit.sh fed_speech_index "Daily Fed update"
+
+  boe:
+    needs: fed
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: boe
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: boe/uv.lock
+      - run: uv sync --locked
+      - run: uv run python -m unittest discover -s tests -v
+      - name: Collect, audit, score and publish diagnostics
+        id: pipeline
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run pipeline.py
+      - name: Preserve checkpoints and failure reports
+        if: always() && steps.pipeline.outcome != 'skipped'
+        run: ../.github/commit.sh boe "Daily BOE update"
+      - name: Report incomplete pipeline
+        if: steps.pipeline.outcome == 'failure'
+        run: exit 1
+
+  boj:
+    needs: boe
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: boj
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: boj/uv.lock
+      - run: uv sync --locked
+      - run: uv run python -m unittest discover -s tests -v
+      - name: Collect, audit, score and publish diagnostics
+        id: pipeline
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run pipeline.py
+      - name: Preserve checkpoints and failure reports
+        if: always() && steps.pipeline.outcome != 'skipped'
+        run: ../.github/commit.sh boj "Daily BOJ update"
+      - name: Report incomplete pipeline
+        if: steps.pipeline.outcome == 'failure'
+        run: exit 1

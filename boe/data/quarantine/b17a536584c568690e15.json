@@ -1,0 +1,23 @@
+{
+  "reason": "Duplicate of canonical official document 07e195cfd708abcab844",
+  "record": {
+    "availability_basis": "official_publication_date",
+    "available_date": "2019-03-06",
+    "collector_version": "v2",
+    "content_hash": "3d9be60ed95a9564b4efa96e65106f0eb56ed5ddec2cae3759301f81cf2324d5",
+    "date": "2019-03-06",
+    "document_urls": "[\"https://www.bankofengland.co.uk/-/media/boe/files/speech/2019/pass-through-of-bank-rate-to-household-interest-rates-speech-by-michael-saunders.pdf\"]",
+    "format": "prepared_text",
+    "id": "b17a536584c568690e15",
+    "language": "en",
+    "published_date": "2019-03-06",
+    "retrieved_at": "2026-10-16T09:24:08.545048+00:00",
+    "role": "External member",
+    "source": "Bank of England",
+    "speaker": "Michael Saunders",
+    "text": "In his speech, Michael says the\npass-through\nof\nBank Rate\nto the interest rates facing individual savers and borrowers doesn’t seem to be behaving as usual. He discusses potential reasons for this and offers his thoughts on the implications for monetary policy. He ends by giving his view on the near-term outlook for the economy.\nPass-through of Bank Rate to household interest rates\nPass-through\nis the degree to which retail interest rates - deposit and lending rates - respond to changes in Bank Rate. For further detail see\nBox 2 of the February 2018 Inflation Report\nBank Rate\nis the interest rate we pay to commercial banks that hold money with us. It influences the rates those banks charge people to borrow money or pay on their savings.\nFind out more about Bank Rate.\n\nSign up for email notifications",
+    "text_url": "https://www.bankofengland.co.uk/speech/2019/michael-saunders-speech-at-imperial-college-business-school",
+    "title": "Pass-through of Bank Rate to household interest rates - speech by Michael Saunders",
+    "url": "https://www.bankofengland.co.uk/speech/2019/michael-saunders-speech-at-imperial-college-business-school"
+  }
+}

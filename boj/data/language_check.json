@@ -1,0 +1,149 @@
+{
+  "checked_at": "2026-10-18T17:24:34.267536+00:00",
+  "pairs": 20,
+  "rows": [
+    {
+      "date": "2026-10-05",
+      "en_level": 0,
+      "id": "acbd6eb1222b19971773",
+      "ja_level": 0,
+      "speaker": "UCHIDA Shinichi"
+    },
+    {
+      "date": "2026-09-10",
+      "en_level": 4,
+      "id": "affab38b751aeb7bb2cc",
+      "ja_level": 4,
+      "speaker": "MASU Kazuyuki"
+    },
+    {
+      "date": "2026-09-02",
+      "en_level": 5,
+      "id": "0309bc1a0121191e96fb",
+      "ja_level": 5,
+      "speaker": "TAKATA Hajime"
+    },
+    {
+      "date": "2026-08-27",
+      "en_level": 4,
+      "id": "278f8f5196e70b2eddab",
+      "ja_level": 4,
+      "speaker": "HIMINO Ryozo"
+    },
+    {
+      "date": "2026-06-25",
+      "en_level": 4,
+      "id": "831aea8c3acabd92ac9a",
+      "ja_level": 4,
+      "speaker": "TAMURA Naoki"
+    },
+    {
+      "date": "2026-06-03",
+      "en_level": 4,
+      "id": "345acf1651f552039c89",
+      "ja_level": 4,
+      "speaker": "UEDA Kazuo"
+    },
+    {
+      "date": "2026-05-27",
+      "en_level": 0,
+      "id": "b730568f975ca0e7a364",
+      "ja_level": 0,
+      "speaker": "UEDA Kazuo"
+    },
+    {
+      "date": "2026-05-21",
+      "en_level": 4,
+      "id": "68f221c4ea3785125670",
+      "ja_level": 4,
+      "speaker": "KOEDA Junko"
+    },
+    {
+      "date": "2026-05-16",
+      "en_level": 0,
+      "id": "6cdb3e5144726a8d3024",
+      "ja_level": 0,
+      "speaker": "HIMINO Ryozo"
+    },
+    {
+      "date": "2026-05-14",
+      "en_level": 4,
+      "id": "074a5782ce685c45b13a",
+      "ja_level": 4,
+      "speaker": "MASU Kazuyuki"
+    },
+    {
+      "date": "2026-03-03",
+      "en_level": 0,
+      "id": "bf1d3825c54e02c8a536",
+      "ja_level": 0,
+      "speaker": "UEDA Kazuo"
+    },
+    {
+      "date": "2026-03-02",
+      "en_level": 4,
+      "id": "9be47e404851b9c93d4d",
+      "ja_level": 4,
+      "speaker": "HIMINO Ryozo"
+    },
+    {
+      "date": "2026-02-13",
+      "en_level": 4,
+      "id": "bbfac22942c2fd91913b",
+      "ja_level": 4,
+      "speaker": "TAMURA Naoki"
+    },
+    {
+      "date": "2026-02-06",
+      "en_level": 4,
+      "id": "1d047010e12967fcc37e",
+      "ja_level": 4,
+      "speaker": "MASU Kazuyuki"
+    },
+    {
+      "date": "2025-12-25",
+      "en_level": 4,
+      "id": "ba34446a6952e63bb9e4",
+      "ja_level": 4,
+      "speaker": "UEDA Kazuo"
+    },
+    {
+      "date": "2025-12-01",
+      "en_level": 4,
+      "id": "d3cacf517156d6f986e1",
+      "ja_level": 4,
+      "speaker": "UEDA Kazuo"
+    },
+    {
+      "date": "2025-11-27",
+      "en_level": 4,
+      "id": "507e42839a863b701769",
+      "ja_level": 4,
+      "speaker": "NOGUCHI Asahi"
+    },
+    {
+      "date": "2025-11-20",
+      "en_level": 4,
+      "id": "4806aea6a9259a9ac806",
+      "ja_level": 4,
+      "speaker": "KOEDA Junko"
+    },
+    {
+      "date": "2025-11-10",
+      "en_level": 4,
+      "id": "db9d8832ad23ace4536b",
+      "ja_level": 4,
+      "speaker": "NAKAGAWA Junko"
+    },
+    {
+      "date": "2025-10-20",
+      "en_level": 4,
+      "id": "1a8f725df1abd5acc85c",
+      "ja_level": 4,
+      "speaker": "TAKATA Hajime"
+    }
+  ],
+  "same_level": 20,
+  "scorer_version": "gemini-3.5-flash-lite:v3",
+  "within_one_level": 20
+}

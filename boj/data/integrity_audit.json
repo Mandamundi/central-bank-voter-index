@@ -1,0 +1,18 @@
+{
+  "bank": "boj",
+  "checked_at": "2026-10-16T09:28:46.444861+00:00",
+  "corpus_hash": "1915c245b7e4333a4aad98fad8314badc70ef1a193713e495e6a82829c09648e",
+  "earliest_delivery": "2017-07-26",
+  "formats": {
+    "prepared_text": 292
+  },
+  "issues": [],
+  "languages": {
+    "en": 5,
+    "ja": 287
+  },
+  "latest_delivery": "2026-10-16",
+  "maximum_text_chars": 26322,
+  "stored_speeches": 292,
+  "success": true
+}

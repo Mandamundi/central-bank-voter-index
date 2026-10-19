@@ -1,0 +1,52 @@
+{
+  "catalogue.html": {
+    "url": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "8ce2ca680bce390a3bdfbf441c8c21238045e26defb2ceb4514d4dc33b0997d1"
+  },
+  "members.html": {
+    "url": "https://www.boj.or.jp/en/about/organization/policyboard/index.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "261eec2141969ef25b3dd80543a774592fd9a721ffffbc0761d1b0089a508f17"
+  },
+  "koeda.html": {
+    "url": "https://www.boj.or.jp/about/press/koen_2026/ko261015a.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "9c7b95da74bae03a83cf71d5004952300cb59c94ae5785d6a1b05e57e3f1fcd2"
+  },
+  "koeda.pdf": {
+    "url": "https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf",
+    "retrieved_on": "2026-10-16",
+    "sha256": "1dd2131dcd5ef35c6cf735505b125fce667d716a33ebc1088e9c9228e9f03614"
+  },
+  "translated.html": {
+    "url": "https://www.boj.or.jp/about/press/koen_2019/ko191004a.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "e68f3b410536016af7c1acb23071ef49c401f6c0ee1d5e93c95ecb5bc6c81c6b"
+  },
+  "english_only.html": {
+    "url": "https://www.boj.or.jp/about/press/koen_2020/ko201106a.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "54ab06d5e89bcecbb1ad19686ddbfbb2dcd845e0ff2bbc33826e42b6a6ab1edc"
+  },
+  "appointment.html": {
+    "url": "https://www.boj.or.jp/about/organization/policyboard/rel220725a.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "b7b0fbf7aa6d5c530b792636b1f065c2f83801ece80a4881096413058b8119ab"
+  },
+  "minutes.pdf": {
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2017/g170921.pdf",
+    "retrieved_on": "2026-10-16",
+    "sha256": "4d654a28e0fda37b968641e8928ec149506220c8d17eed9246db13785a63decd"
+  },
+  "states.html": {
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/state_2026/index.htm",
+    "retrieved_on": "2026-10-16",
+    "sha256": "5dbeceffcec65b427ff1eb72520f64c291c3d78c61c0321e18a10aa6ce41d8f2"
+  },
+  "negative_rate.pdf": {
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2016/k160129a.pdf",
+    "retrieved_on": "2026-10-16",
+    "sha256": "604f4b9bb33f131864eb3f83dccb47bb15b3b9747e777b4c45caa19315500e90"
+  }
+}
