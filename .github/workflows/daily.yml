@@ -37,7 +37,7 @@ jobs:
           fi
       - name: Score new speeches
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: uv run score.py
       - name: Rebuild indexes
         run: uv run build_index.py
@@ -64,7 +64,7 @@ jobs:
         id: pipeline
         continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: uv run pipeline.py
       - name: Preserve checkpoints and failure reports
         if: always() && steps.pipeline.outcome != 'skipped'
@@ -93,7 +93,7 @@ jobs:
         id: pipeline
         continue-on-error: true
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: uv run pipeline.py
       - name: Preserve checkpoints and failure reports
         if: always() && steps.pipeline.outcome != 'skipped'

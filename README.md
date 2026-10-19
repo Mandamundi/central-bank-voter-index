@@ -59,8 +59,27 @@ Fed, then the BOE, then the BOJ, each in its own job, and each job commits only 
 `data/` and `output/` (`.github/commit.sh`). A failure in one bank does not stop the others. The
 Fed job also harvests FRASER on the 1st of each month.
 
-Repository secret: `GEMINI_API_KEY`.
+Repository secret: `OPENAI_API_KEY`.
 
 ## Scoring a backlog locally
-Score locally first, commit `data/` and push. The daily job then only scores new texts.
-Each project's `.env` (git-ignored) holds the API key for local runs.
+Put the OpenAI key in a `.env` file in this root folder (git-ignored; a project's own `.env` takes
+precedence if it has one):
+```
+OPENAI_API_KEY=your-key-here
+```
+Then, for each bank, from its folder:
+```bash
+cd fed_speech_index                # or boe, or boj
+uv sync
+uv run score.py --limit 5          # a few speeches scored right away; check data/scores.jsonl
+uv run score.py --batch            # submit the backlog to the Batch API
+uv run score.py --batch            # rerun every few hours: collects finished batches, submits the rest
+uv run build_index.py              # once it says "Nothing left to score"
+```
+Batch mode costs half as much and returns results within 24 hours. Batches are recorded in each
+project's `data/batches.json`, so stopping or closing the terminal loses nothing. The three banks can
+be submitted at the same time. The Fed backlog is larger than one batch queue allows, so it goes up in
+rounds: each rerun submits more once earlier batches finish.
+
+When all three are done, commit `data/` and `output/` and push. The daily job then scores only new
+texts, one request at a time.

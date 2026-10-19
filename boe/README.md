@@ -1,7 +1,7 @@
 # BOE speech hawk/dove index
 
 Daily hawkish/dovish index of the Bank of England Monetary Policy Committee's members, built from
-their speeches. Each speech is scored by Gemini on the same absolute 7-level easy↔tight scale as the
+their speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 7-level easy↔tight scale as the
 Fed index (see `rubric.py`).
 
 The scale and prompt core in `rubric.py` are shared word for word with the Fed and BOJ projects, so
@@ -45,15 +45,15 @@ speech with a broken download (Ramsden, 22 February 2022) is recovered from the 
 | `status.json` | Warnings: roster or collection checks not passed today, scoring backlog, missing voters |
 
 ## Setup (local)
-Uses [uv](https://docs.astral.sh/uv/). Put your Gemini key in `.env` (git-ignored):
+Uses [uv](https://docs.astral.sh/uv/). Put your OpenAI key in `.env` (git-ignored):
 ```
-GEMINI_API_KEY=your-key-here
+OPENAI_API_KEY=your-key-here
 ```
 ```bash
 uv sync
 uv run backfill.py              # voters check, Bank Rate, all speeches since 2017-09-04
 uv run score.py --limit 5       # check a few results in data/scores.jsonl first
-uv run score.py                 # rerun daily until nothing is left to score
+uv run score.py --batch         # backfill via the Batch API; rerun until "Nothing left to score"
 uv run build_index.py           # -> output/*.csv
 uv run chart.py                 # -> charts/chart.png, charts/chart.html
 ```
@@ -62,7 +62,7 @@ Checks: `uv run coverage.py` (speeches per voter per year), `uv run audit.py` (s
 
 ## Automatic updates (GitHub Action)
 The repository's `.github/workflows/daily.yml` (at the root, shared by all three banks) runs the tests and `pipeline.py` daily (a full sitemap recheck on
-Sundays), then commits `data/` and `output/`. Add `GEMINI_API_KEY` as a repository secret.
+Sundays), then commits `data/` and `output/`. Add `OPENAI_API_KEY` as a repository secret.
 
 ## Files
 - `config.py`: model, paths, collection settings

@@ -11,15 +11,17 @@ VOTERS = DATA / "voters.csv"            # FOMC voters by date (see voters.py)
 FED_FUNDS = DATA / "fed_funds.csv"      # FOMC target rate/range history
 OUTPUT = ROOT / "output"
 
-# Scoring model. Changing MODEL or rubric.VERSION (or SEED/THINKING_LEVEL, then bump rubric.VERSION) starts a new score vintage:
-# score.py will re-score everything under the new SCORER_VERSION.
-MODEL = "gemini-3.5-flash-lite"
+# Scoring model. Changing MODEL or rubric.VERSION (or REASONING_EFFORT, then bump rubric.VERSION) starts a new score vintage:
+# score.py will re-score everything under the new SCORER_VERSION. Use the same settings in all three projects.
+MODEL = "gpt-6-luna"
 PROMPT_VERSION = rubric.VERSION          # shared with the BOJ and BOE projects
 SCORER_VERSION = f"{MODEL}:{PROMPT_VERSION}"
-SEED = 20260922                        # fixed decoding seed
-THINKING_LEVEL = "medium"               # minimal | low | medium | high
-REQUESTS_PER_MINUTE = 14               # free tier allows 15; requests run in parallel
-MAX_IN_FLIGHT = 25                      # cap on waiting requests (each takes ~30-90s); pacing sets the rate
+REASONING_EFFORT = "medium"             # none | low | medium | high | xhigh | max (Luna's default is medium)
+MAX_OUTPUT_TOKENS = 16000               # reasoning plus the JSON answer; a guard, far above normal use
+REQUESTS_PER_MINUTE = 200               # direct mode; well inside the paid-tier limits
+MAX_IN_FLIGHT = 50                      # cap on waiting requests in direct mode
+BATCH_QUEUE_TOKENS = 15_000_000         # input tokens queued at once in batch mode (the lowest tier allows 20M)
+BATCH_MAX_REQUESTS = 50_000             # Batch API limit per batch
 
 # Index
 START_DATE = None                       # first output date (ISO); None = first day any voter has a score

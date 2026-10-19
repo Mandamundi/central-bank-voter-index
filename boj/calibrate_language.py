@@ -2,7 +2,7 @@
 
 Scores recent Japanese speeches twice, once from the Japanese original and once from the Bank's own
 English version, and reports how often the levels agree. Results go to data/language_check.json;
-nothing is added to data/scores.jsonl. Uses 2 x --limit Gemini requests.
+nothing is added to data/scores.jsonl. Uses 2 x --limit OpenAI requests.
 
     python calibrate_language.py --limit 20
 """
@@ -44,9 +44,10 @@ def main() -> int:
     parser.add_argument('--limit', type=int, default=20)
     args = parser.parse_args()
     load_dotenv(config.ROOT / '.env')
-    key = os.environ.get('GEMINI_API_KEY')
+    load_dotenv(config.ROOT.parent / '.env')
+    key = os.environ.get('OPENAI_API_KEY')
     if not key:
-        sys.exit('GEMINI_API_KEY is not set.')
+        sys.exit('OPENAI_API_KEY is not set.')
     http_get.begin_source(config.BANK)
     speeches = sorted((s for s in store.load_speeches() if s['language'] == 'ja'),
                       key=lambda s: (s['date'], s['id']), reverse=True)

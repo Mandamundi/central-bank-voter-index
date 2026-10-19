@@ -1,7 +1,7 @@
 [project]
 name = "fed-speech-index"
 version = "0.1.0"
-description = "Daily hawkish/dovish index of FOMC voters from their speeches, scored with Gemini"
+description = "Daily hawkish/dovish index of FOMC voters from their speeches, scored with OpenAI gpt-6-luna"
 requires-python = ">=3.12"
 dependencies = [
     "requests>=2.31",

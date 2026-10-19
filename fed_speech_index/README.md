@@ -1,7 +1,7 @@
 # Fed speech hawk/dove index
 
 Daily hawkish/dovish index of the FOMC's voting members, built from their speeches. Each speech
-is scored by Gemini on an absolute 7-level easy↔tight scale (see `rubric.py`).
+is scored by OpenAI's `gpt-6-luna` on an absolute 7-level easy↔tight scale (see `rubric.py`).
 
 The scale and prompt core in `rubric.py` are shared word for word with the BOJ and BOE projects, so
 the three indexes are scored with the same instrument; each bank's `prompt.py` only fills in its names
@@ -47,15 +47,15 @@ Each file has two columns, `date` and `index`, with one row per calendar day.
 
 ## One-time setup (local)
 Uses [uv](https://docs.astral.sh/uv/). `uv sync` installs Python 3.12 and the locked dependencies into `.venv`.
-Put your Gemini key in `.env`, which is git-ignored:
+Put your OpenAI key in `.env`, which is git-ignored:
 ```
-GEMINI_API_KEY=your-key-here
+OPENAI_API_KEY=your-key-here
 ```
 ```bash
 uv sync
 uv run backfill.py                      # voters, FRASER archive, then bank sites (resumable)
 uv run score.py --limit 5               # check a few results in data/scores.jsonl first
-uv run score.py                         # rerun daily until "0 speeches to score"
+uv run score.py --batch                 # backfill via the Batch API; rerun until "Nothing left to score"
 uv run coverage.py                      # speeches per voter per year; pick config.START_DATE
 uv run build_index.py                   # -> output/*.csv
 uv run chart.py                         # -> charts/chart.png, charts/chart.html (progress view)
@@ -65,7 +65,7 @@ Commit `data/` and `output/` when you're done.
 ## Automatic updates (GitHub Action)
 The repository's `.github/workflows/daily.yml` (at the root, shared by all three banks) runs daily: `update.py` (new voters and speeches) → `score.py` →
 `build_index.py`, then commits the results. On the 1st of each month it also runs `fraser.py`,
-which picks up FRASER's yearly load. Add `GEMINI_API_KEY` as a repository secret.
+which picks up FRASER's yearly load. Add `OPENAI_API_KEY` as a repository secret.
 
 ## Files
 - `config.py`: model, prompt version, start date, paths

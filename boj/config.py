@@ -23,13 +23,17 @@ BACKFILL_START = None
 STALE_STANCE_WARNING_DAYS = 180
 RECHECK_DAYS = 7
 
-MODEL = 'gemini-3.5-flash-lite'
+# Same scoring settings as the Fed project. Changing MODEL or rubric.VERSION (or REASONING_EFFORT,
+# then bump rubric.VERSION) starts a new score vintage.
+MODEL = 'gpt-6-luna'
 PROMPT_VERSION = rubric.VERSION        # shared with the Fed and sibling projects
 SCORER_VERSION = f'{MODEL}:{PROMPT_VERSION}'
-SEED = 20260922                        # same decoding seed as the Fed project
-THINKING_LEVEL = 'medium'
-REQUESTS_PER_MINUTE = 14
-MAX_IN_FLIGHT = 25
+REASONING_EFFORT = 'medium'            # none | low | medium | high | xhigh | max (Luna's default is medium)
+MAX_OUTPUT_TOKENS = 16000              # reasoning plus the JSON answer; a guard, far above normal use
+REQUESTS_PER_MINUTE = 200              # direct mode
+MAX_IN_FLIGHT = 50
+BATCH_QUEUE_TOKENS = 15_000_000        # input tokens queued at once in batch mode (the lowest tier allows 20M)
+BATCH_MAX_REQUESTS = 50_000            # Batch API limit per batch
 
 REQUEST_PAUSE = 0.5
 HTTP_CONNECT_TIMEOUT = 8

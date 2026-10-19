@@ -136,10 +136,11 @@ class ScoringTests(unittest.TestCase):
         payload=dict(policy_relevant=True,level=5,evidence=['Actual prepared words.','another invention'],
                      rationale='A restrictive hold with no clear next move preference.')
         from types import SimpleNamespace
-        response=SimpleNamespace(status_code=200,json=lambda:{'outputs':[{'type':'text','text':json.dumps(payload)}]})
+        response=SimpleNamespace(status_code=200,json=lambda:{'status':'completed','output':[{'type':'message',
+                                 'content':[{'type':'output_text','text':json.dumps(payload)}]}]})
         s={'speaker':'Person','role':'Voter','date':'2020-01-01','title':'Policy','text':'Actual prepared words.'}
-        with patch('score.requests.post',return_value=response):
-            result=score.call_gemini('dummy',s,'unknown')
+        with patch('openai_api.requests.post',return_value=response):
+            result=score.call_openai('dummy',s,'unknown')
         self.assertEqual(result.level,5)
         self.assertEqual(score.verify_quotes(result.evidence,s['text']),[True,False])
 
