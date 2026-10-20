@@ -28,7 +28,8 @@ class RequestTests(unittest.TestCase):
         self.assertFalse(schema['additionalProperties'])
         self.assertEqual(schema['required'], ['policy_relevant', 'level', 'evidence', 'rationale'])
         self.assertNotIn('title', json.dumps(schema))
-        self.assertEqual((schema['properties']['level']['minimum'], schema['properties']['level']['maximum']), (0, 7))
+        level = schema['properties']['level']['anyOf']
+        self.assertEqual((level[0]['minimum'], level[0]['maximum'], level[1]['type']), (0, 10, 'null'))
 
     def test_body(self):
         body = openai_api.request_body('m', 'medium', 100, 'SYSTEM', 'USER', prompt.SpeechScore.model_json_schema())

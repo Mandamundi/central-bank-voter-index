@@ -16,17 +16,37 @@ policy-decision sentiment index, and this one is its forward-looking companion.
 ## Method (the same for all three)
 - **Texts:** each voter's own prepared words (speeches, plus essays, statements and testimony where
   the bank publishes them). Interviews, Q&As, press conferences and slides are skipped.
-- **Score:** each text gets one level on an absolute 7-level easy↔tight scale (0 = emergency easing,
-  100 = aggressive tightening). Texts that say nothing about monetary policy are marked not relevant
-  and ignored.
+- **Score:** each text answers one question: how tight is the policy the speaker wants over the near
+  term (the next few meetings, roughly six months)? That is the current setting plus the moves they
+  support or lean toward. The answer is one of 11 levels on an absolute scale, 0 to 100 in steps of 10:
+
+  | Today's setting / speaker wants | Easing now | Leans to ease | Hold | Leans to tighten | Tightening now |
+  |---|---|---|---|---|---|
+  | At the floor (zero or negative, purchases) | 10 | 10 | 20 | 30 | 40 |
+  | Accommodative | 20 | 20 | 30 | 40 | 40 |
+  | Near neutral | 40 | 40 | 50 | 60 | 70 |
+  | Restrictive | 50 | 60 | 70 | 80 | 90 |
+
+  Crisis easing from any setting is 0; outsized or urgent tightening is 100; rapid hikes from low
+  levels toward a restrictive rate are 90. Every level is tighter than the one before, so a speaker who
+  wants a move never scores below one who only leans toward it, and extreme periods (2020's emergency
+  easing, 2022's outsized hikes) stand apart from ordinary ones. Standard wording ("data dependent",
+  "will act as appropriate") is not a lean; a conditional statement is a lean, not a move; wanting a
+  faster pace counts one level further. Texts that say nothing about monetary policy, or only repeat
+  the latest decision, are marked not relevant and ignored. The full rules are in `rubric.py`.
 - **Stance:** a voter's stance on a day is the score of their latest relevant text up to that day.
-  Several texts on the same day are averaged.
-- **Index:** the equal-weight mean of the current voters' stances. **Disagreement:** their standard
-  deviation. Voters with no scored text yet are left out.
+  Several texts on the same day are averaged. A stance carries forward unchanged until the voter next
+  speaks, however long that is: a changed view moves the index the day it is expressed. It is never
+  adjusted for policy decisions made since.
+- **Index:** the equal-weight mean of the current voters' stances; the Chair counts like everyone
+  else. **Disagreement:** their standard deviation. Each series starts on the first day every voter
+  has a scored text; after that, a new voter is left out until their first relevant text. Changes in
+  the committee (appointments, the Fed's yearly rotation) move the index too, since the voters
+  changed.
 
 Each bank's `output/` has the two daily series (`*_speech_index.csv`, `*_speech_disagreement.csv`)
 and `*_member_scores.csv`, which gives each voter's score per day for member pages.
-`data/scores.jsonl` holds each text's level, verbatim evidence quotes and a one- or two-sentence rationale
+`data/scores.jsonl` holds each text's level (0-10; ×10 for the 0-100 value), verbatim evidence quotes and a one- or two-sentence rationale
 (what the speaker said about the policy outlook and why that is the level), for dashboard summaries.
 
 ## Shared scoring rubric

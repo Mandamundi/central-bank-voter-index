@@ -84,7 +84,7 @@ def score_record(speech: dict, result: prompt.SpeechScore) -> dict:
         "id": speech["id"],
         "scorer_version": config.SCORER_VERSION,
         "policy_relevant": result.policy_relevant,
-        "level": result.level if result.policy_relevant else None,   # 0 from the model -> None
+        "level": result.level if result.policy_relevant else None,   # null when not relevant
         "evidence": result.evidence,
         "evidence_verified": verify_quotes(result.evidence, speech["text"]),
         "rationale": result.rationale,

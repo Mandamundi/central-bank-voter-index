@@ -1,13 +1,13 @@
 # Fed speech hawk/dove index
 
 Daily hawkish/dovish index of the FOMC's voting members, built from their speeches. Each speech
-is scored by OpenAI's `gpt-6-luna` on an absolute 7-level easy↔tight scale (see `rubric.py`).
+is scored by OpenAI's `gpt-6-luna` on an absolute 11-level easy↔tight scale (see `rubric.py` and the
+repository README).
 
 The scale and prompt core in `rubric.py` are shared word for word with the BOJ and BOE projects, so
 the three indexes are scored with the same instrument; each bank's `prompt.py` only fills in its names
-(and, for BOJ and BOE, adds a short appendix of undated facts about the bank). The current version is v4: the v3
-prompt, with the `rationale` field asked to say what the speaker said about the policy outlook and why that is the level
-(it doubles as the speech summary). `tests/test_prompt.py` pins the rendered prompt.
+(and, for BOJ and BOE, adds a short appendix of undated facts about the bank). The current version is v5.
+`tests/test_prompt.py` pins the rendered prompt.
 
 ## How the index is built
 - **Voters on each date** come from the vote lines in each FOMC meeting's minutes (1996 on) and
@@ -16,7 +16,8 @@ prompt, with the `rationale` field asked to say what the speaker said about the 
   that meeting. No member list is kept by hand. See `voters.py`.
 - **Each voter's stance** is the score of their most recent policy-relevant text on or before that
   date (several on the same day are averaged). Every voter counts equally, however often they
-  speak. Voters with no scored text yet are left out.
+  speak. The index starts on the first day every voter has a scored text; after that, voters with no
+  scored text yet are left out.
 - **What counts as text**: the member's own prepared words: speeches, signed essays, statements
   (including dissent statements) and testimony. Interviews, Q&As, conversations, podcasts and
   video-only pages are skipped. The scorer marks texts that say nothing about monetary policy as

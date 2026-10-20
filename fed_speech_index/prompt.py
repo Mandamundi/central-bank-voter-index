@@ -1,6 +1,6 @@
 """Fed wording for the shared rubric (rubric.py). The Fed needs no appendix.
 
-The Fed's system and user prompts are the original v3 prompts, byte for byte (tests/test_prompt.py checks them).
+tests/test_prompt.py pins the rendered prompt.
 Changing anything here that affects scores requires bumping rubric.VERSION.
 """
 from __future__ import annotations

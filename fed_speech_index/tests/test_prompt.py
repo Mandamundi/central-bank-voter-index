@@ -1,4 +1,4 @@
-"""The Fed's prompt, built from the shared rubric. v4 keeps the v3 system and user prompts; only the rationale field's description changed."""
+"""The Fed's prompt, built from the shared rubric: system prompt and response schema pinned at v5; the user prompt is unchanged since v3."""
 import json
 from pathlib import Path
 import unittest
@@ -11,12 +11,14 @@ SPEECH = {'speaker': 'Jerome H. Powell', 'role': 'Chair', 'date': '2025-10-14', 
 
 
 class FedPromptTests(unittest.TestCase):
-    def test_system_prompt_is_unchanged_since_v3(self):
-        self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v3_system.txt').read_text(encoding='utf-8'))
+    def test_system_prompt_is_pinned_v5(self):
+        self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v5_system.txt').read_text(encoding='utf-8'))
 
-    def test_response_schema_is_pinned_v4_and_user_prompt_unchanged_since_v3(self):
+    def test_response_schema_is_pinned_v5(self):
         schema = json.dumps(prompt.SpeechScore.model_json_schema(), sort_keys=True, indent=1)
-        self.assertEqual(schema, (FIXTURES / 'prompt_v4_schema.json').read_text(encoding='utf-8'))
+        self.assertEqual(schema, (FIXTURES / 'prompt_v5_schema.json').read_text(encoding='utf-8'))
+
+    def test_user_prompt_unchanged_since_v3(self):
         self.assertEqual(prompt.user_prompt(SPEECH, '4-4.25'), (FIXTURES / 'prompt_v3_user_range.txt').read_text(encoding='utf-8'))
         self.assertEqual(prompt.user_prompt(dict(SPEECH, text='Body.'), '5.25'),
                          (FIXTURES / 'prompt_v3_user_rate.txt').read_text(encoding='utf-8'))

@@ -23,7 +23,7 @@ def terms():
     return [{'start_date':'2020-01-01','end_date':'','name':name,'role':'Voter','source':'official fixture','aliases':''} for name in NAMES]
 
 
-def speech(name,day,level=4,available=None,identifier=None):
+def speech(name,day,level=5,available=None,identifier=None):
     return {'id':identifier or name,'date':day,'available_date':available or day,'key':voters.raw_key(name),
             'level':level,'value':prompt.level_to_value(level),'availability_basis':'fixture'}
 
@@ -60,24 +60,36 @@ class RosterAndIndexTests(unittest.TestCase):
             voters.Roster(terms()+[dict(terms()[0],name='New Arrival')])
 
     def test_full_roster_mean_gives_each_member_one_weight(self):
-        rows=[speech(n,'2020-01-01',7 if i==0 else 1) for i,n in enumerate(NAMES)]
-        rows.append(speech(NAMES[0],'2020-01-01',7,identifier='second-speech'))
+        rows=[speech(n,'2020-01-01',10 if i==0 else 0) for i,n in enumerate(NAMES)]
+        rows.append(speech(NAMES[0],'2020-01-01',10,identifier='second-speech'))
         with patch.object(config,'START_DATE',None):
             daily,members=build_index.build_daily(rows,voters.Roster(terms()),dt.date(2020,1,1))
         self.assertAlmostEqual(daily[0]['index'],100/9)
         self.assertEqual(len(members),9)
 
-    def test_voter_without_a_stance_is_left_out_and_listed(self):
-        rows=[speech(n,'2020-01-01') for n in NAMES[:-2]]+[speech(NAMES[-2],'2020-01-01',7)]
-        daily,members=build_index.build_daily(rows,voters.Roster(terms()),dt.date(2020,1,1))
-        self.assertAlmostEqual(daily[0]['index'],(7*50+100)/8)
-        self.assertEqual(daily[0]['scored_voters'],8)
-        self.assertEqual(daily[0]['missing_members'],NAMES[-1])
+    def test_index_starts_on_the_first_day_every_voter_has_a_stance(self):
+        rows=[speech(n,'2020-01-01') for n in NAMES[:-1]]+[speech(NAMES[-1],'2020-01-03',10)]
+        with patch.object(config,'START_DATE',None):
+            daily,members=build_index.build_daily(rows,voters.Roster(terms()),dt.date(2020,1,4))
+        self.assertEqual([r['date'] for r in daily],['2020-01-03','2020-01-04'])
+        self.assertAlmostEqual(daily[0]['index'],(8*50+100)/9)
+        self.assertEqual(members[0]['date'],'2020-01-03')
+
+    def test_after_the_start_a_new_voter_without_a_stance_is_left_out_and_listed(self):
+        rows=terms();rows[-1]['end_date']='2020-01-01'
+        rows.append(dict(rows[-1],start_date='2020-01-02',end_date='',name='New Arrival'))
+        speeches=[speech(n,'2020-01-01') for n in NAMES[:-2]]+[speech(NAMES[-2],'2020-01-01',10),speech(NAMES[-1],'2020-01-01',0)]
+        with patch.object(config,'START_DATE',None):
+            daily,members=build_index.build_daily(speeches,voters.Roster(rows),dt.date(2020,1,2))
+        self.assertEqual(daily[0]['index'],(7*50+100+0)/9)
+        self.assertAlmostEqual(daily[1]['index'],(7*50+100)/8)
+        self.assertEqual(daily[1]['scored_voters'],8)
+        self.assertEqual(daily[1]['missing_members'],'New Arrival')
         self.assertEqual(members[-1]['score'],'')
 
-    def test_no_stance_at_all_gives_no_index_row(self):
+    def test_no_stance_at_all_gives_no_index_rows(self):
         daily,_=build_index.build_daily([],voters.Roster(terms()),dt.date(2020,1,1))
-        self.assertEqual(daily[0]['index'],'')
+        self.assertEqual(daily,[])
 
     def test_warnings_never_blank_todays_index(self):
         today=dt.datetime.now(build_index.ZoneInfo(config.BANK_TIMEZONE)).date().isoformat()
@@ -98,8 +110,8 @@ class RosterAndIndexTests(unittest.TestCase):
         self.assertEqual(stances.latest(voters.raw_key(NAMES[0]),'2020-01-05'),50)
 
     def test_late_old_speech_cannot_replace_newer_delivered_stance(self):
-        stances=build_index.Stances([speech(NAMES[0],'2020-01-01',1,'2020-01-05','old'),
-                                    speech(NAMES[0],'2020-01-03',7,'2020-01-03','new')])
+        stances=build_index.Stances([speech(NAMES[0],'2020-01-01',0,'2020-01-05','old'),
+                                    speech(NAMES[0],'2020-01-03',10,'2020-01-03','new')])
         self.assertEqual(stances.latest(voters.raw_key(NAMES[0]),'2020-01-06'),100)
 
     def test_reappointment_after_gap_cannot_inherit_old_stance(self):
@@ -107,14 +119,14 @@ class RosterAndIndexTests(unittest.TestCase):
         self.assertIsNone(stances.latest_speech(voters.raw_key(NAMES[0]),'2020-02-02','2020-02-01'))
 
     def test_same_day_documents_are_averaged_not_arbitrary_url_order(self):
-        stances=build_index.Stances([speech(NAMES[0],'2020-01-01',1,identifier='z'),
-                                    speech(NAMES[0],'2020-01-01',7,identifier='a')])
+        stances=build_index.Stances([speech(NAMES[0],'2020-01-01',0,identifier='z'),
+                                    speech(NAMES[0],'2020-01-01',10,identifier='a')])
         self.assertEqual(stances.latest(voters.raw_key(NAMES[0]),'2020-01-01'),50)
 
 
 class ScoringTests(unittest.TestCase):
     def test_scale(self):
-        self.assertEqual([prompt.level_to_value(i) for i in range(1,8)],[0,100/6,200/6,50,400/6,500/6,100])
+        self.assertEqual([prompt.level_to_value(i) for i in range(0,11)],[10.0*i for i in range(11)])
 
     def test_quote_fabrication_rejected(self):
         self.assertEqual(score.verify_quotes(['We will hold.','We will cut.'],'We will hold.'),[True,False])

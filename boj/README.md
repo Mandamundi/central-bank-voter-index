@@ -1,12 +1,12 @@
 # BOJ speech hawk/dove index
 
 Daily hawkish/dovish index of the Bank of Japan Policy Board's voting members, built from their
-speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 7-level easy↔tight scale as the Fed
+speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 11-level easy↔tight scale as the Fed
 index (see `rubric.py`).
 
 The scale and prompt core in `rubric.py` are shared word for word with the Fed and BOE projects, so
 the three indexes are comparable. `prompt.py` fills in the Bank of Japan's names and adds a short
-appendix of facts: who votes, how the Bank's speeches are written, its policy instruments and the
+appendix of facts: who votes, its policy instruments and the
 original-language quoting rule. The appendix never says which level to give.
 
 ## How the index is built
@@ -17,8 +17,9 @@ original-language quoting rule. The appendix never says which level to give.
   A difference writes `data/pending_roster.json`: check the effective dates in the official notices,
   add the term to `data/voters.csv` and rerun the audit.
 - **Each voter's stance** is the score of their most recent policy-relevant speech available on or
-  before that date (several on the same day are averaged). Every voter counts equally. Voters with no
-  scored speech yet are left out and listed in `output/boj_coverage.csv`. A speech published late
+  before that date (several on the same day are averaged). Every voter counts equally. The index starts
+  on the first day every voter has a scored speech; after that, voters with no scored speech yet are
+  left out and listed in `output/boj_coverage.csv`. A speech published late
   cannot replace a newer stance, and a new term does not inherit a previous term's stance.
 - **What counts as text**: the member's own prepared words, speeches and essays. Press conferences,
   interviews, Q&As, slides and appendices are skipped. Policy statements and minutes are not used as

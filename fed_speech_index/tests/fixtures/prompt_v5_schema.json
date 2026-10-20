@@ -9,19 +9,26 @@
    "type": "array"
   },
   "level": {
-   "description": "1-7 on the absolute scale; 0 if policy_relevant is false.",
-   "maximum": 7,
-   "minimum": 0,
-   "title": "Level",
-   "type": "integer"
+   "anyOf": [
+    {
+     "maximum": 10,
+     "minimum": 0,
+     "type": "integer"
+    },
+    {
+     "type": "null"
+    }
+   ],
+   "description": "0-10 on the absolute scale; null if policy_relevant is false.",
+   "title": "Level"
   },
   "policy_relevant": {
-   "description": "True if the speech reveals the speaker's view on the stance of U.S. monetary policy.",
+   "description": "True if the speech reveals the speaker's own view on the stance of U.S. monetary policy.",
    "title": "Policy Relevant",
    "type": "boolean"
   },
   "rationale": {
-   "description": "One or two sentences explaining the level.",
+   "description": "One or two sentences in English: what the speaker says about the policy outlook and why that is this level. If not relevant, what the speech is about.",
    "title": "Rationale",
    "type": "string"
   }

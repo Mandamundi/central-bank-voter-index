@@ -7,7 +7,7 @@ import config
 import rubric
 
 # After editing rubric.py: copy it to all three projects, update this checksum in all three, bump rubric.VERSION.
-RUBRIC_SHA256 = '1aa5965570ddfa8da4f316618ca7daa7388fa40f2190255f14c43ef362ffed4b'
+RUBRIC_SHA256 = '1e2061424c869deb22efda1bbddfc6c205d3c994c5fbbe4fcb49709b991d71ca'
 
 
 class SharedRubricTests(unittest.TestCase):
@@ -20,7 +20,7 @@ class SharedRubricTests(unittest.TestCase):
         self.assertEqual(config.SCORER_VERSION, f'{config.MODEL}:{rubric.VERSION}')
 
     def test_scale(self):
-        self.assertEqual([rubric.level_to_value(i) for i in range(1, 8)], [0, 100 / 6, 200 / 6, 50, 400 / 6, 500 / 6, 100])
+        self.assertEqual([rubric.level_to_value(i) for i in range(0, 11)], [10.0 * i for i in range(11)])
 
 
 if __name__ == '__main__':

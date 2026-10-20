@@ -3,7 +3,8 @@
 On each day: take the FOMC voters on that day (data/voters.csv), give each voter the score of their
 most recent policy-relevant speech delivered on or before that day (several on that same day are
 averaged), and average those scores
-with equal weight per voter. Voters with no scored speech yet are left out. Disagreement is the
+with equal weight per voter. The series starts on the first day every voter has a scored speech; after
+that, voters with no scored speech yet are left out. Disagreement is the
 standard deviation of the same voters' scores.
 
   fed_speech_index.csv          mean of voters' latest scores (0 = emergency easing, 100 = aggressive tightening)
@@ -75,13 +76,28 @@ class Stances:
         return speech["value"] if speech else None
 
 
+def start_day(stances: Stances, roster: voters.Roster, first: str, today: dt.date) -> dt.date | None:
+    """The first day on which every voter has a scored stance (config.START_DATE overrides it). After that
+    day every day is published, with voters who have not spoken yet left out."""
+    if config.START_DATE:
+        return dt.date.fromisoformat(config.START_DATE)
+    day = dt.date.fromisoformat(first)
+    while day <= today:
+        d = day.isoformat()
+        on = roster.on(d)
+        if on and all(stances.latest(k, d) is not None for k in on):
+            return day
+        day += dt.timedelta(days=1)
+    return None
+
+
 def build(speeches: list[dict], roster: voters.Roster, today: dt.date) -> dict[str, list[tuple[str, float]]]:
     series = {"fed_speech_index": [], "fed_speech_disagreement": []}
     if not speeches:
         return series
     stances = Stances(speeches)
-    day = dt.date.fromisoformat(config.START_DATE or speeches[0]["date"])
-    while day <= today:
+    day = start_day(stances, roster, speeches[0]["date"], today)
+    while day and day <= today:
         d = day.isoformat()
         values = [v for v in (stances.latest(k, d) for k in roster.on(d)) if v is not None]
         if values:
@@ -109,8 +125,8 @@ def build_members(speeches: list[dict], roster: voters.Roster, today: dt.date) -
         return rows
     stances = Stances(speeches)
     names = member_names()
-    day = dt.date.fromisoformat(config.START_DATE or speeches[0]["date"])
-    while day <= today:
+    day = start_day(stances, roster, speeches[0]["date"], today)
+    while day and day <= today:
         d = day.isoformat()
         for key in dict.fromkeys(roster.on(d)):
             speech = stances.latest_speech(key, d)
@@ -136,7 +152,7 @@ def main() -> int:
         w.writerow(["date", "member", "score", "level", "as_of"])
         w.writerows((d, m, f"{v:.2f}", lv, a) for d, m, v, lv, a in members)
     span = f"{series['fed_speech_index'][0][0]} to {series['fed_speech_index'][-1][0]}" if series["fed_speech_index"] else "no data yet"
-    print(f"Built indexes from {len(speeches)} policy speeches ({span}).")
+    print(f"Built indexes from {len(speeches)} policy speeches ({span}; starts on the first day every voter has a score).")
     return 0
 
 

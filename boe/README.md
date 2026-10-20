@@ -1,12 +1,12 @@
 # BOE speech hawk/dove index
 
 Daily hawkish/dovish index of the Bank of England Monetary Policy Committee's members, built from
-their speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 7-level easy↔tight scale as the
+their speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 11-level easy↔tight scale as the
 Fed index (see `rubric.py`).
 
 The scale and prompt core in `rubric.py` are shared word for word with the Fed and BOJ projects, so
 the three indexes are comparable. `prompt.py` fills in the Bank of England's names and adds a short
-appendix of facts: who votes, how the Bank's speeches are written and its policy instruments. The
+appendix of facts: who votes, its policy instruments. The
 appendix never says which level to give.
 
 ## How the index is built
@@ -18,8 +18,9 @@ appendix never says which level to give.
   difference writes `data/pending_roster.json`: check the effective dates, add the term to
   `data/voters.csv` and rerun the audit.
 - **Each voter's stance** is the score of their most recent policy-relevant speech available on or
-  before that date (several on the same day are averaged). Every voter counts equally. Voters with no
-  scored speech yet are left out and listed in `output/boe_coverage.csv`. A speech published late
+  before that date (several on the same day are averaged). Every voter counts equally. The index starts
+  on the first day every voter has a scored speech; after that, voters with no scored speech yet are
+  left out and listed in `output/boe_coverage.csv`. A speech published late
   cannot replace a newer stance, and a new term does not inherit a previous term's stance.
 - **What counts as text**: the member's own prepared words, speeches and lectures. Interviews, Q&A
   transcripts, slides, chart packs and supporting papers are skipped. Monetary Policy Summaries and

@@ -2,10 +2,10 @@
 
 Same method as the Fed project. On each day, each voter's stance is the score of their most recent
 policy-relevant speech available by that day (several delivered on the same day are averaged), and
-the index is the equal-weight mean over voters. Voters with no scored speech yet are left out and
-listed in the coverage file. A later publication of an older speech cannot replace a newer stance,
-and a new membership term does not inherit a previous term's stance. Old stances carry forward until
-replaced; their age is shown.
+the index is the equal-weight mean over voters. The series starts on the first day every voter has a
+scored speech; after that, voters with no scored speech yet are left out and listed in the coverage
+file. A later publication of an older speech cannot replace a newer stance, and a new membership term
+does not inherit a previous term's stance. Old stances carry forward until replaced; their age is shown.
 
 Checks on the data (roster, collection, scoring backlog) are reported as warnings in
 output/status.json; they never blank the index.
@@ -69,14 +69,28 @@ class Stances:
         return row['value'] if row else None
 
 
+def start_day(stances, roster, today):
+    """The first day on which every voter has a scored stance (config.START_DATE overrides it). After that
+    day every day is published, with voters who have not spoken yet left out."""
+    if config.START_DATE:
+        if config.START_DATE < roster.coverage_start():
+            raise ValueError('Index start predates complete verified membership coverage')
+        return dt.date.fromisoformat(config.START_DATE)
+    day = dt.date.fromisoformat(roster.coverage_start())
+    while day <= today:
+        date = day.isoformat()
+        terms = roster.active_terms(date)
+        if terms and all(stances.latest_speech(voters.raw_key(t['name']), date, t['start_date']) for t in terms):
+            return day
+        day += dt.timedelta(days=1)
+    return None
+
+
 def build_daily(speeches, roster, today):
     stances = Stances(speeches)
-    start = config.START_DATE or roster.coverage_start()
-    if start < roster.coverage_start():
-        raise ValueError('Index start predates complete verified membership coverage')
-    day = dt.date.fromisoformat(start)
+    day = start_day(stances, roster, today)
     coverage, members = [], []
-    while day <= today:
+    while day and day <= today:
         date = day.isoformat()
         terms = roster.active_terms(date)
         values, missing, stale = [], [], []
@@ -169,7 +183,8 @@ def main():
         'membership_coverage_start': voters.Roster().coverage_start(),
         'latest': rows[-1] if rows else None, 'scorer_version': config.SCORER_VERSION,
         'historical_availability': 'Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.'})
-    print(f'{config.BANK}: {len(rows)} daily rows' + ''.join(f'\n  warning: {p}' for p in problems))
+    print(f'{config.BANK}: {len(rows)} daily rows' + (f' from {rows[0]["date"]} (first day every voter has a score)' if rows else '')
+          + ''.join(f'\n  warning: {p}' for p in problems))
     return 0
 
 

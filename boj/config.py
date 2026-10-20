@@ -15,8 +15,8 @@ BANK_NAME = 'Bank of Japan'
 INDEX_PREFIX = BANK
 BANK_TIMEZONE = 'Asia/Tokyo'
 
-# None derives the first output day from complete verified membership coverage.
-# This is NOT the first year of speeches available from the central bank.
+# None starts the index on the first day every voter has a scored speech (on or after the first
+# complete verified committee). This is NOT the first year of speeches available from the central bank.
 START_DATE = None
 BACKFILL_START = None
 # Diagnostic only: old stances remain in the index until replaced, as in the Fed compiler.

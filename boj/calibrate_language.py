@@ -68,12 +68,13 @@ def main() -> int:
         if ja is None or en is None:
             print(f"  {speech['date']} {speech['speaker']}: scoring failed; skipped")
             continue
-        level = lambda r: r.level if r.policy_relevant else 0
+        level = lambda r: r.level if r.policy_relevant else None
         rows.append({'id': speech['id'], 'date': speech['date'], 'speaker': speech['speaker'],
                      'ja_level': level(ja), 'en_level': level(en)})
         print(f"  {speech['date']} {speech['speaker']:20s} ja={level(ja)} en={level(en)}", flush=True)
     same = sum(r['ja_level'] == r['en_level'] for r in rows)
-    within_one = sum(abs(r['ja_level'] - r['en_level']) <= 1 for r in rows)
+    within_one = sum(r['ja_level'] == r['en_level'] or (None not in (r['ja_level'], r['en_level'])
+                                                       and abs(r['ja_level'] - r['en_level']) <= 1) for r in rows)
     store.atomic_json(config.DATA / 'language_check.json', {
         'checked_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'scorer_version': config.SCORER_VERSION,
         'pairs': len(rows), 'same_level': same, 'within_one_level': within_one, 'rows': rows})
