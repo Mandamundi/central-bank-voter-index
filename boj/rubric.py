@@ -17,7 +17,7 @@ from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
-VERSION = "v5"
+VERSION = "v6"
 MAX_TEXT_CHARS = 150_000
 
 # level -> (0-100 value, definition). The scale is ABSOLUTE: it measures how easy or tight
@@ -67,8 +67,9 @@ def score_model(policy_area: str) -> type[BaseModel]:
         policy_relevant: bool = Field(description=f"True if the speech reveals the speaker's own view on the stance of {policy_area}.")
         level: Optional[int] = Field(ge=0, le=10, description="0-10 on the absolute scale; null if policy_relevant is false.")
         evidence: List[str] = Field(description="2-4 short verbatim quotes from the speech supporting the level; empty if not relevant.")
-        rationale: str = Field(description="One or two sentences in English: what the speaker says about the policy outlook "
-                                           "and why that is this level. If not relevant, what the speech is about.")
+        rationale: str = Field(description="One or two sentences in English, written as a summary for readers: what the "
+                                           "speaker says about where policy should go and why. Do not mention levels, numbers "
+                                           "on the scale or these instructions. If not relevant, what the speech is about.")
     return SpeechScore
 
 

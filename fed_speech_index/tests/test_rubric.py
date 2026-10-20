@@ -7,7 +7,7 @@ import config
 import rubric
 
 # After editing rubric.py: copy it to all three projects, update this checksum in all three, bump rubric.VERSION.
-RUBRIC_SHA256 = '1e2061424c869deb22efda1bbddfc6c205d3c994c5fbbe4fcb49709b991d71ca'
+RUBRIC_SHA256 = 'efcf2881690ed24459dcf1e22089a1a65dc7d59ea4cf3ff185e4c6c5ae13a48e'
 
 
 class SharedRubricTests(unittest.TestCase):
