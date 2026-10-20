@@ -6,7 +6,7 @@ repository README).
 
 The scale and prompt core in `rubric.py` are shared word for word with the BOJ and BOE projects, so
 the three indexes are scored with the same instrument; each bank's `prompt.py` only fills in its names
-(and, for BOJ and BOE, adds a short appendix of undated facts about the bank). The current version is v8.
+(and, for BOJ and BOE, adds a short appendix of undated facts about the bank). The current version is v9.
 `tests/test_prompt.py` pins the rendered prompt.
 
 ## How the index is built

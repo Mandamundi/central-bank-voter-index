@@ -1,4 +1,4 @@
-"""The Fed's prompt, built from the shared rubric: system prompt pinned at v8, response schema unchanged since v7, user prompt unchanged since v3."""
+"""The Fed's prompt, built from the shared rubric: system prompt pinned at v9, response schema unchanged since v7, user prompt unchanged since v3."""
 import json
 from pathlib import Path
 import unittest
@@ -11,8 +11,8 @@ SPEECH = {'speaker': 'Jerome H. Powell', 'role': 'Chair', 'date': '2025-10-14', 
 
 
 class FedPromptTests(unittest.TestCase):
-    def test_system_prompt_is_pinned_v8(self):
-        self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v8_system.txt').read_text(encoding='utf-8'))
+    def test_system_prompt_is_pinned_v9(self):
+        self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v9_system.txt').read_text(encoding='utf-8'))
 
     def test_response_schema_unchanged_since_v7(self):
         schema = json.dumps(prompt.SpeechScore.model_json_schema(), sort_keys=True, indent=1)

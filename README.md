@@ -56,6 +56,14 @@ fills in the bank's names and, for the BOE and BOJ, a short appendix of undated 
 the bank's instruments). The appendix never says which level to give. `tests/test_rubric.py` in
 each folder pins the file's checksum.
 
+**The rubric is frozen at v9.** It changes only when the full-history output shows a systematic
+error: a whole episode misplaced (for example a crisis not registering as one), or a member's stance
+wrong across many texts. A single borderline text one level off is expected scoring noise, not a
+reason to change it. Model-scored texts, like texts scored by human analysts, are not perfectly
+repeatable: in a rescore of the full BOJ history, about 8% of texts moved by one level, almost all
+on genuinely ambiguous wording. One voter moving one level moves a nine-member index by about one
+point, so this noise is small next to the movements the index is built to show.
+
 To change the rubric: edit it in one folder, copy it to the other two, update the checksum in all
 three `tests/test_rubric.py`, and bump `VERSION`. A new version (or a new `MODEL` in a `config.py`)
 starts a new score vintage, and every text is scored again. Use the same model in all three banks.

@@ -17,14 +17,15 @@ from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
-VERSION = "v8"
+VERSION = "v9"
 MAX_TEXT_CHARS = 150_000
 
 # level -> (0-100 value, definition). The scale is ABSOLUTE: it measures how easy or tight
 # the policy the speaker wants is, on one fixed yardstick across all eras and banks.
 LEVELS = {
     0: (0.0, "EMERGENCY EASING. A crisis response: cutting rapidly to or near the floor, launching or "
-             "expanding large-scale asset purchases, or emergency facilities; 'use all our tools'."),
+             "expanding large-scale asset purchases, or emergency facilities; 'use all our tools'. Also: "
+             "supporting keeping such crisis measures in force while the crisis lasts."),
     1: (10.0, "MORE EASING FROM THE FLOOR. Rates are at or near the floor (zero or negative) and the speaker "
               "wants, or leans toward, still more easing: more purchases, deeper negative rates, stronger "
               "guidance."),
@@ -104,7 +105,12 @@ Holds and leans:
 - A lean is a stated direction for the next move ("further increases may be needed", "cuts are likely later this
   year", "upside risks dominate"). Standard wording such as "data dependent", "we will act as appropriate" or "we
   will not hesitate to take additional measures if necessary" is not a lean.
-- A conditional statement ("if inflation persists, we would need to raise rates") is a lean, not support for a move.
+- A conditional statement is a lean, not support for a move, only when it names a specific development the speaker
+  sees as likely or as a material risk ("if inflation persists, we would need to raise rates"). A generic readiness
+  to act if necessary is standard wording, not a lean.
+- Crisis measures (emergency facilities, crisis-driven asset purchases) are level 0 while the speaker supports
+  keeping them in force during the crisis; once the speaker treats the crisis as over and the measures as ordinary
+  accommodation, judge them like any other easing.
 - Pace and timing. Supporting faster or larger moves than a gradual pace, or an earlier move than the committee is
   making (for example a hike the committee decided against, or rejecting a fixed gradual schedule), counts one
   level further than supporting gradual moves. Supporting the committee's own gradual path does not. A speaker's
