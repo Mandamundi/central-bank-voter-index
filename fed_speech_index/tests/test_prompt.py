@@ -1,4 +1,4 @@
-"""The Fed's prompt, built from the shared rubric: system prompt unchanged since v5, response schema pinned at v6, user prompt unchanged since v3."""
+"""The Fed's prompt, built from the shared rubric: system prompt unchanged since v5, response schema pinned at v7, user prompt unchanged since v3."""
 import json
 from pathlib import Path
 import unittest
@@ -14,9 +14,9 @@ class FedPromptTests(unittest.TestCase):
     def test_system_prompt_unchanged_since_v5(self):
         self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v5_system.txt').read_text(encoding='utf-8'))
 
-    def test_response_schema_is_pinned_v6(self):
+    def test_response_schema_is_pinned_v7(self):
         schema = json.dumps(prompt.SpeechScore.model_json_schema(), sort_keys=True, indent=1)
-        self.assertEqual(schema, (FIXTURES / 'prompt_v6_schema.json').read_text(encoding='utf-8'))
+        self.assertEqual(schema, (FIXTURES / 'prompt_v7_schema.json').read_text(encoding='utf-8'))
 
     def test_user_prompt_unchanged_since_v3(self):
         self.assertEqual(prompt.user_prompt(SPEECH, '4-4.25'), (FIXTURES / 'prompt_v3_user_range.txt').read_text(encoding='utf-8'))

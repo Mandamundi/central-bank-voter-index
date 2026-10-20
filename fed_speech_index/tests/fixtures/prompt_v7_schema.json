@@ -1,7 +1,7 @@
 {
  "properties": {
   "evidence": {
-   "description": "2-4 short verbatim quotes from the speech supporting the level; empty if not relevant.",
+   "description": "2-4 short verbatim quotes from the speech that show the speaker's view on policy; empty if not relevant.",
    "items": {
     "type": "string"
    },
@@ -19,7 +19,7 @@
      "type": "null"
     }
    ],
-   "description": "0-10 on the absolute scale; null if policy_relevant is false.",
+   "description": "0-10 on the absolute scale, chosen from the quotes and summary above; null if policy_relevant is false.",
    "title": "Level"
   },
   "policy_relevant": {
@@ -35,9 +35,9 @@
  },
  "required": [
   "policy_relevant",
-  "level",
   "evidence",
-  "rationale"
+  "rationale",
+  "level"
  ],
  "title": "SpeechScore",
  "type": "object"

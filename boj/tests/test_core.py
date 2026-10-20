@@ -136,7 +136,7 @@ class ScoringTests(unittest.TestCase):
         self.assertEqual(score.verify_quotes(['金融緩和を継続します。'],'金融緩和を\n 継続します。'),[True])
 
     def test_same_response_schema_as_the_fed(self):
-        self.assertEqual(list(prompt.SpeechScore.model_fields),['policy_relevant','level','evidence','rationale'])
+        self.assertEqual(list(prompt.SpeechScore.model_fields),['policy_relevant','evidence','rationale','level'])
 
     def test_user_prompt_uses_the_shared_template(self):
         s={'speaker':'Person','role':'Voter','date':'2020-01-01','title':'Policy','text':'x'*(rubric.MAX_TEXT_CHARS+10)}

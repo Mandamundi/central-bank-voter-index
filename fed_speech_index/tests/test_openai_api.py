@@ -26,7 +26,7 @@ class RequestTests(unittest.TestCase):
     def test_schema_is_strict(self):
         schema = openai_api.strict_schema(prompt.SpeechScore.model_json_schema())
         self.assertFalse(schema['additionalProperties'])
-        self.assertEqual(schema['required'], ['policy_relevant', 'level', 'evidence', 'rationale'])
+        self.assertEqual(schema['required'], ['policy_relevant', 'evidence', 'rationale', 'level'])
         self.assertNotIn('title', json.dumps(schema))
         level = schema['properties']['level']['anyOf']
         self.assertEqual((level[0]['minimum'], level[0]['maximum'], level[1]['type']), (0, 10, 'null'))
