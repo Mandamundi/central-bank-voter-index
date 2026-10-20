@@ -3,14 +3,25 @@
 This file is identical in the Fed, BOE and BOJ projects. score.py builds the prompt and turns a
 response into a stored score; this module only talks to the API.
 
-  request_body()   one scoring request: system prompt as instructions, the speech as input, the
-                   response schema as a strict JSON schema, the configured reasoning effort
+  request_body()   one scoring request: the scoring instructions as a developer message marked as the
+                   only part to cache, the speech as the user message, the response schema as a strict
+                   JSON schema, the configured reasoning effort
   create()         send one request now (daily runs: a handful of new speeches)
   BatchQueue       send many requests through the Batch API (backfills: half price, results
                    within 24 hours). Submitted batches are recorded in data/batches.json, so a
                    run can stop at any time; the next run collects finished batches first.
 
+  usage_summary()  token use of every response read so far (input, cache reads, cache writes, output)
+
+Prompt caching. GPT-5.6 and later bill a cache write at 1.25x the input price, and by default
+("implicit" mode) every request writes its whole prompt to the cache. Every speech is different, so
+those entries are never read again and the speech tokens cost 25% more for nothing. Requests here
+use explicit mode with one breakpoint at the end of the scoring instructions: only that shared part
+(about 2,000 tokens, above the 1,024-token minimum) is written, later requests read it at 0.1x, and
+the speech text is billed at the plain input rate with no write.
+
 Batch API: https://developers.openai.com/api/docs/guides/batch
+Prompt caching: https://developers.openai.com/api/docs/guides/prompt-caching
 """
 from __future__ import annotations
 
@@ -64,11 +75,16 @@ def strict_schema(schema: dict) -> dict:
 
 def request_body(model: str, effort: str, max_output_tokens: int, system: str, user: str, schema: dict) -> dict:
     # Temperature is not sent: reasoning models only accept it with reasoning effort "none".
-    # store=False: nothing is kept server-side.
+    # store=False: nothing is kept server-side. The instructions go in a developer message rather
+    # than top-level "instructions", which cannot carry a cache breakpoint.
     return {
         "model": model,
-        "instructions": system,
-        "input": user,
+        "input": [
+            {"role": "developer", "content": [
+                {"type": "input_text", "text": system, "prompt_cache_breakpoint": {"mode": "explicit"}}]},
+            {"role": "user", "content": [{"type": "input_text", "text": user}]},
+        ],
+        "prompt_cache_options": {"mode": "explicit"},
         "reasoning": {"effort": effort},
         "text": {"format": {"type": "json_schema", "name": "speech_score", "schema": strict_schema(schema), "strict": True}},
         "max_output_tokens": max_output_tokens,
@@ -76,8 +92,38 @@ def request_body(model: str, effort: str, max_output_tokens: int, system: str, u
     }
 
 
+def prompt_text(body: dict) -> str:
+    """All the prompt text of a request body (for token estimates)."""
+    return "".join(part["text"] for message in body["input"] for part in message["content"])
+
+
+USAGE = {"responses": 0, "input": 0, "cache_read": 0, "cache_write": 0, "output": 0, "reasoning": 0}
+
+
+def count_usage(data: dict) -> None:
+    usage = data.get("usage") or {}
+    details = usage.get("input_tokens_details") or {}
+    USAGE["responses"] += 1
+    USAGE["input"] += usage.get("input_tokens") or 0
+    USAGE["cache_read"] += details.get("cached_tokens") or 0
+    USAGE["cache_write"] += details.get("cache_write_tokens") or 0
+    USAGE["output"] += usage.get("output_tokens") or 0
+    USAGE["reasoning"] += (usage.get("output_tokens_details") or {}).get("reasoning_tokens") or 0
+
+
+def usage_summary() -> str:
+    u = USAGE
+    if not u["responses"]:
+        return "Token use: no responses read."
+    plain = u["input"] - u["cache_read"] - u["cache_write"]
+    return (f"Token use over {u['responses']} responses: input {u['input']:,} (plain {plain:,}, cache reads "
+            f"{u['cache_read']:,}, cache writes {u['cache_write']:,}); output {u['output']:,} "
+            f"(of which reasoning {u['reasoning']:,}).")
+
+
 def output_text(data: dict) -> str:
     """The JSON text of a Responses API result. Raises ValueError for refusals and truncated output."""
+    count_usage(data)
     if data.get("status") not in (None, "completed"):
         reason = (data.get("incomplete_details") or {}).get("reason") or data.get("status")
         raise ValueError(f"response not completed ({reason})")
@@ -211,7 +257,7 @@ class BatchQueue:
             chunk, chunk_tokens = [], 0
 
         for speech_id, tag, body in requests_:
-            tokens = estimate_tokens(body["instructions"] + body["input"])
+            tokens = estimate_tokens(prompt_text(body))
             if chunk_tokens + tokens > room:
                 send()
                 if tokens > room:

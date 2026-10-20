@@ -6,6 +6,7 @@ it arrives.
     python score.py              # score everything outstanding now, one request per speech
     python score.py --limit 20   # score at most 20 speeches
     python score.py --batch      # backfill through the Batch API (half price, results within 24 hours)
+    python score.py --batch --collect-only   # save finished batch results; submit nothing new
 
 Direct mode (the daily run) sends requests in parallel through one shared limiter
 (config.REQUESTS_PER_MINUTE per rolling minute). A 429 for a per-minute limit waits and retries;
@@ -149,10 +150,11 @@ def score_one(api_key: str, limiter: RateLimiter, stop: list, speech: dict, sett
     return None
 
 
-def run_batch(key: str, todo: list[dict]) -> int:
-    """Collect finished batches, then submit what is still outstanding."""
+def run_batch(key: str, todo: list[dict], submit: bool = True, unscored: list[dict] | None = None) -> int:
+    """Collect finished batches, then (unless submit is False) submit what is still outstanding."""
     queue = openai_api.BatchQueue(key, BATCHES, config.SCORER_VERSION)
-    speeches = {s["id"]: s for s in todo}
+    # Results are matched against every unscored speech, not only this run's --limit selection.
+    speeches = {s["id"]: s for s in (unscored or todo)}
 
     def on_result(speech_id: str, submitted_hash: str, text: str) -> bool:
         speech = speeches.get(speech_id)
@@ -173,6 +175,11 @@ def run_batch(key: str, todo: list[dict]) -> int:
     print("Collecting finished batches...")
     collected = queue.collect(on_result, on_failure)
     print(f"  {collected['scored']} scored, {collected['failed']} to resubmit, {collected['still_running']} batches still running")
+    print("  " + openai_api.usage_summary())
+    if not submit:
+        left = len([s for s in todo if s["id"] in speeches])
+        print(f"Collect only: nothing submitted. {len(queue.pending())} speeches in open batches; {left} unscored in this selection.")
+        return 0
     waiting = queue.pending()
     outstanding = [s for s in todo if s["id"] in speeches and waiting.get(s["id"]) != store.score_input_hash(s)]
     submitted = queue.submit([(s["id"], store.score_input_hash(s), request_body(s, policy.context_for(s["date"])))
@@ -190,8 +197,11 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--batch", action="store_true", help="Score through the Batch API (backfills)")
+    ap.add_argument("--collect-only", action="store_true", help="With --batch: save finished results, submit nothing")
     ap.add_argument('--preview', metavar='SPEECH_ID', help='Print the exact dated scoring prompt without calling the API')
     args = ap.parse_args()
+    if args.collect_only and not args.batch:
+        ap.error("--collect-only goes with --batch")
     if args.preview:
         import json
         speech = next((s for s in store.load_speeches() if s['id'] == args.preview), None)
@@ -227,11 +237,12 @@ def main() -> int:
     todo = [s for s in outstanding if roster.is_voter(s["speaker"], s["date"])]
     print(f"Voter filter: {len(outstanding) - len(todo)} unscored speeches excluded because their speaker does not match voter history.")
     todo.sort(key=lambda s: (s["date"], s["id"]), reverse=True)
+    unscored = list(todo)
     if args.limit:
         todo = todo[: args.limit]
     print(f"{len(todo)} speeches to score with {config.SCORER_VERSION}")
     if args.batch:
-        return run_batch(key, todo)
+        return run_batch(key, todo, submit=not args.collect_only, unscored=unscored)
     waiting = openai_api.BatchQueue(key, BATCHES, config.SCORER_VERSION).pending()
     if waiting:
         todo = [s for s in todo if s["id"] not in waiting]
@@ -281,6 +292,7 @@ def main() -> int:
     elif stop:
         print(stop[0], file=sys.stderr)
     print(f"Scored {counts['done']}, failed {counts['failed']}.")
+    print(openai_api.usage_summary())
     final_scores = store.load_scores()
     remaining = [s['id'] for s in store.load_speeches()
                  if roster.is_voter(s['speaker'], s['date']) and s['id'] not in final_scores]

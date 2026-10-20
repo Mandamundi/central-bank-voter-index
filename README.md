@@ -96,6 +96,14 @@ uv run score.py --batch            # submit the backlog to the Batch API
 uv run score.py --batch            # rerun every few hours: collects finished batches, submits the rest
 uv run build_index.py              # once it says "Nothing left to score"
 ```
+To score only part of a backlog, add `--limit N` (the N newest unscored speeches per round), and
+collect that round without sending another with:
+```bash
+uv run score.py --batch --collect-only
+```
+Every run prints the tokens used (plain input, cache reads, cache writes, output), which should match
+the OpenAI usage page. Only the shared scoring instructions are written to OpenAI's prompt cache and
+read back cheaply; the speech text is billed at the plain input rate (see `openai_api.py`).
 Batch mode costs half as much and returns results within 24 hours. Batches are recorded in each
 project's `data/batches.json`, so stopping or closing the terminal loses nothing. The three banks can
 be submitted at the same time. The Fed backlog is larger than one batch queue allows, so it goes up in

@@ -33,9 +33,30 @@ class RequestTests(unittest.TestCase):
 
     def test_body(self):
         body = openai_api.request_body('m', 'medium', 100, 'SYSTEM', 'USER', prompt.SpeechScore.model_json_schema())
-        self.assertEqual((body['instructions'], body['input'], body['reasoning']), ('SYSTEM', 'USER', {'effort': 'medium'}))
+        developer, user = body['input']
+        self.assertEqual((developer['role'], developer['content'][0]['text']), ('developer', 'SYSTEM'))
+        self.assertEqual((user['role'], user['content'][0]['text']), ('user', 'USER'))
+        self.assertEqual(body['reasoning'], {'effort': 'medium'})
+        self.assertNotIn('instructions', body)
         self.assertTrue(body['text']['format']['strict'])
         self.assertNotIn('temperature', body)
+
+    def test_only_the_shared_instructions_are_cached(self):
+        body = openai_api.request_body('m', 'medium', 100, 'SYSTEM', 'USER', prompt.SpeechScore.model_json_schema())
+        self.assertEqual(body['prompt_cache_options'], {'mode': 'explicit'})
+        marked = [part for message in body['input'] for part in message['content'] if 'prompt_cache_breakpoint' in part]
+        self.assertEqual(marked, [body['input'][0]['content'][0]])
+        self.assertEqual(marked[0]['prompt_cache_breakpoint'], {'mode': 'explicit'})
+
+    def test_usage_is_counted(self):
+        openai_api.USAGE.update({k: 0 for k in openai_api.USAGE})
+        data = dict(response_body(), usage={'input_tokens': 7000, 'output_tokens': 900,
+                                            'input_tokens_details': {'cached_tokens': 2000, 'cache_write_tokens': 0},
+                                            'output_tokens_details': {'reasoning_tokens': 700}})
+        openai_api.output_text(data)
+        self.assertEqual(openai_api.USAGE, {'responses': 1, 'input': 7000, 'cache_read': 2000, 'cache_write': 0,
+                                            'output': 900, 'reasoning': 700})
+        self.assertIn('plain 5,000', openai_api.usage_summary())
 
     def test_output_text(self):
         self.assertEqual(json.loads(openai_api.output_text(response_body())), PAYLOAD)

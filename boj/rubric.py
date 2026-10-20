@@ -17,7 +17,7 @@ from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
-VERSION = "v7"
+VERSION = "v8"
 MAX_TEXT_CHARS = 150_000
 
 # level -> (0-100 value, definition). The scale is ABSOLUTE: it measures how easy or tight
@@ -39,7 +39,8 @@ LEVELS = {
               "cuts to just below neutral ('insurance' cuts), or holding near neutral while leaning toward "
               "easing."),
     5: (50.0, "NEUTRAL. Holding policy around neutral with no lean, or cutting from restrictive policy "
-              "back toward neutral."),
+              "back toward neutral. Also: from accommodative policy, pushing for faster or earlier hikes "
+              "than a gradual path."),
     6: (60.0, "MILDLY RESTRICTIVE. Holding restrictive policy while leaning toward easing (cuts in view), "
               "or holding near neutral while leaning toward tightening."),
     7: (70.0, "RESTRICTIVE HOLD. Holding restrictive policy until inflation is clearly on track, with no "
@@ -104,15 +105,19 @@ Holds and leans:
   year", "upside risks dominate"). Standard wording such as "data dependent", "we will act as appropriate" or "we
   will not hesitate to take additional measures if necessary" is not a lean.
 - A conditional statement ("if inflation persists, we would need to raise rates") is a lean, not support for a move.
-- Supporting faster or larger moves than a gradual pace counts one level further than supporting gradual moves.
+- Pace and timing. Supporting faster or larger moves than a gradual pace, or an earlier move than the committee is
+  making (for example a hike the committee decided against, or rejecting a fixed gradual schedule), counts one
+  level further than supporting gradual moves. Supporting the committee's own gradual path does not. A speaker's
+  mention of their own dissent or proposal shows which they support.
 
 How the current setting and the speaker's view combine:
   setting at the floor (zero or negative, purchases): wants easing 1, leans to ease 1, holds 2, leans to tighten 3, wants tightening 4
   setting accommodative:                              wants easing 2, leans to ease 2, holds 3, leans to tighten 4, wants tightening 4
   setting near neutral:                               wants easing 4, leans to ease 4, holds 5, leans to tighten 6, wants tightening 7
   setting restrictive:                                wants easing 5, leans to ease 6, holds 7, leans to tighten 8, wants tightening 9
-Crisis easing from any setting is 0. Outsized or urgent tightening is 10. Rapid hikes from low levels toward a
-restrictive rate are 9.
+With the pace rule, faster or earlier moves go one level further: for example, from an accommodative setting,
+pushing for faster or earlier hikes is 5. Crisis easing from any setting is 0. Outsized or urgent tightening is 10.
+Rapid hikes from low levels toward a restrictive rate are 9.
 
 Balance sheet and other tools. Read the speaker's stance from the speech itself:
 - supporting starting, expanding or continuing large-scale asset purchases is easing;
