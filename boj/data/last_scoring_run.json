@@ -1,9 +1,9 @@
 {
-  "completed_at": "2026-10-16T10:47:53.443502+00:00",
-  "done": 8,
+  "completed_at": "2026-10-20T04:09:49.658583+00:00",
+  "done": 5,
   "failed": 0,
-  "remaining": 284,
-  "scorer_version": "gemini-3.5-flash-lite:v3",
+  "remaining": 287,
+  "scorer_version": "gpt-6-luna:v7",
   "stop_reason": [],
   "success": true
 }

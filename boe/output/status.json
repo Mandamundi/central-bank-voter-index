@@ -1,21 +1,22 @@
 {
   "bank": "boe",
-  "built_at": "2026-10-19T05:21:27.729926+00:00",
+  "built_at": "2026-10-20T05:08:54.348749+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
-    "coverage": 0.5555555555555556,
-    "date": "2026-10-19",
-    "disagreement": 6.6666666666666625,
-    "index": 70.0,
-    "missing_members": "Andrew Bailey|Swati Dhingra|Megan Greene|Sarah Breeden",
-    "scored_voters": 5,
-    "stale_members": ""
+    "coverage": 1.0,
+    "date": "2026-10-20",
+    "disagreement": 10.657403385139377,
+    "index": 75.55555555555556,
+    "missing_members": "",
+    "scored_voters": 9,
+    "stale_members": "Sarah Breeden"
   },
   "membership_coverage_start": "2017-09-04",
-  "scorer_version": "gemini-3.5-flash-lite:v3",
+  "scorer_version": "gpt-6-luna:v7",
   "warnings": [
-    "341 speeches remain unscored for this content/prompt vintage",
-    "Voters without a scored speech, left out of today's index: Andrew Bailey, Swati Dhingra, Megan Greene, Sarah Breeden"
+    "Official roster has not been verified today",
+    "Policy context has not been verified today",
+    "Collector has not completed today"
   ]
 }

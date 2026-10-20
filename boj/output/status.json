@@ -1,21 +1,23 @@
 {
   "bank": "boj",
-  "built_at": "2026-10-16T10:48:32.854601+00:00",
+  "built_at": "2026-10-20T05:08:55.147676+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
-    "coverage": 0.6666666666666666,
-    "date": "2026-10-16",
-    "disagreement": 6.211299937499418,
-    "index": 52.77777777777778,
-    "missing_members": "UCHIDA Shinichi|ASADA Toichiro|SATO Ayano",
-    "scored_voters": 6,
-    "stale_members": ""
+    "coverage": 0.7777777777777778,
+    "date": "2026-10-20",
+    "disagreement": 0.0,
+    "index": 40.0,
+    "missing_members": "ASADA Toichiro|SATO Ayano",
+    "scored_voters": 7,
+    "stale_members": "UCHIDA Shinichi"
   },
   "membership_coverage_start": "2017-07-24",
-  "scorer_version": "gemini-3.5-flash-lite:v3",
+  "scorer_version": "gpt-6-luna:v7",
   "warnings": [
-    "284 speeches remain unscored for this content/prompt vintage",
-    "Voters without a scored speech, left out of today's index: UCHIDA Shinichi, ASADA Toichiro, SATO Ayano"
+    "Official roster has not been verified today",
+    "Policy context has not been verified today",
+    "Collector has not completed today",
+    "Voters without a scored speech, left out of today's index: ASADA Toichiro, SATO Ayano"
   ]
 }
