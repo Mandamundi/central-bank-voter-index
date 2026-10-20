@@ -1,9 +1,9 @@
 {
-  "completed_at": "2026-10-20T04:09:49.658583+00:00",
+  "completed_at": "2026-10-20T06:27:18.742803+00:00",
   "done": 5,
   "failed": 0,
   "remaining": 287,
-  "scorer_version": "gpt-6-luna:v7",
+  "scorer_version": "gpt-6-luna:v8",
   "stop_reason": [],
   "success": true
 }
