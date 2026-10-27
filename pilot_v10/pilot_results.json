@@ -1,0 +1,3516 @@
+[
+ {
+  "id": "c4b6dca95975",
+  "date": "2020-02-18",
+  "speaker": "Robert S. Kaplan",
+  "title": "An Assessment of Economic Conditions and the Stance of Monetary Policy",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kaplan considers the current policy rate roughly appropriate and expects it to remain unchanged through 2020, while noting that his view could change as the economic outlook evolves.",
+  "rationale_2": "Kaplan considers the current policy setting appropriate and expects rates to remain unchanged through 2020, based on his economic outlook.",
+  "evidence": [
+   "It is my view that, based on my base-case outlook for the U.S. economy, the current setting of the federal funds rate at 1.5 to 1.75 percent is roughly appropriate.",
+   "my Summary of Economic Projections (SEP) submission in December 2019 indicated that I expected no movement in the federal funds rate through 2020."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "1fb2722e67f3",
+  "date": "2020-02-21",
+  "speaker": "Lael Brainard",
+  "title": "Monetary Policy Strategies and Tools When Inflation and Interest Rates Are Low",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   4,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Brainard does not call for an immediate policy move, but favors a strategy that maintains accommodation and allows inflation to run somewhat above target to make up for past undershooting. That points toward an easing bias in the policy outlook.",
+  "rationale_2": "Brainard favors a strategy that sustains accommodation and allows inflation to run above 2 percent for a time to make up for past undershooting. She does not call for an immediate policy-rate cut, but her preferred longer-run direction tilts toward easing.",
+  "evidence": [
+   "policy may have to remain accommodative for a long time to achieve 2 percent inflation following a period of undershooting.",
+   "I prefer flexible inflation averaging that would aim to achieve inflation outcomes that average 2 percent over time.",
+   "the Committee would make clear in advance that it would accommodate rather than offset modest upward pressures to inflation"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "5dd542220bf9",
+  "date": "2020-02-24",
+  "speaker": "Loretta Jean Mester",
+  "title": "The Outlook for the Economy and Monetary Policy in 2020",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Mester considers policy well calibrated and favors keeping it at current levels while assessing the outlook. She does not favor adding accommodation to raise inflation faster and supports a patient approach absent a material change.",
+  "rationale_2": "Mester supports keeping policy at its current setting while inflation gradually returns toward the goal. She opposes adding accommodation for now and favors patience unless the outlook materially changes.",
+  "evidence": [
+   "I am comfortable with the current stance of policy.",
+   "our current policy stance is appropriate given the outlook of growth near its trend pace, solid labor market conditions, and inflation rates not far from the FOMC’s symmetric 2 percent objective",
+   "a patient approach to policy changes is appropriate unless there is a material change to the outlook."
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "3435bfa402c3",
+  "date": "2020-02-25",
+  "speaker": "Richard H. Clarida",
+  "title": "U.S. Economic Outlook and Monetary Policy",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Clarida views the current policy stance as appropriate to support growth and bring inflation back to target, provided the outlook remains broadly on track. He does not signal a preferred near-term move in either direction.",
+  "rationale_2": "Clarida supports keeping the current policy stance in place while the outlook remains broadly on track, saying it is providing appropriate support for growth and a return of inflation to the objective. He would reassess if developments materially changed the outlook, but expresses no near-term directional lean.",
+  "evidence": [
+   "“Monetary policy is in a good place and should continue to support sustained growth, a strong labor market, and inflation returning to our symmetric 2 percent objective.”",
+   "“As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate.”",
+   "“these operations are technical measures not intended to change the stance of monetary policy.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "1876248fbf8d",
+  "date": "2020-02-28",
+  "speaker": "James Bullard",
+  "title": "Coronavirus and the U.S. Economy",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   5,
+   3
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bullard says the existing policy stance is well positioned and treats further cuts as a possibility only if a severe pandemic develops, which he does not view as the baseline. He expresses no near-term lean toward changing policy.",
+  "rationale_2": "Bullard says additional rate cuts could be warranted if a pandemic with substantial health effects develops, but he does not see that as the baseline scenario. His remarks therefore point conditionally toward easing rather than an immediate change.",
+  "evidence": [
+   "“the Federal Open Market Committee is in a good position because of previous policy rate cuts designed to insure the U.S. economy against adverse shocks.”",
+   "“Further policy rate cuts are a possibility if a global pandemic actually develops with health effects approaching the scale of ordinary influenza, but this is not the baseline case at this time,”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "6e9d8ceb147b",
+  "date": "2020-03-03",
+  "speaker": "Loretta Jean Mester",
+  "title": "An Update on the U.S. Economy and the Federal Reserve's Review of Its Monetary Policy Framework",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   5,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Mester supported the Fed’s rate cut in response to the coronavirus-related risks. She does not signal a desire for further near-term easing or tightening after that move, so her view is to hold at the new setting.",
+  "rationale_2": "Mester supported a substantial emergency rate cut as the coronavirus shock was rapidly unfolding, arguing that easier financial conditions could cushion its effects on confidence and demand.",
+  "evidence": [
+   "“I agreed with this decision because it seemed appropriate to take the opportunity to assess the cumulative effects of last year’s policy easing on the economy”",
+   "“It was within this context that I supported today’s interest rate reduction”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "18f33d6465ef",
+  "date": "2020-03-05",
+  "speaker": "John C. Williams",
+  "title": "The Economic Outlook",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Williams endorses the recent rate cut as sufficient to position policy well to support the expansion. He will monitor developments and respond as appropriate, but does not signal a preferred further move in the near term.",
+  "rationale_2": "Williams endorses the rate cut just made as sufficient to support the expansion and says the Fed will monitor developments. He does not express a preference for another near-term move.",
+  "evidence": [
+   "This strong policy action provides meaningful support to the economy and will help sustain the economic expansion.",
+   "Our policy action this week positions us well to support the economic expansion.",
+   "We will use our tools and act as appropriate to support the economy."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "2546aaede1ea",
+  "date": "2020-03-17",
+  "speaker": "Loretta Jean Mester",
+  "title": "Statement Regarding My Dissenting Vote at the Meeting of the Federal Open Market Committee Held on March 15, 2020",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   8,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "She opposed the larger cut that brought rates to the current setting and favored a higher rate, with liquidity support taking priority. Relative to the current setting, that implies tightening.",
+  "rationale_2": "Mester favored a smaller rate cut than the Committee made and did not call for further easing from the current setting. She wanted to preserve the possibility of a later cut if conditions made it appropriate, rather than commit to one in the near term.",
+  "evidence": [
+   "I viewed a 50 basis point reduction in the federal funds rate as appropriate",
+   "I did not favor returning the funds rate to zero",
+   "I preferred to stage our policy actions by first providing liquidity to improve market functioning, supported by a smaller reduction in the funds rate."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "cd92c33465fa",
+  "date": "2020-04-01",
+  "speaker": "Eric S. Rosengren",
+  "title": "Addressing the Economic Effects of the COVID-19 Pandemic",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Rosengren supports the Fed’s emergency easing and financial-market interventions as the pandemic crisis unfolds, to limit economic distress and prevent a deeper financial crisis.",
+  "rationale_2": "Rosengren supports the emergency easing and financial-market measures already underway, and says the response should adapt as the pandemic crisis continues.",
+  "evidence": [
+   "The Federal Reserve is working to limit the financial and economic distress – to take actions that help avoid even higher levels of unemployment or a slower recovery.",
+   "To that end, the Fed’s interest-rate-setting committee cut the short-term rates the Fed controls to close to zero to help ease market interest rates in an economy suddenly facing challenges",
+   "Central banks can and must do a lot in crises, to alleviate stresses in the financial system we all count on, which can hurt all citizens."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "3da616494650",
+  "date": "2020-04-09",
+  "speaker": "Jerome H. Powell",
+  "title": "COVID-19 and the Economy (Webcast)",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Powell supports maintaining near-zero rates and forceful emergency lending measures while the crisis is unfolding, with support to continue until recovery is firmly underway.",
+  "rationale_2": "Powell supports keeping rates near zero and forcefully using emergency lending tools while the economic crisis is still unfolding, until recovery is firmly underway.",
+  "evidence": [
+   "we have lowered interest rates to near zero in order to bring down borrowing costs.",
+   "We have also committed to keeping rates at this low level until we are confident that the economy has weathered the storm and is on track to achieve our maximum-employment and price-stability goals.",
+   "We will continue to use these powers forcefully, proactively, and aggressively until we are confident that we are solidly on the road to recovery."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "c64c178396ed",
+  "date": "2020-04-14",
+  "speaker": "Lorie K. Logan",
+  "title": "The Federal Reserve's Recent Actions to Support the Flow of Credit to Households and Businesses",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Logan endorses a forceful, ongoing emergency response to the unfolding pandemic crisis, including extensive asset purchases and measures to maintain the flow of credit. She says the Federal Reserve should continue using its tools aggressively as needed to keep markets functioning.",
+  "rationale_2": "Logan supports a forceful emergency response while the coronavirus crisis and resulting market disruptions are still unfolding, including continued purchases as needed to restore market functioning and sustain credit flows.",
+  "evidence": [
+   "Therefore, it was important for the Federal Reserve to act quickly and decisively to support market functioning and the flow of credit.",
+   "As important as the volume of purchases is the FOMC’s commitment, announced March 23, to purchase whatever amounts are needed to support smooth market functioning and effective transmission of monetary policy.",
+   "By acting quickly and forcefully to support all of these markets at once, we have been able to stabilize market conditions.",
+   "Many challenges surely lie ahead for the economy and financial markets. But the past month demonstrates that the Federal Reserve will use its tools aggressively to keep markets working so that credit can flow to households, businesses, and state and local governments throughout our economy."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "26e5a442f4e9",
+  "date": "2020-04-16",
+  "speaker": "John C. Williams",
+  "title": "A Time for Bold Action",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Williams supports keeping rates near zero while the economy recovers and backs extensive emergency asset purchases and credit programs as the pandemic crisis continues. He stresses that the Federal Reserve’s response is ongoing and should remain bold.",
+  "rationale_2": "Williams supports keeping rates near zero while the crisis unfolds and continuing forceful measures to stabilize markets and sustain credit. He presents the emergency response as ongoing, not as complete and sufficient.",
+  "evidence": [
+   "The FOMC also signaled that it expects to keep interest rates at this level until it is confident that the economy has weathered recent events and is on track to achieve the Fed’s maximum employment and price stability goals.",
+   "We are purchasing sizable quantities of U.S. Treasury securities and agency residential and commercial mortgage-backed securities to improve functioning in these critical markets.",
+   "Our work is not done.",
+   "This crisis requires innovative thinking and bold action."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "e60477b99ec1",
+  "date": "2022-06-02",
+  "speaker": "Loretta Jean Mester",
+  "title": "An Update on the Economy and Monetary Policy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Mester supports further rate increases at the next two meetings and says faster increases may be needed if inflation does not moderate. She favors continued tightening because inflation is elevated and risks becoming embedded.",
+  "rationale_2": "Mester expects substantial further rate increases in the near term and believes rates will probably need to rise above neutral to reduce inflation. She says a faster pace may be necessary if inflation does not moderate.",
+  "evidence": [
+   "ongoing increases in the fed funds rate are called for.",
+   "I expect it to be appropriate to raise the policy rate another 50 basis points at each of our next two meetings.",
+   "if inflation has failed to moderate, then a faster pace of rate increases could be necessary.",
+   "the FOMC will need to be resolute and intentional in removing policy accommodation to tighten financial conditions at the pace needed to get inflation under control."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "8d68d53fb7ef",
+  "date": "2022-06-17",
+  "speaker": "James Bullard",
+  "title": "Reflections on the Disinflationary Methods of Poincaré and Thatcher",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bullard argues that returning inflation to target requires a shift back to the pre-pandemic policy regime and presents the Fed’s rate increases and balance-sheet runoff as steps in that direction. His remarks favor continued disinflationary tightening, though they do not specify a particular next move.",
+  "rationale_2": "Bullard presents rate increases and balance-sheet runoff as necessary parts of the return to the pre-pandemic inflation-targeting regime, and describes that disinflationary policy as underway. This supports continued tightening over the near term, though he does not specify a further pace or magnitude.",
+  "evidence": [
+   "what is now required is a regime switch back to the previous, pre-pandemic regime that featured inflation near target.",
+   "The Fed is committed to an inflation target; it has taken actions to increase the policy rate and to begin quantitative tightening (QT).",
+   "The regime shift back to the pre-pandemic fiscal-monetary mix does appear to be taking shape in the U.S."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "ca21648035b1",
+  "date": "2022-06-17",
+  "speaker": "Neel Kashkari",
+  "title": "Policy Has Tightened a Lot. Is It Enough? (An Update)",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   9,
+   9
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kashkari favors further rate increases, including 50-basis-point hikes after July until inflation is clearly falling, while allowing for still more tightening if supply does not improve or inflation expectations rise. He prefers a steady sequence rather than too much front-loading.",
+  "rationale_2": "Kashkari supports further rate increases, including another large hike in July and continued 50-basis-point hikes until inflation is clearly declining. He also says persistently weak supply or rising inflation expectations could require still more tightening.",
+  "evidence": [
+   "could support another such move in July",
+   "A prudent strategy might be, after the July meeting, to simply continue with 50-basis-point hikes until inflation is well on its way down to 2 percent.",
+   "we might need to continue raising rates beyond what I forecast in my SEP submission."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "6d3919f8b934",
+  "date": "2022-06-18",
+  "speaker": "Christopher Waller",
+  "title": "Lessons Learned on Normalizing Monetary Policy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   9,
+   9
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Waller supports another large rate increase at the next meeting if the data develop as he expects, emphasizing the need to restore price stability. He also anticipates a faster, larger sequence of hikes than in the prior tightening cycle.",
+  "rationale_2": "Waller supports another large rate increase at the next meeting if the data match his expectations, and says rates will need to rise rapidly to return to neutral. He frames that tightening as necessary to restore price stability.",
+  "evidence": [
+   "In my view, and I speak only for myself, if the data comes in as I expect I will support a similar-sized move at our July meeting.",
+   "The Fed is “all in” on re-establishing price stability",
+   "Rate hikes would need to be larger and more frequent, relative to the 2015-2018 tightening pace, to get back to neutral."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "ed7a4ce15a4c",
+  "date": "2022-06-21",
+  "speaker": "Thomas I. Barkin",
+  "title": "The Recession Question",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Barkin supports further rate increases to bring inflation down and stabilize inflation expectations, while acknowledging recession risks along the way.",
+  "rationale_2": "Barkin supports continued rate increases and balance-sheet reduction to bring inflation down and moderate demand. He presents this tightening as the policy path ahead, not merely as a description of the decision already made.",
+  "evidence": [
+   "You’ve likely seen that over our last three meetings we have raised rates 150 basis points, started shrinking our balance sheet and signaled there are more rate increases to come.",
+   "We are meeting the test we face and have made clear we will do what it takes.",
+   "Barring an unanticipated event, I see rising rates stabilizing any drift in inflation expectations and in so doing, increasing real interest rates and quieting demand."
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "271485decedc",
+  "date": "2022-06-22",
+  "speaker": "Jerome H. Powell",
+  "title": "Statement before the Committee on Banking, Housing, and Urban Affairs, U.S. Senate",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Powell supports continuing to raise interest rates in the near term to bring inflation back to the Fed’s 2 percent goal, while adjusting the pace in response to incoming data.",
+  "rationale_2": "Powell expects further increases in the federal funds rate in the coming meetings, with the pace guided by incoming data. He presents those increases as necessary to bring inflation back to the 2 percent goal.",
+  "evidence": [
+   "The Committee reiterated that it anticipates that ongoing increases in the target range will be appropriate.",
+   "We anticipate that ongoing rate increases will be appropriate; the pace of those changes will continue to depend on the incoming data and the evolving outlook for the economy.",
+   "We are highly attentive to inflation risks and determined to take the measures necessary to restore price stability."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "d7f8f15ff9a3",
+  "date": "2022-06-22",
+  "speaker": "Charles Evans",
+  "title": "A Stronger Policy Response to Restrain Inflation",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Evans supports further rate increases over the coming months, broadly in line with the Committee’s projected path, to restrain demand and bring inflation back to target.",
+  "rationale_2": "Evans expects substantial further rate increases over the coming months to bring inflation back to target and supports a modestly restrictive policy path. His outlook is roughly in line with the Committee’s median projection, rather than calling for faster tightening than the Committee plans.",
+  "evidence": [
+   "I expect it will be necessary to bring rates up a good deal more over the coming months",
+   "My own viewpoint is roughly in line with the median assessment.",
+   "This bad news on inflation was an important consideration for my supporting a 75 basis point hike in the federal funds rate instead of the 50 basis point increase we had signaled earlier."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "7ac63e400876",
+  "date": "2022-06-23",
+  "speaker": "Michelle W. Bowman",
+  "title": "The Outlook for Inflation and Monetary Policy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   9,
+   9
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bowman favors a rapid sequence of substantial rate increases, with further hikes tied to incoming data, to bring inflation down and return the real federal funds rate to positive territory.",
+  "rationale_2": "Bowman favors a rapid sequence of unusually large rate increases to bring inflation down and restore the real policy rate to positive territory.",
+  "evidence": [
+   "I expect to support additional rate increases until we see significant progress toward bringing inflation down.",
+   "I expect that an additional rate increase of 75 basis points will be appropriate at our next meeting as well as increases of at least 50 basis points in the next few subsequent meetings, as long as the incoming data support them.",
+   "I am therefore committed to a policy that will bring the real federal funds rate back into positive territory."
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "a11d08f282af",
+  "date": "2022-06-24",
+  "speaker": "James Bullard",
+  "title": "Bullard Discusses the U.S. Economy and Policy Rate Increases",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bullard supports continued, front-loaded rate increases to bring inflation down before it becomes entrenched, and argues the economy can withstand the resulting slowdown.",
+  "rationale_2": "Bullard favors continued rate increases and says they should be front-loaded to prevent inflation from becoming entrenched and bring it back toward 2%.",
+  "evidence": [
+   "front-loading policy rate increases is a good idea in this situation.",
+   "nip inflation in the bud before it gets entrenched in the economy",
+   "get inflation back down toward 2%"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "e1edf21c890e",
+  "date": "2022-06-24",
+  "speaker": "Mary C. Daly",
+  "title": "Policy Nimbleness Through Forward Guidance",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   8,
+   9
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Daly supports continued rate increases, including further tightening beyond neutral, to bring inflation down. She sees the amount of additional tightening as dependent on how supply and inflation evolve.",
+  "rationale_2": "Daly supports a rapid sequence of large rate increases to bring inflation down, with further tightening beyond neutral likely after the funds rate reaches neutral. She expects the pace to depend on how supply and inflation evolve.",
+  "evidence": [
+   "Last week, the FOMC increased the funds rate by 75 basis points and signaled that further rate hikes of a similar magnitude are likely.",
+   "After that, I see additional tightening beyond neutral as the likely next step.",
+   "If supply continues to fall short and inflation remains high, we will need to do more."
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "c98c978b1c46",
+  "date": "2022-06-29",
+  "speaker": "Loretta Jean Mester",
+  "title": "The Role of Inflation Expectations in Monetary Policymaking: A Practitioner's Perspective",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Mester argues that policymakers should take further action to bring inflation down and guard against rising inflation expectations becoming unanchored. Her remarks favor additional tightening but do not specify an immediate rate move.",
+  "rationale_2": "Mester argues that policymakers should act deliberately to bring inflation down and guard against inflation expectations becoming unanchored. This supports further tightening from the current setting rather than holding steady.",
+  "evidence": [
+   "Central banks will need to be resolute and intentional in taking actions to bring inflation down.",
+   "In some circumstances, such shocks could threaten the stability of inflation expectations and would require policy action.",
+   "These simulation results, coupled with research suggesting that persistent elevated inflation poses an increasing risk that inflation expectations could become unanchored, strongly argue against policymakers being complacent about a rise in longer-term expectations."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "247fcf583fe5",
+  "date": "2022-07-07",
+  "speaker": "James Bullard",
+  "title": "Disinflationary Policy and Financial Stability in the U.S.",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bullard supports further policy-rate increases to follow through on the Fed’s guidance and bring inflation under control. He does not specify a faster-than-usual pace in this speech.",
+  "rationale_2": "Bullard supports carrying through with further rate increases and continued balance-sheet runoff to bring inflation under control.",
+  "evidence": [
+   "The FOMC has increased the rate’s level at the last three meetings and is poised to make further increases at coming meetings.",
+   "The Fed still has to follow through to ratify the forward guidance previously given",
+   "Fed credibility along with forward guidance on these dimensions is helping the Fed move policy more quickly to the degree necessary to keep inflation under control."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "4d6f60ce6b97",
+  "date": "2022-07-07",
+  "speaker": "James Bullard",
+  "title": "The First Steps Toward Disinflation in the U.S.",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The text summarizes inflation, prior Fed actions, and economic data but does not state the speaker’s own view on the next direction of monetary policy.",
+  "rationale_2": "The text summarizes the presentation’s discussion of inflation and the Fed’s actions to date, but does not state Bullard’s view on what monetary policy should do next.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "fb86362851a1",
+  "date": "2022-07-08",
+  "speaker": "John C. Williams",
+  "title": "Price Stability: The Foundation for a Strong Economy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Williams supports continued rate increases to bring inflation down and restore price stability, while saying the pace and extent of future hikes will depend on how conditions evolve.",
+  "rationale_2": "Williams supports continued rate increases and balance-sheet reduction to bring inflation back to target, while emphasizing that the pace and extent of further tightening will depend on incoming data.",
+  "evidence": [
+   "ongoing increases in the target range will be appropriate.",
+   "This decision was a critical step in moving monetary policy expeditiously away from the very accommodative stance",
+   "In determining how quickly and how high to raise the rates in the future"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "7a9d719b7350",
+  "date": "2022-07-11",
+  "speaker": "Esther L. George",
+  "title": "Tightening Monetary Policy in a Tight Economy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "George supports further rate increases and a significant reduction in the balance sheet to bring inflation down. She favors a steady, carefully calibrated pace to avoid tightening faster than the economy and markets can adjust.",
+  "rationale_2": "George supports further rate increases and continued balance-sheet reduction to bring inflation down. She favors a steady, data-adjusted pace rather than abrupt tightening.",
+  "evidence": [
+   "the case for continuing to remove policy accommodation is clear-cut.",
+   "I support ongoing rate increases accompanied by a significant reduction in the size of the balance sheet",
+   "The pace at which this path unfolds will need to be carefully balanced against the state of the economy and financial markets"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "2dbdfe4ef50f",
+  "date": "2022-07-14",
+  "speaker": "Janet L. Yellen",
+  "title": "Transcript of Press Conference from Secretary of the Treasury Janet L. Yellen in Nusa Dua, Indonesia",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   8,
+   null
+  ],
+  "v10_relevant": [
+   true,
+   false
+  ],
+  "rationale": "Yellen endorses the Fed’s ongoing efforts to bring inflation down and says that goal should take top priority, supporting continued tightening as needed.",
+  "rationale_2": "The press conference focuses on Treasury priorities and inflation. Yellen expresses general support for the Fed’s efforts but does not state a preferred monetary-policy action or path.",
+  "evidence": [
+   "We're first and foremost supportive of the Fedʼs e orts — what they see, deemed to be necessary to get inflation under control.",
+   "I believe it's appropriate that it's our top — it should be the top priority to bring inflation down."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "3572722b9721",
+  "date": "2022-07-14",
+  "speaker": "Christopher Waller",
+  "title": "Monetary Policy in a World of Conflicting Data",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Waller supports another rate increase at the next meeting and expects further increases afterward to bring inflation down. He favors moving decisively, while making the pace of subsequent hikes dependent on incoming data.",
+  "rationale_2": "Waller supports a 75-basis-point increase at the next meeting and expects further rate hikes to make policy restrictive and bring inflation down, with the pace guided by incoming data.",
+  "evidence": [
+   "I support another 75-basis point increase",
+   "I expect that further increases in the target range will be needed to make monetary policy restrictive",
+   "I expect rate increases will continue after July at a pace that is dependent on the incoming data.",
+   "I think we need to move swiftly and decisively to get inflation falling in a sustained way"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "2ee5adddedb6",
+  "date": "2022-07-15",
+  "speaker": "James Bullard",
+  "title": "Bullard Discusses Policy Rate Increases and His Views of U.S. Recession Predictions",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bullard favors further policy-rate increases, raising his year-end target above his prior baseline in response to stubbornly high inflation. He views the current tightening approach as appropriate for bringing inflation down.",
+  "rationale_2": "Bullard supports continued rate increases and says the year-end policy rate may need to be higher than his prior estimate because inflation remains stubbornly high. He presents the current policy direction as appropriate for bringing inflation down.",
+  "evidence": [
+   "“I would now say that we may have to try to hit 3.75 to 4% by the end of 2022.”",
+   "“But we've got the right policy to bring it back to 2% in a relatively short timeframe, and I would say something like 18 months,”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "bb7fb88bf962",
+  "date": "2023-12-01",
+  "speaker": "Jerome H. Powell",
+  "title": "Opening Remarks",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 7,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Powell favors keeping policy restrictive while inflation continues to move toward the Fed’s objective, and says it is too soon to speculate about easing. He describes risks as more balanced and further tightening as conditional, without expressing a clear near-term lean in either direction.",
+  "rationale_2": "Powell supports keeping policy restrictive while its effects continue to work through the economy, and describes the risks of tightening too little or too much as more balanced. He leaves further tightening as a possibility but does not signal a preferred near-term move.",
+  "evidence": [
+   "Having come so far so quickly, the FOMC is moving forward carefully, as the risks of under- and over-tightening are becoming more balanced.",
+   "The FOMC is strongly committed to bringing inflation down to 2 percent over time, and to keeping policy restrictive until we are confident that inflation is on a path to that objective.",
+   "It would be premature to conclude with confidence that we have achieved a sufficiently restrictive stance, or to speculate on when policy might ease.",
+   "We are prepared to tighten policy further if it becomes appropriate to do so."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "b6e4529afe63",
+  "date": "2024-01-03",
+  "speaker": "Thomas I. Barkin",
+  "title": "Heading for a Soft Landing?",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 6,
+  "v10_levels": [
+   3,
+   6
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Barkin describes rate normalization as the expected path this year if inflation continues to settle, while keeping further hikes possible if the outlook warrants them. His near-term outlook therefore points toward easing, but conditionally and without a firm commitment.",
+  "rationale_2": "Barkin sees persistent inflation and unexpectedly strong demand as risks that could require further rate hikes, though he emphasizes that the policy path depends on incoming data. His remarks indicate a modest tightening tilt rather than a firm call for a hike.",
+  "evidence": [
+   "“most of us forecasted rate normalization to begin sometime this year.”",
+   "“our forecasts are right and inflation does in fact continue to settle”",
+   "“the potential for additional rate hikes remains on the table.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "42a842182765",
+  "date": "2024-01-06",
+  "speaker": "Logan",
+  "title": "Opening remarks at panel on Market Monitoring and the Implementation of Monetary Policy",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 8,
+  "v10_levels": [
+   6,
+   6
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Logan sees a risk that easier financial conditions could revive demand and inflation, so she wants the possibility of another rate increase kept open, though she does not call for one now. She also favors slowing balance-sheet runoff as ON RRP balances get low.",
+  "rationale_2": "Logan favors maintaining sufficiently restrictive financial conditions and sees a risk that easing conditions could revive demand and inflation. She does not call for an immediate hike, but her outlook leans toward tighter policy if conditions warrant it.",
+  "evidence": [
+   "We can’t count on sustaining price stability if we don’t maintain sufficiently restrictive financial conditions.",
+   "In light of the easing in financial conditions in recent months, we shouldn’t take the possibility of another rate increase off the table just yet.",
+   "In my view, we should slow the pace of runoff as ON RRP balances approach a low level."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "df598e7d590c",
+  "date": "2024-01-08",
+  "speaker": "Michelle W. Bowman",
+  "title": "New Year's Resolutions for Bank Regulatory Policymakers",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 8,
+  "v10_levels": [
+   6,
+   6
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bowman supports holding the policy rate steady for some time, while noting that persistent inflation or stalled progress could warrant a further increase. She sees eventual rate cuts as appropriate if inflation continues to move toward the goal, but believes that point has not yet arrived.",
+  "rationale_2": "Bowman supports holding the policy rate for now and sees eventual cuts as appropriate after further progress on inflation. For the near term, she emphasizes upside inflation risks and says she could support a hike if disinflation stalls or reverses.",
+  "evidence": [
+   "I voted to maintain the policy rate at its current level while we continue to monitor the incoming data and assess the implications for the inflation and economic outlook.",
+   "my view has evolved to consider the possibility that the rate of inflation could decline further with the policy rate held at the current level for some time.",
+   "I remain willing to raise the federal funds rate further at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "e568d984ceaa",
+  "date": "2024-01-10",
+  "speaker": "John C. Williams",
+  "title": "Rules of Three",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 7,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Williams expects the current restrictive stance to continue doing its work and says it is too soon to ease until inflation is moving sustainably toward the goal. He describes the risks as two-sided and does not signal a preferred near-term move.",
+  "rationale_2": "Williams expects the current restrictive stance to remain in place for some time, with policy restraint reduced only after sustained progress toward the inflation goal. He describes the outlook risks as two-sided and does not signal a specific near-term move.",
+  "evidence": [
+   "The risks are two-sided, with the possibility of supply-demand imbalances or inflation remaining stubbornly persistent weighed against that of a weaker-than-expected economy and labor market.",
+   "My base case is that the current restrictive stance of monetary policy will continue to restore balance and bring inflation back to our 2 percent longer-run goal.",
+   "I expect that we will need to maintain a restrictive stance of policy for some time to fully achieve our goals"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "4ac0669b24c8",
+  "date": "2024-01-16",
+  "speaker": "Christopher Waller",
+  "title": "Almost as Good as It Gets…But Will It Last?",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 6,
+  "v10_levels": [
+   3,
+   3
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Waller views the current stance as appropriate for now but expects rate cuts this year if inflation does not rebound. He favors making those cuts carefully and gradually, guided by incoming data.",
+  "rationale_2": "Waller supports lowering rates this year if inflation does not rebound, while emphasizing that cuts should be gradual and guided by incoming data.",
+  "evidence": [
+   "I believe policy is set properly.",
+   "As long as inflation doesn’t rebound and stay elevated, I believe the FOMC will be able to lower the target range for the federal funds rate this year.",
+   "When the time is right to begin lowering rates, I believe it can and should be lowered methodically and carefully."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "ad3ab84840a9",
+  "date": "2024-01-18",
+  "speaker": "Raphael W. Bostic",
+  "title": "The Arc of Monetary Policy May Start Bending Soon",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 6,
+  "v10_levels": [
+   3,
+   3
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bostic favors holding the current restrictive stance for now, while expecting to begin easing later in the year as inflation progress continues. He emphasizes waiting for incoming data and would delay easing if inflationary pressures reemerge.",
+  "rationale_2": "Bostic expects to begin easing the restrictive stance around the third quarter, with the possibility of doing so sooner if incoming data show convincing further progress on inflation. For now, he favors waiting and assessing the data.",
+  "evidence": [
+   "moved up my projected time to begin normalizing the federal funds rate to the third quarter of this year from the fourth quarter.",
+   "our task now is to assess the economy’s progress and decide when it is time to start easing our restrictive policy stance.",
+   "I believe we should allow events to continue to unfold before beginning the process of normalizing policy."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "19ef2d6b3fee",
+  "date": "2018-05-04",
+  "speaker": "James Bullard",
+  "title": "Optimal Monetary Policy for the Masses",
+  "bank": "fed",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The text is a webpage listing presentations and related materials; it does not include a substantive statement of Bullard’s monetary policy views.",
+  "rationale_2": "The text is a webpage listing presentations and related materials; it contains no statement of the speaker’s monetary policy view.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "3c6ce58687ac",
+  "date": "2018-05-21",
+  "speaker": "James Bullard",
+  "title": "Living Standards across U.S. Metropolitan Statistical Areas",
+  "bank": "fed",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses living standards, regional prices, and income inequality across U.S. metropolitan areas; it does not express a view on monetary policy.",
+  "rationale_2": "The speech analyzes living standards, regional price differences, income, and inequality across U.S. metropolitan areas; it does not state Bullard’s view on the monetary policy outlook.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "b7c57ef13c28",
+  "date": "2019-11-13",
+  "speaker": "Jerome H. Powell",
+  "title": "Statement before the Joint Economic Committee, U.S. Congress",
+  "bank": "fed",
+  "why": "random 2019",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Powell views the current policy stance as appropriate while the economy follows the expected path and does not signal a preferred near-term move. He says the Fed would respond if the outlook materially changed.",
+  "rationale_2": "Powell says the current policy stance is likely to remain appropriate if the economy develops as expected, while leaving future decisions dependent on incoming information. He expresses no near-term preference to ease or tighten.",
+  "evidence": [
+   "We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook",
+   "Policy is not on a preset course.",
+   "They do not represent a change in the stance of monetary policy."
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "a5f10a3b1ff0",
+  "date": "2019-11-12",
+  "speaker": "Richard H. Clarida",
+  "title": "Monetary Policy, Price Stability, and Equilibrium Bond Yields: Success and Consequences",
+  "bank": "fed",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech analyzes the causes and consequences of lower bond yields and describes the Federal Reserve’s framework review, but Clarida does not state a personal view on the near-term direction of monetary policy.",
+  "rationale_2": "The speech analyzes the causes and consequences of low bond yields and describes the Federal Reserve’s framework review, but does not state Clarida’s own desired near-term direction for monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "4229e5498714",
+  "date": "2020-11-18",
+  "speaker": "James Bullard",
+  "title": "Bullard Discusses the U.S. Economy and Pandemic in Webinar",
+  "bank": "fed",
+  "why": "random 2020",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech summary discusses the pandemic, the economic recovery, and past policy responses, but does not state Bullard’s own view on where monetary policy should go.",
+  "rationale_2": "The text summarizes the economy, pandemic, and past policy responses, but does not reveal Bullard’s own view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "f07a1c798b12",
+  "date": "2020-09-30",
+  "speaker": "Michelle W. Bowman",
+  "title": "Community Banks Rise to the Challenge",
+  "bank": "fed",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bowman says continued monetary support is likely to be needed as the recovery remains uncertain and uneven. She does not call for additional easing or a change in the current stance.",
+  "rationale_2": "Bowman says continued monetary support will be needed as the recovery remains uneven, but does not call for additional easing or a change in the current stance.",
+  "evidence": [
+   "continued monetary and targeted fiscal policy support will likely be needed.",
+   "Even with this support, however, I anticipate that the path toward full recovery will be bumpy"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "2e4da73440a9",
+  "date": "2021-10-21",
+  "speaker": "Janet L. Yellen",
+  "title": "Remarks by Secretary Janet L. Yellen at the Open Session of the Meeting of the Financial Stability Oversight Council",
+  "bank": "fed",
+  "why": "random 2021",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The remarks address climate-related financial risks and the Financial Stability Oversight Council’s recommendations, without stating a view on the direction of U.S. monetary policy.",
+  "rationale_2": "The remarks focus on climate-related financial risks and the Financial Stability Oversight Council’s response, without stating a view on the monetary policy stance.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "a0aa84a1ffb1",
+  "date": "2021-06-01",
+  "speaker": "Lael Brainard",
+  "title": "Remaining Steady as the Economy Reopens",
+  "bank": "fed",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   4,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Brainard favors keeping policy steady while employment remains far from the goal and inflation pressures appear temporary. She emphasizes the asymmetric risks of tightening too soon, tilting her outlook toward continued accommodation rather than tightening.",
+  "rationale_2": "Brainard favors keeping policy steady while the economy continues to recover and inflation pressures appear temporary. She particularly warns against tightening too soon, giving her stance a modest tilt toward ease.",
+  "evidence": [
+   "“it is also important to be attentive to the risks of pulling back too soon.”",
+   "“the lower bound constraint means that policy can respond more readily when inflation surprises to the upside than to the downside.”",
+   "“Remaining steady in our outcomes-based approach during the transitory reopening surge will help ensure the economic momentum that will be needed as current tailwinds shift to headwinds is not curtailed by a premature tightening of financial conditions.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "16b59961e9f8",
+  "date": "2022-07-08",
+  "speaker": "Lael Brainard",
+  "title": "Crypto-Assets and Decentralized Finance through a Financial Stability Lens",
+  "bank": "fed",
+  "why": "random 2022",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech focuses on crypto-asset risks, financial regulation, and central bank digital currency; it does not state the speaker’s view on the direction of U.S. monetary policy.",
+  "rationale_2": "The speech focuses on crypto-asset risks, financial stability, and regulation, without stating the speaker’s view on the direction of U.S. monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "a7830e822278",
+  "date": "2022-11-28",
+  "speaker": "Lael Brainard",
+  "title": "What Can We Learn from the Pandemic and the War about Supply Shocks, Inflation, and Monetary Policy?",
+  "bank": "fed",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 8,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Brainard argues that persistent supply constraints and the risk of inflation expectations drifting above target can warrant further monetary tightening. She frames that tightening as a response to these ongoing risks rather than specifying an immediate move.",
+  "rationale_2": "Brainard argues that persistent supply shocks and the risk of inflation expectations drifting above target warrant monetary tightening. She presents those risks as relevant to the current environment, supporting further tightening rather than simply holding policy steady.",
+  "evidence": [
+   "“In contrast, if supply shocks durably lower potential output such that the economy is operating above potential, monetary policy tightening is necessary to bring demand into alignment with the economy’s reduced productive capacity.”",
+   "“In the presence of a protracted series of supply shocks and high inflation, it is important for monetary policy to take a risk-management posture to avoid the risk of inflation expectations drifting above target.”",
+   "“A protracted series of adverse supply shocks could persistently weigh on potential output or could risk pushing inflation expectations above target in ways that call for monetary policy to tighten.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "8b2b0763397f",
+  "date": "2023-10-09",
+  "speaker": "Logan",
+  "title": "Financial conditions and the monetary policy outlook",
+  "bank": "fed",
+  "why": "random 2023",
+  "v9_relevant": true,
+  "v9_level": 8,
+  "v10_levels": [
+   6,
+   6
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Logan expects restrictive conditions to remain necessary and sees a possibility of further policy firming if economic strength is driving higher rates. But because elevated term premiums could provide some of that restraint, she does not clearly call for an immediate rate increase.",
+  "rationale_2": "Logan favors keeping policy restrictive and sees no reason to consider cuts soon. She does not clearly call for a hike, since higher long-term rates may do some of the needed work, but strong economic conditions leave risks tilted toward further firming.",
+  "evidence": [
+   "“it is far too soon to think about rate cuts in our monetary policy strategy”",
+   "“I anticipate that we will need continued restrictive financial conditions to return inflation to 2 percent in a timely way”",
+   "“If long-term interest rates remain elevated because of higher term premiums, there may be less need to raise the fed funds rate.”",
+   "“to the extent that strength in the economy is behind the increase in long-term interest rates, the FOMC may need to do more.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "1007f0565f5d",
+  "date": "2023-07-13",
+  "speaker": "Christopher Waller",
+  "title": "Big Shocks Travel Fast: Why Policy Lags May Be Shorter Than You Think",
+  "bank": "fed",
+  "why": "random 2023",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Waller supports a rate increase at the next meeting and expects another increase within the year, conditional on continued inflation progress and no significant economic slowdown. He argues that additional tightening is needed to bring inflation back toward target.",
+  "rationale_2": "Waller supports another rate increase at the next meeting and anticipates a second increase this year, arguing that inflation remains too high and the economy can withstand further tightening. He expects policy to remain restrictive for some time.",
+  "evidence": [
+   "I see two more 25-basis-point hikes in the target range over the four remaining meetings this year as necessary to keep inflation moving toward our target.",
+   "I see no reason why the first of those two hikes should not occur at our meeting later this month.",
+   "If inflation does not continue to show progress and there are no suggestions of a significant slowdown in economic activity, then a second 25-basis-point hike should come sooner rather than later"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "75c86583e2fd",
+  "date": "2024-03-07",
+  "speaker": "Michelle W. Bowman",
+  "title": "Reflections on the Economy and Bank Regulation",
+  "bank": "fed",
+  "why": "random 2024",
+  "v9_relevant": true,
+  "v9_level": 8,
+  "v10_levels": [
+   6,
+   6
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "She supports holding rates steady for now and is not yet ready to lower them. Given the upside inflation risks, she is more inclined toward a possible increase than a cut if progress on inflation stalls or reverses.",
+  "rationale_2": "Bowman favors holding rates steady for now and says it is too soon to cut, while upside inflation risks leave her open to raising rates if progress stalls or reverses. She expects eventual gradual cuts only once inflation is moving sustainably toward the goal.",
+  "evidence": [
+   "At its current setting, our monetary policy stance is restrictive and appears to be appropriately calibrated to reduce inflationary pressures.",
+   "In my view, we are not yet at that point.",
+   "I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "38dfeb13f5a4",
+  "date": "2024-04-03",
+  "speaker": "Adriana D. Kugler",
+  "title": "The Outlook for the U.S. Economy and Monetary Policy",
+  "bank": "fed",
+  "why": "random 2024",
+  "v9_relevant": true,
+  "v9_level": 6,
+  "v10_levels": [
+   3,
+   3
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kugler expects that continued disinflation and labor-market conditions will make some rate reduction appropriate this year, while emphasizing that the outlook remains data-dependent.",
+  "rationale_2": "Kugler expects some policy-rate easing this year, provided disinflation and labor-market conditions develop as she anticipates. She cites continued disinflation without a broad economic slowdown as her baseline outlook.",
+  "evidence": [
+   "My own expectation is consistent with that;",
+   "if disinflation and labor market conditions proceed as I am currently expecting, then some lowering of the policy rate this year would be appropriate.",
+   "However, I will remain attentive to the totality of the data and be prepared to change my economic and policy outlook if conditions change."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "ee1740ea67ae",
+  "date": "2025-06-23",
+  "speaker": "Adriana D. Kugler",
+  "title": "Welcoming Remarks at Fed Listens Event Hosted by the Federal Reserve Bank of New York, Schenectady, New York",
+  "bank": "fed",
+  "why": "random 2025",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The remarks focus on a public review of the Fed’s long-run monetary policy framework and gathering community feedback; they do not state the speaker’s own view on the near-term policy stance.",
+  "rationale_2": "The remarks are about gathering public input for the Federal Reserve’s review of its monetary policy framework and do not state the speaker’s view on where policy should go.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "74950bee3b6a",
+  "date": "2025-10-14",
+  "speaker": "Jerome H. Powell",
+  "title": "Understanding the Fed's Balance Sheet",
+  "bank": "fed",
+  "why": "random 2025",
+  "v9_relevant": true,
+  "v9_level": 7,
+  "v10_levels": [
+   4,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Powell says rising employment risks shifted the balance of risks and justified the recent move toward a more neutral stance. He makes no commitment to another cut, but the risk assessment suggests a modest tilt toward easing as policy remains responsive to incoming data.",
+  "rationale_2": "Powell describes increased downside risks to employment as shifting the balance of risks, and endorses the recent move toward a more neutral stance. He does not commit to further easing, but the risks he identifies point more toward easing than tightening.",
+  "evidence": [
+   "the downside risks to employment appear to have risen.",
+   "Rising downside risks to employment have shifted our assessment of the balance of risks.",
+   "As a result, we judged it appropriate to take another step toward a more neutral policy stance at our September meeting.",
+   "We will set policy based on the evolution of the economic outlook and the balance of risks"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "65824f472114",
+  "date": "2026-09-22",
+  "speaker": "Philip N. Jefferson",
+  "title": "Discount Window Modernization and Treasury Market Functioning",
+  "bank": "fed",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech focuses on modernizing the discount window and its role in Treasury market functioning, without expressing a view on the direction of monetary policy.",
+  "rationale_2": "The speech focuses on modernizing the discount window and its role in Treasury market functioning, without stating a view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "b53181a69860",
+  "date": "2026-05-20",
+  "speaker": "Michael S. Barr",
+  "title": "Measuring Financial Health",
+  "bank": "fed",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses measuring and improving household financial health, including consumer financial products, data, and privacy; it does not state a view on the U.S. monetary policy outlook or stance.",
+  "rationale_2": "The speech focuses on measuring and improving household financial health, consumer protection, and financial services; it does not express a view on the direction of U.S. monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "d948e4bcacf3dd595797",
+  "date": "2020-03-04",
+  "speaker": "Ben Broadbent",
+  "title": "Inflation and beliefs about inflation - speech by Ben Broadbent",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech focuses on the history and mechanics of inflation and monetary policy, and explicitly sets aside the current outlook. It notes that economic policy may support activity during the coronavirus disruption but does not state a clear personal view on the direction of UK monetary policy.",
+  "rationale_2": "The speech discusses the history and economic mechanisms of inflation, without stating a clear view on the near-term direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "d009b95d16a8c1be974f",
+  "date": "2020-04-16",
+  "speaker": "Silvana Tenreyro",
+  "title": "Monetary policy during pandemics: inflation before, during and after Covid-19 - speech by Silvana Tenreyro",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Tenreyro endorses the MPC’s emergency easing response to the unfolding pandemic, aimed at limiting lasting economic damage and deflationary pressure. She also supports taking further action if needed as the crisis develops.",
+  "rationale_2": "Tenreyro supports the emergency monetary easing as a way to limit lasting economic damage and counter deflationary pressures, and keeps the door open to further action while the crisis unfolds.",
+  "evidence": [
+   "In my view, the rationale for these responses differs somewhat from our usual focus on the balance of near-term demand and supply.",
+   "The MPC’s policy actions have involved reducing Bank Rate from 0.75% to 0.1%, introducing a Term Funding scheme with additional incentives for Small and Medium-sized Enterprises (TFSME) and increasing the size of our asset purchase programme, or quantitative easing, by £200 billion.",
+   "It also remains ready to take whatever further actions are necessary."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "e9aa874f5933a8f19df2",
+  "date": "2020-04-23",
+  "speaker": "Gertjan Vlieghe",
+  "title": "Monetary policy and the Bank of England’s balance sheet - speech by Gertjan Vlieghe",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Vlieghe supports the emergency monetary response to the pandemic’s severe economic shock and says further action remains available to prevent an unwarranted tightening and a deeper shortfall in inflation.",
+  "rationale_2": "Vlieghe supports the emergency monetary response to the pandemic and says further action may be needed to prevent an unwarranted tightening and help restore the economy. He presents the crisis as ongoing.",
+  "evidence": [
+   "“the current priority for monetary policy, with a lot of help from fiscal policy, is to return the economy to that pre-virus trajectory as soon as possible.”",
+   "“The MPC acted forcefully on 19 March by announcing a programme to buy £200bn of gilts and corporate bonds at a rapid pace.”",
+   "“The MPC stands ready to take further action to support the economy consistent with its remit.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "fd4b261b413160239762",
+  "date": "2020-05-28",
+  "speaker": "Michael Saunders",
+  "title": "Covid-19 and monetary policy - speech by Michael Saunders",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   3,
+   2
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Saunders argues that the risks of a slow recovery and lasting economic scarring make it safer to provide additional stimulus promptly than to do too little. He supports further easing if downside risks persist, while noting that policy could be tightened if conditions later require it.",
+  "rationale_2": "Saunders argues that downside risks and the costs of a slow recovery warrant prompt additional stimulus, and he supported expanding asset purchases. He favors easing rather than waiting for further data before acting.",
+  "evidence": [
+   "risk management considerations favour a relatively prompt and aggressive response to downside risks.",
+   "It is safer to err on the side of easing somewhat too much",
+   "At the May meeting, my view was that some further stimulus was required to achieve our remit."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "0e52b3012bf51abdb11d",
+  "date": "2020-06-30",
+  "speaker": "Andy Haldane",
+  "title": "The second quarter - speech by Andy Haldane",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   4,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Haldane voted to maintain the stance rather than ease further, judging that stronger demand news offset negative employment news. He nevertheless saw the outlook risks as still skewed to the downside, leaving a modest easing tilt.",
+  "rationale_2": "Haldane favored keeping the monetary stance unchanged, judging that stronger demand news outweighed the deterioration in the outlook. Although he saw risks as still skewed to the downside, he did not call for further easing.",
+  "evidence": [
+   "My judgement on the balance of these risks led me to vote to maintain the monetary stance rather than loosen it further.",
+   "To my mind, this leaves risks to the outlook slightly more evenly balanced than in May, if still with a downside skew.",
+   "Although these risks are in my view slightly more evenly balanced than in May, they remain skewed to the downside."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "655f488515b63c723c82",
+  "date": "2021-09-27",
+  "speaker": "Andrew Bailey",
+  "title": "The hard yards - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bailey supports modest tightening as the stimulus is unwound, and says recent evidence has strengthened the case. He allows that a Bank Rate increase could come before the asset-purchase programme ends, while acknowledging substantial uncertainty.",
+  "rationale_2": "Bailey expects modest tightening to become necessary, with recent evidence strengthening the case for a Bank Rate increase. He stresses uncertainty and the possibility that current inflation pressures will prove temporary, but sees the balance of the outlook moving toward tightening.",
+  "evidence": [
+   "all of us believe that there will need to be some modest tightening of policy to be consistent with meeting the inflation target sustainably over the medium-term.",
+   "Recent evidence appears to have strengthened that case",
+   "that unwind should be enacted by an increase in Bank Rate, and if appropriate would not need to wait for the end of the current asset purchase programme."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "88875abc3352069d1d15",
+  "date": "2021-10-25",
+  "speaker": "Silvana Tenreyro",
+  "title": "International trade, global supply chains and monetary policy - speech by Silvana Tenreyro",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   6,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Tenreyro expected a gradual unwinding of monetary stimulus to be needed over time, while judging that recent news would not materially change the amount of tightening required. She emphasized uncertainty and the temporary nature of many inflation pressures, so her comments do not signal urgency to tighten in the near term.",
+  "rationale_2": "She expects modest tightening to be needed to return inflation sustainably to target, and judges that recent developments are unlikely to materially change the amount required. The timing remains dependent on incoming data and how the risks evolve.",
+  "evidence": [
+   "some modest tightening, broadly in line with our conditioning path, would be required to achieve the inflation target sustainably.",
+   "Overall, I judge that the balance of this set of news is unlikely to have a large effect on the amount of tightening required over the next few years.",
+   "The August forecast was conditioned on market expectations of a gently rising path for Bank Rate, gradually unwinding the relatively small amount of monetary policy stimulus added since the onset of Covid."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "70cee557188839360bf9",
+  "date": "2021-11-23",
+  "speaker": "Jonathan Haskel",
+  "title": "Inflation now and then - speech by Jonathan Haskel (pdf 1.6MB)",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Haskel expects Bank Rate to rise as the recovery proceeds, particularly if labour-market tightness persists and pushes up wages. The move is conditional on the outlook and further evidence, rather than an immediate call for a hike.",
+  "rationale_2": "Haskel expects Bank Rate to rise if the labour market remains buoyant, and says recent evidence makes a recovery more likely. He still points to the need for further data, so his support is for a prospective increase rather than an immediate or accelerated move.",
+  "evidence": [
+   "In my view, if the labour market stays tight, Bank Rate will have to rise.",
+   "That is a story of a smooth transition back to the 2019 equilibrium which would be consistent with a general path of rising rates embedded in the MPC forecast.",
+   "the latest data continues to indicate a tight labour market, putting upward pressure on wages.",
+   "the prospective rise in Bank Rate from its emergency level – whenever that comes - is not a bug, but a feature."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "601d5969e6ef0993d905",
+  "date": "2021-11-26",
+  "speaker": "Huw Pill",
+  "title": "UK Monetary Policy – ‘Crossing the river by feeling the stones’ - speech by Huw Pill",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Pill supports raising Bank Rate over the coming months if incoming data remain consistent with the Bank’s projections. He sees the recovery as established, the labour market as tight, and inflationary pressures as sufficient to warrant withdrawing some accommodation, while favoring a measured, data-dependent approach.",
+  "rationale_2": "Pill expects Bank Rate increases in the coming months, conditional on the data remaining consistent with the outlook. He points to a well-established recovery, a tight labour market and inflation likely to remain above target, while emphasizing a measured, step-by-step approach.",
+  "evidence": [
+   "“Taken together, these developments were sufficient for me to support the MPC’s November steer that, should the incoming data continue to be consistent with the projections published in the committee’s latest Monetary Policy Report, it will be necessary over coming months to increase Bank Rate for the inflation target is to be achieved in a sustainable manner.”",
+   "“In other words, given where we stand in terms of data and analysis, I view the likely direction of travel for monetary policy from here as pretty clear.”",
+   "“While in September I was still seeking data to confirm my assessment of the strength of the post-pandemic recovery and accumulation of inflationary pressures, now I scan incoming information for challenges to that view.”"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "0e4e4696976ca5191f37",
+  "date": "2021-12-03",
+  "speaker": "Michael Saunders",
+  "title": "The outlook for inflation and monetary policy - speech by Michael Saunders",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   7,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Saunders expects further Bank Rate increases over the coming quarters if the economy develops as he anticipates, to contain persistent inflation pressures. He notes that Omicron may justify waiting for more information before adjusting policy.",
+  "rationale_2": "Saunders favors raising Bank Rate and expects further tightening soon if the economy follows his forecast. He sees persistent domestic cost and capacity pressures as requiring a withdrawal of stimulus, while allowing that Omicron could affect the timing.",
+  "evidence": [
+   "If the economy develops as I expect, then some additional tightening, on top of such a move, probably will be needed fairly soon.",
+   "if the economy develops in line with the MPR central forecast or my expectations, the direction of travel for Bank Rate during the next few quarters is clearly likely to be upwards.",
+   "If the economy continues along its recent path, then maintaining the current highly accommodative policy stance would probably allow the labour market to tighten further and, with inflation well above target, reinforce risks of a further rise in long-term inflation expectations."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "74f955bcb2e50a23a969",
+  "date": "2018-04-10",
+  "speaker": "Andy Haldane",
+  "title": "How Monetary Policy Affects Your GDP - speech by Andy Haldane",
+  "bank": "boe",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech examines the distributional effects of the post-crisis monetary easing and ways to explain them to the public. It does not state a view on the near-term direction of UK monetary policy.",
+  "rationale_2": "The speech examines the distributional effects of past monetary easing and argues for clearer communication, but does not express a view on the near-term direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "e3b513d334a549dad584",
+  "date": "2018-03-22",
+  "speaker": "Dave Ramsden",
+  "title": "The Bank of England - Open to Fintech - speech by Dave Ramsden",
+  "bank": "boe",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech focuses on fintech, payments infrastructure, and the Bank’s engagement with financial innovation; it does not state the speaker’s view on the direction of UK monetary policy.",
+  "rationale_2": "The speech is about the Bank of England’s engagement with fintech and its plans for payments infrastructure, innovation and regulation; it does not state the speaker’s view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "f1ee061b25c22c4cd9a6",
+  "date": "2019-03-06",
+  "speaker": "Jon Cunliffe",
+  "title": "When expectations meet the future - speech by Jon Cunliffe",
+  "bank": "boe",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses financial stability, credit and asset-price risks, and macroprudential resilience, without stating the speaker’s view on where UK monetary policy should go.",
+  "rationale_2": "The speech focuses on financial stability, credit cycles and making the financial system resilient to future shocks; it does not reveal the speaker’s view on the direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "e3d5e30a03cb92583847",
+  "date": "2019-03-28",
+  "speaker": "Mark Carney",
+  "title": "Investing in Ethnicity & Race - speech by Mark Carney (pdf 0.6MB)",
+  "bank": "boe",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech is about diversity, inclusion and ethnic representation at the Bank of England, with no statement of the speaker’s view on monetary policy.",
+  "rationale_2": "The speech is about diversity and inclusion at the Bank of England and does not express a view on monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "d71c3f109eb57d9a4423",
+  "date": "2020-02-11",
+  "speaker": "Jonathan Haskel",
+  "title": "Monetary policy in the intangible economy - speech by Jonathan Haskel",
+  "bank": "boe",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   2,
+   2
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Haskel favors an easing move in the near term, arguing that limited room for conventional policy makes acting now important to secure a sustainable return of inflation to target.",
+  "rationale_2": "Haskel favors an additional easing move now, arguing that limited room for conventional policy makes it important to support a sustainable return of inflation to target.",
+  "evidence": [
+   "I continue to prefer to move now in order to ensure we achieve a sustainable return of inflation to target.",
+   "where limited conventional monetary policy space means I continue to prefer to move now"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "8f5802876868abff0e63",
+  "date": "2020-11-28",
+  "speaker": "Andy Haldane",
+  "title": "What has central bank independence ever done for us? - speech by Andy Haldane",
+  "bank": "boe",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Haldane supports the QE already undertaken as necessary insurance for demand and the inflation target, while describing the medium-term outlook and inflation risks as more evenly balanced. He does not signal a further near-term move in either direction.",
+  "rationale_2": "Haldane supports the QE already announced as necessary to support demand and meet the inflation target. He describes inflation risks as contained and the broader outlook as more balanced, without expressing a preference for further easing or tightening.",
+  "evidence": [
+   "The justification for the QE actions taken by the MPC this year, and which I have supported, is that they will support demand and act as an insurance policy against any premature and undesirable rise in borrowing costs",
+   "My view is that these QE actions have been necessary to support the economy and hit the inflation target.",
+   "this will in my view leave risks to the economic outlook more evenly balanced than for some time, including risks to inflation over the medium term."
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "11d9882efbb8681fa1eb",
+  "date": "2021-03-08",
+  "speaker": "Andrew Bailey",
+  "title": "Getting over Covid - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   4,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Bailey endorses the current monetary stance and does not signal an immediate policy change. However, he says recovery risks remain skewed to the downside, leaving a modest inclination toward easing.",
+  "rationale_2": "Bailey says the current policy stance is justified and does not signal an immediate move, but the risks to the recovery remain skewed to the downside, leaving a bias toward additional support if the outlook weakens.",
+  "evidence": [
+   "it amply justifies our current stance on monetary policy.",
+   "the risks around the Covid recovery, which are still on balance distributed on the downside",
+   "These decisions are detached from our current or likely future policy decisions"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "5fa1f2a5fae6e3453b73",
+  "date": "2021-07-26",
+  "speaker": "Gertjan Vlieghe",
+  "title": "Running out of room: revisiting the 3D perspective on low interest rates - Gertjan Vlieghe",
+  "bank": "boe",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Vlieghe supports keeping monetary stimulus in place for several quarters and delaying tightening while the recovery remains incomplete and the inflation rise is expected to fade. He anticipates that any eventual tightening will be limited, but does not call for an additional policy move in the near term.",
+  "rationale_2": "Vlieghe supports keeping the current monetary stimulus in place for several quarters, citing lingering pandemic and labour-market risks and the withdrawal of government support. He does not call for additional easing, and sees only limited tightening as appropriate later.",
+  "evidence": [
+   "I have not changed my view that this inflation peak is likely to be temporary.",
+   "I would want to see how the economy copes with that, before adding monetary tightening on top of fiscal tightening.",
+   "For all these reasons, I think it will remain appropriate to keep the current monetary stimulus in place for several quarters at least, and probably longer.",
+   "And when tightening does become appropriate, I suspect not much of it will be needed, given the low level of the neutral rate."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "897158d6216304851bc7",
+  "date": "2022-07-07",
+  "speaker": "Huw Pill",
+  "title": "Economic outlook − speech by Huw Pill",
+  "bank": "boe",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 5,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Pill expects further tightening, while the pace will depend on incoming data and whether persistent inflationary pressures emerge. He is willing to tighten faster if circumstances require.",
+  "rationale_2": "Pill expects further tightening, with the pace depending on incoming evidence about persistent inflation pressures. He is prepared to tighten faster if circumstances warrant, but has not committed to an immediate move.",
+  "evidence": [
+   "I would anticipate that we will see more policy tightening ahead.",
+   "At least on my part, this statement reflects a willingness – should circumstances require – to adopt a faster pace of tightening than we have seen implemented in this interest rate cycle so far.",
+   "The key open question is the scale, pace and timing of any further tightening, given both the current elevated level of inflation and the potential weakening of the economy (and inflationary pressures) further out."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "16099a09ac0c03658a3c",
+  "date": "2022-02-10",
+  "speaker": "Andrew Bailey",
+  "title": "A resilient financial system - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2022",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses financial-system resilience, prudential regulation and international cooperation, without stating the speaker’s view on UK monetary policy.",
+  "rationale_2": "The speech discusses financial-system resilience, prudential regulation and international cooperation, without stating the speaker’s view on the UK monetary-policy outlook.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "378b78da963fe8d789cc",
+  "date": "2023-11-29",
+  "speaker": "Andrew Bailey",
+  "title": "Opening remarks at the 50th anniversary of the London Foreign Exchange Joint Standing Committee (FXJSC) - Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2023",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses the history and development of foreign exchange markets, market technology, and financial stability; it does not state Andrew Bailey’s view on the direction of UK monetary policy.",
+  "rationale_2": "The speech discusses the history, structure and financial-stability role of foreign exchange markets, without stating Andrew Bailey’s view on the direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "97307837098b156b6a85",
+  "date": "2023-08-26",
+  "speaker": "Ben Broadbent",
+  "title": "The economic costs of restricting trade: the experience of the UK - speech by Ben Broadbent",
+  "bank": "boe",
+  "why": "random 2023",
+  "v9_relevant": true,
+  "v9_level": 7,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Broadbent expects policy to remain restrictive for some time because domestic inflation pressures may unwind only gradually. He considers the current stance sufficient for now and says future policy should respond to incoming evidence.",
+  "rationale_2": "Broadbent expects policy to remain restrictive for some time and considers the current level of rates sufficient to widen spare capacity. He emphasizes that future decisions will depend on incoming evidence, without signaling a further move in either direction.",
+  "evidence": [
+   "policy will probably have to remain in restrictive territory for quite some time yet.",
+   "the MPC’s latest forecast implies that policy is tight enough to offset the positive influence on demand from improving real income and that spare capacity will widen.",
+   "policy will respond to the evidence on spare capacity, and to indicators of domestic inflation, as and when it comes through."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "665b43f166c058f163af",
+  "date": "2024-10-26",
+  "speaker": "Andrew Bailey",
+  "title": "The future of money and payments - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2024",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses modernising payments, the roles of central and commercial bank money, and preparations for a possible retail CBDC. It does not state a view on the UK monetary policy stance.",
+  "rationale_2": "The speech discusses modernising payments, the role of central bank and commercial bank money, and preparation for a retail CBDC. It does not state a view on the direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "23b7b90529d44f7cc6c0",
+  "date": "2024-02-07",
+  "speaker": "Sarah Breeden",
+  "title": "Engineering revisited - speech by Sarah Breeden",
+  "bank": "boe",
+  "why": "random 2024",
+  "v9_relevant": true,
+  "v9_level": 7,
+  "v10_levels": [
+   5,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "She is less concerned that further tightening will be needed and is focused on how long rates should stay at their current level. She calls for more evidence on inflation persistence and demand, without advocating a near-term rate change or explicitly leaning toward cuts.",
+  "rationale_2": "She sees less need for further tightening and expects Bank Rate to remain at its current level while she assesses incoming evidence. Her focus on how long rates need to stay there points toward eventual easing, but she does not call for a near-term cut.",
+  "evidence": [
+   "I have become less concerned that rates might need to be tightened further.",
+   "Instead my focus, and indeed the focus of many on the MPC, has shifted to thinking about how long rates need to remain at their current level.",
+   "I need to see further evidence to be confident that the UK economy is progressing as set out in our forecast."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "6a2aa016f589db433d02",
+  "date": "2025-06-20",
+  "speaker": "Andrew Bailey",
+  "title": "Central Banking in extreme adversity - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2025",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses central bank independence, monetary and financial stability frameworks, and the evolution of money, without stating a view on the near-term direction of UK monetary policy.",
+  "rationale_2": "The speech discusses central-bank frameworks, financial stability, and the evolution of money, but does not state Bailey’s view on the near-term direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "d9c4cc2512abbdb5c2c2",
+  "date": "2025-07-10",
+  "speaker": "Sarah Breeden",
+  "title": "Weathering the storm: stability in a changing climate - speech by Sarah Breeden",
+  "bank": "boe",
+  "why": "random 2025",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech focuses on how climate change affects inflation and financial stability, but it does not state a personal view on the near-term direction of UK monetary policy.",
+  "rationale_2": "The speech focuses on climate-related risks to inflation and financial stability, but does not state a directional view on the near-term UK monetary policy stance.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "90bd06121723a47fc007",
+  "date": "2026-10-01",
+  "speaker": "Catherine L Mann",
+  "title": "Financial conditions: what’s priced in? − speech by Catherine L. Mann",
+  "bank": "boe",
+  "why": "random 2026",
+  "v9_relevant": true,
+  "v9_level": 9,
+  "v10_levels": [
+   8,
+   8
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Mann favors further Bank Rate increases, arguing that real financial conditions are not tight enough and that a firmer response is needed to contain inflation risks and maintain credibility.",
+  "rationale_2": "Mann supports further Bank Rate increases, arguing that real financial conditions are not tight enough and that inflation risks remain elevated. She favors a sufficiently restrictive policy path to secure a sustainable return of inflation to target.",
+  "evidence": [
+   "In my view, our current monetary policy stance is not sufficiently tight, which is why I voted in the last two meetings for a 25 basis point increase in Bank Rate.",
+   "At some point, we need to follow-through with Bank Rate rises – to maintain credibility, and to avoid policy expectations repricing downwards and inflation expectations repricing further upwards.",
+   "raising Bank Rate to commit to the inflation target can help ensure a sustainable return of inflation to the 2% target"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "8ea2cf571cfd6164b7cd",
+  "date": "2026-02-02",
+  "speaker": "Sarah Breeden",
+  "title": "Talking ’bout next generation − speech by Sarah Breeden",
+  "bank": "boe",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech is about renewing UK retail payments infrastructure and supporting payments innovation; it does not express a view on the direction of UK monetary policy.",
+  "rationale_2": "The speech is about renewing UK retail payments infrastructure and supporting payments innovation; it does not express a view on the direction of UK monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "de6c364817f747422bd6",
+  "date": "2022-10-19",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策富山県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Adachi argues against changing policy toward tightening and favors continuing the current accommodative stance. He sees durable achievement of the inflation target as uncertain and worries that downside risks could undermine inflation.",
+  "rationale_2": "Adachi considers a policy adjustment premature and favors continuing the current accommodative stance, citing uncertain progress toward stable inflation and substantial downside risks. He does not call for additional easing in the near term.",
+  "evidence": [
+   "私は、金融政策の修正は時期尚早と考えています。",
+   "金融政策を引き締め方向に修正することには慎重であるべきではないかと考えています。",
+   "緩和的な金融政策を続けることが現時点で最良の選択と考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "9f8e4e8249425feacd47",
+  "date": "2022-10-21",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】全国信用組合大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kuroda says the Bank will continue monetary easing to support the economy and achieve its inflation target sustainably alongside wage growth. He expresses no preference for a further near-term change in the policy setting.",
+  "rationale_2": "Kuroda says the Bank will continue monetary easing to achieve its inflation target sustainably alongside wage growth. He does not call for additional easing or signal a near-term policy change.",
+  "evidence": [
+   "金融緩和を実施していく考えです。",
+   "賃金の上昇を伴うかたちで、「物価安定の目標」を持続的・安定的に実現できるよう"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "8e0b27a4c4935431743d",
+  "date": "2022-11-14",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 最近の金融経済情勢と金融政策運営名古屋での経済界代表者との懇談における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kuroda supports maintaining the current accommodative stance to sustain the recovery and foster wage growth, arguing that current inflation is driven mainly by import costs and is expected to fall below 2 percent. He does not call for additional easing or signal a near-term tightening move.",
+  "rationale_2": "Kuroda supports maintaining monetary easing to sustain the recovery and foster wage growth, judging that inflation will fall below the target as cost-driven pressures fade. He does not signal a further near-term policy move.",
+  "evidence": [
+   "日本銀行は、先月の金融政策決定会合において、金融緩和を継続することを決定しました。",
+   "現在は、金融緩和を継続することによって、経済活動をしっかりと支えていくべき局面にあると考えています。",
+   "先ほど申し上げたとおり、この影響が減衰していくにしたがって、来年度以降、物価は2％を下回る見通しです。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "9791f4759a13d17974c0",
+  "date": "2022-12-01",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策秋田県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Noguchi supports maintaining the current accommodative stance and keeping interest rates low, arguing that sustained easing is needed to improve labor-market conditions and support wage growth. He does not call for additional easing or signal a near-term policy change.",
+  "rationale_2": "Noguchi favors maintaining the current accommodative stance and keeping interest rates low, arguing that sustained easing is needed to improve labor-market conditions and support a durable wage-price cycle. He does not call for additional easing or signal a near-term move in either direction.",
+  "evidence": [
+   "金融緩和を継続し、金利を低い水準に抑えることが重要であると考えています。",
+   "賃金上昇の促進のためには、現状の金融緩和を粘り強く継続し、未だコロナ禍以前の水準に達していない労働需給の状況、具体的には失業率や有効求人倍率をさらに改善させていく必要があります。",
+   "私自身は、現行の金融緩和の継続はそのための最も基本的な要件であると考えています。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "b5c4c78f45f394fdcfd3",
+  "date": "2022-12-03",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【講演】金融政策の未来：貨幣経済学の歴史に学ぶ景気循環学会第38回大会における基調講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   4,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Wakatabe argues that low natural rates and the persistent risk of Japanification mean monetary policy must remain capable of lowering real rates and supporting demand. He favors continued accommodation and preserving the option of further easing, without calling for an immediate policy change.",
+  "rationale_2": "Wakatabe argues that Japan’s risk of secular stagnation and deflation has not passed, and that monetary policy may still need to lower real rates and preserve a high-pressure economy. He supports an easing-oriented policy outlook, but does not call for an immediate move.",
+  "evidence": [
+   "自然利子率の低下傾向が続くとしたら、中央銀行の金融政策の課題は、依然として実質利子率をいかに効果的に下げていくかということになります。",
+   "政策目標と手段の双方において、金融政策の有効性を増すための政策イノベーションの必要性は、今後とも増すことはあれ、減ることはないと言えます",
+   "長期停滞、「日本化」の潜在的危険性は過ぎ去っていないというべきでしょう。",
+   "日本では長年デフレであったわけですが、持続的な金融緩和は実物経済に好影響を与えてきたと言えます。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "a731c29b774b7d698d8e",
+  "date": "2022-12-07",
+  "speaker": "NAKAMURA Toyoaki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策長野県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Nakamura favors persistently maintaining accommodative policy, citing the economy’s incomplete recovery, continued demand shortfall, and lack of wage-driven inflation. He does not call for additional easing or indicate a near-term change in the current stance.",
+  "rationale_2": "Nakamura favors continuing monetary easing, arguing that the recovery remains incomplete and that inflation is not yet accompanied by sufficiently strong wage growth. He warns that tightening could weaken activity and risk a return to deflation.",
+  "evidence": [
+   "現在の日本経済においては金融緩和を粘り強く続ける必要がある",
+   "供給力に対して需要不足が続く局面での金融政策の引き締めは、企業や家計の経済活動に大きな抑制圧力をかけ、デフレ経済に戻しかねません。",
+   "緩和的な金融政策の継続が必要と考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "220ee8e16b69527b8181",
+  "date": "2022-12-26",
+  "speaker": "KURODA Haruhiko",
+  "title": "【講演】 賃金上昇を伴う形での「物価安定の目標」の持続的・安定的な実現に向けて 日本経済団体連合会審議員会における講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kuroda endorses continuing the current accommodative stance, arguing it will support recovery and help achieve stable inflation accompanied by wage growth. He describes the recent yield-curve-control adjustment as a way to sustain easing, not as a step toward tightening.",
+  "rationale_2": "Kuroda supports maintaining the current accommodative stance, arguing that inflation is expected to fall below 2 percent and that continued support is needed to foster wage growth and a sustainable inflation target. He presents the recent yield-curve-control adjustment as a way to sustain easing, not as a step toward exit.",
+  "evidence": [
+   "金融緩和を継続することを決定しました。",
+   "出口の一歩ということでは全くありません。",
+   "日本銀行としては、イールドカーブ・コントロールの枠組みのもとで、金融緩和を続けていくことで、賃金の上昇を伴う形で「物価安定の目標」の持続的・安定的な達成を目指していく方針です。",
+   "緩和的な金融環境をしっかりと維持していくことで、それを最大限後押ししていく"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "a2fc8b1e6640a62d5723",
+  "date": "2023-02-02",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営静岡県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Wakatabe supports maintaining monetary easing because achieving the 2 percent inflation target sustainably, alongside wage growth, will still take time. He does not call for an additional policy move in the near term.",
+  "rationale_2": "Wakatabe supports maintaining monetary easing because he sees sustainable, stable achievement of the 2 percent inflation objective as still some way off. He endorses continuing the current stance but does not call for a further near-term easing step.",
+  "evidence": [
+   "「物価安定の目標」を持続的・安定的に実現するため、引き続き、金融緩和を着実に進めていく必要があると考えています。",
+   "このため、先月の金融政策決定会合でも、金融緩和の継続を決定したところです。",
+   "このように、金融緩和を続けていくという日本銀行のコミットメントは全く変わっておりません。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "0ebf126eed803bd3b753",
+  "date": "2023-02-22",
+  "speaker": "TAMURA Naoki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策群馬県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Tamura favors maintaining monetary easing for now while assessing whether a sustainable wage-price cycle is taking hold. He sees a policy-framework review as necessary at some future point but does not advocate a near-term change in stance.",
+  "rationale_2": "He favors maintaining the current easing stance while monitoring whether wage and price increases become mutually reinforcing. Although he sees a need for a future review of the framework and its side effects, he does not advocate a near-term policy change.",
+  "evidence": [
+   "足もとは、賃金と物価の好循環が実現するかどうかを注視していくべき局面にあると捉えており、現時点においては、金融緩和を継続することが適当と考えています。",
+   "将来、いずれかのタイミングでは、金融政策の枠組みや物価目標のあり方を含め、点検・検証を行い、政策の効果と副作用のバランスを改めて判断することが必要と考えていますが、現時点では、先ほど申し上げたとおり、金融緩和を継続することが適当と考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "fba5a9a5fd0a395df48f",
+  "date": "2023-03-01",
+  "speaker": "NAKAGAWA Junko",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策福島県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "She considers the inflation target not yet achieved and supports maintaining monetary easing to support the economy. She does not advocate a further near-term change in the policy stance.",
+  "rationale_2": "She favors maintaining monetary easing to support the economy until the price stability target is achieved. She describes the YCC adjustment as an operational change to improve market functioning while preserving an accommodative financial environment.",
+  "evidence": [
+   "「物価安定の目標」が達成されたと判断するまでは至っていません。",
+   "当面の金融政策に関しては、金融緩和を維持し、経済をサポートすることが必要であると考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "b35f45b689283b464511",
+  "date": "2023-03-02",
+  "speaker": "TAKATA Hajime",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策神奈川県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Takata supports maintaining the current large-scale monetary easing, arguing that inflation has not yet become sustainably supported by wage growth and that overseas economic weakness poses downside risks. He favors patience while the Bank assesses whether a lasting virtuous cycle in wages and prices is taking hold.",
+  "rationale_2": "Takata supports maintaining the current large-scale easing, arguing that inflation is not yet sustainably supported by wage growth and that persistent accommodation is needed to foster a durable wage-price cycle. He does not call for a further near-term policy change.",
+  "evidence": [
+   "現行の大規模な金融緩和を続ける必要があると考えています。",
+   "時間をかけて粘り強く金融緩和を続け、需給ギャップに働きかけていく必要があります。",
+   "現在は、経済と物価の持続的な好循環が実現できるかを見極める段階にあり、大規模緩和の市場機能への影響を踏まえつつも、粘り強く金融緩和を続ける局面と言えます。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "d5f982b0db4a2bd9dc0c",
+  "date": "2023-04-12",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】第98回信託大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda says the Bank will continue monetary easing to support the economy and achieve the price stability target sustainably and stably. He does not signal a further move in either direction over the near term.",
+  "rationale_2": "Ueda says the Bank should continue monetary easing to support the economy and achieve its inflation target sustainably alongside wage growth. He expects inflation to slow and signals no further policy change in the near term.",
+  "evidence": [
+   "今後についても、緩和的な金融環境や政府による経済対策の効果にも支えられて、わが国経済は回復を続けるとみています。",
+   "金融緩和を継続していく考えです。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "92ac0f706ff736be404c",
+  "date": "2023-05-19",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】金融政策の基本的な考え方と経済・物価情勢の今後の展望 内外情勢調査会における講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda supports maintaining the current large-scale easing, arguing that inflation is not yet sustainably at the 2 percent target and that a premature policy shift could undermine progress. He favors taking time before adjusting policy toward an exit rather than making a near-term move.",
+  "rationale_2": "Ueda supports maintaining the current large-scale monetary easing, judging that sustained wage and price increases are not yet assured. He favors taking time before adjusting policy toward an exit.",
+  "evidence": [
+   "現在はしっかりと金融緩和を続けていくことが必要になります。",
+   "日本銀行としては、イールドカーブ・コントロールのもとで、大規模な金融緩和を継続していく方針です。",
+   "先行きの出口に向けた金融緩和の修正は、時間をかけて判断していくことが適当だと考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "7b1d5e139f51ab50d858",
+  "date": "2023-06-21",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】全国信用金庫大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda says the Bank should persist with its current monetary easing to achieve the 2 percent inflation target alongside wage growth. He does not signal a further near-term easing or tightening move.",
+  "rationale_2": "Ueda supports continuing the current monetary easing stance to achieve the 2 percent inflation target sustainably alongside wage growth. He does not signal a further easing or tightening move over the near term.",
+  "evidence": [
+   "経済・物価・金融情勢に応じて機動的に対応しつつ、粘り強く金融緩和を継続していくことで",
+   "賃金の上昇を伴う形で、2％の「物価安定の目標」を持続的・安定的に実現することを目指していく方針です。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "8cedf35421e76d987c1e",
+  "date": "2023-06-21",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策鹿児島県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Adachi considers a policy adjustment premature amid substantial uncertainty about the inflation outlook and supports continuing the existing monetary easing framework while assessing whether inflation can rise sustainably and stably.",
+  "rationale_2": "Adachi considers it too early to revise policy, given uncertainty about the inflation outlook, and supports continuing the current accommodative framework while assessing whether inflation can be sustained. He does not call for additional easing or signal a near-term tightening move.",
+  "evidence": [
+   "まだ金融政策の修正に踏み切るのは時期尚早と考えられます。",
+   "2％の「物価安定の目標」の持続的・安定的な実現に向けた動きの見極めを丁寧に行うことが大切と考えています。",
+   "この枠組みは必要と考えています。",
+   "引き続きイールドカーブ・コントロールの枠組みのもとで、金融緩和を継続していくことが適当であると考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "bf15c840d4a7c45fa42c",
+  "date": "2023-06-22",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策沖縄県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Noguchi supports persistently maintaining monetary easing to help establish sustained wage growth and a virtuous wage-price cycle. He says the Bank should carefully assess whether inflation and wage norms are changing, but does not call for additional easing or signal a near-term move in either direction.",
+  "rationale_2": "Noguchi supports continuing persistent monetary easing to strengthen the emerging wage-growth momentum and assess whether inflation and wage norms are changing. He does not call for additional easing or signal a near-term shift in policy.",
+  "evidence": [
+   "金融緩和の継続を通じて、ようやく芽生えつつあるこの賃上げのモメンタムをより強固なものとし、趨勢的なトレンドとして定着させることです。",
+   "日本銀行の粘り強い金融緩和の究極の目的は、まさしく日本経済をそのような姿に蘇らせることにあります。",
+   "日本銀行としては、当面、そのノルムが変わりつつあるのか否かを慎重に見極めていく必要があると考えています。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "b04e6802cb29461c0965",
+  "date": "2023-08-02",
+  "speaker": "UCHIDA Shinichi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営千葉県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   4,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Uchida favors maintaining persistent monetary easing, judging that the risk of withdrawing accommodation too soon outweighs the risk of inflation staying above target. He does not advocate additional easing, but his risk assessment tilts against tightening.",
+  "rationale_2": "Uchida supports maintaining accommodative policy and sees a premature reduction in easing as the more consequential risk, while judging that a rate increase is still far off. His remarks point to an easing-leaning balance of risks, not an immediate call for additional easing.",
+  "evidence": [
+   "現状では、「引き締めが遅れて、2％を超えるインフレ率が持続してしまう」という「上方向」のリスクよりも、「拙速な緩和の修正によって、2％を実現する機会を逸してしまう」という「下方向」のリスクの方が大きいと考えています。",
+   "来年もしっかりと賃上げが行われるように、粘り強く金融緩和を続け、経済を支えていくことが必要な局面です。",
+   "今は粘り強く金融緩和を続けることが一番大切であり、これをうまく続けるための柔軟化です。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "18e72199438e85b39c39",
+  "date": "2023-08-26",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】カンザスシティ連邦準備銀行主催シンポジウムパネルセッション：「変曲点にあるグローバリゼーション」 における講演の抄訳（8月26日、於・米国ワイオミング州ジャクソンホール）",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda supports maintaining the current easing framework because he judges underlying inflation to remain below target. He does not signal a further near-term policy move.",
+  "rationale_2": "Ueda supports maintaining the current easing framework because underlying inflation remains below target. He does not signal a further near-term move in either direction.",
+  "evidence": [
+   "We think that underlying inflation is still below our target of 2%.",
+   "This is why we are sticking with our current monetary easing framework."
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "20d75c491e9584554af5",
+  "date": "2023-08-30",
+  "speaker": "TAMURA Naoki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策道東地域金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "He considers continued monetary easing appropriate for now because uncertainty remains about the sustained, stable achievement of the price target. He expects wage and price data to provide greater clarity around early next year but does not state a preferred policy move within the near-term horizon.",
+  "rationale_2": "Tamura considers continued monetary easing appropriate for now and says more time is needed to assess wages and prices. He notes upside inflation risks, but does not state that policy should move toward tightening within the near term.",
+  "evidence": [
+   "現時点においては、金融緩和を継続することが適当と考えています。",
+   "来年1～3月頃には、その時点の賃上げのモメンタムやそれまでに得られる年後半の物価動向などのデータから、解像度が一段と上がると期待しているところです。",
+   "イールドカーブ・コントロールの枠組みによる金融緩和の持続性を高めることです。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "7b0b2e192c89853b3dcc",
+  "date": "2023-08-31",
+  "speaker": "NAKAMURA Toyoaki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策岐阜県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Nakamura favors maintaining the current accommodative stance, arguing that sustainable inflation accompanied by wage growth is not yet assured and that a shift to tightening would be premature. He does not call for additional easing or signal a near-term policy move.",
+  "rationale_2": "Nakamura favors maintaining the current monetary easing for now, arguing that inflation is still largely driven by imported costs and has not yet become sustainably accompanied by wage growth. He cautions that tightening too soon could weaken demand and businesses’ capacity to raise wages.",
+  "evidence": [
+   "当面は現在の金融緩和を粘り強く続ける必要があると考えています。",
+   "現状では、賃金上昇を伴う2％の「物価安定の目標」の持続的・安定的な実現を見通せる状況には至っておらず、金融引き締めへの転換にはまだ時間が必要です。",
+   "緩和的な金融環境の提供を通じて後押ししていきます。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "9ebe5776a40f8272fe0d",
+  "date": "2023-09-06",
+  "speaker": "TAKATA Hajime",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策山口県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Takata supports maintaining the current large-scale easing, arguing that sustainable achievement of the inflation target remains some distance away and that overseas slowdown risks could weigh on the economy. He does not call for additional easing or signal a near-term move toward tightening.",
+  "rationale_2": "Takata favors maintaining the existing large-scale easing, judging that sustainable achievement of the 2 percent target remains uncertain despite signs of a favorable wage-price cycle. He also emphasizes flexibility in responding to developments, but does not signal a preferred near-term policy move.",
+  "evidence": [
+   "現行の大規模な金融緩和を粘り強く続ける必要がある",
+   "2％の「物価安定の目標」の持続的・安定的な実現にはまだ距離がある",
+   "先行きの海外経済の減速リスク"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "5d3e698934a515abd656",
+  "date": "2023-09-07",
+  "speaker": "NAKAGAWA Junko",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策高知県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "She supports maintaining monetary easing because the price stability target has not yet been achieved sustainably. She presents the more flexible yield-curve control framework as preserving the durability of easing and allowing responses to risks in either direction, rather than as a near-term tightening move.",
+  "rationale_2": "She favors maintaining the current accommodative stance for now, because the 2 percent price stability target has not yet been achieved sustainably and stably. She views the more flexible yield curve control framework as supporting the durability of easing, not as a move toward tightening.",
+  "evidence": [
+   "当面の金融政策に関しては、金融緩和を維持することが適当であると考えています。",
+   "市場機能にも配慮しながら、緩和的な金融政策を粘り強く行うことは両立するものと考えています。",
+   "今回の措置によって、先々の上下両方向のリスクに機動的に対応できるようにすることで、金融緩和の持続性は高まったと考えています。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "0dc9010f4323496b4cb6",
+  "date": "2023-09-25",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営大阪経済4団体共催懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda says the conditions for sustainably achieving the price stability target are not yet in place and that the current monetary easing should be continued. He expresses no near-term lean toward a further policy change.",
+  "rationale_2": "Ueda says the conditions for sustainably achieving the inflation target are not yet in place, so the Bank should persist with its current monetary easing rather than make a further near-term policy move.",
+  "evidence": [
+   "賃金の上昇を伴う形での、2％の「物価安定の目標」の持続的・安定的な実現を見通せる状況には至っていないと判断しています。",
+   "現在のイールドカーブ・コントロールの枠組みによる金融緩和を粘り強く続けていく必要がある"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "9fe5a43394c15cc9ec15",
+  "date": "2023-09-25",
+  "speaker": "UCHIDA Shinichi",
+  "title": "【挨拶】令和5年全国証券大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Uchida supports continuing the existing accommodative stance, with flexible operations to sustain it, until the 2% price stability target can be achieved sustainably and stably. He does not call for a further near-term easing or tightening move.",
+  "rationale_2": "Uchida supports maintaining persistent monetary easing because the sustainable and stable achievement of the 2 percent price stability target is not yet in sight. He describes greater flexibility in yield curve control as a way to make the existing easing framework more sustainable, rather than calling for an additional near-term move.",
+  "evidence": [
+   "わが国の物価情勢は、2％の「物価安定の目標」の持続的・安定的な実現を見通せる状況には至っておらず、粘り強く金融緩和を継続する必要があると考えています。",
+   "今回の柔軟化は、上下双方向のリスクに機動的に対応していくことで、イールドカーブ・コントロールの枠組みによる金融緩和の持続性を高めることを狙いとしています。",
+   "経済・物価・金融情勢に応じて機動的に対応しつつ、粘り強く金融緩和を継続していくことで、賃金の上昇を伴う形で、2％の「物価安定の目標」を持続的・安定的に実現することを目指していく方針です。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "e554f07e3e19b2ef0acd",
+  "date": "2023-09-30",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】中央銀行の財務と金融政策運営日本金融学会2023年度秋季大会における特別講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda says Japan is not yet in a position to foresee sustainably and stably achieving the price stability target, so the exit from accommodative policy remains some distance away. He gives no indication of a near-term policy change and sees continued accommodation as serving the goal of stable prices alongside wage growth.",
+  "rationale_2": "Ueda says the sustainable achievement of the inflation target is not yet in sight and that policy exit remains some distance away. He emphasizes maintaining the focus on price stability but does not advocate an easing or tightening move over the near term.",
+  "evidence": [
+   "わが国では、2％の「物価安定の目標」の持続的・安定的な実現を見通せる状況には至っておらず、なお「出口」には距離があります。",
+   "日本銀行は、賃金の上昇を伴う形で、「物価安定の目標」を持続的・安定的に実現することを目指しています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "b32392fae83834dcff3b",
+  "date": "2023-10-12",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策新潟県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Noguchi supports maintaining the current accommodative stance, saying that greater flexibility in yield curve control is not a reduction in easing and that persistent easing is needed to support wage growth and achieve the price stability target. He does not call for an additional near-term move.",
+  "rationale_2": "Noguchi supports continuing persistent monetary easing, arguing that underlying inflation and wage growth are not yet firmly established and that real wages need to recover. He characterizes the recent flexibility in yield curve control as compatible with continued easing, not as a reduction in accommodation.",
+  "evidence": [
+   "この柔軟化は金融緩和の縮小を意味するものではありません。",
+   "日本銀行の当面の使命は、粘り強い金融緩和の継続を通じて、その状況を可能な限り早期に実現させることにあります。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "6e0ebe3aca30ffeebc1f",
+  "date": "2023-10-20",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】全国信用組合大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda says the Bank should persist with monetary easing while responding flexibly to economic and financial conditions, until the inflation target is achieved sustainably alongside wage growth. He does not signal a further near-term move in either direction.",
+  "rationale_2": "Ueda favors persistently maintaining monetary easing while aiming to achieve the 2 percent inflation target sustainably and stably. He does not indicate a further near-term easing or tightening move.",
+  "evidence": [
+   "経済・物価・金融情勢に応じて機動的に対応しつつ、粘り強く金融緩和を継続していく",
+   "賃金の上昇を伴う形で、2％の「物価安定の目標」を持続的・安定的に実現することを目指していく方針です。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "6e204ce32148878f789d",
+  "date": "2023-11-06",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】 最近の金融経済情勢と金融政策運営名古屋での経済界代表者との懇談における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda supports continuing the existing accommodative stance while maintaining the revised yield curve control framework. He sees the current setting as sufficient to support activity and wages, with no near-term move toward further easing or tightening indicated.",
+  "rationale_2": "Ueda supports continuing the existing accommodative stance, including large-scale JGB purchases, rather than signaling a further near-term move. He cites uncertainty about whether the wage-price cycle will strengthen enough to achieve the inflation target sustainably.",
+  "evidence": [
+   "イールドカーブ・コントロールの枠組みのもとで粘り強く金融緩和を継続することで、経済活動を支え、賃金が上昇しやすい環境を整えていくことが政策運営の基本となります。",
+   "長期金利の操作目標は引き続きゼロ％程度としつつ、その上限の目途を1.0％とし、大規模な国債買入れと機動的なオペ運営を中心に運用していくことにしました。",
+   "先行きも、実質金利はマイナス圏で推移するとみられ、十分に緩和的な金融環境は維持されるとみています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "13b079795abe0216df6f",
+  "date": "2023-11-29",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策愛媛県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Adachi supports maintaining the current accommodative stance and says it is too early to discuss an exit, because the wage-price cycle has not yet been firmly established. He presents YCC flexibility as a way to sustain easing, not as a move toward normalization.",
+  "rationale_2": "Adachi supports maintaining the current accommodative stance, arguing that a sustainable wage-price cycle is not yet firmly established and it is too early to discuss an exit. He presents greater YCC flexibility as a way to sustain easing, not as a move toward policy normalization.",
+  "evidence": [
+   "まだ出口政策の議論を行う段階にはない、というのが私の考えです。",
+   "現時点では、粘り強く金融緩和を継続していくことが適当だと考えています。",
+   "一連のYCCの運用の柔軟化は、出口政策への地均しを行っているのではなく、むしろ、「物価の安定」という目標達成に向けて緩和的な金融政策を継続していくための措置である"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "8cd1965b9a90914660da",
+  "date": "2023-11-30",
+  "speaker": "NAKAMURA Toyoaki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策兵庫県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   6,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "He favors keeping monetary easing in place for now because he is not yet confident that inflation is sustainably supported by wage growth. His expectation that policy adjustment will come later points to an eventual move toward tighter policy, but not within the near-term horizon.",
+  "rationale_2": "Nakamura favors maintaining the current monetary easing for now, because he is not yet confident that inflation is being sustained by wage growth. He says policy adjustment will take more time, without calling for additional easing or indicating a near-term move in either direction.",
+  "evidence": [
+   "当面は現在の金融緩和を粘り強く続ける必要があると考えています。",
+   "賃金上昇を伴った持続的な2％の「物価安定の目標」の実現に確信を持てる状況ではありません。",
+   "今は慎重な対応が必要であり、金融緩和の政策修正にはもう少し時間が掛かると考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "da9af517f7c806ffe50f",
+  "date": "2023-12-02",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【講演】ポスト・コロナ時代のケインズ主義第28回産研アカデミック・フォーラムにおける講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   null
+  ],
+  "v10_relevant": [
+   true,
+   false
+  ],
+  "rationale": "Noguchi emphasizes that Japan has not yet durably achieved its inflation objective and that its policy challenge differs from the tightening required in the United States and Europe. He does not advocate an additional near-term policy move, implying that the current accommodative setting should be maintained.",
+  "rationale_2": "The speech analyzes post-pandemic macroeconomic policy and Japan’s challenge of escaping persistent low inflation, but does not state what the Bank of Japan should do with its monetary policy stance over the near term.",
+  "evidence": [
+   "日本のマクロ政策は、未だに根強い低インフレ状況からの離脱を最大の目的とする点で、高インフレ抑制のために金融引き締めを続けてきた米欧とはまったく局面が異なるからです。",
+   "2％物価目標の達成には、それと整合的な持続的賃金上昇に裏付けられた物価上昇が必要です。",
+   "日本の現状は、2023年の春季労使交渉で実現された30年ぶりの賃上げによって、ようやくその目標達成の可能性が見えてきた段階にすぎません。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "24ea1602804c1f7974f9",
+  "date": "2023-12-06",
+  "speaker": "HIMINO Ryozo",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営大分県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Himino supports continuing monetary easing until the Bank can foresee stable, sustainable achievement of its inflation target alongside wage increases. He says any exit should depend on carefully assessing the wage-price cycle, without signaling a near-term change in policy.",
+  "rationale_2": "Himino supports maintaining substantial monetary easing until the Bank can foresee that the inflation target will be achieved sustainably alongside wage increases. He emphasizes judging the timing and pace of an eventual exit carefully, without advocating a near-term change in policy.",
+  "evidence": [
+   "賃上げを伴う形で「物価安定の目標」を持続的・安定的に実現できると見通せるようになるまで、粘り強く緩和を継続していく考えです。",
+   "私どもの方で一番気を付けなければならないのは、賃金と物価の好循環の状況を良く見極めて、出口のタイミングや進め方を適切に判断することだろうと思います。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "910b2f35e24c9e1658b8",
+  "date": "2023-12-25",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】 賃金と物価：過去・現在・そして将来 日本経済団体連合会審議員会における講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   6,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda supports maintaining monetary easing for now because confidence in a sustainable wage-price cycle is not yet sufficient. He nevertheless points toward a future policy change if that confidence rises, indicating a mild tightening bias beyond the immediate horizon.",
+  "rationale_2": "Ueda supports continuing monetary easing while monitoring whether wage growth and price increases become sustainable. He says policy changes would be considered if confidence in achieving the price stability target becomes sufficiently high, but gives no timing or near-term direction for such a change.",
+  "evidence": [
+   "現時点では、なお十分に高いわけではありません。",
+   "今後、賃金と物価の好循環が強まり、2％の「物価安定の目標」が持続的・安定的に実現する確度が十分高まれば、わが国でも、金融政策の変更を検討していくことになります。",
+   "日本銀行としては、こうした動きを確たるものとするため、粘り強く金融緩和を継続し、賃金が上昇しやすい環境を整えているところです。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "6332107a68f3caaf2da4",
+  "date": "2024-02-08",
+  "speaker": "UCHIDA Shinichi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営奈良県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Uchida says the likelihood of achieving the outlook is rising and that, once sustainable achievement of the 2 percent target is in sight, the Bank should consider revising its large-scale easing, including ending negative rates. He expects any subsequent rate path to be gradual and financial conditions to remain accommodative.",
+  "rationale_2": "Uchida says the likelihood of sustainably achieving the inflation target alongside wage growth is rising, and that the Bank would then consider revising its large-scale easing. He expects any exit from negative rates to be followed by a gradual path that preserves accommodative financial conditions.",
+  "evidence": [
+   "「こうした見通しが実現する確度は、少しずつ高まっています。」",
+   "「2％目標の持続的・安定的な実現が見通せるようになれば、こうした大規模な金融緩和は役割を果たしたことになり、その修正を検討することになると考えています。」",
+   "「仮にマイナス金利を解除しても、その後にどんどん利上げをしていくようなパスは考えにくく、緩和的な金融環境を維持していくことになると思います。」"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "fc287ae53b25571c557e",
+  "date": "2024-02-29",
+  "speaker": "TAKATA Hajime",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策滋賀県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Takata says the 2 percent price stability goal is finally coming into view and argues that the Bank should begin shifting away from exceptionally strong easing. He specifically supports considering an exit from yield curve control and negative interest rates, favoring tighter policy ahead.",
+  "rationale_2": "Takata sees the 2 percent inflation goal as finally within sight and argues that the Bank should prepare to shift away from exceptionally strong easing, including by ending yield curve control and negative rates. This signals a preference for tightening in the near term, though he does not call for an immediate move.",
+  "evidence": [
+   "2％の「物価安定の目標」実現が漸く見通せる状況になってきた",
+   "今日のきわめて強い金融緩和からのギアシフト",
+   "イールドカーブ・コントロールの枠組みの解除、マイナス金利の解除",
+   "出口への対応も含め機動的かつ柔軟な対応に向けた検討も必要と考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "885026c1ea544c2d7767",
+  "date": "2024-03-07",
+  "speaker": "NAKAGAWA Junko",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策島根県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   6
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "She endorses continuing the current accommodative stance and says future policy decisions should be made in light of incoming information, without expressing a near-term lean toward easing or tightening.",
+  "rationale_2": "She sees the economy and prices making steady progress toward the 2 percent goal and describes reviewing policy if its sustainable achievement comes into view. She does not call for an immediate change, but the outlook points toward eventual tightening as accommodation is reassessed.",
+  "evidence": [
+   "このように、日本銀行は、様々な工夫を行いながら、緩和的な金融政策を継続しています。",
+   "その時点での適切な政策運営のため、予断を持たずに情報収集を続けたうえで判断したいと考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "0f9cc8c1da5644ac8af4",
+  "date": "2024-03-27",
+  "speaker": "TAMURA Naoki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策青森県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "He regards the recent policy change as only the first step toward normalization and favors continuing that process gradually and steadily. He expects financial conditions to remain accommodative for now, but his stated direction for policy is toward further tightening.",
+  "rationale_2": "Tamura views the recent policy change as only the first step and favors continuing gradual, steady normalization as economic and price conditions allow. He does not call for an abrupt move, but his stated direction is toward further tightening.",
+  "evidence": [
+   "金融政策の正常化への第一歩を踏み出したと捉えています。",
+   "現時点の経済・物価見通しを前提にすると、当面、緩和的な金融環境が継続すると考えています。",
+   "ゆっくりと、しかし着実に金融政策の正常化を進め、異例の大規模金融緩和を上手に手仕舞いしていくために、これからの金融政策の手綱さばきは極めて重要だと考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "fbe52f60fff8d66a8d57",
+  "date": "2024-04-10",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】第99回信託大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda endorses the transition from large-scale easing to a conventional framework and describes the current rate setting, without signaling a further near-term move in either direction.",
+  "rationale_2": "Ueda endorses the recent shift to a conventional policy framework, saying the large-scale easing had served its purpose. He describes the current setting without signaling a further near-term move or a directional lean.",
+  "evidence": [
+   "これまでの大規模な金融緩和は、その役割を果たしたと考え",
+   "通常の金融政策の枠組みに移行することを決定しました。",
+   "これを0～0.1％程度で推移するよう促します。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "0ccd13ea3fdc781a1f6a",
+  "date": "2024-04-18",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策佐賀県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 1,
+  "v10_levels": [
+   2,
+   4
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Noguchi opposed the recent removal of negative rates, judging that continued accommodation was more appropriate until stronger service-price increases and wage pass-through—especially at smaller firms—are confirmed. He favors preserving an easier stance rather than further tightening in the near term.",
+  "rationale_2": "He favors maintaining accommodative conditions and opposed ending negative rates, while expecting any subsequent rate adjustments to proceed very slowly. This points to an easing tilt rather than an immediate call for further easing.",
+  "evidence": [
+   "現段階では「マイナス金利の下での国債買入れ継続」の方がより適切と考えたため、マイナス金利政策の解除には反対しました。",
+   "賃金と物価の好循環の強まりについての実態確認にはサービス価格の上昇や中小企業における価格転嫁の進展をより慎重に見極める必要があると考えたこと",
+   "日本銀行が今後も緩和的な金融政策を継続することを通じて労働需給の適切なバランスを保ち続けることこそが、2％の「物価安定の目標」の達成のための必須の要件であると考えます。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "f1d19a7131188bc9c42b",
+  "date": "2018-10-25",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【講演】 金融危機後の世界：変化する経済、経済学と中央銀行 慶應義塾大学経済学部・日本経済新聞社共催「ニッポンの革新力」シンポジウムでの基調講演",
+  "bank": "boj",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses economic change, the evolution of economics and central banking, financial crises, and financial literacy, but does not state the speaker’s own view on the near-term direction of Japanese monetary policy.",
+  "rationale_2": "The speech discusses long-term changes in the economy, economics, and central banking, along with lessons from past financial crises and financial literacy. It does not state the speaker’s view on the near-term direction of Japanese monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "990dbbb79386b10e4bf7",
+  "date": "2018-11-19",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 人口動態の変動と金融セクターの課題 パリ・ユーロプラス主催フィナンシャル・フォーラムにおける挨拶の邦訳",
+  "bank": "boj",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses how demographic change and low interest rates affect banks, non-bank finance, and households, but does not express the speaker’s own view on the direction of monetary policy.",
+  "rationale_2": "The speech discusses how population decline and aging affect economic growth, banks, nonbank finance, and household financial services; it does not state the Governor’s own view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "7dfd65c48f9d46769db5",
+  "date": "2019-12-26",
+  "speaker": "KURODA Haruhiko",
+  "title": "【講演】 好循環の持続に向けて 日本経済団体連合会審議員会における講演",
+  "bank": "boj",
+  "why": "random 2019",
+  "v9_relevant": true,
+  "v9_level": 1,
+  "v10_levels": [
+   3,
+   3
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kuroda favors an easing direction if downside risks remain high, with the policy rate potentially reduced and additional easing warranted if progress toward the inflation target is threatened. He presents this as a contingent near-term easing bias rather than an unconditional immediate move.",
+  "rationale_2": "Kuroda favors maintaining an easing bias and is prepared to lower rates or add stimulus if downside risks remain high or progress toward the price stability target is threatened.",
+  "evidence": [
+   "日本銀行では、夏場以降、緩和方向を意識して政策運営を行うスタンスを明示してきました。",
+   "経済・物価の下振れリスクがかなり高い状況が続く間は、政策金利は、現在の水準を維持する、あるいは、状況によっては、現在の水準よりも引き下げるという方針を示しました。",
+   "「物価安定の目標」に向けたモメンタムが損なわれる惧れが高まる場合には、躊躇なく、追加的な金融緩和措置を講じる方針です。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "f0acfd2ce67053c48f7c",
+  "date": "2019-11-28",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 国際的な金融規制・監督：これまでの成果、現在の論点、将来の課題 パリ・ユーロプラス主催フィナンシャル・フォーラムにおける挨拶の邦訳",
+  "bank": "boj",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses international financial regulation and supervision, including market fragmentation and climate-related financial risks; it does not state the speaker’s view on the direction of Japanese monetary policy.",
+  "rationale_2": "The speech discusses international financial regulation and supervision, market fragmentation, and climate-related financial risks, without stating the speaker’s view on the direction of Japanese monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "d20e909d99c983589fa7",
+  "date": "2020-11-12",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策長野県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Adachi favors maintaining an accommodative policy stance as a safety net while uncertainty remains high and the economy recovers. He does not signal a further near-term policy move.",
+  "rationale_2": "Adachi favors maintaining an accommodative monetary stance as a safety net amid the uncertainty of the pandemic and to support eventual economic normalization. He does not call for an additional easing or tightening move.",
+  "evidence": [
+   "緩和的な金融環境を維持することは、中長期的にみて、経済活動が正常化し、物価安定の目標の達成に向けて動いていく基礎にもなると考えています。",
+   "そうした事態を回避すべく、今後も経済動向を注意深くモニタリングしながら、緩和的な金融政策のスタンスを維持することが、ウィズ・コロナの世界においても求められると考えています。"
+  ],
+  "quotes_ok": false
+ },
+ {
+  "id": "48ae400d8d888e87bceb",
+  "date": "2020-02-05",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営愛媛県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 1,
+  "v10_levels": [
+   3,
+   3
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Wakatabe favors an easing-oriented policy stance because downside risks to the economy and prices remain significant. He is prepared to add stimulus if the momentum toward the price stability target is threatened.",
+  "rationale_2": "Wakatabe says downside risks remain substantial and that policy has been consciously oriented toward easing. If the momentum toward the inflation target is threatened, he favors additional monetary easing.",
+  "evidence": [
+   "昨年夏場以降は、世界経済の減速が続き、わが国の経済・物価の下振れリスクが大きくなったため、緩和方向を意識して政策運営を行うスタンスを明示してきました。",
+   "わが国の経済・物価の下振れリスクは、依然として大きいと考えています。",
+   "「物価安定の目標」に向けたモメンタムが損なわれる惧れが高まる場合には、躊躇なく、追加的な金融緩和措置を講じる方針です。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "09670debcbbac1573b31",
+  "date": "2021-03-30",
+  "speaker": "KURODA Haruhiko",
+  "title": "【講演】 より効果的で持続的な金融緩和 きさらぎ会における講演",
+  "bank": "boj",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kuroda supports continuing the current strong easing framework to achieve the inflation target. Although he describes tools for additional easing if needed, he does not call for a further policy change in the near term.",
+  "rationale_2": "Kuroda supports maintaining the current strong easing framework over the near term to support the economy and achieve the inflation target. He describes additional easing as an available response if needed, but does not indicate that a further move is expected soon.",
+  "evidence": [
+   "引き続き、経済・物価の押し上げ効果を発揮している「長短金利操作付き量的・質的金融緩和」を継続していくことが適当と考えられます。",
+   "当面は、その点を優先して、イールドカーブ・コントロールを運営していく考えです。",
+   "今後も、強力な金融緩和を粘り強く続けていくことで、日本銀行の使命である2％の「物価安定の目標」を実現していく考えです。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "37c15a9c732bf573027f",
+  "date": "2021-07-21",
+  "speaker": "AMAMIYA Masayoshi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営新潟県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 0,
+  "v10_levels": [
+   0,
+   0
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Amamiya supports continuing forceful monetary easing and says the Bank should add easing if needed while the pandemic’s effects and funding strains persist.",
+  "rationale_2": "He supports maintaining strong monetary easing while the pandemic continues to weigh on firms and the recovery, and says the Bank should add easing if needed. He sees persistent easing as necessary until the price stability target is achieved.",
+  "evidence": [
+   "今後とも、現在の金融緩和措置をしっかりと実施していく考えです。",
+   "当面、感染症の影響を注視し、必要があれば、躊躇なく追加的な金融緩和措置を講じる方針です。",
+   "「物価安定の目標」の実現に向けて、強力な金融緩和を粘り強く続けていく必要があると考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "18b350aa4498de2eb45c",
+  "date": "2022-06-24",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】全国信用金庫大会における挨拶",
+  "bank": "boj",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Kuroda supports maintaining monetary easing to support the economy and achieve the price stability target sustainably. He does not signal a further change in the policy setting over the near term.",
+  "rationale_2": "Kuroda supports continuing monetary easing to sustain the price stability goal alongside wage growth. He does not call for further easing or indicate an imminent policy change.",
+  "evidence": [
+   "日本銀行としては、わが国の経済をしっかりとサポートし",
+   "賃金の上昇を伴うかたちで、「物価安定の目標」を持続的・安定的に実現できるよう、金融緩和を実施していく考えです。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "767fd1f1bfabc76c947f",
+  "date": "2022-09-26",
+  "speaker": "AMAMIYA Masayoshi",
+  "title": "【挨拶】令和4年全国証券大会における挨拶",
+  "bank": "boj",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 2,
+  "v10_levels": [
+   5,
+   5
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Amamiya supports continuing monetary easing to sustain the recovery and achieve the price stability target alongside wage growth. He gives no indication of additional easing or a near-term move toward tightening.",
+  "rationale_2": "Amamiya supports continuing monetary easing to support the economy and achieve the inflation target sustainably alongside wage growth. He does not call for a further change in the policy setting over the near term.",
+  "evidence": [
+   "こうした中で、日本銀行としては、わが国の経済をしっかりとサポートし、賃金の上昇を伴うかたちで、「物価安定の目標」を持続的・安定的に実現できるよう、金融緩和を実施していく考えです。",
+   "先行きは、本年末にかけて、エネルギーや食料品、耐久財などの価格上昇により上昇率を高めたあと、これらの押し上げ寄与の減衰に伴い、プラス幅を縮小していくと予想しています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "2928810271972cb12b7c",
+  "date": "2023-03-28",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 決済の進化：「シン個人」のための決済システム FIN/SUM（フィンサム）2023における挨拶",
+  "bank": "boj",
+  "why": "random 2023",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses innovation in payment systems, the role of central bank money, and preparations for a retail CBDC pilot experiment; it does not express a view on the direction of monetary policy.",
+  "rationale_2": "The speech discusses payment innovation, the role of central bank money, and preparations for a retail CBDC, without expressing a view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "72be17e3ac382eb6ae2b",
+  "date": "2023-05-31",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】日本銀行金融研究所主催2023年国際コンファランスにおける開会挨拶の邦訳",
+  "bank": "boj",
+  "why": "random 2023",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech focuses on lessons from past inflation, emerging challenges for monetary policy, and new data and analytical opportunities; it does not state the speaker’s own view on the near-term direction of Japanese monetary policy.",
+  "rationale_2": "The speech discusses the conference theme, lessons from past inflation, and new challenges and opportunities for monetary-policy research. It does not state the Governor’s own view on where Japanese monetary policy should go in the near term.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "20236e02c0a8794008a9",
+  "date": "2024-12-04",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】 決済の未来と中央銀行の役割 FISC創立40周年記念講演会における講演",
+  "bank": "boj",
+  "why": "random 2024",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses the future of payments, digital technology, and the Bank of Japan’s role in payment systems, without expressing a view on the direction of monetary policy.",
+  "rationale_2": "The speech focuses on the future of payment systems, digital technology, and the Bank of Japan’s role; it does not express a view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "aa758a30b4501ed5ed93",
+  "date": "2024-10-02",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】令和6年全国証券大会における挨拶",
+  "bank": "boj",
+  "why": "random 2024",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses economic and price conditions and the securities industry, but does not state the Governor’s own near-term direction for monetary policy.",
+  "rationale_2": "The speech discusses the economic and price outlook and securities-industry issues, but does not state a personal view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "d3cacf517156d6f986e1",
+  "date": "2025-12-01",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】 最近の金融経済情勢と金融政策運営名古屋での経済界代表者との懇談における挨拶",
+  "bank": "boj",
+  "why": "random 2025",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda endorses further gradual rate increases as the economic and price outlook improves, and says the next meeting will assess whether to raise rates after reviewing wage-setting and other developments. This signals a near-term lean toward tightening, though he leaves the immediate decision conditional on incoming information.",
+  "rationale_2": "Ueda favors further gradual rate increases as the economic and price outlook improves, and says the Bank will assess whether to raise rates at the next meeting. He is awaiting further evidence on wage-setting, so the move is conditional rather than unconditional.",
+  "evidence": [
+   "経済・物価情勢の改善に応じて、引き続き政策金利を引き上げ、金融緩和度合いを調整していくことになると考えています。",
+   "経済・物価の中心的な見通しが実現していく確度は、少しずつ高まってきていると考えています。",
+   "決定会合においては、この点を含めて、内外経済・物価情勢や金融資本市場の動向を、様々なデータや情報をもとに点検・議論し、利上げの是非について、適切に判断したいと考えています。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "f3f128320f95e19c2603",
+  "date": "2025-04-09",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】第100回信託大会における挨拶",
+  "bank": "boj",
+  "why": "random 2025",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda favors further policy-rate increases as the economic and price outlook is realized, while emphasizing that decisions will be reassessed meeting by meeting amid heightened uncertainty.",
+  "rationale_2": "Ueda expects further rate increases if the improving economy and the Bank’s outlook continue to materialize, while emphasizing that decisions will be reassessed meeting by meeting amid heightened uncertainty.",
+  "evidence": [
+   "景気の改善が続き、これまで示してきた見通しが実現していくとすれば、それに応じて、引き続き政策金利を引き上げ、金融緩和の度合いを調整していくことになると考えています。",
+   "米国の関税政策の影響を含め内外の経済・物価情勢、金融市場の動向を丁寧に確認し、経済・物価の見通しやリスク、見通しが実現する確度を点検しながら、適切に政策を判断してまいります。"
+  ],
+  "quotes_ok": true
+ },
+ {
+  "id": "bf1d3825c54e02c8a536",
+  "date": "2026-03-03",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】 新金融エコシステムにおける中央銀行の役割 FIN/SUM（フィンサム）2026における挨拶",
+  "bank": "boj",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null,
+  "v10_levels": [
+   null,
+   null
+  ],
+  "v10_relevant": [
+   false,
+   false
+  ],
+  "rationale": "The speech discusses fintech, payment systems, and the Bank of Japan’s role in a changing financial ecosystem, without expressing a view on the monetary policy stance.",
+  "rationale_2": "The speech is about fintech, payment systems, and the Bank of Japan’s role in the evolving financial ecosystem; it does not state the Governor’s view on the direction of monetary policy.",
+  "evidence": [],
+  "quotes_ok": true
+ },
+ {
+  "id": "345acf1651f552039c89",
+  "date": "2026-06-03",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】 最近の経済・物価情勢と金融政策運営 きさらぎ会における講演",
+  "bank": "boj",
+  "why": "random 2026",
+  "v9_relevant": true,
+  "v9_level": 4,
+  "v10_levels": [
+   7,
+   7
+  ],
+  "v10_relevant": [
+   true,
+   true
+  ],
+  "rationale": "Ueda supports further gradual rate increases as the baseline when the outlook gains confidence, and says hikes should be seriously considered if inflation risks outweigh downside risks. He emphasizes monitoring the supply shock, so he does not call for an immediate increase unconditionally.",
+  "rationale_2": "Ueda says the Bank’s underlying approach is to continue raising the policy rate as conditions warrant, and he sees further increases as appropriate if the central outlook strengthens. He also stresses that upside inflation risks may justify discussing a hike even amid uncertainty, while leaving the timing dependent on the outlook and risks.",
+  "evidence": [
+   "経済・物価・金融情勢に応じて、引き続き政策金利を引き上げ、金融緩和の度合いを調整していくというのが、日本銀行の基本的な考え方です。",
+   "これまでと同様、適切なペースで政策金利を引き上げていくことになると考えています。",
+   "利上げの是非についてしっかりと議論する必要があると考えています。"
+  ],
+  "quotes_ok": true
+ }
+]

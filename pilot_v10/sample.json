@@ -1,0 +1,1402 @@
+[
+ {
+  "id": "c4b6dca95975",
+  "date": "2020-02-18",
+  "speaker": "Robert S. Kaplan",
+  "title": "An Assessment of Economic Conditions and the Stance of Monetary Policy",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "1fb2722e67f3",
+  "date": "2020-02-21",
+  "speaker": "Lael Brainard",
+  "title": "Monetary Policy Strategies and Tools When Inflation and Interest Rates Are Low",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "5dd542220bf9",
+  "date": "2020-02-24",
+  "speaker": "Loretta Jean Mester",
+  "title": "The Outlook for the Economy and Monetary Policy in 2020",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "3435bfa402c3",
+  "date": "2020-02-25",
+  "speaker": "Richard H. Clarida",
+  "title": "U.S. Economic Outlook and Monetary Policy",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "1876248fbf8d",
+  "date": "2020-02-28",
+  "speaker": "James Bullard",
+  "title": "Coronavirus and the U.S. Economy",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "6e9d8ceb147b",
+  "date": "2020-03-03",
+  "speaker": "Loretta Jean Mester",
+  "title": "An Update on the U.S. Economy and the Federal Reserve's Review of Its Monetary Policy Framework",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "18f33d6465ef",
+  "date": "2020-03-05",
+  "speaker": "John C. Williams",
+  "title": "The Economic Outlook",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "2546aaede1ea",
+  "date": "2020-03-17",
+  "speaker": "Loretta Jean Mester",
+  "title": "Statement Regarding My Dissenting Vote at the Meeting of the Federal Open Market Committee Held on March 15, 2020",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "cd92c33465fa",
+  "date": "2020-04-01",
+  "speaker": "Eric S. Rosengren",
+  "title": "Addressing the Economic Effects of the COVID-19 Pandemic",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "3da616494650",
+  "date": "2020-04-09",
+  "speaker": "Jerome H. Powell",
+  "title": "COVID-19 and the Economy (Webcast)",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "c64c178396ed",
+  "date": "2020-04-14",
+  "speaker": "Lorie K. Logan",
+  "title": "The Federal Reserve's Recent Actions to Support the Flow of Credit to Households and Businesses",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "26e5a442f4e9",
+  "date": "2020-04-16",
+  "speaker": "John C. Williams",
+  "title": "A Time for Bold Action",
+  "bank": "fed",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "e60477b99ec1",
+  "date": "2022-06-02",
+  "speaker": "Loretta Jean Mester",
+  "title": "An Update on the Economy and Monetary Policy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "8d68d53fb7ef",
+  "date": "2022-06-17",
+  "speaker": "James Bullard",
+  "title": "Reflections on the Disinflationary Methods of Poincaré and Thatcher",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "ca21648035b1",
+  "date": "2022-06-17",
+  "speaker": "Neel Kashkari",
+  "title": "Policy Has Tightened a Lot. Is It Enough? (An Update)",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "6d3919f8b934",
+  "date": "2022-06-18",
+  "speaker": "Christopher Waller",
+  "title": "Lessons Learned on Normalizing Monetary Policy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "ed7a4ce15a4c",
+  "date": "2022-06-21",
+  "speaker": "Thomas I. Barkin",
+  "title": "The Recession Question",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "271485decedc",
+  "date": "2022-06-22",
+  "speaker": "Jerome H. Powell",
+  "title": "Statement before the Committee on Banking, Housing, and Urban Affairs, U.S. Senate",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "d7f8f15ff9a3",
+  "date": "2022-06-22",
+  "speaker": "Charles Evans",
+  "title": "A Stronger Policy Response to Restrain Inflation",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "7ac63e400876",
+  "date": "2022-06-23",
+  "speaker": "Michelle W. Bowman",
+  "title": "The Outlook for Inflation and Monetary Policy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "a11d08f282af",
+  "date": "2022-06-24",
+  "speaker": "James Bullard",
+  "title": "Bullard Discusses the U.S. Economy and Policy Rate Increases",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "e1edf21c890e",
+  "date": "2022-06-24",
+  "speaker": "Mary C. Daly",
+  "title": "Policy Nimbleness Through Forward Guidance",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "c98c978b1c46",
+  "date": "2022-06-29",
+  "speaker": "Loretta Jean Mester",
+  "title": "The Role of Inflation Expectations in Monetary Policymaking: A Practitioner's Perspective",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "247fcf583fe5",
+  "date": "2022-07-07",
+  "speaker": "James Bullard",
+  "title": "Disinflationary Policy and Financial Stability in the U.S.",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "4d6f60ce6b97",
+  "date": "2022-07-07",
+  "speaker": "James Bullard",
+  "title": "The First Steps Toward Disinflation in the U.S.",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "fb86362851a1",
+  "date": "2022-07-08",
+  "speaker": "John C. Williams",
+  "title": "Price Stability: The Foundation for a Strong Economy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "7a9d719b7350",
+  "date": "2022-07-11",
+  "speaker": "Esther L. George",
+  "title": "Tightening Monetary Policy in a Tight Economy",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "2dbdfe4ef50f",
+  "date": "2022-07-14",
+  "speaker": "Janet L. Yellen",
+  "title": "Transcript of Press Conference from Secretary of the Treasury Janet L. Yellen in Nusa Dua, Indonesia",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "3572722b9721",
+  "date": "2022-07-14",
+  "speaker": "Christopher Waller",
+  "title": "Monetary Policy in a World of Conflicting Data",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "2ee5adddedb6",
+  "date": "2022-07-15",
+  "speaker": "James Bullard",
+  "title": "Bullard Discusses Policy Rate Increases and His Views of U.S. Recession Predictions",
+  "bank": "fed",
+  "why": "window: 75bp hikes",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "bb7fb88bf962",
+  "date": "2023-12-01",
+  "speaker": "Jerome H. Powell",
+  "title": "Opening Remarks",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 7
+ },
+ {
+  "id": "b6e4529afe63",
+  "date": "2024-01-03",
+  "speaker": "Thomas I. Barkin",
+  "title": "Heading for a Soft Landing?",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 6
+ },
+ {
+  "id": "42a842182765",
+  "date": "2024-01-06",
+  "speaker": "Logan",
+  "title": "Opening remarks at panel on Market Monitoring and the Implementation of Monetary Policy",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 8
+ },
+ {
+  "id": "df598e7d590c",
+  "date": "2024-01-08",
+  "speaker": "Michelle W. Bowman",
+  "title": "New Year's Resolutions for Bank Regulatory Policymakers",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 8
+ },
+ {
+  "id": "e568d984ceaa",
+  "date": "2024-01-10",
+  "speaker": "John C. Williams",
+  "title": "Rules of Three",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 7
+ },
+ {
+  "id": "4ac0669b24c8",
+  "date": "2024-01-16",
+  "speaker": "Christopher Waller",
+  "title": "Almost as Good as It Gets…But Will It Last?",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 6
+ },
+ {
+  "id": "ad3ab84840a9",
+  "date": "2024-01-18",
+  "speaker": "Raphael W. Bostic",
+  "title": "The Arc of Monetary Policy May Start Bending Soon",
+  "bank": "fed",
+  "why": "window: pivot debate",
+  "v9_relevant": true,
+  "v9_level": 6
+ },
+ {
+  "id": "19ef2d6b3fee",
+  "date": "2018-05-04",
+  "speaker": "James Bullard",
+  "title": "Optimal Monetary Policy for the Masses",
+  "bank": "fed",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "3c6ce58687ac",
+  "date": "2018-05-21",
+  "speaker": "James Bullard",
+  "title": "Living Standards across U.S. Metropolitan Statistical Areas",
+  "bank": "fed",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "b7c57ef13c28",
+  "date": "2019-11-13",
+  "speaker": "Jerome H. Powell",
+  "title": "Statement before the Joint Economic Committee, U.S. Congress",
+  "bank": "fed",
+  "why": "random 2019",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "a5f10a3b1ff0",
+  "date": "2019-11-12",
+  "speaker": "Richard H. Clarida",
+  "title": "Monetary Policy, Price Stability, and Equilibrium Bond Yields: Success and Consequences",
+  "bank": "fed",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "4229e5498714",
+  "date": "2020-11-18",
+  "speaker": "James Bullard",
+  "title": "Bullard Discusses the U.S. Economy and Pandemic in Webinar",
+  "bank": "fed",
+  "why": "random 2020",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "f07a1c798b12",
+  "date": "2020-09-30",
+  "speaker": "Michelle W. Bowman",
+  "title": "Community Banks Rise to the Challenge",
+  "bank": "fed",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "2e4da73440a9",
+  "date": "2021-10-21",
+  "speaker": "Janet L. Yellen",
+  "title": "Remarks by Secretary Janet L. Yellen at the Open Session of the Meeting of the Financial Stability Oversight Council",
+  "bank": "fed",
+  "why": "random 2021",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "a0aa84a1ffb1",
+  "date": "2021-06-01",
+  "speaker": "Lael Brainard",
+  "title": "Remaining Steady as the Economy Reopens",
+  "bank": "fed",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "16b59961e9f8",
+  "date": "2022-07-08",
+  "speaker": "Lael Brainard",
+  "title": "Crypto-Assets and Decentralized Finance through a Financial Stability Lens",
+  "bank": "fed",
+  "why": "random 2022",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "a7830e822278",
+  "date": "2022-11-28",
+  "speaker": "Lael Brainard",
+  "title": "What Can We Learn from the Pandemic and the War about Supply Shocks, Inflation, and Monetary Policy?",
+  "bank": "fed",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 8
+ },
+ {
+  "id": "8b2b0763397f",
+  "date": "2023-10-09",
+  "speaker": "Logan",
+  "title": "Financial conditions and the monetary policy outlook",
+  "bank": "fed",
+  "why": "random 2023",
+  "v9_relevant": true,
+  "v9_level": 8
+ },
+ {
+  "id": "1007f0565f5d",
+  "date": "2023-07-13",
+  "speaker": "Christopher Waller",
+  "title": "Big Shocks Travel Fast: Why Policy Lags May Be Shorter Than You Think",
+  "bank": "fed",
+  "why": "random 2023",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "75c86583e2fd",
+  "date": "2024-03-07",
+  "speaker": "Michelle W. Bowman",
+  "title": "Reflections on the Economy and Bank Regulation",
+  "bank": "fed",
+  "why": "random 2024",
+  "v9_relevant": true,
+  "v9_level": 8
+ },
+ {
+  "id": "38dfeb13f5a4",
+  "date": "2024-04-03",
+  "speaker": "Adriana D. Kugler",
+  "title": "The Outlook for the U.S. Economy and Monetary Policy",
+  "bank": "fed",
+  "why": "random 2024",
+  "v9_relevant": true,
+  "v9_level": 6
+ },
+ {
+  "id": "ee1740ea67ae",
+  "date": "2025-06-23",
+  "speaker": "Adriana D. Kugler",
+  "title": "Welcoming Remarks at Fed Listens Event Hosted by the Federal Reserve Bank of New York, Schenectady, New York",
+  "bank": "fed",
+  "why": "random 2025",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "74950bee3b6a",
+  "date": "2025-10-14",
+  "speaker": "Jerome H. Powell",
+  "title": "Understanding the Fed's Balance Sheet",
+  "bank": "fed",
+  "why": "random 2025",
+  "v9_relevant": true,
+  "v9_level": 7
+ },
+ {
+  "id": "65824f472114",
+  "date": "2026-09-22",
+  "speaker": "Philip N. Jefferson",
+  "title": "Discount Window Modernization and Treasury Market Functioning",
+  "bank": "fed",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "b53181a69860",
+  "date": "2026-05-20",
+  "speaker": "Michael S. Barr",
+  "title": "Measuring Financial Health",
+  "bank": "fed",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "d948e4bcacf3dd595797",
+  "date": "2020-03-04",
+  "speaker": "Ben Broadbent",
+  "title": "Inflation and beliefs about inflation - speech by Ben Broadbent",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "d009b95d16a8c1be974f",
+  "date": "2020-04-16",
+  "speaker": "Silvana Tenreyro",
+  "title": "Monetary policy during pandemics: inflation before, during and after Covid-19 - speech by Silvana Tenreyro",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "e9aa874f5933a8f19df2",
+  "date": "2020-04-23",
+  "speaker": "Gertjan Vlieghe",
+  "title": "Monetary policy and the Bank of England’s balance sheet - speech by Gertjan Vlieghe",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "fd4b261b413160239762",
+  "date": "2020-05-28",
+  "speaker": "Michael Saunders",
+  "title": "Covid-19 and monetary policy - speech by Michael Saunders",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "0e52b3012bf51abdb11d",
+  "date": "2020-06-30",
+  "speaker": "Andy Haldane",
+  "title": "The second quarter - speech by Andy Haldane",
+  "bank": "boe",
+  "why": "window: COVID emergency",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "655f488515b63c723c82",
+  "date": "2021-09-27",
+  "speaker": "Andrew Bailey",
+  "title": "The hard yards - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "88875abc3352069d1d15",
+  "date": "2021-10-25",
+  "speaker": "Silvana Tenreyro",
+  "title": "International trade, global supply chains and monetary policy - speech by Silvana Tenreyro",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "70cee557188839360bf9",
+  "date": "2021-11-23",
+  "speaker": "Jonathan Haskel",
+  "title": "Inflation now and then - speech by Jonathan Haskel (pdf 1.6MB)",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "601d5969e6ef0993d905",
+  "date": "2021-11-26",
+  "speaker": "Huw Pill",
+  "title": "UK Monetary Policy – ‘Crossing the river by feeling the stones’ - speech by Huw Pill",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "0e4e4696976ca5191f37",
+  "date": "2021-12-03",
+  "speaker": "Michael Saunders",
+  "title": "The outlook for inflation and monetary policy - speech by Michael Saunders",
+  "bank": "boe",
+  "why": "window: before the first hike",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "74f955bcb2e50a23a969",
+  "date": "2018-04-10",
+  "speaker": "Andy Haldane",
+  "title": "How Monetary Policy Affects Your GDP - speech by Andy Haldane",
+  "bank": "boe",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "e3b513d334a549dad584",
+  "date": "2018-03-22",
+  "speaker": "Dave Ramsden",
+  "title": "The Bank of England - Open to Fintech - speech by Dave Ramsden",
+  "bank": "boe",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "f1ee061b25c22c4cd9a6",
+  "date": "2019-03-06",
+  "speaker": "Jon Cunliffe",
+  "title": "When expectations meet the future - speech by Jon Cunliffe",
+  "bank": "boe",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "e3d5e30a03cb92583847",
+  "date": "2019-03-28",
+  "speaker": "Mark Carney",
+  "title": "Investing in Ethnicity & Race - speech by Mark Carney (pdf 0.6MB)",
+  "bank": "boe",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "d71c3f109eb57d9a4423",
+  "date": "2020-02-11",
+  "speaker": "Jonathan Haskel",
+  "title": "Monetary policy in the intangible economy - speech by Jonathan Haskel",
+  "bank": "boe",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "8f5802876868abff0e63",
+  "date": "2020-11-28",
+  "speaker": "Andy Haldane",
+  "title": "What has central bank independence ever done for us? - speech by Andy Haldane",
+  "bank": "boe",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "11d9882efbb8681fa1eb",
+  "date": "2021-03-08",
+  "speaker": "Andrew Bailey",
+  "title": "Getting over Covid - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "5fa1f2a5fae6e3453b73",
+  "date": "2021-07-26",
+  "speaker": "Gertjan Vlieghe",
+  "title": "Running out of room: revisiting the 3D perspective on low interest rates - Gertjan Vlieghe",
+  "bank": "boe",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "897158d6216304851bc7",
+  "date": "2022-07-07",
+  "speaker": "Huw Pill",
+  "title": "Economic outlook − speech by Huw Pill",
+  "bank": "boe",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 5
+ },
+ {
+  "id": "16099a09ac0c03658a3c",
+  "date": "2022-02-10",
+  "speaker": "Andrew Bailey",
+  "title": "A resilient financial system - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2022",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "378b78da963fe8d789cc",
+  "date": "2023-11-29",
+  "speaker": "Andrew Bailey",
+  "title": "Opening remarks at the 50th anniversary of the London Foreign Exchange Joint Standing Committee (FXJSC) - Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2023",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "97307837098b156b6a85",
+  "date": "2023-08-26",
+  "speaker": "Ben Broadbent",
+  "title": "The economic costs of restricting trade: the experience of the UK - speech by Ben Broadbent",
+  "bank": "boe",
+  "why": "random 2023",
+  "v9_relevant": true,
+  "v9_level": 7
+ },
+ {
+  "id": "665b43f166c058f163af",
+  "date": "2024-10-26",
+  "speaker": "Andrew Bailey",
+  "title": "The future of money and payments - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2024",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "23b7b90529d44f7cc6c0",
+  "date": "2024-02-07",
+  "speaker": "Sarah Breeden",
+  "title": "Engineering revisited - speech by Sarah Breeden",
+  "bank": "boe",
+  "why": "random 2024",
+  "v9_relevant": true,
+  "v9_level": 7
+ },
+ {
+  "id": "6a2aa016f589db433d02",
+  "date": "2025-06-20",
+  "speaker": "Andrew Bailey",
+  "title": "Central Banking in extreme adversity - speech by Andrew Bailey",
+  "bank": "boe",
+  "why": "random 2025",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "d9c4cc2512abbdb5c2c2",
+  "date": "2025-07-10",
+  "speaker": "Sarah Breeden",
+  "title": "Weathering the storm: stability in a changing climate - speech by Sarah Breeden",
+  "bank": "boe",
+  "why": "random 2025",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "90bd06121723a47fc007",
+  "date": "2026-10-01",
+  "speaker": "Catherine L Mann",
+  "title": "Financial conditions: what’s priced in? − speech by Catherine L. Mann",
+  "bank": "boe",
+  "why": "random 2026",
+  "v9_relevant": true,
+  "v9_level": 9
+ },
+ {
+  "id": "8ea2cf571cfd6164b7cd",
+  "date": "2026-02-02",
+  "speaker": "Sarah Breeden",
+  "title": "Talking ’bout next generation − speech by Sarah Breeden",
+  "bank": "boe",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "de6c364817f747422bd6",
+  "date": "2022-10-19",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策富山県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "9f8e4e8249425feacd47",
+  "date": "2022-10-21",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】全国信用組合大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "8e0b27a4c4935431743d",
+  "date": "2022-11-14",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 最近の金融経済情勢と金融政策運営名古屋での経済界代表者との懇談における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "9791f4759a13d17974c0",
+  "date": "2022-12-01",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策秋田県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "b5c4c78f45f394fdcfd3",
+  "date": "2022-12-03",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【講演】金融政策の未来：貨幣経済学の歴史に学ぶ景気循環学会第38回大会における基調講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "a731c29b774b7d698d8e",
+  "date": "2022-12-07",
+  "speaker": "NAKAMURA Toyoaki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策長野県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "220ee8e16b69527b8181",
+  "date": "2022-12-26",
+  "speaker": "KURODA Haruhiko",
+  "title": "【講演】 賃金上昇を伴う形での「物価安定の目標」の持続的・安定的な実現に向けて 日本経済団体連合会審議員会における講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "a2fc8b1e6640a62d5723",
+  "date": "2023-02-02",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営静岡県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "0ebf126eed803bd3b753",
+  "date": "2023-02-22",
+  "speaker": "TAMURA Naoki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策群馬県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "fba5a9a5fd0a395df48f",
+  "date": "2023-03-01",
+  "speaker": "NAKAGAWA Junko",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策福島県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "b35f45b689283b464511",
+  "date": "2023-03-02",
+  "speaker": "TAKATA Hajime",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策神奈川県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "d5f982b0db4a2bd9dc0c",
+  "date": "2023-04-12",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】第98回信託大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "92ac0f706ff736be404c",
+  "date": "2023-05-19",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】金融政策の基本的な考え方と経済・物価情勢の今後の展望 内外情勢調査会における講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "7b1d5e139f51ab50d858",
+  "date": "2023-06-21",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】全国信用金庫大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "8cedf35421e76d987c1e",
+  "date": "2023-06-21",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策鹿児島県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "bf15c840d4a7c45fa42c",
+  "date": "2023-06-22",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策沖縄県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "b04e6802cb29461c0965",
+  "date": "2023-08-02",
+  "speaker": "UCHIDA Shinichi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営千葉県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "18e72199438e85b39c39",
+  "date": "2023-08-26",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】カンザスシティ連邦準備銀行主催シンポジウムパネルセッション：「変曲点にあるグローバリゼーション」 における講演の抄訳（8月26日、於・米国ワイオミング州ジャクソンホール）",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "20d75c491e9584554af5",
+  "date": "2023-08-30",
+  "speaker": "TAMURA Naoki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策道東地域金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "7b0b2e192c89853b3dcc",
+  "date": "2023-08-31",
+  "speaker": "NAKAMURA Toyoaki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策岐阜県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "9ebe5776a40f8272fe0d",
+  "date": "2023-09-06",
+  "speaker": "TAKATA Hajime",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策山口県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "5d3e698934a515abd656",
+  "date": "2023-09-07",
+  "speaker": "NAKAGAWA Junko",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策高知県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "0dc9010f4323496b4cb6",
+  "date": "2023-09-25",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営大阪経済4団体共催懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "9fe5a43394c15cc9ec15",
+  "date": "2023-09-25",
+  "speaker": "UCHIDA Shinichi",
+  "title": "【挨拶】令和5年全国証券大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "e554f07e3e19b2ef0acd",
+  "date": "2023-09-30",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】中央銀行の財務と金融政策運営日本金融学会2023年度秋季大会における特別講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "b32392fae83834dcff3b",
+  "date": "2023-10-12",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策新潟県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "6e0ebe3aca30ffeebc1f",
+  "date": "2023-10-20",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】全国信用組合大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "6e204ce32148878f789d",
+  "date": "2023-11-06",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】 最近の金融経済情勢と金融政策運営名古屋での経済界代表者との懇談における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "13b079795abe0216df6f",
+  "date": "2023-11-29",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策愛媛県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "8cd1965b9a90914660da",
+  "date": "2023-11-30",
+  "speaker": "NAKAMURA Toyoaki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策兵庫県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "da9af517f7c806ffe50f",
+  "date": "2023-12-02",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【講演】ポスト・コロナ時代のケインズ主義第28回産研アカデミック・フォーラムにおける講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "24ea1602804c1f7974f9",
+  "date": "2023-12-06",
+  "speaker": "HIMINO Ryozo",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営大分県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "910b2f35e24c9e1658b8",
+  "date": "2023-12-25",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】 賃金と物価：過去・現在・そして将来 日本経済団体連合会審議員会における講演",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "6332107a68f3caaf2da4",
+  "date": "2024-02-08",
+  "speaker": "UCHIDA Shinichi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営奈良県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "fc287ae53b25571c557e",
+  "date": "2024-02-29",
+  "speaker": "TAKATA Hajime",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策滋賀県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "885026c1ea544c2d7767",
+  "date": "2024-03-07",
+  "speaker": "NAKAGAWA Junko",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策島根県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "0f9cc8c1da5644ac8af4",
+  "date": "2024-03-27",
+  "speaker": "TAMURA Naoki",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策青森県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "fbe52f60fff8d66a8d57",
+  "date": "2024-04-10",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】第99回信託大会における挨拶",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 3
+ },
+ {
+  "id": "0ccd13ea3fdc781a1f6a",
+  "date": "2024-04-18",
+  "speaker": "NOGUCHI Asahi",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策佐賀県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "window: YCC changes and exit",
+  "v9_relevant": true,
+  "v9_level": 1
+ },
+ {
+  "id": "f1d19a7131188bc9c42b",
+  "date": "2018-10-25",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【講演】 金融危機後の世界：変化する経済、経済学と中央銀行 慶應義塾大学経済学部・日本経済新聞社共催「ニッポンの革新力」シンポジウムでの基調講演",
+  "bank": "boj",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "990dbbb79386b10e4bf7",
+  "date": "2018-11-19",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 人口動態の変動と金融セクターの課題 パリ・ユーロプラス主催フィナンシャル・フォーラムにおける挨拶の邦訳",
+  "bank": "boj",
+  "why": "random 2018",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "7dfd65c48f9d46769db5",
+  "date": "2019-12-26",
+  "speaker": "KURODA Haruhiko",
+  "title": "【講演】 好循環の持続に向けて 日本経済団体連合会審議員会における講演",
+  "bank": "boj",
+  "why": "random 2019",
+  "v9_relevant": true,
+  "v9_level": 1
+ },
+ {
+  "id": "f0acfd2ce67053c48f7c",
+  "date": "2019-11-28",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 国際的な金融規制・監督：これまでの成果、現在の論点、将来の課題 パリ・ユーロプラス主催フィナンシャル・フォーラムにおける挨拶の邦訳",
+  "bank": "boj",
+  "why": "random 2019",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "d20e909d99c983589fa7",
+  "date": "2020-11-12",
+  "speaker": "ADACHI Seiji",
+  "title": "【挨拶】わが国の経済・物価情勢と金融政策長野県金融経済懇談会における挨拶要旨",
+  "bank": "boj",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "48ae400d8d888e87bceb",
+  "date": "2020-02-05",
+  "speaker": "WAKATABE Masazumi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営愛媛県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "random 2020",
+  "v9_relevant": true,
+  "v9_level": 1
+ },
+ {
+  "id": "09670debcbbac1573b31",
+  "date": "2021-03-30",
+  "speaker": "KURODA Haruhiko",
+  "title": "【講演】 より効果的で持続的な金融緩和 きさらぎ会における講演",
+  "bank": "boj",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "37c15a9c732bf573027f",
+  "date": "2021-07-21",
+  "speaker": "AMAMIYA Masayoshi",
+  "title": "【挨拶】最近の金融経済情勢と金融政策運営新潟県金融経済懇談会における挨拶",
+  "bank": "boj",
+  "why": "random 2021",
+  "v9_relevant": true,
+  "v9_level": 0
+ },
+ {
+  "id": "18b350aa4498de2eb45c",
+  "date": "2022-06-24",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】全国信用金庫大会における挨拶",
+  "bank": "boj",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "767fd1f1bfabc76c947f",
+  "date": "2022-09-26",
+  "speaker": "AMAMIYA Masayoshi",
+  "title": "【挨拶】令和4年全国証券大会における挨拶",
+  "bank": "boj",
+  "why": "random 2022",
+  "v9_relevant": true,
+  "v9_level": 2
+ },
+ {
+  "id": "2928810271972cb12b7c",
+  "date": "2023-03-28",
+  "speaker": "KURODA Haruhiko",
+  "title": "【挨拶】 決済の進化：「シン個人」のための決済システム FIN/SUM（フィンサム）2023における挨拶",
+  "bank": "boj",
+  "why": "random 2023",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "72be17e3ac382eb6ae2b",
+  "date": "2023-05-31",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】日本銀行金融研究所主催2023年国際コンファランスにおける開会挨拶の邦訳",
+  "bank": "boj",
+  "why": "random 2023",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "20236e02c0a8794008a9",
+  "date": "2024-12-04",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】 決済の未来と中央銀行の役割 FISC創立40周年記念講演会における講演",
+  "bank": "boj",
+  "why": "random 2024",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "aa758a30b4501ed5ed93",
+  "date": "2024-10-02",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】令和6年全国証券大会における挨拶",
+  "bank": "boj",
+  "why": "random 2024",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "d3cacf517156d6f986e1",
+  "date": "2025-12-01",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】 最近の金融経済情勢と金融政策運営名古屋での経済界代表者との懇談における挨拶",
+  "bank": "boj",
+  "why": "random 2025",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "f3f128320f95e19c2603",
+  "date": "2025-04-09",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】第100回信託大会における挨拶",
+  "bank": "boj",
+  "why": "random 2025",
+  "v9_relevant": true,
+  "v9_level": 4
+ },
+ {
+  "id": "bf1d3825c54e02c8a536",
+  "date": "2026-03-03",
+  "speaker": "UEDA Kazuo",
+  "title": "【挨拶】 新金融エコシステムにおける中央銀行の役割 FIN/SUM（フィンサム）2026における挨拶",
+  "bank": "boj",
+  "why": "random 2026",
+  "v9_relevant": false,
+  "v9_level": null
+ },
+ {
+  "id": "345acf1651f552039c89",
+  "date": "2026-06-03",
+  "speaker": "UEDA Kazuo",
+  "title": "【講演】 最近の経済・物価情勢と金融政策運営 きさらぎ会における講演",
+  "bank": "boj",
+  "why": "random 2026",
+  "v9_relevant": true,
+  "v9_level": 4
+ }
+]
