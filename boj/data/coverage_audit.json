@@ -28,13 +28,13 @@
     {
       "latest_delivery": "2026-10-16",
       "member": "UEDA Kazuo",
-      "policy_scores": 25,
+      "policy_scores": 27,
       "stored_speeches": 39
     },
     {
       "latest_delivery": "2026-10-15",
       "member": "KOEDA Junko",
-      "policy_scores": 2,
+      "policy_scores": 3,
       "stored_speeches": 3
     },
     {
@@ -867,17 +867,17 @@
     },
     {
       "member": "UEDA Kazuo",
-      "policy_relevant": 3,
+      "policy_relevant": 5,
       "publication_date_unknown": 0,
-      "scored": 5,
+      "scored": 7,
       "stored": 7,
       "year": 2026
     },
     {
       "member": "KOEDA Junko",
-      "policy_relevant": 1,
+      "policy_relevant": 2,
       "publication_date_unknown": 0,
-      "scored": 1,
+      "scored": 2,
       "stored": 2,
       "year": 2026
     },
@@ -910,5 +910,5 @@
   "membership_terms": 24,
   "stored_speeches": 292,
   "unresolved": [],
-  "valid_scores": 289
+  "valid_scores": 292
 }

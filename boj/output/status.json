@@ -1,13 +1,13 @@
 {
   "bank": "boj",
-  "built_at": "2026-10-28T13:46:43.763832+00:00",
+  "built_at": "2026-10-28T14:31:10.645101+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 0.7777777777777778,
     "date": "2026-10-28",
-    "disagreement": 6.388765649999399,
-    "index": 78.57142857142857,
+    "disagreement": 6.998542122237652,
+    "index": 77.14285714285714,
     "missing_members": "ASADA Toichiro|SATO Ayano",
     "scored_voters": 7,
     "stale_members": "UCHIDA Shinichi"
@@ -15,7 +15,6 @@
   "membership_coverage_start": "2017-07-24",
   "scorer_version": "gpt-6-luna:v10",
   "warnings": [
-    "3 speeches remain unscored for this content/prompt vintage",
     "Voters without a scored speech, left out of today's index: ASADA Toichiro, SATO Ayano"
   ]
 }
