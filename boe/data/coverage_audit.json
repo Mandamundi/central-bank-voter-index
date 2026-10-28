@@ -34,7 +34,7 @@
     {
       "latest_delivery": "2026-10-20",
       "member": "Megan Greene",
-      "policy_scores": 10,
+      "policy_scores": 11,
       "stored_speeches": 11
     },
     {
@@ -840,9 +840,9 @@
     },
     {
       "member": "Megan Greene",
-      "policy_relevant": 2,
+      "policy_relevant": 3,
       "publication_date_unknown": 0,
-      "scored": 2,
+      "scored": 3,
       "stored": 3,
       "year": 2026
     },
@@ -875,5 +875,5 @@
   "membership_terms": 18,
   "stored_speeches": 350,
   "unresolved": [],
-  "valid_scores": 349
+  "valid_scores": 350
 }
