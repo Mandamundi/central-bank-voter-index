@@ -1,9 +1,9 @@
 {
-  "completed_at": "2026-10-20T06:27:05.034140+00:00",
-  "done": 5,
+  "completed_at": "2026-10-28T13:46:07.427971+00:00",
+  "done": 0,
   "failed": 0,
-  "remaining": 344,
-  "scorer_version": "gpt-6-luna:v8",
-  "stop_reason": [],
-  "success": true
+  "remaining": 1,
+  "scorer_version": "gpt-6-luna:v10",
+  "stop_reason": "OPENAI_API_KEY is not set (put it in .env locally, or in this repository's Actions secrets).",
+  "success": false
 }

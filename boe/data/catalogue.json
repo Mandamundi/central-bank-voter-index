@@ -379,8 +379,8 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Katharine Braddick: Mansion House, City Regulators Dinner, London, (to be published 9pm)",
+      "speaker": "Katharine Braddick",
+      "title": "The PRA’s second decade − speech by Katharine Braddick",
       "url": "https://www.bankofengland.co.uk/speech/2026/october/katharine-braddick-mansion-house-city-regulators-dinner-london",
       "year": 2026
     },
@@ -396,7 +396,7 @@
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": "Megan Greene",
-      "title": "Megan Greene: Speech at LSE Economics Society, London, (to be published 6pm)",
+      "title": "Learning about earnings: Can we rely on labour market slack to mitigate the latest supply shock? − speech by Megan Greene",
       "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london",
       "year": 2026
     },
@@ -406,6 +406,14 @@
       "speaker": "Nathanaël Benjamin",
       "title": "A unique vantage point − speech by Nathanaël Benjamin",
       "url": "https://www.bankofengland.co.uk/speech/2026/october/nathanael-benjamin-speech-at-isda-derivatives-trading-and-treasury-forum",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": "James Talbot",
+      "title": "Physical shocks and economic resilience: a central bank perspective − speech by James Talbot",
+      "url": "https://www.bankofengland.co.uk/speech/2026/october/physical-shocks-and-economic-resilience-speech-by-james-talbot",
       "year": 2026
     },
     {
@@ -492,7 +500,7 @@
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": null,
-      "title": "Financial innovation, dollar dominance and their UK monetary policy implications (pdf 1.1MB)",
+      "title": "Financial innovation, dollar dominance and their UK monetary policy implications (pdf 0.9MB)",
       "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2026/catherine-l-mann-jackson-hole-discussion-paper.pdf",
       "year": 2026
     },
@@ -561,7 +569,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-10-19T05:21:21.997923+00:00",
-  "since": "2026-06-21",
+  "retrieved_at": "2026-10-28T13:45:41.622540+00:00",
+  "since": "2026-06-30",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }

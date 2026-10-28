@@ -9,8 +9,7 @@
     },
     {
       "command": [
-        "update.py",
-        "--full"
+        "update.py"
       ],
       "exit_code": 0
     },
@@ -36,9 +35,9 @@
       "command": [
         "build_index.py"
       ],
-      "exit_code": 2
+      "exit_code": 0
     }
   ],
   "success": false,
-  "updated_at": "2026-10-16T09:28:52.081495+00:00"
+  "updated_at": "2026-10-28T13:46:10.815862+00:00"
 }
