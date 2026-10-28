@@ -16,8 +16,10 @@ the three indexes are scored with the same instrument; each bank's `prompt.py` o
   that meeting. No member list is kept by hand. See `voters.py`.
 - **Each voter's stance** is the score of their most recent policy-relevant text on or before that
   date (several on the same day are averaged). Every voter counts equally, however often they
-  speak. The index starts on the first day every voter has a scored text; after that, voters with no
-  scored text yet are left out.
+  speak. The published index starts on 2008-01-01 (`config.START_DATE`): before then the archive
+  has too few policy speeches per voter (40-60 a year in all), so many stances were carried
+  forward for years. Earlier speeches still set the voters' opening stances. Voters with no scored
+  text yet are left out.
 - **What counts as text**: the member's own prepared words: speeches, signed essays, statements
   (including dissent statements) and testimony. Interviews, Q&As, conversations, podcasts and
   video-only pages are skipped. The scorer marks texts that say nothing about monetary policy as

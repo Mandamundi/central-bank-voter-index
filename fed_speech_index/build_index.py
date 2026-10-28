@@ -152,7 +152,7 @@ def main() -> int:
         w.writerow(["date", "member", "score", "level", "as_of"])
         w.writerows((d, m, f"{v:.2f}", lv, a) for d, m, v, lv, a in members)
     span = f"{series['fed_speech_index'][0][0]} to {series['fed_speech_index'][-1][0]}" if series["fed_speech_index"] else "no data yet"
-    print(f"Built indexes from {len(speeches)} policy speeches ({span}; starts on the first day every voter has a score).")
+    print(f"Built indexes from {len(speeches)} policy speeches ({span}; " + ("starts on config.START_DATE)." if config.START_DATE else "starts on the first day every voter has a score)."))
     return 0
 
 

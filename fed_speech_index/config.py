@@ -24,7 +24,8 @@ BATCH_QUEUE_TOKENS = 15_000_000         # input tokens queued at once in batch m
 BATCH_MAX_REQUESTS = 50_000             # Batch API limit per batch
 
 # Index
-START_DATE = None                       # first output date (ISO); None = first day every voter has a score
+START_DATE = "2008-01-01"               # first output date (ISO); None = first day every voter has a score.
+                                        # Before 2008 too few relevant speeches per voter: stances ran years stale.
 
 # Speech collection
 REQUEST_PAUSE = 1.0                     # seconds between requests to the Fed and Reserve Bank sites

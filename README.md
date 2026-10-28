@@ -43,7 +43,8 @@ policy-decision sentiment index, and this one is its forward-looking companion.
   adjusted for policy decisions made since.
 - **Index:** the equal-weight mean of the current voters' stances; the Chair counts like everyone
   else. **Disagreement:** their standard deviation. Each series starts on the first day every voter
-  has a scored text; after that, a new voter is left out until their first relevant text. Changes in
+  has a scored text (the Fed's on 2008-01-01: before then too few speeches per voter, so stances ran
+  years stale); after that, a new voter is left out until their first relevant text. Changes in
   the committee (appointments, the Fed's yearly rotation) move the index too, since the voters
   changed.
 
