@@ -5165,8 +5165,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.789521+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:41.185419+00:00",
     "collector_version": "v2",
     "content_hash": "208a7b1091eb04fa385785ff4ea305ec8698ec0179fccf75fec9be9dfdc7d0cb",
     "entry": {
@@ -5182,8 +5182,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko260902a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.757582+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:40.827361+00:00",
     "collector_version": "v2",
     "content_hash": "39eeac246ca98b90df5e8772b59f2a7897f54ecfd2190350640ae0687274eea3",
     "entry": {
@@ -5199,8 +5199,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko260910a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.726356+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:40.305906+00:00",
     "collector_version": "v2",
     "content_hash": "fb6359449ccdfc11a187af74b2c58c9dcc133172c03507e3fdaff2670716e646",
     "entry": {
@@ -5216,8 +5216,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261005a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.695129+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:39.935394+00:00",
     "collector_version": "v2",
     "content_hash": "9224c51a6bed75a6905f8768d1405a5f63501abd066b842cbe3c34f1e0b1baee",
     "entry": {
@@ -5233,8 +5233,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261006a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.663653+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:39.237542+00:00",
     "collector_version": "v2",
     "content_hash": "df63fa65b70c59e7fb5b4d292be55c4b0e9247d7684c4ab023c52c42d4bbcb84",
     "entry": {
@@ -5250,10 +5250,10 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261015a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.288204+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:38.891221+00:00",
     "collector_version": "v2",
-    "content_hash": "75c4a3346f28be5a52b49bfa074ce38ddd55be4135bda8b2ff35093af632e564",
+    "content_hash": "fedf96d07f49c483bfb1575adcd3911f301b4ada6fdf335353c583a7bc5dffa2",
     "entry": {
       "date": "2026-10-15",
       "role": "審議委員",
@@ -5267,10 +5267,10 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261016a.htm": {
-    "attempts": 3,
-    "checked_at": "2026-10-16T09:06:47.216658+00:00",
+    "attempts": 4,
+    "checked_at": "2026-10-28T13:46:38.236041+00:00",
     "collector_version": "v2",
-    "content_hash": "09a93889327d700bddf42e0d4153432f7e3a08afcc6f49c97c24938e7ff5bf9f",
+    "content_hash": "62360e685b9533fd03b11a59094baa985c09f3c38bc8ce36ee3123a596437a6c",
     "entry": {
       "date": "2026-10-16",
       "role": "総裁",

@@ -62,27 +62,9 @@
       "speaker_label": "氷見野副総裁",
       "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（埼玉県金融経済懇談会）",
       "url": "https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm"
-    },
-    {
-      "date": "2026-06-25",
-      "role": "審議委員",
-      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
-      "speaker": "TAMURA Naoki",
-      "speaker_label": "田村審議委員",
-      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（兵庫県金融経済懇談会）",
-      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260625a.htm"
-    },
-    {
-      "date": "2026-06-24",
-      "role": "総裁",
-      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
-      "speaker": "UEDA Kazuo",
-      "speaker_label": "植田総裁（氷見野副総裁代読）",
-      "title": "【挨拶】（全国信用金庫大会）",
-      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260624a.htm"
     }
   ],
-  "retrieved_at": "2026-10-16T10:46:58.915597+00:00",
-  "since": "2026-06-18",
+  "retrieved_at": "2026-10-28T13:46:37.863456+00:00",
+  "since": "2026-06-30",
   "source": "https://www.boj.or.jp/about/press/koen_all/index.htm"
 }
