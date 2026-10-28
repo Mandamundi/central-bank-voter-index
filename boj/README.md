@@ -1,7 +1,7 @@
 # BOJ speech hawk/dove index
 
 Daily hawkish/dovish index of the Bank of Japan Policy Board's voting members, built from their
-speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 11-level easy↔tight scale as the Fed
+speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same directional 11-level policy-pressure scale as the Fed
 index (see `rubric.py`).
 
 The scale and prompt core in `rubric.py` are shared word for word with the Fed and BOE projects, so
@@ -38,7 +38,7 @@ a deputy is the author's. Evidence quotes are in the language of the text.
 ## Outputs (`output/`)
 | File | Meaning |
 |---|---|
-| `boj_speech_index.csv` | Mean of the voters' latest scores (`date`, `index`). 0 = emergency easing, 100 = aggressive tightening |
+| `boj_speech_index.csv` | Mean of the voters' latest scores (`date`, `index`). 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
 | `boj_speech_disagreement.csv` | Standard deviation of those scores |
 | `boj_member_scores.csv` | Each voter's score on each day, with the speech date and age |
 | `boj_coverage.csv` | Voters scored and missing on each day |

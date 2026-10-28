@@ -1,4 +1,4 @@
-"""The Fed's prompt, built from the shared rubric: system prompt pinned at v9, response schema unchanged since v7, user prompt unchanged since v3."""
+"""The Fed's prompt, built from the shared rubric: system prompt, response schema and user prompt pinned at v10."""
 import json
 from pathlib import Path
 import unittest
@@ -11,17 +11,17 @@ SPEECH = {'speaker': 'Jerome H. Powell', 'role': 'Chair', 'date': '2025-10-14', 
 
 
 class FedPromptTests(unittest.TestCase):
-    def test_system_prompt_is_pinned_v9(self):
-        self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v9_system.txt').read_text(encoding='utf-8'))
+    def test_system_prompt_is_pinned_v10(self):
+        self.assertEqual(prompt.system_prompt(), (FIXTURES / 'prompt_v10_system.txt').read_text(encoding='utf-8'))
 
-    def test_response_schema_unchanged_since_v7(self):
+    def test_response_schema_is_pinned_v10(self):
         schema = json.dumps(prompt.SpeechScore.model_json_schema(), sort_keys=True, indent=1)
-        self.assertEqual(schema, (FIXTURES / 'prompt_v7_schema.json').read_text(encoding='utf-8'))
+        self.assertEqual(schema, (FIXTURES / 'prompt_v10_schema.json').read_text(encoding='utf-8'))
 
-    def test_user_prompt_unchanged_since_v3(self):
-        self.assertEqual(prompt.user_prompt(SPEECH, '4-4.25'), (FIXTURES / 'prompt_v3_user_range.txt').read_text(encoding='utf-8'))
+    def test_user_prompt_is_pinned_v10(self):
+        self.assertEqual(prompt.user_prompt(SPEECH, '4-4.25'), (FIXTURES / 'prompt_v10_user_range.txt').read_text(encoding='utf-8'))
         self.assertEqual(prompt.user_prompt(dict(SPEECH, text='Body.'), '5.25'),
-                         (FIXTURES / 'prompt_v3_user_rate.txt').read_text(encoding='utf-8'))
+                         (FIXTURES / 'prompt_v10_user_rate.txt').read_text(encoding='utf-8'))
 
 
 class SameDayTests(unittest.TestCase):

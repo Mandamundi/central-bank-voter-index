@@ -7,7 +7,7 @@ with equal weight per voter. The series starts on the first day every voter has 
 that, voters with no scored speech yet are left out. Disagreement is the
 standard deviation of the same voters' scores.
 
-  fed_speech_index.csv          mean of voters' latest scores (0 = emergency easing, 100 = aggressive tightening)
+  fed_speech_index.csv          mean of voters' latest scores (50 = hold; below 50 = pressure to ease, above 50 = pressure to tighten)
   fed_speech_disagreement.csv   standard deviation of those scores
   fed_member_scores.csv         each voter's score on each day, for member charts and the current-score widget
 

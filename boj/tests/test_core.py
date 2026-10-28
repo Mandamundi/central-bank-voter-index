@@ -141,7 +141,7 @@ class ScoringTests(unittest.TestCase):
     def test_user_prompt_uses_the_shared_template(self):
         s={'speaker':'Person','role':'Voter','date':'2020-01-01','title':'Policy','text':'x'*(rubric.MAX_TEXT_CHARS+10)}
         text=prompt.user_prompt(s,'Bank Rate 5%.')
-        self.assertTrue(text.startswith('Speaker: Person (Voter)\nDate: 2020-01-01\nTitle: Policy\nPolicy setting on this date: Bank Rate 5%.\n\nSPEECH TEXT:\n'))
+        self.assertTrue(text.startswith('Speaker: Person (Voter)\nDate: 2020-01-01\nTitle: Policy\nCurrent policy setting on this date: Bank Rate 5%.\n\nSPEECH TEXT:\n'))
         self.assertTrue(text.endswith('x'*rubric.MAX_TEXT_CHARS))
 
     def test_unverified_quotes_are_flagged_not_rejected(self):

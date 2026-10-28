@@ -97,8 +97,14 @@ meetings, roughly six months.
 - Base the judgement on the speaker's own views; ignore sections that merely describe history or other people's
   views. A speaker who explains and endorses the committee's current policy, including in the institution's voice
   ("we", "the Committee"), is stating their own view; an explicit statement of personal disagreement overrides it.
-- When the speaker favors a different move from the committee (a dissent, or a proposal), score the move the
-  speaker favors.
+- When the speaker favors a different move from the committee at a coming meeting (a dissent, or a proposal),
+  score the move the speaker favors.
+- After a decision the speaker disagreed with, score what the speaker wants from the new setting, not the move
+  they preferred at that meeting. Calling for the decision to be reversed is a move in that direction. Accepting
+  it while having preferred a smaller or different move, with nothing further wanted, is a hold, or a tilt toward
+  the speaker's side if they say the risks or their inclination point that way.
+- If the speech describes a decision that the setting line does not yet show, that decision is part of the
+  current setting.
 
 Holds and leans:
 - A lean is a stated direction for the next move: "further increases may be needed", "cuts are likely later this

@@ -16,24 +16,27 @@ policy-decision sentiment index, and this one is its forward-looking companion.
 ## Method (the same for all three)
 - **Texts:** each voter's own prepared words (speeches, plus essays, statements and testimony where
   the bank publishes them). Interviews, Q&As, press conferences and slides are skipped.
-- **Score:** each text answers one question: how tight is the policy the speaker wants over the near
-  term (the next few meetings, roughly six months)? That is the current setting plus the moves they
-  support or lean toward. The answer is one of 11 levels on an absolute scale, 0 to 100 in steps of 10:
+- **Score:** each text answers one question: how far, and how urgently, does the speaker want policy
+  to move from its current setting over the near term (the next few meetings, roughly six months)?
+  The scale is directional: the level of rates is not scored, only the change the speaker wants from
+  it, so the same view gets the same score in any era and at any bank. The model is given the bank's
+  setting on the speech date only as the starting point. The answer is one of 11 levels, 0 to 100 in
+  steps of 10:
 
-  | Today's setting / speaker wants | Easing now | Leans to ease | Hold | Leans to tighten | Tightening now |
-  |---|---|---|---|---|---|
-  | At the floor (zero or negative, purchases) | 10 | 10 | 20 | 30 | 40 |
-  | Accommodative | 20 | 20 | 30 | 40 | 40 |
-  | Near neutral | 40 | 40 | 50 | 60 | 70 |
-  | Restrictive | 50 | 60 | 70 | 80 | 90 |
+  | Ease | | | | | Hold | | | | | Tighten |
+  |---|---|---|---|---|---|---|---|---|---|---|
+  | 0 | 10 | 20 | 30 | 40 | **50** | 60 | 70 | 80 | 90 | 100 |
+  | Emergency | Faster than usual | Easing now | Leans (expects a cut within ~6 months) | Tilts (risks or eventual direction) | No lean | Tilts | Leans | Tightening now | Faster than usual | Outsized, accepts recession |
 
-  Crisis easing from any setting is 0; outsized or urgent tightening is 100; rapid hikes from low
-  levels toward a restrictive rate are 90. Every level is tighter than the one before, so a speaker who
-  wants a move never scores below one who only leans toward it, and extreme periods (2020's emergency
-  easing, 2022's outsized hikes) stand apart from ordinary ones. Standard wording ("data dependent",
-  "will act as appropriate") is not a lean; a conditional statement is a lean, not a move; wanting a
-  faster pace counts one level further. Texts that say nothing about monetary policy, or only repeat
-  the latest decision, are marked not relevant and ignored. The full rules are in `rubric.py`.
+  Crisis easing while the crisis is unfolding is 0; once the emergency measures are in place and
+  sufficient, keeping them is a hold. A move the committee has already made is part of the setting,
+  so voters who got the move they wanted and want nothing further return to 50: the index shows
+  pressure building before moves and through a cycle, not the level of rates. After a decision the
+  speaker dissented from, what counts is what they want from the new setting. Standard wording ("data
+  dependent", "will act as appropriate") is not a lean; a conditional statement naming a likely
+  development is a lean, not a move. Texts that say nothing about monetary policy, or only repeat the
+  latest decision, are marked not relevant and ignored. Recorded votes are never used. The full rules
+  are in `rubric.py`.
 - **Stance:** a voter's stance on a day is the score of their latest relevant text up to that day.
   Several texts on the same day are averaged. A stance carries forward unchanged until the voter next
   speaks, however long that is: a changed view moves the index the day it is expressed. It is never
@@ -56,7 +59,11 @@ fills in the bank's names and, for the BOE and BOJ, a short appendix of undated 
 the bank's instruments). The appendix never says which level to give. `tests/test_rubric.py` in
 each folder pins the file's checksum.
 
-**The rubric is frozen at v9.** It changes only when the full-history output shows a systematic
+**The rubric is frozen at v10.** v9 used an absolute easy↔tight grid, which made the index mostly a
+copy of the policy rate (the rate explained 84-89% of it); v10 replaced it with the directional scale
+after a pilot of 140 texts scored twice (`pilot_v10/`): 85% of levels identical between runs, 95%
+within one, and the correlation of scores with the policy rate fell from +0.6/+0.8 to about zero.
+It changes only when the full-history output shows a systematic
 error: a whole episode misplaced (for example a crisis not registering as one), or a member's stance
 wrong across many texts. A single borderline text one level off is expected scoring noise, not a
 reason to change it. Model-scored texts, like texts scored by human analysts, are not perfectly

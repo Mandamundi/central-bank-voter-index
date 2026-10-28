@@ -19,11 +19,11 @@
      "type": "null"
     }
    ],
-   "description": "0-10 on the absolute scale, chosen from the quotes and summary above; null if policy_relevant is false.",
+   "description": "0-10 on the directional scale, chosen from the quotes and summary above; null if policy_relevant is false.",
    "title": "Level"
   },
   "policy_relevant": {
-   "description": "True if the speech reveals the speaker's own view on the stance of U.S. monetary policy.",
+   "description": "True if the speech reveals the speaker's own view on where U.S. monetary policy should go.",
    "title": "Policy Relevant",
    "type": "boolean"
   },

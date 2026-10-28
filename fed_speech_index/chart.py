@@ -21,7 +21,7 @@ import store  # noqa: E402
 CHARTS = config.ROOT / "charts"
 
 PANELS = [
-    ("fed_speech_index", "FOMC voters' speech hawk/dove index (0 = emergency easing, 100 = aggressive tightening)"),
+    ("fed_speech_index", "FOMC voters' speech hawk/dove index (50 = hold; below 50 = pressure to ease, 0 = emergency easing; above 50 = pressure to tighten)"),
     ("fed_speech_disagreement", "Disagreement (std. dev. of voters' latest speech scores)"),
 ]
 

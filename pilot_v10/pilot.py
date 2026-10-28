@@ -142,6 +142,22 @@ def collect(bank: str) -> None:
     print(bank, counts, openai_api.usage_summary())
 
 
+def rerun(bank: str, ids: list[str], runs: int = 3) -> None:
+    """Score a few texts again directly (not batched), after a rubric change; prints and appends to results_rerun.jsonl."""
+    config, openai_api, store, rubric_v10, setting, system, schema = bank_setup(bank)
+    by_id = {s["id"]: s for s in store.load_speeches()}
+    with (HERE / "results_rerun.jsonl").open("a", encoding="utf-8") as f:
+        for i in ids:
+            s = by_id[i]
+            body = openai_api.request_body(config.MODEL, config.REASONING_EFFORT, config.MAX_OUTPUT_TOKENS, system,
+                                           rubric_v10.user_prompt(s, setting(s["date"])), schema.model_json_schema())
+            for run in range(1, runs + 1):
+                r = schema.model_validate_json(openai_api.output_text(openai_api.create(os.environ["OPENAI_API_KEY"], body)))
+                f.write(json.dumps({"bank": bank, "id": i, "run": run, "level": r.level if r.policy_relevant else None,
+                                    "rationale": r.rationale}, ensure_ascii=False) + "\n")
+                print(f"{bank} {s['date']} {s['speaker'][:20]:20} run {run}: {r.level if r.policy_relevant else '-'}  {r.rationale}")
+
+
 def report() -> None:
     rows = json.loads((HERE / "sample.json").read_text())
     res = collections.defaultdict(dict)
@@ -165,5 +181,9 @@ def report() -> None:
 
 if __name__ == "__main__":
     command = sys.argv[1]
-    {"sample": sample, "report": report}.get(command, lambda: None)() if command in ("sample", "report") else \
+    if command == "rerun":
+        rerun(sys.argv[2], sys.argv[3:])
+    elif command in ("sample", "report"):
+        {"sample": sample, "report": report}[command]()
+    else:
         {"submit": submit, "collect": collect}[command](sys.argv[2])

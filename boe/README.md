@@ -1,7 +1,7 @@
 # BOE speech hawk/dove index
 
 Daily hawkish/dovish index of the Bank of England Monetary Policy Committee's members, built from
-their speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same absolute 11-level easy↔tight scale as the
+their speeches. Each speech is scored by OpenAI's `gpt-6-luna` on the same directional 11-level policy-pressure scale as the
 Fed index (see `rubric.py`).
 
 The scale and prompt core in `rubric.py` are shared word for word with the Fed and BOJ projects, so
@@ -39,7 +39,7 @@ speech with a broken download (Ramsden, 22 February 2022) is recovered from the 
 ## Outputs (`output/`)
 | File | Meaning |
 |---|---|
-| `boe_speech_index.csv` | Mean of the voters' latest scores (`date`, `index`). 0 = emergency easing, 100 = aggressive tightening |
+| `boe_speech_index.csv` | Mean of the voters' latest scores (`date`, `index`). 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
 | `boe_speech_disagreement.csv` | Standard deviation of those scores |
 | `boe_member_scores.csv` | Each voter's score on each day, with the speech date and age |
 | `boe_coverage.csv` | Voters scored and missing on each day |

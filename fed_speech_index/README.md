@@ -1,12 +1,12 @@
 # Fed speech hawk/dove index
 
 Daily hawkish/dovish index of the FOMC's voting members, built from their speeches. Each speech
-is scored by OpenAI's `gpt-6-luna` on an absolute 11-level easy↔tight scale (see `rubric.py` and the
+is scored by OpenAI's `gpt-6-luna` on a directional 11-level policy-pressure scale (see `rubric.py` and the
 repository README).
 
 The scale and prompt core in `rubric.py` are shared word for word with the BOJ and BOE projects, so
 the three indexes are scored with the same instrument; each bank's `prompt.py` only fills in its names
-(and, for BOJ and BOE, adds a short appendix of undated facts about the bank). The current version is v9.
+(and, for BOJ and BOE, adds a short appendix of undated facts about the bank). The current version is v10.
 `tests/test_prompt.py` pins the rendered prompt.
 
 ## How the index is built
@@ -43,7 +43,7 @@ Each file has two columns, `date` and `index`, with one row per calendar day.
 
 | File | Meaning |
 |---|---|
-| `fed_speech_index.csv` | Mean of the voters' latest scores. 0 = emergency easing, 100 = aggressive tightening |
+| `fed_speech_index.csv` | Mean of the voters' latest scores. 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
 | `fed_speech_disagreement.csv` | Standard deviation of those scores |
 
 ## One-time setup (local)

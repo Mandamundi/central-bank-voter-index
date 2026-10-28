@@ -22,7 +22,7 @@ import store  # noqa: E402
 CHARTS = config.ROOT / "charts"
 
 PANELS = [
-    ("boe_speech_index", "BOE voters' speech hawk/dove index (0 = emergency easing, 100 = aggressive tightening)"),
+    ("boe_speech_index", "BOE voters' speech hawk/dove index (50 = hold; below 50 = pressure to ease, 0 = emergency easing; above 50 = pressure to tighten)"),
     ("boe_speech_disagreement", "Disagreement (std. dev. of BOE voters' latest speech scores)"),
 ]
 

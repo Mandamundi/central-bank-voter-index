@@ -1,19 +1,19 @@
 {
   "bank": "boj",
-  "built_at": "2026-10-20T07:38:49.226858+00:00",
+  "built_at": "2026-10-27T16:58:48.659692+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 0.7777777777777778,
-    "date": "2026-10-20",
-    "disagreement": 3.499271061118826,
-    "index": 41.42857142857143,
+    "date": "2026-10-28",
+    "disagreement": 6.998542122237652,
+    "index": 77.14285714285714,
     "missing_members": "ASADA Toichiro|SATO Ayano",
     "scored_voters": 7,
     "stale_members": "UCHIDA Shinichi"
   },
   "membership_coverage_start": "2017-07-24",
-  "scorer_version": "gpt-6-luna:v9",
+  "scorer_version": "gpt-6-luna:v10",
   "warnings": [
     "Official roster has not been verified today",
     "Policy context has not been verified today",
