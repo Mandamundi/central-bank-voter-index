@@ -78,33 +78,23 @@ class FraserTests(unittest.TestCase):
         with patch.object(fraser, 'collections', return_value=found):
             self.assertEqual([c['name'] for c in fraser.voter_collections(rows)], ['Richard W. Fisher'])
 
-    def test_bank_copy_of_a_fraser_speech_is_removed(self):
-        with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
-            root = Path(directory)
-            for key, value in [('DATA', root), ('SPEECH_DIR', root / 'speeches'), ('PROCESSING', root / 'processing.json'),
-                               ('SCORES', root / 'scores.jsonl')]:
-                stack.enter_context(patch.object(config, key, value))
-            store.add_speeches([
-                speech(id='f', date='2012-01-10', speaker='Esther L. George', source='fraser', url='https://fraser/x'),
-                speech(id='b', date='2012-01-10', speaker='George', source='kansascity', url='https://kc/x'),
-                speech(id='k', date='2012-01-11', speaker='Esther L. George', source='kansascity', url='https://kc/y'),
-            ])
-            store.save_processing({'https://kc/x': {'source': 'kansascity', 'status': 'stored'}})
-            self.assertEqual(fraser.remove_bank_copies(), 1)
-            self.assertEqual(sorted(s['id'] for s in store.load_speeches()), ['f', 'k'])
-            self.assertEqual(store.load_processing()['https://kc/x']['reason'], update.FRASER_COPY)
-
-    def test_fraser_copy_replaces_bank_copy_with_the_same_id(self):
+    def test_fraser_skips_a_speech_already_stored_from_a_bank(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:
             root = Path(directory)
             for key, value in [('DATA', root), ('SPEECH_DIR', root / 'speeches'), ('SCORES', root / 'scores.jsonl')]:
                 stack.enter_context(patch.object(config, key, value))
-            store.add_speeches([speech(id='same', date='2005-02-01', speaker='Alan Greenspan', source='board', url='https://board/x')])
-            outcomes = {'https://board/x': {'source': 'board', 'status': 'stored'}}
-            added = fraser._save([speech(id='same', date='2005-02-01', speaker='Alan Greenspan', source='fraser', url='https://fraser/x')], outcomes)
-            self.assertEqual(added, 1)
-            self.assertEqual([s['source'] for s in store.load_speeches()], ['fraser'])
-            self.assertEqual(outcomes['https://board/x']['reason'], update.FRASER_COPY)
+            store.add_speeches([speech(id='same', date='2005-02-01', speaker='Alan Greenspan', source='board', url='https://board/x'),
+                                speech(id='b', date='2012-01-10', speaker='George', source='kansascity', url='https://kc/x')])
+            records = [speech(id='same', date='2005-02-01', speaker='Alan Greenspan', source='fraser', url='https://fraser/x'),
+                       speech(id='f', date='2012-01-10', speaker='Esther L. George', source='fraser', url='https://fraser/y'),
+                       speech(id='n', date='2012-01-11', speaker='Esther L. George', source='fraser', url='https://fraser/z')]
+            outcomes = {r['url']: {'source': 'fraser', 'status': 'stored'} for r in records}
+            self.assertEqual(fraser._save(records, outcomes), 1)
+            self.assertEqual(sorted(s['id'] for s in store.load_speeches()), ['b', 'n', 'same'])
+            self.assertEqual([s['source'] for s in store.load_speeches() if s['id'] == 'same'], ['board'])
+            self.assertEqual(outcomes['https://fraser/x']['reason'], fraser.ALREADY_STORED)
+            self.assertEqual(outcomes['https://fraser/y']['status'], 'excluded')
+            self.assertEqual(outcomes['https://fraser/z']['status'], 'stored')
 
     def test_daily_pull_skips_a_speech_fraser_already_holds(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.ExitStack() as stack:

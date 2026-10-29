@@ -30,11 +30,6 @@ jobs:
       - run: uv sync --locked
       - name: Pull new speeches and FOMC voters
         run: uv run update.py
-      - name: Harvest FRASER archive (1st of the month; FRASER adds the previous year each January)
-        run: |
-          if [ "$(date -u +%d)" = "01" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            uv run fraser.py
-          fi
       - name: Score new speeches
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

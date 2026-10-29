@@ -1,0 +1,41 @@
+name: fraser-yearly
+
+# FRASER adds each official's previous-year speeches once a year, in January. This harvest runs once a
+# year after that load (or on demand from the Actions tab) and only adds speeches the daily collection
+# missed: a speech already stored is never replaced, so published scores and the index do not change.
+on:
+  schedule:
+    - cron: "0 8 15 2 *"     # 15 February, 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update        # never runs at the same time as the daily update
+  cancel-in-progress: false
+
+jobs:
+  fraser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        working-directory: fed_speech_index
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: fed_speech_index/uv.lock
+      - run: uv sync --locked
+      - name: Harvest FRASER's yearly load (add-only)
+        run: uv run fraser.py
+      - name: Score the speeches it added
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: uv run score.py
+      - name: Rebuild indexes
+        run: uv run build_index.py
+      - name: Commit
+        run: ../.github/commit.sh fed_speech_index "Yearly FRASER harvest"

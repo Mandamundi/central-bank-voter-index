@@ -22,7 +22,7 @@ import voters
 import runlog
 
 SAVE_EVERY = 25
-FRASER_COPY = 'FRASER holds this speech'      # same reason fraser.py records for the copies it removes
+FRASER_COPY = 'FRASER holds this speech'      # a bank copy of a speech already stored from FRASER
 
 
 def refresh_fed_funds() -> None:
@@ -66,7 +66,10 @@ def _outcome(source: str, status: str, reason: str, old: dict | None, **extra) -
            "last_attempt": now.isoformat(), "attempts": (old or {}).get("attempts", 0) + 1,
            "collector_version": config.COLLECTOR_VERSION, **extra}
     if status not in {"stored", "excluded"}:
-        row["retry_after"] = (now + dt.timedelta(days=7 if status == "http_failure" else 1)).isoformat()
+        # Back off: a page that keeps failing (often a duplicate address of a speech already stored)
+        # is retried after 1, 2, 4 ... days (7, 14 ... for HTTP errors), at most every 30 days.
+        days = min(30, (7 if status == "http_failure" else 1) * 2 ** (row["attempts"] - 1))
+        row["retry_after"] = (now + dt.timedelta(days=days)).isoformat()
     return row
 
 

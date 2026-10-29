@@ -32,8 +32,10 @@ the three indexes are scored with the same instrument; each bank's `prompt.py` o
 | Since FRASER's last load, and people FRASER has no collection for | The Board's RSS feed and the twelve Reserve Banks' own pages. `sources.py`, `update.py` |
 
 FRASER is read through its keyless public endpoints (OAI-PMH, item metadata, text files); no API
-key is needed. When FRASER and a Reserve Bank site both have a speech (same person, same day), the
-FRASER copy is kept.
+key is needed. Each speech is stored once (same person, same day): the backfill took FRASER's copy
+of the history, and since then the daily collection skips speeches FRASER already holds, while the
+yearly FRASER harvest only adds speeches the daily collection missed. A stored, scored speech is
+never replaced, so the published index does not change after the fact.
 
 FRASER has no collection for Neel Kashkari, Jeffrey Schmid, Lorie Logan as Dallas president or
 Alberto Musalem as St. Louis president. Their texts come from their banks' sites. Kashkari's events
@@ -67,8 +69,11 @@ Commit `data/` and `output/` when you're done.
 
 ## Automatic updates (GitHub Action)
 The repository's `.github/workflows/daily.yml` (at the root, shared by all three banks) runs daily: `update.py` (new voters and speeches) → `score.py` →
-`build_index.py`, then commits the results. On the 1st of each month it also runs `fraser.py`,
-which picks up FRASER's yearly load. Add `OPENAI_API_KEY` as a repository secret.
+`build_index.py`, then commits the results. `.github/workflows/fraser.yml` runs `fraser.py` once a
+year (15 February, after FRASER's January load, or on demand): it adds only speeches the daily
+collection missed, then scores them and rebuilds. Pages that keep failing are retried after 1, 2, 4
+... days, at most every 30 (`backfill.py --recover` retries them at once). Add
+`OPENAI_API_KEY` as a repository secret.
 
 ## Files
 - `config.py`: model, prompt version, start date, paths

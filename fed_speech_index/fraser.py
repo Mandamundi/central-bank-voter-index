@@ -2,7 +2,7 @@
 
 FRASER keeps one collection per Fed official ("Statements and Speeches of Esther L. George"),
 built from the Board's and Reserve Banks' own archives and extended once a year with the previous
-year's speeches. It is the archive of record here; the Board and Reserve Bank sites (update.py)
+year's speeches. It supplied most of the history; the Board and Reserve Bank sites (update.py)
 supply everything newer, and the people FRASER has no collection for.
 
 Everything is read from FRASER's public pages; no API key is needed:
@@ -20,10 +20,13 @@ listing that name. The date check tells apart people who share a surname: old mi
 surnames only, and both Richard W. Fisher (Dallas president 2005-15) and Peter R. Fisher (New York
 Fed staff 1996-99) have collections.
 
-A Reserve Bank copy of a speech FRASER also has (same person, same date) is removed from the
-store, so each speech is scored once, from FRASER's text.
+The harvest only adds: a speech already stored from the Board or a Reserve Bank (same id, or the same
+person on the same date) is kept and FRASER's copy is skipped, so a scored speech, and the published
+index, never changes after the fact. FRASER fills in only what the daily collection missed. In the
+other direction, the daily collection skips a speech FRASER already holds (update.FRASER_COPY), so each
+speech is stored and scored once.
 
-    python fraser.py              # harvest new FRASER items (run monthly; FRASER adds a year each January)
+    python fraser.py              # harvest new FRASER items (yearly, after FRASER's January load; .github/workflows/fraser.yml)
 """
 from __future__ import annotations
 
@@ -38,13 +41,13 @@ import runlog
 import sources
 import speech_metadata
 import store
-import update
 import voters
 
 FRASER = "https://fraser.stlouisfed.org"
 ROOT_SERIES = "3761"            # Statements and Speeches of Federal Open Market Committee Participants
 PREFIX = "Statements and Speeches of "
 SAVE_EVERY = 25
+ALREADY_STORED = "already stored from the Board or a Reserve Bank"
 
 
 def person_name(author: str) -> str:
@@ -147,29 +150,20 @@ def read_item(url: str, speaker: str) -> tuple[dict | None, str]:
 
 
 def _save(records: list[dict], outcomes: dict) -> int:
-    """Add FRASER speeches. A bank copy can carry the same id (same date, surname and title); FRASER's replaces it."""
-    ids = {r["id"] for r in records}
-    copies = [s for s in store.load_speeches() if s["id"] in ids and s["source"] != "fraser"]
-    store.remove_speeches(copies)
-    for s in copies:
-        if s["url"] in outcomes:
-            outcomes[s["url"]].update(status="excluded", reason=update.FRASER_COPY)
-    return store.add_speeches(records)
-
-
-def remove_bank_copies() -> int:
-    """Drop Reserve Bank copies of speeches FRASER also holds (same person, same date)."""
-    speeches = store.load_speeches()
-    fraser_days = {(s["date"], voters.name_key(s["speaker"])) for s in speeches if s["source"] == "fraser"}
-    copies = [s for s in speeches if s["source"] != "fraser"
-              and any(d == s["date"] and voters.same_person(voters.name_key(s["speaker"]), k) for d, k in fraser_days)]
-    store.remove_speeches(copies)
-    outcomes = store.load_processing()
-    for s in copies:
-        if s["url"] in outcomes:
-            outcomes[s["url"]].update(status="excluded", reason=update.FRASER_COPY)
-    store.save_processing(outcomes)
-    return len(copies)
+    """Add the FRASER speeches the store does not hold yet. A speech already stored (same id, or the same person
+    on the same date) is kept, and FRASER's copy is recorded as excluded so it is not read again."""
+    stored = store.load_speeches()
+    ids = {s["id"] for s in stored}
+    # Two FRASER items of one person on one day (testimony and a speech) are different texts; keep both.
+    days = {(s["date"], voters.name_key(s["speaker"])) for s in stored if s["source"] != "fraser"}
+    fresh = []
+    for r in records:
+        key = voters.name_key(r["speaker"])
+        if r["id"] in ids or any(d == r["date"] and voters.same_person(key, k) for d, k in days):
+            outcomes[r["url"]].update(status="excluded", reason=ALREADY_STORED)
+        else:
+            fresh.append(r)
+    return store.add_speeches(fresh)
 
 
 def harvest() -> int:
@@ -209,8 +203,7 @@ def harvest() -> int:
             print(f"  {n}/{len(todo)} read; {added} stored", flush=True)
     added += _save(new, outcomes)
     store.save_processing(outcomes)
-    removed = remove_bank_copies()
-    print(f"FRASER: {added} speeches added; {removed} Reserve Bank copies of FRASER speeches removed.", flush=True)
+    print(f"FRASER: {added} speeches added.", flush=True)
     return added
 
 

@@ -92,8 +92,9 @@ See each folder's README for setup, backfill and its sources.
 ## Daily updates
 `.github/workflows/daily.yml` runs once a day at 07:00 UTC, or on demand from the Actions tab. It runs the
 Fed, then the BOE, then the BOJ, each in its own job, and each job commits only its own folder's
-`data/` and `output/` (`.github/commit.sh`). A failure in one bank does not stop the others. The
-Fed job also harvests FRASER on the 1st of each month.
+`data/` and `output/` (`.github/commit.sh`). A failure in one bank does not stop the others.
+`.github/workflows/fraser.yml` harvests the Fed's FRASER archive once a year (15 February), adding only
+speeches the daily collection missed; stored speeches are never replaced.
 
 Repository secret: `OPENAI_API_KEY`.
 

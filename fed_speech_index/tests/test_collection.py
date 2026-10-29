@@ -86,6 +86,17 @@ class CollectorTests(unittest.TestCase):
         self.assertTrue(update._eligible(row, now, False))
         self.assertFalse(update._eligible({'status':'stored'}, now, True))
 
+    def test_repeated_failures_back_off_up_to_30_days(self):
+        def wait(row):
+            return (dt.datetime.fromisoformat(row['retry_after']) - dt.datetime.fromisoformat(row['last_attempt'])).days
+        row = None
+        waits = []
+        for _ in range(7):
+            row = update._outcome('kansascity', 'metadata_failure', 'missing speaker', row)
+            waits.append(wait(row))
+        self.assertEqual(waits, [1, 2, 4, 8, 16, 30, 30])
+        self.assertEqual(wait(update._outcome('atlanta', 'http_failure', '404', None)), 7)
+
     def test_only_current_voters_contribute_but_prior_speeches_remain_usable(self):
         roster = voters.Roster([
             {'date':'2020-01-01', 'names':['Jane Smith']},
