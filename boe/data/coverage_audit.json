@@ -59,7 +59,7 @@
   "discovery_outcomes": {
     "duplicate": 166,
     "excluded": 580,
-    "scheduled": 1,
+    "failure": 1,
     "stored": 348
   },
   "exclusion_reasons": {
@@ -874,6 +874,11 @@
   "membership_coverage_start": "2017-09-04",
   "membership_terms": 18,
   "stored_speeches": 350,
-  "unresolved": [],
+  "unresolved": [
+    {
+      "reason": "HTTPError: HTTP Error 404: ",
+      "url": "https://www.bankofengland.co.uk/speech/2026/october/clair-mills-resilience-for-growth-conference-exeter"
+    }
+  ],
   "valid_scores": 350
 }

@@ -364,14 +364,6 @@
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": null,
-      "title": "Clair Mills: Resilience for growth conference co-hosted by University of Exeter and South West Business Council, Exeter (to be published at 9am)",
-      "url": "https://www.bankofengland.co.uk/speech/2026/october/clair-mills-resilience-for-growth-conference-exeter",
-      "year": 2026
-    },
-    {
-      "date": null,
-      "source": "BOE official speech sitemap",
-      "speaker": null,
       "title": "Financial innovation, dollar dominance and their UK monetary policy implications",
       "url": "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications",
       "year": 2026
@@ -569,7 +561,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-10-29T13:54:39.026341+00:00",
-  "since": "2026-07-01",
+  "retrieved_at": "2026-10-30T13:48:21.832867+00:00",
+  "since": "2026-07-02",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }
