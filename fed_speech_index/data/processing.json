@@ -48265,7 +48265,7 @@
     "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech": {
-    "attempts": 8,
+    "attempts": 9,
     "collector_version": "v4",
     "entry": {
       "date": "2010-01-13",
@@ -48275,14 +48275,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/01-13-corridor-speech"
     },
-    "last_attempt": "2026-10-28T14:23:48.280786+00:00",
+    "last_attempt": "2026-10-30T13:46:45.269029+00:00",
     "reason": "metadata missing: speaker (date=2010-01-10, speaker=None)",
-    "retry_after": "2026-10-29T14:23:48.280786+00:00",
+    "retry_after": "2026-11-29T13:46:45.269029+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-03-04",
@@ -48292,14 +48292,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/03-04-cfa-speech"
     },
-    "last_attempt": "2026-10-28T14:23:49.730844+00:00",
+    "last_attempt": "2026-10-30T13:46:46.214273+00:00",
     "reason": "metadata missing: speaker (date=2010-03-03, speaker=None)",
-    "retry_after": "2026-10-29T14:23:49.730844+00:00",
+    "retry_after": "2026-11-29T13:46:46.214273+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech": {
-    "attempts": 8,
+    "attempts": 9,
     "collector_version": "v4",
     "entry": {
       "date": "2010-03-09",
@@ -48309,14 +48309,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/03-09-nabe3-speech"
     },
-    "last_attempt": "2026-10-28T14:23:50.312916+00:00",
+    "last_attempt": "2026-10-30T13:46:47.237490+00:00",
     "reason": "metadata missing: speaker (date=2010-03-09, speaker=None)",
-    "retry_after": "2026-10-29T14:23:50.312916+00:00",
+    "retry_after": "2026-11-29T13:46:47.237490+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/03-30-irrna-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-03-30",
@@ -48326,14 +48326,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/03-30-irrna-speech"
     },
-    "last_attempt": "2026-10-28T14:23:51.290740+00:00",
+    "last_attempt": "2026-10-30T13:46:48.314549+00:00",
     "reason": "metadata missing: speaker (date=2010-03-30, speaker=None)",
-    "retry_after": "2026-10-29T14:23:51.290740+00:00",
+    "retry_after": "2026-11-29T13:46:48.314549+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/05-14-wesleyan-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-05-14",
@@ -48343,14 +48343,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/05-14-wesleyan-speech"
     },
-    "last_attempt": "2026-10-28T14:23:52.274745+00:00",
+    "last_attempt": "2026-10-30T13:46:49.286948+00:00",
     "reason": "metadata missing: speaker (date=2010-05-14, speaker=None)",
-    "retry_after": "2026-10-29T14:23:52.274745+00:00",
+    "retry_after": "2026-11-29T13:46:49.286948+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/06-03-korea-speech": {
-    "attempts": 8,
+    "attempts": 9,
     "collector_version": "v4",
     "entry": {
       "date": "2010-06-03",
@@ -48360,14 +48360,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/06-03-korea-speech"
     },
-    "last_attempt": "2026-10-28T14:23:53.276633+00:00",
+    "last_attempt": "2026-10-30T13:46:50.154686+00:00",
     "reason": "metadata missing: speaker (date=2010-06-01, speaker=None)",
-    "retry_after": "2026-10-29T14:23:53.276633+00:00",
+    "retry_after": "2026-11-29T13:46:50.154686+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/06-08-ucc-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-06-08",
@@ -48377,14 +48377,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/06-08-ucc-speech"
     },
-    "last_attempt": "2026-10-28T14:23:54.273105+00:00",
+    "last_attempt": "2026-10-30T13:46:51.228261+00:00",
     "reason": "metadata missing: speaker (date=2010-06-08, speaker=None)",
-    "retry_after": "2026-10-29T14:23:54.273105+00:00",
+    "retry_after": "2026-11-29T13:46:51.228261+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/08-24-indianapolis-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-08-24",
@@ -48394,14 +48394,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/08-24-indianapolis-speech"
     },
-    "last_attempt": "2026-10-28T14:23:55.286546+00:00",
+    "last_attempt": "2026-10-30T13:46:52.138983+00:00",
     "reason": "metadata missing: speaker (date=2010-08-24, speaker=None)",
-    "retry_after": "2026-10-29T14:23:55.286546+00:00",
+    "retry_after": "2026-11-29T13:46:52.138983+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/09-01-reo-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-09-01",
@@ -48411,14 +48411,14 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/09-01-reo-speech"
     },
-    "last_attempt": "2026-10-28T14:23:56.272664+00:00",
+    "last_attempt": "2026-10-30T13:46:53.237141+00:00",
     "reason": "metadata missing: speaker (date=2010-09-01, speaker=None)",
-    "retry_after": "2026-10-29T14:23:56.272664+00:00",
+    "retry_after": "2026-11-29T13:46:53.237141+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
   "https://www.chicagofed.org/publications/speeches/2010/09-03-otc-speech": {
-    "attempts": 9,
+    "attempts": 10,
     "collector_version": "v4",
     "entry": {
       "date": "2010-09-03",
@@ -48428,9 +48428,9 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2010/09-03-otc-speech"
     },
-    "last_attempt": "2026-10-28T14:23:57.290281+00:00",
+    "last_attempt": "2026-10-30T13:46:54.154085+00:00",
     "reason": "metadata missing: speaker (date=2010-09-03, speaker=None)",
-    "retry_after": "2026-10-29T14:23:57.290281+00:00",
+    "retry_after": "2026-11-29T13:46:54.154085+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
@@ -48988,7 +48988,7 @@
     "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2013/test": {
-    "attempts": 8,
+    "attempts": 9,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -48998,9 +48998,9 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2013/test"
     },
-    "last_attempt": "2026-10-28T14:23:58.374211+00:00",
+    "last_attempt": "2026-10-30T13:46:55.209243+00:00",
     "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
-    "retry_after": "2026-10-29T14:23:58.374211+00:00",
+    "retry_after": "2026-11-29T13:46:55.209243+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
@@ -49325,7 +49325,7 @@
     "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2015/cautious-approach-to-monetary-policy-normalization": {
-    "attempts": 8,
+    "attempts": 9,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -49335,9 +49335,9 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2015/cautious-approach-to-monetary-policy-normalization"
     },
-    "last_attempt": "2026-10-28T14:23:59.309457+00:00",
+    "last_attempt": "2026-10-30T13:46:56.183129+00:00",
     "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
-    "retry_after": "2026-10-29T14:23:59.309457+00:00",
+    "retry_after": "2026-11-29T13:46:56.183129+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
@@ -49358,7 +49358,7 @@
     "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2015/monetary-policy-avoiding-hazards-cfa-milwaukee-evans": {
-    "attempts": 8,
+    "attempts": 9,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -49368,9 +49368,9 @@
       "title": null,
       "url": "https://www.chicagofed.org/publications/speeches/2015/monetary-policy-avoiding-hazards-cfa-milwaukee-evans"
     },
-    "last_attempt": "2026-10-28T14:24:00.344693+00:00",
+    "last_attempt": "2026-10-30T13:46:57.163372+00:00",
     "reason": "metadata missing: date (date=None, speaker=Charles Evans)",
-    "retry_after": "2026-10-29T14:24:00.344693+00:00",
+    "retry_after": "2026-11-29T13:46:57.163372+00:00",
     "source": "chicago",
     "status": "metadata_failure"
   },
@@ -51990,7 +51990,7 @@
     "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2026/nov-2-financial-markets-group": {
-    "attempts": 1,
+    "attempts": 2,
     "collector_version": "v4",
     "entry": {
       "date": "2026-11-02",
@@ -52000,11 +52000,10 @@
       "title": "Financial Markets Group Fall Conference",
       "url": "https://www.chicagofed.org/publications/speeches/2026/nov-2-financial-markets-group"
     },
-    "last_attempt": "2026-10-28T14:23:47.387372+00:00",
-    "reason": "no prepared speech text (454 chars)",
-    "retry_after": "2026-10-29T14:23:47.387372+00:00",
+    "last_attempt": "2026-10-30T13:46:44.105548+00:00",
+    "reason": "not a speech (video event without prepared text)",
     "source": "chicago",
-    "status": "extraction_failure"
+    "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2026/sept-21-omfif": {
     "attempts": 1,
@@ -82504,7 +82503,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/2002-Hoenig-Agricultural-lenders-09-23/": {
-    "attempts": 6,
+    "attempts": 7,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -82514,9 +82513,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/2002-Hoenig-Agricultural-lenders-09-23/"
     },
-    "last_attempt": "2026-10-28T14:24:07.658986+00:00",
+    "last_attempt": "2026-10-30T13:47:08.028384+00:00",
     "reason": "metadata missing: speaker (date=2002-09-23, speaker=None)",
-    "retry_after": "2026-10-29T14:24:07.658986+00:00",
+    "retry_after": "2026-11-29T13:47:08.028384+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -82555,7 +82554,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/2003-Hoenig-US-Economic-10-07/": {
-    "attempts": 6,
+    "attempts": 7,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -82565,14 +82564,14 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/2003-Hoenig-US-Economic-10-07/"
     },
-    "last_attempt": "2026-10-28T14:24:08.590935+00:00",
+    "last_attempt": "2026-10-30T13:47:09.113311+00:00",
     "reason": "metadata missing: speaker (date=2003-10-07, speaker=None)",
-    "retry_after": "2026-10-29T14:24:08.590935+00:00",
+    "retry_after": "2026-11-29T13:47:09.113311+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
   "https://www.kansascityfed.org/speeches/2003-Hoenig-US-Economy-05-13/": {
-    "attempts": 6,
+    "attempts": 7,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -82582,9 +82581,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/2003-Hoenig-US-Economy-05-13/"
     },
-    "last_attempt": "2026-10-28T14:24:09.579231+00:00",
+    "last_attempt": "2026-10-30T13:47:10.150449+00:00",
     "reason": "metadata missing: speaker (date=2003-05-13, speaker=None)",
-    "retry_after": "2026-10-29T14:24:09.579231+00:00",
+    "retry_after": "2026-11-29T13:47:10.150449+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -85323,7 +85322,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/2016-george-kc-07-01/": {
-    "attempts": 12,
+    "attempts": 13,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -85333,9 +85332,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/2016-george-kc-07-01/"
     },
-    "last_attempt": "2026-10-28T14:24:10.758702+00:00",
+    "last_attempt": "2026-10-30T13:47:11.326251+00:00",
     "reason": "metadata missing: date (date=None, speaker=Esther L. George)",
-    "retry_after": "2026-10-29T14:24:10.758702+00:00",
+    "retry_after": "2026-11-29T13:47:11.326251+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -87629,7 +87628,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/": {
-    "attempts": 7,
+    "attempts": 8,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -87640,9 +87639,9 @@
       "url": "https://www.kansascityfed.org/speeches/2018-george-katf-kansascity-03-28/"
     },
     "http_status": null,
-    "last_attempt": "2026-10-28T14:24:26.374016+00:00",
+    "last_attempt": "2026-10-30T13:47:32.392114+00:00",
     "reason": "Publisher returned an error page instead of the speech",
-    "retry_after": "2026-10-29T14:24:26.374016+00:00",
+    "retry_after": "2026-11-29T13:47:32.392114+00:00",
     "source": "kansascity",
     "status": "request_failure"
   },
@@ -89205,7 +89204,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/2025-kc-economic-outlook-conference/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -89215,9 +89214,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/2025-kc-economic-outlook-conference/"
     },
-    "last_attempt": "2026-10-28T14:24:14.186450+00:00",
+    "last_attempt": "2026-10-30T13:47:15.489189+00:00",
     "reason": "no prepared speech text (0 chars)",
-    "retry_after": "2026-10-29T14:24:14.186450+00:00",
+    "retry_after": "2026-11-29T13:47:15.489189+00:00",
     "source": "kansascity",
     "status": "extraction_failure"
   },
@@ -89598,7 +89597,7 @@
     "status": "stored"
   },
   "https://www.kansascityfed.org/speeches/agriculture-and-the-federal-reserve/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -89608,9 +89607,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/agriculture-and-the-federal-reserve/"
     },
-    "last_attempt": "2026-10-28T14:24:14.686044+00:00",
+    "last_attempt": "2026-10-30T13:47:16.319550+00:00",
     "reason": "metadata missing: date (date=None, speaker=Jeff Schmid)",
-    "retry_after": "2026-10-29T14:24:14.686044+00:00",
+    "retry_after": "2026-11-29T13:47:16.319550+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -89896,7 +89895,7 @@
     "status": "stored"
   },
   "https://www.kansascityfed.org/speeches/dissent-statement-by-jeff-schmid-speech-december-2025/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -89906,14 +89905,14 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/dissent-statement-by-jeff-schmid-speech-december-2025/"
     },
-    "last_attempt": "2026-10-28T14:24:15.654912+00:00",
+    "last_attempt": "2026-10-30T13:47:17.655416+00:00",
     "reason": "metadata missing: speaker (date=2025-12-12, speaker=None)",
-    "retry_after": "2026-10-29T14:24:15.654912+00:00",
+    "retry_after": "2026-11-29T13:47:17.655416+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
   "https://www.kansascityfed.org/speeches/dissent-statement-by-jeff-schmid-speech/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -89923,9 +89922,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/dissent-statement-by-jeff-schmid-speech/"
     },
-    "last_attempt": "2026-10-28T14:24:16.756910+00:00",
+    "last_attempt": "2026-10-30T13:47:18.478764+00:00",
     "reason": "metadata missing: speaker (date=2025-10-31, speaker=None)",
-    "retry_after": "2026-10-29T14:24:16.756910+00:00",
+    "retry_after": "2026-11-29T13:47:18.478764+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -90091,7 +90090,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/economic-outlook-amid-heightened-uncertainty-kansas-ccim/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -90101,9 +90100,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/economic-outlook-amid-heightened-uncertainty-kansas-ccim/"
     },
-    "last_attempt": "2026-10-28T14:24:20.808489+00:00",
+    "last_attempt": "2026-10-30T13:47:24.460706+00:00",
     "reason": "no prepared speech text (0 chars)",
-    "retry_after": "2026-10-29T14:24:20.808489+00:00",
+    "retry_after": "2026-11-29T13:47:24.460706+00:00",
     "source": "kansascity",
     "status": "extraction_failure"
   },
@@ -90654,7 +90653,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/global-perspectives-with-jeff-schmid/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -90664,14 +90663,14 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/global-perspectives-with-jeff-schmid/"
     },
-    "last_attempt": "2026-10-28T14:24:21.348765+00:00",
+    "last_attempt": "2026-10-30T13:47:25.744829+00:00",
     "reason": "metadata missing: date, speaker (date=None, speaker=None)",
-    "retry_after": "2026-10-29T14:24:21.348765+00:00",
+    "retry_after": "2026-11-29T13:47:25.744829+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
   "https://www.kansascityfed.org/speeches/global-perspectives-with-jeffrey-schmid/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -90681,9 +90680,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/global-perspectives-with-jeffrey-schmid/"
     },
-    "last_attempt": "2026-10-28T14:24:23.036233+00:00",
+    "last_attempt": "2026-10-30T13:47:28.266420+00:00",
     "reason": "no prepared speech text (252 chars)",
-    "retry_after": "2026-10-29T14:24:23.036233+00:00",
+    "retry_after": "2026-11-29T13:47:28.266420+00:00",
     "source": "kansascity",
     "status": "extraction_failure"
   },
@@ -91692,7 +91691,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/resolutions-for-a-new-year/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -91702,9 +91701,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/resolutions-for-a-new-year/"
     },
-    "last_attempt": "2026-10-28T14:24:23.505496+00:00",
+    "last_attempt": "2026-10-30T13:47:28.623058+00:00",
     "reason": "metadata missing: date (date=None, speaker=Jeff Schmid)",
-    "retry_after": "2026-10-29T14:24:23.505496+00:00",
+    "retry_after": "2026-11-29T13:47:28.623058+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -91918,7 +91917,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/sly-econ-supply-chain-dev-and-imp-co-2022-03-23/": {
-    "attempts": 6,
+    "attempts": 7,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -91928,9 +91927,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/sly-econ-supply-chain-dev-and-imp-co-2022-03-23/"
     },
-    "last_attempt": "2026-10-28T14:24:24.537250+00:00",
+    "last_attempt": "2026-10-30T13:47:30.158312+00:00",
     "reason": "metadata missing: date (date=None, speaker=Nicholas Sly)",
-    "retry_after": "2026-10-29T14:24:24.537250+00:00",
+    "retry_after": "2026-11-29T13:47:30.158312+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -92034,7 +92033,7 @@
     "status": "stored"
   },
   "https://www.kansascityfed.org/speeches/the-economic-outlook-and-monetary-policy-2026/": {
-    "attempts": 5,
+    "attempts": 6,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -92044,9 +92043,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-and-monetary-policy-2026/"
     },
-    "last_attempt": "2026-10-28T14:24:26.124010+00:00",
+    "last_attempt": "2026-10-30T13:47:32.011257+00:00",
     "reason": "metadata missing: speaker (date=2026-01-15, speaker=None)",
-    "retry_after": "2026-10-29T14:24:26.124010+00:00",
+    "retry_after": "2026-11-29T13:47:32.011257+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -94940,7 +94939,7 @@
     "status": "excluded"
   },
   "https://www.minneapolisfed.org/article/2016/wsj-computer-cant-do-the-feds-job": {
-    "attempts": 2,
+    "attempts": 3,
     "collector_version": "v4",
     "entry": {
       "date": "2016-12-19",
@@ -94950,9 +94949,9 @@
       "title": "WSJ: Computer Can’t Do the Fed’s Job",
       "url": "https://www.minneapolisfed.org/article/2016/wsj-computer-cant-do-the-feds-job"
     },
-    "last_attempt": "2026-10-28T14:24:05.157945+00:00",
+    "last_attempt": "2026-10-30T13:47:02.494602+00:00",
     "reason": "no prepared speech text (594 chars)",
-    "retry_after": "2026-10-29T14:24:05.157945+00:00",
+    "retry_after": "2026-11-03T13:47:02.494602+00:00",
     "source": "minneapolis",
     "status": "extraction_failure"
   },
