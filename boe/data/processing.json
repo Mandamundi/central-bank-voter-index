@@ -16660,6 +16660,54 @@
     "reason": "Named speaker is outside the verified voting-member ledger",
     "status": "excluded"
   },
+  "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026": {
+    "attempts": 1,
+    "checked_at": "2026-10-31T13:16:10.924909+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Ben Martin: Speech at Data & AI conference Europe 2026, London (to be published 11.35am)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-04",
+    "retry_after": "2026-11-04T00:00:00+00:00",
+    "status": "scheduled"
+  },
+  "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference": {
+    "attempts": 1,
+    "checked_at": "2026-10-31T13:16:11.579324+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": "Clare Lombardelli",
+      "title": "Clare Lombardelli: Speech at the Bank Watchers Conference​, London (to be published 12:30pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-10",
+    "retry_after": "2026-11-10T00:00:00+00:00",
+    "status": "scheduled"
+  },
+  "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research": {
+    "attempts": 1,
+    "checked_at": "2026-10-31T13:16:11.884157+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": "Huw Pill",
+      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 6.30pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-10",
+    "retry_after": "2026-11-10T00:00:00+00:00",
+    "status": "scheduled"
+  },
   "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul": {
     "attempts": 3,
     "checked_at": "2026-10-28T13:46:00.911239+00:00",
@@ -16693,8 +16741,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/clair-mills-resilience-for-growth-conference-exeter": {
-    "attempts": 2,
-    "checked_at": "2026-10-30T13:48:22.104444+00:00",
+    "attempts": 3,
+    "checked_at": "2026-10-31T13:16:12.430967+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
@@ -16705,7 +16753,7 @@
       "year": 2026
     },
     "reason": "HTTPError: HTTP Error 404: ",
-    "retry_after": "2026-10-30T17:48:22.569976+00:00",
+    "retry_after": "2026-10-31T21:16:12.937916+00:00",
     "status": "failure"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications": {

@@ -60,6 +60,7 @@
     "duplicate": 166,
     "excluded": 580,
     "failure": 1,
+    "scheduled": 3,
     "stored": 348
   },
   "exclusion_reasons": {

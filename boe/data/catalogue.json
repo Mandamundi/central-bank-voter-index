@@ -347,6 +347,30 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Ben Martin: Speech at Data & AI conference Europe 2026, London (to be published 11.35am)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": "Clare Lombardelli",
+      "title": "Clare Lombardelli: Speech at the Bank Watchers Conference​, London (to be published 12:30pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": "Huw Pill",
+      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 6.30pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
       "speaker": "Andrew Bailey",
       "title": "Financial resilience in an age of repeated shocks - speech by Andrew Bailey",
       "url": "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul",
@@ -561,7 +585,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-10-30T13:48:21.832867+00:00",
-  "since": "2026-07-02",
+  "retrieved_at": "2026-10-31T13:16:10.772672+00:00",
+  "since": "2026-07-03",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }
