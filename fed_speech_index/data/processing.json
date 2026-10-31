@@ -51817,6 +51817,22 @@
     "source": "chicago",
     "status": "excluded"
   },
+  "https://www.chicagofed.org/publications/speeches/2026/dec-11-chicago-economic-outlook-symposium": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-12-11",
+      "pdf": null,
+      "source": "chicago",
+      "speaker": null,
+      "title": "Chicago Fed Annual Economic Outlook Symposium",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/dec-11-chicago-economic-outlook-symposium"
+    },
+    "last_attempt": "2026-10-31T13:15:16.310820+00:00",
+    "reason": "not a speech (event without prepared text)",
+    "source": "chicago",
+    "status": "excluded"
+  },
   "https://www.chicagofed.org/publications/speeches/2026/feb-19-joint-conference-financial-crises": {
     "attempts": 2,
     "collector_version": "v4",
@@ -51972,6 +51988,22 @@
     "source": "chicago",
     "speech_id": "ffb48fdc2bb1",
     "status": "stored"
+  },
+  "https://www.chicagofed.org/publications/speeches/2026/nov-12-yahoo-finance-invest": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-12",
+      "pdf": null,
+      "source": "chicago",
+      "speaker": null,
+      "title": "Yahoo Finance Invest 2026",
+      "url": "https://www.chicagofed.org/publications/speeches/2026/nov-12-yahoo-finance-invest"
+    },
+    "last_attempt": "2026-10-31T13:15:17.234209+00:00",
+    "reason": "not a speech (event without prepared text)",
+    "source": "chicago",
+    "status": "excluded"
   },
   "https://www.chicagofed.org/publications/speeches/2026/nov-19-economic-club-indiana": {
     "attempts": 1,
@@ -57894,6 +57926,23 @@
     "reason": "speech extracted",
     "source": "dallas",
     "speech_id": "db0b898573b8",
+    "status": "stored"
+  },
+  "https://www.dallasfed.org/news/speeches/logan/2026/lkl261030": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-10-30",
+      "pdf": null,
+      "source": "dallas",
+      "speaker": "Logan",
+      "title": null,
+      "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261030"
+    },
+    "last_attempt": "2026-10-31T13:15:26.992437+00:00",
+    "reason": "speech extracted",
+    "source": "dallas",
+    "speech_id": "3b76862da203",
     "status": "stored"
   },
   "https://www.dallasfed.org/news/speeches/mcteer/1998/mcteer980919": {
@@ -111911,6 +111960,23 @@
     "reason": "existing speech",
     "source": "stlouis",
     "speech_id": "c2627664f2a7",
+    "status": "stored"
+  },
+  "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-somc": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-10-30",
+      "pdf": null,
+      "source": "stlouis",
+      "speaker": null,
+      "title": "Remarks on the U.S. Economy and Monetary Policy",
+      "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-somc"
+    },
+    "last_attempt": "2026-10-31T13:15:20.010636+00:00",
+    "reason": "speech extracted",
+    "source": "stlouis",
+    "speech_id": "9031f84e2dc9",
     "status": "stored"
   },
   "https://www.stlouisfed.org/from-the-president/remarks/2026/roundtable-discussion-tour-chesterfield": {
