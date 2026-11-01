@@ -9,7 +9,8 @@
     },
     {
       "command": [
-        "update.py"
+        "update.py",
+        "--full"
       ],
       "exit_code": 2
     },
@@ -39,5 +40,5 @@
     }
   ],
   "success": false,
-  "updated_at": "2026-10-31T13:16:16.168591+00:00"
+  "updated_at": "2026-11-01T14:04:38.687582+00:00"
 }
