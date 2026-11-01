@@ -62,9 +62,2754 @@
       "speaker_label": "氷見野副総裁",
       "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（埼玉県金融経済懇談会）",
       "url": "https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm"
+    },
+    {
+      "date": "2026-06-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（兵庫県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260625a.htm"
+    },
+    {
+      "date": "2026-06-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁（氷見野副総裁代読）",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260624a.htm"
+    },
+    {
+      "date": "2026-06-08",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": null,
+      "speaker_label": "神山理事",
+      "title": "【挨拶】「持続的な金融エコシステムの発展に向けて」（第4回・Meetup with BOJにおける挨拶）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260608a.htm"
+    },
+    {
+      "date": "2026-06-03",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「最近の経済・物価情勢と金融政策運営」（きさらぎ会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260603a.htm"
+    },
+    {
+      "date": "2026-05-29",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": null,
+      "speaker_label": "神山理事",
+      "title": "【挨拶】「将来を見据えたわが国決済システムの進化」（第11回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260529a.htm"
+    },
+    {
+      "date": "2026-05-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2026年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260527a.htm"
+    },
+    {
+      "date": "2026-05-21",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "KOEDA Junko",
+      "speaker_label": "小枝審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260521a.htm"
+    },
+    {
+      "date": "2026-05-16",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【講演】「通貨の単一性と中央銀行の役割」（日本金融学会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260516a.htm"
+    },
+    {
+      "date": "2026-05-14",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": null,
+      "speaker_label": "神山理事",
+      "title": "【挨拶】「わが国金融システムの進化と安定に向けて」（第21回AIMAジャパンフォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260515a.htm"
+    },
+    {
+      "date": "2026-05-14",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "MASU Kazuyuki",
+      "speaker_label": "増審議委員",
+      "title": "【講演】「わが国の経済・物価情勢と金融政策」（鹿児島経済同友会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260514a.htm"
+    },
+    {
+      "date": "2026-04-13",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁（氷見野副総裁代読）",
+      "title": "【挨拶】（第101回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260413a.htm"
+    },
+    {
+      "date": "2026-03-03",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「新金融エコシステムにおける中央銀行の役割」（FIN/SUM（フィンサム）2026）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260303a.htm"
+    },
+    {
+      "date": "2026-03-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（和歌山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260302a.htm"
+    },
+    {
+      "date": "2026-02-26",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（京都府金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260226a.htm"
+    },
+    {
+      "date": "2026-02-13",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【講演】「わが国の経済・物価情勢と金融政策」（神奈川経済同友会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260213a.htm"
+    },
+    {
+      "date": "2026-02-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "MASU Kazuyuki",
+      "speaker_label": "増審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（愛媛県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260206a.htm"
+    },
+    {
+      "date": "2026-02-02",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": null,
+      "speaker_label": "神山理事",
+      "title": "【挨拶】「点から線へ、線から面へ」（第10回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko260202a.htm"
+    },
+    {
+      "date": "2025-12-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「賃金上昇を伴った「物価安定の目標」の達成に向けて」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251225a.htm"
+    },
+    {
+      "date": "2025-12-01",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251201a.htm"
+    },
+    {
+      "date": "2025-11-27",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（大分県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251127a.htm"
+    },
+    {
+      "date": "2025-11-20",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "KOEDA Junko",
+      "speaker_label": "小枝審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」(新潟県金融経済懇談会)",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251120a.htm"
+    },
+    {
+      "date": "2025-11-10",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【講演】「わが国の経済・物価情勢と金融政策」（岡山クラブ）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251110a.htm"
+    },
+    {
+      "date": "2025-10-20",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【講演】「わが国の経済・物価情勢と金融政策：資産運用立国と日本経済」（中国経済連合会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251020a.htm"
+    },
+    {
+      "date": "2025-10-17",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251017a.htm"
+    },
+    {
+      "date": "2025-10-16",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」(沖縄県金融経済懇談会)",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251016a.htm"
+    },
+    {
+      "date": "2025-10-03",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251003a.htm"
+    },
+    {
+      "date": "2025-10-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】（全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko251002a.htm"
+    },
+    {
+      "date": "2025-09-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【講演】「世界経済の変貌と金融政策の進展」（札幌商工会議所）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250929a.htm"
+    },
+    {
+      "date": "2025-09-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（道東地域金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250902a.htm"
+    },
+    {
+      "date": "2025-08-28",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」(山口県金融経済懇談会)",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250828a.htm"
+    },
+    {
+      "date": "2025-08-23",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「人口減少下における日本の労働市場：ダイナミクスの変化とマクロ経済へのインプリケーション」（カンザスシティ連邦準備銀行主催シンポジウム・パネルセッション「転換期の労働市場の政策的含意」）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250824a.htm"
+    },
+    {
+      "date": "2025-07-23",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（高知県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250723a.htm"
+    },
+    {
+      "date": "2025-07-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（三重県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250703a.htm"
+    },
+    {
+      "date": "2025-06-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250625a.htm"
+    },
+    {
+      "date": "2025-06-20",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250620a.htm"
+    },
+    {
+      "date": "2025-06-07",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【講演】「業務からみた日本銀行」（日本金融学会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250607a.htm"
+    },
+    {
+      "date": "2025-06-06",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": null,
+      "speaker_label": "神山理事",
+      "title": "【挨拶】「金融イノベーションの促進とFinTechセンターの役割」（第3回・Meetup with BOJにおける挨拶）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250606a.htm"
+    },
+    {
+      "date": "2025-06-04",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": null,
+      "speaker_label": "神山理事",
+      "title": "【挨拶】「デジタル社会における決済システムのあるべき姿を考える」（第9回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250604a.htm"
+    },
+    {
+      "date": "2025-06-03",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「最近の経済・物価情勢と金融政策運営」（内外情勢調査会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250603a.htm"
+    },
+    {
+      "date": "2025-05-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2025年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250527a.htm"
+    },
+    {
+      "date": "2025-05-22",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（宮崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250522a.htm"
+    },
+    {
+      "date": "2025-05-16",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【講演】「わが国の経済・物価情勢と金融政策」（西日本政経懇話会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250516a.htm"
+    },
+    {
+      "date": "2025-04-17",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（群馬県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250417a.htm"
+    },
+    {
+      "date": "2025-04-09",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（第100回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250409a.htm"
+    },
+    {
+      "date": "2025-03-05",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（静岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250305a.htm"
+    },
+    {
+      "date": "2025-02-19",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（宮城県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250219a.htm"
+    },
+    {
+      "date": "2025-02-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長野県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250206a.htm"
+    },
+    {
+      "date": "2025-01-30",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【講演】「金利のある世界」（一橋大学政策フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250130a.htm"
+    },
+    {
+      "date": "2025-01-14",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2025/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（神奈川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2025/ko250114a.htm"
+    },
+    {
+      "date": "2024-12-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「2％物価目標の実現とわが国経済」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241225a.htm"
+    },
+    {
+      "date": "2024-12-05",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（広島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241205a.htm"
+    },
+    {
+      "date": "2024-12-04",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「決済の未来と中央銀行の役割」（FISC創立40周年記念講演会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241204a.htm"
+    },
+    {
+      "date": "2024-11-21",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「テクノロジーの進化がもたらす金融仲介機能の機会と課題」（パリ・ユーロプラス ファイナンシャル・フォーラム2024）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241121a.htm"
+    },
+    {
+      "date": "2024-11-18",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241118a.htm"
+    },
+    {
+      "date": "2024-11-14",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【講演】「コロナ禍とその後における金融システムの課題と展望」（国際預金保険協会（IADI）年次コンファレンス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241114a.htm"
+    },
+    {
+      "date": "2024-10-18",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁（内田副総裁代読）",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241018a.htm"
+    },
+    {
+      "date": "2024-10-16",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（香川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241016a.htm"
+    },
+    {
+      "date": "2024-10-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241003a.htm"
+    },
+    {
+      "date": "2024-10-02",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（令和6年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko241002a.htm"
+    },
+    {
+      "date": "2024-09-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240924a.htm"
+    },
+    {
+      "date": "2024-09-12",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（岡山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240912a.htm"
+    },
+    {
+      "date": "2024-09-11",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（秋田県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240911a.htm"
+    },
+    {
+      "date": "2024-09-05",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（石川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240905a.htm"
+    },
+    {
+      "date": "2024-08-28",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（山梨県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240828a.htm"
+    },
+    {
+      "date": "2024-08-07",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（函館市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240807a.htm"
+    },
+    {
+      "date": "2024-07-03",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（新しい日本銀行券の発行開始）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240703a.htm"
+    },
+    {
+      "date": "2024-06-21",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁（内田副総裁代読）",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240621a.htm"
+    },
+    {
+      "date": "2024-06-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（札幌市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240606a.htm"
+    },
+    {
+      "date": "2024-05-31",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": null,
+      "speaker_label": "加藤理事",
+      "title": "【挨拶】「金融イノベーションと決済システム：検討の『広がり』と『深まり』」（第2回・Meetup with BOJ）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240531a.htm"
+    },
+    {
+      "date": "2024-05-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（熊本県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240529a.htm"
+    },
+    {
+      "date": "2024-05-27",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【講演】「わが国における過去25年間の物価変動」（日本銀行金融研究所主催2024年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240527b.htm"
+    },
+    {
+      "date": "2024-05-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2024年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240527a.htm"
+    },
+    {
+      "date": "2024-05-08",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「賃金と物価の好循環と今後の金融政策運営」（読売国際経済懇話会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240508a.htm"
+    },
+    {
+      "date": "2024-04-18",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": null,
+      "speaker_label": "清水（誠）理事",
+      "title": "【講演】「金融市場の頑健性向上とさらなる発展に向けて：2つの「移行」と日本銀行の取り組み」（ISDA第38回年次総会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240418b.htm"
+    },
+    {
+      "date": "2024-04-18",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（佐賀県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240418a.htm"
+    },
+    {
+      "date": "2024-04-10",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（第99回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240410a.htm"
+    },
+    {
+      "date": "2024-03-27",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（青森県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240327a.htm"
+    },
+    {
+      "date": "2024-03-07",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（島根県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240307a.htm"
+    },
+    {
+      "date": "2024-03-06",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「アジア太平洋の金融システムの進展と課題」（第18回アジア太平洋銀行監督ハイレベル会合）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240306b.htm"
+    },
+    {
+      "date": "2024-03-05",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「中央銀行デジタル通貨について知っておきたいこと」（FIN/SUM（フィンサム）2024）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240305a.htm"
+    },
+    {
+      "date": "2024-02-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（滋賀県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240229a.htm"
+    },
+    {
+      "date": "2024-02-08",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2024/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（奈良県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2024/ko240208a.htm"
+    },
+    {
+      "date": "2023-12-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「賃金と物価：過去・現在・そして将来」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231225a.htm"
+    },
+    {
+      "date": "2023-12-06",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "HIMINO Ryozo",
+      "speaker_label": "氷見野副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大分県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231206a.htm"
+    },
+    {
+      "date": "2023-12-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【講演】「ポスト・コロナ時代のケインズ主義」（産研アカデミック・フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231202a.htm"
+    },
+    {
+      "date": "2023-11-30",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（兵庫県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231130a.htm"
+    },
+    {
+      "date": "2023-11-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（愛媛県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231129a.htm"
+    },
+    {
+      "date": "2023-11-06",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231106a.htm"
+    },
+    {
+      "date": "2023-10-20",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231020a.htm"
+    },
+    {
+      "date": "2023-10-12",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（新潟県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko231012a.htm"
+    },
+    {
+      "date": "2023-09-30",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「中央銀行の財務と金融政策運営」（日本金融学会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230930a.htm"
+    },
+    {
+      "date": "2023-09-25",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】（令和5年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230925b.htm"
+    },
+    {
+      "date": "2023-09-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230925a.htm"
+    },
+    {
+      "date": "2023-09-07",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（高知県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230907a.htm"
+    },
+    {
+      "date": "2023-09-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（山口県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230906b.htm"
+    },
+    {
+      "date": "2023-08-31",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（岐阜県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230831a.htm"
+    },
+    {
+      "date": "2023-08-30",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（道東地域金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230830a.htm"
+    },
+    {
+      "date": "2023-08-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】（カンザスシティ連邦準備銀行主催シンポジウム・パネルセッション「変曲点にあるグローバリゼーション」）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230828a.htm"
+    },
+    {
+      "date": "2023-08-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（千葉県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230802a.htm"
+    },
+    {
+      "date": "2023-06-22",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（沖縄県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230622a.htm"
+    },
+    {
+      "date": "2023-06-21",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230621b.htm"
+    },
+    {
+      "date": "2023-06-21",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（鹿児島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230621a.htm"
+    },
+    {
+      "date": "2023-05-31",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2023年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230531a.htm"
+    },
+    {
+      "date": "2023-05-19",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「金融政策の基本的な考え方と経済・物価情勢の今後の展望」（内外情勢調査会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230519a.htm"
+    },
+    {
+      "date": "2023-04-12",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁（内田副総裁代読）",
+      "title": "【挨拶】（第98回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230412a.htm"
+    },
+    {
+      "date": "2023-03-28",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「決済の進化：『シン個人』のための決済システム」（FIN/SUM（フィンサム）2023）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230328a.htm"
+    },
+    {
+      "date": "2023-03-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "TAKATA Hajime",
+      "speaker_label": "高田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（神奈川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230302a.htm"
+    },
+    {
+      "date": "2023-03-01",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230301b.htm"
+    },
+    {
+      "date": "2023-02-22",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "TAMURA Naoki",
+      "speaker_label": "田村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（群馬県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230222a.htm"
+    },
+    {
+      "date": "2023-02-17",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田理事",
+      "title": "【挨拶】「次なるステップに向けて」（第5回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230217a.htm"
+    },
+    {
+      "date": "2023-02-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2023/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（静岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2023/ko230202a.htm"
+    },
+    {
+      "date": "2022-12-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「賃金上昇を伴う形での「物価安定の目標」の持続的・安定的な実現に向けて」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221226a.htm"
+    },
+    {
+      "date": "2022-12-07",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長野県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221207a.htm"
+    },
+    {
+      "date": "2022-12-03",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【講演】「金融政策の未来：貨幣経済学の歴史に学ぶ」（景気循環学会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221203a.htm"
+    },
+    {
+      "date": "2022-12-01",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（秋田県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221201a.htm"
+    },
+    {
+      "date": "2022-11-27",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「気候変動と金融」（日本金融学会における講演）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221127a.htm"
+    },
+    {
+      "date": "2022-11-24",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田理事",
+      "title": "【挨拶】「今、決済の未来を考える意味について」（第4回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221124a.htm"
+    },
+    {
+      "date": "2022-11-15",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「新たな実行フェーズへと移るサステナブル・ファイナンス」（東京・インターナショナル・ファイナンシャル・フォーラム 2022）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221115a.htm"
+    },
+    {
+      "date": "2022-11-14",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221114a.htm"
+    },
+    {
+      "date": "2022-10-21",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221021a.htm"
+    },
+    {
+      "date": "2022-10-19",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（富山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221019a.htm"
+    },
+    {
+      "date": "2022-10-11",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【対談】金融広報中央委員会創立70周年記念対談「18歳成年に必要な金融知識」",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko221011a.htm"
+    },
+    {
+      "date": "2022-09-26",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】（令和4年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220926b.htm"
+    },
+    {
+      "date": "2022-09-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220926a.htm"
+    },
+    {
+      "date": "2022-08-31",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（函館市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220831b.htm"
+    },
+    {
+      "date": "2022-08-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220825a.htm"
+    },
+    {
+      "date": "2022-07-28",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（岩手県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220728a.htm"
+    },
+    {
+      "date": "2022-06-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁（雨宮副総裁代読）",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220624a.htm"
+    },
+    {
+      "date": "2022-06-06",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「金融政策の考え方─「物価安定の目標」の持続的・安定的な実現に向けて─」（きさらぎ会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220606a.htm"
+    },
+    {
+      "date": "2022-06-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（札幌市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220602a.htm"
+    },
+    {
+      "date": "2022-06-01",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（岡山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220601a.htm"
+    },
+    {
+      "date": "2022-05-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2022年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220525a.htm"
+    },
+    {
+      "date": "2022-05-13",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「経済・物価見通しと金融政策運営」（内外情勢調査会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220513a.htm"
+    },
+    {
+      "date": "2022-04-22",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「日本における物価変動と金融政策の役割」（米国・コロンビア大学）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220423a.htm"
+    },
+    {
+      "date": "2022-04-13",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田理事",
+      "title": "【挨拶】「CBDCを発行するとすれば」（第3回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220413b.htm"
+    },
+    {
+      "date": "2022-04-13",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（第97回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220413a.htm"
+    },
+    {
+      "date": "2022-04-07",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（熊本県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220407a.htm"
+    },
+    {
+      "date": "2022-03-29",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「コロナショックと物価変動」（「コロナ禍における物価動向を巡る諸問題」に関するワークショップ）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220329b.htm"
+    },
+    {
+      "date": "2022-03-29",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「デジタル化：『暮らし』のための金融サービス」（FIN/SUM（フィンサム）2022）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220329a.htm"
+    },
+    {
+      "date": "2022-03-24",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（青森県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220324a.htm"
+    },
+    {
+      "date": "2022-03-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NAKAGAWA Junko",
+      "speaker_label": "中川審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（京都府金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220303a.htm"
+    },
+    {
+      "date": "2022-02-09",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（山梨県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220209a.htm"
+    },
+    {
+      "date": "2022-02-03",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2022/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（和歌山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2022/ko220203a.htm"
+    },
+    {
+      "date": "2021-12-23",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「金融政策と企業行動：金融政策の効果波及経路と日本企業の構造変化」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211223a.htm"
+    },
+    {
+      "date": "2021-12-08",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（徳島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211208a.htm"
+    },
+    {
+      "date": "2021-12-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（兵庫県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211202a.htm"
+    },
+    {
+      "date": "2021-12-01",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（大分県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211201a.htm"
+    },
+    {
+      "date": "2021-11-29",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「気候変動問題における金融の役割 ～3つの不可欠な要素～」（東京・インターナショナル・ファイナンシャル・フォーラム 2021）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211129a.htm"
+    },
+    {
+      "date": "2021-11-15",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211115a.htm"
+    },
+    {
+      "date": "2021-10-15",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211015b.htm"
+    },
+    {
+      "date": "2021-10-15",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田理事",
+      "title": "【挨拶】「CBDCが存在する、あるいは存在しない決済システムの将来像」（第2回中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211015a.htm"
+    },
+    {
+      "date": "2021-10-14",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "NOGUCHI Asahi",
+      "speaker_label": "野口審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（鳥取県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211014a.htm"
+    },
+    {
+      "date": "2021-10-06",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「日米経済界への期待：コロナ危機からの経済回復と気候変動問題への取り組み」（第58回日米財界人会議）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211006a.htm"
+    },
+    {
+      "date": "2021-10-05",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（TCFDサミット2021）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko211005a.htm"
+    },
+    {
+      "date": "2021-09-30",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（令和3年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210930a.htm"
+    },
+    {
+      "date": "2021-09-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210927a.htm"
+    },
+    {
+      "date": "2021-09-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210902a.htm"
+    },
+    {
+      "date": "2021-09-01",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（広島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210901a.htm"
+    },
+    {
+      "date": "2021-08-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（宮崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210825a.htm"
+    },
+    {
+      "date": "2021-07-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「気候変動に関する日本銀行の取り組み」（日本記者クラブ）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210727a.htm"
+    },
+    {
+      "date": "2021-07-21",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（新潟県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210721a.htm"
+    },
+    {
+      "date": "2021-06-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（信用金庫法制定70周年記念全国大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210624a.htm"
+    },
+    {
+      "date": "2021-06-08",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「最終局面を迎えたLIBOR移行対応－デウス・エクス・マキナ（機械仕掛けの神）は現れない－」（NIKKEI Financialオンラインセミナーにおける講演）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210608a.htm"
+    },
+    {
+      "date": "2021-06-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（静岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210602a.htm"
+    },
+    {
+      "date": "2021-05-26",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（山口県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210526a.htm"
+    },
+    {
+      "date": "2021-05-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2021年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210524a.htm"
+    },
+    {
+      "date": "2021-05-19",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「経済・物価見通しと金融政策運営」（内外情勢調査会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210519a.htm"
+    },
+    {
+      "date": "2021-04-14",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（第96回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210414a.htm"
+    },
+    {
+      "date": "2021-03-30",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「より効果的で持続的な金融緩和」（きさらぎ会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210330a.htm"
+    },
+    {
+      "date": "2021-03-26",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田理事",
+      "title": "【挨拶】（中央銀行デジタル通貨に関する連絡協議会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210326a.htm"
+    },
+    {
+      "date": "2021-03-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「気候関連金融リスクへの取り組み―中央銀行の視点から―」（日本銀行金融機構局主催気候関連金融リスクに関する国際リサーチ・ワークショップにおける開会挨拶の邦訳）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210325a.htm"
+    },
+    {
+      "date": "2021-03-16",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「情報システムと金融システムの融合、アズ・ア・サービスの先にあるもの」（FIN/SUM（フィンサム）2021）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210316a.htm"
+    },
+    {
+      "date": "2021-03-08",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「ウィズコロナ、ポストコロナの金融政策」（読売経済フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210308a.htm"
+    },
+    {
+      "date": "2021-03-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（群馬県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210303a.htm"
+    },
+    {
+      "date": "2021-02-10",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "NAKAMURA Toyoaki",
+      "speaker_label": "中村審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（高知県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210210a.htm"
+    },
+    {
+      "date": "2021-02-03",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2021/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（神奈川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2021/ko210203a.htm"
+    },
+    {
+      "date": "2020-12-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「感染症への対応と中長期的な日本経済の課題：ポストコロナも見据えて」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201224a.htm"
+    },
+    {
+      "date": "2020-12-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201203a.htm"
+    },
+    {
+      "date": "2020-12-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（秋田県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201202a.htm"
+    },
+    {
+      "date": "2020-11-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「新型コロナウイルス感染症に対する政策対応の『これまで』と『これから』―国際金融危機の教訓を踏まえて―」（IMF・東京大学共催バーチャル・コンファレンス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201124b.htm"
+    },
+    {
+      "date": "2020-11-16",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（道東地域金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201116a.htm"
+    },
+    {
+      "date": "2020-11-12",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "ADACHI Seiji",
+      "speaker_label": "安達審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長野県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201112a.htm"
+    },
+    {
+      "date": "2020-11-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【寄稿文】「試論『わが国の金融政策 ―経験と教訓―』」",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201106a.htm"
+    },
+    {
+      "date": "2020-11-04",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201104a.htm"
+    },
+    {
+      "date": "2020-10-21",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福井県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201021a.htm"
+    },
+    {
+      "date": "2020-10-07",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「新型コロナウイルス感染症の世界経済への影響と課題―アジアの視点から―」（全米企業エコノミスト協会第62回年次総会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201007a.htm"
+    },
+    {
+      "date": "2020-10-05",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（令和2年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko201005a.htm"
+    },
+    {
+      "date": "2020-09-23",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200923a.htm"
+    },
+    {
+      "date": "2020-09-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（沖縄県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200903a.htm"
+    },
+    {
+      "date": "2020-09-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（佐賀県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200902a.htm"
+    },
+    {
+      "date": "2020-08-27",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（旭川市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200827a.htm"
+    },
+    {
+      "date": "2020-08-05",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【発言要旨】「新型コロナウイルス感染症の影響への日本銀行の対応」（コロンビア大学・日本経済経営研究所（CJEB）主催ウェビナー）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200805a.htm"
+    },
+    {
+      "date": "2020-07-30",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "UCHIDA Shinichi",
+      "speaker_label": "内田理事",
+      "title": "【挨拶】「ポストコロナの『お金』の姿」（決済の未来フォーラム デジタル通貨分科会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200730a.htm"
+    },
+    {
+      "date": "2020-07-29",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「最近の金融経済情勢と金融政策運営」（日本記者クラブ）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200729a.htm"
+    },
+    {
+      "date": "2020-06-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【発言要旨】「新型コロナウイルス感染症のわが国経済への影響と日本銀行の対応」（ハーバード・ロースクール、PIFS共催Virtual Event）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200626a.htm"
+    },
+    {
+      "date": "2020-05-14",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「新型コロナウイルス感染症：金融経済情勢と日本銀行の対応」（内外情勢調査会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200514a.htm"
+    },
+    {
+      "date": "2020-02-27",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「中銀デジタル通貨と決済システムの将来像」（決済の未来フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200227b.htm"
+    },
+    {
+      "date": "2020-02-27",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（滋賀県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200227a.htm"
+    },
+    {
+      "date": "2020-02-14",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「金融リテラシー～人生を豊かにする『お金』の知恵～」（東京証券取引所主催セミナーにおける基調講演）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200214a.htm"
+    },
+    {
+      "date": "2020-02-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（奈良県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200206a.htm"
+    },
+    {
+      "date": "2020-02-05",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（愛媛県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200205a.htm"
+    },
+    {
+      "date": "2020-01-30",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2020/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「わが国の金利指標改革」（時事通信社「金融懇話会」における講演）",
+      "url": "https://www.boj.or.jp/about/press/koen_2020/ko200130a.htm"
+    },
+    {
+      "date": "2019-12-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「好循環の持続に向けて」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191226a.htm"
+    },
+    {
+      "date": "2019-12-12",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（岡山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191212a.htm"
+    },
+    {
+      "date": "2019-12-08",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「アジアの未来への視点」（アジア・パシフィック・イニシアティブ・フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191208a.htm"
+    },
+    {
+      "date": "2019-12-05",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "HARADA Yutaka",
+      "speaker_label": "原田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（大分県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191205a.htm"
+    },
+    {
+      "date": "2019-12-04",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「決済のイノベーションと中央銀行の役割―ステーブルコインが投げかけた問題―」（創立35周年記念FISC講演会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191204a.htm"
+    },
+    {
+      "date": "2019-11-28",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「国際的な金融規制・監督：これまでの成果、現在の論点、将来の課題」（パリ・ユーロプラス主催フィナンシャル・フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191128b.htm"
+    },
+    {
+      "date": "2019-11-28",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【発言要旨】「社会インフラとしての金融・決済システム：災害時対応の視点から」（名古屋市立大学大学院主催シンポジウム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191128a.htm"
+    },
+    {
+      "date": "2019-11-27",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（兵庫県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191127a.htm"
+    },
+    {
+      "date": "2019-11-07",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「日本の経験と中国―金融政策と金融システム―」（清華大学五道口金融学院）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191107a.htm"
+    },
+    {
+      "date": "2019-11-05",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191105a.htm"
+    },
+    {
+      "date": "2019-10-20",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「新興国の持続的発展に向けて」（エマージング・マーケッツ・フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191021a.htm"
+    },
+    {
+      "date": "2019-10-18",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191018a.htm"
+    },
+    {
+      "date": "2019-10-10",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「アジアの資本市場の発展：その役割と課題」（ASIFMA・Annual Conference 2019）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191010a.htm"
+    },
+    {
+      "date": "2019-10-03",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【講演】「日本経済は変化したのか：課題と展望」（ジャパン・ソサエティNY講演会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191004a.htm"
+    },
+    {
+      "date": "2019-10-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（島根県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko191003a.htm"
+    },
+    {
+      "date": "2019-09-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（令和元年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190926a.htm"
+    },
+    {
+      "date": "2019-09-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（三重県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190925a.htm"
+    },
+    {
+      "date": "2019-09-24",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190924a.htm"
+    },
+    {
+      "date": "2019-09-04",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（函館市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190904b.htm"
+    },
+    {
+      "date": "2019-09-04",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「金融・技術の融合と新たな成長機会」（FIN/SUM（フィンサム）2019）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190904a.htm"
+    },
+    {
+      "date": "2019-08-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（熊本県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190829a.htm"
+    },
+    {
+      "date": "2019-08-01",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（鹿児島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190801a.htm"
+    },
+    {
+      "date": "2019-07-22",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「デフレの克服：日本の経験と挑戦」（IMF）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190723a.htm"
+    },
+    {
+      "date": "2019-07-05",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「日本銀行はデジタル通貨を発行すべきか」（ロイター・ニュースメーカー）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190705a.htm"
+    },
+    {
+      "date": "2019-07-03",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（広島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190703a.htm"
+    },
+    {
+      "date": "2019-06-27",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（青森県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190627a.htm"
+    },
+    {
+      "date": "2019-06-19",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": null,
+      "speaker_label": "衛藤理事",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190619a.htm"
+    },
+    {
+      "date": "2019-06-14",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": null,
+      "speaker_label": "池田理事",
+      "title": "【講演】「企業の決済・商流データの活用と未来展望」（第8回FinTech（フィンテック）フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190614a.htm"
+    },
+    {
+      "date": "2019-06-11",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（イタリア銀行日本駐在員事務所設立30周年記念式典）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190612a.htm"
+    },
+    {
+      "date": "2019-06-08",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「デジタル時代の未来」（G20技術革新にかかるハイレベルセミナー）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190608a.htm"
+    },
+    {
+      "date": "2019-06-07",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「高齢化社会における金融包摂」（G20/GPFIフォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190607b.htm"
+    },
+    {
+      "date": "2019-06-06",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「金融と情報通信技術の融合」（国際金融協会春季総会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190606a.htm"
+    },
+    {
+      "date": "2019-05-30",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（静岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190530a.htm"
+    },
+    {
+      "date": "2019-05-29",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2019年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190529a.htm"
+    },
+    {
+      "date": "2019-05-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「グローバル経済の課題と対応」（T20サミット）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190527a.htm"
+    },
+    {
+      "date": "2019-05-22",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "HARADA Yutaka",
+      "speaker_label": "原田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190522a.htm"
+    },
+    {
+      "date": "2019-05-17",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「経済・物価見通しと金融政策運営」（内外情勢調査会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190517a.htm"
+    },
+    {
+      "date": "2019-04-10",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（第94回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190410a.htm"
+    },
+    {
+      "date": "2019-03-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "HARADA Yutaka",
+      "speaker_label": "原田審議委員",
+      "title": "【講演】「日本経済と生産性」（大和総研日本経済予測第200回記念コンファレンス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190325a.htm"
+    },
+    {
+      "date": "2019-03-15",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「包摂的で持続可能な発展を目指して」（日本経済団体連合会主催B20東京サミット）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190315a.htm"
+    },
+    {
+      "date": "2019-03-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "HARADA Yutaka",
+      "speaker_label": "原田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（山梨県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190306a.htm"
+    },
+    {
+      "date": "2019-02-28",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（茨城県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190228a.htm"
+    },
+    {
+      "date": "2019-02-27",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（香川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190227a.htm"
+    },
+    {
+      "date": "2019-01-31",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（山口県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190131a.htm"
+    },
+    {
+      "date": "2019-01-17",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（G20財務大臣・中央銀行総裁代理会議）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190117c.htm"
+    },
+    {
+      "date": "2019-01-17",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「人口動態の変動とマクロ経済面での挑戦」（日本銀行・財務省共催G20シンポジウム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190117b.htm"
+    },
+    {
+      "date": "2019-01-17",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2019/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】（日本銀行・財務省共催G20シンポジウム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2019/ko190117a.htm"
+    },
+    {
+      "date": "2018-12-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「わが国の経済・物価情勢と今後の展望」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181226a.htm"
+    },
+    {
+      "date": "2018-12-05",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（新潟県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181205a.htm"
+    },
+    {
+      "date": "2018-11-30",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": null,
+      "speaker_label": "池田理事",
+      "title": "【挨拶】「どうなるキャッシュレス決済手段：対面決済の未来」（第7回FinTech（フィンテック）フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181130a.htm"
+    },
+    {
+      "date": "2018-11-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福岡県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181129a.htm"
+    },
+    {
+      "date": "2018-11-19",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「人口動態の変動と金融セクターの課題」（パリ・ユーロプラス主催フィナンシャル・フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181119a.htm"
+    },
+    {
+      "date": "2018-11-07",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（高知県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181107a.htm"
+    },
+    {
+      "date": "2018-11-05",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181105a.htm"
+    },
+    {
+      "date": "2018-10-25",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "WAKATABE Masazumi",
+      "speaker_label": "若田部副総裁",
+      "title": "【講演】「金融危機後の世界：変化する経済、経済学と中央銀行」（「ニッポンの革新力」シンポジウム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181025a.htm"
+    },
+    {
+      "date": "2018-10-20",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【講演】「マネーの将来」（日本金融学会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181020a.htm"
+    },
+    {
+      "date": "2018-10-19",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181019a.htm"
+    },
+    {
+      "date": "2018-10-15",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「グローバル化と金融政策」（BISアジア事務所開設20周年記念シンポジウム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181016a.htm"
+    },
+    {
+      "date": "2018-10-11",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（秋田県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko181011a.htm"
+    },
+    {
+      "date": "2018-09-27",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（平成30年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180927a.htm"
+    },
+    {
+      "date": "2018-09-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180925a.htm"
+    },
+    {
+      "date": "2018-09-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（神奈川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180906a.htm"
+    },
+    {
+      "date": "2018-09-03",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「ポスト金融危機の先物市場」（株価指数先物30周年記念シンポジウム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180903a.htm"
+    },
+    {
+      "date": "2018-08-29",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（沖縄県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180829a.htm"
+    },
+    {
+      "date": "2018-08-03",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": null,
+      "speaker_label": "桑原理事",
+      "title": "【挨拶】「金融ビジネスにおけるチャットボットの活用」（第6回FinTech（フィンテック）フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180803a.htm"
+    },
+    {
+      "date": "2018-08-02",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（京都府金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180802a.htm"
+    },
+    {
+      "date": "2018-07-05",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長野県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180705a.htm"
+    },
+    {
+      "date": "2018-07-04",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "HARADA Yutaka",
+      "speaker_label": "原田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（石川県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180704a.htm"
+    },
+    {
+      "date": "2018-06-25",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【寄稿文】「履歴効果と賃金・物価の伸び悩み ―日本のケース・スタディ―」（第30回 Villa Mondragone International Economic Seminar（ヴィラ・モンドラゴーネ インターナショナルエコノミックセミナー））",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180625a.htm"
+    },
+    {
+      "date": "2018-06-21",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（宮城県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180621a.htm"
+    },
+    {
+      "date": "2018-06-20",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】（全国信用金庫大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180620a.htm"
+    },
+    {
+      "date": "2018-05-30",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（日本銀行金融研究所主催2018年国際コンファランス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180530a.htm"
+    },
+    {
+      "date": "2018-05-24",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（群馬県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180524a.htm"
+    },
+    {
+      "date": "2018-05-10",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「最近の金融経済情勢と金融政策運営」（きさらぎ会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180510a.htm"
+    },
+    {
+      "date": "2018-04-16",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "AMAMIYA Masayoshi",
+      "speaker_label": "雨宮副総裁",
+      "title": "【挨拶】「デジタル時代と中央銀行」（IMF・金融庁・日本銀行共催FinTech（フィンテック）コンファレンス）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180416a.htm"
+    },
+    {
+      "date": "2018-04-11",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（第93回信託大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180411a.htm"
+    },
+    {
+      "date": "2018-03-01",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "KATAOKA Goushi",
+      "speaker_label": "片岡審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（岡山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180301a.htm"
+    },
+    {
+      "date": "2018-02-21",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【講演】「わが国と山陰地方の更なる発展に向けて」（松江支店開設100周年記念講演会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180221a.htm"
+    },
+    {
+      "date": "2018-02-08",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "SUZUKI Hitoshi",
+      "speaker_label": "鈴木審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（和歌山県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180208a.htm"
+    },
+    {
+      "date": "2018-02-06",
+      "role": "nonvoter",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": null,
+      "speaker_label": "桑原理事",
+      "title": "【挨拶】「金融市場インフラとサイバーレジリエンス」（第18回決済システムフォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180206a.htm"
+    },
+    {
+      "date": "2018-01-31",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "IWATA Kikuo",
+      "speaker_label": "岩田副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大分県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180131a.htm"
+    },
+    {
+      "date": "2018-01-09",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2018/index.htm",
+      "speaker": "NAKASO Hiroshi",
+      "speaker_label": "中曽副総裁",
+      "title": "【挨拶】「ドイツと日本 ― セントラルバンカーからみた両国関係の過去と未来」（ドイツ連邦銀行ベルリン・ブランデンブルク地域事務所主催ディナーミーティング）",
+      "url": "https://www.boj.or.jp/about/press/koen_2018/ko180302a.htm"
+    },
+    {
+      "date": "2017-12-26",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「人手不足を越えて：持続的経済成長への展望」（日本経済団体連合会審議員会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171226a.htm"
+    },
+    {
+      "date": "2017-12-07",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「最近の金融経済情勢と金融政策運営」（きさらぎ会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171207a.htm"
+    },
+    {
+      "date": "2017-12-06",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（兵庫県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171206a.htm"
+    },
+    {
+      "date": "2017-12-04",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「イノベーションが拡げる金融の未来」（パリ・ユーロプラス主催フィナンシャル・フォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171204a.htm"
+    },
+    {
+      "date": "2017-11-30",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "HARADA Yutaka",
+      "speaker_label": "原田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（福島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171130a.htm"
+    },
+    {
+      "date": "2017-11-29",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "NAKASO Hiroshi",
+      "speaker_label": "中曽副総裁",
+      "title": "【講演】「マクロプルーデンス政策の新たなフロンティア―銀行の低収益性と銀行間競争への対応―」（時事通信社「金融懇話会」）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171129a.htm"
+    },
+    {
+      "date": "2017-11-28",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「アジア金融市場：通貨危機から20年、これからの20年」（アジア証券人フォーラム年次総会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171128a.htm"
+    },
+    {
+      "date": "2017-11-13",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【講演】「『量的・質的金融緩和』と経済理論」（スイス・チューリッヒ大学）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171114a.htm"
+    },
+    {
+      "date": "2017-11-08",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（宮崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171108a.htm"
+    },
+    {
+      "date": "2017-11-06",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（名古屋）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171106a.htm"
+    },
+    {
+      "date": "2017-11-01",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "NAKASO Hiroshi",
+      "speaker_label": "中曽副総裁",
+      "title": "【挨拶】「ビッグデータと経済・金融・中央銀行」（第4回FinTechフォーラム）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171101a.htm"
+    },
+    {
+      "date": "2017-10-20",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（全国信用組合大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171020a.htm"
+    },
+    {
+      "date": "2017-10-18",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "NAKASO Hiroshi",
+      "speaker_label": "中曽副総裁",
+      "title": "【講演】「進化する金融政策：日本銀行の経験」（米国ニューヨーク連邦準備銀行主催セントラルバンキングセミナー）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171019a.htm"
+    },
+    {
+      "date": "2017-10-18",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "SAKURAI Makoto",
+      "speaker_label": "櫻井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（函館市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171018a.htm"
+    },
+    {
+      "date": "2017-10-05",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "NAKASO Hiroshi",
+      "speaker_label": "中曽副総裁",
+      "title": "【講演】「日本経済の底力と構造改革」（ジャパン・ソサエティおよびシティ・オブ・ロンドン・コーポレーション共催講演会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171005a.htm"
+    },
+    {
+      "date": "2017-10-04",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「デジタルイノベーション、金融、中央銀行」（国際決済銀行 決済・市場インフラ委員会アウトリーチ会合）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko171004a.htm"
+    },
+    {
+      "date": "2017-09-28",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】（平成29年全国証券大会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko170928a.htm"
+    },
+    {
+      "date": "2017-09-25",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "KURODA Haruhiko",
+      "speaker_label": "黒田総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（大阪経済4団体共催懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko170925a.htm"
+    },
+    {
+      "date": "2017-08-31",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "MASAI Takako",
+      "speaker_label": "政井審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（愛媛県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko170831a.htm"
+    },
+    {
+      "date": "2017-08-02",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "FUNO Yukitoshi",
+      "speaker_label": "布野審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（札幌市金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko170802a.htm"
+    },
+    {
+      "date": "2017-07-26",
+      "role": "副総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2017/index.htm",
+      "speaker": "NAKASO Hiroshi",
+      "speaker_label": "中曽副総裁",
+      "title": "【挨拶】「最近の金融経済情勢と金融政策運営」（広島県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2017/ko170726a.htm"
     }
   ],
-  "retrieved_at": "2026-10-31T13:16:45.897100+00:00",
-  "since": "2026-07-03",
+  "retrieved_at": "2026-11-01T14:05:12.512215+00:00",
+  "since": "2017-07-24",
   "source": "https://www.boj.or.jp/about/press/koen_all/index.htm"
 }
