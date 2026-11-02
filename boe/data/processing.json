@@ -16741,8 +16741,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/clair-mills-resilience-for-growth-conference-exeter": {
-    "attempts": 4,
-    "checked_at": "2026-11-01T14:04:33.901809+00:00",
+    "attempts": 5,
+    "checked_at": "2026-11-02T04:46:47.870917+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
@@ -16752,9 +16752,8 @@
       "url": "https://www.bankofengland.co.uk/speech/2026/october/clair-mills-resilience-for-growth-conference-exeter",
       "year": 2026
     },
-    "reason": "HTTPError: HTTP Error 404: ",
-    "retry_after": "2026-11-02T06:04:34.330546+00:00",
-    "status": "failure"
+    "reason": "Withdrawn: official page is gone and no longer listed in the catalogue (HTTP 404)",
+    "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/financial-innovation-dollar-dominance-and-their-uk-monetary-policy-implications": {
     "attempts": 2,
