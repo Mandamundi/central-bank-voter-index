@@ -63,7 +63,9 @@ def process(entries, since, limit=None, force=False):
                     continue
                 if (now() - last).days < config.RECHECK_DAYS:
                     continue
-            if prior.get('retry_after') and now() < dt.datetime.fromisoformat(prior['retry_after']):
+            # An unlisted failure may have been withdrawn: recheck it now rather than wait out the backoff.
+            if (prior.get('retry_after') and now() < dt.datetime.fromisoformat(prior['retry_after'])
+                    and not (prior.get('status') == 'failure' and url not in live)):
                 counts['deferred'] += 1
                 continue
         if limit is not None and attempts >= limit:

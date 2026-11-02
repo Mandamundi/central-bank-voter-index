@@ -221,7 +221,9 @@ class PersistenceTests(unittest.TestCase):
 
     def test_unlisted_404_is_withdrawn_not_a_permanent_failure(self):
         entry={'url':'https://example.org/placeholder','title':'Policy (to be published at 9am)','date':None}
-        store.save_processing({entry['url']:{'status':'failure','entry':entry}})
+        later=(dt.datetime.now(dt.timezone.utc)+dt.timedelta(hours=2)).isoformat()
+        store.save_processing({entry['url']:{'status':'failure','entry':entry,'collector_version':config.COLLECTOR_VERSION,
+                                             'retry_after':later}})
         with patch('sources.fetch_speech',side_effect=missing(404)):
             counts,unresolved=update.process([],'2020-01-01')
         self.assertFalse(unresolved);self.assertEqual(counts['excluded'],1)
