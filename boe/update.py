@@ -15,6 +15,9 @@ import store
 import voters
 
 
+WITHDRAWN = 'Withdrawn: official page is gone and no longer listed in the catalogue'
+
+
 def now():
     return dt.datetime.now(dt.timezone.utc)
 
@@ -31,6 +34,7 @@ def process(entries, since, limit=None, force=False):
     counts = {'discovered': len(entries), 'stored': 0, 'excluded': 0, 'duplicate': 0, 'failed': 0, 'scheduled': 0, 'deferred': 0}
     # Retain old failures even after their listing scrolls outside the live lookback.
     candidates = {e['url']: e for e in entries}
+    live = set(candidates)
     for url, prior in outcomes.items():
         if prior.get('status') in {'failure','scheduled','pending'} and prior.get('entry'):
             candidates.setdefault(url, prior['entry'])
@@ -48,7 +52,9 @@ def process(entries, since, limit=None, force=False):
             prior.pop('speech_id', None)
         same_version = prior.get('collector_version') == config.COLLECTOR_VERSION
         if same_version and not force:
-            if prior.get('status') in {'excluded', 'duplicate'}:
+            # A withdrawn page that reappears in the catalogue is fetched again.
+            if prior.get('status') in {'excluded', 'duplicate'} and not (
+                    prior.get('reason', '').startswith('Withdrawn') and url in live):
                 continue
             if prior.get('status') == 'stored':
                 last = dt.datetime.fromisoformat(prior['checked_at'])
@@ -110,10 +116,17 @@ def process(entries, since, limit=None, force=False):
             store.save_processing(outcomes)
             raise
         except Exception as error:
-            state.update(status='failure', reason=f'{type(error).__name__}: {error}',
-                         retry_after=(now() + dt.timedelta(hours=min(24, 2 ** min(state['attempts'], 5)))).isoformat())
-            counts['failed'] += 1
-            print(f'Failed {url}: {error}', flush=True)
+            # Placeholders the bank later deletes would otherwise fail every run forever.
+            # Stored speeches stay loud: losing corpus text needs a human look.
+            if (http_get.status_code(error) in {404, 410} and url not in live
+                    and prior.get('status') != 'stored'):
+                state.update(status='excluded', reason=f'{WITHDRAWN} (HTTP {http_get.status_code(error)})')
+                counts['excluded'] += 1
+            else:
+                state.update(status='failure', reason=f'{type(error).__name__}: {error}',
+                             retry_after=(now() + dt.timedelta(hours=min(24, 2 ** min(state['attempts'], 5)))).isoformat())
+                counts['failed'] += 1
+                print(f'Failed {url}: {error}', flush=True)
         outcomes[url] = state
         store.save_processing(outcomes)
         if attempts % 20 == 0:

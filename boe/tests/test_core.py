@@ -28,6 +28,11 @@ def speech(name,day,level=5,available=None,identifier=None):
             'level':level,'value':prompt.level_to_value(level),'availability_basis':'fixture'}
 
 
+def missing(status):
+    error=RuntimeError(f'HTTP Error {status}: ');error.response=type('Response',(),{'status_code':status})()
+    return error
+
+
 class DocumentScopeTests(unittest.TestCase):
     def test_supporting_paper_is_not_an_individual_stance_observation(self):
         with self.assertRaises(documents.Excluded):
@@ -213,6 +218,23 @@ class PersistenceTests(unittest.TestCase):
             _,unresolved=update.process([],'2020-01-01')
         self.assertFalse(unresolved)
         self.assertEqual(store.load_processing()[entry['url']]['status'],'excluded')
+
+    def test_unlisted_404_is_withdrawn_not_a_permanent_failure(self):
+        entry={'url':'https://example.org/placeholder','title':'Policy (to be published at 9am)','date':None}
+        store.save_processing({entry['url']:{'status':'failure','entry':entry}})
+        with patch('sources.fetch_speech',side_effect=missing(404)):
+            counts,unresolved=update.process([],'2020-01-01')
+        self.assertFalse(unresolved);self.assertEqual(counts['excluded'],1)
+        self.assertTrue(store.load_processing()[entry['url']]['reason'].startswith('Withdrawn'))
+        with patch('sources.fetch_speech',side_effect=ValueError('relisted page fetched again')) as fetch:
+            update.process([entry],'2020-01-01')
+        fetch.assert_called_once()
+
+    def test_listed_404_stays_a_failure(self):
+        entry={'url':'https://example.org/listed','title':'Policy','date':'2020-01-01'}
+        with patch('sources.fetch_speech',side_effect=missing(404)):
+            _,unresolved=update.process([entry],'2020-01-01')
+        self.assertEqual(unresolved,[entry['url']])
 
     def test_collector_version_retries_old_exclusions(self):
         entry={'url':'https://example.org/old','title':'Policy','date':'2020-01-01'}
