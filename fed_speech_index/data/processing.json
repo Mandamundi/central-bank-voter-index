@@ -94988,7 +94988,7 @@
     "status": "excluded"
   },
   "https://www.minneapolisfed.org/article/2016/wsj-computer-cant-do-the-feds-job": {
-    "attempts": 3,
+    "attempts": 4,
     "collector_version": "v4",
     "entry": {
       "date": "2016-12-19",
@@ -94998,9 +94998,9 @@
       "title": "WSJ: Computer Can’t Do the Fed’s Job",
       "url": "https://www.minneapolisfed.org/article/2016/wsj-computer-cant-do-the-feds-job"
     },
-    "last_attempt": "2026-10-30T13:47:02.494602+00:00",
+    "last_attempt": "2026-11-03T14:49:27.543456+00:00",
     "reason": "no prepared speech text (594 chars)",
-    "retry_after": "2026-11-03T13:47:02.494602+00:00",
+    "retry_after": "2026-11-11T14:49:27.543456+00:00",
     "source": "minneapolis",
     "status": "extraction_failure"
   },
