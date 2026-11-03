@@ -1,11 +1,11 @@
 {
   "bank": "boe",
-  "built_at": "2026-11-02T16:46:18.323309+00:00",
+  "built_at": "2026-11-03T14:50:43.941217+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 1.0,
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "disagreement": 15.475986974649022,
     "index": 62.22222222222222,
     "missing_members": "",
