@@ -42114,7 +42114,7 @@
     "status": "excluded"
   },
   "https://www.atlantafed.org/news-and-events/speeches/2020/05/04/tkac-monetary-policy": {
-    "attempts": 4,
+    "attempts": 5,
     "collector_version": "v4",
     "entry": {
       "date": "2020-05-04",
@@ -42125,9 +42125,9 @@
       "url": "https://www.atlantafed.org/news-and-events/speeches/2020/05/04/tkac-monetary-policy"
     },
     "http_status": 404,
-    "last_attempt": "2026-10-28T14:23:44.114847+00:00",
+    "last_attempt": "2026-11-04T15:00:43.146690+00:00",
     "reason": "HTTP Error 404: ",
-    "retry_after": "2026-11-04T14:23:44.114847+00:00",
+    "retry_after": "2026-12-04T15:00:43.146690+00:00",
     "source": "atlanta",
     "status": "http_failure"
   },
@@ -107968,6 +107968,23 @@
     "reason": "existing speech",
     "source": "ny",
     "speech_id": "4e8231ab9f09",
+    "status": "stored"
+  },
+  "https://www.newyorkfed.org/newsevents/speeches/2026/sca261104": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-04",
+      "pdf": null,
+      "source": "ny",
+      "speaker": "Scally",
+      "title": "Economic Conditions in Puerto Rico",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/sca261104"
+    },
+    "last_attempt": "2026-11-04T15:00:31.641752+00:00",
+    "reason": "speech extracted",
+    "source": "ny",
+    "speech_id": "480f8407a778",
     "status": "stored"
   },
   "https://www.newyorkfed.org/newsevents/speeches/2026/wil260112": {
