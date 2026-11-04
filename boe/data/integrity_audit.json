@@ -1,7 +1,7 @@
 {
   "bank": "boe",
-  "checked_at": "2026-11-03T14:50:41.158418+00:00",
-  "corpus_hash": "cda4429b6df542f4364af8be20f40a046046c53ac5afad75f4e1e14ff94022ed",
+  "checked_at": "2026-11-04T15:03:01.344343+00:00",
+  "corpus_hash": "d17063ec0c5099123af0082859d22861b7d27818475cce75f80df775b2851bdf",
   "earliest_delivery": "2017-09-15",
   "formats": {
     "prepared_text": 349,

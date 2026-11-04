@@ -347,8 +347,8 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Ben Martin: Speech at Data & AI conference Europe 2026, London (to be published 11.35am)",
+      "speaker": "Ben Martin",
+      "title": "Data and analytics transformation at the Bank of England to enable, equip and empower − speech by Ben Martin",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
       "year": 2026
     },
@@ -563,6 +563,14 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
+      "speaker": "Ben Martin",
+      "title": "Data and analytics transformation at the Bank of England to enable, equip and empower − speech by Ben Martin (pdf 0.2MB)",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2026/speech-ben-martin.pdf",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
       "speaker": "Alan Taylor",
       "title": "Driving over the peak, or a false summit? - Speech by Alan Taylor (pdf 1MB)",
       "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2026/speech-by-alan-taylor-at-national-university-of-singapore.pdf",
@@ -585,7 +593,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-11-03T14:50:39.001736+00:00",
-  "since": "2026-07-06",
+  "retrieved_at": "2026-11-04T15:02:35.578844+00:00",
+  "since": "2026-07-07",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }
