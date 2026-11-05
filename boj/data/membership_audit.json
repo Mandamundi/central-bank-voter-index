@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-04T15:03:34.600483+00:00",
+  "checked_at": "2026-11-05T15:08:33.267034+00:00",
   "coverage_start": "2017-07-24",
   "issues": [],
-  "latest_meeting": "2026-07-31",
+  "latest_meeting": "2026-09-18",
   "ledger_hash": "3b11a90794bfebada05e62ef67a26ec7774536fe1376091a42a7223083465ce9",
-  "meetings_checked": 74,
+  "meetings_checked": 75,
   "success": true
 }

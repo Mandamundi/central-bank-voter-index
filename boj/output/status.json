@@ -1,11 +1,11 @@
 {
   "bank": "boj",
-  "built_at": "2026-11-04T15:03:48.593295+00:00",
+  "built_at": "2026-11-05T15:08:37.300774+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 0.7777777777777778,
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "disagreement": 6.998542122237652,
     "index": 77.14285714285714,
     "missing_members": "ASADA Toichiro|SATO Ayano",
