@@ -53631,6 +53631,23 @@
     "speech_id": "c924817f3309",
     "status": "stored"
   },
+  "https://www.clevelandfed.org/collections/speeches/sp-20261105-reserve-currencies-and-stablecoins": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-05",
+      "pdf": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/collections/speeches/sp-20261105-reserve-currencies-and-stablecoins.pdf",
+      "source": "cleveland",
+      "speaker": "Beth M. Hammack",
+      "title": "Reserve Currencies and Stablecoins",
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20261105-reserve-currencies-and-stablecoins"
+    },
+    "last_attempt": "2026-11-05T15:06:43.267610+00:00",
+    "reason": "speech extracted",
+    "source": "cleveland",
+    "speech_id": "c36cae31bb3c",
+    "status": "stored"
+  },
   "https://www.dallasfed.org/news/speeches/fisher/2005/fs040609.aspx": {
     "attempts": 2,
     "collector_version": "v3.3",
