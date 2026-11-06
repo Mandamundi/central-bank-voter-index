@@ -107933,6 +107933,23 @@
     "speech_id": "7fcb7f2f3ae2",
     "status": "stored"
   },
+  "https://www.newyorkfed.org/newsevents/speeches/2026/ost261105": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-05",
+      "pdf": null,
+      "source": "ny",
+      "speaker": "Ostrander",
+      "title": "Reflections on Treasury Market Innovations",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/ost261105"
+    },
+    "last_attempt": "2026-11-06T14:44:55.331665+00:00",
+    "reason": "speech extracted",
+    "source": "ny",
+    "speech_id": "9f626fa93e46",
+    "status": "stored"
+  },
   "https://www.newyorkfed.org/newsevents/speeches/2026/per260326": {
     "attempts": 1,
     "collector_version": "v2",
@@ -112053,5 +112070,22 @@
     "reason": "not a speech (photo gallery)",
     "source": "stlouis",
     "status": "excluded"
+  },
+  "https://www.stlouisfed.org/from-the-president/remarks/2026/your-fed-decentralized-by-design": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-06",
+      "pdf": null,
+      "source": "stlouis",
+      "speaker": null,
+      "title": "Your Fed: Decentralized by Design",
+      "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/your-fed-decentralized-by-design"
+    },
+    "last_attempt": "2026-11-06T14:45:09.605676+00:00",
+    "reason": "speech extracted",
+    "source": "stlouis",
+    "speech_id": "aad368242eb0",
+    "status": "stored"
   }
 }
