@@ -16675,6 +16675,22 @@
     "reason": "Named speaker is outside the verified voting-member ledger",
     "status": "excluded"
   },
+  "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series": {
+    "attempts": 1,
+    "checked_at": "2026-11-07T13:43:31.456638+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Speech at the Swiss Institute of International Studies Lecture Series and Dinner hosted by Martin Schlegel at the University of Zurich​, Zurich (to be published 5.25pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-09",
+    "retry_after": "2026-11-09T00:00:00+00:00",
+    "status": "scheduled"
+  },
   "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026": {
     "attempts": 2,
     "checked_at": "2026-11-04T15:02:54.676217+00:00",
@@ -16720,6 +16736,22 @@
     },
     "reason": "Prepared text scheduled for 2026-11-10",
     "retry_after": "2026-11-10T00:00:00+00:00",
+    "status": "scheduled"
+  },
+  "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop": {
+    "attempts": 1,
+    "checked_at": "2026-11-07T13:43:31.906515+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Jon Hall: Speech at CF-Imperial Workshop on Quantitative Finance hosted by Deutsche Bank ‘Agents of change’, London (to be published at 11.30am).",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-11",
+    "retry_after": "2026-11-11T00:00:00+00:00",
     "status": "scheduled"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul": {

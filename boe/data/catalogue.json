@@ -347,6 +347,14 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Speech at the Swiss Institute of International Studies Lecture Series and Dinner hosted by Martin Schlegel at the University of Zurich​, Zurich (to be published 5.25pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
       "speaker": "Ben Martin",
       "title": "Data and analytics transformation at the Bank of England to enable, equip and empower − speech by Ben Martin",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
@@ -364,8 +372,16 @@
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": "Huw Pill",
-      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 6.30pm)",
+      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 11 November at 2pm)",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Jon Hall: Speech at CF-Imperial Workshop on Quantitative Finance hosted by Deutsche Bank ‘Agents of change’, London (to be published at 11.30am).",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
       "year": 2026
     },
     {
@@ -593,7 +609,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-11-06T14:46:12.159853+00:00",
-  "since": "2026-07-09",
+  "retrieved_at": "2026-11-07T13:43:31.229535+00:00",
+  "since": "2026-07-10",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }
