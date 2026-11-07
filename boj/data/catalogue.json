@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "date": "2026-11-07",
+      "role": "総裁",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "UEDA Kazuo",
+      "speaker_label": "植田総裁",
+      "title": "【講演】「日本の経常収支黒字と企業行動の変容」（IMF）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko261107a.htm"
+    },
+    {
       "date": "2026-10-16",
       "role": "総裁",
       "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
@@ -64,7 +73,7 @@
       "url": "https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm"
     }
   ],
-  "retrieved_at": "2026-11-06T14:46:48.689753+00:00",
-  "since": "2026-07-09",
+  "retrieved_at": "2026-11-07T13:44:08.862975+00:00",
+  "since": "2026-07-10",
   "source": "https://www.boj.or.jp/about/press/koen_all/index.htm"
 }
