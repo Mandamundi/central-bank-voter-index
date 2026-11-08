@@ -908,8 +908,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2017/the-phillips-curve-lower-flatter-or-in-hiding-speech-by-jon-cunliffe.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:33.310550+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:51.678808+00:00",
     "collector_version": "v3",
     "content_hash": "cb496b00115df99de92a6414ca3a57a83df48b90f1cd25074529bbe3a3e9182d",
     "entry": {
@@ -1229,8 +1229,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2018/central-clearing-and-resolution-learning-some-of-the-lessons-of-lehmans-speech-by-jon-cunliffe.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:19.643045+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:39.768720+00:00",
     "collector_version": "v3",
     "content_hash": "3fefadee7b04b4c74ad1df5737377192f2cc51f4d4a6bef4c6d52e366ad69d9a",
     "entry": {
@@ -2569,8 +2569,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2019/investing-in-ethnicity-and-race-speech-by-mark-carney.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:28.450620+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:55.374904+00:00",
     "collector_version": "v3",
     "content_hash": "d8d1ff411c920c2ab8bf0da0c3d2cb2d1e450f8ebb41e51ceda10379ef8d5462",
     "entry": {
@@ -2847,8 +2847,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2019/pass-through-of-bank-rate-to-household-interest-rates-speech-by-michael-saunders.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:29.309370+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:55.914971+00:00",
     "collector_version": "v3",
     "content_hash": "ba20787e0777e7fc89a4728279f82a816d71a9b1468820d24edb995d151788f3",
     "entry": {
@@ -3627,8 +3627,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2020/libor entering the endgame - speech by andrew bailey.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:28.762507+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:03.165678+00:00",
     "collector_version": "v3",
     "content_hash": "b1a94b65f89d4cac39e4aac636c15d96065bb4906bb69ecf825db19d06841462",
     "entry": {
@@ -3691,8 +3691,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2020/opening-remarks-at-the-launch-of-the-ai-public-private-forum-speech-by-dave-ramsden.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:29.287212+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:03.694256+00:00",
     "collector_version": "v3",
     "content_hash": "e3caad1b6d24cc505897a75496ec7ac690c15f0d0ee72744afcf09e74999af73",
     "entry": {
@@ -3875,8 +3875,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2020/the-central-bank-balance-sheet-as-a-policy-tool-past-present-and-future-speech-by-andrew-bailey.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:29.550220+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:04.010412+00:00",
     "collector_version": "v3",
     "content_hash": "6bdbd768167ad5be076d7d6dd23d7ce658e68e65f52311902fd12119bc5925ba",
     "entry": {
@@ -4527,8 +4527,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2021/march/supply-and-demand-during-and-after-the-pandemic-speech-by-michael-saunders.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:43.487832+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:25.107589+00:00",
     "collector_version": "v3",
     "content_hash": "ed835b861ddd2be12a2f96e21ae9aecf30a1547e8a74de856bc41e7c7a5287a9",
     "entry": {
@@ -4620,8 +4620,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2021/november/inflation-now-and-then-speech-by-jonathan-haskel.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:45.283402+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:26.504019+00:00",
     "collector_version": "v3",
     "content_hash": "8b6281de56408ea1cd48d168789c1519db5d4a0bd6cccf78a9d867a7adec6158",
     "entry": {
@@ -5153,8 +5153,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/december/the-weekend-starts-here-speech-by-dave-ramsden.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:41.528049+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:25.245788+00:00",
     "collector_version": "v3",
     "content_hash": "e86fb2987ef98d482b6c0610e4aee23b26e3ad44e7216626b1bb1061bedae314",
     "entry": {
@@ -5566,8 +5566,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/october/money-and-payments-a-black-ships-moment-speech-by-jon-cunliffe.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:42.068704+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:25.669748+00:00",
     "collector_version": "v3",
     "content_hash": "0d31a4accf99ae4cabc0c108638bf20d12f410704a76aff419d9295ef6c8e22d",
     "entry": {
@@ -5784,8 +5784,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2024/may/two-puzzles-recent-uk-labour-market dynamics-speech-by-megan-greene-transcript.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:15.579389+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:01.072980+00:00",
     "collector_version": "v3",
     "content_hash": "f64199aebd6345747771175ac145df0b895d2bf0da2782536c6d88d5998600bf",
     "entry": {
@@ -6030,8 +6030,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2025/may/what-if-things-are-different-speech-by-clare-lombardelli.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:52.210865+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:39.220566+00:00",
     "collector_version": "v3",
     "content_hash": "d4cfb69b5888069c03b753bed11b201eea4566b28b5a5233fb030235d7e0a381",
     "entry": {
@@ -6077,8 +6077,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/-/media/boe/files/speech/2025/october/explaining-the-consumption-gap-speech-by-catherine-l-mann.pdf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:52.933278+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:39.750569+00:00",
     "collector_version": "v3",
     "content_hash": "6e2a17f0f186f92dc2eb3c2ec2f0171d41a1a28ebb665491afcec6a2c23200e7",
     "entry": {
@@ -6414,8 +6414,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/andy-haldane-speech-during-regional-visit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:20.211245+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:40.223583+00:00",
     "collector_version": "v3",
     "content_hash": "99cdff578f1024d4cba13aed97801cc7a4bf03b501d28ce8536b0a8f88cb797c",
     "entry": {
@@ -6460,8 +6460,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/ben-broadbent-speech-at-london-school-of-economics": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:21.748154+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:41.531766+00:00",
     "collector_version": "v3",
     "content_hash": "c9c9e3694b30828957a7a0306573d07e34c160c321e503bf0bb548f966350f76",
     "entry": {
@@ -6536,8 +6536,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/dave-ramsden-speech-at-kings-college-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:23.054491+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:42.523298+00:00",
     "collector_version": "v3",
     "content_hash": "8400aa8a79188b77e3af75726cb4fc8987e43e3cc82468938f9181d683a15d40",
     "entry": {
@@ -6552,8 +6552,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2017/de-globalisation-and-inflation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:24.101242+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:43.551474+00:00",
     "collector_version": "v3",
     "content_hash": "47ee64949e4786d85662ef6c963931c341e8e6dd237d78b5efc739a0c56b7c8f",
     "entry": {
@@ -6628,8 +6628,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/future-forum-2017-remarks-by-mark-carney": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:25.642770+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:44.750085+00:00",
     "collector_version": "v3",
     "content_hash": "29ceab8e733e0121219787781e23923d808fea57778b3652b94d62b43f5ae2a3",
     "entry": {
@@ -6779,8 +6779,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/jon-cunliffe-speech-at-oxford-economics-society": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:26.540795+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:45.613855+00:00",
     "collector_version": "v3",
     "content_hash": "16c754fc955cb9c606c9319f77e3e227e9a8443f6e7c3b00e0f3a87f89ff719c",
     "entry": {
@@ -6840,8 +6840,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/mark-carney-speech-at-the-fmsb": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:26.944895+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:45.891382+00:00",
     "collector_version": "v3",
     "content_hash": "e587628275398eea1f9578c3fe4878b24d32f117208b309992c528ea0f166af5",
     "entry": {
@@ -6901,8 +6901,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/opening-remarks-at-the-boe-independence-20-years-on-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:28.256493+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:47.163562+00:00",
     "collector_version": "v3",
     "content_hash": "33cbe53998f7e8f1d03a0b34e911b0bb894223d2e6c57010cfbdaf7a0d1155e5",
     "entry": {
@@ -6962,8 +6962,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/real-interest-rates-and-risk": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:29.046697+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:47.998946+00:00",
     "collector_version": "v3",
     "content_hash": "8a4da1c62ee53529ffb851e189594429c92293006387db74f5745e3a188f432b",
     "entry": {
@@ -7083,8 +7083,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/ten-years-on-lessons-from-northern-rock-speech-by-jon-cunliffe": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:30.901221+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:49.490280+00:00",
     "collector_version": "v3",
     "content_hash": "1435550700a55437aaa0a0af7dd1017a8292c3898caf01995851f44fef59324d",
     "entry": {
@@ -7189,8 +7189,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2017/twenty-years-of-boe-independence-the-evolution-of-monetary-policy": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:31.874006+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:50.356170+00:00",
     "collector_version": "v3",
     "content_hash": "248b71ce77462a629757d38821a75bd051bb14d126cedeb071e9a076c7eea69c",
     "entry": {
@@ -7340,8 +7340,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-academy-of-social-sciences-annual-lecture-2018": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:29.911544+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:56.539721+00:00",
     "collector_version": "v3",
     "content_hash": "49157b759d71f5941bcfb3be1055dac00edecc5f11d7a9d258933ea7af6561c3",
     "entry": {
@@ -7356,8 +7356,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-advisory-conciliation-and-arbitration-service-future-of-work-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:31.947695+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:58.177090+00:00",
     "collector_version": "v3",
     "content_hash": "6b096de62fffb4c13c53a1f40d3ab17cf843b6ed38ea4e7bf7556f264d7200df",
     "entry": {
@@ -7372,8 +7372,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-bank-of-estonia": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:33.820339+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:59.799685+00:00",
     "collector_version": "v3",
     "content_hash": "eed5232436afdee587f6aaa3cf57f63239bd889a486c5554c2bc2a976fbc392e",
     "entry": {
@@ -7388,8 +7388,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-centre-for-data-analytics-for-finance-and-macro": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:35.645259+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:01.396559+00:00",
     "collector_version": "v3",
     "content_hash": "9929815f550565d7c733d9a8a174a9004a5e0e39b5c611d7b1a901e7ad7b3688",
     "entry": {
@@ -7404,8 +7404,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-david-finch-public-lecture-melbourne": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:36.908840+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:02.475828+00:00",
     "collector_version": "v3",
     "content_hash": "cb84b3388312e5bd9c48ed2b11d0a6c1d7a7ea44aa322768a18e9fcfd3342b10",
     "entry": {
@@ -7420,8 +7420,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-royal-society": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:38.705076+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:04.138888+00:00",
     "collector_version": "v3",
     "content_hash": "37bbabaf398e05038566ca07a93a8d80b51e60f82b00d63c3896a047bb716c78",
     "entry": {
@@ -7436,8 +7436,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-speech-at-the-economic-policy-symposium-panel-jackson-hole": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:39.722310+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:05.040159+00:00",
     "collector_version": "v3",
     "content_hash": "183706a10232c56a734026f8d553bceb7085a06baaa2e8036aede72ef4eaf68c",
     "entry": {
@@ -7452,8 +7452,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/andy-haldane-speech-given-at-the-oxford-guild-society": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:42.250631+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:07.175101+00:00",
     "collector_version": "v3",
     "content_hash": "e1832ec34b3211bffb4897c8d4ba680ef4f0fe7a906fe1d20a996d0b5954538d",
     "entry": {
@@ -7483,8 +7483,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/ben-broadbent-reserve-bank-of-australia-sydney": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:44.155618+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:08.725678+00:00",
     "collector_version": "v3",
     "content_hash": "fdbec5f9b5e70ad1fe1961ac8a6988b4a39ab22964ddbefdb72a7e34b3de53aa",
     "entry": {
@@ -7499,8 +7499,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/ben-broadbent-society-of-professional-economists": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:45.360614+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:09.821326+00:00",
     "collector_version": "v3",
     "content_hash": "5f467cef78efa1e49afd4dc59345023cd28ef8ea6982f5b58df6c34fb9500deb",
     "entry": {
@@ -7515,8 +7515,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/dave-ramsden-panel-remarks-cbi-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:46.931434+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:11.183358+00:00",
     "collector_version": "v3",
     "content_hash": "4c3960d2094cf5d05e8ae36d64069b6f32c8ce7068defbff58ee58fb36be68ac",
     "entry": {
@@ -7531,8 +7531,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/dave-ramsden-remarks-at-iso-20022-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:47.980741+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:12.116701+00:00",
     "collector_version": "v3",
     "content_hash": "af62489de735569ad693418e13614323fced5aa6aa722451445d7094332d419a",
     "entry": {
@@ -7547,8 +7547,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/dave-ramsden-society-of-professional-economists-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:48.797289+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:12.955510+00:00",
     "collector_version": "v3",
     "content_hash": "95ff45e878170b9b71fe7dda6f4e72004c3970ed11f36275cc8ca9c53417b35f",
     "entry": {
@@ -7563,8 +7563,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/dave-ramsden-speech-at-barclays-inflation-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:50.100913+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:14.306967+00:00",
     "collector_version": "v3",
     "content_hash": "57a80999c6f19af89bf11ba7025cf503d6f2958a247d16daa06d0eb181071916",
     "entry": {
@@ -7579,8 +7579,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/dave-ramsden-speech-hmts-international-fintech-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:51.403829+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:15.319876+00:00",
     "collector_version": "v3",
     "content_hash": "6ad722e4715cca0a7d6459a132c93afc0555e832ed94262dc6c95d9bfba74bd7",
     "entry": {
@@ -7655,8 +7655,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/gertjan-vlieghe-imperial-college-business-school-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:52.275396+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:16.099085+00:00",
     "collector_version": "v3",
     "content_hash": "c6874132b6e7ba896187ad746fd1bda670b8daf21ea30907113c7fd144ca3026",
     "entry": {
@@ -7671,8 +7671,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/gertjan-vlieghe-speech-at-birmingham-chamber-of-commerce": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:53.581266+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:17.472721+00:00",
     "collector_version": "v3",
     "content_hash": "10e24ad693d9a752ab0276db9577b7c22d1ef09949a2be5de5e01f096abe4f92",
     "entry": {
@@ -7795,8 +7795,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/speech/2018/jon-cunliffe-warwick-university": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:55.103332+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:18.778445+00:00",
     "collector_version": "v3",
     "content_hash": "8d4bcab82af2bbff6057c6780e5ea5cba31b24a13308823937658d3614a58bec",
     "entry": {
@@ -7826,8 +7826,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-boe-markets-forum": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:56.289229+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:19.841082+00:00",
     "collector_version": "v3",
     "content_hash": "354361ea817947542aec579ab75be3a303536506adda0b689a701821c76d3b82",
     "entry": {
@@ -7842,8 +7842,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-economic-club-of-new-york": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:57.282162+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:20.648294+00:00",
     "collector_version": "v3",
     "content_hash": "d0dca77c86b989de334027da1131090e78812d5ffdbeaefd316acd93b0cffc81",
     "entry": {
@@ -7858,8 +7858,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-launch-of-the-boe-econome-programme": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:58.767056+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:21.901202+00:00",
     "collector_version": "v3",
     "content_hash": "96e75d9721932fcf79e252a7f10ae8b3affdc6fd239dddff4c22eb37bd95a08a",
     "entry": {
@@ -7874,8 +7874,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-princes-accounting-for-sustainability-summit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:59.788255+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:22.832064+00:00",
     "collector_version": "v3",
     "content_hash": "43afcc34e56cbcedc9a0e9cea6f8e96b2a1c1f500fffea64eabd1dd91b4b4f02",
     "entry": {
@@ -7890,8 +7890,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-remarks-at-the-science-museum-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:00.618425+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:23.763974+00:00",
     "collector_version": "v3",
     "content_hash": "5f746739d27f1bbbc9c659d340e4f38099e7c4593f5bb499ef6a2104547c2207",
     "entry": {
@@ -7906,8 +7906,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-society-of-professional-economists-annual-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:01.710395+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:24.728095+00:00",
     "collector_version": "v3",
     "content_hash": "44a83c4e35113965ae19b29c0caa9ed3e6161db304854db52fa0b2fea0028862",
     "entry": {
@@ -7922,8 +7922,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-speech-at-international-climate-risk-conference-for-supervisors": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:04.354328+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:26.933547+00:00",
     "collector_version": "v3",
     "content_hash": "57e6347b8648f9f151dfd6eeae28fbfbcd5cd417782ce88b40726824ffa2164f",
     "entry": {
@@ -7938,8 +7938,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-speech-at-regents-university-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:05.292767+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:27.765173+00:00",
     "collector_version": "v3",
     "content_hash": "3b774afdfa05fee276148fc7e3021e5fdc9156de4396917e5489520997c1d421",
     "entry": {
@@ -7954,8 +7954,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-speech-at-the-lord-mayors-bankers-and-merchants-dinner-mansion-house": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:06.471664+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:28.924146+00:00",
     "collector_version": "v3",
     "content_hash": "1c2f2cce2b6c87e72212157258269cb3125f8a02fb3133210d017a6139edd429",
     "entry": {
@@ -7985,8 +7985,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-speech-during-a-regional-visit-to-the-north-east": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:07.306503+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:29.698636+00:00",
     "collector_version": "v3",
     "content_hash": "6d20a81b2851a6ad7eefdb6ab0ca97c0c9bb445fff303d71f8a15372d8840d1f",
     "entry": {
@@ -8001,8 +8001,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-speech-to-the-inaugural-scottish-economics-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:08.961630+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:31.146300+00:00",
     "collector_version": "v3",
     "content_hash": "ae8077c2c12053317a26e369fa4b2c08e0a7f3bd034cea27b42817e0441e519d",
     "entry": {
@@ -8032,8 +8032,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/mark-carney-whitaker-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:10.120580+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:32.159243+00:00",
     "collector_version": "v3",
     "content_hash": "a029b8c39ff76f5449567bb429d82be6012c6c7fcd9c7e0880569460e3e4cec6",
     "entry": {
@@ -8048,8 +8048,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/michael-saunders-annual-cbi-south-west-economics-dinner-bath": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:11.446398+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:33.182367+00:00",
     "collector_version": "v3",
     "content_hash": "f617ee4916236603dbe50148cd0e91e953df2d960b2a03ede64184d0812899b5",
     "entry": {
@@ -8064,8 +8064,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/michael-saunders-fraser-of-allander-institute-university-of-strathclyde": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:12.942289+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:34.521797+00:00",
     "collector_version": "v3",
     "content_hash": "37fad359a6bcbf045a2679b23ecfef6f34f233a57802005eb634773b292ff78d",
     "entry": {
@@ -8080,8 +8080,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/michael-saunders-launch-of-financial-intermediary-and-broker-association": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:14.579691+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:35.748037+00:00",
     "collector_version": "v3",
     "content_hash": "f5a950c3ce32952ef76f8f1227e0774e1847f04d28ba8c0041e08b8f37c1a6f0",
     "entry": {
@@ -8141,8 +8141,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2018/silvana-tenreyro-2018-peston-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:16.004838+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:36.947057+00:00",
     "collector_version": "v3",
     "content_hash": "1fe814cbc6b3d17d303d1f78443e22d2d8326624b2f654b39b8d7bf2bb568fb6",
     "entry": {
@@ -8157,8 +8157,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2018/silvana-tenreyro-speech-university-of-surrey": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:04:18.054685+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:06:38.460258+00:00",
     "collector_version": "v3",
     "content_hash": "aa53ec124ac2d3fa0967a2b04a5fe3c998a3ea76000dee1ba9d9cadc49241e3f",
     "entry": {
@@ -8233,8 +8233,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/50-note-character-selection-announcement": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:30.257235+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:04.757056+00:00",
     "collector_version": "v3",
     "content_hash": "134000720d54ec57f35aeb82ff1f004e91a25c1fdf0639a14814539403138ba2",
     "entry": {
@@ -8354,8 +8354,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/andy-haldane-sheffield-political-economy-research-institute-annual-lecture-2019": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:31.098735+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:05.640874+00:00",
     "collector_version": "v3",
     "content_hash": "6b8fb99030f8afed665323c418a0128bc54c0cc79835aa51f0c4f36c3a6ff529",
     "entry": {
@@ -8370,8 +8370,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/andy-haldane-speech-at-glasgow-school-of-art": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:33.541209+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:07.694703+00:00",
     "collector_version": "v3",
     "content_hash": "3178f238778caf62ca9e21cb1caa7678e085fbc8920de0418e66122884358f63",
     "entry": {
@@ -8386,8 +8386,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/andy-haldane-speech-at-joint-boe-fed-ecb-conference-on-gender-and-career-progression-frankfurt": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:34.860105+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:08.797688+00:00",
     "collector_version": "v3",
     "content_hash": "52c12e48a289f8f3e25991fa42302fc5d9cf83bcba2cb9181bb62feed25622b6",
     "entry": {
@@ -8402,8 +8402,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/andy-haldane-speech-regional-visit-to-yorkshire-and-humber": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:36.370690+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:10.201900+00:00",
     "collector_version": "v3",
     "content_hash": "a67653d0546a61e80bd0f09b30f2a370dc4fae9e129adf8f7e6c8b1fc552d6f5",
     "entry": {
@@ -8448,8 +8448,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/ben-broadbent-imperial-college-business-school-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:38.465273+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:11.950591+00:00",
     "collector_version": "v3",
     "content_hash": "2b55c1125186c578a2574868740ed6f90f385011fabdf543eb47471c3ca73633",
     "entry": {
@@ -8464,8 +8464,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/ben-broadbent-speech-at-dfe-and-hmt-financial-education-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:39.578595+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:12.941709+00:00",
     "collector_version": "v3",
     "content_hash": "a904d59b2f34a999bfa6836888d0dd99a4a238eedfba84be88ce66ce72121b8d",
     "entry": {
@@ -8480,8 +8480,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/ben-broadbent-speech-at-london-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:40.449633+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:13.739773+00:00",
     "collector_version": "v3",
     "content_hash": "b140194a1e72cc95c29ca18eb9807b5002e23dfbcd9f487740cf157f4bae98d1",
     "entry": {
@@ -8511,8 +8511,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/dave-ramsden-afme-12th-annual-european-post-trade-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:41.884172+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:15.087778+00:00",
     "collector_version": "v3",
     "content_hash": "4626c0541c69c70670fb7de1aac9dec5f4710ae2a2a81b463028cabf62a11c03",
     "entry": {
@@ -8527,8 +8527,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/dave-ramsden-bund-summit-shanghai": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:43.030052+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:16.180257+00:00",
     "collector_version": "v3",
     "content_hash": "8b80ac8221476f77969f524d6f67a2960158065b08fb9b04c675f7f03b4d3507",
     "entry": {
@@ -8543,8 +8543,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/dave-ramsden-speech-at-innovate-finance-global-summit-2019": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:44.048687+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:17.162741+00:00",
     "collector_version": "v3",
     "content_hash": "5749760c73743ee1222b4084c6b4c4452fa1e3f617c9d3dcc97e3265b0181cac",
     "entry": {
@@ -8559,8 +8559,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/dave-ramsden-speech-at-inverness-chamber-of-commerce": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:44.999255+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:18.019855+00:00",
     "collector_version": "v3",
     "content_hash": "e6a937ae471f4173d6394ee3254f00b5f2ec687f3a32f124af319daff3a70e2d",
     "entry": {
@@ -8575,8 +8575,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/dave-ramsden-speech-at-the-boe-event-last-orders-calling-time-on-libor": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:46.422947+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:19.299077+00:00",
     "collector_version": "v3",
     "content_hash": "7ed5770057e8bf83833dc06a660178fa8b14573a4ba1f0f8424b5f2fb57da46e",
     "entry": {
@@ -8651,8 +8651,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/gertjan-vlieghe-speech-at-money-macro-and-finance-society-monetary-and-financial-policy-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:47.383277+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:20.182855+00:00",
     "collector_version": "v3",
     "content_hash": "5508dbc8f33725cca1a3f0edbf89c75ab6fc9bdb5a1684f4553dadcb96db7706",
     "entry": {
@@ -8667,8 +8667,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/gertjan-vlieghe-speech-at-the-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:48.966838+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:21.552241+00:00",
     "collector_version": "v3",
     "content_hash": "ef98dc6c3ace847f06468298ec3a3683943c0405d6d655f7bb589c27120ec128",
     "entry": {
@@ -8683,8 +8683,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/gertjan-vlieghe-thomson-reuters": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:50.379068+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:22.564849+00:00",
     "collector_version": "v3",
     "content_hash": "4db0c480c2424c766b70acb4ff5a2b11da5f93ce7f95245811c007d1a1a1ccbe",
     "entry": {
@@ -8729,8 +8729,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/jon-cunliffe-society-of-professional-economists-annual-conference-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:51.869587+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:23.705693+00:00",
     "collector_version": "v3",
     "content_hash": "521e426ed9355dfabd4858a8ff7183b6c657dad30c50d4db44974fa897bfe949",
     "entry": {
@@ -8745,8 +8745,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/jon-cunliffe-speech-at-cfo-agenda-2019": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:53.174014+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:24.901154+00:00",
     "collector_version": "v3",
     "content_hash": "4496f336176c8e302a984a56e832567a6b19a293aedcd32885a1029b73fdf647",
     "entry": {
@@ -8761,8 +8761,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/jon-cunliffe-speech-at-lsesu-economic-symposium": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:54.403678+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:25.886303+00:00",
     "collector_version": "v3",
     "content_hash": "6fe5a3c119b6e7c6857410d24fd83b568573bfd0e7768ec696e0a4ad24af4b8b",
     "entry": {
@@ -8777,8 +8777,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/jon-cunliffe-speech-banco-de-portugal": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:55.413592+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:26.868501+00:00",
     "collector_version": "v3",
     "content_hash": "68bfd5226bac2258eec0563015485281954a5081db7a8ebd6b530860245c948c",
     "entry": {
@@ -8793,8 +8793,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/jonathan-haskel-ken-dixon-lecture-at-university-of-york": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:56.765860+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:28.040039+00:00",
     "collector_version": "v3",
     "content_hash": "6e5242082f9e963efa71e000ee07456ba78ad1fc70d189cb0d4e18c647587f65",
     "entry": {
@@ -8809,8 +8809,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/jonathan-haskel-speech-at-the-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:58.259607+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:29.163642+00:00",
     "collector_version": "v3",
     "content_hash": "85646c42f730d27b4530c97fc54781b45a030020314f3ab22ecb7812cb2ba154",
     "entry": {
@@ -8825,8 +8825,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/jonathan-haskel-speech-at-university-of-birmingham": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:59.792582+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:30.594665+00:00",
     "collector_version": "v3",
     "content_hash": "f01eb176719731143c09f666ddcbddf27b30090a4077ab7112498fd3f2a12578",
     "entry": {
@@ -8887,8 +8887,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-keynote-remarks-at-the-2019-institute-of-international-finance-spring-membership-meeting": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:01.073638+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:31.709694+00:00",
     "collector_version": "v3",
     "content_hash": "79cd901c7bb858de25de121adc5845dae6c88caf2e858c719fce656eb3af1dd4",
     "entry": {
@@ -8903,8 +8903,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-panellist-at-25-annual-conference-of-the-parties-madrid": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:03.007077+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:33.350656+00:00",
     "collector_version": "v3",
     "content_hash": "c9fb50ed3eba5bd12683afff6f9ba089a082937af8da461860968d8535bdedfc",
     "entry": {
@@ -8919,8 +8919,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-panellist-at-the-ecb-forum-on-central-banking-2019": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:03.787479+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:34.173799+00:00",
     "collector_version": "v3",
     "content_hash": "bc3ec4b2fa7beba83c591563c85f9d72ba129422e9167221cacfbe02c96e9006",
     "entry": {
@@ -8935,8 +8935,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-remarks-at-the-ecb-farewell-board-dinner-for-benoit-coeure": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:05.221236+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:35.397415+00:00",
     "collector_version": "v3",
     "content_hash": "155a760048eab0972998515bdd33aa4c2553062c52acb2e1acfc22e220476cb6",
     "entry": {
@@ -8951,8 +8951,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-remarks-at-united-nations-climate-action-summit-2019": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:06.299795+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:36.353087+00:00",
     "collector_version": "v3",
     "content_hash": "76cbe7de331e26306f18ba1ca0fec66fff8a9c8a8534635f93218aa575eca426",
     "entry": {
@@ -8967,8 +8967,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:07.270883+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:37.354531+00:00",
     "collector_version": "v3",
     "content_hash": "f35a11dbcdd719b3619369112724dc4148073f09cd2247b7c20bc1feda92c3c0",
     "entry": {
@@ -8983,8 +8983,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech-at-climate-related-financial-disclosure-summit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:10.981417+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:40.427727+00:00",
     "collector_version": "v3",
     "content_hash": "bb7531c30c1ee78039dfb1667daa02427a3b33cb3990a74cc921286f2fb30d8d",
     "entry": {
@@ -8999,8 +8999,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech-at-european-commission-high-level-conference-brussels": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:11.995308+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:41.443865+00:00",
     "collector_version": "v3",
     "content_hash": "71eced683cd437c81a62613323abce397af7b82d55074ba4b6d49adbb5c443dd",
     "entry": {
@@ -9015,8 +9015,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech-at-innovate-finance-global-summit-2019": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:12.922213+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:42.428383+00:00",
     "collector_version": "v3",
     "content_hash": "f441ea5ea5037b80e8c22e0564a7192f9e27ff5f4b854711f014dfc718ecb147",
     "entry": {
@@ -9031,8 +9031,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech-at-jackson-hole-economic-symposium-wyoming": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:13.970365+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:43.306827+00:00",
     "collector_version": "v3",
     "content_hash": "c2e32065b7c50d8c1ee60425608ce43c14b83c2a018aef3d754c4f351f40a45d",
     "entry": {
@@ -9047,8 +9047,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech-at-the-mansion-house-bankers-and-merchants-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:15.899311+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:45.004151+00:00",
     "collector_version": "v3",
     "content_hash": "0cc978c76f73e5d4679160bae1644bdcbf0f13c522c90c32158acb1ee557a31c",
     "entry": {
@@ -9063,8 +9063,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-speech-bournemouth-regional-visit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:17.037916+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:45.951733+00:00",
     "collector_version": "v3",
     "content_hash": "3c004813938b49c92459683538c4e357480332b216abd6ef12e8a1068651c4e4",
     "entry": {
@@ -9079,8 +9079,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/mark-carney-women-in-banking-and-finance-22nd-annual-awards": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:18.599826+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:47.302256+00:00",
     "collector_version": "v3",
     "content_hash": "af9f1c7ebe1768e6a017d03196c7b86801b998b216a8ea0c62f50b8027b67dce",
     "entry": {
@@ -9125,8 +9125,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/michael-saunders-speech-at-barnsley-and-rotherham-chamber-of-commerce": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:19.692532+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:48.238050+00:00",
     "collector_version": "v3",
     "content_hash": "ea1f50f2d742262b30c71fa54b3f3eb4a60c32e20dd71759e92afb9d087fcecf",
     "entry": {
@@ -9157,8 +9157,8 @@
     "status": "duplicate"
   },
   "https://www.bankofengland.co.uk/speech/2019/michael-saunders-speech-at-southampton-solent-university": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:20.992860+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:49.435709+00:00",
     "collector_version": "v3",
     "content_hash": "93d5cabdae2bae35e3e02ebb89cab9c269df1fc1aeccd671e61dc1a36c99c903",
     "entry": {
@@ -9338,8 +9338,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2019/silvana-tenreyro-ronald-tress-memorial-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:22.723742+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:50.734184+00:00",
     "collector_version": "v3",
     "content_hash": "e27a2f74c2b64e592bd19626d739818c1a696aa6a04c8fd8f57fdf46e6b74590",
     "entry": {
@@ -9354,8 +9354,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/silvana-tenreyro-speech-at-the-john-flemming-memorial-lecture-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:24.603840+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:52.091562+00:00",
     "collector_version": "v3",
     "content_hash": "91d47060124ad0e39664c0a5b30ac2b54d7fa448aa7a6c3dd500b8a96b3e63ee",
     "entry": {
@@ -9370,8 +9370,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/silvana-tenreyro-speech-during-regional-visit-to-glasgow": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:26.142986+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:53.234692+00:00",
     "collector_version": "v3",
     "content_hash": "872edfda8c7a8911552da884fe31cfbc62adaec4d8b09f7da454dfecb1ad17d8",
     "entry": {
@@ -9386,8 +9386,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2019/speech-by-mark-carney-at-the-20-pound-banknote-launch-margate": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:03:27.635695+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:54.554296+00:00",
     "collector_version": "v3",
     "content_hash": "9f8abb332f120bce91c146817c8096685343fe1142ca8281dc6d1a63439bf835",
     "entry": {
@@ -9492,8 +9492,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/2020-annual-meeting-of-the-central-bank-research-association-keynote-speech-by-ben-broadbent": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:46.372528+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:27.489606+00:00",
     "collector_version": "v3",
     "content_hash": "7cd86f7f8079fcb0867f36f6a3fe8e0822408a121f62bfefa404b3894114d903",
     "entry": {
@@ -9554,8 +9554,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/andrew-bailey-speech-as-part-webinar-hosted-by-the-boe-and-the-frb-of-ny-libor-entering-the-endgame": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:47.829483+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:28.758849+00:00",
     "collector_version": "v3",
     "content_hash": "b1a94b65f89d4cac39e4aac636c15d96065bb4906bb69ecf825db19d06841462",
     "entry": {
@@ -9570,8 +9570,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andrew-bailey-speech-corporation-of-london-green-horizon-summit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:48.845660+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:29.562008+00:00",
     "collector_version": "v3",
     "content_hash": "c534b2e03e9c423799450b3d955a74da733ce48a3afd80a8c360091437c265d2",
     "entry": {
@@ -9586,8 +9586,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andrew-bailey-speech-on-the-future-of-cryptocurrencies-and-stablecoins": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:49.016673+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:29.903638+00:00",
     "collector_version": "v3",
     "content_hash": "807f47a71d6119d51e10e4a6c68e5171b054f83f54eef4a805d637fe7951bb8d",
     "entry": {
@@ -9602,8 +9602,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andrew-bailey-the-cityuk-national-conference-2020": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:49.518954+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:30.413656+00:00",
     "collector_version": "v3",
     "content_hash": "5a69e85ce7c97fa930ffe8a9ef471ec0f31399e22ae4c5869a8624d927cb6117",
     "entry": {
@@ -9708,8 +9708,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/andy-haldane-engaging-business-summit-and-autumn-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:50.020986+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:30.923462+00:00",
     "collector_version": "v3",
     "content_hash": "3e1e51d9c2eb80b03b435c18b1a66c53a1e75d9c88c2f0226678f90f3b7cad82",
     "entry": {
@@ -9724,8 +9724,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andy-haldane-keynote-speaker-at-the-cheshire-and-warrington-lep-economic-summit-and-agm-2020": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:50.529529+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:31.410101+00:00",
     "collector_version": "v3",
     "content_hash": "dd935821f553356e3f2bcae9ee1af6192a3aa4b051222b450d5a2d720748e6ea",
     "entry": {
@@ -9740,8 +9740,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andy-haldane-speech-the-cityuk-national-conference-2020": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:52.214538+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:32.841094+00:00",
     "collector_version": "v3",
     "content_hash": "09de8525c7703942024897e773d227cf255c44345e69f87b22dd21eebddede3f",
     "entry": {
@@ -9756,8 +9756,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andy-haldane-the-second-quarter-webinar": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:53.464315+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:33.930135+00:00",
     "collector_version": "v3",
     "content_hash": "8922d621922a8b3ef16d8630b57eb5b34b5e8ae26d22475cf0ac171f625448f0",
     "entry": {
@@ -9772,8 +9772,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/andy-haldane-ucl-economics-conference-2020": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:55.115499+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:35.506408+00:00",
     "collector_version": "v3",
     "content_hash": "408a3f98e27819a4269e5ac27c6da5af4f88107e811dfc47b31121216df370ad",
     "entry": {
@@ -9833,8 +9833,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/ben-broadbent-speech-at-the-london-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:56.802714+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:37.030342+00:00",
     "collector_version": "v3",
     "content_hash": "7c8631ba5d46d4e6ad010d17a415d384761a109d24717596425765b2339f93d3",
     "entry": {
@@ -9894,8 +9894,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/dave-ramsden-opening-remarks-for-the-launch-of-aippf": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:58.149359+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:38.173942+00:00",
     "collector_version": "v3",
     "content_hash": "eb5d94ee705d873bf9546cad5e27c914709c9a7f491667792c0ee3df799d7a9c",
     "entry": {
@@ -9910,8 +9910,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/dave-ramsden-society-of-professional-economists-online-conference-2020": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:58.328083+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:38.326702+00:00",
     "collector_version": "v3",
     "content_hash": "f2b8bd91d10d7826f8f65a703d310e2262093a4ff991c11b8bfe28cff996fee8",
     "entry": {
@@ -9926,8 +9926,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/dave-ramsden-speech-public-lecture-for-university-of-nottingham": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:59.653588+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:39.671955+00:00",
     "collector_version": "v3",
     "content_hash": "fad9f5cb119780f014db6400c9e918b3103bae8f75288e1d16a83a9807fefcb2",
     "entry": {
@@ -9972,8 +9972,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/gertjan-vlieghe-speech-assessing-the-health-of-the-economy": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:00.909078+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:40.633573+00:00",
     "collector_version": "v3",
     "content_hash": "831d50e0d3d2329faf23a2d2665273682469cf60028400b2ff3ad88e8e0f2526",
     "entry": {
@@ -9988,8 +9988,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/gertjan-vlieghe-speech-monetary-policy-and-the-boes-balance-sheet": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:02.307432+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:41.810757+00:00",
     "collector_version": "v3",
     "content_hash": "3f306c448a72abf48153331d3bd4bab5bed7f829d23c5719167eef19d555932f",
     "entry": {
@@ -10019,8 +10019,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/jon-cunliffe-managed-funds-association-global-summit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:04.057376+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:43.201451+00:00",
     "collector_version": "v3",
     "content_hash": "3a4c14e96e015e424e5e5b0e0146d92b710f0aec2d00accb2f0798d1f7e5539c",
     "entry": {
@@ -10035,8 +10035,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/jon-cunliffe-speech-at-german-economic-council-annual-finance-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:05.996845+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:44.221299+00:00",
     "collector_version": "v3",
     "content_hash": "8a03457a73cbb01db5255108da5c0b866f811da55d09a4cacb13e2affc7f086b",
     "entry": {
@@ -10051,8 +10051,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/jon-cunliffe-speech-at-investment-association": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:06.169070+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:44.392268+00:00",
     "collector_version": "v3",
     "content_hash": "46c3aad4834964488983bdde2ce5c4cc2470f50e5328c082837ccf968d9699ff",
     "entry": {
@@ -10067,8 +10067,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/jon-cunliffe-speech-followed-by-panellist-at-chinas-trade-and-financial-globalisation-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:06.672952+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:44.893892+00:00",
     "collector_version": "v3",
     "content_hash": "78bd54a5618ccdd0d715b3008ee93b0774301eb0e1964cdb7f1d6a414045648f",
     "entry": {
@@ -10083,8 +10083,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/jonathan-haskel-brighton-hove-chamber-of-commerce": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:08.157830+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:46.203778+00:00",
     "collector_version": "v3",
     "content_hash": "c52afe1858bdd22c30bd8e82caa5c05701dd5d5adb7e29cf4a0865593ab45f54",
     "entry": {
@@ -10099,8 +10099,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/jonathan-haskel-lecture-at-the-university-of-nottingham": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:09.246393+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:47.273656+00:00",
     "collector_version": "v3",
     "content_hash": "d70a803e482fdb9aacc59bac3f3d34cad4f1d609d1c61974a78d9f474a6468f8",
     "entry": {
@@ -10115,8 +10115,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/jonathan-haskel-webinar-imperial-future-matters-from-lockdown-to-recovery": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:11.175936+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:48.688840+00:00",
     "collector_version": "v3",
     "content_hash": "46c64f81e37a21ac7e982c9bce3c3c520fcd1244c5114fae5d96ff05d1f58167",
     "entry": {
@@ -10146,8 +10146,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/mark-carney-opening-remarks-at-the-future-of-inflation-targeting-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:12.958645+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:50.286386+00:00",
     "collector_version": "v3",
     "content_hash": "15dcffe83397e6a58e0c21716fef7d97520a7e1ea77837be19634cce6f71f894",
     "entry": {
@@ -10162,8 +10162,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/mark-carney-speech-at-university-college-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:14.734948+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:51.750565+00:00",
     "collector_version": "v3",
     "content_hash": "c09c7f735cefec33fca9d660605538e8ce76167d0ae7b8c9979a6bde29924f5c",
     "entry": {
@@ -10193,8 +10193,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/michael-saunders-some-monetary-policy-options-if-more-support-is-needed": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:16.720413+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:53.598921+00:00",
     "collector_version": "v3",
     "content_hash": "85876a89970670e470482e37a6c8789e97051aadba55830b053de9b5c278a7c1",
     "entry": {
@@ -10209,8 +10209,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/michael-saunders-speech-southern-eastern-regional-college-bangor-northern-ireland": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:18.453455+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:54.941960+00:00",
     "collector_version": "v3",
     "content_hash": "1ced27a3920605d1f095afd5d6bb296c80a9498f09fd398776445007b52a92bf",
     "entry": {
@@ -10225,8 +10225,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/michael-saunders-speech-the-economy-and-covid-19-looking-back-and-looking-forward": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:20.293817+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:56.321213+00:00",
     "collector_version": "v3",
     "content_hash": "ba1fb0b090f193db05d7bc558ca0753c31f927f3bd86d67183ebb92845383b11",
     "entry": {
@@ -10316,8 +10316,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/silvana-tenreyro-speech-as-part-of-the-lse-covid-19-policy-response-webinar-series": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:22.000652+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:57.790816+00:00",
     "collector_version": "v3",
     "content_hash": "bed33458b6087d3bc9fcd1761d0f7a8bac43df72b6f7c283413a3244c2a2588b",
     "entry": {
@@ -10332,8 +10332,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/silvana-tenreyro-speech-monetary-policy-during-pandemics": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:23.944248+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:59.359302+00:00",
     "collector_version": "v3",
     "content_hash": "f91dae98054d556f34c16fe44140f56b670575f569617f6b1d7c0cf4d7c084fa",
     "entry": {
@@ -10348,8 +10348,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2020/speech-by-michael-saunders-28-may-2020": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:25.533800+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:00.596155+00:00",
     "collector_version": "v3",
     "content_hash": "4319db6ec1d9d8fc52cbb630f94f83d3982554a8637f8198683af987ed606369",
     "entry": {
@@ -10379,8 +10379,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2020/the-road-to-glasgow-speech-by-mark-carney": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:02:27.662794+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:05:02.301678+00:00",
     "collector_version": "v3",
     "content_hash": "e517b3cfab109234e152a57ce5ce92705fa9221662d8058605ca867548e81d83",
     "entry": {
@@ -10455,8 +10455,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/april/andrew-bailey-keynote-speech-at-the-bank-of-england-virtual-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:10.405962+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:54.393007+00:00",
     "collector_version": "v3",
     "content_hash": "da6c971f4b6f2694d6c1159f51c74031846bb97c5698a3fbc775da8756ab098d",
     "entry": {
@@ -10486,8 +10486,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/april/dave-ramsden-uk-fintech-week-2021-keynote": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:10.912128+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:54.911598+00:00",
     "collector_version": "v3",
     "content_hash": "16342f47c05141c04b9b7c7ab575c33c9c585e28d08773489328526ea873e5c9",
     "entry": {
@@ -10547,8 +10547,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/december/andrew-bailey-speech-at-the-ifoa-delivering-policyholder-protection-in-insurance-regulation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:11.585912+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:55.389908+00:00",
     "collector_version": "v3",
     "content_hash": "fe5170ba37dc36495bec28f0e518f3acc16fe7e6663600a1565c956fcee453c7",
     "entry": {
@@ -10563,8 +10563,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/december/ben-broadbent-speech-at-leeds-university-during-an-agency-visit-to-yorkshire-and-humber": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:11.911928+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:55.886936+00:00",
     "collector_version": "v3",
     "content_hash": "10031bd7155a1436cad76ce40b41a852c1804f1e3ec70d7dd14e72ee6554b67e",
     "entry": {
@@ -10579,8 +10579,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/december/michael-saunders-speech-at-a-boe-hosted-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:13.584547+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:57.500268+00:00",
     "collector_version": "v3",
     "content_hash": "c9cccd9a04bf40c8fd301f2737e2a7544a018eb2d43f021e103dbd112a515205",
     "entry": {
@@ -10595,8 +10595,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/february/andrew-bailey-lse-event-german-symposium": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:13.844774+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:57.775683+00:00",
     "collector_version": "v3",
     "content_hash": "632d4baf92347879bcc92952f4dd4406d4415433e0bb7ca58977ef21a5916547",
     "entry": {
@@ -10611,8 +10611,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/february/andrew-bailey-mansion-house": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:14.259028+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:58.204876+00:00",
     "collector_version": "v3",
     "content_hash": "c4bc55310949284657f385ab29a7d3e2826429195378b5ff2ffd1ed1d94b45c8",
     "entry": {
@@ -10627,8 +10627,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/february/andy-haldane-recorded-mini-speech-on-inflation-outlook": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:14.757437+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:58.653623+00:00",
     "collector_version": "v3",
     "content_hash": "67b8e47e5c1d1aca1dcebd00ac4af4a69590f3d88293ad638b5f4920a2e8d56c",
     "entry": {
@@ -10658,8 +10658,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/february/dave-ramsden-institute-of-chartered-accountants-in-england-wales": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:16.546017+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:00.295021+00:00",
     "collector_version": "v3",
     "content_hash": "6866335ecf190bc19f4e2a3537ff9186062da13e0a4f0ba6a8df368981ef4acb",
     "entry": {
@@ -10674,8 +10674,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/february/dave-ramsden-peter-sinclair-town-hall-lecture-series": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:16.721679+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:00.481353+00:00",
     "collector_version": "v3",
     "content_hash": "ab2c63f9399618802793442092e6f61373b23c41422232022d3cb5c5ba30e14e",
     "entry": {
@@ -10690,8 +10690,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/february/gertjan-vlieghes-speech-an-update-on-the-economic-outlook": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:18.204122+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:02.073763+00:00",
     "collector_version": "v3",
     "content_hash": "5d93288bf70dba716f223c0786d55edcaf422038735bba7037b44424d1217615",
     "entry": {
@@ -10721,8 +10721,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/january/ben-broadbent-covid-and-the-composition-of-spending": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:19.791256+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:03.412234+00:00",
     "collector_version": "v3",
     "content_hash": "a9f0a3446d6f38bdf1e1879fe0aa30b115bd783175725629fcbe4cc75718e025",
     "entry": {
@@ -10767,8 +10767,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/january/silvana-tenreyro-lets-talk-about-negative-interest-rates": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:21.147335+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:04.789808+00:00",
     "collector_version": "v3",
     "content_hash": "2be62bc7161c347a3ff09e101479002c1794dd3ffbdcdb0e12db09771368c476",
     "entry": {
@@ -10783,8 +10783,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/july/andrew-bailey-speech-at-the-mansion-house-financial-professional-services-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:22.885496+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:06.295732+00:00",
     "collector_version": "v3",
     "content_hash": "79205eeb2fb08d4cdee87a78a65bd003d27d1179abe643db14ce295559a01017",
     "entry": {
@@ -10799,8 +10799,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/july/dave-ramsden-speech-at-the-strand-group": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:23.058935+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:06.452711+00:00",
     "collector_version": "v3",
     "content_hash": "a3b296c7676a93cae96399a82c5738ba829669f50221dfe6e7faebe534b27c11",
     "entry": {
@@ -10815,8 +10815,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/july/gertjan-vlieghe-speech-at-the-london-school-of-economics": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:24.437479+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:07.740700+00:00",
     "collector_version": "v3",
     "content_hash": "3d0c39e8b7ea87f6bc59190f044fdb83583c3a8eb967f6aa1c6ce39e48b82dc6",
     "entry": {
@@ -10846,8 +10846,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/july/jonathan-haskel-speech-on-scaring-in-the-economy-at-the-university-of-liverpool": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:26.069358+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:09.050424+00:00",
     "collector_version": "v3",
     "content_hash": "7c48f16fb345452749d9d6d74d3e384c1a7d9453c2760242767c32a1c716334c",
     "entry": {
@@ -10862,8 +10862,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/july/michael-saunders-speech-the-inflation-outlook": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:28.062088+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:10.698305+00:00",
     "collector_version": "v3",
     "content_hash": "c21bb5a6484fcb15315ac2bfe37a0dd99d88e543221216f840c009b9d668684d",
     "entry": {
@@ -10893,8 +10893,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/july/speech-given-by-ben-broadbent-mismatch": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:28.309192+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:10.921478+00:00",
     "collector_version": "v3",
     "content_hash": "669714363374e8d1aae99ec0246d7ad3a93fe5773ebd4862de055d6fe272ee23",
     "entry": {
@@ -10924,8 +10924,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/june/andrew-bailey-bis-bank-of-france-imf-ngfs-green-swan-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:30.091092+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:12.375979+00:00",
     "collector_version": "v3",
     "content_hash": "f2fccefb51d6ef603e7f0cffc9a34ec5458fcd92cea87a2e9df15782322d8d8a",
     "entry": {
@@ -10940,8 +10940,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/june/andrew-bailey-cityuk-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:30.266225+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:12.645691+00:00",
     "collector_version": "v3",
     "content_hash": "135e37e6cfbd5f58580451c41cb0a60b7ee4a7ac454272bd8e5d4722d767e832",
     "entry": {
@@ -10956,8 +10956,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/june/andrew-bailey-reuters-events-global-responsible-business-2021": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:30.764234+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:13.141179+00:00",
     "collector_version": "v3",
     "content_hash": "5b16177f35f1de548a6c41e6401dac1f14044fe4c4bdcf286d874cc4f53f56f0",
     "entry": {
@@ -10972,8 +10972,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/june/andy-haldane-speech-at-the-institute-for-government-on-the-changes-in-monetary-policy": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:31.400390+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:13.531873+00:00",
     "collector_version": "v3",
     "content_hash": "9bf07da58e031519d780eceef015588ac81c5d1bd90091c7df2ec72f22290b69",
     "entry": {
@@ -11048,8 +11048,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/march/andrew-bailey-speech-at-the-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:31.773576+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:14.047986+00:00",
     "collector_version": "v3",
     "content_hash": "31f889b04267af967f80ac365396e3c5e61f0c9f51abdbe91ed641af9510beab",
     "entry": {
@@ -11064,8 +11064,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/march/andrew-bailey-unveil-of-the-alan-turing-50-polymer-banknote": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:33.094763+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:15.330444+00:00",
     "collector_version": "v3",
     "content_hash": "8b63ab7b7a6e1c5a0f391d7f62718c92502b753ab85615cff67e02cd23d3dcf6",
     "entry": {
@@ -11080,8 +11080,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/march/jonathan-haskel-panellist-at-the-centre-for-economic-policy-research-webinar": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:33.269095+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:15.528687+00:00",
     "collector_version": "v3",
     "content_hash": "f386ee5cc8ee0ac0dfdab5bb9f77ba672ca20211e51a149d5fd99f24776adeef",
     "entry": {
@@ -11096,8 +11096,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/march/michael-saunders-bank-hosted-speech-supply-and-demand-during-and-after-the-pandemic": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:34.851037+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:16.890660+00:00",
     "collector_version": "v3",
     "content_hash": "af1c619720cf8584cf1372b18135862a771b95fb6906583bde8fa11771f546fe",
     "entry": {
@@ -11127,8 +11127,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/march/silvana-tenreyro-macro-and-monetary-policy-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:35.081705+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:17.160368+00:00",
     "collector_version": "v3",
     "content_hash": "e3b08440a029c2379a07fec982584e1cdddc4f49bc289096b3ac44c228f00816",
     "entry": {
@@ -11143,8 +11143,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/may/andrew-bailey-a-moderated-discussion-with-john-williams-president-of-ny-fed": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:36.663168+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:18.519835+00:00",
     "collector_version": "v3",
     "content_hash": "01ba21074fb94ce8956c8c039a615a12a97a3fce757a1890253c6bbf7e584e9d",
     "entry": {
@@ -11159,8 +11159,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/may/andrew-bailey-international-swaps-and-derivatives-association": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:36.840417+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:18.674215+00:00",
     "collector_version": "v3",
     "content_hash": "c7bac4f5d903c508a69a066e3ae2d7230e776e7594318c45ab997df433ac8de8",
     "entry": {
@@ -11205,8 +11205,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/may/gertjan-vlieghe-speech-hosted-by-the-department-of-economics-and-the-ipr": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:37.336298+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:19.175859+00:00",
     "collector_version": "v3",
     "content_hash": "a1db7abb3a85f46a0b3898ef343ab7b9cbf5cd19d8d91fa04f637a765a733e1e",
     "entry": {
@@ -11221,8 +11221,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/may/jon-cunliffe-omfif-digital-monetary-institute-meeting": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:39.760036+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:21.450511+00:00",
     "collector_version": "v3",
     "content_hash": "88947d844c454792f42df90ca04b5cf2718b042f4f993f8ccbe4edfcaaddee43",
     "entry": {
@@ -11237,8 +11237,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/may/jon-cunliffe-speech-at-the-law-societys-online-property-section-convention": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:39.942731+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:21.615813+00:00",
     "collector_version": "v3",
     "content_hash": "443a9b9416f32e7cf0d4a344509c66c1cf3f6cf0255794a8df773e2eb81d6b20",
     "entry": {
@@ -11328,8 +11328,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/november/andrew-bailey-speech-at-cop26-laying-the-foundations-for-a-net-zero-financial-system": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:41.312891+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:22.925678+00:00",
     "collector_version": "v3",
     "content_hash": "54275b6ecad5da94dfaf84a1c7c40ee70249defcde99c6c4ebc042ff640e2e2e",
     "entry": {
@@ -11389,8 +11389,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/november/huw-pill-speech-on-the-economic-outlook-hosted-by-the-cbi-north-east": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:41.487738+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:23.103068+00:00",
     "collector_version": "v3",
     "content_hash": "489818c48e238a9fd7290f68d8c4a6ef02ebec2ffc0ce2431dc443e9aded8c89",
     "entry": {
@@ -11451,8 +11451,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/october/jon-cunliffe-swifts-sibos-2021": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:41.989033+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:23.604683+00:00",
     "collector_version": "v3",
     "content_hash": "b7642d242396c28efe4efea58fb15e6e6378378c02b14ddb82e5bd6fcbc62902",
     "entry": {
@@ -11482,8 +11482,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2021/october/silvana-tenreyro-speech-at-the-centre-for-economic-policy-research": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:42.489453+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:24.106981+00:00",
     "collector_version": "v3",
     "content_hash": "1735fe4903e9da25bcf03d5cf1a1baa00786e5253c5d5a35a0dc080c120872aa",
     "entry": {
@@ -11498,8 +11498,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2021/september/andrew-bailey-guest-speaker-at-the-society-of-professional-economists-annual-dinner-2021": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:42.993240+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:04:24.608037+00:00",
     "collector_version": "v3",
     "content_hash": "d66c4fc92eec6db9ebb74fbf75ae239d3011f77770553ab3062c8362549a0906",
     "entry": {
@@ -11574,8 +11574,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/april/catherine-l-mann-speech-at-a-boe-webinar-monetary-policy-decision-making-facing-uncertainties": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:42.852633+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:26.446693+00:00",
     "collector_version": "v3",
     "content_hash": "306b660e738b3826ba62f0a30f38947d227f1abb08dfd48895b5d510f86a21d6",
     "entry": {
@@ -11620,8 +11620,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/april/jon-cunliffe-european-economics-financial-centre-distinguished-speakers-seminar": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:43.058054+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:26.699318+00:00",
     "collector_version": "v3",
     "content_hash": "4c37afbcb36d827a68efc9e35902bd1e3c990fc62c74ae4aba3ccbfa04593c73",
     "entry": {
@@ -11696,8 +11696,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/february/andrew-bailey-speech-at-thecityuk-annual-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:44.477955+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:28.071336+00:00",
     "collector_version": "v3",
     "content_hash": "92617f62ea4afc1975663f788b66d962144f2825d5302ff6375c463a46e0eb42",
     "entry": {
@@ -11712,8 +11712,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/february/dave-ramsden-speech-at-the-national-farmers-union-conference-2022": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:44.645495+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:28.234162+00:00",
     "collector_version": "v3",
     "content_hash": "ad99aa7ec4ab5cee009d3f4e80fb46828a51e34cd2f0342526ccee4a021045e3",
     "entry": {
@@ -11728,8 +11728,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/february/huw-pill-speech-at-the-society-of-professional-economists-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:50.511849+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:34.702638+00:00",
     "collector_version": "v3",
     "content_hash": "71520530c5d6a09b7ae40ab14a8addd181e0464f35d20a3e85e4b3529fe1dfa8",
     "entry": {
@@ -11744,8 +11744,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/february/jon-cunliffe-keynote-address-fia-sifma-asset-management-derivatives-forum": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:50.689873+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:34.857072+00:00",
     "collector_version": "v3",
     "content_hash": "f17ec6d9aa3e1e112e0a095978c9b574bd371207ee7b108e6ffe761c3a81f155",
     "entry": {
@@ -11760,8 +11760,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/february/silvana-tenreyro-speech-at-the-niesr-institutes-2022-dow-lecture-the-economy-and-policy-trade-offs": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:51.181940+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:35.359103+00:00",
     "collector_version": "v3",
     "content_hash": "c69bd88ffedbff4e2759d50c57c0f64afec28213dc5308a97075bd9126de829f",
     "entry": {
@@ -11776,8 +11776,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/january/catherine-l-mann-speech-on-the-economy-and-monetary-policy-at-omfif": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:52.907097+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:37.349684+00:00",
     "collector_version": "v3",
     "content_hash": "60412c4ac8707924566928a595f43e1f8d18fb90672a9fd5a4068daaedd45d33",
     "entry": {
@@ -11792,8 +11792,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/july/andrew-bailey-speech-at-mansion-house-financial-and-professional-services-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:54.107271+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:38.508231+00:00",
     "collector_version": "v3",
     "content_hash": "6adcd7ca2baf3b43c2f8e1d0539ab78e7eb36ec336ee7e4d18c5c59e394b3db6",
     "entry": {
@@ -11808,8 +11808,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/july/andrew-bailey-speech-at-omfif-the-economic-landscape": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:54.275457+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:38.727953+00:00",
     "collector_version": "v3",
     "content_hash": "2b859519332bc05edbe7153c40c4e27dce34a91c06302a254dd2e828db240b94",
     "entry": {
@@ -11839,8 +11839,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/july/huw-pill-keynote-address-at-the-qatar-centre-for-global-banking-and-finance-2022-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:54.803645+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:39.205089+00:00",
     "collector_version": "v3",
     "content_hash": "4328583e9c6be267148d19893165b5182e2ca1560960040f60ef0fb716860c3d",
     "entry": {
@@ -11855,8 +11855,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/july/huw-pill-speech-at-the-sheffield-hallam-university": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:55.290212+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:39.687596+00:00",
     "collector_version": "v3",
     "content_hash": "ef58bcdcc3fa9fdbc517abf7a47aba267c9a2fa3d720e6cdf739b7a4a480ff47",
     "entry": {
@@ -11871,8 +11871,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/july/jon-cunliffe-speech-on-crypto-market-developments-at-the-british-high-commission-singapore": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:55.778723+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:40.202296+00:00",
     "collector_version": "v3",
     "content_hash": "cd58a5d2fec1ce1ac48ed9779b9ce9e92b4d2cbbf3f2bbefe42d5bfe76b4bd71",
     "entry": {
@@ -11887,8 +11887,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/july/michael-saunders-speech-at-the-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:56.277465+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:40.667240+00:00",
     "collector_version": "v3",
     "content_hash": "8543324df1ccdf4e4bb0a5e5532ddf3a2ea328b2a51f34d8d3439957d828eb64",
     "entry": {
@@ -11993,8 +11993,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/june/catherine-l-mann-speech-at-a-market-news-international-connect-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:56.863811+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:41.260158+00:00",
     "collector_version": "v3",
     "content_hash": "6badca826849183a7e3ab903219d9e17622f684509340ab2393a93f6bb2f801c",
     "entry": {
@@ -12024,8 +12024,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/june/huw-pill-speech-at-the-walter-eucken-institute": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:57.324333+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:41.711665+00:00",
     "collector_version": "v3",
     "content_hash": "b22fbceec69fbc93addf9ac7ae4b9132da631ddaa1cfea81c3a01d02c7e9fbd3",
     "entry": {
@@ -12055,8 +12055,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/march/ben-broadbent-speech-at-niesr-in-partnership-with-the-money-macro-and-finance-society": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:57.780652+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:42.165229+00:00",
     "collector_version": "v3",
     "content_hash": "598d3cda37a1b889263e4f77a78c7c1dcc5b6505f52098a974f9a92854538c07",
     "entry": {
@@ -12086,8 +12086,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/march/jon-cunliffe-speech-at-the-oxford-union-current-financial-stability-environment": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:58.295959+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:42.683333+00:00",
     "collector_version": "v3",
     "content_hash": "d4ac84b09cf323b0a83979d4692c65028509c32007725d2dd83cf87a4ec6619b",
     "entry": {
@@ -12102,8 +12102,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/march/michael-saunders-speech-at-the-university-of-east-anglia": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:59.798276+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:44.138461+00:00",
     "collector_version": "v3",
     "content_hash": "9a42dcd59e47ae1e65aca1f3b19d51e1f6eb0227af2fa65e3513d62cd00d26f6",
     "entry": {
@@ -12133,8 +12133,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/may/andrew-bailey-panellist-at-the-oesterreichische-national-bank-annual-economic-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:00.086647+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:44.395324+00:00",
     "collector_version": "v3",
     "content_hash": "84816e299e599fe3e4dbd8bae52d7b31c2e74c3fc324b0e01543e1f51cf52ad7",
     "entry": {
@@ -12194,8 +12194,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/may/huw-pill-speech-during-an-agency-visit-to-wales-hosted-by-acca-cymru-wales": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:00.469129+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:44.783783+00:00",
     "collector_version": "v3",
     "content_hash": "fc32a26ce7cc16998b38b77ac3f579e2f868b64e2eccee4b24d640a6083601fb",
     "entry": {
@@ -12210,8 +12210,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/may/michael-saunders-speech-at-the-resolution-foundation-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:00.995157+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:45.318359+00:00",
     "collector_version": "v3",
     "content_hash": "f27a8ffa26492e9b2b12ec3542b8833c01d4b18a611b4b8daa24dff1cb66bb9e",
     "entry": {
@@ -12256,8 +12256,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/november/challenge-convene-collaborate-and-create-speech-by-sir-dave-ramsden": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:01.521686+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:45.852983+00:00",
     "collector_version": "v3",
     "content_hash": "24dd017b85eb1b9afd0f69363953992a4a5f7d07938cb2f9b9a66c0eafbc9e0b",
     "entry": {
@@ -12287,8 +12287,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/november/dave-ramsden-keynote-speech-at-boe-watchers-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:01.968682+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:46.286883+00:00",
     "collector_version": "v3",
     "content_hash": "3dacd32f6232d36ac549f6e35396f47434f7ed813f1b8a52fe697dff42b8e1fd",
     "entry": {
@@ -12303,8 +12303,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/november/huw-pill-speech-at-the-beesley-lecture-series": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:03.446870+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:47.632460+00:00",
     "collector_version": "v3",
     "content_hash": "99e2a6365767ef6ddbb1260f3e00a19efb0ed90f565a34deaf87aca076606c53",
     "entry": {
@@ -12319,8 +12319,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/november/jon-cunliffe-keynote-speech-and-panel-at-warwick-conference-on-defi-digital-currencies": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:03.617264+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:47.792029+00:00",
     "collector_version": "v3",
     "content_hash": "6d8d1fd48b952fad7a9570593f116da6d14580b60a1b34fce30cc89b7b0fa3f1",
     "entry": {
@@ -12335,8 +12335,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/november/jonathan-haskel-seminar-at-bank-of-israel": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:04.117488+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:48.288903+00:00",
     "collector_version": "v3",
     "content_hash": "1d75b9d7d387e8a32540163d23d32a6d3814d29f8a7f3ab809a8ecf3d1f02f6a",
     "entry": {
@@ -12366,8 +12366,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/november/silvana-tenreyro-keynote-speech-at-the-society-of-professional-economists-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:05.734435+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:49.734234+00:00",
     "collector_version": "v3",
     "content_hash": "4f52afaffdf13b40ec06f41e2a0ba22e8c9343effd4b01b3bec713d5ba27991e",
     "entry": {
@@ -12382,8 +12382,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/october/andrew-bailey-opening-remarks-and-panellist-37th-annual-international-banking-seminar": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:05.996098+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:49.989110+00:00",
     "collector_version": "v3",
     "content_hash": "19c5b90a08d6aeadd54f6e10f6cba02d2062e2321225f7dde01d7f5d0fdd7888",
     "entry": {
@@ -12398,8 +12398,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/october/ben-broadbent-speech-at-imperial-college-the-inflationary-consequences-of-real-shocks": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:06.404848+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:50.383087+00:00",
     "collector_version": "v3",
     "content_hash": "bedaf3bd857a8d6d59d04ba27e6a872ee09ddd24aa38e092d97d73e68276c0ae",
     "entry": {
@@ -12429,8 +12429,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/october/current-monetary-policy-opening-remarks-by-jonathan-haskel": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:06.932403+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:50.912839+00:00",
     "collector_version": "v3",
     "content_hash": "9e60317f98355aab7aaa59c860c48f2eaf485f51315db0aca7d2624fff13772a",
     "entry": {
@@ -12445,8 +12445,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/october/dave-ramsden-speech-at-the-securities-industry-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:07.417352+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:51.498898+00:00",
     "collector_version": "v3",
     "content_hash": "2e2c7b82bdf2d946477d4f653e41c39020b28c58857392365e5cd3ff999658a4",
     "entry": {
@@ -12461,8 +12461,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/october/huw-pill-in-conversation-with-scdi": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:08.004665+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:52.000735+00:00",
     "collector_version": "v3",
     "content_hash": "77afebe8e62cf98ba3a1293128b0a36525e9f00f579b4e492a8d36bf758c23b3",
     "entry": {
@@ -12507,8 +12507,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/september/catherine-l-mann-53rd-annual-conference-of-the-money-macro-and-finance-society": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:08.405953+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:52.390935+00:00",
     "collector_version": "v3",
     "content_hash": "a04607b9bfb0d420057eace718f02c578f6469f55e70958abcc7e22007d2477e",
     "entry": {
@@ -12553,8 +12553,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2022/september/dave-ramsden-panellist-at-the-joint-conference-with-the-bank-of-lithuania": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:08.975083+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:52.960878+00:00",
     "collector_version": "v3",
     "content_hash": "bd88d23d330ea6830c6df54bb17ca5a28f2ed9143ba6898c811094e249cdf5ce",
     "entry": {
@@ -12569,8 +12569,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/september/huw-pill-speech-at-the-institute-of-directors-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:09.407901+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:53.411113+00:00",
     "collector_version": "v3",
     "content_hash": "cbd4a22e1946c51fb8bd893e15cbc17f332ca706000ae8b325a44da075b204ba",
     "entry": {
@@ -12585,8 +12585,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2022/september/jon-cunliffe-keynote-speech-at-the-afme-operations-post-trade-technology-innovation-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:01:09.908011+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:53.886742+00:00",
     "collector_version": "v3",
     "content_hash": "2dbe8a9a8a636788c68b65eb835fe93854c130b167e7747a53f29a3ccd022270",
     "entry": {
@@ -12631,8 +12631,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/april/andrew-bailey-remarks-at-the-institute-of-international-finance": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:16.322359+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:01.765343+00:00",
     "collector_version": "v3",
     "content_hash": "19a5e984508b158a3b6eaba1de74c90d4f37c1e8dc7c049bdf9492719dde6b29",
     "entry": {
@@ -12647,8 +12647,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/april/ben-broadbent-speech-hosted-by-national-institute-of-economic-and-social-research": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:16.543184+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:02.046306+00:00",
     "collector_version": "v3",
     "content_hash": "97aa8a65eb7de63ac256aa4af4ddb35d77d7aa8c5e94b67646ae7bf0decf30bd",
     "entry": {
@@ -12693,8 +12693,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/april/huw-pill-speech-at-the-international-centre-for-monetary-and-banking-studies-public-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:17.101579+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:02.618907+00:00",
     "collector_version": "v3",
     "content_hash": "e493ac3d88915ea8651ff5b587023606e569b68625f1a4f7dff0b4badc30d265",
     "entry": {
@@ -12709,8 +12709,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/april/jon-cunliffe-keynote-speech-at-the-innovate-finance-global-summit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:17.604557+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:03.047409+00:00",
     "collector_version": "v3",
     "content_hash": "fc2853d409e0b2fc0e73d95c1f2ad2f2d900c5c4027514143595bc9134fb2e15",
     "entry": {
@@ -12725,8 +12725,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/april/quantitative-easing-quantitative-tightening-speech-silvana-tenreyro": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:18.042938+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:03.553211+00:00",
     "collector_version": "v3",
     "content_hash": "7b9219a1c6b6bb71a66b983cac1554b0eb79e65bbbfa8f5f205558705cbdab5a",
     "entry": {
@@ -12771,8 +12771,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/august/ben-broadbent-panellist-at-2023-economic-policy-symposium-jackson-hole-wyoming": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:18.580938+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:04.104255+00:00",
     "collector_version": "v3",
     "content_hash": "7a2e5240500f194ef4265b6af24c45c9fe8d45ff55b4a8186af351d32110e149",
     "entry": {
@@ -12802,8 +12802,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/december/ben-broadbent-speech-at-london-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:19.102256+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:04.619270+00:00",
     "collector_version": "v3",
     "content_hash": "46d7e57cb1abb0c8df88860a17eed4878a1f6d89414c54c786201d171e4108ec",
     "entry": {
@@ -12818,8 +12818,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/december/dave-ramsden-speech-at-deloitte-academy-on-the-banks-resolution-regime": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:19.595406+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:05.154753+00:00",
     "collector_version": "v3",
     "content_hash": "09d83142f19f5c5054266212d744090ec33aa3cdb44503c654f4aa8a1acba0dd",
     "entry": {
@@ -12834,8 +12834,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/december/sarah-breeden-speech-at-the-iff-talking-policy-series": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:20.039601+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:05.553093+00:00",
     "collector_version": "v3",
     "content_hash": "1fcfd6df0241aedd2a8ffe58be85530ee3f7490eb630d9ce154f29526adf66a9",
     "entry": {
@@ -12850,8 +12850,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/february/catherine-l-mann-lamfalussy-lectures-conference-new-dimensions-of-central-baking-post-covid": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:21.525117+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:07.003111+00:00",
     "collector_version": "v3",
     "content_hash": "391617928fd760e7d2719413c1d3676642e75b5ae33877d2ade60962b07742f4",
     "entry": {
@@ -12866,8 +12866,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/february/catherine-l-mann-speech-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:21.775194+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:07.243304+00:00",
     "collector_version": "v3",
     "content_hash": "b3d186f5329b6421ef247e485b8c298e8b0eeb0b7f9318de9698bec645d908aa",
     "entry": {
@@ -12882,8 +12882,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/february/huw-pill-fireside-chat-at-the-warwick-think-tank-on-the-uk-economy": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:23.691128+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:08.931829+00:00",
     "collector_version": "v3",
     "content_hash": "28ed84b0218e383943c75e6ca3c06f1f7269a94ecc487700c558f7d3d25b305c",
     "entry": {
@@ -12913,8 +12913,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/february/jon-cunliffe-speech-at-uk-finance-update-on-central-bank-digital-currency": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:23.862921+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:09.093263+00:00",
     "collector_version": "v3",
     "content_hash": "60c1ba1172af8399d22afa2751694022ef326dbdd79428ea8443a223e8ac0296",
     "entry": {
@@ -12974,8 +12974,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/january/huw-pill-chair-and-general-discussant-at-the-american-economics-association-annual-meeting": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:24.365168+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:09.594931+00:00",
     "collector_version": "v3",
     "content_hash": "3963ac5a344da2d2235613afebf0f2e6a13bbadb49db1e5c5b0b3a74dbea7880",
     "entry": {
@@ -12990,8 +12990,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/july/andrew-bailey-speech-at-the-financial-and-professional-services-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:24.866073+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:10.087148+00:00",
     "collector_version": "v3",
     "content_hash": "9892e6093952100286fc93281a8ad9f52acc319c7bb0dc05fb971fa98ac1aa53",
     "entry": {
@@ -13006,8 +13006,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/july/dave-ramsden-speech-on-quantitative-tightening-chaired-by-money-macro-and-finance-society": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:25.367197+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:10.582972+00:00",
     "collector_version": "v3",
     "content_hash": "8b80a394c5b2fa8af952977abc684bc2c771c20c808cd1cd2154408af6cd4c22",
     "entry": {
@@ -13112,8 +13112,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/june/silvana-tenreyro-speech-at-the-society-of-professional-economists": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:25.911768+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:11.170647+00:00",
     "collector_version": "v3",
     "content_hash": "6f40edf84d7b985a8f6152b55eef33cfc7792412c36b648685428a61c3e039b8",
     "entry": {
@@ -13158,8 +13158,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/june/swati-dhingra-speech-manchester-met-uni": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:27.571197+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:12.579989+00:00",
     "collector_version": "v3",
     "content_hash": "fb8d1d93338b3db56a77d2d8a64eb191265ca6ea78ca18a760cc211b4d4483a6",
     "entry": {
@@ -13204,8 +13204,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/march/andrew-bailey-speech-at-cost-of-living-crisis-conference-brunswick-group": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:27.763197+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:12.744558+00:00",
     "collector_version": "v3",
     "content_hash": "7c67a14291908804182474d934129164c365737797d465c8f15906d3e49116ec",
     "entry": {
@@ -13220,8 +13220,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/march/andrew-bailey-speech-at-london-school-of-economics": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:28.508411+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:13.566385+00:00",
     "collector_version": "v3",
     "content_hash": "02749d3b177c78133c2fcbb0d4ca768256d26c84f2dcfd527dafe9d30b20bc70",
     "entry": {
@@ -13296,8 +13296,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/march/swati-dhingra-remarks-on-cost-of-living-crisis-and-inflation-at-the-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:28.781956+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:13.775369+00:00",
     "collector_version": "v3",
     "content_hash": "ac8240c0515d76ca43e2e0b12520e7af371c862df1c1b3463b135d56acb32350",
     "entry": {
@@ -13327,8 +13327,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/may/andrew-bailey-keynote-speech-british-chambers-of-commerce-global-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:30.405817+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:15.202005+00:00",
     "collector_version": "v3",
     "content_hash": "b5c579a71fb1d8a52065eea5b2c4fc5a87c1dd2be664868312a6e540648322a0",
     "entry": {
@@ -13373,8 +13373,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/may/jonathan-haskel-speech-at-peterson-institute-for-international-economics": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:30.577436+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:15.393529+00:00",
     "collector_version": "v3",
     "content_hash": "18d8a623e375b3ee4a781e88ffc3ad636139cf44b8d85c007f8a25161118ca8b",
     "entry": {
@@ -13404,8 +13404,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/andrew-bailey-2023-henry-plumb-memorial-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:32.459977+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:17.007407+00:00",
     "collector_version": "v3",
     "content_hash": "401e3fa5ff9d7ca836e3dfa8a07b697dac21a714918f8047f162bbdfcb54f062",
     "entry": {
@@ -13420,8 +13420,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/andrew-bailey-keynote-address-at-the-central-bank-of-ireland": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:33.828656+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:18.180767+00:00",
     "collector_version": "v3",
     "content_hash": "561250dbf1e720a9c055068f31723c211e56ee2677a1ba6b5a6016bc939a3136",
     "entry": {
@@ -13436,8 +13436,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/andrew-bailey-remarks-at-the-50-year-anniversary-of-the-london-fxjsc": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:34.003224+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:18.329908+00:00",
     "collector_version": "v3",
     "content_hash": "57720f431e8d5c9a23eb864ed49a39967d660e0f55a2faa05b8e6e6c3f660943",
     "entry": {
@@ -13467,8 +13467,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/catherine-l-mann-university-of-oxford-environmental-economics-seminar": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:34.508222+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:18.836452+00:00",
     "collector_version": "v3",
     "content_hash": "2bc9a79aff9033080190db270bf2821708b12a1702fa0cecbb61b67f54622be1",
     "entry": {
@@ -13483,8 +13483,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/dave-ramsden-keynote-speech-at-the-society-of-professional-economists-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:35.081688+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:19.487301+00:00",
     "collector_version": "v3",
     "content_hash": "bc0f8090859dddeddb99694efc9c96e45dc65884281fde2f998647404da19f0b",
     "entry": {
@@ -13499,8 +13499,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/dave-ramsden-remarks-at-the-7th-annual-conference-of-the-european-systemic-risk-board": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:36.562550+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:20.714691+00:00",
     "collector_version": "v3",
     "content_hash": "c932106b77d5d3857fa224be16b259de5488b6d0d294ea007e7056900ecc886a",
     "entry": {
@@ -13515,8 +13515,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/jonathan-haskel-panellist-at-the-boe-watchers-conference-labour-market-dynamics": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:36.743683+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:20.866649+00:00",
     "collector_version": "v3",
     "content_hash": "6f4f151a38778d1d47746a3eb60fa900c59b062aa332f62acc7cdab877d147cc",
     "entry": {
@@ -13531,8 +13531,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/jonathan-haskel-speech-at-warwick-university": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:37.255743+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:21.388642+00:00",
     "collector_version": "v3",
     "content_hash": "a6172cf9dc3f014c15b91b29bc90aea34aa82acc1d8caa28e1d7d06db5877541",
     "entry": {
@@ -13547,8 +13547,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2023/november/megan-greene-speech-at-leeds-university": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:38.855018+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:22.825875+00:00",
     "collector_version": "v3",
     "content_hash": "b6485cb59cb0475fb194355eef99b58b0515176100dd8baec4d20069fb05ad9b",
     "entry": {
@@ -13623,8 +13623,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/october/jon-cunliffe-speech-at-the-economics-of-payments-xii-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:39.059912+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:23.028726+00:00",
     "collector_version": "v3",
     "content_hash": "0b0e40036c5bc5bb1d23cadb54ef24dfe1b1625840c52902a0f917030cdfd62d",
     "entry": {
@@ -13699,8 +13699,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2023/september/catherine-l-mann-speech-canadian-association-for-business-economics-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:39.533489+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:23.491035+00:00",
     "collector_version": "v3",
     "content_hash": "9fbac36e82690102e475bb5c6385782c6e17e6f468ca4cfae2e72cf5a50ba81f",
     "entry": {
@@ -13775,8 +13775,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/april/dave-ramsden-pannellist-at-peterson-institute-for-international-economics-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:54.461244+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:41.006401+00:00",
     "collector_version": "v3",
     "content_hash": "58d20e5f5b6afe18827f429159a79e90a1f0b693829376399cfee00d2ec68384",
     "entry": {
@@ -13791,8 +13791,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/april/huw-pill-speech-at-univeristy-of-chicago-booth-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:55.452608+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:41.883805+00:00",
     "collector_version": "v3",
     "content_hash": "d0faf8e3b56e5f82055fbb1ca45cd9f88e4a19b401bc399fad79a71b03121d60",
     "entry": {
@@ -13852,8 +13852,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/april/sarah-breeden-keynote-speech-at-the-innovate-finance-global-summit-2024": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:56.462188+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:43.000702+00:00",
     "collector_version": "v3",
     "content_hash": "f8a19004db6ecf051e400759faca8c486af5c1d352f053917dda25673cfbde2b",
     "entry": {
@@ -13883,8 +13883,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/august/andrew-bailey-speech-federal-reserve-bank-of-kansas-annual-jackson-hole-economic-policy-symposium": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:56.641679+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:43.169885+00:00",
     "collector_version": "v3",
     "content_hash": "0002def8e5c8f5521ed79e0afb12dbf9d13685316f44d1e2ce994807ae43d11e",
     "entry": {
@@ -13899,8 +13899,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/december/dave-ramsden-speech-at-omfif-on-financial-stability-and-the-boe-toolkit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:57.132289+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:43.672679+00:00",
     "collector_version": "v3",
     "content_hash": "8dbf2e565f0ba203bab1180f0f849b6c733b980dd4265d61cc37cff94bc378a3",
     "entry": {
@@ -13960,8 +13960,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/february/andrew-bailey-lecture-at-loughborough-university": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:57.693511+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:44.284324+00:00",
     "collector_version": "v3",
     "content_hash": "16a9d0c5b0a1ed264b644c0b236900a6aca9c381b2cbb7e857bf3afd5fc8583b",
     "entry": {
@@ -13976,8 +13976,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/february/catherine-l-mann-speech-at-the-official-monetary-and-financial-institution": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:58.151729+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:44.659964+00:00",
     "collector_version": "v3",
     "content_hash": "66859418786362693fba8f64e6190b010a7b523b820e4ba3323a05a6e4691ace",
     "entry": {
@@ -13992,8 +13992,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/february/david-ramsden-keynote-address-at-association-for-financial-markets-forum": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:58.671094+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:45.210898+00:00",
     "collector_version": "v3",
     "content_hash": "a06789a4f7595938f0639c0b60c6b38fd210ab63f41b80ba85b07935b93fcdc7",
     "entry": {
@@ -14008,8 +14008,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/february/megan-greene-fireside-chat-with-brian-coulton-chief-economist-fitch-ratings": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:59.147012+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:45.672309+00:00",
     "collector_version": "v3",
     "content_hash": "b40caada48ea8866809cd1aaf8f12408b2fa0be1e9f3bf101956658e0a2b4bb5",
     "entry": {
@@ -14024,8 +14024,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/february/sarah-breeden-keynote-speech-uk-women-in-economics-annual-networking": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:59.703273+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:46.316816+00:00",
     "collector_version": "v3",
     "content_hash": "8038bc9d8a27f317a416b4863cfc037427701340bc18cc8f39e2cf092894b935",
     "entry": {
@@ -14040,8 +14040,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/february/swati-dhingra-market-news-international-connect-event": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:00.172481+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:46.698511+00:00",
     "collector_version": "v3",
     "content_hash": "71212ab1fa9c95e621c63721838e29cecda28784a92a881bbcbbce0ed9670d5e",
     "entry": {
@@ -14116,8 +14116,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/july/huw-pill-speech-at-asia-house": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:01.635688+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:48.022634+00:00",
     "collector_version": "v3",
     "content_hash": "ee4a6411103fba8ee3653ad4fc351a8149e5e20ca769c0169ffad9006749f433",
     "entry": {
@@ -14147,8 +14147,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/july/speech-by-jonathan-haskel-at-escoe-kings-college-london": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:01.806719+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:48.183852+00:00",
     "collector_version": "v3",
     "content_hash": "185ce56cee919b8ec472e40f3166c704af99bacd3b111b606df626ce0253e41b",
     "entry": {
@@ -14223,8 +14223,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/march/huw-pill-speech-at-the-cardiff-university-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:04.358229+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:50.308184+00:00",
     "collector_version": "v3",
     "content_hash": "1163a6bc4c12052169bbfa1578b393a886329ecc84f32730e41b0cc692849258",
     "entry": {
@@ -14269,8 +14269,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/may/andrew-bailey-lecture-london-school-of-economics-charles-goodhart": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:05.443693+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:51.247212+00:00",
     "collector_version": "v3",
     "content_hash": "c98e1024ff09f02f824f227a93c6cd713fabdabb3db23383b09ab9d543e86acb",
     "entry": {
@@ -14285,8 +14285,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/may/ben-broadbent-ccbs-new-evidence-on-the-monetary-transmission-mechanism-workshop": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:05.719831+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:51.710478+00:00",
     "collector_version": "v3",
     "content_hash": "03d72aa3018bb74ead959c997b390289abab2bb8741506e3bc70e3a31fac9acc",
     "entry": {
@@ -14331,8 +14331,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/may/megan-greene-speech-at-make-uk-the-current-state-of-britains-labour-market": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:06.153267+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:52.014060+00:00",
     "collector_version": "v3",
     "content_hash": "2d595e26b2c73864196f6dbd0292f070e51d96c9f2e6b7439a4aee9db31926b6",
     "entry": {
@@ -14362,8 +14362,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/may/remarks-given-by-swati-dhingra-at-econdat-2024": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:06.709392+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:52.564895+00:00",
     "collector_version": "v3",
     "content_hash": "63205a2f4deac75e1ed3f16fe5da7d6e7546adb9e33016dcccc509b17a595fd7",
     "entry": {
@@ -14393,8 +14393,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/november/andrew-bailey-speech-at-the-annual-financial-and-professional-services-dinner": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:07.867312+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:53.658751+00:00",
     "collector_version": "v3",
     "content_hash": "2a992c1b39f5fe9b5a737722e1c119ae8c6ee06facc1c08be9d3ee252296eb2f",
     "entry": {
@@ -14424,8 +14424,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/november/catherine-l-mann-society-of-professional-economists-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:08.146351+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:53.966486+00:00",
     "collector_version": "v3",
     "content_hash": "cabec09f3c3e2c36486b8ffd1b212f4db4400e0623a4ca14fdc40a86cd7deb9d",
     "entry": {
@@ -14440,8 +14440,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/november/clare-lombardelli-speech-at-the-3rd-boe-watchers-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:08.689774+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:54.578824+00:00",
     "collector_version": "v3",
     "content_hash": "def6029131e012e903cbca57040f617cf609ea14bd636c5860d84936fdba3545",
     "entry": {
@@ -14456,8 +14456,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/november/dave-ramsden-speech-on-monetary-policy-at-the-university-of-leeds": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:09.130438+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:54.974822+00:00",
     "collector_version": "v3",
     "content_hash": "bb6bbf77cd2443d2e6b5993ce700b9f4551122cd51004f0f0afc665b9b4acd25",
     "entry": {
@@ -14487,8 +14487,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/october/andrew-bailey-keynote-address-at-the-bloomberg-global-regulatory-forum": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:09.726245+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:55.546442+00:00",
     "collector_version": "v3",
     "content_hash": "4bd4985f55c210c297207ef958042406186c28214451cada95755410ab8d0beb",
     "entry": {
@@ -14503,8 +14503,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/october/andrew-bailey-mike-gill-memorial-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:10.110909+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:55.962175+00:00",
     "collector_version": "v3",
     "content_hash": "46425f0420adbade290b91fa7c851daf81f1c2cfea4ad640c8500eabf9778494",
     "entry": {
@@ -14519,8 +14519,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/october/andrew-bailey-panellist-at-the-g30-39-annual-international-banking-seminar": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:10.612002+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:56.458979+00:00",
     "collector_version": "v3",
     "content_hash": "8a8d03572711c349e1d2794a4ae4d4b4e10a86de8c289f28c46a359bb1eaaafe",
     "entry": {
@@ -14535,8 +14535,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2024/october/huw-pill-speech-at-the-institute-chartered-accounts-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:11.110855+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:56.980051+00:00",
     "collector_version": "v3",
     "content_hash": "87f374012fc32d8b59d23209409e8a032ffa3dfb2caa6b5f2092088b221b66e8",
     "entry": {
@@ -14581,8 +14581,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/october/sarah-breeden-keynote-speech-at-the-hong-kong-monetary-authority": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:11.645296+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:57.533826+00:00",
     "collector_version": "v3",
     "content_hash": "fb2dcd75d361b0d6c74f16f308d39e265fea5d5e4bc226ffbd13d47dc7baddeb",
     "entry": {
@@ -14627,8 +14627,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/september/catherine-l-mann-keynote-speech-at-the-central-bank-research-association": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:12.117692+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:57.958999+00:00",
     "collector_version": "v3",
     "content_hash": "db58ce34232373f4ef64547c9495fce56ec5ee21669570792ad51ba3265a0a9a",
     "entry": {
@@ -14673,8 +14673,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/september/megan-greene-speech-on-consumption-hosted-by-the-chambers-of-commerce-newcastle": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:13.988554+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:59.622494+00:00",
     "collector_version": "v3",
     "content_hash": "9747ff72a1ce64971b44a8dcc850316efc9fcc69d4df0c46e2e31cf05815a912",
     "entry": {
@@ -14704,8 +14704,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2024/september/sarah-breeden-remarks-from-the-wharton-imf-transatlantic-dialogue": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T14:00:15.364969+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:03:00.895245+00:00",
     "collector_version": "v3",
     "content_hash": "7dffbbdf30b9b3ae954c69aabea22bcf113564050ef73437715d1474cdc6f458",
     "entry": {
@@ -14735,8 +14735,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/april/dave-ramsden-keynote-speech-at-innovate-finance-global-summit": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:27.170742+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:14.684189+00:00",
     "collector_version": "v3",
     "content_hash": "129c4d3cf65d4dde78685b3d29c1acfc3ab46f501fbdaa1991c4d3f9509e1656",
     "entry": {
@@ -14781,8 +14781,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/august/catherine-l-mann-panellist-at-conference-commemorating-100th-anniversary-founding-banco-de-mexico": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:27.370589+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:14.860999+00:00",
     "collector_version": "v3",
     "content_hash": "015144ac9ccc5f2b8bf9c023c366c1b86c25b77cf0e9075a2b0318cbe66ff8f0",
     "entry": {
@@ -14857,8 +14857,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/february/andrew-bailey-keynote-speech-university-of-chicago-booth-school-of-business": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:27.907736+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:15.419058+00:00",
     "collector_version": "v3",
     "content_hash": "34ed100a85a852ccd3dfc9bbe1ebe3a6b27728f09290e163811ed1fe22579b6a",
     "entry": {
@@ -14873,8 +14873,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/february/catherine-l-mann-speech-at-leeds-beckett-university-economic-prospects": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:28.348412+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:15.858027+00:00",
     "collector_version": "v3",
     "content_hash": "f6abbb188437cbbba3f3aec0aa4ed61594e8aed9e2e2cf66b99935c630836db1",
     "entry": {
@@ -14889,8 +14889,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/february/dave-ramsden-keynote-speech-stellenbosch-university-on-monetary-policy-geopolitical-fragmentation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:28.875926+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:16.397604+00:00",
     "collector_version": "v3",
     "content_hash": "2585b2da5444f1ca6105a6a33f01eecae2df59d4c22858b7e4dcc37ed3689688",
     "entry": {
@@ -14905,8 +14905,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/february/megan-greene-speech-at-the-institute-of-directors": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:29.421759+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:16.894981+00:00",
     "collector_version": "v3",
     "content_hash": "7d6074bd00c479e2f203a3c67c43d8cfd7a2ec6348e1cf105941a8d89bb64949",
     "entry": {
@@ -14951,8 +14951,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/february/swati-dhingra-speech-dow-lecture-niesr-trade-fragmentation-and-monetary-policy": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:29.941555+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:17.623819+00:00",
     "collector_version": "v3",
     "content_hash": "a9539b4b4cd8b452cc6138683e5415a55b1fef340edd9748c82321f50aab9290",
     "entry": {
@@ -14967,8 +14967,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/january/alan-taylor-speech-at-leeds-university-inflation-dynamics-and-outlook": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:30.401520+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:17.932421+00:00",
     "collector_version": "v3",
     "content_hash": "8fc98e7dae52a8a8b10f0a60c6814177462ac3a35e54bdf200bf54fcbc43d92a",
     "entry": {
@@ -14983,8 +14983,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/january/andrew-bailey-remarks-at-bretton-woods-institutions-cambridge": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:30.903989+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:18.395066+00:00",
     "collector_version": "v3",
     "content_hash": "b4b24d9846211ef25906b0032f34506821134c62696b4e57bdb3a07b8b67789b",
     "entry": {
@@ -15044,8 +15044,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/january/sarah-breeden-speech-at-the-university-of-edinburgh": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:31.363805+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:18.862513+00:00",
     "collector_version": "v3",
     "content_hash": "208c8f7ca215719b92df52b373ae4c7bac1e825d618b68bd7df8b68f303d7c4d",
     "entry": {
@@ -15075,8 +15075,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/july/alan-taylor-panellist-at-ecb-forum-on-central-banking-2025": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:32.182701+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:19.531500+00:00",
     "collector_version": "v3",
     "content_hash": "6802664014c4bc7da87216baa1736f5e6d888aa6928a9d0ff35be0da6a03a50f",
     "entry": {
@@ -15091,8 +15091,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/july/alan-taylor-speech-at-the-london-school-of-economics-and-political-science-public-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:32.531261+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:19.851637+00:00",
     "collector_version": "v3",
     "content_hash": "821525afc1a96937fa209338f841f0894f3eb6b1454e07a4540fe58174d26bd3",
     "entry": {
@@ -15107,8 +15107,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/july/andrew-bailey-speech-at-the-annual-financial-and-professional-services-dinner-mansion-house": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:34.151778+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:21.397793+00:00",
     "collector_version": "v3",
     "content_hash": "2d943dd94fb9ce00f77433f69c4dd13b7c1838a38eda2d7cc302a8338cead4f7",
     "entry": {
@@ -15123,8 +15123,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/july/meaning-of-reserve-currency-remarks-andrew-bailey": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:34.353395+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:21.704360+00:00",
     "collector_version": "v3",
     "content_hash": "51dbcb66f2ffd5a0fdf4240a6f4e21a03eb57143fc5da5f15d267cede5ad1f5e",
     "entry": {
@@ -15154,8 +15154,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/july/sarah-breeden-speech-at-the-annual-chapman-barrigan-lecture-series": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:34.835401+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:22.048366+00:00",
     "collector_version": "v3",
     "content_hash": "34be57202c916c35560fa580424ed7cd11449738ad3494201d327f9d85c37592",
     "entry": {
@@ -15215,8 +15215,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/june/andrew-bailey-keynote-speech-at-the-british-chambers-of-commerce-global-annual-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:35.383637+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:22.576019+00:00",
     "collector_version": "v3",
     "content_hash": "25de3937c55723e8335a73763ab88b17257d0a3a81bcb7e39284f1131ff2f168",
     "entry": {
@@ -15231,8 +15231,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/june/andrew-bailey-opening-remarks-at-britains-return-to-the-gold-standard-in-1925-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:35.842118+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:23.046458+00:00",
     "collector_version": "v3",
     "content_hash": "56164d5851ea5c66754f4df8122c1392b4bacd6f89a4a3d96e359a702615f29d",
     "entry": {
@@ -15247,8 +15247,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/june/andrew-bailey-speech-at-the-annual-research-conference-kyiv": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:36.326932+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:23.545114+00:00",
     "collector_version": "v3",
     "content_hash": "9c610e6ae3eb894c9780e6ca4f19f6b5d77fef1c5cd89f186b30f59d3f84a299",
     "entry": {
@@ -15263,8 +15263,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/june/catherine-l-mann-fireside-chat-at-the-federal-reserve-board-of-governors": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:36.823250+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:24.048976+00:00",
     "collector_version": "v3",
     "content_hash": "50fe1e5ec139a3995d4b00eade770e057e7a226ec86567253aa3ef96a165b2bb",
     "entry": {
@@ -15279,8 +15279,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/june/dave-ramsden-speech-and-panellist-at-the-barclays-cepr-monetary-policy-forum-2025": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:37.391244+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:24.712942+00:00",
     "collector_version": "v3",
     "content_hash": "d4c1701e4d7be33aa7ed4729ed925da80d36a3b9c73a621373bf654827383950",
     "entry": {
@@ -15310,8 +15310,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/june/megan-greene-speech-at-niesr-monetary-policy-implications-of-differences-in-central-bank-balance": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:37.879124+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:25.104300+00:00",
     "collector_version": "v3",
     "content_hash": "245fc74d315545997bfe55fb6cc3d7049ba0312b6c1a7ba1c6060db58b72c7a7",
     "entry": {
@@ -15416,8 +15416,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/march/andrew-bailey-university-of-leicester-chancellors-distinguished-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:39.716183+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:26.644005+00:00",
     "collector_version": "v3",
     "content_hash": "b2570cbabf4c0f3eefc6ca22904537b2bde5358325f16f925ce3727529066ccd",
     "entry": {
@@ -15432,8 +15432,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/march/catherine-l-mann-keynote-lecture-reserve-bank-of-new-zealand-research-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:39.895497+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:26.785282+00:00",
     "collector_version": "v3",
     "content_hash": "60222a2cc3994ac15b78d5c5d81c7d5f294816eb00e7461b2d4e370b0ecfb003",
     "entry": {
@@ -15463,8 +15463,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/andrew-bailey-keynote-address-at-the-reykjavik-economic-conference-2025": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:40.494123+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:27.370687+00:00",
     "collector_version": "v3",
     "content_hash": "fd53cd714cbffc11f385fcd0253a0b057e16137bb9ce66abd3124c0a5d9ce4c8",
     "entry": {
@@ -15479,8 +15479,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/andrew-bailey-speech-followed-by-fireside-chat-with-francine-lacqua-bloomberg": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:40.893992+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:27.808443+00:00",
     "collector_version": "v3",
     "content_hash": "c60aec852e511951d77368ea935bb4d2bd337373246684a1f354c252f75d235c",
     "entry": {
@@ -15510,8 +15510,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/central-bank-communications-and-uncertainty-remarks-by-clare-lombardelli": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:41.390075+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:28.480898+00:00",
     "collector_version": "v3",
     "content_hash": "ea95258e37d39acc10769cbf729dd42c8872bfea753b84eb528de7f2fe75b68f",
     "entry": {
@@ -15526,8 +15526,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/clare-lombardelli-keynote-speech-at-the-bank-of-england-bank-watchers-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:41.890008+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:29.114968+00:00",
     "collector_version": "v3",
     "content_hash": "d38558feab3217165f2c9c1c3402b3c0aaf082fe49d62493d5bc093426adca30",
     "entry": {
@@ -15542,8 +15542,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/huw-pill-speech-at-the-barclays-briefing": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:42.407771+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:29.600254+00:00",
     "collector_version": "v3",
     "content_hash": "dd6ab8a1316c8fce148d02f3619f7730491430602364b66532e312792827b855",
     "entry": {
@@ -15618,8 +15618,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/sarah-breeden-keynote-address-at-the-international-swaps-and-derivatives-association": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:44.120262+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:31.222094+00:00",
     "collector_version": "v3",
     "content_hash": "95a566458cb7677ef61688d0428c91c67fe886d5ea6780c4dd6c2009c7909c67",
     "entry": {
@@ -15634,8 +15634,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/may/sarah-breeden-panellist-at-the-global-finance-technology-network": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:44.298052+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:31.721026+00:00",
     "collector_version": "v3",
     "content_hash": "a5d2b93b36baca4b9f208f700bfd9cd934787658ce1e3a4a5f95e6f01a4d0899",
     "entry": {
@@ -15725,8 +15725,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/alan-taylor-remarks-and-fireside-chat-with-gillian-tett-at-cambridge": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:44.795156+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:31.969091+00:00",
     "collector_version": "v3",
     "content_hash": "a0490a0f066fecd8f9f0a6b432c4c8560beaa176de9a68945e7af8a10c0e776a",
     "entry": {
@@ -15741,8 +15741,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/andrew-bailey-keynote-speech-at-klaas-knott-farewell-symposium": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:45.381896+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:32.546099+00:00",
     "collector_version": "v3",
     "content_hash": "3b6030b5c94225136eb90608acabcc82cf99033aaecc6cd735e9007a76488ce3",
     "entry": {
@@ -15757,8 +15757,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/andrew-bailey-keynote-speech-at-scotland-global-investment-summit-2025": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:45.797023+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:32.904411+00:00",
     "collector_version": "v3",
     "content_hash": "f8c9ea552cebcb5b03870d1ac3c67651988d9760e8544a5156fd4faefdce927e",
     "entry": {
@@ -15773,8 +15773,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/catherine-l-mann-keynote-speech-at-resolution-foundation": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:46.294631+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:33.781254+00:00",
     "collector_version": "v3",
     "content_hash": "187cb5168236e46100163fd95673d15ed5fa95a9ab86eb2783c12c11b6daa07c",
     "entry": {
@@ -15789,8 +15789,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/global-economic-outlook-panel-panel-remarks-by-andrew-bailey": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:46.901438+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:34.055348+00:00",
     "collector_version": "v3",
     "content_hash": "3513c7cdbcc349ae7fe86712b276b7cd8643d4c25529d51af9c3ccc1f0ca821c",
     "entry": {
@@ -15805,8 +15805,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/huw-pill-speech-at-institute-of-chartered-accountants-in-england-and-wales-annual-conference-2025": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:47.310983+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:34.428839+00:00",
     "collector_version": "v3",
     "content_hash": "861459255daa7c045b961f615089912faa3aeaa3e4a39f10d268c6dbb0509fba",
     "entry": {
@@ -15821,8 +15821,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/huw-pill-speech-at-the-maxwell-fry-annual-lecture": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:48.986671+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:35.905269+00:00",
     "collector_version": "v3",
     "content_hash": "92880bc8f723a6db1403d3e9b346ed041af73af628b22326b803851e3e5b1192",
     "entry": {
@@ -15867,8 +15867,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/sarah-breeden-panellist-at-fintech-foundation-2025-dc-fiintech-week": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:49.161993+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:36.055492+00:00",
     "collector_version": "v3",
     "content_hash": "d8c4436c54846c61c4a1269db61fbf08d960aec1be61ba0bd8da052e003afabd",
     "entry": {
@@ -15898,8 +15898,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/october/swati-dhingra-speech-at-the-central-bank-of-ireland-escb-cluster-2-academic-conference": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:49.667262+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:36.570969+00:00",
     "collector_version": "v3",
     "content_hash": "e323db180c9533d02a17f0c587af0e8d805398566552313864fa0886d6ba75bf",
     "entry": {
@@ -15944,8 +15944,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/september/huw-pill-fireside-chat-at-the-inaugural-pictet-research-institute-symposium": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:50.276122+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:37.243457+00:00",
     "collector_version": "v3",
     "content_hash": "dfa5b6405a4f85705a16a21005202cf9b228b8fb52e40babf657433efc544cf2",
     "entry": {
@@ -15975,8 +15975,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2025/september/megan-greene-university-of-glasgow-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:50.661333+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:37.551013+00:00",
     "collector_version": "v3",
     "content_hash": "97bd2ce35558eca24e12c42d4ac9938875e14faebd016dc8a7128c6e4c573d26",
     "entry": {
@@ -15991,8 +15991,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/september/sarah-breeden-keynote-speech-at-the-boe-and-warwick-business-school": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:51.277306+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:38.330036+00:00",
     "collector_version": "v3",
     "content_hash": "349cd02a1ba0a65020224c1a04cd62dddc8c370e17e32a76e3f2666929cbbe28",
     "entry": {
@@ -16007,8 +16007,8 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2025/september/sarah-breeden-speech-cardiff-business-school-afternoon-briefing": {
-    "attempts": 3,
-    "checked_at": "2026-11-01T13:59:51.662816+00:00",
+    "attempts": 4,
+    "checked_at": "2026-11-08T14:02:38.632101+00:00",
     "collector_version": "v3",
     "content_hash": "78cef06b34dca3d1543c74d8e76c82c98794f2b8dba2f427986ee6d583b72c26",
     "entry": {
