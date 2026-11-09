@@ -59,6 +59,7 @@
   "discovery_outcomes": {
     "duplicate": 166,
     "excluded": 583,
+    "failure": 1,
     "scheduled": 4,
     "stored": 348
   },
@@ -875,6 +876,11 @@
   "membership_coverage_start": "2017-09-04",
   "membership_terms": 18,
   "stored_speeches": 350,
-  "unresolved": [],
+  "unresolved": [
+    {
+      "reason": "ValueError: No suitable full-text PDF linked from speech page",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series"
+    }
+  ],
   "valid_scores": 350
 }

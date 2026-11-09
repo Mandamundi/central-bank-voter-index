@@ -16676,8 +16676,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series": {
-    "attempts": 1,
-    "checked_at": "2026-11-07T13:43:31.456638+00:00",
+    "attempts": 2,
+    "checked_at": "2026-11-09T17:04:41.095759+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
@@ -16687,9 +16687,9 @@
       "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
       "year": 2026
     },
-    "reason": "Prepared text scheduled for 2026-11-09",
-    "retry_after": "2026-11-09T00:00:00+00:00",
-    "status": "scheduled"
+    "reason": "ValueError: No suitable full-text PDF linked from speech page",
+    "retry_after": "2026-11-09T21:04:42.151219+00:00",
+    "status": "failure"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026": {
     "attempts": 2,
@@ -16752,6 +16752,22 @@
     },
     "reason": "Prepared text scheduled for 2026-11-11",
     "retry_after": "2026-11-11T00:00:00+00:00",
+    "status": "scheduled"
+  },
+  "https://www.bankofengland.co.uk/speech/2026/november/katharine-braddick-speech-at-the-uk-finance-annual-dinner": {
+    "attempts": 1,
+    "checked_at": "2026-11-09T17:04:42.169020+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Katharine Braddick: Speech at the UK Finance Annual Dinner, London (7pm). (to be published at 2pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/katharine-braddick-speech-at-the-uk-finance-annual-dinner",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-18",
+    "retry_after": "2026-11-18T00:00:00+00:00",
     "status": "scheduled"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul": {
