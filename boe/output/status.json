@@ -1,6 +1,6 @@
 {
   "bank": "boe",
-  "built_at": "2026-11-10T11:53:21.490053+00:00",
+  "built_at": "2026-11-10T15:23:57.936621+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
@@ -14,7 +14,5 @@
   },
   "membership_coverage_start": "2017-09-04",
   "scorer_version": "gpt-6-luna:v10",
-  "warnings": [
-    "Collector has unresolved failures or has never completed"
-  ]
+  "warnings": []
 }

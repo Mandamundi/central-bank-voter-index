@@ -16707,20 +16707,20 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference": {
-    "attempts": 2,
-    "checked_at": "2026-11-10T09:59:47.824974+00:00",
+    "attempts": 3,
+    "checked_at": "2026-11-10T15:23:48.903441+00:00",
     "collector_version": "v3",
+    "content_hash": "96c7dfcf63fb479b9553ed4283fc85407a97fff5ff93a0e971af27db26c19634",
     "entry": {
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": "Clare Lombardelli",
-      "title": "Clare Lombardelli: Speech at the Bank Watchers Conference​, London (to be published 12:30pm)",
+      "title": "The low-gear labour market − speech by Clare Lombardelli",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
       "year": 2026
     },
-    "reason": "ValueError: No suitable full-text PDF linked from speech page",
-    "retry_after": "2026-11-10T13:59:48.300911+00:00",
-    "status": "failure"
+    "speech_id": "5537220d00b671011419",
+    "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research": {
     "attempts": 2,

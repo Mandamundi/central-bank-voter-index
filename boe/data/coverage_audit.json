@@ -44,10 +44,10 @@
       "stored_speeches": 16
     },
     {
-      "latest_delivery": "2026-09-24",
+      "latest_delivery": "2026-11-10",
       "member": "Clare Lombardelli",
-      "policy_scores": 4,
-      "stored_speeches": 5
+      "policy_scores": 5,
+      "stored_speeches": 6
     },
     {
       "latest_delivery": "2026-09-29",
@@ -59,9 +59,8 @@
   "discovery_outcomes": {
     "duplicate": 166,
     "excluded": 583,
-    "failure": 1,
     "scheduled": 4,
-    "stored": 349
+    "stored": 350
   },
   "exclusion_reasons": {
     "Author was not an MPC voter on delivery date": 18,
@@ -858,10 +857,10 @@
     },
     {
       "member": "Clare Lombardelli",
-      "policy_relevant": 1,
+      "policy_relevant": 2,
       "publication_date_unknown": 0,
-      "scored": 1,
-      "stored": 1,
+      "scored": 2,
+      "stored": 2,
       "year": 2026
     },
     {
@@ -875,12 +874,7 @@
   ],
   "membership_coverage_start": "2017-09-04",
   "membership_terms": 18,
-  "stored_speeches": 351,
-  "unresolved": [
-    {
-      "reason": "ValueError: No suitable full-text PDF linked from speech page",
-      "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference"
-    }
-  ],
-  "valid_scores": 351
+  "stored_speeches": 352,
+  "unresolved": [],
+  "valid_scores": 352
 }
