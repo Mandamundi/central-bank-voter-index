@@ -68,6 +68,13 @@ class OfficialSourceTests(unittest.TestCase):
             with self.assertRaises(documents.Scheduled) as error:sources.fetch_speech(entry)
         self.assertEqual(error.exception.day,'2026-10-20')
 
+    def test_same_day_embargoed_placeholder_is_scheduled_not_failed(self):
+        entry={'url':MANIFEST['upcoming.html']['url'],'title':'Megan Greene: Speech at LSE','speaker':'Megan Greene'}
+        import datetime
+        with patch('http_get.get',side_effect=get), patch('sources.today',return_value=datetime.date(2026,10,20)):
+            with self.assertRaises(documents.Scheduled) as error:sources.fetch_speech(entry)
+        self.assertEqual(error.exception.day,'2026-10-20')
+
     def test_no_exact_day_means_no_invented_month_start(self):
         self.assertIsNone(sources.exact_date(sources.tree('<main><h1>Speech</h1></main>'),'https://www.bankofengland.co.uk/speech/2026/october/anything'))
 

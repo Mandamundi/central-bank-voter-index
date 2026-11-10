@@ -123,6 +123,12 @@ def exact_date(page, url=None):
     return None  # A URL month is NOT a delivery date.
 
 
+def is_embargoed(page, title):
+    """BOE placeholder pages announce their text as '(to be published 12:30pm)'."""
+    labels = [title] + page.xpath('//meta[@property="og:description" or @name="description"]/@content')
+    return any(re.search(r'\bto be published\b', label or '', re.I) for label in labels)
+
+
 def body(page):
     nodes = page.xpath('//main//div[contains(concat(" ",normalize-space(@class)," ")," content-block ")][not(ancestor::div[contains(concat(" ",normalize-space(@class)," ")," content-block ")])]')
     if not nodes:
@@ -187,6 +193,9 @@ def fetch_speech(entry):
         if published and published > today().isoformat():
             raise doc.Scheduled(published)
         content = body(page)
+        if len(content) < config.MIN_HTML_TEXT_CHARS and is_embargoed(page, title):
+            # Same-day embargo: the page is dated today but its text lands later in the day.
+            raise doc.Scheduled(published or today().isoformat())
         if config.MIN_HTML_TEXT_CHARS <= len(content) < config.SUMMARY_TEXT_CHARS:
             # A short page can be the website's summary of a speech whose full text is a PDF.
             try:
