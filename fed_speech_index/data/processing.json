@@ -76033,6 +76033,23 @@
     "speech_id": "8c34327f8f30",
     "status": "stored"
   },
+  "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+    },
+    "last_attempt": "2026-11-10T09:58:23.056643+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "3df92926cf7f",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/newsevents/speech/warsh20060718a.htm": {
     "attempts": 1,
     "collector_version": "v2",
@@ -111387,6 +111404,23 @@
     "reason": "existing speech",
     "source": "richmond",
     "speech_id": "2678e29d1e6c",
+    "status": "stored"
+  },
+  "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20261109": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-09",
+      "pdf": null,
+      "source": "richmond",
+      "speaker": "Thomas I Barkin",
+      "title": "The Rooms Driving the Economy",
+      "url": "https://www.richmondfed.org/press_room/speeches/thomas_i_barkin/2026/barkin_speech_20261109"
+    },
+    "last_attempt": "2026-11-10T09:58:31.797663+00:00",
+    "reason": "speech extracted",
+    "source": "richmond",
+    "speech_id": "0a6032a8555e",
     "status": "stored"
   },
   "https://www.richmondfed.org/publications/research/econ_focus/2021/q1/presidents_message": {
