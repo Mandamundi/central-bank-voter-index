@@ -372,7 +372,7 @@
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": "Huw Pill",
-      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 11 November at 2pm)",
+      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be released on early w/c 16 November 2026)",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
       "year": 2026
     },
@@ -390,6 +390,14 @@
       "speaker": null,
       "title": "Katharine Braddick: Speech at the UK Finance Annual Dinner, London (7pm). (to be published at 2pm)",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/katharine-braddick-speech-at-the-uk-finance-annual-dinner",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Victoria Cleland: Panel at the FTT Fintech Festival 2026, London (11.50am). (to be released on Wednesday 11 November at 10am)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
       "year": 2026
     },
     {
@@ -617,7 +625,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-11-10T09:59:47.205232+00:00",
+  "retrieved_at": "2026-11-10T11:53:16.610184+00:00",
   "since": "2026-07-13",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }

@@ -16770,6 +16770,22 @@
     "retry_after": "2026-11-18T00:00:00+00:00",
     "status": "scheduled"
   },
+  "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london": {
+    "attempts": 1,
+    "checked_at": "2026-11-10T11:53:16.885739+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": null,
+      "title": "Victoria Cleland: Panel at the FTT Fintech Festival 2026, London (11.50am). (to be released on Wednesday 11 November at 10am)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-11",
+    "retry_after": "2026-11-11T00:00:00+00:00",
+    "status": "scheduled"
+  },
   "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul": {
     "attempts": 4,
     "checked_at": "2026-11-04T15:02:54.689897+00:00",
