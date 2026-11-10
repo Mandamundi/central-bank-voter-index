@@ -16676,20 +16676,20 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series": {
-    "attempts": 2,
-    "checked_at": "2026-11-09T17:04:41.095759+00:00",
+    "attempts": 3,
+    "checked_at": "2026-11-10T09:59:47.477279+00:00",
     "collector_version": "v3",
+    "content_hash": "8aeda3c2bbc613132cc528eb3f61822eea97c9987e39cdf5c75f8bf66b66de74",
     "entry": {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Speech at the Swiss Institute of International Studies Lecture Series and Dinner hosted by Martin Schlegel at the University of Zurich​, Zurich (to be published 5.25pm)",
+      "speaker": "Andrew Bailey",
+      "title": "Central Bank independence in today’s world - Speech by Andrew Bailey",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
       "year": 2026
     },
-    "reason": "ValueError: No suitable full-text PDF linked from speech page",
-    "retry_after": "2026-11-09T21:04:42.151219+00:00",
-    "status": "failure"
+    "speech_id": "743fe406c58a0df0cf28",
+    "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026": {
     "attempts": 2,
@@ -16707,8 +16707,8 @@
     "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference": {
-    "attempts": 1,
-    "checked_at": "2026-10-31T13:16:11.579324+00:00",
+    "attempts": 2,
+    "checked_at": "2026-11-10T09:59:47.824974+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
@@ -16718,24 +16718,24 @@
       "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
       "year": 2026
     },
-    "reason": "Prepared text scheduled for 2026-11-10",
-    "retry_after": "2026-11-10T00:00:00+00:00",
-    "status": "scheduled"
+    "reason": "ValueError: No suitable full-text PDF linked from speech page",
+    "retry_after": "2026-11-10T13:59:48.300911+00:00",
+    "status": "failure"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research": {
-    "attempts": 1,
-    "checked_at": "2026-10-31T13:16:11.884157+00:00",
+    "attempts": 2,
+    "checked_at": "2026-11-10T09:59:48.315483+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": "Huw Pill",
-      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 6.30pm)",
+      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 11 November at 2pm)",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
       "year": 2026
     },
-    "reason": "Prepared text scheduled for 2026-11-10",
-    "retry_after": "2026-11-10T00:00:00+00:00",
+    "reason": "Prepared text scheduled for 2026-11-11",
+    "retry_after": "2026-11-11T00:00:00+00:00",
     "status": "scheduled"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop": {

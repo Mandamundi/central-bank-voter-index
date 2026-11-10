@@ -8,10 +8,10 @@
       "stored_speeches": 38
     },
     {
-      "latest_delivery": "2026-10-08",
+      "latest_delivery": "2026-11-09",
       "member": "Andrew Bailey",
       "policy_scores": 20,
-      "stored_speeches": 63
+      "stored_speeches": 64
     },
     {
       "latest_delivery": "2026-10-01",
@@ -60,8 +60,8 @@
     "duplicate": 166,
     "excluded": 583,
     "failure": 1,
-    "scheduled": 4,
-    "stored": 348
+    "scheduled": 3,
+    "stored": 349
   },
   "exclusion_reasons": {
     "Author was not an MPC voter on delivery date": 18,
@@ -812,8 +812,8 @@
       "member": "Andrew Bailey",
       "policy_relevant": 2,
       "publication_date_unknown": 1,
-      "scored": 10,
-      "stored": 10,
+      "scored": 11,
+      "stored": 11,
       "year": 2026
     },
     {
@@ -875,12 +875,12 @@
   ],
   "membership_coverage_start": "2017-09-04",
   "membership_terms": 18,
-  "stored_speeches": 350,
+  "stored_speeches": 351,
   "unresolved": [
     {
       "reason": "ValueError: No suitable full-text PDF linked from speech page",
-      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series"
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference"
     }
   ],
-  "valid_scores": 350
+  "valid_scores": 351
 }

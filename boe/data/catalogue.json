@@ -347,8 +347,8 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Speech at the Swiss Institute of International Studies Lecture Series and Dinner hosted by Martin Schlegel at the University of Zurich​, Zurich (to be published 5.25pm)",
+      "speaker": "Andrew Bailey",
+      "title": "Central Bank independence in today’s world - Speech by Andrew Bailey",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
       "year": 2026
     },
@@ -617,7 +617,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-11-09T17:04:40.718245+00:00",
-  "since": "2026-07-12",
+  "retrieved_at": "2026-11-10T09:59:47.205232+00:00",
+  "since": "2026-07-13",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }

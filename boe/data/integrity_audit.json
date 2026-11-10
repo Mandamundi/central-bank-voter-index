@@ -1,18 +1,18 @@
 {
   "bank": "boe",
-  "checked_at": "2026-11-09T17:04:44.590052+00:00",
-  "corpus_hash": "d875794c22b820c193339ecac389034c576f94af090459efa6e27709f94dcbee",
+  "checked_at": "2026-11-10T09:59:53.845047+00:00",
+  "corpus_hash": "626fdbfe02d5694194d3317ab8971e138af1027958cef714eb915d9fb05c7fe2",
   "earliest_delivery": "2017-09-15",
   "formats": {
-    "prepared_text": 349,
+    "prepared_text": 350,
     "prepared_text_ocr": 1
   },
   "issues": [],
   "languages": {
-    "en": 350
+    "en": 351
   },
-  "latest_delivery": "2026-10-20",
+  "latest_delivery": "2026-11-09",
   "maximum_text_chars": 96779,
-  "stored_speeches": 350,
+  "stored_speeches": 351,
   "success": true
 }
