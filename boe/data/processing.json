@@ -16723,36 +16723,35 @@
     "status": "stored"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research": {
-    "attempts": 2,
-    "checked_at": "2026-11-10T09:59:48.315483+00:00",
+    "attempts": 3,
+    "checked_at": "2026-11-11T14:53:27.996829+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
       "source": "BOE official speech sitemap",
       "speaker": "Huw Pill",
-      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be published 11 November at 2pm)",
+      "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be released on early w/c 16 November 2026)",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
       "year": 2026
     },
-    "reason": "Prepared text scheduled for 2026-11-11",
-    "retry_after": "2026-11-11T00:00:00+00:00",
+    "reason": "Prepared text scheduled for 2026-11-16",
+    "retry_after": "2026-11-16T00:00:00+00:00",
     "status": "scheduled"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop": {
-    "attempts": 1,
-    "checked_at": "2026-11-07T13:43:31.906515+00:00",
+    "attempts": 2,
+    "checked_at": "2026-11-11T14:53:28.240066+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Jon Hall: Speech at CF-Imperial Workshop on Quantitative Finance hosted by Deutsche Bank ‘Agents of change’, London (to be published at 11.30am).",
+      "speaker": "Jonathan Hall",
+      "title": "Principals and Agents – speech by Jonathan Hall",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
       "year": 2026
     },
-    "reason": "Prepared text scheduled for 2026-11-11",
-    "retry_after": "2026-11-11T00:00:00+00:00",
-    "status": "scheduled"
+    "reason": "Named speaker is outside the verified voting-member ledger",
+    "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/katharine-braddick-speech-at-the-uk-finance-annual-dinner": {
     "attempts": 1,
@@ -16771,20 +16770,19 @@
     "status": "scheduled"
   },
   "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london": {
-    "attempts": 1,
-    "checked_at": "2026-11-10T11:53:16.885739+00:00",
+    "attempts": 2,
+    "checked_at": "2026-11-11T14:53:28.255625+00:00",
     "collector_version": "v3",
     "entry": {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Victoria Cleland: Panel at the FTT Fintech Festival 2026, London (11.50am). (to be released on Wednesday 11 November at 10am)",
+      "speaker": "Victoria Cleland",
+      "title": "UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
       "year": 2026
     },
-    "reason": "Prepared text scheduled for 2026-11-11",
-    "retry_after": "2026-11-11T00:00:00+00:00",
-    "status": "scheduled"
+    "reason": "Named speaker is outside the verified voting-member ledger",
+    "status": "excluded"
   },
   "https://www.bankofengland.co.uk/speech/2026/october/andrew-bailey-speech-at-the-istanbul-economic-forum-central-bank-of-the-republic-of-turkey-istanbul": {
     "attempts": 4,

@@ -58,8 +58,8 @@
   ],
   "discovery_outcomes": {
     "duplicate": 166,
-    "excluded": 583,
-    "scheduled": 4,
+    "excluded": 585,
+    "scheduled": 2,
     "stored": 350
   },
   "exclusion_reasons": {
@@ -68,7 +68,7 @@
     "Interview/Q&A/conversation rather than authored prepared text": 4,
     "Joint research paper rather than individually attributable prepared remarks": 4,
     "Named author is outside verified MPC voting-member history": 2,
-    "Named speaker is outside the verified voting-member ledger": 385,
+    "Named speaker is outside the verified voting-member ledger": 387,
     "Official page offers video without a published prepared text": 1,
     "PDF byline identifies a non-MPC speaker": 3,
     "PowerPoint slide deck without prepared speech prose": 1,

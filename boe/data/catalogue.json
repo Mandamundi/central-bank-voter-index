@@ -379,8 +379,8 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Jon Hall: Speech at CF-Imperial Workshop on Quantitative Finance hosted by Deutsche Bank ‘Agents of change’, London (to be published at 11.30am).",
+      "speaker": "Jonathan Hall",
+      "title": "Principals and Agents – speech by Jonathan Hall",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
       "year": 2026
     },
@@ -395,8 +395,8 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
-      "speaker": null,
-      "title": "Victoria Cleland: Panel at the FTT Fintech Festival 2026, London (11.50am). (to be released on Wednesday 11 November at 10am)",
+      "speaker": "Victoria Cleland",
+      "title": "UK Retail Payments Infrastructure: moving from vision to design − speech by Victoria Cleland",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
       "year": 2026
     },
@@ -625,7 +625,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-11-10T15:23:48.670774+00:00",
-  "since": "2026-07-13",
+  "retrieved_at": "2026-11-11T14:53:27.768448+00:00",
+  "since": "2026-07-14",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }
