@@ -57962,6 +57962,23 @@
     "speech_id": "3b76862da203",
     "status": "stored"
   },
+  "https://www.dallasfed.org/news/speeches/logan/2026/lkl261110": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-10",
+      "pdf": null,
+      "source": "dallas",
+      "speaker": "Logan",
+      "title": null,
+      "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261110"
+    },
+    "last_attempt": "2026-11-11T14:52:30.286627+00:00",
+    "reason": "speech extracted",
+    "source": "dallas",
+    "speech_id": "7bd89197164e",
+    "status": "stored"
+  },
   "https://www.dallasfed.org/news/speeches/mcteer/1998/mcteer980919": {
     "attempts": 1,
     "collector_version": "v3.3",
@@ -68155,6 +68172,23 @@
     "reason": "speech extracted",
     "source": "board",
     "speech_id": "2e0ab142a72a",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+    },
+    "last_attempt": "2026-11-11T14:52:09.123795+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "43046d387b8e",
     "status": "stored"
   },
   "https://www.federalreserve.gov/newsevents/speech/brainard20141202a.htm": {
@@ -95022,7 +95056,7 @@
     "status": "excluded"
   },
   "https://www.minneapolisfed.org/article/2016/wsj-computer-cant-do-the-feds-job": {
-    "attempts": 4,
+    "attempts": 5,
     "collector_version": "v4",
     "entry": {
       "date": "2016-12-19",
@@ -95032,9 +95066,9 @@
       "title": "WSJ: Computer Can’t Do the Fed’s Job",
       "url": "https://www.minneapolisfed.org/article/2016/wsj-computer-cant-do-the-feds-job"
     },
-    "last_attempt": "2026-11-03T14:49:27.543456+00:00",
+    "last_attempt": "2026-11-11T14:52:26.457997+00:00",
     "reason": "no prepared speech text (594 chars)",
-    "retry_after": "2026-11-11T14:49:27.543456+00:00",
+    "retry_after": "2026-11-27T14:52:26.457997+00:00",
     "source": "minneapolis",
     "status": "extraction_failure"
   },
@@ -108712,6 +108746,23 @@
     "reason": "existing speech",
     "source": "philadelphia",
     "speech_id": "ffedaedb26c8",
+    "status": "stored"
+  },
+  "https://www.philadelphiafed.org/the-economy/monetary-policy/261110-81st-annual-field-meeting-capstone-speech": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-10",
+      "pdf": null,
+      "source": "philadelphia",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/261110-81st-annual-field-meeting-capstone-speech"
+    },
+    "last_attempt": "2026-11-11T14:52:14.826377+00:00",
+    "reason": "speech extracted",
+    "source": "philadelphia",
+    "speech_id": "fa21c5325723",
     "status": "stored"
   },
   "https://www.richmondfed.org/press_room/speeches/anna_kovner/2026/kovner_speech_20260506": {
