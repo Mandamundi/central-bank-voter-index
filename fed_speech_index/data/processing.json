@@ -65081,6 +65081,23 @@
     "speech_id": "43ca2f20cac5",
     "status": "stored"
   },
+  "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm"
+    },
+    "last_attempt": "2026-11-12T15:43:22.299718+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "e2a0fb3c7899",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/newsevents/speech/bernanke20060206a.htm": {
     "attempts": 1,
     "collector_version": "v2",
