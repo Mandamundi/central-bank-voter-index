@@ -171,5 +171,24 @@ class CollectorTests(unittest.TestCase):
             self.assertEqual(store.load_processing()[urls[0]]['status'],'stored')
 
 
+class RosterTests(unittest.TestCase):
+    def test_dissenter_after_a_reason_and_before_and_is_kept(self):
+        # December 2025 minutes: Goolsbee was dropped with the reason that preceded him.
+        line = ("Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage "
+                "point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the "
+                "target range for the federal funds rate at this meeting")
+        self.assertEqual(voters.parse_vote_names(line), ['Stephen I. Miran', 'Austan D. Goolsbee', 'Jeffrey R. Schmid'])
+
+    def test_minutes_listed_under_another_name_are_found(self):
+        # June 2008 minutes are linked as /monetarypolicy/fomc20080625.htm; a minutes link wins where both exist.
+        page = ('<a href="/monetarypolicy/fomc20080625.htm">Minutes</a>'
+                '<a href="/monetarypolicy/fomcminutes20080430.htm">Minutes</a>'
+                '<a href="/monetarypolicy/fomc20080430.htm">Statement</a>')
+        with patch.object(voters.http_get, 'get', return_value=type('R', (), {'text': page})()):
+            urls = dict(voters.minutes_urls())
+        self.assertEqual(urls['2008-06-25'], voters.FED + '/monetarypolicy/fomc20080625.htm')
+        self.assertEqual(urls['2008-04-30'], voters.FED + '/monetarypolicy/fomcminutes20080430.htm')
+
+
 if __name__ == '__main__':
     unittest.main()

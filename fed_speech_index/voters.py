@@ -58,8 +58,9 @@ def same_person(a: tuple[str, str], b: tuple[str, str]) -> bool:
 # A person's name as the minutes print it: "Hoenig", "Beth M. Hammack", "Sarah Bloom Raskin".
 _NAME = r"(?:[A-Z][a-z]+\s+(?:[A-Z]\.\s+)?(?:[A-Z][a-z]+\s+)?)?(?:Mc|Mac)?[A-Z][A-Za-z'\-]+(?:,?\s+Jr\.)?"
 # A dissent reason ("who preferred ...") runs until the next dissenter's name, which follows
-# "and" and is itself followed by a comma, "who", or the end of the line.
-_REASON = re.compile(rf",?\s*\bwho\b.*?(?=(?:,\s*|\s+)and\s+{_NAME}(?:,|\s+who\b|\s*$)|$)")
+# "and" and is itself followed by a comma, "who", another "and" ("...; and Austan D. Goolsbee and Jeffrey R.
+# Schmid, who ...", December 2025), or the end of the line.
+_REASON = re.compile(rf",?\s*\bwho\b.*?(?=(?:,\s*|\s+)and\s+{_NAME}(?:,|\s+who\b|\s+and\s|\s*$)|$)")
 
 
 def parse_vote_names(segment: str) -> list[str]:
@@ -125,6 +126,10 @@ def minutes_urls() -> list[tuple[str, str]]:
         for path in re.findall(r'href="(/(?:monetarypolicy/fomcminutes|fomc/minutes/)(\d{8})\.htm)"', page):
             href, ymd = path
             found[f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:]}"] = FED + href
+        # A few meetings link their HTML minutes under another name (June 2008: /monetarypolicy/fomc20080625.htm);
+        # used only where no minutes link exists for that date.
+        for href, ymd in re.findall(r'href="(/monetarypolicy/fomc(\d{8})\.htm)"', page):
+            found.setdefault(f"{ymd[:4]}-{ymd[4:6]}-{ymd[6:]}", FED + href)
     return sorted(found.items())
 
 
