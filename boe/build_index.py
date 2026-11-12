@@ -1,11 +1,17 @@
 """Rebuild the daily index CSVs in output/ from the stored speeches, scores and membership terms.
 
-Same method as the Fed project. On each day, each voter's stance is the score of their most recent
-policy-relevant speech available by that day (several delivered on the same day are averaged), and
-the index is the equal-weight mean over voters. The series starts on the first day every voter has a
-scored speech; after that, voters with no scored speech yet are left out and listed in the coverage
-file. A later publication of an older speech cannot replace a newer stance, and a new membership term
-does not inherit a previous term's stance. Old stances carry forward until replaced; their age is shown.
+Same method as the Fed project. On each day, each voter's stance is estimated from every
+policy-relevant speech available by that day with the Kalman filter in stance_filter.py (parameters
+fitted to this bank's speech history, stored in data/filter_params.json; refit with fit_filter.py).
+The index is the equal-weight mean of those estimates over the day's voters, with a 95% band;
+disagreement is their standard deviation. The series starts on the first day every voter has a scored
+speech; after that, a voter with no scored speech yet counts at the committee's estimated view and is
+listed in the coverage file. A later publication of an older speech cannot replace a newer stance.
+
+The member file keeps each voter's latest speech score (its date and age shown, so a stale stance
+shows) next to the filtered estimate that enters the index. A new membership term does not inherit a
+previous term's latest score there; in the filter, an earlier term's speeches still count, faded by
+the time since.
 
 Checks on the data (roster, collection, scoring backlog) are reported as warnings in
 output/status.json; they never blank the index.
@@ -20,8 +26,11 @@ import statistics
 from zoneinfo import ZoneInfo
 import config
 import prompt
+import stance_filter
 import store
 import voters
+
+FILTER_PARAMS = config.DATA / 'filter_params.json'
 
 
 def policy_speeches():
@@ -86,18 +95,37 @@ def start_day(stances, roster, today):
     return None
 
 
-def build_daily(speeches, roster, today):
+def filter_observations(speeches, roster=None):
+    """(pid, readings for stance_filter): a speech enters on the day it became available."""
+    pid = lambda key: '|'.join(key)
+    return pid, stance_filter.prepare((s['available_date'], pid(s['key']), s['value'], s['date']) for s in speeches)
+
+
+def build_daily(speeches, roster, today, params=None):
     stances = Stances(speeches)
     day = start_day(stances, roster, today)
-    coverage, members = [], []
+    days = []
     while day and day <= today:
-        date = day.isoformat()
+        days.append(day.isoformat())
+        day += dt.timedelta(days=1)
+    pid, observations = filter_observations(speeches)
+    filtered = {}
+    if days:
+        params = params or stance_filter.load_params(FILTER_PARAMS)
+        voters_on = lambda d: [pid(voters.raw_key(t['name'])) for t in roster.active_terms(d)]
+        filtered = {r['date']: r for r in stance_filter.daily(observations, days, voters_on, params)}
+    coverage, members = [], []
+    for date in days:
+        day = dt.date.fromisoformat(date)
         terms = roster.active_terms(date)
+        row = filtered.get(date)
         values, missing, stale = [], [], []
         for term in terms:
             speech = stances.latest_speech(voters.raw_key(term['name']), date, term['start_date'])
+            estimate, estimate_sd = row['members'][pid(voters.raw_key(term['name']))] if row else ('', '')
             member = {'date': date, 'member': term['name'], 'score': '', 'level': '', 'as_of': '',
-                      'available_date': '', 'age_days': '', 'speech_ids': '', 'availability_basis': ''}
+                      'available_date': '', 'age_days': '', 'speech_ids': '', 'availability_basis': '',
+                      'estimate': round(estimate, 6) if row else '', 'estimate_sd': round(estimate_sd, 6) if row else ''}
             if speech:
                 age = (day - dt.date.fromisoformat(speech['date'])).days
                 values.append(speech['value'])
@@ -109,11 +137,13 @@ def build_daily(speeches, roster, today):
             else:
                 missing.append(term['name'])
             members.append(member)
-        coverage.append({'date': date, 'index': statistics.fmean(values) if values else '',
-            'disagreement': statistics.pstdev(values) if values else '', 'active_voters': len(terms),
+        coverage.append({'date': date, 'index': row['index'] if row else '',
+            'disagreement': row['disagreement'] if row else '',
+            'index_low': row['index'] - 1.96 * row['index_sd'] if row else '',
+            'index_high': row['index'] + 1.96 * row['index_sd'] if row else '',
+            'active_voters': len(terms),
             'scored_voters': len(values), 'coverage': len(values)/len(terms) if terms else 0,
             'missing_members': '|'.join(missing), 'stale_members': '|'.join(stale)})
-        day += dt.timedelta(days=1)
     return coverage, members
 
 
@@ -168,12 +198,17 @@ def main():
     rows, members = build_daily(policy_speeches(), voters.Roster(), today)
     problems = warnings(dt.datetime.now(dt.timezone.utc).date().isoformat())
     if rows and rows[-1]['missing_members']:
-        problems.append(f"Voters without a scored speech, left out of today's index: {rows[-1]['missing_members'].replace('|', ', ')}")
+        problems.append(f"Voters without a scored speech, counted at the committee's estimated view: {rows[-1]['missing_members'].replace('|', ', ')}")
     config.OUTPUT.mkdir(exist_ok=True)
     write_csv(config.OUTPUT / f'{config.BANK}_coverage.csv', rows,
-              ['date','index','disagreement','active_voters','scored_voters','coverage','missing_members','stale_members'])
+              ['date','index','disagreement','index_low','index_high','active_voters','scored_voters','coverage',
+               'missing_members','stale_members'])
     write_csv(config.OUTPUT / f'{config.BANK}_member_scores.csv', members,
-              ['date','member','score','level','as_of','available_date','age_days','speech_ids','availability_basis'])
+              ['date','member','score','level','as_of','available_date','age_days','speech_ids','availability_basis',
+               'estimate','estimate_sd'])
+    write_csv(config.OUTPUT / f'{config.BANK}_speech_index_band.csv',
+              [{'date': r['date'], 'low': f"{r['index_low']:.2f}", 'high': f"{r['index_high']:.2f}"} for r in rows if r['index'] != ''],
+              ['date','low','high'])
     for suffix, key in [('speech_index','index'), ('speech_disagreement','disagreement')]:
         write_csv(config.OUTPUT / f'{config.BANK}_{suffix}.csv',
                   [{'date': r['date'], 'index': f'{r[key]:.2f}'} for r in rows if r[key] != ''],

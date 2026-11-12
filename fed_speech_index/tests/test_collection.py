@@ -108,7 +108,11 @@ class CollectorTests(unittest.TestCase):
         ]
         with patch.object(config, 'START_DATE', '2020-12-31'):
             result = build_index.build(speeches, roster, dt.date(2021,1,1))
-        self.assertEqual(result['fed_speech_index'], [('2020-12-31',25.0),('2021-01-01',75.0)])
+        # Smith (25) is the only voter on the first day, Doe (75, spoken before his term) on the second.
+        (d1, v1), (d2, v2) = result['fed_speech_index']
+        self.assertEqual((d1, d2), ('2020-12-31', '2021-01-01'))
+        self.assertLess(v1, 50)
+        self.assertGreater(v2, 50)
 
     def test_richmond_magazine_is_excluded_without_request(self):
         e = sources.entry('richmond','/publications/research/econ_focus/2021/q1/presidents_message')

@@ -1,21 +1,22 @@
-"""Rebuild the two daily index CSVs in output/ from the stored speeches, scores and voter history.
+"""Rebuild the daily index CSVs in output/ from the stored speeches, scores and voter history.
 
-On each day: take the FOMC voters on that day (data/voters.csv), give each voter the score of their
-most recent policy-relevant speech delivered on or before that day (several on that same day are
-averaged), and average those scores
-with equal weight per voter. The series starts on the first day every voter has a scored speech; after
-that, voters with no scored speech yet are left out. Disagreement is the
-standard deviation of the same voters' scores.
+On each day: take the FOMC voters on that day (data/voters.csv) and estimate each one's stance from every
+policy-relevant speech up to that day with the Kalman filter in stance_filter.py (its parameters are
+fitted to this bank's speech history and stored in data/filter_params.json; refit with fit_filter.py).
+The index is the equal-weight mean of those estimates; disagreement is their standard deviation. A
+voter with no speech yet counts at the committee's estimated view. The series starts on
+config.START_DATE.
 
-  fed_speech_index.csv          mean of voters' latest scores (50 = hold; below 50 = pressure to ease, above 50 = pressure to tighten)
-  fed_speech_disagreement.csv   standard deviation of those scores
-  fed_member_scores.csv         each voter's score on each day, for member charts and the current-score widget
+  fed_speech_index.csv          mean of voters' estimated stances (50 = hold; below 50 = pressure to ease, above 50 = pressure to tighten)
+  fed_speech_index_band.csv     95% band around the index (date, low, high)
+  fed_speech_disagreement.csv   standard deviation of the voters' estimated stances
+  fed_member_scores.csv         each voter on each day, for member charts and the current-score widget
 
-The two index files have two columns, date and index, one row per calendar day through today.
-fed_member_scores.csv has one row per voter per day: date, member, score, level, as_of. Only voters
-on that day appear, with the score of their latest policy-relevant speech on or before it (the same
-value that enters the average); as_of is that speech's date, so a stale stance shows. The current
-score of each member is the rows for the last date.
+The index and disagreement files have two columns, date and index, one row per calendar day through today.
+fed_member_scores.csv has one row per voter per day: date, member, score, level, as_of, estimate,
+estimate_sd. score is the voter's latest policy-relevant speech on or before that day and as_of its date,
+so a stale stance shows; estimate (and its standard deviation) is the filtered stance that enters the
+index. The current values of each member are the rows for the last date.
 """
 from __future__ import annotations
 
@@ -27,8 +28,11 @@ import sys
 
 import config
 import prompt
+import stance_filter
 import store
 import voters
+
+FILTER_PARAMS = config.DATA / "filter_params.json"
 
 
 def policy_speeches() -> list[dict]:
@@ -91,20 +95,46 @@ def start_day(stances: Stances, roster: voters.Roster, first: str, today: dt.dat
     return None
 
 
-def build(speeches: list[dict], roster: voters.Roster, today: dt.date) -> dict[str, list[tuple[str, float]]]:
-    series = {"fed_speech_index": [], "fed_speech_disagreement": []}
+def person_ids(keys):
+    """One id per person: old minutes give surnames only, so a surname-only key takes the person's initial
+    when exactly one person with that surname is known."""
+    initials: dict[str, set[str]] = {}
+    for surname, initial in keys:
+        if initial:
+            initials.setdefault(surname, set()).add(initial)
+    def pid(key):
+        surname, initial = key
+        if not initial and len(initials.get(surname, ())) == 1:
+            initial = next(iter(initials[surname]))
+        return f"{surname}|{initial}"
+    return pid
+
+
+def filter_observations(speeches: list[dict], roster: voters.Roster):
+    """(pid, readings for stance_filter): one reading per person per delivery day."""
+    pid = person_ids(set(roster.ever()) | {s["key"] for s in speeches})
+    return pid, stance_filter.prepare((s["date"], pid(s["key"]), s["value"], s["date"]) for s in speeches)
+
+
+def filtered_days(speeches: list[dict], roster: voters.Roster, today: dt.date, params: dict | None = None):
+    """(pid, stance_filter.daily rows) from the start day through today."""
     if not speeches:
-        return series
-    stances = Stances(speeches)
-    day = start_day(stances, roster, speeches[0]["date"], today)
+        return None, []
+    day = start_day(Stances(speeches), roster, speeches[0]["date"], today)
+    days = []
     while day and day <= today:
-        d = day.isoformat()
-        values = [v for v in (stances.latest(k, d) for k in roster.on(d)) if v is not None]
-        if values:
-            series["fed_speech_index"].append((d, statistics.fmean(values)))
-            series["fed_speech_disagreement"].append((d, statistics.pstdev(values)))
+        days.append(day.isoformat())
         day += dt.timedelta(days=1)
-    return series
+    pid, observations = filter_observations(speeches, roster)
+    params = params or stance_filter.load_params(FILTER_PARAMS)
+    return pid, stance_filter.daily(observations, days, lambda d: [pid(k) for k in roster.on(d)], params)
+
+
+def build(speeches: list[dict], roster: voters.Roster, today: dt.date, params: dict | None = None) -> dict[str, list[tuple[str, float]]]:
+    _, rows = filtered_days(speeches, roster, today, params)
+    return {"fed_speech_index": [(r["date"], r["index"]) for r in rows],
+            "fed_speech_disagreement": [(r["date"], r["disagreement"]) for r in rows],
+            "fed_speech_index_band": [(r["date"], r["index"] - 1.96 * r["index_sd"], r["index"] + 1.96 * r["index_sd"]) for r in rows]}
 
 
 def member_names() -> dict[tuple[str, str], str]:
@@ -118,21 +148,22 @@ def member_names() -> dict[tuple[str, str], str]:
     return best
 
 
-def build_members(speeches: list[dict], roster: voters.Roster, today: dt.date) -> list[tuple]:
-    """(date, member, score, level, as_of) for every voter on every day that voter has a scored speech."""
+def build_members(speeches: list[dict], roster: voters.Roster, today: dt.date, params: dict | None = None) -> list[tuple]:
+    """(date, member, score, level, as_of, estimate, estimate_sd) for every voter on every day. score,
+    level and as_of are blank until the voter's first scored speech; the estimate is always there."""
+    pid, days = filtered_days(speeches, roster, today, params)
     rows = []
-    if not speeches:
+    if not days:
         return rows
     stances = Stances(speeches)
     names = member_names()
-    day = start_day(stances, roster, speeches[0]["date"], today)
-    while day and day <= today:
-        d = day.isoformat()
+    for row in days:
+        d = row["date"]
         for key in dict.fromkeys(roster.on(d)):
             speech = stances.latest_speech(key, d)
-            if speech:
-                rows.append((d, names.get(key, " ".join(key).strip()), speech["value"], speech["level"], speech["date"]))
-        day += dt.timedelta(days=1)
+            estimate, sd = row["members"][pid(key)]
+            rows.append((d, names.get(key, " ".join(key).strip()), speech["value"] if speech else "",
+                         speech["level"] if speech else "", speech["date"] if speech else "", estimate, sd))
     return rows
 
 
@@ -140,17 +171,21 @@ def main() -> int:
     speeches = policy_speeches()
     series = build(speeches, voters.Roster(), dt.datetime.now(dt.timezone.utc).date())
     config.OUTPUT.mkdir(exist_ok=True)
-    for name, rows in series.items():
+    for name in ["fed_speech_index", "fed_speech_disagreement"]:
         with (config.OUTPUT / f"{name}.csv").open("w", encoding="utf-8", newline="") as f:
             w = csv.writer(f)
             w.writerow(["date", "index"])
-            w.writerows((d, f"{v:.2f}") for d, v in rows)
+            w.writerows((d, f"{v:.2f}") for d, v in series[name])
+    with (config.OUTPUT / "fed_speech_index_band.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["date", "low", "high"])
+        w.writerows((d, f"{lo:.2f}", f"{hi:.2f}") for d, lo, hi in series["fed_speech_index_band"])
     today = dt.datetime.now(dt.timezone.utc).date()
     members = build_members(speeches, voters.Roster(), today)
     with (config.OUTPUT / "fed_member_scores.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["date", "member", "score", "level", "as_of"])
-        w.writerows((d, m, f"{v:.2f}", lv, a) for d, m, v, lv, a in members)
+        w.writerow(["date", "member", "score", "level", "as_of", "estimate", "estimate_sd"])
+        w.writerows((d, m, f"{v:.2f}" if v != "" else "", lv, a, f"{e:.2f}", f"{sd:.2f}") for d, m, v, lv, a, e, sd in members)
     span = f"{series['fed_speech_index'][0][0]} to {series['fed_speech_index'][-1][0]}" if series["fed_speech_index"] else "no data yet"
     print(f"Built indexes from {len(speeches)} policy speeches ({span}; " + ("starts on config.START_DATE)." if config.START_DATE else "starts on the first day every voter has a score)."))
     return 0

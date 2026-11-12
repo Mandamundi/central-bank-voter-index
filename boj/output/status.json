@@ -1,13 +1,15 @@
 {
   "bank": "boj",
-  "built_at": "2026-11-11T14:54:06.737412+00:00",
+  "built_at": "2026-11-12T03:59:09.884721+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 0.7777777777777778,
-    "date": "2026-11-11",
-    "disagreement": 6.998542122237652,
-    "index": 77.14285714285714,
+    "date": "2026-11-12",
+    "disagreement": 3.0427145355526988,
+    "index": 74.67639885888775,
+    "index_high": 84.48604316252556,
+    "index_low": 64.86675455524994,
     "missing_members": "ASADA Toichiro|SATO Ayano",
     "scored_voters": 7,
     "stale_members": "UCHIDA Shinichi"
@@ -15,6 +17,9 @@
   "membership_coverage_start": "2017-07-24",
   "scorer_version": "gpt-6-luna:v10",
   "warnings": [
-    "Voters without a scored speech, left out of today's index: ASADA Toichiro, SATO Ayano"
+    "Official roster has not been verified today",
+    "Policy context has not been verified today",
+    "Collector has not completed today",
+    "Voters without a scored speech, counted at the committee's estimated view: ASADA Toichiro, SATO Ayano"
   ]
 }

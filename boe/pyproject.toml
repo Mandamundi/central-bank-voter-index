@@ -12,6 +12,7 @@ dependencies = [
     "curl-cffi>=0.7",
     "trafilatura>=2.0",
     "lxml>=5.3",
+    "numpy>=2.0",
 ]
 
 [tool.uv]

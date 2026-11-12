@@ -14,12 +14,13 @@ the three indexes are scored with the same instrument; each bank's `prompt.py` o
   the "Committee Members" list on [fomc.htm](https://www.federalreserve.gov/monetarypolicy/fomc.htm),
   checked daily. Every name in a vote line, dissenters and alternates included, is a voter at
   that meeting. No member list is kept by hand. See `voters.py`.
-- **Each voter's stance** is the score of their most recent policy-relevant text on or before that
-  date (several on the same day are averaged). Every voter counts equally, however often they
-  speak. The published index starts on 2008-01-01 (`config.START_DATE`): before then the archive
-  has too few policy speeches per voter (40-60 a year in all), so many stances were carried
-  forward for years. Earlier speeches still set the voters' opening stances. Voters with no scored
-  text yet are left out.
+- **Each voter's stance** is estimated from every policy-relevant text on or before that date by the
+  stance filter (`stance_filter.py`; parameters fitted to this history in `data/filter_params.json`
+  by `fit_filter.py`). Several texts on the same day are one reading. Every voter counts equally,
+  however often they speak. The published index starts on 2008-01-01 (`config.START_DATE`): before
+  then the archive has too few policy speeches per voter (40-60 a year in all). Earlier speeches
+  still inform the opening estimates. A voter with no scored text yet counts at the committee's
+  estimated view.
 - **What counts as text**: the member's own prepared words: speeches, signed essays, statements
   (including dissent statements) and testimony. Interviews, Q&As, conversations, podcasts and
   video-only pages are skipped. The scorer marks texts that say nothing about monetary policy as
@@ -43,12 +44,14 @@ are mostly video Q&As; his written views are the signed essays on his Minneapoli
 are collected.
 
 ## Outputs (`output/`)
-Each file has two columns, `date` and `index`, with one row per calendar day.
+One row per calendar day.
 
 | File | Meaning |
 |---|---|
-| `fed_speech_index.csv` | Mean of the voters' latest scores. 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
-| `fed_speech_disagreement.csv` | Standard deviation of those scores |
+| `fed_speech_index.csv` | `date`, `index`: mean of the voters' estimated stances. 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
+| `fed_speech_index_band.csv` | `date`, `low`, `high`: 95% band around the index |
+| `fed_speech_disagreement.csv` | `date`, `index`: standard deviation of the voters' estimated stances |
+| `fed_member_scores.csv` | Each voter on each day: latest speech `score`, `level` and its date `as_of` (blank before their first text), and the filtered `estimate` and `estimate_sd` that enter the index |
 
 ## One-time setup (local)
 Uses [uv](https://docs.astral.sh/uv/). `uv sync` installs Python 3.12 and the locked dependencies into `.venv`.

@@ -16,11 +16,14 @@ original-language quoting rule. The appendix never says which level to give.
   [Policy Board page](https://www.boj.or.jp/en/about/organization/policyboard/index.htm) every day.
   A difference writes `data/pending_roster.json`: check the effective dates in the official notices,
   add the term to `data/voters.csv` and rerun the audit.
-- **Each voter's stance** is the score of their most recent policy-relevant speech available on or
-  before that date (several on the same day are averaged). Every voter counts equally. The index starts
-  on the first day every voter has a scored speech; after that, voters with no scored speech yet are
-  left out and listed in `output/boj_coverage.csv`. A speech published late
-  cannot replace a newer stance, and a new term does not inherit a previous term's stance.
+- **Each voter's stance** is estimated from every policy-relevant speech available on or before that
+  date by the stance filter (`stance_filter.py`; parameters fitted to this bank's history in
+  `data/filter_params.json` by `fit_filter.py`). Several speeches delivered on the same day are one
+  reading. Every voter counts equally. The index starts on the first day every voter has a scored
+  speech; after that, a voter with no scored speech yet counts at the committee's estimated view and
+  is listed in `output/boj_coverage.csv`. A speech published late cannot replace a newer stance. In
+  the member file a new term does not inherit a previous term's latest score; in the filter an earlier
+  term's speeches still count, faded by the time since.
 - **What counts as text**: the member's own prepared words, speeches and essays. Press conferences,
   interviews, Q&As, slides and appendices are skipped. Policy statements and minutes are not used as
   texts. The scorer marks texts that say nothing about monetary policy as not relevant.
@@ -38,10 +41,11 @@ a deputy is the author's. Evidence quotes are in the language of the text.
 ## Outputs (`output/`)
 | File | Meaning |
 |---|---|
-| `boj_speech_index.csv` | Mean of the voters' latest scores (`date`, `index`). 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
-| `boj_speech_disagreement.csv` | Standard deviation of those scores |
-| `boj_member_scores.csv` | Each voter's score on each day, with the speech date and age |
-| `boj_coverage.csv` | Voters scored and missing on each day |
+| `boj_speech_index.csv` | Mean of the voters' estimated stances (`date`, `index`). 50 = hold with no lean; below 50 = voters pressing to ease (0 = emergency easing), above 50 = pressing to tighten |
+| `boj_speech_index_band.csv` | 95% band around the index (`date`, `low`, `high`) |
+| `boj_speech_disagreement.csv` | Standard deviation of the voters' estimated stances |
+| `boj_member_scores.csv` | Each voter on each day: latest speech score with its date and age, and the filtered `estimate` and `estimate_sd` that enter the index |
+| `boj_coverage.csv` | Index, band and disagreement on each day, with voters scored and still without a speech |
 | `status.json` | Warnings: roster or collection checks not passed today, scoring backlog, missing voters |
 
 ## Setup (local)

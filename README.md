@@ -37,21 +37,41 @@ policy-decision sentiment index, and this one is its forward-looking companion.
   development is a lean, not a move. Texts that say nothing about monetary policy, or only repeat the
   latest decision, are marked not relevant and ignored. Recorded votes are never used. The full rules
   are in `rubric.py`.
-- **Stance:** a voter's stance on a day is the score of their latest relevant text up to that day.
-  Several texts on the same day are averaged. A stance carries forward unchanged until the voter next
-  speaks, however long that is: a changed view moves the index the day it is expressed. It is never
-  adjusted for policy decisions made since.
-- **Index:** the equal-weight mean of the current voters' stances; the Chair counts like everyone
-  else. **Disagreement:** their standard deviation. Each series starts on the first day every voter
-  has a scored text (the Fed's on 2008-01-01: before then too few speeches per voter, so stances ran
-  years stale); after that, a new voter is left out until their first relevant text. Changes in
-  the committee (appointments, the Fed's yearly rotation) move the index too, since the voters
-  changed.
+- **Stance:** a voter's stance on a day is estimated from every relevant text up to that day by a
+  Kalman filter (`stance_filter.py`, below), not taken as their last score unchanged. Several texts
+  on the same day are one reading. A fresh text dominates the estimate; a voter who has not spoken
+  for a while drifts toward the committee's current view, and the estimate's uncertainty widens.
+- **Index:** the equal-weight mean of the current voters' estimated stances, with a 95% band; the
+  Chair counts like everyone else. **Disagreement:** the standard deviation of those estimates. Each
+  series starts on the first day every voter has a scored text (the Fed's on 2008-01-01: before then
+  too few speeches per voter); after that, a new voter with no text yet counts at the committee's
+  estimated view. Changes in the committee (appointments, the Fed's yearly rotation) move the index
+  too, since the voters changed.
 
-Each bank's `output/` has the two daily series (`*_speech_index.csv`, `*_speech_disagreement.csv`)
-and `*_member_scores.csv`, which gives each voter's score per day for member pages.
+Each bank's `output/` has the daily series (`*_speech_index.csv`, `*_speech_index_band.csv`,
+`*_speech_disagreement.csv`) and `*_member_scores.csv`, which gives each voter's latest speech score
+per day (with its date, so a stale stance shows) and the filtered estimate that enters the index.
 `data/scores.jsonl` holds each text's level (0-10; ×10 for the 0-100 value), verbatim evidence quotes and a one- or two-sentence rationale
 (what the speaker said about the policy outlook and why that is the level), for dashboard summaries.
+
+## Stance filter
+`stance_filter.py` (the same file in all three folders) treats each scored text as a noisy reading of
+a view that keeps evolving: a voter's stance is the committee's shared view plus their own deviation
+from it, both drifting day to day and reverting slowly (the shared view toward 50, deviations toward
+zero). The filter estimates every voter's stance on every day from what was available by that day, so
+the index never looks ahead.
+
+Its five numbers (the spread and half-life of the shared view and of the deviations, and the reading
+noise) are not set by hand. `fit_filter.py` fits them by maximum likelihood to the bank's own history
+and stores them in `data/filter_params.json`. They are frozen like the rubric: refit deliberately,
+after a rescore or about once a year, since new parameters revise the whole history.
+
+The choice was tested on held-out texts (`stance_filter_pilot/`): fitted on earlier speeches, the
+filter predicted each later speech better than carrying the last score forward at the Fed (average
+error 8.5 vs 9.6 points) and the BOE (10.8 vs 14.0), and as well at the BOJ (5.8 vs 5.8), with far
+fewer large misses at all three. A separate effect of rate decisions was tested and rejected by a
+likelihood-ratio test at all three banks, so the model has none. `fit_filter.py` repeats the test
+every time it refits.
 
 ## Shared scoring rubric
 `rubric.py` holds the scale, the prompt core and the response schema. It is the same file in all

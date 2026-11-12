@@ -66,31 +66,40 @@ class RosterAndIndexTests(unittest.TestCase):
 
     def test_full_roster_mean_gives_each_member_one_weight(self):
         rows=[speech(n,'2020-01-01',10 if i==0 else 0) for i,n in enumerate(NAMES)]
-        rows.append(speech(NAMES[0],'2020-01-01',10,identifier='second-speech'))
         with patch.object(config,'START_DATE',None):
-            daily,members=build_index.build_daily(rows,voters.Roster(terms()),dt.date(2020,1,1))
-        self.assertAlmostEqual(daily[0]['index'],100/9)
+            single,members=build_index.build_daily(rows,voters.Roster(terms()),dt.date(2020,1,1))
+            double,_=build_index.build_daily(rows+[speech(NAMES[0],'2020-01-01',10,identifier='second-speech')],
+                                             voters.Roster(terms()),dt.date(2020,1,1))
+        # The index is the equal-weight mean of the members' estimates; a second same-day text adds no weight.
+        self.assertAlmostEqual(single[0]['index'],sum(m['estimate'] for m in members)/9,places=4)
+        self.assertAlmostEqual(double[0]['index'],single[0]['index'])
         self.assertEqual(len(members),9)
+        self.assertGreater(members[0]['estimate'],max(m['estimate'] for m in members[1:]))
 
     def test_index_starts_on_the_first_day_every_voter_has_a_stance(self):
         rows=[speech(n,'2020-01-01') for n in NAMES[:-1]]+[speech(NAMES[-1],'2020-01-03',10)]
         with patch.object(config,'START_DATE',None):
             daily,members=build_index.build_daily(rows,voters.Roster(terms()),dt.date(2020,1,4))
         self.assertEqual([r['date'] for r in daily],['2020-01-03','2020-01-04'])
-        self.assertAlmostEqual(daily[0]['index'],(8*50+100)/9)
+        self.assertGreater(daily[0]['index'],50)
+        self.assertLess(daily[0]['index'],100)
         self.assertEqual(members[0]['date'],'2020-01-03')
 
-    def test_after_the_start_a_new_voter_without_a_stance_is_left_out_and_listed(self):
+    def test_after_the_start_a_new_voter_without_a_stance_counts_at_the_committee_view_and_is_listed(self):
         rows=terms();rows[-1]['end_date']='2020-01-01'
         rows.append(dict(rows[-1],start_date='2020-01-02',end_date='',name='New Arrival'))
         speeches=[speech(n,'2020-01-01') for n in NAMES[:-2]]+[speech(NAMES[-2],'2020-01-01',10),speech(NAMES[-1],'2020-01-01',0)]
         with patch.object(config,'START_DATE',None):
             daily,members=build_index.build_daily(speeches,voters.Roster(rows),dt.date(2020,1,2))
-        self.assertEqual(daily[0]['index'],(7*50+100+0)/9)
-        self.assertAlmostEqual(daily[1]['index'],(7*50+100)/8)
         self.assertEqual(daily[1]['scored_voters'],8)
         self.assertEqual(daily[1]['missing_members'],'New Arrival')
+        self.assertEqual(members[-1]['member'],'New Arrival')
         self.assertEqual(members[-1]['score'],'')
+        today=[m['estimate'] for m in members if m['date']=='2020-01-02']
+        self.assertEqual(len(today),9)
+        self.assertAlmostEqual(daily[1]['index'],sum(today)/9,places=4)
+        # Readings so far average 50, so the committee's view, and the newcomer's estimate, is about 50.
+        self.assertAlmostEqual(members[-1]['estimate'],50,delta=5)
 
     def test_no_stance_at_all_gives_no_index_rows(self):
         daily,_=build_index.build_daily([],voters.Roster(terms()),dt.date(2020,1,1))

@@ -1,0 +1,30 @@
+{
+  "fitted_at": "2026-11-12T03:57:46+00:00",
+  "scorer_version": "gpt-6-luna:v10",
+  "readings": 226,
+  "first_reading": "2017-07-26",
+  "last_reading": "2026-10-16",
+  "params": {
+    "sd_c": 15.002765883272206,
+    "halflife_c": 997.8982500422842,
+    "sd_d": 9.408311206772199,
+    "halflife_d": 271.6081015624361,
+    "noise": 6.093915595585398
+  },
+  "log_likelihood": -848.768455341313,
+  "test": {
+    "from": "2022-12-26",
+    "params_fitted_before": {
+      "sd_c": 10.566776648418209,
+      "halflife_c": 385.78744117923316,
+      "sd_d": 11.60975988614043,
+      "halflife_d": 273.1329058743208,
+      "noise": 6.975368429786158
+    },
+    "n": 84,
+    "mae_filter": 5.75,
+    "mae_carry_forward": 5.83,
+    "rmse_filter": 7.86,
+    "rmse_carry_forward": 9.06
+  }
+}
