@@ -1,18 +1,18 @@
 {
   "bank": "boj",
-  "checked_at": "2026-11-11T14:54:05.094967+00:00",
-  "corpus_hash": "896e0a9ba4a7c581a1dcc4b5406e69cc6cfb16f67c3b8bdc4bd404cc5712e88c",
+  "checked_at": "2026-11-12T15:45:56.411866+00:00",
+  "corpus_hash": "dd9ab0b9cc47bf59111cebd5ef1e72cdfaf81230ff1c03858769d35e55c37ea6",
   "earliest_delivery": "2017-07-26",
   "formats": {
-    "prepared_text": 293
+    "prepared_text": 294
   },
   "issues": [],
   "languages": {
     "en": 5,
-    "ja": 288
+    "ja": 289
   },
-  "latest_delivery": "2026-11-07",
+  "latest_delivery": "2026-11-12",
   "maximum_text_chars": 26322,
-  "stored_speeches": 293,
+  "stored_speeches": 294,
   "success": true
 }

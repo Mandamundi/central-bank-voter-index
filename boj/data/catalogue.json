@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "date": "2026-11-12",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "ASADA Toichiro",
+      "speaker_label": "浅田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko261112a.htm"
+    },
+    {
       "date": "2026-11-07",
       "role": "総裁",
       "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
@@ -73,7 +82,7 @@
       "url": "https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm"
     }
   ],
-  "retrieved_at": "2026-11-11T14:54:04.028754+00:00",
-  "since": "2026-07-14",
+  "retrieved_at": "2026-11-12T15:45:43.986149+00:00",
+  "since": "2026-07-16",
   "source": "https://www.boj.or.jp/about/press/koen_all/index.htm"
 }

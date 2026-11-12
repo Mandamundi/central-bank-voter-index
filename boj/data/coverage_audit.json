@@ -44,10 +44,10 @@
       "stored_speeches": 3
     },
     {
-      "latest_delivery": null,
+      "latest_delivery": "2026-11-12",
       "member": "ASADA Toichiro",
-      "policy_scores": 0,
-      "stored_speeches": 0
+      "policy_scores": 1,
+      "stored_speeches": 1
     },
     {
       "latest_delivery": null,
@@ -58,7 +58,7 @@
   ],
   "discovery_outcomes": {
     "excluded": 20,
-    "stored": 293
+    "stored": 294
   },
   "exclusion_reasons": {
     "Interview/Q&A/conversation rather than authored prepared text": 1,
@@ -891,10 +891,10 @@
     },
     {
       "member": "ASADA Toichiro",
-      "policy_relevant": 0,
+      "policy_relevant": 1,
       "publication_date_unknown": 0,
-      "scored": 0,
-      "stored": 0,
+      "scored": 1,
+      "stored": 1,
       "year": 2026
     },
     {
@@ -908,7 +908,7 @@
   ],
   "membership_coverage_start": "2017-07-24",
   "membership_terms": 24,
-  "stored_speeches": 293,
+  "stored_speeches": 294,
   "unresolved": [],
-  "valid_scores": 293
+  "valid_scores": 294
 }

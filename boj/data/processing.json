@@ -5165,8 +5165,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko260827a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:39.690433+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:48.048198+00:00",
     "collector_version": "v2",
     "content_hash": "208a7b1091eb04fa385785ff4ea305ec8698ec0179fccf75fec9be9dfdc7d0cb",
     "entry": {
@@ -5182,8 +5182,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko260902a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:39.191682+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:47.568440+00:00",
     "collector_version": "v2",
     "content_hash": "39eeac246ca98b90df5e8772b59f2a7897f54ecfd2190350640ae0687274eea3",
     "entry": {
@@ -5199,8 +5199,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko260910a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:38.794532+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:47.041060+00:00",
     "collector_version": "v2",
     "content_hash": "fb6359449ccdfc11a187af74b2c58c9dcc133172c03507e3fdaff2670716e646",
     "entry": {
@@ -5216,8 +5216,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261005a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:38.184960+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:46.543605+00:00",
     "collector_version": "v2",
     "content_hash": "9224c51a6bed75a6905f8768d1405a5f63501abd066b842cbe3c34f1e0b1baee",
     "entry": {
@@ -5233,8 +5233,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261006a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:37.684427+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:46.045509+00:00",
     "collector_version": "v2",
     "content_hash": "df63fa65b70c59e7fb5b4d292be55c4b0e9247d7684c4ab023c52c42d4bbcb84",
     "entry": {
@@ -5250,8 +5250,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261015a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:37.201709+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:45.607124+00:00",
     "collector_version": "v2",
     "content_hash": "3ac4f1e36ae7e2e00adc18246ba390f2971d05c1f6388213f2ac7c2e8f82208f",
     "entry": {
@@ -5267,8 +5267,8 @@
     "status": "stored"
   },
   "https://www.boj.or.jp/about/press/koen_2026/ko261016a.htm": {
-    "attempts": 5,
-    "checked_at": "2026-11-04T15:03:36.887099+00:00",
+    "attempts": 6,
+    "checked_at": "2026-11-12T15:45:45.309034+00:00",
     "collector_version": "v2",
     "content_hash": "62360e685b9533fd03b11a59094baa985c09f3c38bc8ce36ee3123a596437a6c",
     "entry": {
@@ -5298,6 +5298,23 @@
       "url": "https://www.boj.or.jp/about/press/koen_2026/ko261107a.htm"
     },
     "speech_id": "16cdc7e6af328eb29f74",
+    "status": "stored"
+  },
+  "https://www.boj.or.jp/about/press/koen_2026/ko261112a.htm": {
+    "attempts": 1,
+    "checked_at": "2026-11-12T15:45:44.053937+00:00",
+    "collector_version": "v2",
+    "content_hash": "c91851ca976447bc6b8c0850d2f78ea54c574d3983f25cc750e5f23c0516526f",
+    "entry": {
+      "date": "2026-11-12",
+      "role": "審議委員",
+      "source": "https://www.boj.or.jp/about/press/koen_2026/index.htm",
+      "speaker": "ASADA Toichiro",
+      "speaker_label": "浅田審議委員",
+      "title": "【挨拶】「わが国の経済・物価情勢と金融政策」（長崎県金融経済懇談会）",
+      "url": "https://www.boj.or.jp/about/press/koen_2026/ko261112a.htm"
+    },
+    "speech_id": "28eb26c06fbb6c1ca06e",
     "status": "stored"
   }
 }
