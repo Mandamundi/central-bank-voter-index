@@ -1,0 +1,150 @@
+{
+  "bank": "boe",
+  "fit_end": "2023-04-04",
+  "speaker_days": 190,
+  "people": 18,
+  "rate_changes": 259,
+  "params_first_part": {
+    "sd_c": 16.066906336734032,
+    "halflife_c": 259.35972940857164,
+    "sd_d": 8.3755503273225,
+    "halflife_d": 25083.912613954446,
+    "jump_c": 0.0,
+    "jump_d": 0.0,
+    "noise": 9.228791917531488
+  },
+  "params_all": {
+    "sd_c": 14.905320013590117,
+    "halflife_c": 308.834040807395,
+    "sd_d": 10.022027436274218,
+    "halflife_d": 3959.1098461770243,
+    "jump_c": 0.0,
+    "jump_d": 0.0,
+    "noise": 9.755432102645495
+  },
+  "ranges_95": {
+    "sd_c": [
+      8.93626476234411,
+      24.861457288475876
+    ],
+    "halflife_c": [
+      90.58081006867972,
+      1052.9654646398762
+    ],
+    "sd_d": [
+      6.883387315070433,
+      14.591803328214349
+    ],
+    "halflife_d": [
+      404.38913780545295,
+      38761.0578740043
+    ],
+    "jump_c": "dropped",
+    "jump_d": "dropped",
+    "noise": [
+      8.37892158458211,
+      11.35807926457313
+    ]
+  },
+  "loglik_all": -761.3451883031862,
+  "prediction_test": {
+    "all": {
+      "n": 72,
+      "mae_filter": 10.83,
+      "mae_carry_forward": 14.03,
+      "mae_gain_95": [
+        0.24,
+        6.3
+      ],
+      "rmse_filter": 14.04,
+      "rmse_carry_forward": 19.69,
+      "rmse_gain_95": [
+        2.2,
+        9.28
+      ],
+      "filter_closer_share": 0.542
+    },
+    "by_days_since_last_speech": {
+      "0-30d": {
+        "n": 7,
+        "mae_filter": 12.47,
+        "mae_carry_forward": 22.86,
+        "mae_gain_95": [
+          2.37,
+          20.48
+        ],
+        "rmse_filter": 17.95,
+        "rmse_carry_forward": 31.17,
+        "rmse_gain_95": [
+          4.54,
+          24.7
+        ],
+        "filter_closer_share": 0.857
+      },
+      "30-60d": {
+        "n": 10,
+        "mae_filter": 7.31,
+        "mae_carry_forward": 11.0,
+        "mae_gain_95": [
+          -0.75,
+          8.35
+        ],
+        "rmse_filter": 8.24,
+        "rmse_carry_forward": 13.04,
+        "rmse_gain_95": [
+          1.09,
+          8.56
+        ],
+        "filter_closer_share": 0.7
+      },
+      "60-120d": {
+        "n": 18,
+        "mae_filter": 7.42,
+        "mae_carry_forward": 10.0,
+        "mae_gain_95": [
+          -2.98,
+          9.04
+        ],
+        "rmse_filter": 8.82,
+        "rmse_carry_forward": 15.99,
+        "rmse_gain_95": [
+          -1.76,
+          15.22
+        ],
+        "filter_closer_share": 0.444
+      },
+      "120-240d": {
+        "n": 24,
+        "mae_filter": 13.92,
+        "mae_carry_forward": 12.08,
+        "mae_gain_95": [
+          -5.75,
+          2.17
+        ],
+        "rmse_filter": 17.34,
+        "rmse_carry_forward": 17.68,
+        "rmse_gain_95": [
+          -3.46,
+          3.41
+        ],
+        "filter_closer_share": 0.375
+      },
+      "240-100000d": {
+        "n": 13,
+        "mae_filter": 11.66,
+        "mae_carry_forward": 20.77,
+        "mae_gain_95": [
+          0.67,
+          16.6
+        ],
+        "rmse_filter": 14.24,
+        "rmse_carry_forward": 23.7,
+        "rmse_gain_95": [
+          0.58,
+          17.81
+        ],
+        "filter_closer_share": 0.692
+      }
+    }
+  }
+}

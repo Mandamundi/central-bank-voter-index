@@ -238,6 +238,33 @@ class PersistenceTests(unittest.TestCase):
             _,unresolved=update.process([entry],'2020-01-01')
         self.assertEqual(unresolved,[entry['url']])
 
+    def test_listed_404_behind_embargo_label_is_scheduled(self):
+        entry={'url':'https://example.org/mills','title':'Clair Mills: Conference, Exeter (to be published at 9am)','date':None}
+        with patch('sources.fetch_speech',side_effect=missing(404)):
+            counts,unresolved=update.process([entry],'2020-01-01')
+        self.assertFalse(unresolved);self.assertEqual(counts['scheduled'],1)
+
+    def test_embargo_stuck_for_days_fails_loudly(self):
+        entry={'url':'https://example.org/stuck','title':'Policy (to be published 12:30pm)','date':None}
+        store.save_processing({entry['url']:{'status':'scheduled','entry':entry,'collector_version':config.COLLECTOR_VERSION,
+                                             'embargo_since':'2026-11-01','retry_after':'2026-11-01T00:00:00+00:00'}})
+        with patch('sources.fetch_speech',side_effect=documents.Embargoed('2026-11-10')):
+            _,unresolved=update.process([entry],'2020-01-01')
+        self.assertEqual(unresolved,[entry['url']])
+        with patch('sources.fetch_speech',side_effect=documents.Embargoed('2026-11-11')):
+            _,unresolved=update.process([entry],'2020-01-01')
+        self.assertEqual(unresolved,[entry['url']])
+        self.assertEqual(store.load_processing()[entry['url']]['embargo_since'],'2026-11-01')
+
+    def test_listed_failure_is_retried_before_its_backoff_expires(self):
+        entry={'url':'https://example.org/lombardelli','title':'Policy (to be published 12:30pm)','date':None}
+        later=(dt.datetime.now(dt.timezone.utc)+dt.timedelta(hours=2)).isoformat()
+        store.save_processing({entry['url']:{'status':'failure','entry':entry,'collector_version':config.COLLECTOR_VERSION,
+                                             'reason':'ValueError: No suitable full-text PDF linked from speech page','retry_after':later}})
+        with patch('sources.fetch_speech',side_effect=documents.Embargoed('2026-11-10')) as fetch:
+            counts,unresolved=update.process([entry],'2020-01-01')
+        fetch.assert_called_once();self.assertFalse(unresolved);self.assertEqual(counts['scheduled'],1)
+
     def test_collector_version_retries_old_exclusions(self):
         entry={'url':'https://example.org/old','title':'Policy','date':'2020-01-01'}
         store.save_processing({entry['url']:{'status':'excluded','entry':entry,'collector_version':'old'}})

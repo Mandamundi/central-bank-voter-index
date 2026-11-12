@@ -1,0 +1,9 @@
+param,value
+sd_c,15.002765883272206
+halflife_c,997.8982500422842
+sd_d,9.408311206772199
+halflife_d,271.6081015624361
+jump_c,0.0
+jump_d,0.0
+noise,6.093915595585398
+jumps_kept,False

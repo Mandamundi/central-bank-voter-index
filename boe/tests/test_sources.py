@@ -75,6 +75,18 @@ class OfficialSourceTests(unittest.TestCase):
             with self.assertRaises(documents.Scheduled) as error:sources.fetch_speech(entry)
         self.assertEqual(error.exception.day,'2026-10-20')
 
+    def test_embargoed_placeholder_with_long_blurb_is_scheduled(self):
+        blurb=' '.join(['The conference brings together central bankers and academics to discuss policy.']*30)
+        page=f'<html><head><meta property="og:description" content="Text to be published Tuesday 10 November 12.30pm"></head><body><main><h1>Clare Lombardelli: Speech at the Bank Watchers Conference, London (to be published 12:30pm)</h1><div class="content-block"><p>{blurb}</p></div></main></body></html>'.encode()
+        url='https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference'
+        entry={'url':url,'title':'Clare Lombardelli: Speech at the Bank Watchers Conference, London (to be published 12:30pm)','speaker':'Clare Lombardelli'}
+        self.assertGreater(len(sources.body(sources.tree(page))),config.MIN_HTML_TEXT_CHARS)
+        import datetime
+        with patch('http_get.get',return_value=SimpleNamespace(content=page,text=page.decode(),headers={})), \
+             patch('sources.today',return_value=datetime.date(2026,11,10)):
+            with self.assertRaises(documents.Embargoed) as error:sources.fetch_speech(entry)
+        self.assertEqual(error.exception.day,'2026-11-10')
+
     def test_no_exact_day_means_no_invented_month_start(self):
         self.assertIsNone(sources.exact_date(sources.tree('<main><h1>Speech</h1></main>'),'https://www.bankofengland.co.uk/speech/2026/october/anything'))
 

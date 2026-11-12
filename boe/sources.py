@@ -124,9 +124,9 @@ def exact_date(page, url=None):
 
 
 def is_embargoed(page, title):
-    """BOE placeholder pages announce their text as '(to be published 12:30pm)'."""
+    """BOE placeholder pages announce their text as '(to be published 12:30pm)' or '(to be released ...)'."""
     labels = [title] + page.xpath('//meta[@property="og:description" or @name="description"]/@content')
-    return any(re.search(r'\bto be published\b', label or '', re.I) for label in labels)
+    return any(doc.EMBARGO.search(label or '') for label in labels)
 
 
 def body(page):
@@ -193,9 +193,13 @@ def fetch_speech(entry):
         if published and published > today().isoformat():
             raise doc.Scheduled(published)
         content = body(page)
-        if len(content) < config.MIN_HTML_TEXT_CHARS and is_embargoed(page, title):
-            # Same-day embargo: the page is dated today but its text lands later in the day.
-            raise doc.Scheduled(published or today().isoformat())
+        if len(content) < config.SUMMARY_TEXT_CHARS and is_embargoed(page, title):
+            # Same-day embargo: the page is up but its text lands later in the day. A placeholder can
+            # carry an event blurb of any length, so only a linked full-text PDF means the text is out.
+            try:
+                doc.choose_pdf(page, entry['url'])
+            except ValueError:
+                raise doc.Embargoed(today().isoformat())
         if config.MIN_HTML_TEXT_CHARS <= len(content) < config.SUMMARY_TEXT_CHARS:
             # A short page can be the website's summary of a speech whose full text is a PDF.
             try:

@@ -48,3 +48,5 @@ MIN_TEXT_CHARS = 200
 MIN_HTML_TEXT_CHARS = 800
 # Shorter HTML may be the website's summary of a speech; a longer full-text PDF replaces it.
 SUMMARY_TEXT_CHARS = 4000
+# A page still labelled 'to be published' this many days on is stuck, not embargoed: fail loudly.
+EMBARGO_GRACE_DAYS = 3

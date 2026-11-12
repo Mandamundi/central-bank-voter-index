@@ -22,6 +22,20 @@ def now():
     return dt.datetime.now(dt.timezone.utc)
 
 
+def embargoed(state, prior, error, counts):
+    """Same-day embargo: retry next run, but a page stuck 'to be published' for days fails loudly."""
+    since = (prior.get('embargo_since') if prior.get('status') in {'scheduled', 'failure'} else None) or error.day
+    if (dt.date.fromisoformat(error.day) - dt.date.fromisoformat(since)).days > config.EMBARGO_GRACE_DAYS:
+        state.update(status='failure', embargo_since=since,
+                     reason=f'Still marked "to be published" since {since}; check the official page',
+                     retry_after=now().isoformat())
+        counts['failed'] += 1
+        return
+    state.update(status='scheduled', reason=str(error), embargo_since=since,
+                 retry_after=error.day+'T00:00:00+00:00')
+    counts['scheduled'] += 1
+
+
 def process(entries, since, limit=None, force=False):
     store.reconcile_duplicates()
     outcomes = store.load_processing()
@@ -63,9 +77,10 @@ def process(entries, since, limit=None, force=False):
                     continue
                 if (now() - last).days < config.RECHECK_DAYS:
                     continue
-            # An unlisted failure may have been withdrawn: recheck it now rather than wait out the backoff.
+            # Failures are rechecked on every run: one request each, and a fixed or transient cause
+            # must not keep the run red until a backoff expires.
             if (prior.get('retry_after') and now() < dt.datetime.fromisoformat(prior['retry_after'])
-                    and not (prior.get('status') == 'failure' and url not in live)):
+                    and prior.get('status') != 'failure'):
                 counts['deferred'] += 1
                 continue
         if limit is not None and attempts >= limit:
@@ -107,6 +122,8 @@ def process(entries, since, limit=None, force=False):
                         existing_documents[documents.canonical_url(document_url)] = record['id']
                     state.update(status='stored', speech_id=record['id'], content_hash=record['content_hash'])
             counts[state['status']] += 1
+        except documents.Embargoed as error:
+            embargoed(state, prior, error, counts)
         except documents.Scheduled as error:
             state.update(status='scheduled', reason=str(error), retry_after=error.day+'T00:00:00+00:00')
             counts['scheduled'] += 1
@@ -124,6 +141,10 @@ def process(entries, since, limit=None, force=False):
                     and prior.get('status') != 'stored'):
                 state.update(status='excluded', reason=f'{WITHDRAWN} (HTTP {http_get.status_code(error)})')
                 counts['excluded'] += 1
+            elif (http_get.status_code(error) == 404 and url in live and prior.get('status') != 'stored'
+                    and documents.EMBARGO.search(entry.get('title') or '')):
+                # The listing says 'to be published at 9am' and the page itself is not up yet.
+                embargoed(state, prior, documents.Embargoed(today), counts)
             else:
                 state.update(status='failure', reason=f'{type(error).__name__}: {error}',
                              retry_after=(now() + dt.timedelta(hours=min(24, 2 ** min(state['attempts'], 5)))).isoformat())

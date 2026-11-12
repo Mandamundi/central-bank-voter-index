@@ -20,6 +20,16 @@ class Scheduled(ValueError):
         super().__init__(f'Prepared text scheduled for {day}')
 
 
+class Embargoed(Scheduled):
+    """The bank lists the speech but holds its text until later in the day ('to be published 12:30pm')."""
+    def __init__(self, day):
+        super().__init__(day)
+        self.args = (f'Prepared text under same-day embargo on {day}',)
+
+
+EMBARGO = re.compile(r'\bto be (?:published|released)\b', re.I)
+
+
 def canonical_url(url):
     parts = urlsplit(url)
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path, '', ''))
