@@ -1,15 +1,15 @@
 {
   "bank": "boj",
-  "built_at": "2026-11-12T15:45:58.035133+00:00",
+  "built_at": "2026-11-13T15:04:34.266219+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 0.8888888888888888,
-    "date": "2026-11-13",
-    "disagreement": 5.799577435385541,
-    "index": 69.74756663846011,
-    "index_high": 78.17475325407175,
-    "index_low": 61.32038002284848,
+    "date": "2026-11-14",
+    "disagreement": 5.784795712782149,
+    "index": 69.73216456576766,
+    "index_high": 78.23448237878773,
+    "index_low": 61.229846752747584,
     "missing_members": "SATO Ayano",
     "scored_voters": 8,
     "stale_members": "UCHIDA Shinichi"
