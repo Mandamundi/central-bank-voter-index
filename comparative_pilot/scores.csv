@@ -1,0 +1,181 @@
+id,date,speaker,v10_level,comparison_score,sd
+441a03c93745,2025-08-09,Michelle W. Bowman,2,0.7,6.4
+316bd9160729,2025-09-19,Neel Kashkari,3,5.9,4.6
+d2636a790063,2025-09-26,Michelle W. Bowman,2,11.0,7.6
+2460ee1f290c,2010-10-16,Charles Evans,0,12.8,6.6
+7437f87a0150,2025-08-01,Christopher Waller,2,13.2,11.1
+a2e8e8832d7a,2015-10-28,Narayana Rao Kocherlakota,2,13.2,8.2
+cd30d31f2ef6,2011-09-07,Charles Evans,1,15.8,7.5
+abc00edbf4e4,2025-09-23,Michelle W. Bowman,2,15.9,6.8
+8cc6b2713f7f,2025-10-16,Christopher Waller,2,17.0,8.1
+b5c33069a607,2025-09-24,Mary C. Daly,3,17.3,13.2
+dc89b16cf67c,2025-11-21,John C. Williams,3,19.0,8.3
+433272da91cc,2025-07-15,Logan,5,19.2,4.2
+c94d25c54672,2025-08-01,Michelle W. Bowman,2,19.8,8.1
+edcd099c080f,2026-01-30,Christopher J. Waller,2,21.6,7.5
+527f59c662ba,2010-10-18,Dennis P. Lockhart,2,23.0,8.9
+28833fa3da36,2025-12-15,Stephen I. Miran,1,23.4,6.8
+8a6a017d42a9,2025-08-28,Christopher Waller,2,24.9,8.8
+077311aa3ea9,2012-02-24,John C. Williams,2,25.0,9.0
+d678665bd785,2025-09-22,Stephen I. Miran,1,25.3,8.7
+fab85a0b6242,2025-07-17,Christopher Waller,2,26.1,6.8
+10ae26fbde49,2025-08-06,Mary C. Daly,3,26.6,7.8
+7b3f2217230b,2025-08-22,Jerome H. Powell,3,26.6,5.3
+d328635bc70c,2026-01-03,Paulson,4,26.8,7.6
+1876248fbf8d,2020-02-28,James Bullard,5,27.5,5.9
+53f7e43ad175,2025-11-07,Stephen I. Miran,3,27.6,10.2
+b5d0e4f76eaa,2025-09-04,John C. Williams,3,28.0,12.6
+11d392826818,2025-10-13,Anna L. Paulson,2,28.0,8.0
+10a2dae47651,2025-11-07,Philip N. Jefferson,3,29.3,6.0
+8ff415bfde84,2026-01-30,Michelle W. Bowman,3,30.5,8.5
+a78b07a945f7,2026-02-23,Christopher J. Waller,5,30.9,12.9
+796dcd32273e,2025-11-19,Stephen I. Miran,6,31.1,10.3
+9d702ea8694b,2025-10-14,Susan M. Collins,2,31.6,7.2
+aea2bc68a30a,2026-03-06,Beth M. Hammack,5,33.6,5.4
+6103a0a1429f,2026-01-16,Michelle W. Bowman,3,34.3,6.9
+e4c5d54214f7,2026-04-17,Christopher J. Waller,3,34.6,10.4
+7a8d5bb5789e,2026-01-14,Stephen I. Miran,2,34.6,8.4
+dd2234da1650,2012-06-05,Charles Evans,1,34.7,8.3
+bb162b7d7f54,2025-11-17,Christopher Waller,2,34.9,8.3
+3601994cfdc9,2025-10-09,Michael S. Barr,5,36.5,6.8
+dd2c17b061f9,2025-11-17,Philip N. Jefferson,3,36.8,9.0
+a66549818985,2026-03-03,Williams,4,37.1,6.2
+c06fbaa9b8a0,2026-05-01,Neel Kashkari,6,37.5,8.3
+9524b8898687,2025-11-03,Lisa D. Cook,5,38.2,6.2
+ea813411ed74,2026-02-24,Austan D. Goolsbee,3,38.3,7.2
+722b0263aafd,2026-01-30,Musalem,5,39.5,6.4
+b0749ac23974,2025-10-03,Philip N. Jefferson,5,39.5,5.9
+6e9d8ceb147b,2020-03-03,Loretta Jean Mester,5,39.8,7.4
+d21964305b74,2025-12-15,John C. Williams,5,40.3,5.9
+38da20e41dbc,2008-11-18,Ben Bernanke,0,40.6,7.6
+dad2768e3202,2025-09-26,Thomas I. Barkin,5,40.7,6.4
+42ef630df3e8,2026-02-10,Logan,6,41.0,7.0
+cbd687fe606d,2026-03-30,Williams,5,41.1,4.2
+74950bee3b6a,2025-10-14,Jerome H. Powell,5,41.2,7.4
+7387bc121cd6,2025-10-06,Jeffrey Schmid,5,41.2,4.4
+2cf0006b710f,2025-11-20,Anna L. Paulson,4,41.4,7.3
+c55c5f9c3968,2025-09-30,Susan M. Collins,3,41.4,7.6
+672afa7b63aa,2026-01-16,Philip N. Jefferson,5,42.2,6.7
+0a2e425b511b,2025-12-12,Anna L. Paulson,4,42.3,7.9
+8ffcd063b198,2026-05-21,Thomas I Barkin,5,42.7,5.7
+2fda7218dc16,2026-03-26,Philip N. Jefferson,5,42.9,7.3
+cc8a590c79ef,2025-08-12,Jeffrey Schmid,5,43.4,5.9
+c3409f297dec,2026-07-15,Williams,5,43.8,6.0
+a36b2789c870,2026-04-07,Philip N. Jefferson,5,44.2,4.5
+8e8695b65a17,2026-01-06,Thomas I Barkin,5,44.4,7.1
+b61d66062183,2026-05-27,Philip N. Jefferson,5,44.6,4.9
+b61a852f57ac,2025-09-25,Jeffrey Schmid,5,45.3,4.1
+ff3b396dded5,2025-11-14,Jeffrey Schmid,5,45.5,5.2
+d143ca410f7b,2026-03-27,Thomas I Barkin,5,45.5,4.3
+578e6ec1e229,2026-04-01,Musalem,5,45.6,7.8
+04a0adddd2f6,2025-09-23,Jerome H. Powell,5,45.7,4.4
+a99525c284d9,2026-07-16,Jeffrey Schmid,6,45.7,5.9
+b7c57ef13c28,2019-11-13,Jerome H. Powell,5,45.7,5.4
+ce11568c0dc6,2026-03-24,Michael S. Barr,4,45.9,5.9
+f51efc7ba788,2026-05-29,Michelle W. Bowman,5,46.2,6.3
+b6e4529afe63,2024-01-03,Thomas I. Barkin,3,46.4,9.7
+954362f03bc0,2026-02-03,Thomas I Barkin,5,46.5,5.8
+b979031c0613,2026-05-04,Williams,5,47.1,5.4
+43614886286a,2025-09-30,Logan,5,47.7,6.4
+00c596b26796,2026-01-12,Williams,5,47.7,5.7
+5cff66c35c97,2026-02-06,Philip N. Jefferson,5,47.8,5.6
+f07a1c798b12,2020-09-30,Michelle W. Bowman,5,47.9,4.3
+098ff4dd6809,2025-09-03,Musalem,5,48.6,4.7
+bbf4ba721c40,2026-02-04,Lisa D. Cook,6,48.6,6.6
+3435bfa402c3,2020-02-25,Richard H. Clarida,5,49.1,4.8
+304e8e503f0e,2020-03-27,Thomas I. Barkin,0,49.2,5.9
+863cc4c9146a,2026-09-18,Jeffrey Schmid,7,49.2,5.1
+15503cc91ba8,2026-03-26,Michael S. Barr,5,49.4,5.9
+f46428e831db,2025-09-30,Philip N. Jefferson,5,49.6,3.5
+38f26a5b42b4,2025-07-15,Susan M. Collins,5,49.8,4.3
+dfa0d40558e5,2025-11-18,Thomas I. Barkin,5,50.2,6.4
+43046d387b8e,2026-11-10,Michelle W. Bowman,5,50.3,4.1
+e1979f482d37,2025-10-31,Logan,6,50.7,5.6
+d16e61949ccf,2026-04-16,Williams,5,51.0,8.2
+9a97b48691e6,2009-01-13,Donald L. Kohn,0,51.0,10.0
+cae0952edfa0,2026-02-10,Beth M. Hammack,5,51.1,4.0
+ce38604b8aa0,2025-11-06,Beth M. Hammack,5,51.2,7.1
+e20358dfd11e,2025-11-12,Raphael W. Bostic,6,51.2,7.3
+46190b223730,2025-07-03,Raphael W. Bostic,5,51.3,4.7
+a5fe5b1a9a6f,2026-02-11,Jeffrey Schmid,6,51.4,5.8
+6a710738368c,2025-11-20,Beth M. Hammack,6,52.2,3.3
+e44aea8a7be4,2025-07-17,Adriana D. Kugler,5,52.5,3.5
+58a39a6a893d,2025-11-07,John C. Williams,5,52.9,5.3
+18f33d6465ef,2020-03-05,John C. Williams,5,53.0,4.6
+a976a9cb9007,2025-08-12,Thomas I. Barkin,5,53.0,7.9
+ffb48fdc2bb1,2026-05-08,Austan Goolsbee,7,54.0,10.7
+4e22a35cb98f,2025-12-12,Jeffrey Schmid,5,54.0,3.8
+4990c5c00cde,2026-10-01,Philip N. Jefferson,6,54.6,4.8
+8ef2b4439050,2026-02-17,Michael S. Barr,5,54.6,4.7
+a2f503599915,2026-03-27,Paulson,6,54.7,6.5
+d58aee379744,2025-08-25,Logan,8,54.9,9.6
+07897d6a07fe,2025-11-12,Susan M. Collins,5,54.9,5.0
+42a888f00d1c,2026-03-26,Stephen I. Miran,4,54.9,5.0
+5f114742c6b6,2025-10-31,Jeffrey Schmid,6,55.2,6.0
+bb7fb88bf962,2023-12-01,Jerome H. Powell,5,55.5,3.7
+8d641d3cd932,2026-08-06,Musalem,6,55.9,5.7
+85c14976745b,2026-01-15,Jeff Schmid,5,55.9,5.1
+907ba3255c50,2025-09-25,Logan,5,56.1,5.6
+0ab53e17839f,2026-03-03,Jeffrey Schmid,6,56.8,5.3
+6716f4e89bf2,2023-10-18,Christopher Waller,7,57.5,8.8
+e568d984ceaa,2024-01-10,John C. Williams,4,57.7,6.1
+35ce0cbaad5f,2025-09-22,Musalem,3,58.3,5.4
+ea03c411cb21,2026-05-19,Paulson,5,58.4,5.9
+dedeede355fc,2025-11-21,Logan,5,58.5,7.9
+2dc38e3f84b8,2026-03-06,Susan M. Collins,5,58.8,4.5
+bc4c53acf72f,2025-07-16,John C. Williams,5,59.0,4.6
+8d68d53fb7ef,2022-06-17,James Bullard,7,59.1,7.2
+fab4eab52773,2026-05-27,Lisa D. Cook,6,59.1,7.6
+a600c76da569,2026-03-31,Jeffrey Schmid,6,59.6,7.9
+1191dde1871a,2026-08-28,Kevin Warsh,6,59.9,6.1
+2546aaede1ea,2020-03-17,Loretta Jean Mester,8,60.4,9.5
+aebd9c1b3733,2025-08-20,Jeffrey Schmid,7,60.5,10.2
+28923f8352cf,2006-07-19,Thomas M. Hoenig,5,60.6,5.1
+2676ed114f39,2026-07-15,Lisa D. Cook,7,60.9,7.2
+f97f65a75cc6,2026-05-29,Jeffrey Schmid,6,62.5,5.2
+1263a46f3200,2018-03-06,Lael Brainard,8,62.7,6.4
+094454a8d329,2026-05-01,Beth M. Hammack,5,62.8,7.8
+55d14e008698,2014-02-05,Charles I. Plosser,9,63.2,6.0
+51b8da898e60,2026-06-03,Logan,7,64.7,7.3
+9368e6e284f9,2026-05-22,Christopher J. Waller,5,65.0,5.6
+fbccecdf3a66,2025-07-10,Christopher Waller,8,65.7,7.0
+4973dc204496,2026-09-28,Lisa D. Cook,6,67.0,6.9
+32de5db8cac7,2026-05-27,Austan Goolsbee,7,67.1,6.0
+716eba18576e,2026-09-21,Austan D. Goolsbee,8,67.4,8.4
+ce4f37a1b434,2026-09-01,Michael S. Barr,7,67.6,9.6
+cb02debaa007,2026-05-13,Susan M. Collins,6,67.9,7.4
+7465aa663032,2013-10-08,Charles I. Plosser,9,68.5,8.9
+c4374d9f40ee,2026-09-03,Christopher J. Waller,7,68.7,7.0
+c2627664f2a7,2026-05-28,Musalem,7,69.2,6.0
+fd3927f5943a,2026-06-02,Beth M. Hammack,7,69.5,8.6
+76521a6f95bf,2026-08-04,Jeffrey Schmid,7,69.8,6.2
+2f2b54adc41b,2016-05-12,Esther L. George,8,70.5,7.5
+704c75bec360,2026-07-13,Christopher J. Waller,7,73.6,8.9
+c7fd396bc1ed,2026-09-29,Williams,7,74.1,6.0
+9031f84e2dc9,2026-10-30,Musalem,8,75.2,7.3
+c8cdfb43ca4a,2026-08-05,Lisa D. Cook,7,75.6,5.5
+02be97299012,2026-07-16,Philip N. Jefferson,6,76.1,5.0
+fa21c5325723,2026-11-10,Paulson,8,77.2,8.3
+974ee6c28734,2026-08-25,Susan M. Collins,7,78.3,9.3
+0a6032a8555e,2026-11-09,Thomas I Barkin,6,78.7,6.4
+2678e29d1e6c,2026-09-22,Thomas I Barkin,6,78.7,6.0
+ffedaedb26c8,2026-09-24,Paulson,7,79.3,6.2
+91597b505a98,2026-07-16,Logan,8,79.9,7.5
+c924817f3309,2026-10-12,Beth M. Hammack,6,80.1,7.6
+8ef0e2932d2d,2017-05-10,Eric S. Rosengren,9,80.1,8.9
+8c34327f8f30,2026-10-08,Christopher J. Waller,8,81.1,5.1
+c36cae31bb3c,2026-11-05,Beth M. Hammack,8,82.5,9.8
+8303f67c2288,2026-10-13,Susan M. Collins,7,83.1,7.3
+124d33b81b14,2026-07-31,Beth M. Hammack,8,84.1,4.9
+271485decedc,2022-06-22,Jerome H. Powell,8,86.5,6.6
+c98c978b1c46,2022-06-29,Loretta Jean Mester,7,87.2,5.4
+43ca2f20cac5,2026-09-29,Michael S. Barr,7,88.5,5.4
+91dd5362f087,2026-09-23,Michael S. Barr,7,88.5,8.4
+3df92926cf7f,2026-11-10,Christopher J. Waller,8,90.3,7.8
+3c5b66f1afdf,2022-10-06,Lisa D. Cook,8,90.6,9.1
+e1edf21c890e,2022-06-24,Mary C. Daly,9,91.5,6.3
+07180092944a,2026-07-31,Neel Kashkari,7,93.4,6.9
+fdb44f401f4b,2026-10-01,Logan,8,94.8,4.7
+7bd89197164e,2026-11-10,Lorie Logan,9,97.7,5.8
+3b76862da203,2026-10-30,Lorie Logan,8,99.0,5.6
+ac5cfb1ddc70,2022-10-11,Loretta Jean Mester,9,101.6,5.7

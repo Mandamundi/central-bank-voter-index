@@ -1,0 +1,818 @@
+{
+ "texts": 100,
+ "from": "2025-11-14",
+ "to": "2026-11-10",
+ "median_abs_diff": 3.61,
+ "p90_abs_diff": 8.32,
+ "max_abs_diff": 18.2,
+ "rank_correlation": 0.945,
+ "v10_only_median_abs_diff": 4.52,
+ "fit": {
+  "sigma_v": 10,
+  "s": 6.0,
+  "nu": 0.37989034181953424
+ },
+ "P10_pass": true,
+ "rows": [
+  {
+   "id": "ff3b396dded5",
+   "date": "2025-11-14",
+   "speaker": "Jeffrey Schmid",
+   "v10": 50,
+   "daily": 56.6,
+   "full": 55.53
+  },
+  {
+   "id": "bb162b7d7f54",
+   "date": "2025-11-17",
+   "speaker": "Christopher Waller",
+   "v10": 20,
+   "daily": 20.25,
+   "full": 20.32
+  },
+  {
+   "id": "dd2c17b061f9",
+   "date": "2025-11-17",
+   "speaker": "Philip N. Jefferson",
+   "v10": 30,
+   "daily": 36.05,
+   "full": 25.75
+  },
+  {
+   "id": "dfa0d40558e5",
+   "date": "2025-11-18",
+   "speaker": "Thomas I. Barkin",
+   "v10": 50,
+   "daily": 54.2,
+   "full": 57.06
+  },
+  {
+   "id": "796dcd32273e",
+   "date": "2025-11-19",
+   "speaker": "Stephen I. Miran",
+   "v10": 60,
+   "daily": 45.1,
+   "full": 49.37
+  },
+  {
+   "id": "2cf0006b710f",
+   "date": "2025-11-20",
+   "speaker": "Anna L. Paulson",
+   "v10": 40,
+   "daily": 51.45,
+   "full": 47.24
+  },
+  {
+   "id": "6a710738368c",
+   "date": "2025-11-20",
+   "speaker": "Beth M. Hammack",
+   "v10": 60,
+   "daily": 59.1,
+   "full": 55.4
+  },
+  {
+   "id": "dc89b16cf67c",
+   "date": "2025-11-21",
+   "speaker": "John C. Williams",
+   "v10": 30,
+   "daily": 28.65,
+   "full": 46.85
+  },
+  {
+   "id": "dedeede355fc",
+   "date": "2025-11-21",
+   "speaker": "Logan",
+   "v10": 50,
+   "daily": 50.85,
+   "full": 57.64
+  },
+  {
+   "id": "0a2e425b511b",
+   "date": "2025-12-12",
+   "speaker": "Anna L. Paulson",
+   "v10": 40,
+   "daily": 47.9,
+   "full": 45.5
+  },
+  {
+   "id": "4e22a35cb98f",
+   "date": "2025-12-12",
+   "speaker": "Jeffrey Schmid",
+   "v10": 50,
+   "daily": 55.0,
+   "full": 48.78
+  },
+  {
+   "id": "28833fa3da36",
+   "date": "2025-12-15",
+   "speaker": "Stephen I. Miran",
+   "v10": 10,
+   "daily": 14.6,
+   "full": 6.74
+  },
+  {
+   "id": "d21964305b74",
+   "date": "2025-12-15",
+   "speaker": "John C. Williams",
+   "v10": 50,
+   "daily": 48.5,
+   "full": 52.31
+  },
+  {
+   "id": "d328635bc70c",
+   "date": "2026-01-03",
+   "speaker": "Paulson",
+   "v10": 40,
+   "daily": 44.25,
+   "full": 37.8
+  },
+  {
+   "id": "8e8695b65a17",
+   "date": "2026-01-06",
+   "speaker": "Thomas I Barkin",
+   "v10": 50,
+   "daily": 52.3,
+   "full": 46.77
+  },
+  {
+   "id": "00c596b26796",
+   "date": "2026-01-12",
+   "speaker": "Williams",
+   "v10": 50,
+   "daily": 47.6,
+   "full": 47.54
+  },
+  {
+   "id": "7a8d5bb5789e",
+   "date": "2026-01-14",
+   "speaker": "Stephen I. Miran",
+   "v10": 20,
+   "daily": 19.5,
+   "full": 24.73
+  },
+  {
+   "id": "85c14976745b",
+   "date": "2026-01-15",
+   "speaker": "Jeff Schmid",
+   "v10": 50,
+   "daily": 56.75,
+   "full": 57.46
+  },
+  {
+   "id": "6103a0a1429f",
+   "date": "2026-01-16",
+   "speaker": "Michelle W. Bowman",
+   "v10": 30,
+   "daily": 24.05,
+   "full": 18.69
+  },
+  {
+   "id": "672afa7b63aa",
+   "date": "2026-01-16",
+   "speaker": "Philip N. Jefferson",
+   "v10": 50,
+   "daily": 50.0,
+   "full": 51.22
+  },
+  {
+   "id": "722b0263aafd",
+   "date": "2026-01-30",
+   "speaker": "Musalem",
+   "v10": 50,
+   "daily": 45.55,
+   "full": 47.57
+  },
+  {
+   "id": "8ff415bfde84",
+   "date": "2026-01-30",
+   "speaker": "Michelle W. Bowman",
+   "v10": 30,
+   "daily": 18.35,
+   "full": 22.02
+  },
+  {
+   "id": "edcd099c080f",
+   "date": "2026-01-30",
+   "speaker": "Christopher J. Waller",
+   "v10": 20,
+   "daily": 23.4,
+   "full": 10.67
+  },
+  {
+   "id": "954362f03bc0",
+   "date": "2026-02-03",
+   "speaker": "Thomas I Barkin",
+   "v10": 50,
+   "daily": 51.45,
+   "full": 58.09
+  },
+  {
+   "id": "bbf4ba721c40",
+   "date": "2026-02-04",
+   "speaker": "Lisa D. Cook",
+   "v10": 60,
+   "daily": 56.95,
+   "full": 57.9
+  },
+  {
+   "id": "5cff66c35c97",
+   "date": "2026-02-06",
+   "speaker": "Philip N. Jefferson",
+   "v10": 50,
+   "daily": 50.9,
+   "full": 48.69
+  },
+  {
+   "id": "42ef630df3e8",
+   "date": "2026-02-10",
+   "speaker": "Logan",
+   "v10": 60,
+   "daily": 55.4,
+   "full": 59.38
+  },
+  {
+   "id": "cae0952edfa0",
+   "date": "2026-02-10",
+   "speaker": "Beth M. Hammack",
+   "v10": 50,
+   "daily": 52.3,
+   "full": 49.07
+  },
+  {
+   "id": "a5fe5b1a9a6f",
+   "date": "2026-02-11",
+   "speaker": "Jeffrey Schmid",
+   "v10": 60,
+   "daily": 60.2,
+   "full": 64.77
+  },
+  {
+   "id": "8ef2b4439050",
+   "date": "2026-02-17",
+   "speaker": "Michael S. Barr",
+   "v10": 50,
+   "daily": 38.25,
+   "full": 48.95
+  },
+  {
+   "id": "a78b07a945f7",
+   "date": "2026-02-23",
+   "speaker": "Christopher J. Waller",
+   "v10": 50,
+   "daily": 47.2,
+   "full": 41.74
+  },
+  {
+   "id": "ea813411ed74",
+   "date": "2026-02-24",
+   "speaker": "Austan D. Goolsbee",
+   "v10": 30,
+   "daily": 43.15,
+   "full": 31.65
+  },
+  {
+   "id": "0ab53e17839f",
+   "date": "2026-03-03",
+   "speaker": "Jeffrey Schmid",
+   "v10": 60,
+   "daily": 47.95,
+   "full": 60.64
+  },
+  {
+   "id": "a66549818985",
+   "date": "2026-03-03",
+   "speaker": "Williams",
+   "v10": 40,
+   "daily": 35.95,
+   "full": 31.32
+  },
+  {
+   "id": "2dc38e3f84b8",
+   "date": "2026-03-06",
+   "speaker": "Susan M. Collins",
+   "v10": 50,
+   "daily": 50.1,
+   "full": 50.71
+  },
+  {
+   "id": "aea2bc68a30a",
+   "date": "2026-03-06",
+   "speaker": "Beth M. Hammack",
+   "v10": 50,
+   "daily": 50.7,
+   "full": 48.88
+  },
+  {
+   "id": "ce11568c0dc6",
+   "date": "2026-03-24",
+   "speaker": "Michael S. Barr",
+   "v10": 40,
+   "daily": 47.45,
+   "full": 43.84
+  },
+  {
+   "id": "15503cc91ba8",
+   "date": "2026-03-26",
+   "speaker": "Michael S. Barr",
+   "v10": 50,
+   "daily": 53.1,
+   "full": 53.98
+  },
+  {
+   "id": "2fda7218dc16",
+   "date": "2026-03-26",
+   "speaker": "Philip N. Jefferson",
+   "v10": 50,
+   "daily": 45.9,
+   "full": 52.12
+  },
+  {
+   "id": "42a888f00d1c",
+   "date": "2026-03-26",
+   "speaker": "Stephen I. Miran",
+   "v10": 40,
+   "daily": 52.1,
+   "full": 54.28
+  },
+  {
+   "id": "a2f503599915",
+   "date": "2026-03-27",
+   "speaker": "Paulson",
+   "v10": 60,
+   "daily": 65.95,
+   "full": 55.45
+  },
+  {
+   "id": "d143ca410f7b",
+   "date": "2026-03-27",
+   "speaker": "Thomas I Barkin",
+   "v10": 50,
+   "daily": 49.2,
+   "full": 50.94
+  },
+  {
+   "id": "cbd687fe606d",
+   "date": "2026-03-30",
+   "speaker": "Williams",
+   "v10": 50,
+   "daily": 49.45,
+   "full": 49.68
+  },
+  {
+   "id": "a600c76da569",
+   "date": "2026-03-31",
+   "speaker": "Jeffrey Schmid",
+   "v10": 60,
+   "daily": 71.0,
+   "full": 72.54
+  },
+  {
+   "id": "578e6ec1e229",
+   "date": "2026-04-01",
+   "speaker": "Musalem",
+   "v10": 50,
+   "daily": 56.1,
+   "full": 58.28
+  },
+  {
+   "id": "a36b2789c870",
+   "date": "2026-04-07",
+   "speaker": "Philip N. Jefferson",
+   "v10": 50,
+   "daily": 48.65,
+   "full": 51.74
+  },
+  {
+   "id": "d16e61949ccf",
+   "date": "2026-04-16",
+   "speaker": "Williams",
+   "v10": 50,
+   "daily": 56.55,
+   "full": 44.85
+  },
+  {
+   "id": "e4c5d54214f7",
+   "date": "2026-04-17",
+   "speaker": "Christopher J. Waller",
+   "v10": 30,
+   "daily": 39.3,
+   "full": 37.65
+  },
+  {
+   "id": "094454a8d329",
+   "date": "2026-05-01",
+   "speaker": "Beth M. Hammack",
+   "v10": 50,
+   "daily": 55.25,
+   "full": 58.64
+  },
+  {
+   "id": "c06fbaa9b8a0",
+   "date": "2026-05-01",
+   "speaker": "Neel Kashkari",
+   "v10": 60,
+   "daily": 69.85,
+   "full": 65.05
+  },
+  {
+   "id": "b979031c0613",
+   "date": "2026-05-04",
+   "speaker": "Williams",
+   "v10": 50,
+   "daily": 50.05,
+   "full": 49.96
+  },
+  {
+   "id": "ffb48fdc2bb1",
+   "date": "2026-05-08",
+   "speaker": "Austan Goolsbee",
+   "v10": 70,
+   "daily": 64.85,
+   "full": 63.1
+  },
+  {
+   "id": "cb02debaa007",
+   "date": "2026-05-13",
+   "speaker": "Susan M. Collins",
+   "v10": 60,
+   "daily": 52.95,
+   "full": 52.91
+  },
+  {
+   "id": "ea03c411cb21",
+   "date": "2026-05-19",
+   "speaker": "Paulson",
+   "v10": 50,
+   "daily": 55.45,
+   "full": 53.73
+  },
+  {
+   "id": "8ffcd063b198",
+   "date": "2026-05-21",
+   "speaker": "Thomas I Barkin",
+   "v10": 50,
+   "daily": 55.75,
+   "full": 54.49
+  },
+  {
+   "id": "9368e6e284f9",
+   "date": "2026-05-22",
+   "speaker": "Christopher J. Waller",
+   "v10": 50,
+   "daily": 56.95,
+   "full": 53.66
+  },
+  {
+   "id": "32de5db8cac7",
+   "date": "2026-05-27",
+   "speaker": "Austan Goolsbee",
+   "v10": 70,
+   "daily": 59.15,
+   "full": 60.76
+  },
+  {
+   "id": "b61d66062183",
+   "date": "2026-05-27",
+   "speaker": "Philip N. Jefferson",
+   "v10": 50,
+   "daily": 53.9,
+   "full": 53.05
+  },
+  {
+   "id": "fab4eab52773",
+   "date": "2026-05-27",
+   "speaker": "Lisa D. Cook",
+   "v10": 60,
+   "daily": 62.4,
+   "full": 67.62
+  },
+  {
+   "id": "c2627664f2a7",
+   "date": "2026-05-28",
+   "speaker": "Musalem",
+   "v10": 70,
+   "daily": 72.25,
+   "full": 77.01
+  },
+  {
+   "id": "f51efc7ba788",
+   "date": "2026-05-29",
+   "speaker": "Michelle W. Bowman",
+   "v10": 50,
+   "daily": 55.25,
+   "full": 58.86
+  },
+  {
+   "id": "f97f65a75cc6",
+   "date": "2026-05-29",
+   "speaker": "Jeffrey Schmid",
+   "v10": 60,
+   "daily": 62.6,
+   "full": 72.01
+  },
+  {
+   "id": "fd3927f5943a",
+   "date": "2026-06-02",
+   "speaker": "Beth M. Hammack",
+   "v10": 70,
+   "daily": 71.8,
+   "full": 74.49
+  },
+  {
+   "id": "51b8da898e60",
+   "date": "2026-06-03",
+   "speaker": "Logan",
+   "v10": 70,
+   "daily": 72.75,
+   "full": 74.1
+  },
+  {
+   "id": "704c75bec360",
+   "date": "2026-07-13",
+   "speaker": "Christopher J. Waller",
+   "v10": 70,
+   "daily": 65.1,
+   "full": 70.57
+  },
+  {
+   "id": "2676ed114f39",
+   "date": "2026-07-15",
+   "speaker": "Lisa D. Cook",
+   "v10": 70,
+   "daily": 68.0,
+   "full": 62.53
+  },
+  {
+   "id": "c3409f297dec",
+   "date": "2026-07-15",
+   "speaker": "Williams",
+   "v10": 50,
+   "daily": 46.45,
+   "full": 50.21
+  },
+  {
+   "id": "02be97299012",
+   "date": "2026-07-16",
+   "speaker": "Philip N. Jefferson",
+   "v10": 60,
+   "daily": 59.15,
+   "full": 61.47
+  },
+  {
+   "id": "91597b505a98",
+   "date": "2026-07-16",
+   "speaker": "Logan",
+   "v10": 80,
+   "daily": 75.15,
+   "full": 83.35
+  },
+  {
+   "id": "a99525c284d9",
+   "date": "2026-07-16",
+   "speaker": "Jeffrey Schmid",
+   "v10": 60,
+   "daily": 60.5,
+   "full": 64.26
+  },
+  {
+   "id": "07180092944a",
+   "date": "2026-07-31",
+   "speaker": "Neel Kashkari",
+   "v10": 70,
+   "daily": 89.25,
+   "full": 78.87
+  },
+  {
+   "id": "124d33b81b14",
+   "date": "2026-07-31",
+   "speaker": "Beth M. Hammack",
+   "v10": 80,
+   "daily": 84.2,
+   "full": 85.37
+  },
+  {
+   "id": "76521a6f95bf",
+   "date": "2026-08-04",
+   "speaker": "Jeffrey Schmid",
+   "v10": 70,
+   "daily": 75.0,
+   "full": 78.66
+  },
+  {
+   "id": "c8cdfb43ca4a",
+   "date": "2026-08-05",
+   "speaker": "Lisa D. Cook",
+   "v10": 70,
+   "daily": 69.7,
+   "full": 66.79
+  },
+  {
+   "id": "8d641d3cd932",
+   "date": "2026-08-06",
+   "speaker": "Musalem",
+   "v10": 60,
+   "daily": 61.45,
+   "full": 58.76
+  },
+  {
+   "id": "974ee6c28734",
+   "date": "2026-08-25",
+   "speaker": "Susan M. Collins",
+   "v10": 70,
+   "daily": 69.8,
+   "full": 69.63
+  },
+  {
+   "id": "1191dde1871a",
+   "date": "2026-08-28",
+   "speaker": "Kevin Warsh",
+   "v10": 60,
+   "daily": 61.65,
+   "full": 65.72
+  },
+  {
+   "id": "ce4f37a1b434",
+   "date": "2026-09-01",
+   "speaker": "Michael S. Barr",
+   "v10": 70,
+   "daily": 73.2,
+   "full": 72.69
+  },
+  {
+   "id": "c4374d9f40ee",
+   "date": "2026-09-03",
+   "speaker": "Christopher J. Waller",
+   "v10": 70,
+   "daily": 66.55,
+   "full": 73.55
+  },
+  {
+   "id": "863cc4c9146a",
+   "date": "2026-09-18",
+   "speaker": "Jeffrey Schmid",
+   "v10": 70,
+   "daily": 76.3,
+   "full": 71.99
+  },
+  {
+   "id": "716eba18576e",
+   "date": "2026-09-21",
+   "speaker": "Austan D. Goolsbee",
+   "v10": 80,
+   "daily": 70.0,
+   "full": 77.61
+  },
+  {
+   "id": "2678e29d1e6c",
+   "date": "2026-09-22",
+   "speaker": "Thomas I Barkin",
+   "v10": 60,
+   "daily": 63.65,
+   "full": 70.01
+  },
+  {
+   "id": "91dd5362f087",
+   "date": "2026-09-23",
+   "speaker": "Michael S. Barr",
+   "v10": 70,
+   "daily": 82.45,
+   "full": 82.01
+  },
+  {
+   "id": "ffedaedb26c8",
+   "date": "2026-09-24",
+   "speaker": "Paulson",
+   "v10": 70,
+   "daily": 73.9,
+   "full": 73.8
+  },
+  {
+   "id": "4973dc204496",
+   "date": "2026-09-28",
+   "speaker": "Lisa D. Cook",
+   "v10": 60,
+   "daily": 65.3,
+   "full": 62.76
+  },
+  {
+   "id": "43ca2f20cac5",
+   "date": "2026-09-29",
+   "speaker": "Michael S. Barr",
+   "v10": 70,
+   "daily": 85.3,
+   "full": 81.56
+  },
+  {
+   "id": "c7fd396bc1ed",
+   "date": "2026-09-29",
+   "speaker": "Williams",
+   "v10": 70,
+   "daily": 70.8,
+   "full": 71.52
+  },
+  {
+   "id": "4990c5c00cde",
+   "date": "2026-10-01",
+   "speaker": "Philip N. Jefferson",
+   "v10": 60,
+   "daily": 58.0,
+   "full": 52.43
+  },
+  {
+   "id": "fdb44f401f4b",
+   "date": "2026-10-01",
+   "speaker": "Logan",
+   "v10": 80,
+   "daily": 88.7,
+   "full": 83.44
+  },
+  {
+   "id": "8c34327f8f30",
+   "date": "2026-10-08",
+   "speaker": "Christopher J. Waller",
+   "v10": 80,
+   "daily": 88.65,
+   "full": 86.8
+  },
+  {
+   "id": "c924817f3309",
+   "date": "2026-10-12",
+   "speaker": "Beth M. Hammack",
+   "v10": 60,
+   "daily": 68.2,
+   "full": 71.52
+  },
+  {
+   "id": "8303f67c2288",
+   "date": "2026-10-13",
+   "speaker": "Susan M. Collins",
+   "v10": 70,
+   "daily": 78.25,
+   "full": 80.44
+  },
+  {
+   "id": "3b76862da203",
+   "date": "2026-10-30",
+   "speaker": "Lorie Logan",
+   "v10": 80,
+   "daily": 86.5,
+   "full": 89.95
+  },
+  {
+   "id": "9031f84e2dc9",
+   "date": "2026-10-30",
+   "speaker": "Musalem",
+   "v10": 80,
+   "daily": 97.3,
+   "full": 90.62
+  },
+  {
+   "id": "c36cae31bb3c",
+   "date": "2026-11-05",
+   "speaker": "Beth M. Hammack",
+   "v10": 80,
+   "daily": 98.9,
+   "full": 92.85
+  },
+  {
+   "id": "0a6032a8555e",
+   "date": "2026-11-09",
+   "speaker": "Thomas I Barkin",
+   "v10": 60,
+   "daily": 66.65,
+   "full": 67.03
+  },
+  {
+   "id": "3df92926cf7f",
+   "date": "2026-11-10",
+   "speaker": "Christopher J. Waller",
+   "v10": 80,
+   "daily": 94.25,
+   "full": 86.64
+  },
+  {
+   "id": "43046d387b8e",
+   "date": "2026-11-10",
+   "speaker": "Michelle W. Bowman",
+   "v10": 50,
+   "daily": 56.15,
+   "full": 56.93
+  },
+  {
+   "id": "7bd89197164e",
+   "date": "2026-11-10",
+   "speaker": "Lorie Logan",
+   "v10": 90,
+   "daily": 86.3,
+   "full": 92.71
+  },
+  {
+   "id": "fa21c5325723",
+   "date": "2026-11-10",
+   "speaker": "Paulson",
+   "v10": 80,
+   "daily": 83.15,
+   "full": 80.86
+  }
+ ]
+}

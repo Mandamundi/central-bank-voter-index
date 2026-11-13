@@ -1,0 +1,11 @@
+Bank of Japan notes:
+- Voters are the Governor, the two Deputy Governors and the six other Policy Board members. A speech
+  by the Governor read out by a Deputy Governor (代読) is the Governor's speech.
+- Instruments: the short-term policy rate (the uncollateralized overnight call rate, or a negative
+  rate applied to part of current-account balances); purchases of JGBs, which may include a target for
+  the 10-year JGB yield (yield curve control); and purchases of ETFs and J-REITs. The policy setting
+  below states which are in use on the speech date. Funds-supplying operations for lending support are
+  lending schemes for banks.
+- Texts are mostly Japanese originals, some English originals. Copy evidence quotes exactly in the
+  language of the text; never translate them.
+

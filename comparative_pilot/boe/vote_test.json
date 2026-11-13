@@ -1,0 +1,75 @@
+{
+  "meetings": 69,
+  "member_votes": 584,
+  "dissents": 97,
+  "tighter_dissents": 53,
+  "looser_dissents": 44,
+  "filter_params_combined": {
+    "sd_c": 16.008205756183013,
+    "halflife_c": 272.3353852592178,
+    "sd_d": 11.042942757329893,
+    "halflife_d": 1270.6470764106061,
+    "noise": 8.133335248961476
+  },
+  "filter_params_v10": {
+    "sd_c": 15.051970726756112,
+    "halflife_c": 319.314945295413,
+    "sd_d": 10.040508647460145,
+    "halflife_d": 4005.2222235134072,
+    "noise": 9.77415680466098
+  },
+  "old": {
+    "spearman_rel_vote": 0.329,
+    "dissent_auc": 0.926
+  },
+  "current": {
+    "spearman_rel_vote": 0.319,
+    "dissent_auc": 0.885
+  },
+  "proposed": {
+    "spearman_rel_vote": 0.343,
+    "dissent_auc": 0.89
+  },
+  "combined_carry": {
+    "spearman_rel_vote": 0.366,
+    "dissent_auc": 0.937
+  },
+  "proposed_minus_current": {
+    "spearman": 0.024,
+    "spearman_ci95": [
+      0.002,
+      0.048
+    ],
+    "dissent_auc": 0.005,
+    "dissent_auc_ci95": [
+      -0.025,
+      0.029
+    ]
+  },
+  "exploratory": {
+    "current_minus_old": {
+      "spearman_ci95": [
+        -0.058,
+        0.039
+      ],
+      "dissent_auc_ci95": [
+        -0.09,
+        0.002
+      ]
+    },
+    "combined_carry_minus_proposed": {
+      "spearman_ci95": [
+        -0.033,
+        0.073
+      ],
+      "dissent_auc_ci95": [
+        -0.002,
+        0.09
+      ]
+    }
+  },
+  "pass_marks": {
+    "P7_no_worse_on_votes": true,
+    "P8_no_worse_on_dissents": true
+  }
+}

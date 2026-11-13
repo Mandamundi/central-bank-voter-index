@@ -1,0 +1,921 @@
+[
+ {
+  "date": "1996-01-30",
+  "name": "Lindsey",
+  "direction": null,
+  "excluded": "M2/M3 ranges",
+  "evidence": "Votes against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3. They recognized that the relationships between the ranges for the monetary aggregates and broad measures of economic performance were subject to substantial uncertainty, but ranges higher than those adopted on a tentative basis in July 1995 were more likely to encompass monetary expansion consistent with the central tendency of members' current forecasts of nom"
+ },
+ {
+  "date": "1996-01-30",
+  "name": "Yellen",
+  "direction": null,
+  "excluded": "M2/M3 ranges",
+  "evidence": "Votes against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3. They recognized that the relationships between the ranges for the monetary aggregates and broad measures of economic performance were subject to substantial uncertainty, but ranges higher than those adopted on a tentative basis in July 1995 were more likely to encompass monetary expansion consistent with the central tendency of members' current forecasts of nom"
+ },
+ {
+  "date": "1996-07-02",
+  "name": "Lindsey",
+  "direction": null,
+  "excluded": "M2/M3 ranges",
+  "evidence": "Votes against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3 growth in 1996 and 1997. The central tendencies of the members' forecasts of nominal GDP for the two years were likely to be associated with growth of the broad monetary aggregates at rates around the top of the current ranges. Somewhat higher ranges would more comfortably encompass the anticipated growth of the monetary aggregates and in their view would confor"
+ },
+ {
+  "date": "1996-07-02",
+  "name": "Yellen",
+  "direction": null,
+  "excluded": "M2/M3 ranges",
+  "evidence": "Votes against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3 growth in 1996 and 1997. The central tendencies of the members' forecasts of nominal GDP for the two years were likely to be associated with growth of the broad monetary aggregates at rates around the top of the current ranges. Somewhat higher ranges would more comfortably encompass the anticipated growth of the monetary aggregates and in their view would confor"
+ },
+ {
+  "date": "1996-07-02",
+  "name": "Stern",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Vote against this action: Stern. Stern dissented because he was convinced that a modestly more restrictive policy was warranted. In his view, the momentum of the economy and strains on capacity in labor and some other markets raised the possibility of an acceleration of inflation that would jeopardize the economic expansion. This concern aside, Stern also believed that current circumstances were favorable for policy action to reduce inflation further and thereby help to sustain the ongoing impro"
+ },
+ {
+  "date": "1996-08-20",
+  "name": "Stern",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Stern. Stern dissented because he believed that policy should become modestly more restrictive. He was concerned that, in the absence of a substantial and sustained improvement in productivity, the prevailing pattern of demand might engender an increase in inflationary pressures, and that such pressures would ultimately threaten the ongoing economic expansion. In Stern's judgment, it was prudent at this point to resist such a development in order to lay a foundation fo"
+ },
+ {
+  "date": "1996-09-24",
+  "name": "Stern",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Vote against this action: Stern. Stern dissented because he believed that a modestly more restrictive policy was appropriate. In his view, historical precedents suggested that prolonged periods of taut labor markets were eventually associated with rising inflation. Given prevailing pressures on resources, especially labor, Stern was concerned about the distinct risk of an acceleration of inflation. Should this acceleration occur, he believed it would prove disruptive to the favorable performance"
+ },
+ {
+  "date": "1997-05-20",
+  "name": "Broaddus",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Vote against this action: Broaddus. Broaddus dissented because he believed that the strength of investment demand, due possibly to an increase in the trend growth rate of productivity, required somewhat higher real interest rates to prevent inflationary pressures from developing. He was concerned that, with the economy already operating at a high level and labor markets apparently very tight, any increase in such pressures might be costly to reverse and might reduce the credibility of the Commit"
+ },
+ {
+  "date": "1997-11-12",
+  "name": "Broaddus",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Vote against this action: Broaddus. Broaddus dissented because he believed that a modest tightening of policy would be prudent in view of the recent strength in aggregate demand for goods and services; such demand appeared to be growing considerably more rapidly than the sustainable rate at which it could be supplied without an increase in inflation. While he recognized that a tightening at this meeting presented risks in view of recent financial and economic developments in East Asia, he believ"
+ },
+ {
+  "date": "1997-12-16",
+  "name": "Broaddus",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Vote against this action: Broaddus. Broaddus dissented because he continued to believe that a modest tightening of policy would be prudent in light of the apparent persisting strength in aggregate demand for goods and services. He recognized the case for holding policy steady given recent developments in East Asian economies and financial markets; he believed, however, that a slight firming at this meeting would provide valuable insurance against the risk that demand growth might remain above a "
+ },
+ {
+  "date": "1998-03-31",
+  "name": "Jordan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Jordan. Jordan dissented because growth rates of various measures of money and credit in the second half of 1997 and the first quarter of this year were not consistent in his view with continued progress in reducing inflation. Recent price statistics understated the trend rates of inflation. The one-time effects of falling oil prices, lower food prices, and recent appreciation of the dollar on foreign-exchange markets provided only a temporary reduction of inflation. W"
+ },
+ {
+  "date": "1998-05-19",
+  "name": "Jordan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Jordan and Poole. Poole dissented because he believed that the sustained increase in money growth in recent quarters and associated accommodative conditions in the credit markets pointed to rising inflation. Although faster productivity growth suggested that trend output growth might be modestly higher than previously thought, the growth rate of aggregate demand over the past two years clearly had exceeded the economy's long-run growth potential. Without a reduction of"
+ },
+ {
+  "date": "1998-05-19",
+  "name": "Poole",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Jordan and Poole. Poole dissented because he believed that the sustained increase in money growth in recent quarters and associated accommodative conditions in the credit markets pointed to rising inflation. Although faster productivity growth suggested that trend output growth might be modestly higher than previously thought, the growth rate of aggregate demand over the past two years clearly had exceeded the economy's long-run growth potential. Without a reduction of"
+ },
+ {
+  "date": "1998-06-30",
+  "name": "Jordan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Jordan. Jordan dissented because he believed that the unsustainably rapid growth of domestic demand--fueled by the acceleration of money and credit growth in the past year--was reflected in the recent sharp increase in imports and rising trade deficits. As U.S. output growth slows significantly from the rapid pace of 1997 and early 1998, it will be essential that domestic demand also slow. The very welcome progress toward eliminating inflation in recent years has contr"
+ },
+ {
+  "date": "1998-08-18",
+  "name": "Jordan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Vote against this action: Jordan. Jordan dissented because he believed that the underlying strength of aggregate demand in the U.S. economy would remain fundamentally intact, despite economic problems abroad. The problems in Asia provide a channel for economic imbalances to develop. Exports from some U.S. manufacturing industries will decline due to softer foreign markets and import competition. At the same time, domestic demand for imports, housing, and consumer durables will increase due to fa"
+ },
+ {
+  "date": "1998-11-17",
+  "name": "Jordan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Jordan. Jordan dissented because he believed that the two recent reductions in the Federal funds rate were sufficient responses to the stresses in financial markets that had emerged suddenly in late August. An additional rate reduction risked fueling an unsustainably strong growth rate of domestic demand. He expressed concern that the excessively rapid rates of growth of the monetary and credit aggregates were inconsistent with continued low inflation. Moreover, any fu"
+ },
+ {
+  "date": "1999-06-29",
+  "name": "McTeer",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Vote against this action: McTeer. Absent and not voting: Rivlin McTeer dissented because he believed that tightening was unnecessary to contain inflation. He noted that most measures of current inflation remain low, and he saw few signs of inflation in the pipeline. Conditions that called for a preemptive tightening in 1994--rapidly rising commodity prices and real short-term interest rates near zero--are not present today. While money growth has been rapid by historical standards, market-based "
+ },
+ {
+  "date": "1999-08-24",
+  "name": "McTeer",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Vote against this action: McTeer. McTeer dissented for essentially the same reasons he did at the June 30 meeting: low inflation and, except for energy, minimal inflation in the pipeline. He believes that positive supply-side forces will continue to damp the impact of strong demand on output prices and that productivity gains will continue to damp the effect of higher wages on unit labor costs. Establishment of Subcommittee Chairman Greenspan announced the formation of a subcommittee to review t"
+ },
+ {
+  "date": "2000-02-02",
+  "name": "Meyer",
+  "direction": null,
+  "excluded": "money growth ranges",
+  "evidence": "Vote against this action: Meyer. In dissenting, Meyer noted that although the money growth ranges do not play an important role in the conduct of monetary policy today, Congress has mandated that the FOMC set and report ranges for money and credit growth. In recent years, the money ranges have been set to be consistent with price stability and normal velocity behavior. The rate of money growth consistent with price stability depends on the average growth of real GDP. Therefore, when there is a s"
+ },
+ {
+  "date": "2001-05-15",
+  "name": "Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Hoenig. Hoenig dissented because he preferred a less aggressive easing action involving a reduction of 25 basis points in the federal funds rate. While the risks of weaker economic growth still tended to dominate those of rising inflation and called for some further easing, the Committee had added significant liquidity to the economy this year through its cumulatively large easing actions. The lagged effects of those actions should be felt increasingly over time. Moreo"
+ },
+ {
+  "date": "2001-06-27",
+  "name": "Poole",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Poole. Poole dissented because he believed that FOMC actions this year had already established a highly stimulative monetary policy stance. The M2 and MZM measures of money had risen at annual rates in excess of 10 percent and 20 percent respectively over the past six months, and the real federal funds rate was very likely below its equilibrium level. Other more qualitative information on financial conditions pointed in the same direction. Economic forecasts were that "
+ },
+ {
+  "date": "2001-12-11",
+  "name": "Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Hoenig. Absent and not voting: Kelley. Hoenig dissented because he preferred to leave the federal funds rate unchanged. He judged that a 2 percent federal funds rate was already quite stimulative and that a more stimulative policy was not needed. Following the rapid and aggressive policy actions already taken, it would be prudent to give the current policy more time to work through the economy. It was also his position that reducing the federal funds rate at this meeti"
+ },
+ {
+  "date": "2002-09-24",
+  "name": "Gramlich",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Votes against this action: Gramlich and McTeer. Gramlich and McTeer dissented because they preferred to ease monetary policy at this meeting. The economic expansion, which resumed almost a year ago, had recently lost momentum, and job growth had been minimal over the past year. With inflation already low and likely to decline further in the face of economic slack and rapid productivity growth, the potential cost of additional stimulus seemed low compared with the risk of further weakness. It was"
+ },
+ {
+  "date": "2002-09-24",
+  "name": "McTeer",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Votes against this action: Gramlich and McTeer. Gramlich and McTeer dissented because they preferred to ease monetary policy at this meeting. The economic expansion, which resumed almost a year ago, had recently lost momentum, and job growth had been minimal over the past year. With inflation already low and likely to decline further in the face of economic slack and rapid productivity growth, the potential cost of additional stimulus seemed low compared with the risk of further weakness. It was"
+ },
+ {
+  "date": "2003-06-25",
+  "name": "Parry",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Votes against this action: Parry. Parry dissented because he preferred a 50 basis point reduction in the federal funds rate target as insurance against continued sluggishness in economic activity and further declines in inflation measures to undesirably low rates. While he believed that a significant increase in the pace of activity over the next several quarters was likely, he had not yet seen convincing evidence that this process was under way. Moreover, the current slack in labor and product "
+ },
+ {
+  "date": "2005-09-20",
+  "name": "Olson",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Vote against this action: Olson. Olson dissented because he preferred that the Committee defer policy action at this meeting, pending the receipt of additional information on the economic effects resulting from the severe shock of Hurricane Katrina. It was agreed that the next meeting of the Committee would be held on Tuesday, November 1, 2005. The meeting adjourned at 1:15 p.m. Notation Vote By notation vote completed on August 29, 2005, the Committee unanimously approved the minutes of the mee"
+ },
+ {
+  "date": "2006-08-08",
+  "name": "Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Lacker. Lacker dissented because he believed that further tightening was needed to bring inflation down more rapidly than would be the case if the policy rate were kept unchanged. The inflation outlook had deteriorated in the intermeeting period; the recent surge in core inflation had persisted and appeared to be broad-based, while the revision of the national income and product accounts indicated a recent upswing in compensation and unit labor costs. Although real gro"
+ },
+ {
+  "date": "2006-09-20",
+  "name": "Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Lacker. Lacker dissented because he believed that further tightening was needed to bring inflation down more rapidly than would be the case if the policy rate were kept unchanged. Recent data indicated that inflation remained above levels consistent with price stability. Moreover, the upswing in compensation and unit labor costs in the first half of the year indicated that inflation risks were tilted to the upside. Although real growth was likely to be moderate in comi"
+ },
+ {
+  "date": "2006-10-25",
+  "name": "Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Lacker Lacker dissented because he believed that further tightening was needed to help ensure that core inflation declines to an acceptable rate in coming quarters. The Committee then continued its discussion of communication issues and considered the advantages and disadvantages of quantifying an inflation objective. Participants stressed that any such step had to be consistent with the statutory objectives for monetary policy. In that regard, it was noted that over t"
+ },
+ {
+  "date": "2006-12-12",
+  "name": "Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Lacker Lacker dissented because he believed that further tightening was needed to help ensure that core inflation declines to an acceptable rate in coming quarters. Meeting participants briefly reviewed some issues regarding communications and the next steps in their continuing discussion of the topic. At the next FOMC meeting, confirmed for January 30-31, 2007, the Committee intended to consider the role that economic projections and forecasts can play in communicatin"
+ },
+ {
+  "date": "2007-10-31",
+  "name": "Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Hoenig. Hoenig dissented because he believed that policy should remain unchanged at this meeting. Projections for the U.S. and global economies suggested that growth was likely to proceed at a reasonable pace over the outlook period. To better assure that outcome, the FOMC had moved rates down significantly at its September meeting. At this meeting, inflation risks appeared elevated and Hoenig felt that the target federal funds rate was currently close to neutral. In t"
+ },
+ {
+  "date": "2007-12-11",
+  "name": "Rosengren",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Votes against this action: Rosengren. Rosengren dissented because he regarded the weakness in the incoming economic data and in the outlook for the economy as warranting a more aggressive policy response. In his view, the combination of a deteriorating housing sector, slowing consumer and business spending, high energy prices, and ill-functioning financial markets suggested heightened risk of continued economic weakness. In light of that possibility, a more decisive policy response was called fo"
+ },
+ {
+  "date": "2008-01-30",
+  "name": "Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Fisher. Fisher dissented because he preferred to leave the federal funds rate unchanged. The rate had been lowered by 75 basis points just one week earlier in a decision he supported, which brought the funds rate down 175 basis points since September. Given these actions, he felt that monetary policy was already quite stimulative, while headline inflation was too high at more than 3 percent over the last year. Demand-pull inflation pressures from emerging-market econom"
+ },
+ {
+  "date": "2008-01-22",
+  "name": "Poole",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Poole Absent and not voting: Mishkin Poole dissented because he did not believe that current conditions justified policy action before the regularly scheduled meeting the following week. _____________________________ Brian F. Madigan Secretary Return to top Last update: February 20, 2008 Home | Monetary Policy Accessibility Contact Us Disclaimer Website Policies FOIA PDF Reader (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document",
+  "note": "vote on the 22 January intermeeting cut, recorded in the 30 January minutes"
+ },
+ {
+  "date": "2008-03-18",
+  "name": "Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Fisher and Plosser. Fisher and Plosser dissented because, in light of heightened inflation risks, they favored easing policy less aggressively. Incoming data suggested a weaker near-term outlook for economic growth, but the Committee's earlier policy moves had already reduced the target federal funds rate by 225 basis points to address risks to growth, and the full effect of those rate cuts had yet to be felt. While financial markets remained under stress, the Federal "
+ },
+ {
+  "date": "2008-03-18",
+  "name": "Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Fisher and Plosser. Fisher and Plosser dissented because, in light of heightened inflation risks, they favored easing policy less aggressively. Incoming data suggested a weaker near-term outlook for economic growth, but the Committee's earlier policy moves had already reduced the target federal funds rate by 225 basis points to address risks to growth, and the full effect of those rate cuts had yet to be felt. While financial markets remained under stress, the Federal "
+ },
+ {
+  "date": "2008-04-30",
+  "name": "Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Fisher and Plosser. Fisher and Plosser dissented because they preferred no change in the target federal funds rate at this meeting. Although the economy had been weak, it had evolved roughly as expected since the previous meeting. Stresses in financial markets also had continued, but the Federal Reserve's liquidity facilities were helpful in that regard and the more worrisome development in their view was the outlook for inflation. Rising prices for food, energy, and o"
+ },
+ {
+  "date": "2008-04-30",
+  "name": "Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Fisher and Plosser. Fisher and Plosser dissented because they preferred no change in the target federal funds rate at this meeting. Although the economy had been weak, it had evolved roughly as expected since the previous meeting. Stresses in financial markets also had continued, but the Federal Reserve's liquidity facilities were helpful in that regard and the more worrisome development in their view was the outlook for inflation. Rising prices for food, energy, and o"
+ },
+ {
+  "date": "2008-06-25",
+  "name": "Richard W. Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against was Richard W. Fisher, who preferred an increase in the target for the federal funds rate at this meeting.",
+  "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20080625a.htm (minutes page 404)"
+ },
+ {
+  "date": "2008-08-05",
+  "name": "Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Votes against this action: Fisher. Fisher dissented because he favored an increase in the target federal funds rate to help restrain inflation and inflation expectations, which were at risk of drifting higher. While the financial system remained fragile and economic growth was sluggish and could weaken further, he saw a greater risk to the economy from upward pressures on inflation. In his view, businesses had become more inclined to raise prices to pass on the higher costs of imported goods and"
+ },
+ {
+  "date": "2009-01-28",
+  "name": "Lacker",
+  "direction": null,
+  "excluded": "composition of purchases",
+  "evidence": "Voting against this action: Lacker. Lacker dissented because he preferred to expand the monetary base by purchasing U.S. Treasury securities rather than through targeted credit programs. Lacker was fully supportive of the significant expansion of the Federal Reserve's balance sheet and the intention to maintain the size of the balance sheet at a high level. However, while he recognized that spreads were elevated and volumes low in many credit markets, he saw no evidence of market failures that m"
+ },
+ {
+  "date": "2010-01-27",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to \"warrant exceptionally low levels of the federal funds rate for an extended period.\" In recent months, economic and financial conditions improved steadily, and Hoenig was concerned that, under these improving conditions, maintaining short-term interest rates near zero for an extended period of time would lay the groundwork"
+ },
+ {
+  "date": "2010-03-16",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to warrant \"exceptionally low levels of the federal funds rate for an extended period.\" Hoenig was concerned that communicating such an expectation could lead to the buildup of future financial imbalances and increase the risks to longer-run macroeconomic and financial stability. Accordingly, Hoenig believed that it would be "
+ },
+ {
+  "date": "2010-04-28",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to warrant \"exceptionally low levels of the federal funds rate for an extended period.\" Hoenig was concerned that communicating such an expectation could lead to the buildup of future financial imbalances and increase the risks to longer-run macroeconomic and financial stability, while limiting the Committee's flexibility to "
+ },
+ {
+  "date": "2010-06-23",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he believed that, as the economy completed its first year of modest recovery, it was no longer advisable to indicate that economic and financial conditions were likely to warrant \"exceptionally low levels of the federal funds rate for an extended period.\" Although risks to the forecast remained, Hoenig was concerned that communicating such an expectation would limit the Committee's flexibility to begin raising rates modestly "
+ },
+ {
+  "date": "2010-08-10",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he thought it was not appropriate to indicate that economic and financial conditions were \"likely to warrant exceptionally low levels of the federal funds rate for an extended period\" or to reinvest principal payments from agency debt and agency mortgage-backed securities in longer-term Treasury securities. Hoenig felt that the \"extended period\" expectation could limit the Committee's flexibility to begin raising rates modest"
+ },
+ {
+  "date": "2010-09-21",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented, emphasizing that the economy was entering the second year of moderate recovery and that, while the zero interest rate policy and \"extended period\" language were appropriate during the crisis and its immediate aftermath, they were no longer appropriate with the recovery under way. Hoenig also emphasized that, in his view, the current high levels of unemployment were not caused by high interest rates but by an extended period of excep"
+ },
+ {
+  "date": "2010-11-03",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he judged that additional accommodation would do little to accelerate the economy's continuing, gradual recovery. In his assessment, the risks of additional purchases of Treasury securities outweighed the benefits. Hoenig believed that additional purchases would risk a further misallocation of resources and future financial imbalances that could destabilize the economy. He also saw a potential for additional purchases to unde"
+ },
+ {
+  "date": "2010-12-14",
+  "name": "Thomas M. Hoenig",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Thomas M. Hoenig. Hoenig dissented because he judged that economic conditions were improving, and that the current highly accommodative stance of monetary policy was inconsistent with the Committee's long-run mandate. Hoenig noted that the economic recovery was shifting from transitory to more sustainable sources of growth and was picking up momentum. In his assessment, maintaining highly accommodative monetary policy in the current economic environment would increase"
+ },
+ {
+  "date": "2011-08-09",
+  "name": "Richard W. Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds rate for an \"extended period,\" rather than characterizing that period as \"at least through mid-2013.\" Fisher discussed the fragility of the U.S. economy but felt that it was chiefly nonmonetary factors, such as uncer"
+ },
+ {
+  "date": "2011-08-09",
+  "name": "Narayana Kocherlakota",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds rate for an \"extended period,\" rather than characterizing that period as \"at least through mid-2013.\" Fisher discussed the fragility of the U.S. economy but felt that it was chiefly nonmonetary factors, such as uncer"
+ },
+ {
+  "date": "2011-08-09",
+  "name": "Charles I. Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds rate for an \"extended period,\" rather than characterizing that period as \"at least through mid-2013.\" Fisher discussed the fragility of the U.S. economy but felt that it was chiefly nonmonetary factors, such as uncer"
+ },
+ {
+  "date": "2011-09-21",
+  "name": "Richard W. Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they did not support additional policy accommodation at this time. Fisher saw a maturity extension program as providing few, if any, benefits in support of job creation or economic growth, while it could potentially constrain or complicate the timely removal of policy accommodation. In his view, any reduction in long-term Treasury rates resulting from "
+ },
+ {
+  "date": "2011-09-21",
+  "name": "Narayana Kocherlakota",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they did not support additional policy accommodation at this time. Fisher saw a maturity extension program as providing few, if any, benefits in support of job creation or economic growth, while it could potentially constrain or complicate the timely removal of policy accommodation. In his view, any reduction in long-term Treasury rates resulting from "
+ },
+ {
+  "date": "2011-09-21",
+  "name": "Charles I. Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they did not support additional policy accommodation at this time. Fisher saw a maturity extension program as providing few, if any, benefits in support of job creation or economic growth, while it could potentially constrain or complicate the timely removal of policy accommodation. In his view, any reduction in long-term Treasury rates resulting from "
+ },
+ {
+  "date": "2011-11-02",
+  "name": "Charles L. Evans",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Charles L. Evans. Evans dissented because he saw the high unemployment rate and the outlook for only weak economic growth as calling for additional policy accommodation at this meeting. Moreover, the longer the current situation of low resource utilization lasted, the more the economy's longer-term growth potential could be impaired. Furthermore, given current policy, his outlook was for inflation to come in below levels consistent with the Committee's dual mandate, b"
+ },
+ {
+  "date": "2011-12-13",
+  "name": "Charles L. Evans",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Charles L. Evans. Evans dissented because he continued to view additional policy accommodation as appropriate in circumstances where his outlook was for growth to be too slow to make sufficient progress in reducing the unemployment rate and for inflation to drop below levels consistent with the Committee's dual mandate. He continued to support the use of more-explicit forward guidance about the economic conditions under which the federal funds rate could be maintained"
+ },
+ {
+  "date": "2011-12-13",
+  "name": "Jeffrey M. Lacker",
+  "direction": null,
+  "excluded": "foreign-currency swap lines",
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker voted as alternate member for Plosser at this meeting. Lacker dissented because of his opposition to arrangements that support Federal Reserve lending in foreign currencies, which he viewed as amounting to fiscal policy. He also opposed lowering the interest rate on swap arrangements to below the primary credit rate. Notation Vote By notation vote completed on November 21, 2011, the Committee unanimously approved the minutes of the FOMC meeti"
+ },
+ {
+  "date": "2012-01-25",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he preferred to omit the description of the time period over which economic conditions were likely to warrant exceptionally low levels of the federal funds rate. He expected that a preemptive tightening of monetary policy would be necessary to prevent an increase in inflation projections or inflation expectations prior to the end of 2014. More broadly, given the inclusion of FOMC participants' projections for the federal fun"
+ },
+ {
+  "date": "2012-03-13",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he did not agree that economic conditions were likely to warrant exceptionally low levels of the federal funds rate at least through late 2014. In his view, with inflation close to the Committee's objective of 2 percent, the economy expanding at a moderate pace, and downside risks somewhat diminished, the federal funds rate will most likely need to rise considerably sooner to prevent the emergence of inflationary pressures. "
+ },
+ {
+  "date": "2012-04-25",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he did not believe that economic conditions were likely to warrant exceptionally low levels of the federal funds rate through late 2014. In his view, an increase in the federal funds rate was likely to be necessary by mid-2013 to prevent the emergence of inflationary pressures. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, June 19-20, 2012. Because some participants had expressed a "
+ },
+ {
+  "date": "2012-06-20",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he opposed continuation of the maturity extension program. He did not believe that further monetary stimulus at this time would make a substantial difference for economic growth and employment without also increasing inflation by more than would be desirable. In Lacker's view, the outlook for economic growth had clearly weakened of late, but he questioned whether the maturity extension program would have much effect in curre"
+ },
+ {
+  "date": "2012-08-01",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he did not believe that exceptionally low levels for the federal funds rate were likely to be warranted for the length of time specified in the Committee's statement. In his view, significant uncertainty regarding the evolution of economic conditions over the next few years made the future path of interest rates difficult to forecast, and the Committee's statement implied more confidence on this score than justified by the c"
+ },
+ {
+  "date": "2012-09-13",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he believed that additional monetary stimulus at this time was unlikely to result in a discernible improvement in economic growth without also causing an unwanted increase in inflation. Moreover, he expressed his opposition to the purchase of more MBS, because he viewed it as inappropriate for the Committee to choose a particular sector of the economy to support; purchases of Treasury securities instead would have avoided th"
+ },
+ {
+  "date": "2012-10-24",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented for the same reasons he had cited at the September FOMC meeting, including his view of the likely ineffectiveness of asset purchases and their potential inflationary effects, as well as the inappropriateness of credit allocation inherent in purchasing MBS. He also continued to disagree with the description of the time period over which a highly accommodative stance of monetary policy would remain appropriate and exceptionally low le"
+ },
+ {
+  "date": "2012-12-12",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he objected to the asset purchases and to the characterization of the conditions under which an exceptionally low range for the federal funds rate would remain appropriate. He continued to view asset purchases as unlikely to add to economic growth without unacceptably increasing the risk of future inflation, and to see purchases of MBS as inappropriate credit allocation. With regard to the funds rate, Lacker was concerned th"
+ },
+ {
+  "date": "2013-01-30",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. George dissented out of concern that the continued high level of monetary accommodation increased the risks of future economic and financial imbalances and, over time, could cause an increase in inflation expectations. In her view, the potential costs and risks posed by the Committee's asset purchases outweighed their uncertain benefits. Although she noted that monetary policy needed to remain supportive of the economy, George believed that policy ha"
+ },
+ {
+  "date": "2013-03-20",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. George dissented because she continued to view monetary policy as too accommodative and therefore as posing risks to the achievement of the Committee's economic objectives in the long run. In particular, the current stance of policy could lead to financial imbalances, a mispricing of risk, and, over time, higher long-term inflation expectations. In her view, the Committee's asset purchases were providing relatively small benefits, and, given the risk"
+ },
+ {
+  "date": "2013-05-01",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. George dissented because she continued to view monetary policy as overly accommodative and therefore as posing risks to the long-term sustainable growth of the economy. She expressed concern that the stance of policy might be fostering imbalances and excessive risk-taking in some financial markets and institutions, and she cited the potential for the Committee's ongoing asset purchases to complicate the future conduct of policy, raise uncertainty, an"
+ },
+ {
+  "date": "2013-06-19",
+  "name": "James Bullard",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: James Bullard and Esther L. George. Bullard dissented because he believed that, in light of recent low readings on inflation, the Committee should signal more strongly its willingness to defend its goal of 2 percent inflation. He pointed out that inflation had trended down since the beginning of 2012 and was now well below target. Going forward, he viewed it as particularly important for the Committee to monitor price developments closely and to adapt its policy in re"
+ },
+ {
+  "date": "2013-06-19",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: James Bullard and Esther L. George. Bullard dissented because he believed that, in light of recent low readings on inflation, the Committee should signal more strongly its willingness to defend its goal of 2 percent inflation. He pointed out that inflation had trended down since the beginning of 2012 and was now well below target. Going forward, he viewed it as particularly important for the Committee to monitor price developments closely and to adapt its policy in re"
+ },
+ {
+  "date": "2013-07-31",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. George dissented because she favored including in the policy statement a more explicit signal that the pace of the Committee's asset purchases would be reduced in the near term. She expressed concerns about the open-ended approach to asset purchases and viewed providing such a signal as important at this time, in light of the ongoing improvement in labor market conditions as well as the potential costs and uncertain benefits of large-scale asset purc"
+ },
+ {
+  "date": "2013-09-18",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. George dissented because she saw recent information on the economy as sufficiently positive to warrant a reduction in the pace of the Committee's asset purchases at this meeting. In her view, waiting for more evidence of progress discounted the cumulative improvement in the economy as well as the potential costs of ongoing purchases. Accordingly, not only would a reduction be appropriate in light of the ongoing improvement in labor market conditions,"
+ },
+ {
+  "date": "2013-10-30",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. George dissented because she did not see the continued aggressive easing of monetary policy as warranted in the face of both actual and forecasted improvements in the economy. In her view, the cumulative progress in labor markets justified taking steps toward slowing the pace of the Committee's asset purchases. Moreover, market expectations for the size of the purchase program had continued to escalate despite that progress, increasing her concerns a"
+ },
+ {
+  "date": "2013-12-18",
+  "name": "Eric Rosengren",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Eric Rosengren. Rosengren dissented because he viewed the decision to slow the pace of asset purchases at this meeting as premature. In his view, with the unemployment rate still elevated and the inflation rate well below the Committee's longer-run objective of 2 percent, changes in the asset purchase program should be postponed until incoming data more clearly indicate that economic growth is likely to be sustained above its potential rate. He saw the costs of delayi"
+ },
+ {
+  "date": "2014-03-19",
+  "name": "Narayana Kocherlakota",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Narayana Kocherlakota. Kocherlakota dissented because, in his view, the new forward guidance in the fifth paragraph of the statement would weaken the credibility of the Committee's commitment to its inflation goal by failing to communicate purposeful steps to more rapidly increase inflation to the 2 percent target and by suggesting that the Committee views inflation persistently below 2 percent as an acceptable outcome. Moreover, he judged that the new guidance would "
+ },
+ {
+  "date": "2014-07-30",
+  "name": "Charles I. Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Charles I. Plosser. Plosser dissented because he objected to the statement's guidance indicating that it likely will be appropriate to maintain the current target range for the federal funds rate for \"a considerable time after the asset purchase program ends.\" In his view, the reference to calendar time should be replaced with language that indicates how monetary policy will respond to incoming data. Moreover, he judged that the statement did not acknowledge the subst"
+ },
+ {
+  "date": "2014-09-17",
+  "name": "Richard W. Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher and Charles I. Plosser. President Fisher dissented because he believed that the continued strengthening of the real economy, the improved outlook for labor utilization and for general price stability, and continued signs of financial market excess will likely warrant an earlier reduction in monetary accommodation than is suggested by the Committee's stated forward guidance. Plosser dissented because he objected to the statement's guidance indicating "
+ },
+ {
+  "date": "2014-09-17",
+  "name": "Charles I. Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher and Charles I. Plosser. President Fisher dissented because he believed that the continued strengthening of the real economy, the improved outlook for labor utilization and for general price stability, and continued signs of financial market excess will likely warrant an earlier reduction in monetary accommodation than is suggested by the Committee's stated forward guidance. Plosser dissented because he objected to the statement's guidance indicating "
+ },
+ {
+  "date": "2014-10-29",
+  "name": "Narayana Kocherlakota",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Narayana Kocherlakota. Kocherlakota dissented because he believed that, in light of continued sluggishness in the inflation outlook and the recent slide in market-based measures of longer-term inflation expectations, the Committee should commit to maintaining the current target range for the federal funds rate at least until projected inflation one to two years ahead has returned to 2 percent and should continue the asset purchase program at its current pace. Kocherla"
+ },
+ {
+  "date": "2014-12-17",
+  "name": "Richard W. Fisher",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher agreed that the Committee should be patient in beginning to normalize the stance of monetary policy. He dissented because he saw the improvement in the U.S. economic outlook since October as indicating that it likely will be appropriate to increase the federal funds rate sooner than the Committee's current statement envisions. Kocherlakota dissented because he believed that the Committee's decisi"
+ },
+ {
+  "date": "2014-12-17",
+  "name": "Narayana Kocherlakota",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher agreed that the Committee should be patient in beginning to normalize the stance of monetary policy. He dissented because he saw the improvement in the U.S. economic outlook since October as indicating that it likely will be appropriate to increase the federal funds rate sooner than the Committee's current statement envisions. Kocherlakota dissented because he believed that the Committee's decisi"
+ },
+ {
+  "date": "2014-12-17",
+  "name": "Charles I. Plosser",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher agreed that the Committee should be patient in beginning to normalize the stance of monetary policy. He dissented because he saw the improvement in the U.S. economic outlook since October as indicating that it likely will be appropriate to increase the federal funds rate sooner than the Committee's current statement envisions. Kocherlakota dissented because he believed that the Committee's decisi"
+ },
+ {
+  "date": "2015-09-17",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he believed that maintaining exceptionally low real interest rates was not appropriate for an economy with persistently strong consumption growth and tightening labor markets. He viewed current disinflationary forces as likely to be transitory, and was reasonably confident that inflation would move toward 2 percent. In his view, further delay in removing monetary policy accommodation would represent a risky departure from pa"
+ },
+ {
+  "date": "2015-10-28",
+  "name": "Jeffrey M. Lacker",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Jeffrey M. Lacker. Lacker dissented because he continued to believe that maintaining exceptionally low real interest rates was not appropriate for an economy with persistently strong consumption growth and tightening labor markets. Data received since the September FOMC meeting suggested that the global economic and financial developments of late summer had little effect on the medium-term outlook for U.S. growth and inflation. He remained reasonably confident that in"
+ },
+ {
+  "date": "2016-03-16",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action : Esther L. George. George dissented because she believed that a 25 basis point increase in the target range for the federal funds rate was warranted at this meeting. Although risks to the global economy had increased in recent months and financial markets were unusually volatile at times, she believed that monetary policy should focus primarily on progress toward the Committee's longer-run objectives. Recently, labor market conditions had continued to strengthen, with"
+ },
+ {
+  "date": "2016-04-27",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action : Esther L. George. George dissented because she believed that a 25 basis point increase in the target range for the federal funds rate was appropriate at this meeting. Potential downside risks to the economic outlook had diminished since the March FOMC meeting, and the modal outlook was for economic growth, employment, and inflation outcomes consistent with the Committee's statutory objectives. She believed that monetary policy should respond to these developments by "
+ },
+ {
+  "date": "2016-07-27",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action : Esther L. George. George dissented because she believed that a 25 basis point increase in the target range for the federal funds rate was appropriate at this meeting. Information available since the June FOMC meeting showed solid employment growth, economic growth near its trend, and inflation outcomes aligning with the Committee's objective. Domestic financial conditions had eased since the U.K. referendum. She believed that monetary policy should respond to these d"
+ },
+ {
+  "date": "2016-09-21",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George, Loretta J. Mester, and Eric Rosengren. George and Mester and Rosengren dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged that with the unemployment rate and inflation at or near their longer-run levels, removing some accommodation was warranted and would be consistent with the prescriptions of several frameworks for assessing the appropriate stance of monetary po"
+ },
+ {
+  "date": "2016-09-21",
+  "name": "Loretta J. Mester",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George, Loretta J. Mester, and Eric Rosengren. George and Mester and Rosengren dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged that with the unemployment rate and inflation at or near their longer-run levels, removing some accommodation was warranted and would be consistent with the prescriptions of several frameworks for assessing the appropriate stance of monetary po"
+ },
+ {
+  "date": "2016-09-21",
+  "name": "Eric Rosengren",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George, Loretta J. Mester, and Eric Rosengren. George and Mester and Rosengren dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged that with the unemployment rate and inflation at or near their longer-run levels, removing some accommodation was warranted and would be consistent with the prescriptions of several frameworks for assessing the appropriate stance of monetary po"
+ },
+ {
+  "date": "2016-11-02",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George and Loretta J. Mester. George and Mester dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged that, with the labor market near full employment and inflation approaching the Committee's 2 percent objective, another step in the gradual adjustment of monetary policy was appropriate. While a low level of the target range for the federal funds rate had supported achieving"
+ },
+ {
+  "date": "2016-11-02",
+  "name": "Loretta J. Mester",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George and Loretta J. Mester. George and Mester dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged that, with the labor market near full employment and inflation approaching the Committee's 2 percent objective, another step in the gradual adjustment of monetary policy was appropriate. While a low level of the target range for the federal funds rate had supported achieving"
+ },
+ {
+  "date": "2017-03-15",
+  "name": "Neel Kashkari",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Neel Kashkari. Kashkari dissented because he preferred to maintain the existing target range for the federal funds rate at this meeting. In his view, recent data had not pointed to further progress on the Committee's dual objectives and thus had not provided a compelling case to firm monetary policy at this meeting. He preferred to await additional information on the amount of slack remaining in the labor market and increased evidence that inflation would stabilize at"
+ },
+ {
+  "date": "2017-06-14",
+  "name": "Neel Kashkari",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Neel Kashkari. Kashkari dissented because he preferred to maintain the existing target range for the federal funds rate at this meeting. In his view, recent data, while suggesting that the labor market had improved further, had increased doubts about achievement of the Committee's 2 percent longer-run inflation objective and thus had not provided a compelling basis on which to firm monetary policy at this meeting. He preferred to await additional evidence that the rec"
+ },
+ {
+  "date": "2017-12-13",
+  "name": "Charles L. Evans",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Charles L. Evans and Neel Kashkari. Evans and Kashkari dissented because they preferred to maintain the existing target range for the federal funds rate at this meeting. In Evans's view, with inflation continuing to run substantially below 2 percent and measures of inflation expectations lower than he believed to be consistent with a symmetric 2 percent inflation objective, it was important to pause in the process of policy normalization. Leaving the target range at 1"
+ },
+ {
+  "date": "2017-12-13",
+  "name": "Neel Kashkari",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Charles L. Evans and Neel Kashkari. Evans and Kashkari dissented because they preferred to maintain the existing target range for the federal funds rate at this meeting. In Evans's view, with inflation continuing to run substantially below 2 percent and measures of inflation expectations lower than he believed to be consistent with a symmetric 2 percent inflation objective, it was important to pause in the process of policy normalization. Leaving the target range at 1"
+ },
+ {
+  "date": "2019-06-19",
+  "name": "James Bullard",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: James Bullard. Bullard dissented because he believed that the current stance of monetary policy could be better positioned to foster progress toward the Committee's statutory objectives of maximum employment and stable prices. Particularly in light of persistent low readings on inflation and from indicators of inflation expectations along with the risks to the U.S. outlook associated with global economic developments, he noted that a policy rate reduction at the curre"
+ },
+ {
+  "date": "2019-07-31",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George and Eric Rosengren. President George dissented because she believed that an unchanged setting of policy was appropriate based on the incoming data and the outlook for economic activity over the medium term. Recognizing risks to the outlook from the crosscurrents emanating from trade policy uncertainty and weaker global activity, President George would be prepared to adjust policy should incoming data point to a materially weaker outlook for the econom"
+ },
+ {
+  "date": "2019-07-31",
+  "name": "Eric Rosengren",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George and Eric Rosengren. President George dissented because she believed that an unchanged setting of policy was appropriate based on the incoming data and the outlook for economic activity over the medium term. Recognizing risks to the outlook from the crosscurrents emanating from trade policy uncertainty and weaker global activity, President George would be prepared to adjust policy should incoming data point to a materially weaker outlook for the econom"
+ },
+ {
+  "date": "2019-09-18",
+  "name": "James Bullard",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: James Bullard, Esther L. George, and Eric Rosengren. President Bullard dissented because he believed that lowering the target range for the federal funds rate by 50 basis points at this time would provide insurance against further declines in expected inflation and a slowing economy subject to elevated downside risks. In addition, a 50 basis point cut at this time would help promote a more rapid return of inflation and inflation expectations to target. President Georg"
+ },
+ {
+  "date": "2019-09-18",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: James Bullard, Esther L. George, and Eric Rosengren. President Bullard dissented because he believed that lowering the target range for the federal funds rate by 50 basis points at this time would provide insurance against further declines in expected inflation and a slowing economy subject to elevated downside risks. In addition, a 50 basis point cut at this time would help promote a more rapid return of inflation and inflation expectations to target. President Georg"
+ },
+ {
+  "date": "2019-09-18",
+  "name": "Eric Rosengren",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: James Bullard, Esther L. George, and Eric Rosengren. President Bullard dissented because he believed that lowering the target range for the federal funds rate by 50 basis points at this time would provide insurance against further declines in expected inflation and a slowing economy subject to elevated downside risks. In addition, a 50 basis point cut at this time would help promote a more rapid return of inflation and inflation expectations to target. President Georg"
+ },
+ {
+  "date": "2019-10-30",
+  "name": "Esther L. George",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George and Eric Rosengren. President George dissented at this meeting because she believed that an unchanged setting of monetary policy was appropriate based on incoming data and the outlook for economic activity over the medium term. Recognizing risks to the outlook from the effects of trade developments and weaker global activity, President George would be prepared to adjust policy should incoming data point to a materially weaker outlook for the economy. "
+ },
+ {
+  "date": "2019-10-30",
+  "name": "Eric Rosengren",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George and Eric Rosengren. President George dissented at this meeting because she believed that an unchanged setting of monetary policy was appropriate based on incoming data and the outlook for economic activity over the medium term. Recognizing risks to the outlook from the effects of trade developments and weaker global activity, President George would be prepared to adjust policy should incoming data point to a materially weaker outlook for the economy. "
+ },
+ {
+  "date": "2020-03-15",
+  "name": "Loretta J. Mester",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Loretta J. Mester President Mester was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but voted against the FOMC action because she preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 0 to 1/4 percent, the Board of Governors vote"
+ },
+ {
+  "date": "2020-09-16",
+  "name": "Robert S. Kaplan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Robert S. Kaplan and Neel Kashkari. President Kaplan dissented because he expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point. President Kashkari dissented "
+ },
+ {
+  "date": "2020-09-16",
+  "name": "Neel Kashkari",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Robert S. Kaplan and Neel Kashkari. President Kaplan dissented because he expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point. President Kashkari dissented "
+ },
+ {
+  "date": "2022-03-16",
+  "name": "James Bullard",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action : James Bullard. Patrick Harker voted as an alternate member at this meeting. President Bullard preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent in light of elevated inflation pressures. To support the Committee's decision to raise the target range for the federal funds rate, the Board of Governors of the Federal Reserve System voted unanimously to raise the interest rate paid on reserve balanc"
+ },
+ {
+  "date": "2022-06-15",
+  "name": "Esther L. George",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Esther L. George. Patrick Harker voted as an alternate member at this meeting. President George dissented because she judged that a large increase in the target range for the federal funds rate would add to uncertainty about policy concurrent with the beginning of balance sheet runoff in ways that could unsettle households and businesses and could also adversely affect the ability of small banks to meet the credit needs of their communities. To support the Committee's"
+ },
+ {
+  "date": "2024-09-18",
+  "name": "Michelle W. Bowman",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Michelle W. Bowman. Governor Bowman preferred at this meeting to lower the target range for the federal funds rate by 25 basis points to 5 to 5-1/4 percent in light of core inflation remaining well above the Committee's objective, a labor market that is near full employment, and solid underlying growth. She also expressed her concern that the Committee's larger policy action could be seen as a premature declaration of victory on the price-stability part of the dual ma"
+ },
+ {
+  "date": "2024-12-18",
+  "name": "Beth M. Hammack",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Beth M. Hammack. President Hammack dissented because she preferred to maintain the target range for the federal funds rate at 4-1/2 to 4-3/4 percent, in light of uneven progress in returning inflation to 2 percent, the strength of the economy and the labor market, and the state of financial conditions. In her view, with the current federal funds rate not far from neutral, holding the funds rate at a modestly restrictive stance for a time was appropriate to ensure that"
+ },
+ {
+  "date": "2025-03-19",
+  "name": "Christopher J. Waller",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Christopher J. Waller. Governor Waller preferred no change in the federal funds target range and continuing the pace of decline in securities holdings in place at the time of the vote. This view was based on reserve balances being over $3 trillion as well as no evidence from money market indicators or his outreach conversations that the banking system is getting close to an ample level of reserves. In addition, rather than changing the pace of balance sheet reduction,"
+ },
+ {
+  "date": "2025-07-30",
+  "name": "Michelle W. Bowman",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Michelle W. Bowman and Christopher J. Waller. Absent and not voting: Adriana D. Kugler Governors Bowman and Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Governor Bowman preferred at this meeting to lower the target range for the federal funds rate by 25 basis points to 4 to 4-1/4 percent in light of inflation moving considerably closer to the Committee's objective, after excluding temporary effects of t"
+ },
+ {
+  "date": "2025-07-30",
+  "name": "Christopher J. Waller",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Michelle W. Bowman and Christopher J. Waller. Absent and not voting: Adriana D. Kugler Governors Bowman and Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Governor Bowman preferred at this meeting to lower the target range for the federal funds rate by 25 basis points to 4 to 4-1/4 percent in light of inflation moving considerably closer to the Committee's objective, after excluding temporary effects of t"
+ },
+ {
+  "date": "2025-09-17",
+  "name": "Stephen I. Miran",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran. Governor Miran preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting in light of further softening in the labor market over the first half of the year and underlying inflation that in his view was meaningfully closer to 2 percent than was apparent in the data. Governor Miran also expressed the view that additional policy easing was also appropriate to reflect that the neutral rate of interest had falle"
+ },
+ {
+  "date": "2025-10-29",
+  "name": "Stephen I. Miran",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-3/4 to 4 percent, the Board of Governors of the Federal Reserve System voted unanimously to lower the interest rate paid on reserve bala"
+ },
+ {
+  "date": "2025-10-29",
+  "name": "Jeffrey R. Schmid",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-3/4 to 4 percent, the Board of Governors of the Federal Reserve System voted unanimously to lower the interest rate paid on reserve bala"
+ },
+ {
+  "date": "2025-12-10",
+  "name": "Stephen I. Miran",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-1/2 to 3-3/4* percent, the Board of Governors of the Federal Reserve System voted unanimously to lower the intere"
+ },
+ {
+  "date": "2025-12-10",
+  "name": "Jeffrey R. Schmid",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-1/2 to 3-3/4* percent, the Board of Governors of the Federal Reserve System voted unanimously to lower the intere"
+ },
+ {
+  "date": "2025-12-10",
+  "name": "Austan D. Goolsbee",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-1/2 to 3-3/4* percent, the Board of Governors of the Federal Reserve System voted unanimously to lower the intere"
+ },
+ {
+  "date": "2026-01-28",
+  "name": "Stephen I. Miran",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran and Christopher J. Waller. Stephen I. Miran and Christopher J. Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective January 29, 2026. The B"
+ },
+ {
+  "date": "2026-01-28",
+  "name": "Christopher J. Waller",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran and Christopher J. Waller. Stephen I. Miran and Christopher J. Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective January 29, 2026. The B"
+ },
+ {
+  "date": "2026-03-18",
+  "name": "Stephen I. Miran",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran. Stephen I. Miran preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective March 19, 2026. The Board of Governors of the Federal Reserve System voted "
+ },
+ {
+  "date": "2026-04-29",
+  "name": "Stephen I. Miran",
+  "direction": -1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal"
+ },
+ {
+  "date": "2026-04-29",
+  "name": "Beth M. Hammack",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal"
+ },
+ {
+  "date": "2026-04-29",
+  "name": "Neel Kashkari",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal"
+ },
+ {
+  "date": "2026-04-29",
+  "name": "Lorie K. Logan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal"
+ },
+ {
+  "date": "2026-07-29",
+  "name": "Beth M. Hammack",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective July 30, 2026. The Board of Governors of the Federal R"
+ },
+ {
+  "date": "2026-07-29",
+  "name": "Neel Kashkari",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective July 30, 2026. The Board of Governors of the Federal R"
+ },
+ {
+  "date": "2026-07-29",
+  "name": "Lorie K. Logan",
+  "direction": 1,
+  "excluded": null,
+  "evidence": "Voting against this action: Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds rate unchanged, the Board of Governors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 3.65 percent, effective July 30, 2026. The Board of Governors of the Federal R"
+ }
+]

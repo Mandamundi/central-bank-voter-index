@@ -1,0 +1,369 @@
+  GET https://www.federalreserve.gov/fomc/minutes/19960130.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19960326.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19960521.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19960702.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19960820.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19960924.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19961113.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19961217.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19970204.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19970325.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19970520.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19970701.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19970819.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19970930.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19971112.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19971216.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19980203.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19980331.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19980519.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19980630.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19980818.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19980929.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19981117.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19981222.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19990202.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19990330.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19990518.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19990629.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19990824.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19991005.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19991116.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/19991221.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20000202.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20000321.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20000516.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20000628.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20000822.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20001003.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20001115.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20001219.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20010131.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20010320.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20010515.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20010627.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20010821.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20011002.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20011106.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20011211.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20020130.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20020319.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20020507.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20020626.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20020813.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20020924.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20021106.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20021210.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20030129.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20030318.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20030506.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20030625.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20030812.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20030916.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20031028.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20031209.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20040128.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20040316.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20040504.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20040630.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20040810.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20040921.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20041110.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20041214.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20050202.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20050322.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20050503.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20050630.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20050809.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20050920.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20051101.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20051213.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20060131.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20060328.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20060510.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20060629.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20060808.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20060920.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20061025.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20061212.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20070131.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20070321.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20070509.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20070628.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20070807.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/fomc/minutes/20070918.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20071031.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20071211.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20080130.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20080318.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20080430.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20080805.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20080916.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20081029.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20081216.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20090128.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20090318.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20090429.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20090624.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20090812.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20090923.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20091104.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20091216.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20100127.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20100316.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20100428.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20100810.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20100921.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20101103.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20101214.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20110126.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20110315.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20110427.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20110622.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20110809.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20110921.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20111213.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20120125.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20120313.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20120425.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20120620.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20120801.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20120913.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20121024.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20121212.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20130130.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20130320.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20130501.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20130619.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20130731.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20130918.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20131030.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20131218.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20140129.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20140319.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20140430.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20140618.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20140730.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20140917.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20141029.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20141217.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20150128.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20150318.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20150429.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20150617.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20150729.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20150917.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20151028.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20151216.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20160127.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20160316.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20160427.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20160615.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20160727.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20160921.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20161102.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20161214.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20170201.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20170315.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20170503.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20170614.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20170726.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20170920.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20171101.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20171213.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20180131.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20180321.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20180502.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20180613.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20180801.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20180926.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20181108.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20190320.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20190501.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20190619.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20190731.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20190918.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20191030.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20191211.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20200129.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20200610.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20200729.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20200916.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20201105.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20210127.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20210317.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20210428.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20210616.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20210728.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20210922.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20211103.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20211215.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20220126.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20220316.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20221214.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20230201.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20230322.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20230503.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20230614.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20230726.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20230920.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20231101.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20240131.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20240320.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20240501.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20240612.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20240731.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20240918.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20241107.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20241218.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20250129.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20250319.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20250507.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20250917.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20251029.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20251210.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20260128.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20260318.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm (attempt 1/2, elapsed 0s)
+  GET https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm (attempt 1/2, elapsed 0s)
+1996-01-30 Lindsey                UNPLACED | against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3. They recognized that the relationships between the ranges for the mon
+1996-01-30 Yellen                 UNPLACED | against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3. They recognized that the relationships between the ranges for the mon
+1996-07-02 Lindsey                UNPLACED | against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3 growth in 1996 and 1997. The central tendencies of the members' foreca
+1996-07-02 Yellen                 UNPLACED | against this action: Lindsey and Yellen. Lindsey and Yellen dissented because they preferred somewhat higher ranges for M2 and M3 growth in 1996 and 1997. The central tendencies of the members' foreca
+1996-08-20 Stern                  UNPLACED | against this action: Stern. Stern dissented because he believed that policy should become modestly more restrictive. He was concerned that, in the absence of a substantial and sustained improvement in
+1996-09-24 Stern                  UNPLACED | against this action: Stern. Stern dissented because he believed that a modestly more restrictive policy was appropriate. In his view, historical precedents suggested that prolonged periods of taut lab
+1997-05-20 Broaddus               UNPLACED | against this action: Broaddus. Broaddus dissented because he believed that the strength of investment demand, due possibly to an increase in the trend growth rate of productivity, required somewhat hi
+1997-11-12 Broaddus               UNPLACED | against this action: Broaddus. Broaddus dissented because he believed that a modest tightening of policy would be prudent in view of the recent strength in aggregate demand for goods and services; suc
+1997-12-16 Broaddus               UNPLACED | against this action: Broaddus. Broaddus dissented because he continued to believe that a modest tightening of policy would be prudent in light of the apparent persisting strength in aggregate demand f
+1998-03-31 Jordan                 UNPLACED | against this action: Jordan. Jordan dissented because growth rates of various measures of money and credit in the second half of 1997 and the first quarter of this year were not consistent in his view
+1998-05-19 Jordan                 UNPLACED | against this action: Jordan and Poole. Poole dissented because he believed that the sustained increase in money growth in recent quarters and associated accommodative conditions in the credit markets 
+1998-05-19 Poole                  UNPLACED | against this action: Jordan and Poole. Poole dissented because he believed that the sustained increase in money growth in recent quarters and associated accommodative conditions in the credit markets 
+1998-08-18 Jordan                 UNPLACED | against this action: Jordan. Jordan dissented because he believed that the underlying strength of aggregate demand in the U.S.
+1998-11-17 Jordan                 UNPLACED | against this action: Jordan. Jordan dissented because he believed that the two recent reductions in the Federal funds rate were sufficient responses to the stresses in financial markets that had emerg
+1999-08-24 McTeer                 UNPLACED | against this action: McTeer. McTeer dissented for essentially the same reasons he did at the June 30 meeting: low inflation and, except for energy, minimal inflation in the pipeline. He believes that 
+2000-02-02 Meyer                  UNPLACED | against this action: Meyer. In dissenting, Meyer noted that although the money growth ranges do not play an important role in the conduct of monetary policy today, Congress has mandated that the FOMC 
+2001-05-15 Hoenig                 UNPLACED | against this action: Hoenig. Hoenig dissented because he preferred a less aggressive easing action involving a reduction of 25 basis points in the federal funds rate. While the risks of weaker economi
+2001-06-27 Poole                  UNPLACED | against this action: Poole. Poole dissented because he believed that FOMC actions this year had already established a highly stimulative monetary policy stance. The M2 and MZM measures of money had ri
+2001-12-11 Hoenig                 looser  | against this action: Hoenig. Absent and not voting: Kelley. Hoenig dissented because he preferred to leave the federal funds rate unchanged.
+2002-09-24 Gramlich               looser  | against this action: Gramlich and McTeer. Gramlich and McTeer dissented because they preferred to ease monetary policy at this meeting. The economic expansion, which resumed almost a year ago, had rec
+2002-09-24 McTeer                 looser  | against this action: Gramlich and McTeer. Gramlich and McTeer dissented because they preferred to ease monetary policy at this meeting. The economic expansion, which resumed almost a year ago, had rec
+2003-06-25 Parry                  looser  | against this action: Parry. Parry dissented because he preferred a 50 basis point reduction in the federal funds rate target as insurance against continued sluggishness in economic activity and furthe
+2005-09-20 Olson                  UNPLACED | against this action: Olson. Olson dissented because he preferred that the Committee defer policy action at this meeting, pending the receipt of additional information on the economic effects resulting
+2006-08-08 Lacker                 UNPLACED | against this action: Lacker. Lacker dissented because he believed that further tightening was needed to bring inflation down more rapidly than would be the case if the policy rate were kept unchanged.
+2006-09-20 Lacker                 UNPLACED | against this action: Lacker. Lacker dissented because he believed that further tightening was needed to bring inflation down more rapidly than would be the case if the policy rate were kept unchanged.
+2006-10-25 Lacker Lacker          UNPLACED | against this action: Lacker Lacker dissented because he believed that further tightening was needed to help ensure that core inflation declines to an acceptable rate in coming quarters. The Committee 
+2006-12-12 Lacker Lacker          UNPLACED | against this action: Lacker Lacker dissented because he believed that further tightening was needed to help ensure that core inflation declines to an acceptable rate in coming quarters. Meeting partic
+2007-10-31 Hoenig                 UNPLACED | against this action: Hoenig. Hoenig dissented because he believed that policy should remain unchanged at this meeting. Projections for the U.  Hoenig saw the risks to both economic growth and inflatio
+2007-12-11 Rosengren              UNPLACED | against this action: Rosengren. Rosengren dissented because he regarded the weakness in the incoming economic data and in the outlook for the economy as warranting a more aggressive policy response. I
+2008-01-30 Fisher                 looser  | against this action: Fisher. Fisher dissented because he preferred to leave the federal funds rate unchanged. The rate had been lowered by 75 basis points just one week earlier in a decision he suppor
+2008-03-18 Fisher                 UNPLACED | against this action: Fisher and Plosser. Fisher and Plosser dissented because, in light of heightened inflation risks, they favored easing policy less aggressively. Incoming data suggested a weaker ne
+2008-03-18 Plosser                UNPLACED | against this action: Fisher and Plosser. Fisher and Plosser dissented because, in light of heightened inflation risks, they favored easing policy less aggressively. Incoming data suggested a weaker ne
+2008-04-30 Fisher                 looser  | against this action: Fisher and Plosser. Fisher and Plosser dissented because they preferred no change in the target federal funds rate at this meeting. Although the economy had been weak, it had evol
+2008-04-30 Plosser                looser  | against this action: Fisher and Plosser. Fisher and Plosser dissented because they preferred no change in the target federal funds rate at this meeting. Although the economy had been weak, it had evol
+2008-08-05 Fisher                 UNPLACED | against this action: Fisher. Fisher dissented because he favored an increase in the target federal funds rate to help restrain inflation and inflation expectations, which were at risk of drifting high
+2009-01-28 Lacker                 UNPLACED | against this action: Lacker. Lacker dissented because he preferred to expand the monetary base by purchasing U.S.
+2010-01-27 Thomas M. Hoenig       UNPLACED |  Hoenig. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to "warrant exceptionally low levels of the federal funds rate f
+2010-03-16 Thomas M. Hoenig       UNPLACED |  Hoenig. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to warrant "exceptionally low levels of the federal funds rate f
+2010-04-28 Thomas M. Hoenig       UNPLACED |  Hoenig. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to warrant "exceptionally low levels of the federal funds rate f
+2010-06-23 Thomas M. Hoenig       UNPLACED |  Hoenig. Hoenig dissented because he believed that, as the economy completed its first year of modest recovery, it was no longer advisable to indicate that economic and financial conditions were likel
+2010-08-10 Thomas M. Hoenig       looser  |  Hoenig. Hoenig dissented because he thought it was not appropriate to indicate that economic and financial conditions were "likely to warrant exceptionally low levels of the federal funds rate for an
+2010-09-21 Thomas M. Hoenig       UNPLACED |  Hoenig. Hoenig dissented, emphasizing that the economy was entering the second year of moderate recovery and that, while the zero interest rate policy and "extended period" language were appropriate 
+2010-11-03 Thomas M. Hoenig       looser  |  Hoenig. Hoenig dissented because he judged that additional accommodation would do little to accelerate the economy's continuing, gradual recovery. In his assessment, the risks of additional purchases
+2010-12-14 Thomas M. Hoenig       UNPLACED |  Hoenig. Hoenig dissented because he judged that economic conditions were improving, and that the current highly accommodative stance of monetary policy was inconsistent with the Committee's long-run 
+2011-08-09 Richard W. Fisher      UNPLACED |  Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they would have preferred to continue to describe economic conditions as likely to warrant e
+2011-08-09 Narayana Kocherlakota  UNPLACED |  Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they would have preferred to continue to describe economic conditions as likely to warrant e
+2011-08-09 Charles I. Plosser     UNPLACED |  Plosser. Fisher, Kocherlakota, and Plosser dissented because they would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds 
+2011-09-21 Richard W. Fisher      looser  |  Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they did not support additional policy accommodation at this time.
+2011-09-21 Narayana Kocherlakota  looser  |  Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher, Kocherlakota, and Plosser dissented because they did not support additional policy accommodation at this time.
+2011-09-21 Charles I. Plosser     looser  |  Plosser. Fisher, Kocherlakota, and Plosser dissented because they did not support additional policy accommodation at this time. Fisher saw a maturity extension program as providing few, if any, benef
+2011-11-02 Charles L. Evans       looser  |  Evans. Evans dissented because he saw the high unemployment rate and the outlook for only weak economic growth as calling for additional policy accommodation at this meeting. Moreover, the longer the
+2011-12-13 Charles L. Evans       looser  |  Evans. Evans dissented because he continued to view additional policy accommodation as appropriate in circumstances where his outlook was for growth to be too slow to make sufficient progress in redu
+2012-01-25 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he preferred to omit the description of the time period over which economic conditions were likely to warrant exceptionally low levels of the federal funds rate. He e
+2012-03-13 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he did not agree that economic conditions were likely to warrant exceptionally low levels of the federal funds rate at least through late 2014. In his view, with infl
+2012-04-25 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he did not believe that economic conditions were likely to warrant exceptionally low levels of the federal funds rate through late 2014. In his view, an increase in t
+2012-06-20 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he opposed continuation of the maturity extension program. He did not believe that further monetary stimulus at this time would make a substantial difference for econ
+2012-08-01 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he did not believe that exceptionally low levels for the federal funds rate were likely to be warranted for the length of time specified in the Committee's statement.
+2012-09-13 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he believed that additional monetary stimulus at this time was unlikely to result in a discernible improvement in economic growth without also causing an unwanted inc
+2012-10-24 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented for the same reasons he had cited at the September FOMC meeting, including his view of the likely ineffectiveness of asset purchases and their potential inflationary effects,
+2012-12-12 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he objected to the asset purchases and to the characterization of the conditions under which an exceptionally low range for the federal funds rate would remain approp
+2013-01-30 Esther L. George       UNPLACED |  George. George dissented out of concern that the continued high level of monetary accommodation increased the risks of future economic and financial imbalances and, over time, could cause an increase
+2013-03-20 Esther L. George       UNPLACED |  George. George dissented because she continued to view monetary policy as too accommodative and therefore as posing risks to the achievement of the Committee's economic objectives in the long run. In
+2013-05-01 Esther L. George       UNPLACED |  George. George dissented because she continued to view monetary policy as overly accommodative and therefore as posing risks to the long-term sustainable growth of the economy. She expressed concern 
+2013-06-19 James Bullard          UNPLACED | against this action: James Bullard and Esther L. George. Bullard dissented because he believed that, in light of recent low readings on inflation, the Committee should signal more strongly its willing
+2013-06-19 Esther L. George       UNPLACED |  George. Bullard dissented because he believed that, in light of recent low readings on inflation, the Committee should signal more strongly its willingness to defend its goal of 2 percent inflation. 
+2013-07-31 Esther L. George       UNPLACED |  George. George dissented because she favored including in the policy statement a more explicit signal that the pace of the Committee's asset purchases would be reduced in the near term. She expressed
+2013-09-18 Esther L. George       UNPLACED |  George. George dissented because she saw recent information on the economy as sufficiently positive to warrant a reduction in the pace of the Committee's asset purchases at this meeting. In her view,
+2013-10-30 Esther L. George       UNPLACED |  George. George dissented because she did not see the continued aggressive easing of monetary policy as warranted in the face of both actual and forecasted improvements in the economy. In her view, th
+2013-12-18 Eric Rosengren         UNPLACED | against this action: Eric Rosengren. Rosengren dissented because he viewed the decision to slow the pace of asset purchases at this meeting as premature. In his view, with the unemployment rate still 
+2014-03-19 Narayana Kocherlakota  UNPLACED | against this action: Narayana Kocherlakota. Kocherlakota dissented because, in his view, the new forward guidance in the fifth paragraph of the statement would weaken the credibility of the Committee'
+2014-07-30 Charles I. Plosser     UNPLACED |  Plosser. Plosser dissented because he objected to the statement's guidance indicating that it likely will be appropriate to maintain the current target range for the federal funds rate for "a conside
+2014-09-17 Richard W. Fisher      UNPLACED |  Fisher and Charles I. Plosser. President Fisher dissented because he believed that the continued strengthening of the real economy, the improved outlook for labor utilization and for general price st
+2014-09-17 Charles I. Plosser     UNPLACED |  Plosser. President Fisher dissented because he believed that the continued strengthening of the real economy, the improved outlook for labor utilization and for general price stability, and continued
+2014-10-29 Narayana Kocherlakota  UNPLACED | against this action: Narayana Kocherlakota. Kocherlakota dissented because he believed that, in light of continued sluggishness in the inflation outlook and the recent slide in market-based measures o
+2014-12-17 Richard W. Fisher      UNPLACED |  Fisher, Narayana Kocherlakota, and Charles I. Plosser. Fisher agreed that the Committee should be patient in beginning to normalize the stance of monetary policy.
+2014-12-17 Narayana Kocherlakota  UNPLACED |  Kocherlakota dissented because he believed that the Committee's decision and statement did not respond to ongoing below-target inflation and falling market-based measures of longer-term inflation exp
+2014-12-17 Charles I. Plosser     UNPLACED |  Plosser. Fisher agreed that the Committee should be patient in beginning to normalize the stance of monetary policy. He dissented because he saw the improvement in the U.  Plosser dissented for two r
+2015-09-17 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he believed that maintaining exceptionally low real interest rates was not appropriate for an economy with persistently strong consumption growth and tightening labor
+2015-10-28 Jeffrey M. Lacker      UNPLACED |  Lacker. Lacker dissented because he continued to believe that maintaining exceptionally low real interest rates was not appropriate for an economy with persistently strong consumption growth and tigh
+2016-03-16 Esther L. George       UNPLACED |  George. George dissented because she believed that a 25 basis point increase in the target range for the federal funds rate was warranted at this meeting. Although risks to the global economy had inc
+2016-04-27 Esther L. George       UNPLACED |  George. George dissented because she believed that a 25 basis point increase in the target range for the federal funds rate was appropriate at this meeting. Potential downside risks to the economic o
+2016-07-27 Esther L. George       UNPLACED |  George. George dissented because she believed that a 25 basis point increase in the target range for the federal funds rate was appropriate at this meeting. Information available since the June FOMC 
+2016-09-21 Esther L. George       tighter |  George, Loretta J. Mester, and Eric Rosengren. George and Mester and Rosengren dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meet
+2016-09-21 Loretta J. Mester      tighter |  Mester, and Eric Rosengren. George and Mester and Rosengren dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged 
+2016-09-21 Eric Rosengren         tighter |  Mester, and Eric Rosengren. George and Mester and Rosengren dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged 
+2016-11-02 Esther L. George       tighter |  George and Loretta J. Mester. George and Mester dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting.
+2016-11-02 Loretta J. Mester      tighter |  Mester. George and Mester dissented because they preferred to increase the target range for the federal funds rate by 25 basis points at this meeting. George judged that, with the labor market near f
+2017-03-15 Neel Kashkari          UNPLACED | against this action: Neel Kashkari. Kashkari dissented because he preferred to maintain the existing target range for the federal funds rate at this meeting. In his view, recent data had not pointed t
+2017-06-14 Neel Kashkari          looser  | against this action: Neel Kashkari. Kashkari dissented because he preferred to maintain the existing target range for the federal funds rate at this meeting. In his view, recent data, while suggesting
+2017-12-13 Charles L. Evans       looser  |  Evans and Neel Kashkari. Evans and Kashkari dissented because they preferred to maintain the existing target range for the federal funds rate at this meeting. In Evans's view, with inflation continui
+2017-12-13 Neel Kashkari          looser  |  Evans and Neel Kashkari. Evans and Kashkari dissented because they preferred to maintain the existing target range for the federal funds rate at this meeting. In Evans's view, with inflation continui
+2019-06-19 James Bullard          UNPLACED | against this action: James Bullard. Bullard dissented because he believed that the current stance of monetary policy could be better positioned to foster progress toward the Committee's statutory obje
+2019-07-31 Esther L. George       UNPLACED |  George and Eric Rosengren. President George dissented because she believed that an unchanged setting of policy was appropriate based on the incoming data and the outlook for economic activity over th
+2019-07-31 Eric Rosengren         looser  |  George and Eric Rosengren. President George dissented because she believed that an unchanged setting of policy was appropriate based on the incoming data and the outlook for economic activity over th
+2019-09-18 James Bullard          UNPLACED | against this action: James Bullard, Esther L. George, and Eric Rosengren. President Bullard dissented because he believed that lowering the target range for the federal funds rate by 50 basis points a
+2019-09-18 Esther L. George       UNPLACED |  George, and Eric Rosengren. President Bullard dissented because he believed that lowering the target range for the federal funds rate by 50 basis points at this time would provide insurance against f
+2019-09-18 Eric Rosengren         looser  |  George, and Eric Rosengren. President Bullard dissented because he believed that lowering the target range for the federal funds rate by 50 basis points at this time would provide insurance against f
+2019-10-30 Esther L. George       UNPLACED |  George and Eric Rosengren. President George dissented at this meeting because she believed that an unchanged setting of monetary policy was appropriate based on incoming data and the outlook for econ
+2019-10-30 Eric Rosengren         looser  |  George and Eric Rosengren. President George dissented at this meeting because she believed that an unchanged setting of monetary policy was appropriate based on incoming data and the outlook for econ
+2020-03-15 Loretta J. Mester      looser  |  Mester President Mester was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but voted against the FOMC ac
+2020-09-16 Robert S. Kaplan       UNPLACED |  Kaplan and Neel Kashkari. President Kaplan dissented because he expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathere
+2020-09-16 Neel Kashkari          UNPLACED |  Kaplan and Neel Kashkari. President Kaplan dissented because he expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathere
+2022-03-16 James Bullard          tighter | against this action : James Bullard. Patrick Harker voted as an alternate member at this meeting. President Bullard preferred at this meeting to raise the target range for the federal funds rate by 0.
+2022-06-15 Esther L. George       UNPLACED |  George. Patrick Harker voted as an alternate member at this meeting. President George dissented because she judged that a large increase in the target range for the federal funds rate would add to un
+2024-09-18 Michelle W. Bowman     looser  |  Bowman. Governor Bowman preferred at this meeting to lower the target range for the federal funds rate by 25 basis points to 5 to 5-1/4 percent in light of core inflation remaining well above the Com
+2024-12-18 Beth M. Hammack        looser  |  Hammack. President Hammack dissented because she preferred to maintain the target range for the federal funds rate at 4-1/2 to 4-3/4 percent, in light of uneven progress in returning inflation to 2 p
+2025-03-19 Christopher J. Waller  looser  |  Waller. Governor Waller preferred no change in the federal funds target range and continuing the pace of decline in securities holdings in place at the time of the vote. This view was based on reserv
+2025-07-30 Michelle W. Bowman     looser  |  Kugler Governors Bowman and Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Governor Bowman preferred at this meeting to lower the targe
+2025-07-30 Christopher J. Waller  looser  |  Waller. Absent and not voting: Adriana D. Kugler Governors Bowman and Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.
+2025-09-17 Stephen I. Miran       looser  |  Miran. Governor Miran preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting in light of further softening in the labor market over the first half of t
+2025-10-29 Stephen I. Miran       looser  |  Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal f
+2025-10-29 Jeffrey R. Schmid      looser  |  Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-3/4 
+2025-12-10 Stephen I. Miran       looser  |  Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target 
+2025-12-10 Jeffrey R. Schmid      looser  |  Schmid, who preferred no change to the target range for the federal funds rate at this meeting. Consistent with the Committee's decision to lower the target range for the federal funds rate to 3-1/2 
+2026-01-28 Stephen I. Miran       looser  |  Miran and Christopher J. Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target ra
+2026-01-28 Christopher J. Waller  looser  |  Waller preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal funds
+2026-03-18 Stephen I. Miran       looser  |  Miran. Stephen I. Miran preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.
+2026-04-29 Stephen I. Miran       looser  |  Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the
+2026-04-29 Beth M. Hammack        UNPLACED |  Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consis
+2026-04-29 Neel Kashkari          UNPLACED |  Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consis
+2026-04-29 Lorie K. Logan         UNPLACED |  Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time. Consistent with the Committee's decision to
+2026-07-29 Beth M. Hammack        tighter |  Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to lea
+2026-07-29 Neel Kashkari          tighter |  Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to lea
+2026-07-29 Lorie K. Logan         tighter |  Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting. Consistent with the Committee's decision to leave the target range for the federal f

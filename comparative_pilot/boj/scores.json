@@ -1,0 +1,1810 @@
+[
+ {
+  "id": "020ff673f39508e7efb3",
+  "date": "2022-06-06",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 51.98,
+  "sd": 3.18
+ },
+ {
+  "id": "0309bc1a0121191e96fb",
+  "date": "2026-09-02",
+  "speaker": "TAKATA Hajime",
+  "v10": 90,
+  "combined": 87.93,
+  "sd": 4.77
+ },
+ {
+  "id": "05bfb948deee7be7fa54",
+  "date": "2021-03-08",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 40,
+  "combined": 39.05,
+  "sd": 6.72
+ },
+ {
+  "id": "074a5782ce685c45b13a",
+  "date": "2026-05-14",
+  "speaker": "MASU Kazuyuki",
+  "v10": 80,
+  "combined": 85.67,
+  "sd": 4.5
+ },
+ {
+  "id": "09670debcbbac1573b31",
+  "date": "2021-03-30",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 32.49,
+  "sd": 4.9
+ },
+ {
+  "id": "0caf6f82d5cf876749de",
+  "date": "2018-01-09",
+  "speaker": "NAKASO Hiroshi",
+  "v10": 50,
+  "combined": 51.86,
+  "sd": 1.87
+ },
+ {
+  "id": "0ccd13ea3fdc781a1f6a",
+  "date": "2024-04-18",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 50,
+  "combined": 41.22,
+  "sd": 5.11
+ },
+ {
+  "id": "0d52049d6fe116763207",
+  "date": "2018-08-02",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 47.99,
+  "sd": 2.58
+ },
+ {
+  "id": "0dae77d335967d100f4e",
+  "date": "2018-07-05",
+  "speaker": "MASAI Takako",
+  "v10": 50,
+  "combined": 50.39,
+  "sd": 0.41
+ },
+ {
+  "id": "0dc9010f4323496b4cb6",
+  "date": "2023-09-25",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 50.6,
+  "sd": 0.78
+ },
+ {
+  "id": "0e6301fcab365400137e",
+  "date": "2020-10-05",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": 3.15,
+  "sd": 6.69
+ },
+ {
+  "id": "0ebf126eed803bd3b753",
+  "date": "2023-02-22",
+  "speaker": "TAMURA Naoki",
+  "v10": 50,
+  "combined": 52.13,
+  "sd": 1.57
+ },
+ {
+  "id": "0f9cc8c1da5644ac8af4",
+  "date": "2024-03-27",
+  "speaker": "TAMURA Naoki",
+  "v10": 70,
+  "combined": 65.93,
+  "sd": 4.38
+ },
+ {
+  "id": "0fb380808cdda4aad4ac",
+  "date": "2018-06-21",
+  "speaker": "FUNO Yukitoshi",
+  "v10": 50,
+  "combined": 50.0,
+  "sd": 0.32
+ },
+ {
+  "id": "0fcb2e257c3dd1163bbf",
+  "date": "2019-10-18",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 40,
+  "combined": 49.95,
+  "sd": 4.62
+ },
+ {
+  "id": "1030afe43b211b90ac7f",
+  "date": "2022-06-01",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 30,
+  "combined": 41.22,
+  "sd": 4.38
+ },
+ {
+  "id": "111a28fad449ebac47c6",
+  "date": "2019-02-27",
+  "speaker": "KATAOKA Goushi",
+  "v10": 10,
+  "combined": 14.75,
+  "sd": 8.31
+ },
+ {
+  "id": "1177065179a7334bdbcd",
+  "date": "2018-07-04",
+  "speaker": "HARADA Yutaka",
+  "v10": 50,
+  "combined": 45.74,
+  "sd": 3.4
+ },
+ {
+  "id": "13b079795abe0216df6f",
+  "date": "2023-11-29",
+  "speaker": "ADACHI Seiji",
+  "v10": 50,
+  "combined": 42.92,
+  "sd": 5.38
+ },
+ {
+  "id": "15cb7430d28960889e02",
+  "date": "2024-08-07",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 60,
+  "combined": 50.92,
+  "sd": 4.57
+ },
+ {
+  "id": "162a8521a721f5161625",
+  "date": "2020-06-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": 3.99,
+  "sd": 2.45
+ },
+ {
+  "id": "183c9d8a00fb8c7135f7",
+  "date": "2019-05-17",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 40.5,
+  "sd": 5.8
+ },
+ {
+  "id": "18b350aa4498de2eb45c",
+  "date": "2022-06-24",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 51.28,
+  "sd": 0.84
+ },
+ {
+  "id": "18e72199438e85b39c39",
+  "date": "2023-08-26",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 53.85,
+  "sd": 2.74
+ },
+ {
+  "id": "1a1517328647385be300",
+  "date": "2024-09-05",
+  "speaker": "TAKATA Hajime",
+  "v10": 70,
+  "combined": 58.28,
+  "sd": 4.8
+ },
+ {
+  "id": "1a8f725df1abd5acc85c",
+  "date": "2025-10-20",
+  "speaker": "TAKATA Hajime",
+  "v10": 80,
+  "combined": 90.83,
+  "sd": 4.93
+ },
+ {
+  "id": "1b271d89caf4cfb6f45c",
+  "date": "2026-10-06",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 81.73,
+  "sd": 4.33
+ },
+ {
+  "id": "1bdc5363a163c86b15e9",
+  "date": "2022-07-28",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 49.67,
+  "sd": 1.87
+ },
+ {
+  "id": "1d047010e12967fcc37e",
+  "date": "2026-02-06",
+  "speaker": "MASU Kazuyuki",
+  "v10": 70,
+  "combined": 75.16,
+  "sd": 4.92
+ },
+ {
+  "id": "20d75c491e9584554af5",
+  "date": "2023-08-30",
+  "speaker": "TAMURA Naoki",
+  "v10": 50,
+  "combined": 55.24,
+  "sd": 3.39
+ },
+ {
+  "id": "2151f1ca0529d603d8b2",
+  "date": "2025-09-02",
+  "speaker": "HIMINO Ryozo",
+  "v10": 70,
+  "combined": 78.18,
+  "sd": 4.92
+ },
+ {
+  "id": "220ee8e16b69527b8181",
+  "date": "2022-12-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 53.5,
+  "sd": 1.94
+ },
+ {
+  "id": "2392088d826c2e647a06",
+  "date": "2024-09-11",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 70,
+  "combined": 65.57,
+  "sd": 6.27
+ },
+ {
+  "id": "24ea1602804c1f7974f9",
+  "date": "2023-12-06",
+  "speaker": "HIMINO Ryozo",
+  "v10": 50,
+  "combined": 53.79,
+  "sd": 3.43
+ },
+ {
+  "id": "265d9a2a601f6d8ce1eb",
+  "date": "2017-10-18",
+  "speaker": "NAKASO Hiroshi",
+  "v10": 50,
+  "combined": 55.86,
+  "sd": 4.52
+ },
+ {
+  "id": "274da8835112d90fe86a",
+  "date": "2024-09-12",
+  "speaker": "TAMURA Naoki",
+  "v10": 80,
+  "combined": 79.38,
+  "sd": 5.2
+ },
+ {
+  "id": "278f8f5196e70b2eddab",
+  "date": "2026-08-27",
+  "speaker": "HIMINO Ryozo",
+  "v10": 80,
+  "combined": 80.08,
+  "sd": 5.43
+ },
+ {
+  "id": "281635f4b09549b80b02",
+  "date": "2025-07-03",
+  "speaker": "TAKATA Hajime",
+  "v10": 70,
+  "combined": 68.13,
+  "sd": 5.2
+ },
+ {
+  "id": "2842dbde79f0b42b3722",
+  "date": "2024-05-08",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 68.96,
+  "sd": 4.58
+ },
+ {
+  "id": "29371ef4ea972c1e1def",
+  "date": "2018-11-29",
+  "speaker": "MASAI Takako",
+  "v10": 50,
+  "combined": 50.67,
+  "sd": 0.92
+ },
+ {
+  "id": "2befcc5a1110a3042078",
+  "date": "2020-11-06",
+  "speaker": "SAKURAI Makoto",
+  "v10": 0,
+  "combined": 14.93,
+  "sd": 5.24
+ },
+ {
+  "id": "2c57c97edc4567102f65",
+  "date": "2020-02-06",
+  "speaker": "MASAI Takako",
+  "v10": 30,
+  "combined": 28.18,
+  "sd": 5.62
+ },
+ {
+  "id": "2d41b341ef2da92ba42d",
+  "date": "2019-03-06",
+  "speaker": "HARADA Yutaka",
+  "v10": 30,
+  "combined": 50.8,
+  "sd": 5.13
+ },
+ {
+  "id": "30f04265ac07e930e35e",
+  "date": "2020-11-24",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 33.3,
+  "sd": 3.63
+ },
+ {
+  "id": "313f6796888b5a29a9dd",
+  "date": "2018-06-25",
+  "speaker": "SAKURAI Makoto",
+  "v10": 50,
+  "combined": 49.62,
+  "sd": 1.69
+ },
+ {
+  "id": "345768dab93d48e6b13a",
+  "date": "2020-11-16",
+  "speaker": "MASAI Takako",
+  "v10": 50,
+  "combined": 37.81,
+  "sd": 4.33
+ },
+ {
+  "id": "345acf1651f552039c89",
+  "date": "2026-06-03",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 80.38,
+  "sd": 4.97
+ },
+ {
+  "id": "3654239df90d2fa0122b",
+  "date": "2025-10-02",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 70,
+  "combined": 67.99,
+  "sd": 4.75
+ },
+ {
+  "id": "370a5cfb0d4191a14787",
+  "date": "2018-12-05",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 50,
+  "combined": 52.02,
+  "sd": 1.27
+ },
+ {
+  "id": "37c15a9c732bf573027f",
+  "date": "2021-07-21",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 32.33,
+  "sd": 4.18
+ },
+ {
+  "id": "3866dada283c0fb8608d",
+  "date": "2019-11-27",
+  "speaker": "SAKURAI Makoto",
+  "v10": 40,
+  "combined": 45.67,
+  "sd": 4.62
+ },
+ {
+  "id": "3a76865e8acf56df3d90",
+  "date": "2021-02-03",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 50,
+  "combined": 44.04,
+  "sd": 4.39
+ },
+ {
+  "id": "3ab2c8e8e293fcc44368",
+  "date": "2025-04-17",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 70,
+  "combined": 67.95,
+  "sd": 6.01
+ },
+ {
+  "id": "3b249a3563b5cdc21baa",
+  "date": "2021-12-01",
+  "speaker": "ADACHI Seiji",
+  "v10": 30,
+  "combined": 26.76,
+  "sd": 4.92
+ },
+ {
+  "id": "3b8086bb96889faeb28d",
+  "date": "2022-04-07",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 50,
+  "combined": 52.94,
+  "sd": 3.46
+ },
+ {
+  "id": "3cea42073dcd5dbe70e2",
+  "date": "2018-10-19",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 51.53,
+  "sd": 1.98
+ },
+ {
+  "id": "3e2627c089fe6664f84e",
+  "date": "2018-09-27",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 48.96,
+  "sd": 3.82
+ },
+ {
+  "id": "3ef0b7cbbd0038f3ef73",
+  "date": "2025-02-06",
+  "speaker": "TAMURA Naoki",
+  "v10": 70,
+  "combined": 80.47,
+  "sd": 4.28
+ },
+ {
+  "id": "402785acef4583d7970b",
+  "date": "2025-03-05",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 70,
+  "combined": 72.12,
+  "sd": 5.19
+ },
+ {
+  "id": "42359644545c6f038f00",
+  "date": "2026-02-26",
+  "speaker": "TAKATA Hajime",
+  "v10": 70,
+  "combined": 88.11,
+  "sd": 4.91
+ },
+ {
+  "id": "42aa8a2c22c6f35cfc26",
+  "date": "2021-06-02",
+  "speaker": "ADACHI Seiji",
+  "v10": 40,
+  "combined": 37.19,
+  "sd": 4.98
+ },
+ {
+  "id": "453de1b00882756b9fc8",
+  "date": "2021-03-03",
+  "speaker": "KATAOKA Goushi",
+  "v10": 20,
+  "combined": 14.07,
+  "sd": 6.59
+ },
+ {
+  "id": "46b03556d3e81ff54794",
+  "date": "2017-08-02",
+  "speaker": "FUNO Yukitoshi",
+  "v10": 50,
+  "combined": 52.08,
+  "sd": 4.38
+ },
+ {
+  "id": "47c091e2473a8c9acea2",
+  "date": "2017-11-30",
+  "speaker": "HARADA Yutaka",
+  "v10": 60,
+  "combined": 55.76,
+  "sd": 4.98
+ },
+ {
+  "id": "4806aea6a9259a9ac806",
+  "date": "2025-11-20",
+  "speaker": "KOEDA Junko",
+  "v10": 70,
+  "combined": 76.65,
+  "sd": 5.25
+ },
+ {
+  "id": "48ae400d8d888e87bceb",
+  "date": "2020-02-05",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 30,
+  "combined": 36.37,
+  "sd": 4.35
+ },
+ {
+  "id": "49e72ec8abd5cb08bf0a",
+  "date": "2019-12-05",
+  "speaker": "HARADA Yutaka",
+  "v10": 30,
+  "combined": 24.3,
+  "sd": 4.19
+ },
+ {
+  "id": "4bc88d4bbf178f564f8c",
+  "date": "2022-03-24",
+  "speaker": "KATAOKA Goushi",
+  "v10": 20,
+  "combined": 15.54,
+  "sd": 4.19
+ },
+ {
+  "id": "4c08b886a4e0876e9b1f",
+  "date": "2025-01-14",
+  "speaker": "HIMINO Ryozo",
+  "v10": 70,
+  "combined": 81.18,
+  "sd": 4.41
+ },
+ {
+  "id": "507e42839a863b701769",
+  "date": "2025-11-27",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 70,
+  "combined": 65.23,
+  "sd": 3.1
+ },
+ {
+  "id": "50c1557a7b950ec1533c",
+  "date": "2020-12-03",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 60,
+  "combined": 45.35,
+  "sd": 5.02
+ },
+ {
+  "id": "523a7a345931a4c733d5",
+  "date": "2018-08-29",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 49.13,
+  "sd": 2.91
+ },
+ {
+  "id": "537ff05ab05c16ba1805",
+  "date": "2021-11-15",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 39.87,
+  "sd": 4.61
+ },
+ {
+  "id": "5690b7ccaa59e0398f45",
+  "date": "2024-11-18",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 71.78,
+  "sd": 4.64
+ },
+ {
+  "id": "57efb4c916aa7a838a36",
+  "date": "2022-09-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 59.9,
+  "sd": 4.02
+ },
+ {
+  "id": "5b1db593e3b2344be96f",
+  "date": "2018-02-08",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 50.81,
+  "sd": 5.25
+ },
+ {
+  "id": "5ca96b6b5d9b979fe43c",
+  "date": "2018-05-24",
+  "speaker": "SAKURAI Makoto",
+  "v10": 50,
+  "combined": 49.89,
+  "sd": 0.37
+ },
+ {
+  "id": "5d3e698934a515abd656",
+  "date": "2023-09-07",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 50,
+  "combined": 51.49,
+  "sd": 1.63
+ },
+ {
+  "id": "5f0be7acb28bc4ddd018",
+  "date": "2025-05-27",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 68.72,
+  "sd": 4.04
+ },
+ {
+  "id": "5f28bac6862dfdaa9df0",
+  "date": "2021-09-01",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 40,
+  "combined": 45.16,
+  "sd": 5.03
+ },
+ {
+  "id": "5f311ce058a0132774cc",
+  "date": "2017-10-18",
+  "speaker": "SAKURAI Makoto",
+  "v10": 50,
+  "combined": 49.12,
+  "sd": 1.36
+ },
+ {
+  "id": "5ff016f6b153203a4807",
+  "date": "2020-10-21",
+  "speaker": "SAKURAI Makoto",
+  "v10": 0,
+  "combined": -0.61,
+  "sd": 3.6
+ },
+ {
+  "id": "61198a284b4b69309074",
+  "date": "2017-09-25",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 49.19,
+  "sd": 1.18
+ },
+ {
+  "id": "61a53165752dc3ee1997",
+  "date": "2022-04-13",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 58.38,
+  "sd": 3.19
+ },
+ {
+  "id": "6332107a68f3caaf2da4",
+  "date": "2024-02-08",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 70,
+  "combined": 63.75,
+  "sd": 4.98
+ },
+ {
+  "id": "65f3edd60116e1256e88",
+  "date": "2021-09-30",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 37.77,
+  "sd": 5.48
+ },
+ {
+  "id": "68a9587edd3b332b7bc7",
+  "date": "2019-09-24",
+  "speaker": "KURODA Haruhiko",
+  "v10": 40,
+  "combined": 40.29,
+  "sd": 5.77
+ },
+ {
+  "id": "68e805bd05c762a17656",
+  "date": "2024-09-24",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 60.2,
+  "sd": 4.76
+ },
+ {
+  "id": "68f221c4ea3785125670",
+  "date": "2026-05-21",
+  "speaker": "KOEDA Junko",
+  "v10": 80,
+  "combined": 79.99,
+  "sd": 4.78
+ },
+ {
+  "id": "6a2ca2198161d4f529b2",
+  "date": "2022-02-09",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 46.14,
+  "sd": 4.88
+ },
+ {
+  "id": "6a8f33101e05069f520d",
+  "date": "2026-10-15",
+  "speaker": "KOEDA Junko",
+  "v10": 70,
+  "combined": 84.83,
+  "sd": 3.87
+ },
+ {
+  "id": "6b28ab62122f89547fa8",
+  "date": "2021-05-19",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 35.57,
+  "sd": 4.48
+ },
+ {
+  "id": "6bcd728c04d6ea597086",
+  "date": "2022-08-25",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 52.82,
+  "sd": 2.91
+ },
+ {
+  "id": "6bd5165a08ff71f76dea",
+  "date": "2021-12-08",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 41.84,
+  "sd": 5.32
+ },
+ {
+  "id": "6da6121a53d5ed2c9f5e",
+  "date": "2019-10-03",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 50,
+  "combined": 50.48,
+  "sd": 2.24
+ },
+ {
+  "id": "6e0ebe3aca30ffeebc1f",
+  "date": "2023-10-20",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 52.37,
+  "sd": 1.69
+ },
+ {
+  "id": "6e204ce32148878f789d",
+  "date": "2023-11-06",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 49.66,
+  "sd": 3.85
+ },
+ {
+  "id": "7095119a6a687ed362b5",
+  "date": "2017-12-06",
+  "speaker": "MASAI Takako",
+  "v10": 50,
+  "combined": 51.82,
+  "sd": 1.79
+ },
+ {
+  "id": "70c43defe101369608b2",
+  "date": "2020-12-02",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 0,
+  "combined": 4.23,
+  "sd": 4.35
+ },
+ {
+  "id": "730acbb531a08382e1ea",
+  "date": "2019-11-05",
+  "speaker": "KURODA Haruhiko",
+  "v10": 40,
+  "combined": 34.7,
+  "sd": 4.75
+ },
+ {
+  "id": "7394ddf472359e59f467",
+  "date": "2024-12-05",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 60,
+  "combined": 61.84,
+  "sd": 4.87
+ },
+ {
+  "id": "73e4db41a60d73ba2c18",
+  "date": "2020-11-04",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": 1.74,
+  "sd": 1.51
+ },
+ {
+  "id": "7447dbe9be292ea18e4b",
+  "date": "2019-04-10",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 50.28,
+  "sd": 0.57
+ },
+ {
+  "id": "764be273a46c3bacec49",
+  "date": "2024-05-29",
+  "speaker": "ADACHI Seiji",
+  "v10": 70,
+  "combined": 60.46,
+  "sd": 4.65
+ },
+ {
+  "id": "767fd1f1bfabc76c947f",
+  "date": "2022-09-26",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 53.74,
+  "sd": 1.84
+ },
+ {
+  "id": "7acd9a1ae375e555499f",
+  "date": "2019-03-25",
+  "speaker": "HARADA Yutaka",
+  "v10": 50,
+  "combined": 54.53,
+  "sd": 4.79
+ },
+ {
+  "id": "7b0b2e192c89853b3dcc",
+  "date": "2023-08-31",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 48.81,
+  "sd": 4.68
+ },
+ {
+  "id": "7b1d5e139f51ab50d858",
+  "date": "2023-06-21",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 50.17,
+  "sd": 0.48
+ },
+ {
+  "id": "7de8590d428f143f1d05",
+  "date": "2019-05-30",
+  "speaker": "SAKURAI Makoto",
+  "v10": 50,
+  "combined": 48.9,
+  "sd": 1.73
+ },
+ {
+  "id": "7dfd65c48f9d46769db5",
+  "date": "2019-12-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 30,
+  "combined": 26.96,
+  "sd": 6.32
+ },
+ {
+  "id": "7fa0a2f1f90934c499c3",
+  "date": "2021-07-27",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 51.58,
+  "sd": 3.92
+ },
+ {
+  "id": "82ccc427fea2ee9b041d",
+  "date": "2019-01-31",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 41.18,
+  "sd": 4.66
+ },
+ {
+  "id": "82e1c928e1ab250e4941",
+  "date": "2021-09-02",
+  "speaker": "KATAOKA Goushi",
+  "v10": 10,
+  "combined": 22.12,
+  "sd": 7.13
+ },
+ {
+  "id": "831aea8c3acabd92ac9a",
+  "date": "2026-06-25",
+  "speaker": "TAMURA Naoki",
+  "v10": 80,
+  "combined": 96.34,
+  "sd": 3.45
+ },
+ {
+  "id": "83231799594054dc7838",
+  "date": "2018-06-20",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 50.7,
+  "sd": 0.76
+ },
+ {
+  "id": "849eae7a4ba3dd498e69",
+  "date": "2018-09-25",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 49.51,
+  "sd": 3.87
+ },
+ {
+  "id": "8513779474100e9a7d99",
+  "date": "2020-08-27",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 37.63,
+  "sd": 4.65
+ },
+ {
+  "id": "885026c1ea544c2d7767",
+  "date": "2024-03-07",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 60,
+  "combined": 54.41,
+  "sd": 5.44
+ },
+ {
+  "id": "88b0aaf3cd7d13347d3a",
+  "date": "2019-09-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 40,
+  "combined": 38.85,
+  "sd": 5.44
+ },
+ {
+  "id": "89d23f45cc79c0b29ccf",
+  "date": "2021-02-10",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 39.61,
+  "sd": 4.94
+ },
+ {
+  "id": "8aa54dfb171207e2f1b1",
+  "date": "2024-12-25",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 74.02,
+  "sd": 3.53
+ },
+ {
+  "id": "8ac7d1b8ca2b26b43e3a",
+  "date": "2020-02-27",
+  "speaker": "KATAOKA Goushi",
+  "v10": 10,
+  "combined": 9.29,
+  "sd": 5.63
+ },
+ {
+  "id": "8c7f46fc4100ad68ec84",
+  "date": "2019-07-22",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 45.56,
+  "sd": 4.66
+ },
+ {
+  "id": "8cd1965b9a90914660da",
+  "date": "2023-11-30",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 60,
+  "combined": 52.84,
+  "sd": 2.76
+ },
+ {
+  "id": "8cedf35421e76d987c1e",
+  "date": "2023-06-21",
+  "speaker": "ADACHI Seiji",
+  "v10": 40,
+  "combined": 45.64,
+  "sd": 3.9
+ },
+ {
+  "id": "8dc6ab5444cd240d5b90",
+  "date": "2017-12-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 49.6,
+  "sd": 1.06
+ },
+ {
+  "id": "8deedee4013b4df024c4",
+  "date": "2025-07-23",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 70,
+  "combined": 69.85,
+  "sd": 4.92
+ },
+ {
+  "id": "8df8b1a766af00c573ef",
+  "date": "2025-02-19",
+  "speaker": "TAKATA Hajime",
+  "v10": 70,
+  "combined": 74.56,
+  "sd": 5.05
+ },
+ {
+  "id": "8e0b27a4c4935431743d",
+  "date": "2022-11-14",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 48.86,
+  "sd": 1.61
+ },
+ {
+  "id": "8e149b1bdff1d7b0ea51",
+  "date": "2018-03-01",
+  "speaker": "KATAOKA Goushi",
+  "v10": 20,
+  "combined": 35.53,
+  "sd": 4.85
+ },
+ {
+  "id": "8e1a5f091cf4f041ee5f",
+  "date": "2019-10-03",
+  "speaker": "FUNO Yukitoshi",
+  "v10": 30,
+  "combined": 40.79,
+  "sd": 4.66
+ },
+ {
+  "id": "8f40472b620bbf72c20c",
+  "date": "2021-12-23",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 48.25,
+  "sd": 5.28
+ },
+ {
+  "id": "90f80909391e1549f663",
+  "date": "2020-08-05",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": 4.29,
+  "sd": 4.4
+ },
+ {
+  "id": "910b2f35e24c9e1658b8",
+  "date": "2023-12-25",
+  "speaker": "UEDA Kazuo",
+  "v10": 60,
+  "combined": 50.47,
+  "sd": 4.67
+ },
+ {
+  "id": "92aa07598eca6c8b8d91",
+  "date": "2025-10-03",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 74.98,
+  "sd": 4.47
+ },
+ {
+  "id": "92ac0f706ff736be404c",
+  "date": "2023-05-19",
+  "speaker": "UEDA Kazuo",
+  "v10": 40,
+  "combined": 39.18,
+  "sd": 5.2
+ },
+ {
+  "id": "9791f4759a13d17974c0",
+  "date": "2022-12-01",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 50,
+  "combined": 55.83,
+  "sd": 2.98
+ },
+ {
+  "id": "980f9c79eb54e5b2e61e",
+  "date": "2020-07-29",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 0,
+  "combined": 3.01,
+  "sd": 2.86
+ },
+ {
+  "id": "98d08e771c1206d819c0",
+  "date": "2025-01-30",
+  "speaker": "HIMINO Ryozo",
+  "v10": 70,
+  "combined": 59.28,
+  "sd": 8.31
+ },
+ {
+  "id": "99228d0e397c1fbd0ced",
+  "date": "2024-10-16",
+  "speaker": "ADACHI Seiji",
+  "v10": 70,
+  "combined": 60.87,
+  "sd": 4.02
+ },
+ {
+  "id": "992d2568eba4363b90d1",
+  "date": "2022-05-13",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 48.83,
+  "sd": 1.28
+ },
+ {
+  "id": "9abe3717ccfd4a85a5d8",
+  "date": "2019-07-03",
+  "speaker": "FUNO Yukitoshi",
+  "v10": 50,
+  "combined": 50.42,
+  "sd": 0.43
+ },
+ {
+  "id": "9be47e404851b9c93d4d",
+  "date": "2026-03-02",
+  "speaker": "HIMINO Ryozo",
+  "v10": 70,
+  "combined": 75.57,
+  "sd": 4.63
+ },
+ {
+  "id": "9c8ebbafa1c07ee3f013",
+  "date": "2022-04-22",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 51.52,
+  "sd": 3.16
+ },
+ {
+  "id": "9d2b4bcccab47a1a50c8",
+  "date": "2025-08-28",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 70,
+  "combined": 66.72,
+  "sd": 4.81
+ },
+ {
+  "id": "9ebe5776a40f8272fe0d",
+  "date": "2023-09-06",
+  "speaker": "TAKATA Hajime",
+  "v10": 50,
+  "combined": 59.66,
+  "sd": 2.88
+ },
+ {
+  "id": "9f79bac982399312cf1e",
+  "date": "2017-10-20",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 53.65,
+  "sd": 2.54
+ },
+ {
+  "id": "9f8e4e8249425feacd47",
+  "date": "2022-10-21",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 53.01,
+  "sd": 1.83
+ },
+ {
+  "id": "9fb74abeb5f5fc6e571a",
+  "date": "2019-08-29",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 47.96,
+  "sd": 4.76
+ },
+ {
+  "id": "9fe5a43394c15cc9ec15",
+  "date": "2023-09-25",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 50,
+  "combined": 47.43,
+  "sd": 3.73
+ },
+ {
+  "id": "a065f464648ded489edc",
+  "date": "2020-09-03",
+  "speaker": "KATAOKA Goushi",
+  "v10": 20,
+  "combined": 8.61,
+  "sd": 3.64
+ },
+ {
+  "id": "a1a4603e20f2201d1a2a",
+  "date": "2026-06-24",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 75.35,
+  "sd": 5.01
+ },
+ {
+  "id": "a2fc8b1e6640a62d5723",
+  "date": "2023-02-02",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 50,
+  "combined": 50.88,
+  "sd": 0.63
+ },
+ {
+  "id": "a35a015b6aca926b8578",
+  "date": "2021-04-14",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 47.47,
+  "sd": 4.81
+ },
+ {
+  "id": "a384408db78734bccbce",
+  "date": "2018-04-11",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 51.2,
+  "sd": 3.27
+ },
+ {
+  "id": "a6443c2ee996b468e15f",
+  "date": "2019-06-27",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 50,
+  "combined": 50.67,
+  "sd": 0.46
+ },
+ {
+  "id": "a663ee185e9a773126be",
+  "date": "2025-10-16",
+  "speaker": "TAMURA Naoki",
+  "v10": 80,
+  "combined": 88.64,
+  "sd": 5.12
+ },
+ {
+  "id": "a6857418779f21341c79",
+  "date": "2025-05-16",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 50.36,
+  "sd": 0.52
+ },
+ {
+  "id": "a6e244e086adc55a49f2",
+  "date": "2017-10-05",
+  "speaker": "NAKASO Hiroshi",
+  "v10": 50,
+  "combined": 51.33,
+  "sd": 3.35
+ },
+ {
+  "id": "a731c29b774b7d698d8e",
+  "date": "2022-12-07",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 52.17,
+  "sd": 2.94
+ },
+ {
+  "id": "a766ff9b2c28c0b2de3e",
+  "date": "2022-11-27",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 50.08,
+  "sd": 0.69
+ },
+ {
+  "id": "a97b31f5f60fe328bee4",
+  "date": "2018-10-11",
+  "speaker": "SAKURAI Makoto",
+  "v10": 50,
+  "combined": 52.98,
+  "sd": 2.09
+ },
+ {
+  "id": "ab783faa9f8a8924708e",
+  "date": "2025-10-17",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 70,
+  "combined": 70.55,
+  "sd": 3.07
+ },
+ {
+  "id": "adee91267660bc25bf34",
+  "date": "2019-02-28",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 52.32,
+  "sd": 3.85
+ },
+ {
+  "id": "affab38b751aeb7bb2cc",
+  "date": "2026-09-10",
+  "speaker": "MASU Kazuyuki",
+  "v10": 80,
+  "combined": 84.07,
+  "sd": 5.39
+ },
+ {
+  "id": "b04e6802cb29461c0965",
+  "date": "2023-08-02",
+  "speaker": "UCHIDA Shinichi",
+  "v10": 40,
+  "combined": 49.58,
+  "sd": 4.43
+ },
+ {
+  "id": "b32392fae83834dcff3b",
+  "date": "2023-10-12",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 50,
+  "combined": 51.1,
+  "sd": 0.63
+ },
+ {
+  "id": "b35f45b689283b464511",
+  "date": "2023-03-02",
+  "speaker": "TAKATA Hajime",
+  "v10": 50,
+  "combined": 51.66,
+  "sd": 2.42
+ },
+ {
+  "id": "b4a71762ba26025e908a",
+  "date": "2026-10-16",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 79.2,
+  "sd": 4.49
+ },
+ {
+  "id": "b5c4c78f45f394fdcfd3",
+  "date": "2022-12-03",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 40,
+  "combined": 45.81,
+  "sd": 2.57
+ },
+ {
+  "id": "b702beb63f779c041671",
+  "date": "2019-05-22",
+  "speaker": "HARADA Yutaka",
+  "v10": 30,
+  "combined": 40.86,
+  "sd": 6.16
+ },
+ {
+  "id": "b7c4f0795d713f9c5ef4",
+  "date": "2017-07-26",
+  "speaker": "NAKASO Hiroshi",
+  "v10": 50,
+  "combined": 49.07,
+  "sd": 2.88
+ },
+ {
+  "id": "b7db61fadf85e00a1882",
+  "date": "2025-06-25",
+  "speaker": "TAMURA Naoki",
+  "v10": 70,
+  "combined": 81.01,
+  "sd": 5.61
+ },
+ {
+  "id": "ba34446a6952e63bb9e4",
+  "date": "2025-12-25",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 75.32,
+  "sd": 3.9
+ },
+ {
+  "id": "bbfac22942c2fd91913b",
+  "date": "2026-02-13",
+  "speaker": "TAMURA Naoki",
+  "v10": 70,
+  "combined": 75.04,
+  "sd": 5.05
+ },
+ {
+  "id": "be034c2fdd6d3f24f31a",
+  "date": "2024-06-06",
+  "speaker": "NAKAMURA Toyoaki",
+  "v10": 50,
+  "combined": 52.17,
+  "sd": 2.35
+ },
+ {
+  "id": "beec2f8e9f3366de1df8",
+  "date": "2025-05-22",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 70,
+  "combined": 58.97,
+  "sd": 4.46
+ },
+ {
+  "id": "bf15c840d4a7c45fa42c",
+  "date": "2023-06-22",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 50,
+  "combined": 43.4,
+  "sd": 3.3
+ },
+ {
+  "id": "c121751300424f2491ea",
+  "date": "2021-10-14",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 50,
+  "combined": 43.1,
+  "sd": 4.33
+ },
+ {
+  "id": "c23ec3aca97faef6244b",
+  "date": "2017-11-06",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 49.86,
+  "sd": 0.37
+ },
+ {
+  "id": "c346c83d942db1bb2a2b",
+  "date": "2018-09-06",
+  "speaker": "KATAOKA Goushi",
+  "v10": 20,
+  "combined": 24.84,
+  "sd": 4.55
+ },
+ {
+  "id": "c68c06437600ed042f29",
+  "date": "2021-05-26",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 43.21,
+  "sd": 6.55
+ },
+ {
+  "id": "c7406d0c47c959af3fb1",
+  "date": "2022-06-02",
+  "speaker": "ADACHI Seiji",
+  "v10": 50,
+  "combined": 52.24,
+  "sd": 1.42
+ },
+ {
+  "id": "c7947a83a6d99970fae4",
+  "date": "2019-06-11",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 44.87,
+  "sd": 3.19
+ },
+ {
+  "id": "cc7621c71b98dca4efb6",
+  "date": "2018-01-31",
+  "speaker": "IWATA Kikuo",
+  "v10": 50,
+  "combined": 52.31,
+  "sd": 1.67
+ },
+ {
+  "id": "ce8a85cb265a379f69ba",
+  "date": "2021-09-27",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 42.91,
+  "sd": 4.71
+ },
+ {
+  "id": "cf6c8285ce1513ea720f",
+  "date": "2017-09-28",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 45.26,
+  "sd": 7.26
+ },
+ {
+  "id": "d05b8b5dd18c7b956a50",
+  "date": "2018-11-05",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 50.99,
+  "sd": 0.76
+ },
+ {
+  "id": "d087fbe9c6bec55346c7",
+  "date": "2019-12-12",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 30,
+  "combined": 21.59,
+  "sd": 4.97
+ },
+ {
+  "id": "d09bd1cd543e2c2b4d5d",
+  "date": "2025-06-03",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 69.37,
+  "sd": 4.71
+ },
+ {
+  "id": "d0fa7d117f5d6af4f0d3",
+  "date": "2024-10-03",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 40,
+  "combined": 48.78,
+  "sd": 5.49
+ },
+ {
+  "id": "d15a14cd39ead8d72f86",
+  "date": "2022-08-31",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 50,
+  "combined": 34.89,
+  "sd": 5.53
+ },
+ {
+  "id": "d20e909d99c983589fa7",
+  "date": "2020-11-12",
+  "speaker": "ADACHI Seiji",
+  "v10": 50,
+  "combined": 42.48,
+  "sd": 5.04
+ },
+ {
+  "id": "d27475a3d3d692b4e038",
+  "date": "2021-12-02",
+  "speaker": "SUZUKI Hitoshi",
+  "v10": 50,
+  "combined": 31.53,
+  "sd": 4.33
+ },
+ {
+  "id": "d3cacf517156d6f986e1",
+  "date": "2025-12-01",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 83.26,
+  "sd": 4.09
+ },
+ {
+  "id": "d542476d8ce204382975",
+  "date": "2018-12-26",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 50.3,
+  "sd": 0.43
+ },
+ {
+  "id": "d588c349ecb0bd0d02cc",
+  "date": "2024-06-21",
+  "speaker": "UEDA Kazuo",
+  "v10": 80,
+  "combined": 70.33,
+  "sd": 3.88
+ },
+ {
+  "id": "d5f982b0db4a2bd9dc0c",
+  "date": "2023-04-12",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 50.91,
+  "sd": 2.1
+ },
+ {
+  "id": "d8d4369f57754436f659",
+  "date": "2018-11-07",
+  "speaker": "FUNO Yukitoshi",
+  "v10": 50,
+  "combined": 52.88,
+  "sd": 2.29
+ },
+ {
+  "id": "d8e4c12abb4aaa8ed0b2",
+  "date": "2020-09-23",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": 3.64,
+  "sd": 7.63
+ },
+ {
+  "id": "db343760a95040e731c3",
+  "date": "2017-11-13",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 45.12,
+  "sd": 3.2
+ },
+ {
+  "id": "db9d8832ad23ace4536b",
+  "date": "2025-11-10",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 70,
+  "combined": 67.04,
+  "sd": 4.19
+ },
+ {
+  "id": "dcbc7a2b4a535c051199",
+  "date": "2022-03-03",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 50,
+  "combined": 47.9,
+  "sd": 4.23
+ },
+ {
+  "id": "de6c364817f747422bd6",
+  "date": "2022-10-19",
+  "speaker": "ADACHI Seiji",
+  "v10": 50,
+  "combined": 47.61,
+  "sd": 5.15
+ },
+ {
+  "id": "e010aae5bae188a39d3d",
+  "date": "2019-09-25",
+  "speaker": "MASAI Takako",
+  "v10": 30,
+  "combined": 33.74,
+  "sd": 5.32
+ },
+ {
+  "id": "e2343a8121b5049fa7bd",
+  "date": "2019-09-04",
+  "speaker": "KATAOKA Goushi",
+  "v10": 20,
+  "combined": 21.18,
+  "sd": 4.72
+ },
+ {
+  "id": "e2f03085b102c326d255",
+  "date": "2022-02-03",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 50,
+  "combined": 54.8,
+  "sd": 2.68
+ },
+ {
+  "id": "e3c6e69b497925acccb2",
+  "date": "2017-11-08",
+  "speaker": "FUNO Yukitoshi",
+  "v10": 50,
+  "combined": 56.59,
+  "sd": 3.48
+ },
+ {
+  "id": "e4be76c9dd3c1d5863a5",
+  "date": "2020-09-02",
+  "speaker": "WAKATABE Masazumi",
+  "v10": 40,
+  "combined": 28.32,
+  "sd": 4.49
+ },
+ {
+  "id": "e554f07e3e19b2ef0acd",
+  "date": "2023-09-30",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 52.11,
+  "sd": 2.19
+ },
+ {
+  "id": "e73a06ada34186ba4564",
+  "date": "2024-08-28",
+  "speaker": "HIMINO Ryozo",
+  "v10": 70,
+  "combined": 64.97,
+  "sd": 4.38
+ },
+ {
+  "id": "e82fd73878279cc88ede",
+  "date": "2017-08-31",
+  "speaker": "MASAI Takako",
+  "v10": 50,
+  "combined": 51.96,
+  "sd": 1.8
+ },
+ {
+  "id": "e9a5102998ab54acbcb4",
+  "date": "2020-05-14",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": -10.42,
+  "sd": 3.87
+ },
+ {
+  "id": "ea51f46c7c7b5f1951ba",
+  "date": "2019-08-01",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 40,
+  "combined": 37.37,
+  "sd": 5.06
+ },
+ {
+  "id": "eabcb2b1db10c65c5e43",
+  "date": "2026-04-13",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 72.08,
+  "sd": 5.15
+ },
+ {
+  "id": "eb06b668148e185e3d5b",
+  "date": "2025-06-20",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 71.76,
+  "sd": 3.49
+ },
+ {
+  "id": "ebf0196df0eb3e2f4fed",
+  "date": "2021-06-24",
+  "speaker": "KURODA Haruhiko",
+  "v10": 0,
+  "combined": 0.04,
+  "sd": 3.99
+ },
+ {
+  "id": "ef8b1f4dac109206c311",
+  "date": "2017-12-07",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 52.14,
+  "sd": 1.53
+ },
+ {
+  "id": "f1d7ca5f858ebb4deee8",
+  "date": "2018-05-10",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 49.22,
+  "sd": 3.21
+ },
+ {
+  "id": "f3f128320f95e19c2603",
+  "date": "2025-04-09",
+  "speaker": "UEDA Kazuo",
+  "v10": 70,
+  "combined": 67.11,
+  "sd": 4.41
+ },
+ {
+  "id": "f6f9bf7476a0195545ca",
+  "date": "2020-12-24",
+  "speaker": "KURODA Haruhiko",
+  "v10": 50,
+  "combined": 35.7,
+  "sd": 4.03
+ },
+ {
+  "id": "f96ed1a13d5127f6de1a",
+  "date": "2025-09-29",
+  "speaker": "NOGUCHI Asahi",
+  "v10": 60,
+  "combined": 68.39,
+  "sd": 3.97
+ },
+ {
+  "id": "fba5a9a5fd0a395df48f",
+  "date": "2023-03-01",
+  "speaker": "NAKAGAWA Junko",
+  "v10": 50,
+  "combined": 50.08,
+  "sd": 0.17
+ },
+ {
+  "id": "fbe52f60fff8d66a8d57",
+  "date": "2024-04-10",
+  "speaker": "UEDA Kazuo",
+  "v10": 50,
+  "combined": 57.34,
+  "sd": 3.45
+ },
+ {
+  "id": "fc287ae53b25571c557e",
+  "date": "2024-02-29",
+  "speaker": "TAKATA Hajime",
+  "v10": 70,
+  "combined": 64.12,
+  "sd": 3.64
+ },
+ {
+  "id": "fedd5ebd02d1468ed4e3",
+  "date": "2021-10-15",
+  "speaker": "AMAMIYA Masayoshi",
+  "v10": 50,
+  "combined": 38.07,
+  "sd": 4.47
+ }
+]

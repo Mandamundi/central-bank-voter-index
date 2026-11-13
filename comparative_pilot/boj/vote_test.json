@@ -1,0 +1,71 @@
+{
+  "meetings": 71,
+  "member_votes": 573,
+  "tighter_dissents": 12,
+  "looser_dissents": 51,
+  "unplaced_dissents": 5,
+  "old": {
+    "spearman_rel_vote": 0.354,
+    "dissent_auc": 0.913,
+    "looser_dissent_auc": 0.886
+  },
+  "current": {
+    "spearman_rel_vote": 0.373,
+    "dissent_auc": 0.936,
+    "looser_dissent_auc": 0.89
+  },
+  "proposed": {
+    "spearman_rel_vote": 0.39,
+    "dissent_auc": 0.962,
+    "looser_dissent_auc": 0.867
+  },
+  "combined_carry": {
+    "spearman_rel_vote": 0.399,
+    "dissent_auc": 0.956,
+    "looser_dissent_auc": 0.895
+  },
+  "proposed_minus_current": {
+    "spearman_ci95": [
+      -0.041,
+      0.08
+    ],
+    "looser_dissent_auc_ci95": [
+      -0.08,
+      0.04
+    ]
+  },
+  "exploratory": {
+    "current_minus_old": {
+      "spearman_ci95": [
+        -0.007,
+        0.044
+      ],
+      "looser_dissent_auc_ci95": [
+        -0.017,
+        0.029
+      ]
+    },
+    "combined_carry_minus_proposed": {
+      "spearman_ci95": [
+        -0.023,
+        0.045
+      ],
+      "looser_dissent_auc_ci95": [
+        -0.004,
+        0.061
+      ]
+    }
+  },
+  "pass_marks": {
+    "P7_no_worse_on_votes": true,
+    "P8_no_worse_on_dissents": true,
+    "P8_substitute_no_worse_on_looser_dissents": false
+  },
+  "filter_params_combined": {
+    "sd_c": 18.146420565755754,
+    "halflife_c": 1309.385933084102,
+    "sd_d": 7.330841889265959,
+    "halflife_d": 643.0238573934421,
+    "noise": 6.1214490967745325
+  }
+}

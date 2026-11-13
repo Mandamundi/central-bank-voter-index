@@ -1,0 +1,110 @@
+boe: extracting 197 texts (0 done)
+  extract 50/197
+  extract 100/197
+  extract 150/197
+Token use over 197 responses: input 1,882,099 (plain 1,882,099, cache reads 0, cache writes 0); output 179,217 (of which reasoning 96,250).
+  passages returned 724, verbatim 724; texts with none: 1
+boe: round 1/3: 172 comparisons
+  compare 50/172
+  compare 100/172
+  compare 150/172
+Token use over 172 responses: input 279,114 (plain 279,114, cache reads 0, cache writes 0); output 51,600 (of which reasoning 43,018).
+boe: round 2/3: 171 comparisons
+  compare 50/171
+  compare 100/171
+  compare 150/171
+Token use over 343 responses: input 553,664 (plain 553,664, cache reads 0, cache writes 0); output 105,109 (of which reasoning 88,038).
+boe: round 3/3: 174 comparisons
+  compare 50/174
+  compare 100/174
+  compare 150/174
+Token use over 517 responses: input 835,960 (plain 835,960, cache reads 0, cache writes 0); output 165,505 (of which reasoning 139,806).
+boe: side tests: 100 comparisons
+  compare 50/100
+  compare 100/100
+Token use over 617 responses: input 1,663,982 (plain 1,663,982, cache reads 0, cache writes 0); output 199,265 (of which reasoning 168,478).
+{
+  "bank": "boe",
+  "texts": 197,
+  "comparisons": {
+    "main": 517,
+    "reversed": 60,
+    "full_text": 40
+  },
+  "comparisons_per_text_main": 5.2,
+  "passages": {
+    "returned": 724,
+    "verbatim": 724,
+    "texts_without": 1
+  },
+  "chosen": {
+    "sigma_v": 10,
+    "s": 8
+  },
+  "tie_param": 0.115,
+  "held_out": {
+    "v10_alone": {
+      "accuracy": 0.579
+    },
+    "comparisons_alone": {
+      "accuracy": 0.638,
+      "log_loss": 0.954,
+      "equal_pairs": {
+        "n": 308,
+        "accuracy": 0.607,
+        "ci95": [
+          0.553,
+          0.662
+        ]
+      }
+    },
+    "combined": {
+      "accuracy": 0.681,
+      "log_loss": 0.74,
+      "equal_pairs": {
+        "n": 308,
+        "accuracy": 0.64,
+        "ci95": [
+          0.586,
+          0.693
+        ]
+      }
+    }
+  },
+  "anchors": {
+    "hold_mean": 48.6,
+    "level0_mean": -3.5,
+    "mean_by_level": {
+      "0": -3.5,
+      "1": 11.2,
+      "2": 20.0,
+      "3": 31.6,
+      "4": 40.4,
+      "5": 48.6,
+      "6": 58.3,
+      "7": 71.4,
+      "8": 80.0,
+      "9": 87.6
+    }
+  },
+  "order_bias_share_A": 0.502,
+  "reversed": {
+    "n": 60,
+    "same_verdict": 0.833,
+    "opposite_winner": 0.15
+  },
+  "full_text": {
+    "n": 40,
+    "same_verdict": 0.8,
+    "opposite_winner": 0.125
+  },
+  "median_sd": 3.6,
+  "pass_marks": {
+    "P1_combined_beats_both": true,
+    "P2_resolves_v10_ties": true,
+    "P3_hold_anchor": true,
+    "P3_crisis_anchor": true,
+    "P4_no_order_bias": true,
+    "P5_passages_ok": true
+  }
+}

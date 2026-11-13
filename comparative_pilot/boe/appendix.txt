@@ -1,0 +1,9 @@
+Bank of England notes:
+- Voters are the nine members of the Monetary Policy Committee (MPC): the Governor, three Deputy
+  Governors, the Chief Economist and four external members. Views given only in a Financial Policy
+  Committee or Prudential Regulation Committee capacity are not monetary policy views.
+- Instruments: Bank Rate is the policy rate. Asset purchases are purchases of gilts (and corporate
+  bonds) held in the Asset Purchase Facility (APF); quantitative tightening (QT) reduces the APF through
+  maturities and gilt sales. The Term Funding Schemes are lending schemes for banks. The Bank has also
+  bought gilts as a temporary financial stability operation.
+

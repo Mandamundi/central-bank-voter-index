@@ -1,0 +1,187 @@
+fed: extracting 2325 texts (155 done)
+  extract 50/2325
+  extract 100/2325
+  extract 150/2325
+  extract 200/2325
+  extract 250/2325
+  extract 300/2325
+  extract 350/2325
+  extract 400/2325
+  extract 450/2325
+  extract 500/2325
+  extract 550/2325
+  extract 600/2325
+  extract 650/2325
+  extract 700/2325
+  extract 750/2325
+  extract 800/2325
+  extract 850/2325
+Traceback (most recent call last):
+  File "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/../comparative_pilot/confirm.py", line 353, in <module>
+    {"prepare": cmd_prepare, "extract": cmd_extract, "compare": cmd_compare, "cross": cmd_cross,
+  File "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/../comparative_pilot/confirm.py", line 236, in cmd_extract
+    run_parallel(todo, work, "extract")
+  File "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/../comparative_pilot/confirm.py", line 160, in run_parallel
+    f.result()
+  File "/Users/jordan/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/jordan/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/jordan/.local/share/uv/python/cpython-3.12.9-macos-aarch64-none/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/../comparative_pilot/confirm.py", line 233, in work
+    got = call(EXTRACT_SYSTEM, user, Passages, key).passages
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/../comparative_pilot/confirm.py", line 149, in call
+    return model_cls.model_validate_json(openai_api.output_text(openai_api.create(key, body)))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jordan/Documents/backend/fed member sentiment/fed_speech_index/openai_api.py", line 129, in output_text
+    raise ValueError(f"response not completed ({reason})")
+ValueError: response not completed (content_filter)
+fed: extracting 9 texts (2471 done)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract FAILED: response not completed (content_filter)
+  extract: 8 of 9 failed after retries
+Token use over 41 responses: input 9,086 (plain 9,086, cache reads 0, cache writes 0); output 531 (of which reasoning 301).
+  passages returned 8183, verbatim 8159; texts with none: 54
+fed: round 1/3: 1999 comparisons
+  compare 50/1999
+  compare 100/1999
+  compare 150/1999
+  compare 200/1999
+  compare 250/1999
+  compare 300/1999
+  compare 350/1999
+  compare 400/1999
+  compare 450/1999
+  compare 500/1999
+  compare 550/1999
+  compare 600/1999
+  compare 650/1999
+  compare 700/1999
+  compare 750/1999
+  compare 800/1999
+  compare 850/1999
+  compare 900/1999
+  compare 950/1999
+  compare 1000/1999
+  compare 1050/1999
+  compare 1100/1999
+  compare 1150/1999
+  compare 1200/1999
+  compare 1250/1999
+  compare 1300/1999
+  compare 1350/1999
+  compare 1400/1999
+  compare 1450/1999
+  compare 1500/1999
+  compare 1550/1999
+  compare 1600/1999
+  compare 1650/1999
+  compare 1700/1999
+  compare 1750/1999
+  compare 1800/1999
+  compare 1850/1999
+  compare 1900/1999
+  compare 1950/1999
+Token use over 1999 responses: input 2,801,276 (plain 2,801,276, cache reads 0, cache writes 0); output 615,237 (of which reasoning 518,319).
+fed: round 2/3: 2028 comparisons
+  compare 50/2028
+  compare 100/2028
+  compare 150/2028
+  compare 200/2028
+  compare 250/2028
+  compare 300/2028
+  compare 350/2028
+  compare 400/2028
+  compare 450/2028
+  compare 500/2028
+  compare 550/2028
+  compare 600/2028
+  compare 650/2028
+  compare 700/2028
+  compare 750/2028
+  compare 800/2028
+  compare 850/2028
+  compare 900/2028
+  compare 950/2028
+  compare 1000/2028
+  compare 1050/2028
+  compare 1100/2028
+  compare 1150/2028
+  compare 1200/2028
+  compare 1250/2028
+  compare 1300/2028
+  compare 1350/2028
+  compare 1400/2028
+  compare 1450/2028
+  compare 1500/2028
+  compare 1550/2028
+  compare 1600/2028
+  compare 1650/2028
+  compare 1700/2028
+  compare 1750/2028
+  compare 1800/2028
+  compare 1850/2028
+  compare 1900/2028
+  compare 1950/2028
+  compare 2000/2028
+Token use over 4027 responses: input 5,640,060 (plain 5,640,060, cache reads 0, cache writes 0); output 1,244,925 (of which reasoning 1,049,794).
+fed: round 3/3: 2098 comparisons
+  compare 50/2098
+  compare 100/2098
+  compare 150/2098
+  compare 200/2098
+  compare 250/2098
+  compare 300/2098
+  compare 350/2098
+  compare 400/2098
+  compare 450/2098
+  compare 500/2098
+  compare 550/2098
+  compare 600/2098
+  compare 650/2098
+  compare 700/2098
+  compare 750/2098
+  compare 800/2098
+  compare 850/2098
+  compare 900/2098
+  compare 950/2098
+  compare 1000/2098
+  compare 1050/2098
+  compare 1100/2098
+  compare 1150/2098
+  compare 1200/2098
+  compare 1250/2098
+  compare 1300/2098
+  compare 1350/2098
+  compare 1400/2098
+  compare 1450/2098
+  compare 1500/2098
+  compare 1550/2098
+  compare 1600/2098
+  compare 1650/2098
+  compare 1700/2098
+  compare 1750/2098
+  compare 1800/2098
+  compare 1850/2098
+  compare 1900/2098
+  compare 1950/2098
+  compare 2000/2098
+  compare 2050/2098
+Token use over 6125 responses: input 8,591,655 (plain 8,591,655, cache reads 0, cache writes 0); output 1,920,739 (of which reasoning 1,624,223).
+fed: side tests: 250 comparisons
+  compare 50/250
+  compare 100/250
+  compare 150/250
+  compare 200/250
+  compare 250/250
+Token use over 6375 responses: input 9,644,398 (plain 9,644,398, cache reads 0, cache writes 0); output 2,011,492 (of which reasoning 1,702,685).

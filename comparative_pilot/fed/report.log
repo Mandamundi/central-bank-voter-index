@@ -1,0 +1,114 @@
+{
+  "bank": "fed",
+  "texts": 2325,
+  "comparisons": {
+    "main": 6125,
+    "reversed": 150,
+    "full_text": 100
+  },
+  "comparisons_per_text_main": 5.3,
+  "passages": {
+    "returned": 8183,
+    "verbatim": 8159,
+    "texts_without": 54
+  },
+  "chosen": {
+    "sigma_v": 10,
+    "s": 6
+  },
+  "tie_param": 0.377,
+  "held_out": {
+    "v10_alone": {
+      "accuracy": 0.578
+    },
+    "comparisons_alone": {
+      "accuracy": 0.665,
+      "log_loss": 0.986,
+      "equal_pairs": {
+        "n": 3519,
+        "accuracy": 0.645,
+        "ci95": [
+          0.63,
+          0.661
+        ]
+      }
+    },
+    "combined": {
+      "accuracy": 0.72,
+      "log_loss": 0.811,
+      "equal_pairs": {
+        "n": 3519,
+        "accuracy": 0.67,
+        "ci95": [
+          0.654,
+          0.685
+        ]
+      }
+    }
+  },
+  "anchors": {
+    "hold_mean": 49.0,
+    "level0_mean": 0.7,
+    "mean_by_level": {
+      "0": 0.7,
+      "1": 10.3,
+      "2": 21.9,
+      "3": 30.4,
+      "4": 41.5,
+      "5": 49.0,
+      "6": 59.0,
+      "7": 71.0,
+      "8": 80.4,
+      "9": 89.8
+    }
+  },
+  "order_bias_share_A": 0.503,
+  "reversed": {
+    "n": 150,
+    "same_verdict": 0.733,
+    "opposite_winner": 0.187
+  },
+  "full_text": {
+    "n": 100,
+    "same_verdict": 0.73,
+    "opposite_winner": 0.15
+  },
+  "median_sd": 3.7,
+  "held_out_nonpilot": {
+    "v10_alone": {
+      "accuracy": 0.578
+    },
+    "comparisons_alone": {
+      "accuracy": 0.666,
+      "log_loss": 0.983,
+      "equal_pairs": {
+        "n": 3007,
+        "accuracy": 0.645,
+        "ci95": [
+          0.628,
+          0.663
+        ]
+      }
+    },
+    "combined": {
+      "accuracy": 0.721,
+      "log_loss": 0.809,
+      "equal_pairs": {
+        "n": 3007,
+        "accuracy": 0.671,
+        "ci95": [
+          0.655,
+          0.688
+        ]
+      }
+    }
+  },
+  "pass_marks": {
+    "P1_combined_beats_both": true,
+    "P2_resolves_v10_ties": true,
+    "P3_hold_anchor": true,
+    "P3_crisis_anchor": true,
+    "P4_no_order_bias": true,
+    "P5_passages_ok": true
+  }
+}

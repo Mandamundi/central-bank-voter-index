@@ -1,0 +1,212 @@
+{
+  "texts": 180,
+  "verdicts": {
+    "main": 698,
+    "reversed": 121,
+    "full_text": 80
+  },
+  "tie_rate": 0.151,
+  "nu": 0.6366683822550104,
+  "held_out": {
+    "comparisons": 698,
+    "decisive": 591,
+    "accuracy_comparison_model": 0.809,
+    "accuracy_v10_levels": 0.783,
+    "v10_cannot_call_share": 0.24,
+    "pairs_v10_scores_equal": {
+      "n": 142,
+      "accuracy_comparison_model": 0.718,
+      "ci95": [
+        0.644,
+        0.792
+      ],
+      "chance": 0.5
+    },
+    "log_loss": 0.762,
+    "log_loss_uniform": 1.099
+  },
+  "calibration": [
+    {
+      "predicted_A": 0.06,
+      "observed_A": 0.1,
+      "n": 184
+    },
+    {
+      "predicted_A": 0.3,
+      "observed_A": 0.38,
+      "n": 73
+    },
+    {
+      "predicted_A": 0.5,
+      "observed_A": 0.51,
+      "n": 70
+    },
+    {
+      "predicted_A": 0.72,
+      "observed_A": 0.68,
+      "n": 79
+    },
+    {
+      "predicted_A": 0.93,
+      "observed_A": 0.91,
+      "n": 185
+    }
+  ],
+  "order_bias_share_A_wins": 0.516,
+  "reversed_repeat": {
+    "n": 120,
+    "same_verdict": 0.808,
+    "opposite_winner": 0.092
+  },
+  "full_text_vs_passages": {
+    "n": 80,
+    "same_verdict": 0.8,
+    "opposite_winner": 0.05
+  },
+  "scale": {
+    "points_per_theta": 7.66,
+    "v10_hold_texts_mean": 47.3
+  },
+  "rank_correlation_with_v10": 0.815,
+  "spread_within_each_v10_level": {
+    "2": {
+      "n": 16,
+      "spread_sd": 8.9,
+      "median_bootstrap_sd": 8.1
+    },
+    "3": {
+      "n": 16,
+      "spread_sd": 11.8,
+      "median_bootstrap_sd": 8.0
+    },
+    "4": {
+      "n": 7,
+      "spread_sd": 9.7,
+      "median_bootstrap_sd": 6.2
+    },
+    "5": {
+      "n": 63,
+      "spread_sd": 8.2,
+      "median_bootstrap_sd": 5.6
+    },
+    "6": {
+      "n": 24,
+      "spread_sd": 12.5,
+      "median_bootstrap_sd": 6.3
+    },
+    "7": {
+      "n": 23,
+      "spread_sd": 11.5,
+      "median_bootstrap_sd": 7.2
+    },
+    "8": {
+      "n": 17,
+      "spread_sd": 12.3,
+      "median_bootstrap_sd": 7.5
+    },
+    "9": {
+      "n": 6,
+      "spread_sd": 14.4,
+      "median_bootstrap_sd": 6.2
+    }
+  },
+  "correlation_with_rate_level": {
+    "comparison_score": -0.006,
+    "v10": 0.051
+  },
+  "waller": {
+    "oct8": {
+      "v10": 8,
+      "score": 81.1,
+      "sd": 5.1
+    },
+    "nov10": {
+      "v10": 8,
+      "score": 90.3,
+      "sd": 7.8
+    },
+    "share_of_bootstraps_nov10_higher": 0.813,
+    "direct_verdicts": [
+      {
+        "order": "Nov10=A",
+        "answer": "A",
+        "reason": "A favors a 25-basis-point hike at the December meeting and says a 50-point move may be warranted if inflation is stronger, while B expects additional hikes but leaves their timing flexible."
+      }
+    ]
+  },
+  "corrected_flips": {
+    "704c75bec360": {
+      "v10": 7,
+      "score": 73.6,
+      "sd": 8.9
+    },
+    "6716f4e89bf2": {
+      "v10": 7,
+      "score": 57.5,
+      "sd": 8.8
+    },
+    "28923f8352cf": {
+      "v10": 5,
+      "score": 60.6,
+      "sd": 5.1
+    }
+  },
+  "largest_disagreements_with_v10": [
+    {
+      "id": "9a97b48691e6",
+      "date": "2009-01-13",
+      "speaker": "Donald L. Kohn",
+      "v10": 0,
+      "score": 51.0
+    },
+    {
+      "id": "304e8e503f0e",
+      "date": "2020-03-27",
+      "speaker": "Thomas I. Barkin",
+      "v10": 0,
+      "score": 49.2
+    },
+    {
+      "id": "38da20e41dbc",
+      "date": "2008-11-18",
+      "speaker": "Ben Bernanke",
+      "v10": 0,
+      "score": 40.6
+    },
+    {
+      "id": "433272da91cc",
+      "date": "2025-07-15",
+      "speaker": "Logan",
+      "v10": 5,
+      "score": 19.2
+    },
+    {
+      "id": "796dcd32273e",
+      "date": "2025-11-19",
+      "speaker": "Stephen I. Miran",
+      "v10": 6,
+      "score": 31.1
+    },
+    {
+      "id": "35ce0cbaad5f",
+      "date": "2025-09-22",
+      "speaker": "Musalem",
+      "v10": 3,
+      "score": 58.3
+    },
+    {
+      "id": "55d14e008698",
+      "date": "2014-02-05",
+      "speaker": "Charles I. Plosser",
+      "v10": 9,
+      "score": 63.2
+    },
+    {
+      "id": "d58aee379744",
+      "date": "2025-08-25",
+      "speaker": "Logan",
+      "v10": 8,
+      "score": 54.9
+    }
+  ]
+}

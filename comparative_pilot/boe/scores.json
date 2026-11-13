@@ -1,0 +1,1578 @@
+[
+ {
+  "id": "003abab4ed87aee2923c",
+  "date": "2019-03-07",
+  "speaker": "Silvana Tenreyro",
+  "v10": 30,
+  "combined": 31.86,
+  "sd": 5.1
+ },
+ {
+  "id": "00cd8e69b590e77c71d4",
+  "date": "2019-02-14",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 40,
+  "combined": 53.57,
+  "sd": 3.38
+ },
+ {
+  "id": "01cb911b291ac05fe218",
+  "date": "2018-09-28",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 70.77,
+  "sd": 4.22
+ },
+ {
+  "id": "01cc63385332ce0e23b3",
+  "date": "2021-03-26",
+  "speaker": "Michael Saunders",
+  "v10": 40,
+  "combined": 36.78,
+  "sd": 4.14
+ },
+ {
+  "id": "0390d34f7841a735b09d",
+  "date": "2019-09-27",
+  "speaker": "Michael Saunders",
+  "v10": 30,
+  "combined": 33.43,
+  "sd": 3.55
+ },
+ {
+  "id": "0545359a483554f6df03",
+  "date": "2018-01-15",
+  "speaker": "Silvana Tenreyro",
+  "v10": 60,
+  "combined": 53.02,
+  "sd": 3.79
+ },
+ {
+  "id": "07a5ba71b0e26c80f038",
+  "date": "2022-11-24",
+  "speaker": "Dave Ramsden",
+  "v10": 80,
+  "combined": 76.31,
+  "sd": 3.24
+ },
+ {
+  "id": "07e195cfd708abcab844",
+  "date": "2019-03-06",
+  "speaker": "Michael Saunders",
+  "v10": 60,
+  "combined": 53.43,
+  "sd": 3.08
+ },
+ {
+  "id": "082f63277b6c290eb163",
+  "date": "2026-01-14",
+  "speaker": "Alan Taylor",
+  "v10": 20,
+  "combined": 18.2,
+  "sd": 3.74
+ },
+ {
+  "id": "0bebe2d0fd5424d70063",
+  "date": "2023-11-03",
+  "speaker": "Jonathan Haskel",
+  "v10": 60,
+  "combined": 55.84,
+  "sd": 3.54
+ },
+ {
+  "id": "0dc9c3bc6d92c1d428ec",
+  "date": "2018-01-17",
+  "speaker": "Michael Saunders",
+  "v10": 70,
+  "combined": 69.14,
+  "sd": 3.75
+ },
+ {
+  "id": "0e4e4696976ca5191f37",
+  "date": "2021-12-03",
+  "speaker": "Michael Saunders",
+  "v10": 70,
+  "combined": 83.51,
+  "sd": 4.04
+ },
+ {
+  "id": "0e52b3012bf51abdb11d",
+  "date": "2020-06-30",
+  "speaker": "Andy Haldane",
+  "v10": 50,
+  "combined": 42.35,
+  "sd": 4.26
+ },
+ {
+  "id": "0e6b345dfba9748ddd3e",
+  "date": "2025-01-09",
+  "speaker": "Sarah Breeden",
+  "v10": 30,
+  "combined": 31.93,
+  "sd": 3.94
+ },
+ {
+  "id": "10ac600eac650da103c3",
+  "date": "2024-07-10",
+  "speaker": "Huw Pill",
+  "v10": 40,
+  "combined": 33.05,
+  "sd": 3.61
+ },
+ {
+  "id": "11d9882efbb8681fa1eb",
+  "date": "2021-03-08",
+  "speaker": "Andrew Bailey",
+  "v10": 40,
+  "combined": 27.18,
+  "sd": 2.98
+ },
+ {
+  "id": "1231f09cd7be429a4587",
+  "date": "2025-10-09",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 59.16,
+  "sd": 2.97
+ },
+ {
+  "id": "130e501b8bb733188daa",
+  "date": "2026-09-03",
+  "speaker": "Huw Pill",
+  "v10": 80,
+  "combined": 86.79,
+  "sd": 3.47
+ },
+ {
+  "id": "154bbdb0d80a193ba071",
+  "date": "2019-05-07",
+  "speaker": "Jon Cunliffe",
+  "v10": 50,
+  "combined": 53.67,
+  "sd": 2.78
+ },
+ {
+  "id": "15aa1f85f7f392a896ba",
+  "date": "2022-04-04",
+  "speaker": "Jon Cunliffe",
+  "v10": 40,
+  "combined": 44.43,
+  "sd": 3.9
+ },
+ {
+  "id": "19e722f65cd6bd0cc69b",
+  "date": "2023-11-17",
+  "speaker": "Dave Ramsden",
+  "v10": 60,
+  "combined": 59.93,
+  "sd": 4.1
+ },
+ {
+  "id": "1a02f078a7912e5ae89c",
+  "date": "2019-05-30",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 66.91,
+  "sd": 3.69
+ },
+ {
+  "id": "1a8b498304d0c8aee0d2",
+  "date": "2024-05-20",
+  "speaker": "Ben Broadbent",
+  "v10": 30,
+  "combined": 29.68,
+  "sd": 5.32
+ },
+ {
+  "id": "1cb29cc5de822fbffe33",
+  "date": "2018-11-22",
+  "speaker": "Michael Saunders",
+  "v10": 70,
+  "combined": 71.94,
+  "sd": 3.62
+ },
+ {
+  "id": "1fc5c374fbc104aad541",
+  "date": "2026-07-02",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 66.57,
+  "sd": 3.44
+ },
+ {
+  "id": "23b7b90529d44f7cc6c0",
+  "date": "2024-02-07",
+  "speaker": "Sarah Breeden",
+  "v10": 50,
+  "combined": 53.27,
+  "sd": 3.7
+ },
+ {
+  "id": "240143e396d274315c8e",
+  "date": "2021-02-17",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 56.86,
+  "sd": 6.55
+ },
+ {
+  "id": "24694643a6682bc21702",
+  "date": "2024-05-16",
+  "speaker": "Megan Greene",
+  "v10": 40,
+  "combined": 49.56,
+  "sd": 3.23
+ },
+ {
+  "id": "249ff04fd04f193e8567",
+  "date": "2025-09-23",
+  "speaker": "Huw Pill",
+  "v10": 90,
+  "combined": 74.66,
+  "sd": 4.38
+ },
+ {
+  "id": "2bf7e68d1741cbaeddcf",
+  "date": "2019-08-23",
+  "speaker": "Mark Carney",
+  "v10": 30,
+  "combined": 46.92,
+  "sd": 3.73
+ },
+ {
+  "id": "2c2247903593e3178605",
+  "date": "2025-10-17",
+  "speaker": "Huw Pill",
+  "v10": 30,
+  "combined": 43.21,
+  "sd": 3.35
+ },
+ {
+  "id": "2d78f092bd1ced85f2ed",
+  "date": "2019-02-12",
+  "speaker": "Mark Carney",
+  "v10": 70,
+  "combined": 63.88,
+  "sd": 3.61
+ },
+ {
+  "id": "2ed71d7cc06b5617fc1c",
+  "date": "2024-07-08",
+  "speaker": "Jonathan Haskel",
+  "v10": 50,
+  "combined": 52.88,
+  "sd": 2.43
+ },
+ {
+  "id": "30a00ee2b55fb7e58250",
+  "date": "2022-07-19",
+  "speaker": "Andrew Bailey",
+  "v10": 80,
+  "combined": 71.3,
+  "sd": 3.72
+ },
+ {
+  "id": "31cd689fb4c6a04745b8",
+  "date": "2023-12-18",
+  "speaker": "Ben Broadbent",
+  "v10": 50,
+  "combined": 56.04,
+  "sd": 4.03
+ },
+ {
+  "id": "32d414086a2810d628c4",
+  "date": "2025-08-26",
+  "speaker": "Catherine L Mann",
+  "v10": 50,
+  "combined": 40.95,
+  "sd": 3.48
+ },
+ {
+  "id": "33a5a1c5ced03461565a",
+  "date": "2024-02-15",
+  "speaker": "Megan Greene",
+  "v10": 60,
+  "combined": 57.48,
+  "sd": 3.16
+ },
+ {
+  "id": "38993ab2872233b1acf4",
+  "date": "2021-07-19",
+  "speaker": "Jonathan Haskel",
+  "v10": 40,
+  "combined": 36.63,
+  "sd": 3.43
+ },
+ {
+  "id": "39c454a5eec349904794",
+  "date": "2021-07-14",
+  "speaker": "Dave Ramsden",
+  "v10": 60,
+  "combined": 66.75,
+  "sd": 3.84
+ },
+ {
+  "id": "3a52fdc548d89be56623",
+  "date": "2025-02-11",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 45.56,
+  "sd": 2.9
+ },
+ {
+  "id": "3cfd5494f767e0f960e9",
+  "date": "2020-07-15",
+  "speaker": "Silvana Tenreyro",
+  "v10": 50,
+  "combined": 42.78,
+  "sd": 2.91
+ },
+ {
+  "id": "3eab79413847cd6bbc5a",
+  "date": "2024-03-01",
+  "speaker": "Huw Pill",
+  "v10": 40,
+  "combined": 46.09,
+  "sd": 2.97
+ },
+ {
+  "id": "4109667e336ae4bb0581",
+  "date": "2018-07-13",
+  "speaker": "Jon Cunliffe",
+  "v10": 40,
+  "combined": 49.92,
+  "sd": 3.51
+ },
+ {
+  "id": "41bf86a28f5125d9a14c",
+  "date": "2018-06-26",
+  "speaker": "Ian McCafferty",
+  "v10": 80,
+  "combined": 84.3,
+  "sd": 3.89
+ },
+ {
+  "id": "4305b1c3346d0402f8cb",
+  "date": "2020-07-01",
+  "speaker": "Jonathan Haskel",
+  "v10": 40,
+  "combined": 36.61,
+  "sd": 2.22
+ },
+ {
+  "id": "438ec2281b9abc878620",
+  "date": "2021-02-22",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 30,
+  "combined": 24.6,
+  "sd": 5.28
+ },
+ {
+  "id": "43cc17125939173f9c1a",
+  "date": "2025-02-28",
+  "speaker": "Dave Ramsden",
+  "v10": 30,
+  "combined": 27.62,
+  "sd": 4.73
+ },
+ {
+  "id": "453ba08ecc3a3b4c8035",
+  "date": "2023-05-17",
+  "speaker": "Andrew Bailey",
+  "v10": 70,
+  "combined": 65.45,
+  "sd": 4.01
+ },
+ {
+  "id": "45f5c121fdb1638a5c9c",
+  "date": "2024-02-27",
+  "speaker": "Dave Ramsden",
+  "v10": 50,
+  "combined": 58.06,
+  "sd": 3.45
+ },
+ {
+  "id": "466393b4dd5b6686b797",
+  "date": "2024-02-21",
+  "speaker": "Swati Dhingra",
+  "v10": 20,
+  "combined": 20.79,
+  "sd": 3.7
+ },
+ {
+  "id": "482c456a85d481f308ee",
+  "date": "2017-11-14",
+  "speaker": "Jon Cunliffe",
+  "v10": 40,
+  "combined": 40.14,
+  "sd": 3.09
+ },
+ {
+  "id": "48b8ba0c62abac586c1b",
+  "date": "2023-03-01",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 62.78,
+  "sd": 3.12
+ },
+ {
+  "id": "4927613b2fa10da663f3",
+  "date": "2022-07-06",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 78.99,
+  "sd": 2.96
+ },
+ {
+  "id": "49eddcdc462980781ecc",
+  "date": "2018-06-07",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 65.82,
+  "sd": 3.56
+ },
+ {
+  "id": "4a6af211ad2f0d3a2a6d",
+  "date": "2018-05-24",
+  "speaker": "Mark Carney",
+  "v10": 70,
+  "combined": 68.14,
+  "sd": 3.98
+ },
+ {
+  "id": "4ad61f975299db892931",
+  "date": "2026-05-29",
+  "speaker": "Andrew Bailey",
+  "v10": 60,
+  "combined": 51.16,
+  "sd": 3.39
+ },
+ {
+  "id": "4d9946b733e8d20db71e",
+  "date": "2018-07-05",
+  "speaker": "Mark Carney",
+  "v10": 70,
+  "combined": 73.52,
+  "sd": 3.51
+ },
+ {
+  "id": "4e5f4a108aa1a2d6d221",
+  "date": "2022-04-21",
+  "speaker": "Catherine L Mann",
+  "v10": 70,
+  "combined": 67.46,
+  "sd": 4.52
+ },
+ {
+  "id": "4f263fe74443e74ecf43",
+  "date": "2022-11-23",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 71.77,
+  "sd": 5.34
+ },
+ {
+  "id": "4f5b7a7543a5c09acefd",
+  "date": "2023-03-27",
+  "speaker": "Andrew Bailey",
+  "v10": 70,
+  "combined": 59.12,
+  "sd": 3.47
+ },
+ {
+  "id": "525ec217874e4e1f1085",
+  "date": "2022-05-20",
+  "speaker": "Huw Pill",
+  "v10": 80,
+  "combined": 80.04,
+  "sd": 3.42
+ },
+ {
+  "id": "5358f74254e912b7b68a",
+  "date": "2022-02-09",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 73.66,
+  "sd": 4.06
+ },
+ {
+  "id": "54233bdcdee7eb803cd3",
+  "date": "2020-12-04",
+  "speaker": "Michael Saunders",
+  "v10": 30,
+  "combined": 26.39,
+  "sd": 3.99
+ },
+ {
+  "id": "54488d91afe556f0bbe7",
+  "date": "2022-09-05",
+  "speaker": "Catherine L Mann",
+  "v10": 90,
+  "combined": 98.8,
+  "sd": 2.8
+ },
+ {
+  "id": "54a7fff7c4c73f5450de",
+  "date": "2024-09-20",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 53.89,
+  "sd": 4.28
+ },
+ {
+  "id": "5537220d00b671011419",
+  "date": "2026-11-10",
+  "speaker": "Clare Lombardelli",
+  "v10": 70,
+  "combined": 74.48,
+  "sd": 3.99
+ },
+ {
+  "id": "59881b4f0cf099e49149",
+  "date": "2017-11-14",
+  "speaker": "Jon Cunliffe",
+  "v10": 40,
+  "combined": 47.2,
+  "sd": 3.92
+ },
+ {
+  "id": "5ab2c48c98e0cf34a75b",
+  "date": "2022-06-20",
+  "speaker": "Catherine L Mann",
+  "v10": 90,
+  "combined": 82.18,
+  "sd": 4.6
+ },
+ {
+  "id": "5d0e61769f07283b5ab9",
+  "date": "2023-11-30",
+  "speaker": "Megan Greene",
+  "v10": 60,
+  "combined": 59.62,
+  "sd": 2.6
+ },
+ {
+  "id": "5fa1f2a5fae6e3453b73",
+  "date": "2021-07-26",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 50,
+  "combined": 44.49,
+  "sd": 3.04
+ },
+ {
+  "id": "5fa73f09b910c0402318",
+  "date": "2019-12-20",
+  "speaker": "Jonathan Haskel",
+  "v10": 20,
+  "combined": 20.05,
+  "sd": 3.06
+ },
+ {
+  "id": "601d5969e6ef0993d905",
+  "date": "2021-11-26",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 69.68,
+  "sd": 3.47
+ },
+ {
+  "id": "622308fe07f745ba306f",
+  "date": "2026-03-02",
+  "speaker": "Alan Taylor",
+  "v10": 30,
+  "combined": 28.14,
+  "sd": 4.59
+ },
+ {
+  "id": "655f488515b63c723c82",
+  "date": "2021-09-27",
+  "speaker": "Andrew Bailey",
+  "v10": 70,
+  "combined": 66.64,
+  "sd": 4.26
+ },
+ {
+  "id": "65612d68cb1399508215",
+  "date": "2022-02-23",
+  "speaker": "Silvana Tenreyro",
+  "v10": 70,
+  "combined": 73.01,
+  "sd": 3.21
+ },
+ {
+  "id": "6666bd8f14b01ae3086e",
+  "date": "2026-09-28",
+  "speaker": "Dave Ramsden",
+  "v10": 60,
+  "combined": 66.43,
+  "sd": 4.3
+ },
+ {
+  "id": "67b80c783331235af4e2",
+  "date": "2018-04-20",
+  "speaker": "Michael Saunders",
+  "v10": 70,
+  "combined": 76.6,
+  "sd": 3.77
+ },
+ {
+  "id": "67c5442e1d592769754e",
+  "date": "2023-07-10",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 64.26,
+  "sd": 3.03
+ },
+ {
+  "id": "6866b13871c653736659",
+  "date": "2021-03-26",
+  "speaker": "Michael Saunders",
+  "v10": 40,
+  "combined": 40.56,
+  "sd": 3.66
+ },
+ {
+  "id": "693fbb0ba6e33565db2b",
+  "date": "2020-01-15",
+  "speaker": "Michael Saunders",
+  "v10": 30,
+  "combined": 31.05,
+  "sd": 3.65
+ },
+ {
+  "id": "698b029522dcaecb5a6f",
+  "date": "2022-10-20",
+  "speaker": "Ben Broadbent",
+  "v10": 70,
+  "combined": 85.29,
+  "sd": 2.96
+ },
+ {
+  "id": "6a96144d89ac0d3f5043",
+  "date": "2025-10-14",
+  "speaker": "Alan Taylor",
+  "v10": 30,
+  "combined": 22.69,
+  "sd": 2.66
+ },
+ {
+  "id": "6b0ee31a8888dd4ae9c3",
+  "date": "2025-10-09",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 61.43,
+  "sd": 3.02
+ },
+ {
+  "id": "6f0c21a9a23be7f24a4f",
+  "date": "2026-10-20",
+  "speaker": "Megan Greene",
+  "v10": 80,
+  "combined": 77.11,
+  "sd": 4.06
+ },
+ {
+  "id": "6f2dda9d15399974ac67",
+  "date": "2026-09-29",
+  "speaker": "Alan Taylor",
+  "v10": 40,
+  "combined": 36.43,
+  "sd": 4.54
+ },
+ {
+  "id": "6ff7cf9de92e604db730",
+  "date": "2021-01-11",
+  "speaker": "Silvana Tenreyro",
+  "v10": 30,
+  "combined": 34.88,
+  "sd": 4.18
+ },
+ {
+  "id": "6ffe3cc47158cf151132",
+  "date": "2018-06-04",
+  "speaker": "Silvana Tenreyro",
+  "v10": 70,
+  "combined": 61.56,
+  "sd": 4.18
+ },
+ {
+  "id": "70516cc6ce4afbfaeed9",
+  "date": "2023-11-16",
+  "speaker": "Dave Ramsden",
+  "v10": 50,
+  "combined": 65.07,
+  "sd": 5.78
+ },
+ {
+  "id": "708c0f58f2c5c95d0409",
+  "date": "2021-02-05",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 43.68,
+  "sd": 3.65
+ },
+ {
+  "id": "70cee557188839360bf9",
+  "date": "2021-11-23",
+  "speaker": "Jonathan Haskel",
+  "v10": 70,
+  "combined": 69.8,
+  "sd": 3.79
+ },
+ {
+  "id": "723f1204523637b86c6e",
+  "date": "2025-09-24",
+  "speaker": "Megan Greene",
+  "v10": 60,
+  "combined": 59.8,
+  "sd": 4.02
+ },
+ {
+  "id": "756a6f8e434b305f5e04",
+  "date": "2021-02-26",
+  "speaker": "Andy Haldane",
+  "v10": 60,
+  "combined": 68.37,
+  "sd": 2.48
+ },
+ {
+  "id": "7603b10c3a35bdef30bb",
+  "date": "2024-11-25",
+  "speaker": "Clare Lombardelli",
+  "v10": 20,
+  "combined": 30.58,
+  "sd": 3.48
+ },
+ {
+  "id": "7933d054941ca134d204",
+  "date": "2021-03-26",
+  "speaker": "Silvana Tenreyro",
+  "v10": 30,
+  "combined": 28.48,
+  "sd": 2.34
+ },
+ {
+  "id": "7d2684e40c0e172c7883",
+  "date": "2025-07-02",
+  "speaker": "Alan Taylor",
+  "v10": 10,
+  "combined": 5.73,
+  "sd": 3.33
+ },
+ {
+  "id": "7ef3767cba86937ecd17",
+  "date": "2026-01-23",
+  "speaker": "Megan Greene",
+  "v10": 60,
+  "combined": 56.19,
+  "sd": 6.25
+ },
+ {
+  "id": "83fdd9ca81b8dc0ae0b5",
+  "date": "2025-05-09",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 49.32,
+  "sd": 3.1
+ },
+ {
+  "id": "84ef338285d66819eda4",
+  "date": "2020-08-28",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 37.48,
+  "sd": 3.9
+ },
+ {
+  "id": "868b532cc76a2510fd19",
+  "date": "2025-02-12",
+  "speaker": "Megan Greene",
+  "v10": 30,
+  "combined": 33.13,
+  "sd": 4.42
+ },
+ {
+  "id": "8822eea887460e31fb71",
+  "date": "2025-03-06",
+  "speaker": "Catherine L Mann",
+  "v10": 10,
+  "combined": 12.24,
+  "sd": 3.94
+ },
+ {
+  "id": "88875abc3352069d1d15",
+  "date": "2021-10-25",
+  "speaker": "Silvana Tenreyro",
+  "v10": 60,
+  "combined": 66.68,
+  "sd": 3.89
+ },
+ {
+  "id": "897158d6216304851bc7",
+  "date": "2022-07-07",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 76.14,
+  "sd": 4.09
+ },
+ {
+  "id": "8a97afccb2a46381c531",
+  "date": "2021-07-01",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 50.59,
+  "sd": 4.02
+ },
+ {
+  "id": "8c7129226d187c56db4e",
+  "date": "2024-10-04",
+  "speaker": "Huw Pill",
+  "v10": 30,
+  "combined": 32.55,
+  "sd": 4.77
+ },
+ {
+  "id": "8d2ad5d0b2d07fddfd2a",
+  "date": "2023-04-04",
+  "speaker": "Silvana Tenreyro",
+  "v10": 30,
+  "combined": 26.61,
+  "sd": 6.88
+ },
+ {
+  "id": "8e97649ea8b4e21e7c42",
+  "date": "2025-05-20",
+  "speaker": "Huw Pill",
+  "v10": 30,
+  "combined": 42.25,
+  "sd": 5.68
+ },
+ {
+  "id": "8f5802876868abff0e63",
+  "date": "2020-11-28",
+  "speaker": "Andy Haldane",
+  "v10": 50,
+  "combined": 36.67,
+  "sd": 4.48
+ },
+ {
+  "id": "906559c42dc756023d34",
+  "date": "2025-06-24",
+  "speaker": "Dave Ramsden",
+  "v10": 20,
+  "combined": 22.01,
+  "sd": 3.96
+ },
+ {
+  "id": "907329a7d924a55ca2ad",
+  "date": "2017-10-05",
+  "speaker": "Ian McCafferty",
+  "v10": 80,
+  "combined": 66.91,
+  "sd": 3.38
+ },
+ {
+  "id": "90bd06121723a47fc007",
+  "date": "2026-10-01",
+  "speaker": "Catherine L Mann",
+  "v10": 80,
+  "combined": 81.86,
+  "sd": 3.24
+ },
+ {
+  "id": "90fca82793da577da8f8",
+  "date": "2022-02-22",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 76.0,
+  "sd": 3.62
+ },
+ {
+  "id": "911903eb332e533921d3",
+  "date": "2023-11-28",
+  "speaker": "Jonathan Haskel",
+  "v10": 60,
+  "combined": 73.03,
+  "sd": 4.68
+ },
+ {
+  "id": "91890558e0a0d0ed3f61",
+  "date": "2024-08-23",
+  "speaker": "Andrew Bailey",
+  "v10": 40,
+  "combined": 45.06,
+  "sd": 2.58
+ },
+ {
+  "id": "91958e7d16723f347647",
+  "date": "2022-09-29",
+  "speaker": "Huw Pill",
+  "v10": 80,
+  "combined": 71.03,
+  "sd": 5.5
+ },
+ {
+  "id": "924bccf3dd704990a89e",
+  "date": "2025-05-12",
+  "speaker": "Clare Lombardelli",
+  "v10": 30,
+  "combined": 25.94,
+  "sd": 4.34
+ },
+ {
+  "id": "929c070762303837b3c8",
+  "date": "2024-09-25",
+  "speaker": "Megan Greene",
+  "v10": 30,
+  "combined": 25.96,
+  "sd": 4.92
+ },
+ {
+  "id": "941cfd0e9eb27512afb4",
+  "date": "2022-10-15",
+  "speaker": "Andrew Bailey",
+  "v10": 70,
+  "combined": 78.12,
+  "sd": 4.12
+ },
+ {
+  "id": "943be667d4cb5fb70996",
+  "date": "2020-07-23",
+  "speaker": "Jonathan Haskel",
+  "v10": 40,
+  "combined": 36.77,
+  "sd": 3.05
+ },
+ {
+  "id": "94e87ec2d4336990e79d",
+  "date": "2021-12-06",
+  "speaker": "Ben Broadbent",
+  "v10": 60,
+  "combined": 56.82,
+  "sd": 3.32
+ },
+ {
+  "id": "97307837098b156b6a85",
+  "date": "2023-08-26",
+  "speaker": "Ben Broadbent",
+  "v10": 50,
+  "combined": 53.93,
+  "sd": 3.41
+ },
+ {
+  "id": "984bb9489e05f4715cfe",
+  "date": "2023-11-20",
+  "speaker": "Andrew Bailey",
+  "v10": 60,
+  "combined": 65.71,
+  "sd": 4.1
+ },
+ {
+  "id": "985688dce97ff59cccfd",
+  "date": "2020-10-20",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 40,
+  "combined": 40.52,
+  "sd": 4.9
+ },
+ {
+  "id": "98b173cbb581e372016f",
+  "date": "2017-11-15",
+  "speaker": "Ben Broadbent",
+  "v10": 50,
+  "combined": 50.17,
+  "sd": 1.16
+ },
+ {
+  "id": "9de9b3eb78bd07592d98",
+  "date": "2023-02-23",
+  "speaker": "Catherine L Mann",
+  "v10": 80,
+  "combined": 84.7,
+  "sd": 3.23
+ },
+ {
+  "id": "a0852c68ecc1e20f49c9",
+  "date": "2025-06-02",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 50.57,
+  "sd": 6.42
+ },
+ {
+  "id": "a51e596dcc637fa6e562",
+  "date": "2025-06-26",
+  "speaker": "Andrew Bailey",
+  "v10": 30,
+  "combined": 28.33,
+  "sd": 4.53
+ },
+ {
+  "id": "a52b985beca40fa23677",
+  "date": "2022-10-12",
+  "speaker": "Huw Pill",
+  "v10": 80,
+  "combined": 90.22,
+  "sd": 3.57
+ },
+ {
+  "id": "a737720331cacbbe0998",
+  "date": "2019-10-15",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 40,
+  "combined": 44.4,
+  "sd": 3.51
+ },
+ {
+  "id": "a772f16ac0f49429d7f2",
+  "date": "2018-06-28",
+  "speaker": "Andy Haldane",
+  "v10": 70,
+  "combined": 79.59,
+  "sd": 3.69
+ },
+ {
+  "id": "a7acf65f68165cff9d17",
+  "date": "2021-06-30",
+  "speaker": "Andy Haldane",
+  "v10": 80,
+  "combined": 80.34,
+  "sd": 3.49
+ },
+ {
+  "id": "ad22b1a26e3337e688fb",
+  "date": "2025-07-04",
+  "speaker": "Alan Taylor",
+  "v10": 20,
+  "combined": 9.87,
+  "sd": 3.0
+ },
+ {
+  "id": "af17103521ded1b39025",
+  "date": "2022-10-07",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 77.88,
+  "sd": 3.54
+ },
+ {
+  "id": "b0f39d184d570d66496f",
+  "date": "2022-05-09",
+  "speaker": "Michael Saunders",
+  "v10": 80,
+  "combined": 76.22,
+  "sd": 2.83
+ },
+ {
+  "id": "b1964d0234e5124668e1",
+  "date": "2020-01-09",
+  "speaker": "Mark Carney",
+  "v10": 30,
+  "combined": 38.04,
+  "sd": 3.16
+ },
+ {
+  "id": "b29eddbcc915bef87f72",
+  "date": "2019-07-23",
+  "speaker": "Andy Haldane",
+  "v10": 60,
+  "combined": 56.99,
+  "sd": 4.38
+ },
+ {
+  "id": "b62d2ed7b358bf80870d",
+  "date": "2023-12-19",
+  "speaker": "Sarah Breeden",
+  "v10": 60,
+  "combined": 60.21,
+  "sd": 2.45
+ },
+ {
+  "id": "b63420a507ea8dc9f7c7",
+  "date": "2021-03-05",
+  "speaker": "Jonathan Haskel",
+  "v10": 40,
+  "combined": 33.41,
+  "sd": 4.58
+ },
+ {
+  "id": "b68d051702dc5cb0cb40",
+  "date": "2023-05-25",
+  "speaker": "Jonathan Haskel",
+  "v10": 70,
+  "combined": 66.04,
+  "sd": 3.39
+ },
+ {
+  "id": "b6d397267e52d4e89470",
+  "date": "2022-06-24",
+  "speaker": "Huw Pill",
+  "v10": 60,
+  "combined": 60.28,
+  "sd": 3.85
+ },
+ {
+  "id": "b8e9c91c3b2ba06f867d",
+  "date": "2026-05-29",
+  "speaker": "Andrew Bailey",
+  "v10": 60,
+  "combined": 49.31,
+  "sd": 3.27
+ },
+ {
+  "id": "bbbf2f9ae3b748d38fd3",
+  "date": "2022-03-01",
+  "speaker": "Michael Saunders",
+  "v10": 80,
+  "combined": 86.23,
+  "sd": 4.1
+ },
+ {
+  "id": "bf4246e117882d439be5",
+  "date": "2023-06-29",
+  "speaker": "Silvana Tenreyro",
+  "v10": 40,
+  "combined": 37.63,
+  "sd": 2.31
+ },
+ {
+  "id": "bfe77ff25c1b10b71883",
+  "date": "2023-02-06",
+  "speaker": "Catherine L Mann",
+  "v10": 80,
+  "combined": 86.05,
+  "sd": 4.14
+ },
+ {
+  "id": "bfedfef6c9aee9c2c178",
+  "date": "2017-09-18",
+  "speaker": "Mark Carney",
+  "v10": 70,
+  "combined": 75.26,
+  "sd": 3.95
+ },
+ {
+  "id": "c0bc823f4404b801aa3a",
+  "date": "2025-05-12",
+  "speaker": "Clare Lombardelli",
+  "v10": 30,
+  "combined": 39.08,
+  "sd": 3.55
+ },
+ {
+  "id": "c11d893c0e7e3a4760a4",
+  "date": "2024-04-19",
+  "speaker": "Dave Ramsden",
+  "v10": 40,
+  "combined": 35.83,
+  "sd": 3.62
+ },
+ {
+  "id": "c282448aa51d510fbf4c",
+  "date": "2023-02-16",
+  "speaker": "Huw Pill",
+  "v10": 60,
+  "combined": 56.57,
+  "sd": 4.35
+ },
+ {
+  "id": "c4025c075570dde5b5ee",
+  "date": "2022-07-18",
+  "speaker": "Michael Saunders",
+  "v10": 90,
+  "combined": 94.67,
+  "sd": 3.14
+ },
+ {
+  "id": "c40e96486e219ed7c68f",
+  "date": "2019-07-10",
+  "speaker": "Silvana Tenreyro",
+  "v10": 60,
+  "combined": 49.14,
+  "sd": 3.84
+ },
+ {
+  "id": "c52327aa4266cdc29750",
+  "date": "2023-09-11",
+  "speaker": "Catherine L Mann",
+  "v10": 80,
+  "combined": 92.64,
+  "sd": 4.31
+ },
+ {
+  "id": "c54e2c3f73fbab8123fd",
+  "date": "2026-06-02",
+  "speaker": "Megan Greene",
+  "v10": 70,
+  "combined": 77.41,
+  "sd": 4.35
+ },
+ {
+  "id": "c621f7bb81b2a2d3d991",
+  "date": "2017-09-15",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 70,
+  "combined": 68.85,
+  "sd": 3.44
+ },
+ {
+  "id": "c76df36a39cbcd1f4bdf",
+  "date": "2024-02-08",
+  "speaker": "Catherine L Mann",
+  "v10": 80,
+  "combined": 84.86,
+  "sd": 4.5
+ },
+ {
+  "id": "c9c922daedb8d7ff6aea",
+  "date": "2019-06-10",
+  "speaker": "Michael Saunders",
+  "v10": 60,
+  "combined": 70.75,
+  "sd": 2.65
+ },
+ {
+  "id": "c9e8f97a4bcae91d8de1",
+  "date": "2018-03-23",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 80,
+  "combined": 71.72,
+  "sd": 3.43
+ },
+ {
+  "id": "cac03f66ecd2f789d1fa",
+  "date": "2026-06-23",
+  "speaker": "Alan Taylor",
+  "v10": 40,
+  "combined": 45.93,
+  "sd": 3.72
+ },
+ {
+  "id": "caef291b1cc0c0bf59a1",
+  "date": "2026-06-24",
+  "speaker": "Swati Dhingra",
+  "v10": 50,
+  "combined": 49.83,
+  "sd": 3.09
+ },
+ {
+  "id": "cbce016cb8decbcd26ad",
+  "date": "2020-09-04",
+  "speaker": "Michael Saunders",
+  "v10": 30,
+  "combined": 18.71,
+  "sd": 3.67
+ },
+ {
+  "id": "cdaef35410b09fe2cd43",
+  "date": "2019-07-02",
+  "speaker": "Mark Carney",
+  "v10": 60,
+  "combined": 59.31,
+  "sd": 4.15
+ },
+ {
+  "id": "cffe4252625bc7239fec",
+  "date": "2022-11-11",
+  "speaker": "Silvana Tenreyro",
+  "v10": 40,
+  "combined": 45.79,
+  "sd": 2.81
+ },
+ {
+  "id": "d009b95d16a8c1be974f",
+  "date": "2020-04-16",
+  "speaker": "Silvana Tenreyro",
+  "v10": 0,
+  "combined": -3.23,
+  "sd": 1.53
+ },
+ {
+  "id": "d1d9575af8d9a37ddc80",
+  "date": "2022-11-13",
+  "speaker": "Jonathan Haskel",
+  "v10": 60,
+  "combined": 53.49,
+  "sd": 3.07
+ },
+ {
+  "id": "d3493b409f14723b005a",
+  "date": "2020-09-30",
+  "speaker": "Andy Haldane",
+  "v10": 50,
+  "combined": 44.81,
+  "sd": 3.29
+ },
+ {
+  "id": "d5b3adb8dcdfe9adc5c9",
+  "date": "2023-07-19",
+  "speaker": "Dave Ramsden",
+  "v10": 70,
+  "combined": 72.23,
+  "sd": 4.19
+ },
+ {
+  "id": "d640b0a1582ad1d31f7f",
+  "date": "2020-11-17",
+  "speaker": "Dave Ramsden",
+  "v10": 50,
+  "combined": 39.69,
+  "sd": 4.75
+ },
+ {
+  "id": "d6f3deb30f686866b113",
+  "date": "2021-07-15",
+  "speaker": "Michael Saunders",
+  "v10": 80,
+  "combined": 71.38,
+  "sd": 4.26
+ },
+ {
+  "id": "d71c3f109eb57d9a4423",
+  "date": "2020-02-11",
+  "speaker": "Jonathan Haskel",
+  "v10": 20,
+  "combined": 18.72,
+  "sd": 3.46
+ },
+ {
+  "id": "d836cee0ab845765d0b9",
+  "date": "2019-07-12",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 30,
+  "combined": 37.96,
+  "sd": 2.8
+ },
+ {
+  "id": "d92b55a6401014901a1a",
+  "date": "2025-10-23",
+  "speaker": "Swati Dhingra",
+  "v10": 30,
+  "combined": 33.03,
+  "sd": 2.86
+ },
+ {
+  "id": "d930213286c2d30deca8",
+  "date": "2024-11-20",
+  "speaker": "Dave Ramsden",
+  "v10": 30,
+  "combined": 39.7,
+  "sd": 3.46
+ },
+ {
+  "id": "da077415f3d794ec3b12",
+  "date": "2020-09-02",
+  "speaker": "Ben Broadbent",
+  "v10": 50,
+  "combined": 48.66,
+  "sd": 3.26
+ },
+ {
+  "id": "da69ac3711c4d72c122f",
+  "date": "2024-04-23",
+  "speaker": "Huw Pill",
+  "v10": 40,
+  "combined": 52.04,
+  "sd": 3.46
+ },
+ {
+  "id": "da9e4f55cebcc72a3b4d",
+  "date": "2021-01-12",
+  "speaker": "Ben Broadbent",
+  "v10": 50,
+  "combined": 37.33,
+  "sd": 3.76
+ },
+ {
+  "id": "dcd19fc371c2dad20bcb",
+  "date": "2022-01-21",
+  "speaker": "Catherine L Mann",
+  "v10": 70,
+  "combined": 75.32,
+  "sd": 2.65
+ },
+ {
+  "id": "dedb79f67566c2991042",
+  "date": "2022-05-23",
+  "speaker": "Andrew Bailey",
+  "v10": 70,
+  "combined": 65.22,
+  "sd": 4.13
+ },
+ {
+  "id": "df1449324ce35c01e656",
+  "date": "2020-11-17",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 41.54,
+  "sd": 2.69
+ },
+ {
+  "id": "e06f554316d352bd6ec4",
+  "date": "2025-01-15",
+  "speaker": "Alan Taylor",
+  "v10": 10,
+  "combined": 15.5,
+  "sd": 3.83
+ },
+ {
+  "id": "e1679b3738048de4ba5f",
+  "date": "2024-05-16",
+  "speaker": "Megan Greene",
+  "v10": 60,
+  "combined": 54.77,
+  "sd": 3.23
+ },
+ {
+  "id": "e4087412853c85bc55b3",
+  "date": "2026-03-26",
+  "speaker": "Alan Taylor",
+  "v10": 40,
+  "combined": 28.15,
+  "sd": 2.58
+ },
+ {
+  "id": "e4ae0eda7d7c6ae3777f",
+  "date": "2017-11-20",
+  "speaker": "Dave Ramsden",
+  "v10": 50,
+  "combined": 48.04,
+  "sd": 3.37
+ },
+ {
+  "id": "e8df7167beecbdb1ae49",
+  "date": "2026-03-24",
+  "speaker": "Huw Pill",
+  "v10": 60,
+  "combined": 66.06,
+  "sd": 2.37
+ },
+ {
+  "id": "e9aa874f5933a8f19df2",
+  "date": "2020-04-23",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 0,
+  "combined": -3.78,
+  "sd": 1.81
+ },
+ {
+  "id": "eafe77768ef0e7e65bc2",
+  "date": "2023-01-09",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 83.45,
+  "sd": 3.28
+ },
+ {
+  "id": "ef647981811a9dd3987b",
+  "date": "2023-03-08",
+  "speaker": "Swati Dhingra",
+  "v10": 40,
+  "combined": 39.96,
+  "sd": 3.2
+ },
+ {
+  "id": "efdea12b3f85db21aa07",
+  "date": "2018-07-23",
+  "speaker": "Ben Broadbent",
+  "v10": 60,
+  "combined": 56.2,
+  "sd": 4.12
+ },
+ {
+  "id": "f13085811f2725b55b32",
+  "date": "2023-04-12",
+  "speaker": "Andrew Bailey",
+  "v10": 50,
+  "combined": 50.76,
+  "sd": 2.85
+ },
+ {
+  "id": "f182bbe2c6f3201cc15f",
+  "date": "2025-06-24",
+  "speaker": "Megan Greene",
+  "v10": 30,
+  "combined": 34.05,
+  "sd": 5.21
+ },
+ {
+  "id": "f36b13864ef01e3f99b3",
+  "date": "2026-09-24",
+  "speaker": "Clare Lombardelli",
+  "v10": 70,
+  "combined": 65.95,
+  "sd": 3.1
+ },
+ {
+  "id": "f42fedb8e2b8e1cad8b2",
+  "date": "2024-11-14",
+  "speaker": "Catherine L Mann",
+  "v10": 60,
+  "combined": 54.82,
+  "sd": 4.29
+ },
+ {
+  "id": "f625b77245bc47f47637",
+  "date": "2020-10-21",
+  "speaker": "Dave Ramsden",
+  "v10": 40,
+  "combined": 31.03,
+  "sd": 4.03
+ },
+ {
+  "id": "f7620766045ffb27c2cb",
+  "date": "2023-04-04",
+  "speaker": "Huw Pill",
+  "v10": 70,
+  "combined": 68.33,
+  "sd": 4.2
+ },
+ {
+  "id": "f8acafcd931ca5e4675f",
+  "date": "2025-09-30",
+  "speaker": "Sarah Breeden",
+  "v10": 40,
+  "combined": 37.86,
+  "sd": 3.51
+ },
+ {
+  "id": "fb8ef8dfdcc7cf190366",
+  "date": "2021-05-27",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 60,
+  "combined": 49.89,
+  "sd": 4.64
+ },
+ {
+  "id": "fd4b261b413160239762",
+  "date": "2020-05-28",
+  "speaker": "Michael Saunders",
+  "v10": 30,
+  "combined": 18.86,
+  "sd": 3.01
+ },
+ {
+  "id": "fe63510bff96b09796a6",
+  "date": "2018-10-10",
+  "speaker": "Andy Haldane",
+  "v10": 70,
+  "combined": 66.39,
+  "sd": 3.83
+ },
+ {
+  "id": "fe64a0f97f55ddf96321",
+  "date": "2018-09-25",
+  "speaker": "Gertjan Vlieghe",
+  "v10": 60,
+  "combined": 52.05,
+  "sd": 3.55
+ },
+ {
+  "id": "ff150a1ef6f7f84c3998",
+  "date": "2021-07-22",
+  "speaker": "Ben Broadbent",
+  "v10": 50,
+  "combined": 42.9,
+  "sd": 4.8
+ }
+]

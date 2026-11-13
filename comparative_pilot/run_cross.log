@@ -1,0 +1,10 @@
+  compare 50/120
+  compare 100/120
+Token use over 120 responses: input 234,843 (plain 234,843, cache reads 0, cache writes 0); output 41,398 (of which reasoning 35,311).
+{
+  "pairs": 120,
+  "decisive": 114,
+  "accuracy_of_separate_scores": 0.596,
+  "log_loss": 0.972,
+  "share_first_bank_more_hawkish": 0.693
+}
