@@ -45237,6 +45237,23 @@
     "speech_id": "37e06cbf732f",
     "status": "stored"
   },
+  "https://www.bostonfed.org/news-and-events/speeches/2026/observations-on-housing-market-challenges.aspx": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-13",
+      "pdf": null,
+      "source": "boston",
+      "speaker": "Susan M. Collins",
+      "title": "Observations on Housing Market Challenges",
+      "url": "https://www.bostonfed.org/news-and-events/speeches/2026/observations-on-housing-market-challenges.aspx"
+    },
+    "last_attempt": "2026-11-13T15:02:37.528800+00:00",
+    "reason": "speech extracted",
+    "source": "boston",
+    "speech_id": "2ed8cae67ac7",
+    "status": "stored"
+  },
   "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-economy-banking-landscape.aspx": {
     "attempts": 1,
     "collector_version": "v4",
@@ -57977,6 +57994,23 @@
     "reason": "speech extracted",
     "source": "dallas",
     "speech_id": "7bd89197164e",
+    "status": "stored"
+  },
+  "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-13",
+      "pdf": null,
+      "source": "dallas",
+      "speaker": "Logan",
+      "title": null,
+      "url": "https://www.dallasfed.org/news/speeches/logan/2026/lkl261113"
+    },
+    "last_attempt": "2026-11-13T15:02:56.603154+00:00",
+    "reason": "speech extracted",
+    "source": "dallas",
+    "speech_id": "8797af80a32b",
     "status": "stored"
   },
   "https://www.dallasfed.org/news/speeches/mcteer/1998/mcteer980919": {
@@ -90904,6 +90938,23 @@
     "source": "kansascity",
     "speech_id": "5ae00995f713",
     "status": "excluded"
+  },
+  "https://www.kansascityfed.org/speeches/housing-costs-challenges-and-opportunities/": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "kansascity",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.kansascityfed.org/speeches/housing-costs-challenges-and-opportunities/"
+    },
+    "last_attempt": "2026-11-13T15:02:54.104416+00:00",
+    "reason": "speech extracted",
+    "source": "kansascity",
+    "speech_id": "8089aeab3169",
+    "status": "stored"
   },
   "https://www.kansascityfed.org/speeches/hybrid-working-and-the-long-term-outlook-for-home-construction/": {
     "attempts": 1,
