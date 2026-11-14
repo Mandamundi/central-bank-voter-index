@@ -1,15 +1,15 @@
 {
   "bank": "boe",
-  "built_at": "2026-11-13T15:03:57.913279+00:00",
+  "built_at": "2026-11-14T13:55:44.221422+00:00",
   "historical_availability": "Official publication date when known; otherwise labelled delivery-date proxy. Not a vintage-perfect trading backtest.",
   "latest": {
     "active_voters": 9,
     "coverage": 1.0,
-    "date": "2026-11-13",
-    "disagreement": 8.919642729264698,
-    "index": 66.1650669183359,
-    "index_high": 77.91149779841238,
-    "index_low": 54.41863603825941,
+    "date": "2026-11-14",
+    "disagreement": 8.918099221836131,
+    "index": 66.1317315286799,
+    "index_high": 78.01351659242603,
+    "index_low": 54.249946464933764,
     "missing_members": "",
     "scored_voters": 9,
     "stale_members": "Sarah Breeden"

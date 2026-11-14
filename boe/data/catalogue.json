@@ -355,6 +355,14 @@
     {
       "date": null,
       "source": "BOE official speech sitemap",
+      "speaker": "Andrew Bailey",
+      "title": "Andrew Bailey: Speech at the Annual Institute of Economic Development Conference, London (to be published at 3pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london",
+      "year": 2026
+    },
+    {
+      "date": null,
+      "source": "BOE official speech sitemap",
       "speaker": "Ben Martin",
       "title": "Data and analytics transformation at the Bank of England to enable, equip and empower − speech by Ben Martin",
       "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
@@ -625,7 +633,7 @@
       "year": 2026
     }
   ],
-  "retrieved_at": "2026-11-13T15:03:53.978917+00:00",
-  "since": "2026-07-16",
+  "retrieved_at": "2026-11-14T13:55:39.847014+00:00",
+  "since": "2026-07-17",
   "source": "https://www.bankofengland.co.uk/sitemap/speeches"
 }

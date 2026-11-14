@@ -59,7 +59,7 @@
   "discovery_outcomes": {
     "duplicate": 166,
     "excluded": 585,
-    "scheduled": 2,
+    "scheduled": 3,
     "stored": 350
   },
   "exclusion_reasons": {

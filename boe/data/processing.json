@@ -16691,6 +16691,22 @@
     "speech_id": "743fe406c58a0df0cf28",
     "status": "stored"
   },
+  "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london": {
+    "attempts": 1,
+    "checked_at": "2026-11-14T13:55:40.078157+00:00",
+    "collector_version": "v3",
+    "entry": {
+      "date": null,
+      "source": "BOE official speech sitemap",
+      "speaker": "Andrew Bailey",
+      "title": "Andrew Bailey: Speech at the Annual Institute of Economic Development Conference, London (to be published at 3pm)",
+      "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london",
+      "year": 2026
+    },
+    "reason": "Prepared text scheduled for 2026-11-18",
+    "retry_after": "2026-11-18T00:00:00+00:00",
+    "status": "scheduled"
+  },
   "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026": {
     "attempts": 2,
     "checked_at": "2026-11-04T15:02:54.676217+00:00",
