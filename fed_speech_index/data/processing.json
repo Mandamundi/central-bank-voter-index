@@ -71355,6 +71355,23 @@
     "speech_id": "4990c5c00cde",
     "status": "stored"
   },
+  "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm"
+    },
+    "last_attempt": "2026-11-14T13:54:20.829322+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "97dfe252f41f",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/newsevents/speech/kohn20060316a.htm": {
     "attempts": 1,
     "collector_version": "v2",
