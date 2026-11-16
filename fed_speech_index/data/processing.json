@@ -92336,6 +92336,23 @@
     "speech_id": "ee1632026b71",
     "status": "excluded"
   },
+  "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "kansascity",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/"
+    },
+    "last_attempt": "2026-11-16T09:39:37.739704+00:00",
+    "reason": "metadata missing: date, speaker (date=None, speaker=None)",
+    "retry_after": "2026-11-17T09:39:37.739704+00:00",
+    "source": "kansascity",
+    "status": "metadata_failure"
+  },
   "https://www.kansascityfed.org/speeches/the-federal-reserve-and-monetary-policy/": {
     "attempts": 2,
     "collector_version": "v4",
