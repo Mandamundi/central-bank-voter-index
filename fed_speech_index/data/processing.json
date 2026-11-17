@@ -65132,6 +65132,23 @@
     "speech_id": "e2a0fb3c7899",
     "status": "stored"
   },
+  "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm"
+    },
+    "last_attempt": "2026-11-17T02:25:47.822525+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "7625e9aa107a",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/newsevents/speech/bernanke20060206a.htm": {
     "attempts": 1,
     "collector_version": "v2",
@@ -76321,6 +76338,23 @@
     "reason": "existing speech",
     "source": "board",
     "speech_id": "1191dde1871a",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
+    },
+    "last_attempt": "2026-11-17T02:25:46.830918+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "dadcddb004ac",
     "status": "stored"
   },
   "https://www.federalreserve.gov/newsevents/speech/yellen20101011a.htm": {
@@ -108084,6 +108118,23 @@
     "reason": "existing speech",
     "source": "ny",
     "speech_id": "7fcb7f2f3ae2",
+    "status": "stored"
+  },
+  "https://www.newyorkfed.org/newsevents/speeches/2026/nor261116": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-16",
+      "pdf": null,
+      "source": "ny",
+      "speaker": "Nordstrom",
+      "title": "Steady but Always Evolving: Reflections on Foreign Exchange Market Structure",
+      "url": "https://www.newyorkfed.org/newsevents/speeches/2026/nor261116"
+    },
+    "last_attempt": "2026-11-17T02:25:50.888331+00:00",
+    "reason": "speech extracted",
+    "source": "ny",
+    "speech_id": "55c668252ed5",
     "status": "stored"
   },
   "https://www.newyorkfed.org/newsevents/speeches/2026/ost261105": {
