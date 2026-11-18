@@ -53665,6 +53665,23 @@
     "speech_id": "c36cae31bb3c",
     "status": "stored"
   },
+  "https://www.clevelandfed.org/collections/speeches/sp-20261117-lessons-from-a-burning-river": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-17",
+      "pdf": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/collections/speeches/sp-20261117-lessons-from-a-burning-river.pdf",
+      "source": "cleveland",
+      "speaker": "Beth M. Hammack",
+      "title": "Lessons from a Burning River",
+      "url": "https://www.clevelandfed.org/collections/speeches/sp-20261117-lessons-from-a-burning-river"
+    },
+    "last_attempt": "2026-11-18T13:32:03.574227+00:00",
+    "reason": "speech extracted",
+    "source": "cleveland",
+    "speech_id": "5b63042772c0",
+    "status": "stored"
+  },
   "https://www.dallasfed.org/news/speeches/fisher/2005/fs040609.aspx": {
     "attempts": 2,
     "collector_version": "v3.3",
@@ -76167,6 +76184,23 @@
     "reason": "speech extracted",
     "source": "board",
     "speech_id": "3df92926cf7f",
+    "status": "stored"
+  },
+  "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+    },
+    "last_attempt": "2026-11-18T13:31:52.798995+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "f3a7a0153bea",
     "status": "stored"
   },
   "https://www.federalreserve.gov/newsevents/speech/warsh20060718a.htm": {
@@ -112249,6 +112283,23 @@
     "reason": "existing speech",
     "source": "stlouis",
     "speech_id": "c2627664f2a7",
+    "status": "stored"
+  },
+  "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-argentina": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-17",
+      "pdf": null,
+      "source": "stlouis",
+      "speaker": null,
+      "title": "Remarks on the U.S. Economy and Monetary Policy",
+      "url": "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-argentina"
+    },
+    "last_attempt": "2026-11-18T13:32:15.593007+00:00",
+    "reason": "speech extracted",
+    "source": "stlouis",
+    "speech_id": "15cf2cc699f2",
     "status": "stored"
   },
   "https://www.stlouisfed.org/from-the-president/remarks/2026/remarks-on-us-economy-and-monetary-policy-somc": {
