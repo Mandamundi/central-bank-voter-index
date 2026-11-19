@@ -65166,6 +65166,23 @@
     "speech_id": "7625e9aa107a",
     "status": "stored"
   },
+  "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm"
+    },
+    "last_attempt": "2026-11-19T03:46:51.883061+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "0526bedca922",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/newsevents/speech/bernanke20060206a.htm": {
     "attempts": 1,
     "collector_version": "v2",
@@ -101601,6 +101618,22 @@
       "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-at-the-aspen-ideas-festival-2026"
     },
     "last_attempt": "2026-10-13T07:05:23.325458+00:00",
+    "reason": "not a speech (video event without prepared text)",
+    "source": "minneapolis",
+    "status": "excluded"
+  },
+  "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-at-the-finreglab-ai-symposium": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "minneapolis",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.minneapolisfed.org/speeches/2026/neel-kashkari-at-the-finreglab-ai-symposium"
+    },
+    "last_attempt": "2026-11-19T03:47:12.563523+00:00",
     "reason": "not a speech (video event without prepared text)",
     "source": "minneapolis",
     "status": "excluded"
