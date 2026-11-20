@@ -71423,6 +71423,23 @@
     "speech_id": "97dfe252f41f",
     "status": "stored"
   },
+  "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": null,
+      "pdf": null,
+      "source": "board",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
+    },
+    "last_attempt": "2026-11-20T02:59:46.411025+00:00",
+    "reason": "speech extracted",
+    "source": "board",
+    "speech_id": "a2b9a2056250",
+    "status": "stored"
+  },
   "https://www.federalreserve.gov/newsevents/speech/kohn20060316a.htm": {
     "attempts": 1,
     "collector_version": "v2",
@@ -92422,7 +92439,7 @@
     "status": "excluded"
   },
   "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/": {
-    "attempts": 2,
+    "attempts": 3,
     "collector_version": "v4",
     "entry": {
       "date": null,
@@ -92432,9 +92449,9 @@
       "title": null,
       "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/"
     },
-    "last_attempt": "2026-11-17T10:31:51.385503+00:00",
+    "last_attempt": "2026-11-20T03:00:08.500076+00:00",
     "reason": "metadata missing: date, speaker (date=None, speaker=None)",
-    "retry_after": "2026-11-19T10:31:51.385503+00:00",
+    "retry_after": "2026-11-24T03:00:08.500076+00:00",
     "source": "kansascity",
     "status": "metadata_failure"
   },
@@ -108983,6 +109000,23 @@
     "reason": "speech extracted",
     "source": "philadelphia",
     "speech_id": "fa21c5325723",
+    "status": "stored"
+  },
+  "https://www.philadelphiafed.org/the-economy/monetary-policy/261119-money-marketeers-speech": {
+    "attempts": 1,
+    "collector_version": "v4",
+    "entry": {
+      "date": "2026-11-19",
+      "pdf": null,
+      "source": "philadelphia",
+      "speaker": null,
+      "title": null,
+      "url": "https://www.philadelphiafed.org/the-economy/monetary-policy/261119-money-marketeers-speech"
+    },
+    "last_attempt": "2026-11-20T02:59:52.444437+00:00",
+    "reason": "speech extracted",
+    "source": "philadelphia",
+    "speech_id": "8301150a772b",
     "status": "stored"
   },
   "https://www.richmondfed.org/press_room/speeches/anna_kovner/2026/kovner_speech_20260506": {
